@@ -8,4 +8,6 @@ I hope someone here know this IDE: it will help a lot!
 
 For now I have something like 4,70 x 10E 1631 different texts/poems.
 I would love to share this 'creation' in the Internet.
+
+At the moment i'm working with kivyMD to build my app.
 Like it? Contact me for more details.
