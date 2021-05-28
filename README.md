@@ -1,13 +1,21 @@
 # The_Endless_Book
 
-Hi... my name is Fernando and I'm from Brazil.
-My project is called "Livro-Vivo"... something like "Alive-Book".
-It creates randomic texts and poems, is ready & working but...
-in a different IDE - called Xailer - wich means it only runs in local machines.
-I hope someone here know this IDE: it will help a lot!
+Hi... my name is Nando Lopes
 
-For now I have something like 4,70 x 10E 1631 different texts/poems.
-I would love to share this 'creation' in the Internet.
+I'm a young old-man (69 yo) from Brazil.
 
-At the moment i'm working with kivyMD to build my app.
+I have developed a software that ramdomly gathers  
+words and phrases and the result of such thing : a poetry is born.
+
+It is coded in Python/StreamLit.
+Since I am a " very beginner" in these languages,
+I know that my code may look like a "Frankenstein".
+
+Actually it runs in 6 different idioms (pt, es, it, fr, en, de)
+for the generated text (by Google-Translator).
+
+I'm looking for someone that could help me to revise the project.
+
+I wonder if there is a good Godsended angel interested in such a job...
+
 Like it? Contact me for more details.
