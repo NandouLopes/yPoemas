@@ -4,7 +4,7 @@ Hi... my name is Nando Lopes
 
 I'm a young old-man (69 yo) from Brazil.
 
-I have developed a software that ramdomly gathers  
+yPoemas is an App that ramdomly gathers  
 words and phrases and the result of such thing : a poetry is born.
 
 It is coded in Python/StreamLit.  
