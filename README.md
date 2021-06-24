@@ -5,7 +5,7 @@ Hi... my name is Nando Lopes
 I'm a young old-man (69 yo) from Brazil.
 
 yPoemas is an App that ramdomly gathers  
-words and phrases and the result of such thing : a poetry is born.
+words and phrases and the result of such thing : a poem is born.
 
 It is coded in Python/StreamLit.  
 Since I am a " very beginner" in these languages,  
