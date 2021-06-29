@@ -1,0 +1,32 @@
+modo de usar
+___
+
+**no topo da página há um botão para cada idioma: pt, es, it, fr, en, de, ca**
+> - Clique no botão para gerar um poema no idioma selecionado.
+> - Ao mudar de idioma, será mostrada a tradução do texto que está na tela.
+> - Um novo clic no mesmo idioma irá gerar um novo yPoema para o tema.
+
+**ao lado dos idiomas estão os botões de navegação**
+> - ◀ = move para o tema anterior
+> - ❇ = escolhe um tema aleatoriamente
+> - ▶ = move para o próximo tema
+
+**e os botões**
+> -  ‼  = mostra a quantidade de variações possíveis para o tema  
+> -  ?  = Manual do Usuário
+___
+
+**dentro do box de textos**
+
+- A linha **pt ( nome_do_livro ) ( 13/48 )** mostra informações sobre o tema
+> - pt = idioma atual
+> - ( nome_do_livro ) = livro selecionado
+> - 13  = posição do tema dentro do livro
+> - 48  = total de temas deste livro
+
+**barra de temas**
+> - Clique para ver a lista completa ou selecionar um tema.
+___
+- você pode usar **ctrl+C** e **ctrl+V** para **copiar** o texto da tela.
+- para mudar de **livro** use a opção **books** do **menu**.
+___
