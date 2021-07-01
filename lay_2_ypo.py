@@ -299,7 +299,7 @@ def get_numbers(nome_tema):
     numbers = []
 
     lista = []
-    with open(os.path.join("./data/index.num"), "r") as file:
+    with open(os.path.join("./data/index.txt"), "r") as file:
         for line in file:
             lista.append(line)
         file.close()
@@ -316,7 +316,7 @@ def load_cidade_fato():
     :return: alguma cidade do arquivo fatos_cidades.txt
     """
     cidades = []
-    with open(os.path.join("./data/Fatos_Cidades.Txt"), "r") as file:
+    with open(os.path.join("./data/fatos_cidades.txt"), "r") as file:
         for line in file:
             cidades.append(line)
         file.close()

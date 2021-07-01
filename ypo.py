@@ -1,14 +1,17 @@
 """
 
-an App that randomly gathers words and phrases
-from specific databases and organize them
-into thousands of new poems or poetic texts.
+yPoems is an app that randomly collects words and phrases
+from specific databases and organizes them
+in thousands of new poems or poetic texts.
+
+It's a slightly different project from the data science
+and ML works I see on the web.
+
+I believe it can be a good example of Streamlit's possibilities.
 
 LYPO == Last YPOema created from curr_ypoema
 TYPO == Translated Ypoema from LYPO
 user_IP == the owner of LYPO and TYPO
-
-[todo] -  criar (def is_online) antes do Translator
 
 """
 
@@ -23,22 +26,15 @@ from lay_2_ypo import gera_poema
 # Translators
 from deep_translator import GoogleTranslator
 
+# TagCloud
+from wordcloud import WordCloud
+import matplotlib as mtl
+import matplotlib.pyplot as plt
+
 # user_IP: to create LYPO and TYPO for each hostname
 import socket
-
 hostname = socket.gethostname()
 user_IP = socket.gethostbyname(hostname)
-
-# ⚛	:atom_symbol:
-# ✔ :check_mark:
-# Ⓜ	 :circled_M:
-# ☄ :comet:
-# ‼	 :double_exclamation_mark
-# ⚙	 :gear:
-# ♾	 :infinity:
-# ❇  :sparkle:
-# ☀ :sun:
-# ¿  : spanish question
 
 st.set_page_config(
     page_title = 'yPoemas - a "machina" de fazer Poesia',
@@ -46,26 +42,43 @@ st.set_page_config(
     layout = "centered",
     initial_sidebar_state = "auto")
 
+
 # hide Streamlit Menu
 st.markdown(""" <style>
 MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 </style> """, unsafe_allow_html = True)
 
+
 # change padding between components
 padding = 0  # all set to zero
 st.markdown(
     f""" <style>
     .reportview-container .main .block-container{{
-        padding-top: {1.8}rem;
-        padding-right: {.2}rem;
-        padding-left: {.2}rem;
-        padding-bottom: {.2}rem;
+        padding-top: {.5}rem;
+        padding-right: {.5}rem;
+        padding-left: {.5}rem;
+        padding-bottom: {.5}rem;
     }} </style> """, unsafe_allow_html = True)
+
 
 # Initialize SessionState
 session_state = SessionState.get(
     take = 0, book = "livro vivo", lang = "pt")
+
+
+def main():
+    pages = {
+        "yPoemas": page_home,
+        "books": page_books,
+        "about": page_abouts,
+        "license": page_license,}
+        
+    page = st.sidebar.radio("", tuple(pages.keys()))
+    pages[page]()
+    st.sidebar.info(load_file("PROJETO.md"))
+    st.sidebar.state = True
+
 
 # bof: loaders
 @st.cache(allow_output_mutation = True)
@@ -77,7 +90,7 @@ def load_file(file):  # Open files for about's
         with open(os.path.join("./data/" + file), encoding = "utf8") as f:
             file_text = f.read()
 
-    if (file not in "THEMES.md_INDEX.md"):# >5000 chars not alowed in translator
+    if (file not in "THEMES.md_index.md"):  # >5000 chars not alowed in translator
         if not ".rol" in file:  # and...don't want to translate original titles.
             file_text = translate(file_text)
 
@@ -97,7 +110,7 @@ def load_tems(book):  # List of yPoemas' themes inside a Book
 @st.cache(allow_output_mutation = True)
 def load_index():  # Load indexes for all themes
     index_list = []
-    with open(os.path.join("./data/index.num"), encoding = "utf-8") as lista:
+    with open(os.path.join("./data/index.txt"), encoding = "utf-8") as lista:
         for line in lista:
             index_list.append(line)
     return index_list
@@ -139,7 +152,7 @@ def load_poema():  # generate new yPoema & save a copy of last generated in LYPO
     lypo_user = "LYPO_" + user_IP
 
     with open(os.path.join("./temp/" + lypo_user), "w", encoding = "utf-8") as save_lypo:
-        # save_lypo.write(nome_tema + '\n')  ## title of yPoema in first line
+        # save_lypo.write(nome_tema + '\n')  ## include title of yPoema in first line
         for line in script:
             if line == "\n":
                 save_lypo.write("\n")
@@ -168,7 +181,7 @@ def last_next(updn):  # handle last, random and next theme
     return session_state.take
 
 
-def say_numbers(index):  # search index title in index.num
+def say_numbers(index):  # search index title in index.txt
     indexes = load_index()
     analise = "nonono ..."
     this = temas_list[index].strip()
@@ -188,23 +201,38 @@ def translate(input_text):
             "oops... Google Translator não está repondendo... Offline?"
         ) from exc
     return output_text
+    
+def tag_cloud():
+    if session_state.lang == "pt":
+        curr_ypoema = load_lypo()
+    else:
+        curr_ypoema = load_typo()
+
+    text = ""
+    word = ""
+    for pals in curr_ypoema:
+        if pals == ' ':
+            word = word.replace("<br>", " ")
+            if len(word) > 2:
+                text += word + " "
+            word = ""
+        else:
+            word += pals
+            
+    wordcloud = WordCloud(collocations=False, background_color='white').generate(text)
+    st.set_option('deprecation.showPyplotGlobalUse', False)
+    plt.imshow(wordcloud, interpolation='bilinear')
+    plt.axis("off")
+    plt.margins(x=0, y=0)
+    
+    tags_expander = st.beta_expander("", True)
+    with tags_expander:
+        plt.show()
+        st.pyplot()
 # eof: functions
 
 
 # bof: pages
-def main():
-    pages = {
-        "yPoemas": page_home,
-        "books": page_books,
-        "about": page_abouts,
-        "license": page_license,}
-        
-    page = st.sidebar.radio("", tuple(pages.keys()))
-    pages[page]()
-    st.sidebar.info(load_file("PROJETO.md"))
-    st.sidebar.state = True
-
-
 def page_books():  # available books
     st.write("")
     st.sidebar.image('./img_books.jpg')
@@ -247,6 +275,7 @@ def page_abouts():
             "machina",
             "bibliografia",
             "traduttore",
+            "index",
             "outros",
         ]
         this = about_expander.radio("", abouts_list)
@@ -271,7 +300,7 @@ temas_list = load_tems(session_state.book)
 def page_home():
     st.sidebar.image('./img_home.jpg')
     i1, i2, i3, i4, i5, i6, i7, last, rand, nest, numb, manu = st.beta_columns(
-        [.9, .9, .85, .85, .9, .9, 1.4, .9, 1, 1.3, 0.9, 0.8]  # what a mess...
+        [.9, .9, .85, .85, .9, .9, 1.4, .9, 1, 1.4, 0.9, 0.9]  # what a mess...
     )
     i1 = i1.button("pt", help = "Português")
     i2 = i2.button("es", help = "Español")
@@ -344,7 +373,7 @@ def page_home():
     if nest:
         last_next(">")
 
-    numb = numb.button("‼", help = say_numbers(session_state.take))
+    numb = numb.button("☁", help = say_numbers(session_state.take))
     manu = manu.button("?", help = "help !!!")
     
     lnew = True
@@ -353,7 +382,7 @@ def page_home():
         lnew = False
 
     if numb:
-        st.subheader(load_file("INDEX.md"))
+        tag_cloud()
         lnew = False
 
     if lnew:
