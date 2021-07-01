@@ -21,6 +21,9 @@ ___
 > (*) - Tabacaria, O guardador de rebanhos e Poema em linha reta
 > - Pessoa
 ___
+- Gerd Altmann [link](https://pixabay.com/users/geralt-9301/)
+> - Imagens e ilustrações do menu principal
+___
 - Roman Roskowinski [link](https://rcrenglish.wordpress.com/)
 > - Jealousy: tradução do tema "ciúmes" para o inglês
 > - HayKay: tradução do tema "haikai" para o inglês
