@@ -77,7 +77,7 @@ def main():
     page = st.sidebar.radio("", tuple(pages.keys()))
     pages[page]()
     st.sidebar.info(load_file("PROJETO.md"))
-    st.sidebar.image('./coffee.jpg')
+    st.sidebar.image('./img_coffee.jpg')
     st.sidebar.info(load_file("COFFEE.md"))
     st.sidebar.state = True
 
