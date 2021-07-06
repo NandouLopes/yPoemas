@@ -3,7 +3,7 @@ import random
 import datetime
 from random import randrange
 
-def gera_poema(nome_tema):  # abrir um script.ipo e gerar um novo texto
+def gera_poema(nome_tema):  # abrir um script.ypo e gerar um novo texto
     """
     :param = script, tema
          numero_linea = '01'  # linha
@@ -16,7 +16,7 @@ def gera_poema(nome_tema):  # abrir um script.ipo e gerar um novo texto
     return: novo_poema
 
     ToDo:
-       - UpDate_Numbers() = ler *.ipo da pasta e verbetes.append(cada_verbete_novo) = done in cata_pala()
+       - UpDate_Numbers() = ler *.ypo da pasta e verbetes.append(cada_verbete_novo) = done in cata_pala()
        - usar temas.rol - criar Livro_Vivo
        - get and hilight semente in zero.py
        - dialeto em ciuminho
@@ -215,8 +215,11 @@ def gera_poema(nome_tema):  # abrir um script.ipo e gerar um novo texto
         print(lista_errata)
     else:
         # reconstrói o script com novas posições
-        novo_script = os.path.join("./data/", nome_tema + ".ipo")
-        with open(novo_script, "w") as file:
+        
+        # rebuild = nome_tema + ".ypo"
+        # with open(os.path.join("./data/" + rebuild), "w", encoding = "utf-8") as save_lypo:
+        
+        with open(os.path.join("./data/" + nome_tema + ".ypo"), "w", encoding = "utf-8") as file:
             for linha in lista_header:
                 file.write(linha)
         
@@ -415,10 +418,10 @@ def abre(nome_do_tema):
     :param nome_do_tema
     :return: lista do arquivo
     """
-
-    full_name = os.path.join("./data/", nome_do_tema) + ".ipo"
+    
+    full_name = os.path.join("./data/", nome_do_tema) + ".ypo"
     lista = []
-    with open(full_name, encoding="ansi") as file:
+    with open(full_name, encoding="utf-8") as file:
         for line in file:
             lista.append(line)
         file.close()
