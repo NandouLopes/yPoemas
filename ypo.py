@@ -122,8 +122,8 @@ def load_file(file):  # Open files for about's
 def load_tems(book):  # List of yPoemas' themes inside a Book
     temas_list = []
     full_name = os.path.join("./data/", book) + ".rol"
-    with io.open(full_name, encoding="ansi") as file:
-    # with open(full_name, encoding = "ansi") as file:
+    # with io.open(full_name, encoding="ansi") as file:
+    with open(full_name, encoding = "utf-8") as file:
         for line in file:
             temas_list.append(line)
     return temas_list
