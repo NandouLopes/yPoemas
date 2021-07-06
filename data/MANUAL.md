@@ -14,7 +14,10 @@ ___
 **e os botões**
 > - ☁  = mostra a quantidade de variações possíveis para o tema  
 >> - (clique para ver uma nuvem de palavras)  
-> -  ?  = Manual do Usuário
+>> - (a cada clique uma nova nuvem será gerada)  
+>> - (use o botão direito do mouse para salvar a imagem)  
+
+> - ?  = Manual do Usuário
 ___
 
 **dentro do box de textos**

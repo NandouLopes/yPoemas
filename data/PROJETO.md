@@ -5,5 +5,5 @@ temas e palavras. Elogios e críticas
 (porque não?) também serão bem-vindos.
 Compartilhe, divulgue, participe.  
 
-Criação: [Nando Lopes]
+Contato: [Nando Lopes]
 (mailto:lopes.fernando@hotmail.com.br)

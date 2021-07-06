@@ -1,0 +1,36 @@
+*-
+*- Brado.ipo
+*-
+*- |Desemparelhar |01|02| de |02|03|
+*-
+*- |estro = entusiasmo artístico, riqueza de criação, gênio criador|
+*- |verve = entusiasmo e inspiração que animam a criação e o desempenho do artista, do orador, do poeta|
+*-
+*- |01|02|Brado_0102|T|44|11|meras incógnitas|simples incógnitas|reles incógnitas|apenas incógnitas|meras marionetes|simples marionetes|reles marionetes|apenas marionetes|meras fagulhas|simples fagulhas|reles fagulhas|apenas fagulhas|meras cobaias|simples cobaias|reles cobaias|apenas cobaias|meras migalhas|simples migalhas|reles migalhas|apenas migalhas|meros párias|simples párias|reles párias|apenas párias|meras ovelhas|simples ovelhas|reles ovelhas|apenas ovelhas|meras falhas|simples falhas|reles falhas|apenas falhas|meros farrapos|reles farrapos|apenas farrapos|simples farrapos|meras bolhas|reles bolhas|apenas bolhas|simples bolhas|meros placebos|reles placebos|apenas placebos|simples placebos|
+*- |01|02|meras|simples|reles|apenas| && mudar masculino para |04|02| because |02|01| == de uma
+*-
+*- |04|02|Brado_0402|F|42|22|meros filhos|bravos joguetes|ó caolhos|simples frutos|caros fantoches|papagaios|bravos joguetes|simples filhos|ó espertos|meros fantoches|reles frutos|ó sábios|simples fantoches|reles filhos|ó astutos|caros joguetes|ó ímpares|cabisbaixos|meros frutos|ó fedelhos|reles fantoches|apenas joguetes|bravos frutos|ó pulhas|brava gente|caros frutos|reles joguetes|ó parvos|bravos fantoches|caros filhos|ó humanos|meros joguetes|apenas fantoches|bravos filhos|apenas frutos|simples joguetes|explorados|ó heróis|calhordas|apaziguados|caros raros|ó valentes|
+*- |04|02|meros|bravos|simples|caros|reles|apenas| == manter apenas |bravos|caros| e |ó ???|
+*-
+|01|01|Brado_0101|F|5|5|Seríamos nós|Seremos todos|Será que somos|Seríamos todos|Seremos nós|
+|01|02|Brado_0102|F|4|3|meras|simples|reles|apenas|
+|01|03|Brado_0103|T|8|5|incógnitas|marionetes|fagulhas|cobaias|migalhas|ovelhas|falhas|bolhas|
+|02|01|Brado_0201|F|1|1|de uma|
+|02|02|Brado_0202|F|14|2|equação|pergunta|liberdade|ilusão|dúvida|política|cantilena|fantasia|mentira|vidinha|falácia|sentença|labuta|ladainha|
+|02|03|Brado_0203|T|26|23|falsa|rala|tonta|oca|idiota|torta|inútil|farta|caduca|injusta|vã|etérea|estúpida|passada|mixa|perdida|rota|infame|mutante|maltrapilha|erma|insana|torpe|vaga|mambembe|maluca|
+|03|01|Brado_0301|F|18|6|que não se sustenta|que não nos apraz|sem eira nem beira|que não se aprova|que não se desfaz|sem solução aparente|que não fica em pé|que não traz respostas|afogada em erros|sem pé nem cabeça|que não se acredita|que nunca se cala|que não sabe vingar|já de berço implausível|que não nos retrata|em sua própria mesmice|que não produz efeitos|que paira no tempo|
+|03|02|Brado_0302|F|1|1|?|
+|04|00|
+|04|01|Brado_0401|F|8|3|Quando,|Haverá,|Onde,|Demora,|Cadê,|Existe,|Virá,|Veremos,|
+|04|02|Brado_0402|F|10|3|bravos|ó|caros|espertos|sábios|astutos|ímpares|cabisbaixos|raros|valentes|
+|04|03|Brado_0403|F|16|16|filhos|párias|farrapos|placebos|joguetes|pulhas|caolhos|parvos|humanos|fedelhos|frutos|fantoches|papagaios|explorados|heróis|calhordas|
+|04|04|Brado_0404|F|1|1|,|
+|05|01|Brado_0501|T|36|12|o sonho|a luta|o apetite|a utopia|o estro|a batalha|o levante|a verve|o faro|a hora exata|um olhar|a vontade|o tesão|a fúria|o sabor|a audácia|o berro|a empáfia|a loucura|a ira|o elo|a garra|uma nesga|a magia|uma ilha|um fiapo|a gana|o brio|a astúcia|o brado|a rota|o orgulho|a lenda|o grito|a centelha|o paraíso|
+|05|02|Brado_0502|T|25|8|de querer mais que mais|de dizer: agora não|de ser livre em vida|de fincar rebeldias|de não ser pequeno|de saber qual caminho|por algo que valha|de fazer só o certo|por algo mais justo|de fazer um caminho|de perder alguns medos|de deixar suas pegadas|de futuros possíveis|de mudar falsos fatos|de rasgar poucos verbos|de virar umas mesas|do tal povo unido|de negar sempre o nunca|de fazer do velho o novo|de criar o impossível|de desvendar a farsa|de descontentar o pouco|de folhear o amanhã|de sumir com correntes|de fazer o que é preciso|
+|05|03|Brado_0503|F|1|1|?|
+<EOF>
+CATAPALA = 22
+VERBETES = 220
+PALAVRAS = 349
+VARIATIO = 1.207.664.640.000                                                               
+Build_By_Lay_2_Ipo em 02/02/2021_11:24
