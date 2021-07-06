@@ -1,0 +1,61 @@
+*-
+*- Definir e Manter Padrão... Pensar em 4_7_10 = o rítmo é melhor|
+*- Joker.ipo
+*-
+*- HLX5U-SER01-11922-22843-68124 = KeyWord_Serif
+*-
+*- com |01|03| == 779
+*-
+*- NEWS = abolir|brandir|auferir|trair|incluir|eximir|existir|ferir|imbuir|piscar|atingir|cumprir|sorrir|subir|ungir|
+*- NEWS = Sem Métrica = e admiti|e preferi|num bilhete|coloquei|e fui|e sorri a|e fugi|Esqueci|Escondi|elixir|na latrina|
+*- NEWS = embutir|em degredo|
+*- NONO = na ferida|noutra vibe|no papo|afluente|efluente|Pedi|no shopping|
+*- NONO = ... espargi|... preferi|... escolhi|evolui: |e assumi|
+*- CINE = Cedo = advérbio = antes do tempo ou da ocasião própria, combinada
+*- CINE = Ceder = verbo = abrir mão de; desistir, renunciar
+*-
+*- Future Helps...
+*- Escandir = medir (versos) contando as sílabas longas e breves; dar destaque às sílabas ao pronunciá-las
+*- Eludir = evitar (algo) de modo astucioso, com destreza ou com artifício
+*- Haurir = retirar (algo) de dentro de onde estava, pondo-o para fora; extrair, colher; consumir (algo) inteiramente; esgotar, esvaziar, beber; tornar-se pleno de, recolher em si
+*- Jungir = promover a junção de; juntar, unir, ligar = Last Search em IR
+*- Sortir = colocar junto (coisas diversas); misturar, combinar, mesclar
+*- Urdir = enredar, maquinar, criar (algo) na imaginação; fantasiar
+*- Urgir = reclamar como necessário; exigir
+*- Enxerir = enfiar, plantar (algo) bem fundo; enterrar, cravar; inserir, intercalar
+*- Marrar = encontrar-se de frente com algo; deparar, defrontar, teimar obstinadamente
+*- Fluir = percorrer distâncias (no espaço ou no tempo) com rapidez; correr, circular
+*- Fruir = desfrutar, gozar, utilizar (vantagens, benefícios etc.)
+*- Fado = destino, sorte, estrela; o que necessariamente tem de ser; vaticínio, decreto do destino
+*- Toa = cabo com que uma embarcação reboca outra
+*-
+*- |01|02| e |03|03| = |a|da|na|de|o|do|no|de|do|da| == 4 silabas
+*- |02|02| = Sempre no plural
+*- |01|01| - Verbos em ER ou IR
+*- |02|01| - Verbos em AR == 7 silabas
+*- |03|01| - Verbos em IR ou ER
+*- |03|02|JOK_0302|F|8|7|ser fantasma|ser curinga| == 9 silabas
+*-
+*- |medos|dados|dedos|idos|lados| == SubIdeias =
+*- |uns|o|dois|
+*-
+|01|01|Joker_0101|T|32|25|Bebi|Reli|Cerzi|Perdi|Cobri|Pari|Carpi|Medi|Servi|Cuspi|Abri|Sorti|Despi|Tingi|Flori|Rugi|Fundi|Jungi|Nutri|Fluí|Sorvi|Tangi|Vesti|Ungi|Luzi|Muni|Poli|Senti|Supri|Urgi|Incuti|Erigi|
+|01|02|Joker_0102|F|9|8|a prosa|o resto|paisagens|o rosto|amores|o gesto|ideias|o vasto|os fardos|
+|01|03|Joker_0103|F|5|5|com gosto|brincando|amiúde|pra sempre|à toa|
+|01|04|Joker_0104|F|1|1|,|
+|02|01|Joker_0201|F|21|19|troquei|joguei|toquei|narrei|piquei|lancei|mirei|tranquei|guardei|sentei|rasguei|calcei|gastei|cacei|marrei|tracei|plantei|risquei|mudei|soquei|deitei|
+|02|02|Joker_0202|F|12|7|uns medos|dois dados|recados|uns dados|dois medos|os fardos|segredos|os credos|agrados|os brados|os fados|grunhidos|
+|02|03|Joker_0203|F|17|13|na cara|no parque|ilhados|na fala|do peito|na praça|alados|sem fala|no peito|sem jeito|na fila|e pecados|no laço|no passo|privados|idiotas|da fala|
+|03|01|Joker_0201|T|21|8|troquei|joguei|toquei|narrei|piquei|lancei|mirei|tranquei|guardei|sentei|rasguei|calcei|gastei|cacei|marrei|tracei|plantei|risquei|mudei|soquei|deitei|
+|03|02|Joker_0202|T|12|2|uns medos|dois dados|recados|uns dados|dois medos|os fardos|segredos|os credos|agrados|os brados|os fados|grunhidos|
+|03|03|Joker_0203|T|17|8|na cara|no parque|ilhados|na fala|do peito|na praça|alados|sem fala|no peito|sem jeito|na fila|e pecados|no laço|no passo|privados|idiotas|da fala|
+|04|01|Joker_0401|T|23|19|e parti|e sumi|e menti|e aludi|e corri|e fulgi|e anuí|e curti|e exibi|e fingi|e saí|e iludi|e aturdi|e entrevi|e fruí|e intuí|e exigi|e eludi|e enxeri|e fluí|e segui|e urdi|e colhi|
+|04|02|Joker_0402|F|10|6|ser assim,|ser mais eu|, curinga,|ser alguém|ser mais um|, já fantasma,|ser feliz|ser ninguém,|saciado|, banido|
+|04|03|Joker_0403|F|16|14|pela vida|por esquinas|em Paris|ao acaso|em retrato|por escrito|em Berlim|sem querer mais nada|no quieto|em meu canto|no secreto|por brinquedo|sem querer futuro|só... quieto|sem nem rito|por magia|
+|04|04|Joker_0404|F|1|1|.|
+<EOF>
+CATAPALA = 21
+VERBETES = 159
+PALAVRAS = 302
+VARIATIO = 64.623.063.859.200                                                              
+Build_By_Lay_2_Ipo em 02/02/2021_11:25

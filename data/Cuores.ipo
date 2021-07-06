@@ -1,0 +1,31 @@
+*-
+*- Cuores.ipo
+*-
+*- Manter |02|01|CUO_0201| e |03|01|CUO_0301| despareados...
+*-
+*- |05|02|CUO_0502|F|43|37|desavisados|solitários|perdidos|desconcertados|encruzilhados|a sós|exilados|vacantes|espezinhados|saltimbancos|enlevados|andarilhos|desencontrados|aflitos|alados|tolhidos|desfalcados|maltrapilhos|desamados|desalinhados|transeuntes|enganados|sofrentes|parados|ambulantes|descuidados|entretidos|emboscados|itinerantes|calcificados|atingidos|destelhados|vencidos|cansados|em trevas|vadios|rebeldes|entediados|ilhados|pingentes|anônimos|descasados|na tipóia|
+*- |06|01|CUO_0601|F|21|19|pela ávida vida|de tão mal batidos|sem saber soprar|aprendendo acasos|sem nem ter dono|... aves da vida|em labirinto|n'alguma tristeza|nunca sofridos|quase vagabundos|que catam saídas|... batendo amenos|... os sem poder gostar|ainda não queridos|... os que não amam mais|sem amor verdadeiro|em sinuca|seminus|fazendo fila|em taquicardia|sem nenhuma saída|
+*- safenados|infartantes|vez|muita|muito|
+*- alados|em espinhos|famintos|em cilada|acaricie|
+*- REVER: porquê não|
+*-
+|01|01|Cuores_0101|F|1|1|...|
+|01|02|Cuores_0102|F|14|3|porquê não|que também seja dia de|talvez vez por outra|o momento certo de|a hora esperada é de|acasalando|que venha de sonhos|dia virá em que veremos|é hoje o dia de|soubesse eu de|sei que haverá|e ver surgir, do nada,|e do nada sugerir|quase cochichando|
+|02|01|Cuores_0201|F|3|2|alguma|qualquer|apenas|
+|02|02|Cuores_0202|F|12|2|alegria|delícia|empatia|brandura|harmonia|paz|carícia|ternura|simpatia|cantiga|luz|magia|
+|02|03|Cuores_0203|F|1|1|...|
+|03|01|Cuores_0301|F|3|1|e algum|qualquer|e apenas um|
+|03|02|Cuores_0302|F|8|6|deleite|afeto|carinho|toque|cafuné|novo amor|afago|atalho|
+|04|01|Cuores_0401|F|1|1|que|
+|04|02|Cuores_0402|T|15|10|escancare|chacoalhe|atravesse|ilumine|dispare|envolva|desperte|acalente|vasculhe|revolva|abrace|acelere|faça bater|enterneça|toque|
+|05|01|Cuores_0501|F|5|2|os corações|corações|só os corações|aqueles corações|todos os corações|
+|05|02|Cuores_0502|T|46|35|desavisados|solitários|desconcertados|encruzilhados|desencontrados|a sós|exilados|vacantes|espezinhados|saltimbancos|enlevados|perdidos|andarilhos|aflitos|alados|tolhidos|desfalcados|maltrapilhos|desamados|desalinhados|transeuntes|enganados|sofrentes|parados|ambulantes|descuidados|entretidos|emboscados|itinerantes|calcificados|atingidos|destelhados|vencidos|cansados|em trevas|vadios|rebeldes|entediados|ilhados|pingentes|anônimos|descasados|na tipóia|em labirinto|em sinuca|seminus|
+|05|03|Cuores_0503|F|1|1|,|
+|06|01|Cuores_0601|F|31|15|ávidos por vida|tão mal batidos|sem saber soprar|aprendendo acasos|sem nem ter dono|aves da vida|em labirinto|n'alguma tristeza|nunca sofridos|quase vagabundos|catando saídas|batendo amenos|sem poder gostar|ainda não queridos|que nem amam mais|sem amor verdadeiro|fazendo fila|em taquicardia|sem achar saída|perdidos|andarilhos|aflitos|tolhidos|maltrapilhos|transeuntes|entretidos|atingidos|vencidos|vadios|na tipóia|em sinuca|
+|06|02|Cuores_0602|F|1|1|...|
+<EOF>
+CATAPALA = 18
+VERBETES = 154
+PALAVRAS = 226
+VARIATIO = 1.293.667.200                                                                   
+Build_By_Lay_2_Ipo em 18/01/2021_09:15
