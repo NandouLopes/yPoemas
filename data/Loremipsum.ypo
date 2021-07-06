@@ -1,0 +1,32 @@
+*-
+*- Loremipsum.ipo
+*-
+*- Criar novo Form apenas para LoremIpsum
+*- Selecionar: fonte, corpo, qtd_paragrafos, qtd_linhas_por_paragrafo, qtd_chr_por_linha
+*- Usar Continuum( nLineLenght, lSeparaSilaba ) para formatar textos com comprimento fixo
+*- |05|03|Loremipsum_0503|F|4|1|novos|tantos|falsos|alguns|
+*-
+*- <fnt>DroidSansMono
+*-
+|01|01|Loremipsum_0101|F|3|2|Consideradas as possibilidades|Nesses tempos em que vivemos|Face às tecnologias disponíveis|
+|02|02|Loremipsum_0202|F|2|1|torna-se|é mais que|
+|02|03|Loremipsum_0203|F|5|4|imprescindível|obrigatório|necessário|fundamental|imperioso|
+|02|04|Loremipsum_0204|F|2|2|compreender|repensar|
+|03|01|Loremipsum_0301|F|2|2|que o atual estágio da humanidade|que a aparente facilidade oferecida|
+|04|01|Loremipsum_0401|F|2|2|não se sustenta.|não tem vida própria.|
+|05|00|
+|05|01|Loremipsum_0501|F|4|2|O gênio humano|O imprevisto|O mundo moderno|O acaso|
+|05|02|Loremipsum_0502|F|4|2|planta|cria|faz brotar|regurgita|
+|05|04|Loremipsum_0504|F|3|2|paradigmas|enigmas|saberes|
+|06|01|Loremipsum_0601|F|3|2|até então impensados|nunca dantes imaginados|distantes dos antigos ideais|
+|06|02|Loremipsum_0602|F|1|1|...|
+|07|01|Loremipsum_0701|F|2|1|mas não responde|mas deixa no ar|
+|07|02|Loremipsum_0702|F|2|1|a dúvida que não cala:|o principal da questão:|
+|08|00|
+|08|01|Loremipsum_0801|F|3|1|Quem matou Salomão Ayala?|Onde está Dana Edita Fischerova de Teffé?|Com quantos paus se faz uma canoa?|
+<EOF>
+CATAPALA = 43
+VERBETES = 81
+PALAVRAS = 103
+VARIATIO = 414.720                                                                         
+Build_By_Lay_2_Ipo em 02/02/2021_11:21

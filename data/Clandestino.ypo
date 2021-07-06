@@ -1,0 +1,43 @@
+*-
+*- Clandestino.ipo
+*-
+*- Manter não-pareados: 01_01 e 06_01;02_01 e 12_01
+*- Erratas: pg 43, residem "nete" vale...; Índice defasado em 4 posições
+*- {OFF} fala sobretudo sobre tudo|
+*- {NEW} vira parente da natureza|exercita a auto-subversão|
+*- {CHG} nesses tempos insensatos|penetra no berço do silêncio x nascido no berço do silêncio|
+*- {OBS} Conhecedor x Desconhecedor / Entre x Diante x Em meio a /
+*-
+*- |10|02|Clandestino_1002|F|19|18|almas esvoaçantes|lugares quase secretos|o voo livre dos xamãs|mundos sem limites|afinidades com as nuvens|a mobilidade alada|certezas insuportáveis|ideias sedutoras|belezas sem formas|o lavor de não-fazer-nada|a abstração metafísica|o palácio da imaginação|a sedução dos labirintos|imortais de ilhas remotas|escolhas irrevogáveis|o espírito da ventania|famílias errantes|dragões galopantes|provas improváveis|
+*- |11|02|Clandestino_1102|F|19|11|almas esvoaçantes|lugares quase secretos|o voo livre dos xamãs|mundos sem limites|afinidades com as nuvens|a mobilidade alada|certezas insuportáveis|ideias sedutoras|belezas sem formas|o lavor de não-fazer-nada|a abstração metafísica|o palácio da imaginação|a sedução dos labirintos|imortais de ilhas remotas|escolhas irrevogáveis|o espírito da ventania|famílias errantes|dragões galopantes|provas improváveis|
+*- |12|02|Clandestino_0702|F|1|1|.|
+*- |08|01|Clandestino_0801|F|2|1|Entre|Diante de|
+*-
+|01|01|Clandestino_0101|F|5|4|Desconhecedor de segredos|Viajante sem rumo|Clandestino num navio|Inventor de reversos|Guardião de sementes|
+|01|02|Clandestino_0102|F|1|1|,|
+|02|01|Clandestino_0201|F|14|1|participa do silêncio da noite|trilha trajetórias no imprevisto|lança vinho nos versos|junta-se às estrelas|penetra no início do silêncio|perfura o tempo com insubmissão|lança acaso nos dias|chega ao inconcebível|eleva a voz ante as estrelas|dança nos prados, à noite|busca a ordem no caos|emana perfume de mirra|faz do tempo um não-tempo|caminha por trilhas sinuosas|
+|06|01|Clandestino_0601|F|7|6|aguardando mensageiros|navegando por luz e sombra|pilotando a própria nuvem|criando belezas sem alarde|inovando a solidão|( certo do futuro incerto )|( tal chafariz em desertos )|
+|07|01|Clandestino_0701|F|11|3|no escritório sonâmbulo|no simbólico da montanha|na rua dos insurgentes|em florestas de poetas|em casas com raízes cósmicas|no fundo de uma taverna|em vilas misteriosas|nesse tempo de insensatos|na hora dos insurgentes|em cidades labirínticas|no intrincado templo verde|
+|07|02|Clandestino_0702|F|1|1|.|
+|08|00|
+|08|01|Clandestino_0801|F|3|2|Entre|Diante de|Em meio a|
+|08|02|Clandestino_0802|F|14|10|aves agourentas|espíritos imundos|carrascos da história|olhos entrecerrados|entidades vazias|terrenos dilacerados|pentagramas do sofrimento|doutrinas sofísticas|frutos da impermanência|princípios indeterminados|limites e fronteiras|frutos da errância|galopes às cegas|vidas à beira do abismo|
+|08|03|Clandestino_0803|F|1|1|,|
+|10|01|Clandestino_1001|F|11|8|a mobilidade alada|certezas insuportáveis|famílias errantes|o lavor de não-fazer-nada|o palácio da imaginação|escolhas irrevogáveis|provas improváveis|dragões galopantes|ideias sedutoras|almas esvoaçantes|pessoas impermeáveis|
+|11|01|Clandestino_1101|F|1|1|e|
+|11|02|Clandestino_1102|T|9|3|lugares quase secretos|mundos sem limites|a abstração metafísica|a sedução dos labirintos|o espírito da ventania|o voo livre dos xamãs|afinidades com as nuvens|belezas sem formas|imortais de ilhas remotas|
+|11|03|Clandestino_0803|F|1|1|,|
+|12|01|Clandestino_1201|T|18|14|participa do silêncio da noite|trilha trajetórias no imprevisto|lança vinho nos versos|junta-se às estrelas|penetra no início do silêncio|perfura o tempo com insubmissão|lança acaso nos dias|chega ao inconcebível|dança nos prados, à noite|busca a ordem no caos|emana perfume de mirra|faz do tempo um não-tempo|eleva a voz ante as estrelas|germina o pó dos túmulos|vive numa “Terra sem Males”|pede mais vinho ao taverneiro|é ser em exílio|aprende em escolas invisíveis|
+|12|02|Clandestino_0702|F|1|1|:|
+|13|00|
+|13|01|Clandestino_1301|F|1|1|- |
+|13|02|Clandestino_1201|F|17|15|participa do silêncio da noite|trilha trajetórias no imprevisto|lança vinho nos versos|junta-se às estrelas|penetra no início do silêncio|perfura o tempo com insubmissão|lança acaso nos dias|chega ao inconcebível|dança nos prados, à noite|busca a ordem no caos|emana perfume de mirra|faz do tempo um não-tempo|germina o pó dos túmulos|vive numa “Terra sem Males”|pede mais vinho ao taverneiro|é ser em exílio|aprende em escolas invisíveis|
+|13|03|Clandestino_0702|F|1|1|.|
+|15|00|
+|15|01|Clandestino_1501|F|1|1|( Palavras de Victor Leonardi )|
+<EOF>
+CATAPALA = 46
+VERBETES = 194
+PALAVRAS = 412
+VARIATIO = 6.454.546.560                                                                   
+Build_By_Lay_2_Ipo em 02/02/2021_11:12
