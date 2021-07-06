@@ -24,9 +24,6 @@ import streamlit as st
 import SessionState
 from lay_2_ypo import gera_poema
 
-# Translators
-from deep_translator import GoogleTranslator
-
 # TagCloud
 from wordcloud import WordCloud
 import matplotlib as mtl
@@ -36,6 +33,27 @@ import matplotlib.pyplot as plt
 import socket
 hostname = socket.gethostname()
 user_IP = socket.gethostbyname(hostname)
+
+def internet(host="8.8.8.8", port=53, timeout=3):
+    """
+    Host: 8.8.8.8 (google-public-dns-a.google.com)
+    OpenPort: 53/tcp
+    Service: domain (DNS/TCP)
+    """
+    try:
+        socket.setdefaulttimeout(timeout)
+        socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect((host, port))
+        return True
+    except socket.error as ex:
+        print(ex)
+        return False
+
+if internet():
+    # Translators
+    from deep_translator import GoogleTranslator
+else:
+    st.warning("Internet não conectada. Traduções não disponíveis no momento.")
+
 
 st.set_page_config(
     page_title = 'yPoemas - a "machina" de fazer Poesia',
@@ -104,7 +122,8 @@ def load_file(file):  # Open files for about's
 def load_tems(book):  # List of yPoemas' themes inside a Book
     temas_list = []
     full_name = os.path.join("./data/", book) + ".rol"
-    with open(full_name, encoding = "ansi") as file:
+    with io.open(full_name, encoding="ansi") as file:
+    # with open(full_name, encoding = "ansi") as file:
         for line in file:
             temas_list.append(line)
     return temas_list
@@ -195,15 +214,19 @@ def say_numbers(index):  # search index title in index.txt
 
 
 def translate(input_text):
-    try:
-        output_text = GoogleTranslator(source = "auto", target = session_state.lang).translate(
-            text = input_text
-        )
-    except IOError as exc:
-        raise RuntimeError(
-            "oops... Google Translator não está repondendo... Offline?"
-        ) from exc
-    return output_text
+    if internet():
+        try:
+            output_text = GoogleTranslator(source = "auto", target = session_state.lang).translate(
+                text = input_text
+            )
+        except IOError as exc:
+            raise RuntimeError(
+                "oops... Google Translator não está repondendo... Offline?"
+            ) from exc
+        return output_text
+    else:
+        return input_text
+
     
 def tag_cloud():
     if session_state.lang == "pt":
@@ -263,7 +286,7 @@ def page_books():  # available books
     temas_list = load_tems(session_state.book)
     for line in temas_list:
         list_book += line
-    show_expander = st.beta_expander("", True)
+    show_expander = st.beta_expander("index", True)
     with show_expander:
         st.write(list_book)
 
