@@ -1,0 +1,35 @@
+*-
+*- Pessoa.ipo
+*-
+*- Tabacaria, O guardador de rebanhos, Poema em linha reta
+*-
+|01|01|Pessoa_0101|F|1|1|Estou hoje|
+|01|02|Pessoa_0102|F|4|1|vencido|lúcido|perplexo|dividido|
+|01|03|Pessoa_0103|F|1|1|,|
+|02|01|Pessoa_0201|F|1|1|como|
+|02|02|Pessoa_0202|F|6|4|se me guardasse em mim|quem esqueceu|se soubesse a verdade|quem pensou|se estivesse para morrer|quem achou|
+|02|03|Pessoa_0203|F|1|1|...|
+|03|00|
+|03|01|Pessoa_0301|F|1|1|Eu, que tantas vezes tenho sido|
+|03|02|Pessoa_0302|F|6|1|ridículo|absurdo|grotesco|mesquinho|submisso|arrogante|
+|03|03|Pessoa_0103|F|1|1|,|
+|04|01|Pessoa_0402|T|6|6|ridículo|absurdo|grotesco|mesquinho|submisso|arrogante|
+|04|02|Pessoa_0401|F|1|1|e|
+|04|03|Pessoa_0403|F|6|3|irrespondivelmente parasita|indesculpavelmente sujo|tantas vezes reles|tantas vezes vil|tantas vezes ridículo|não tenho par nisto tudo neste mundo|
+|04|04|Pessoa_0103|F|1|1|,|
+|05|01|Pessoa_0501|F|3|2|continuamente me estranho|nunca serei nada|falhei em tudo|
+|05|02|Pessoa_0502|F|1|1|.|
+|06|00|
+|06|01|Pessoa_0601|F|1|1|Não|
+|06|02|Pessoa_0602|F|5|4|sei quantas almas tenho|tenho ambições nem desejos|sei sentir-me onde estou|posso querer ser nada|sou nada|
+|06|03|Pessoa_0203|F|1|1|...|
+|08|01|Pessoa_0801|F|9|6|Minha alma é como um pastor|Minha tristeza é sossego|De tanto ser, só tenho alma|Sou minha própria paisagem|Tenho em mim todos os sonhos do mundo|Os meus pensamentos são contentes|Ando pela mão das estações|Sinto que tudo é sonho|Assisto à minha passagem|
+|08|02|Pessoa_0402|F|1|1|.|
+|15|00|
+|15|01|Pessoa_1501|F|1|1|( Palavras de Fernando Pessoa )|
+<EOF>
+CATAPALA = 37
+VERBETES = 92
+PALAVRAS = 140
+VARIATIO = 699.840                                                                         
+Build_By_Lay_2_Ipo em 02/02/2021_11:20

@@ -1,0 +1,48 @@
+*-
+*- Meteoro.ipo
+*-
+*- acidência: estado ou qualidade do que é acidental, fortuito; casualidade, contingência, eventualidade
+*-
+*- |intrincado|decorre do fenômeno conhecido como|entropia|Gobi|
+*- Manter |06|02| e |07|02| despareados para evitar repetidos
+*-
+|01|01|Meteoro_0101|F|1|1|Tempo|
+|01|02|Meteoro_0102|F|7|5|parcialmente|completamente|ligeiramente|totalmente|fatalmente|inutilmente|certamente|
+|01|03|Meteoro_0103|F|9|6|instável|encoberto|nublado|estável|fechado|descoberto|seco|aberto|sereno|
+|01|04|Meteoro_0104|F|8|1|na região|em todo o estado|no nosso bairro|no centro|no litoral|em partes do país|no planeta|no seu bairro|
+|02|01|Meteoro_0201|F|1|1|com|
+|02|03|Meteoro_0203|F|8|3|fortes chuvas|chuvas fracas|chuvas isoladas|chuvas esparsas|chuvas torrenciais|pouca chuva|chuvas ocasionais|chuvas intermitentes|
+|02|04|Meteoro_0204|F|1|1|e|
+|02|05|Meteoro_0205|F|9|5|nuvens perdidas|nebulosidade variável|poucas nuvens|muito sol|muita nebulosidade|raras nuvens|pouca nebulosidade|muitas nuvens|pouco sol|
+|02|06|Meteoro_0206|F|1|1|.|
+|03|00|
+|03|01|Meteoro_0301|F|1|1|A|
+|03|02|Meteoro_0302|T|33|23|ocorrência|incidência|existência|insistência|permanência|absência|acidência|afluência|ausência|cadência|carência|coincidência|congruência|contundência|co-ocorrência|eficiência|fluência|frequência|iminência|impaciência|incoerência|insolência|insurgência|irreverência|latência|onipotência|opulência|persistência|precedência|prevalência|urgência|veemência|decadência|
+|03|03|Meteoro_0303|F|23|17|de ventos convergentes|de densas garoas|de granizo|de ventos moderados|de borrascas|de fortes neblinas|de tormentas|de chuviscos|de ventos uivantes|de geadas|de tempestades|de raios e trovões|de pés-de-vento|de nevascas|de terremotos|de tsunamis|de lufadas de ventos|de dilúvios|de coriscos|de cataclismos|de ciclones|de abalos sísmicos|de rajadas de ventos|
+|04|01|Meteoro_0401|F|4|3|é fruto da|deve-se à|decorre da|tem origem na|
+|04|02|Meteoro_0402|T|30|21|abundância|alternância|concomitância|culminância|constância|discordância|deselegância|dominância|equidistância|errância|exorbitância|extravagância|exuberância|ganância|inconstância|inoperância|insignificância|insinuância|intolerância|invariância|irrelevância|jactância|petulância|predominância|preponderância|redundância|reentrância|relevância|relutância|sustância|
+|05|01|Meteoro_0501|F|6|3|da Alta|da Zona|da Área|da Faixa|da Ala|da Linha|
+|05|02|Meteoro_0502|F|11|4|Subtropical|Internante|de Convergência|Convectiva|de Instabilidade|Dissidente|Transitiva|de Divergência|Invertida|Equatorial|Itinerante|
+|05|03|Meteoro_0503|F|21|17|do Atlântico Norte|do Pacífico Sul|do Mar do Japão|do Baixo Mediterrâneo|do Atlântico Sul|da Massa Polar|do Oceano Índico|do Cone Andino|do Estreito de Bering|dos Ventos Siberianos|do Efeito Estufa|do Mar Cáspio|da Floresta Amazônica|do Médio Himalaia|do Baixo Leblon|do Eixo Ártico|do Quartier Latin|do deserto de Atacama|de uma Vila, Madalena|da Faixa de Gaza|dos Balcãs de alguma alma|
+|05|04|Meteoro_0504|F|1|1|.|
+|06|00|
+|06|01|Meteoro_0601|F|1|1|Temperatura|
+|06|02|Meteoro_0602|F|21|12|em gradativa elevação|exagerada|em ligeiro declínio|variando entre < gCelcius >|singular|em baixa|sufocante|variando entre < gCelcius >|na média|moderada|em queda|variando entre < gCelcius >|absurda|incomum|em alta|variando entre < gCelcius >|mutante|amena|ponderada|sem paralelos|variando entre < gCelcius >|
+|07|01|Meteoro_0701|F|1|1|e umidade relativa|
+|07|02|Meteoro_0702|F|19|10|em gradativa elevação|exagerada|em ligeiro declínio|singular|de < pUmido >|em baixa|sufocante|na média|moderada|de < pUmido >|em queda|absurda|incomum|em alta|de < pUmido >|mutante|sem paralelos|em suave declínio|de < pUmido >|
+|07|03|Meteoro_0703|F|1|1|.|
+|08|00|
+|08|01|Meteoro_0801|F|8|7|Na parte da tarde|Durante a madrugada|No fim de semana|Ao final do dia|Depois de amanhã|No decorrer do período|Ao longo do dia|Quando menos esperado|
+|08|02|Meteoro_0802|F|1|1|,|
+|09|01|Meteoro_0901|F|8|8|predomínio|possibilidade|incidência|probabilidade|ocorrência|precipitação|previsão|certeza|
+|09|02|Meteoro_0902|F|12|12|de ventanias|de vulcões|de tornados|de furacões|de maremotos|de vendavais|de ciclones|de brisas|de borrascas|de granizo|de tormentas|de coriscos|
+|09|03|Meteoro_0903|F|1|1|e|
+|09|04|Meteoro_0904|F|13|5|carinhos|suspiros|arco-íris|paixões|cafunés|abraços|arrepios|serenatas|risos|beijos ardentes|carícias|afagos|ternura|
+|10|01|Meteoro_1001|F|20|15|em pontos quase esparsos|onde ainda caiba amor|em peles que andam juntas|em lugares mui distantes|nos inícios da galáxia|em corações já solteiros|em locais quase isolados|em qualquer dos continentes|em almas meio incautas|num longe longe daqui|em outros meridianos|no fim do fim de algum túnel|na paz de alguns lares|em planetas desconhecidos|nos chamados submundos|em olhares que andam dados|desabando lá do céu|em corações desprecavidos|brotando aos borbotões|onde nada é proibido|
+|10|02|Meteoro_1002|F|1|1|.|
+<EOF>
+CATAPALA = 49
+VERBETES = 325
+PALAVRAS = 556
+VARIATIO = 364.969.648.078.376.200.000                                                     
+Build_By_Lay_2_Ipo em 02/02/2021_11:18

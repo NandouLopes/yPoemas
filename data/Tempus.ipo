@@ -1,0 +1,27 @@
+*-
+*- Tempus.Bra
+*-
+|01|01|Tempus_0101|F|1|1|O passado,|
+|01|02|Tempus_0102|F|11|11|estampado|emoldurado|ensimesmado|incrustado|enraizado|envolvido|mergulhado|afogado|engasgado|confinado|escancarado|
+|01|03|Tempus_0103|F|7|2|na carne,|no tempo,|na gente,|na memória,|em lembranças,|em sentidos,|em feridas,|
+|01|04|Tempus_0104|F|4|4|não volta.|passou.|foi-se.|já era.|
+|02|00|
+|02|01|Tempus_0201|F|1|1|O futuro,|
+|02|02|Tempus_0202|F|7|2|incerto|desigual|utópico|sonhado|impreciso|inventado|sublimado|
+|02|03|Tempus_0203|F|1|1|e|
+|02|04|Tempus_0204|F|5|4|infindo,|intermitente,|inexistente,|impaciente,|indefinido,|
+|02|05|Tempus_0205|T|4|3|não demora.|virá.|chegará.|não tem hora.|
+|03|00|
+|03|01|Tempus_0301|T|1|1|O presente,|
+|03|02|Tempus_0302|F|4|1|pulsando|urgindo|rugindo|revirando|
+|03|03|Tempus_0303|F|4|4|no dia-a-dia,|à cada segundo,|em tic-tacs,|surpresas,|
+|03|04|Tempus_0304|F|4|2|é agora:|impera:|é quem manda:|indaga:|
+|04|00|
+|04|01|Tempus_0401|T|1|1|Sendo um dia|
+|05|01|Tempus_0501|F|1|1|do outro diferente,|
+|06|01|Tempus_0601|F|1|1|o quê na gente pensa igual?|
+<EOF>
+VERBETES = 67
+PALAVRAS = 88
+VARIATIO = 2.759.680                                                                       
+Build_By_Lay_2_Ipo em 02/02/2021_11:21

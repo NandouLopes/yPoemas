@@ -1,0 +1,32 @@
+*-
+*- Victor.ipo
+*-
+*- Manter despareados: 04_01 e 12_01
+*- erratas: pg 43, residem "nete" vale...; Índice defasado em 4 posições
+*- condimentos secretos|
+*- Conhecedor x Desconhecedor
+*-
+|01|01|Victor_0101|F|5|3|Desconhecedor de segredos|Viajante sem rumo|Clandestino num navio|Inventor de reversos|Guardião de sementes|
+|01|02|Victor_0102|F|1|1|,|
+|04|01|Victor_0401|F|12|11|participo do silêncio da noite|lanço vinho nos versos|junto-me às estrelas|penetro no início do silêncio|perfuro o tempo com insubmissão|lanço acasos nos dias|chego ao inconcebível|elevo a voz ante as estrelas|danço nos prados, à noite|busco a ordem no caos|emano perfume de mirra|caminho por trilhas sinuosas|
+|06|01|Victor_0601|F|4|1|aguardando mensageiros|navegando por luz e sombra|pilotando a própria nuvem|criando belezas sem alarde|
+|07|01|Victor_0701|F|11|8|no escritório sonâmbulo|em vilas labirínticas|no simbólico da montanha|em florestas de poetas|em casas com raízes cósmicas|no fundo de uma taverna|na rua dos insurgentes|nesse tempo de insensatos|na hora dos insurgentes|em cidades misteriosas|no intrincado templo verde|
+|07|02|Victor_0702|F|1|1|.|
+|08|00|
+|08|01|Victor_0801|F|1|1|Entre|
+|08|02|Victor_0802|F|15|13|aves agourentas|espíritos imundos|carrascos da história|olhos entrecerrados|entidades vazias|terrenos dilacerados|pentagramas do sofrimento|doutrinas sofísticas|frutos da impermanência|princípios indeterminados|provas improváveis|limites de fronteiras|frutos da errância|galopes às cegas|vidas à beira do abismo|
+|08|03|Victor_0803|F|1|1|,|
+|10|01|Victor_1001|F|17|7|almas esvoaçantes|lugares quase secretos|o voo livre dos xamãs|mundos sem limites|afinidades com as nuvens|a mobilidade alada|certezas insuportáveis|ideias sedutoras|belezas sem formas|o lavor de não-fazer-nada|a abstração metafísica|o palácio da imaginação|a sedução dos labirintos|imortais de ilhas remotas|escolhas irrevogáveis|o espírito da ventania|famílias errantes|
+|11|01|Victor_1101|F|1|1|e|
+|11|02|Victor_1102|T|17|17|almas esvoaçantes|lugares quase secretos|o voo livre dos xamãs|mundos sem limites|afinidades com as nuvens|a mobilidade alada|certezas insuportáveis|ideias sedutoras|belezas sem formas|o lavor de não-fazer-nada|a abstração metafísica|o palácio da imaginação|a sedução dos labirintos|imortais de ilhas remotas|escolhas irrevogáveis|o espírito da ventania|famílias errantes|
+|11|03|Victor_0803|F|1|1|,|
+|12|01|Victor_1201|F|15|12|participo do silêncio da noite|lanço vinho nos versos|junto-me às estrelas|penetro no início do silêncio|perfuro o tempo com insubmissão|lanço acasos nos dias|chego ao inconcebível|elevo a voz ante as estrelas|danço nos prados, à noite|busco a ordem no caos|emano perfume de mirra|germina o pó dos túmulos|vivo na "Terra sem Males"|peço mais vinho ao taverneiro|sou ser em exílio|
+|12|02|Victor_0702|F|1|1|.|
+|15|00|
+|15|01|Victor_1501|F|1|1|( Palavras de Victor Leonardi )|
+<EOF>
+CATAPALA = 36
+VERBETES = 170
+PALAVRAS = 348
+VARIATIO = 171.666.000                                                                     
+Build_By_Lay_2_Ipo em 02/02/2021_11:15

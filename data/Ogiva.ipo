@@ -1,0 +1,30 @@
+*-
+*- Ogiva.ipo
+*-
+*-
+*-|05|02|OGI_0402|F|16|4|quando acha-se|quando brinca de|quando cerra-se|quando despe-se|quando esconde-se|quando farta-se|quando mostra-se|quando pinta-se|quando sabe-se|quando serve-se|quando oculta-se|quando supõe-se|quando torna-se|quando turva-se|quando evita-me|quando sorve-me|
+*-
+|01|01|Ogiva_0101|F|7|1|Teu olhar sabe ser|Teu olhar flutua|Teu olhar paira|Teu olhar reluz|Teu olhar me invade|Teu olhar me sacia|Teu olhar pousa em mim|
+|01|02|Ogiva_0102|F|1|1|,|
+|01|03|Ogiva_0103|F|16|4|invejável|sedutor|adorável|abusado|curioso|indomável|sonhador|gracioso|agradável|delicioso|insaciável|tentador|delicado|desejável|invulgar|atirado|
+|01|04|Ogiva_0104|F|1|1|...|
+|02|00|
+|02|01|Ogiva_0201|F|19|8|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Ofuscante|Instigante|Petulante|
+|02|02|Ogiva_0202|F|17|14|quando brinda|quando encanta|quando espia|quando pousa|quando fita|quando flerta|quando joga|quando mira|quando encara|quando pisca|quando reina|quando posa|quando fixa|quando enquadra|quando enlaça|quando mede|quando espreita|
+|02|03|Ogiva_0203|F|11|6|e rouba a cena|de pirraça|de relance|sem ter pressa|e nem disfarça|e me atravessa|e não dá chance|e oferece|sem nuance|só por graça|sem disfarce|
+|03|01|Ogiva_0301|F|15|3|Atraente|Confidente|Conivente|De vidente|Diferente|Displicente|Envolvente|Exigente|Imponente|Imprudente|Inocente|Insistente|Reticente|Saliente|Transparente|
+|03|02|Ogiva_0302|F|1|1|quando|
+|03|03|Ogiva_0303|T|51|12|me reflete inteiro|brilha de contente|chora crocodilo|deixa-me vermelho|me elege alvo|despe o que avisto|esconde e não esconde|esquece de ser sério|faz que está na esquina|é só delicadeza|impera sem mistério|me ilumina em flash|me intima tímido|revira a deriva|some no horizonte|olha para um nada|está ficando torto|pinta sem pintura|escapa por tangentes|supõe malvadezas|cruza o meu no ato|brinca de ser alvo|quase hipnotiza|vela o meu sono|reina no instante|decifra e devora|rí e me desarma|tenta ser atento|vê que te cobiço|escorre por desvios|vira meu espelho|faz que não me vê|cerra-se em mim|vem me ler em braile|m'olha de soslaio|jaz olho-no-olho|suga o meu com imã|faz pose de tango|põe-se no horizonte|voa mais distante|sabe olhar por cima|me declara flores|repara na lua|ensina-me o sonho|olha meio torto|lembra da criança|pesca o meu do nada|acha o infinito|dele sou refém|faz-me ver estrelas|sabe ser colírio|
+|04|01|Ogiva_0201|F|19|2|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Ofuscante|Instigante|Petulante|
+|04|02|Ogiva_0402|F|10|7|quando dá de|quando pede o|quando pensa em|quando finge|quando pode|quando sabe|quando sonha|quando tenta|quando supõe|quando visa|
+|04|03|Ogiva_0403|F|10|10|desviar-se|entregar-se|espelhar-me|enciumar-se|ocultar-se|revelar-se|revirar-se|esconder-se|adivinhar-me|aconchegar-se|
+|05|01|Ogiva_0301|F|15|5|Atraente|Confidente|Conivente|De vidente|Diferente|Displicente|Envolvente|Exigente|Imponente|Imprudente|Inocente|Insistente|Reticente|Saliente|Transparente|
+|05|02|Ogiva_0502|F|19|16|quando acha-se|quando brinca de|quando cerra-se|quando sorve-me|quando despe-se|quando esconde-se|quando farta-se|quando mostra-se|quando pinta-se|quando sabe-se|quando serve-se|quando oculta-se|quando supõe-se|quando torna-se|quando turva-se|quando evita-me|quando crava em mim|quando faz que é|quando atento e|
+|05|03|Ogiva_0503|F|12|4|inventivo|atrativo|esquivo|evasivo|festivo|furtivo|impulsivo|passivo|afetivo|incisivo|efusivo|emotivo|
+|05|04|Ogiva_0504|F|1|1|.|
+<EOF>
+CATAPALA = 27
+VERBETES = 240
+PALAVRAS = 440
+VARIATIO = 1.749.081.527.424.000                                                           
+Build_By_Lay_2_Ipo em 02/02/2021_11:22

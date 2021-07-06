@@ -1,0 +1,33 @@
+*-
+*- Virgem=f.Zod
+*-
+*-
+*- Virgem: de 23 de Agosto a 22 de Setembro
+*-
+|01|01|Virgem=f_0101|F|2|2|De suas melhores|Dentre suas invejáveis|
+|01|02|Virgem=f_0102|F|2|2|qualidades,|características,|
+|02|01|Virgem=f_0201|F|20|2|humana|correta|dedicada|consciente|amiga|leal|tímida|discreta|idealista|intuitiva|carinhosa|protetora|simpática|organizada|responsável|correta|eficiente|prática|objetiva|delicada|
+|02|02|Virgem=f_0202|F|1|1|...|
+|02|03|Virgem=f_0201|T|20|3|humana|correta|dedicada|consciente|amiga|leal|tímida|discreta|idealista|intuitiva|carinhosa|protetora|simpática|organizada|responsável|correta|eficiente|prática|objetiva|delicada|
+|02|04|Virgem=f_0204|F|1|1|...|
+|02|05|Virgem=f_0201|T|20|9|humana|correta|dedicada|consciente|amiga|leal|tímida|discreta|idealista|intuitiva|carinhosa|protetora|simpática|organizada|responsável|correta|eficiente|prática|objetiva|delicada|
+|02|06|Virgem=f_0206|F|1|1|...|
+|03|00|
+|03|01|Virgem=f_0301|F|1|1|Entre|
+|03|02|Virgem=f_0302|F|8|2|ideia e ação|amor e amizade|paixão e compaixão|agir e refletir|emoção e comoção|amada e temida|querer e poder|o todo e detalhes|
+|04|01|Virgem=f_0401|F|3|3|brota|nasce|surge|
+|04|02|Virgem=f_0402|F|1|1|um ambiente|
+|04|03|Virgem=f_0403|F|9|7|harmônico|de leveza|versátil|de desprendimento|afetuoso|de perspicácia|incomum|de cooperação|de reconhecimento|
+|05|01|Virgem=f_0501|F|1|1|onde todos se|
+|05|02|Virgem=f_0502|F|3|3|ajudam|respeitam|espelham|
+|05|03|Virgem=f_0503|F|1|1|.|
+|06|00|
+|06|01|Virgem=f_0601|F|6|6|Ajudar amigos|Dar conselhos|Sentir-se útil|Servir ao outro|Dedicar-se ao ser amado|Envolver-se com a vida|
+|07|01|Virgem=f_0701|F|4|1|só realça|só permeia|só destaca|só ilumina|
+|07|02|Virgem=f_0702|F|5|3|a sua beleza natural|a sua inteligência|a sua verdadeira índole|o seu lado romântico|a sua pessoa sensível|
+|07|02|Virgem=f_0702|F|1|1|.|
+<EOF>
+VERBETES = 92
+PALAVRAS = 163
+VARIATIO = 2.127.513.600                                                                   
+Build_By_Lay_2_Ipo em 02/02/2021_11:18

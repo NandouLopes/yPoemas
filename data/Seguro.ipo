@@ -1,0 +1,27 @@
+*-
+*- Seguro.ipo
+*-
+|01|01|Seguro_0101|F|4|4|Nos telejornais|Nas redes sociais|Em tempos normais|Nos canais oficiais|
+|02|01|Seguro_0201|F|4|3|curto só|ouço apenas|só acato|leio apenas|
+|02|02|Seguro_0202|F|3|2|as ideias|as opiniões|os artigos|
+|03|01|Seguro_0301|F|1|1|dos que|
+|03|02|Seguro_0302|F|6|3|concordam comigo|são da minha tribo|falam minha língua|me agradam de cara|são da minha praia|me são mais queridos|
+|04|01|Seguro_0401|F|1|1|e|
+|04|02|Seguro_0402|F|4|4|enveneno|elimino|transponho|sufoco|
+|04|03|Seguro_0403|F|5|4|assim|com isso|na hora|no ninho|sem nem piscar|
+|05|01|Seguro_0501|F|9|7|o que não me iguala|a contradição|o que seja maligno|o pensar à toa|as más influências|o tempo perdido|o erro inútil|tolas baboseiras|o que não me apraz|
+|05|02|Seguro_0502|F|1|1|.|
+|06|00|
+|06|01|Seguro_0601|F|5|2|Encontro paz|Navego apenas|Fico quieto|Sei-me seguro|Acomodo-me|
+|07|01|Seguro_0701|F|3|2|na tranquilidade|na zona de conforto|no território livre|
+|08|01|Seguro_0801|F|8|7|das coisas que sei|daquilo que creio|do que me interessa|dos meus pensamentos|do meu próprio mundo|do que acredito|do que tá na vibe|do que não me perturba|
+|08|02|Seguro_0802|F|3|3|...|!|.|
+|09|00|
+|09|01|Seguro_0901|F|3|1|( E não é que têm|( Dizem que existe|( Pior é que há|
+|09|02|Seguro_0902|F|3|2|quem acredite nisso! )|quem pense assim! )|quem assine embaixo! )|
+<EOF>
+CATAPALA = 37
+VERBETES = 105
+PALAVRAS = 167
+VARIATIO = 146.966.400                                                                     
+Build_By_Lay_2_Ipo em 02/02/2021_11:12
