@@ -16,6 +16,7 @@ user_IP == the owner of LYPO and TYPO
 """
 
 import os
+import io
 import random
 import streamlit as st
 
