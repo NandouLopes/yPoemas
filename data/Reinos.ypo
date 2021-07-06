@@ -1,0 +1,64 @@
+*-
+*- Reinos.ipo
+*-
+*- prosaico|arcaico|
+*- escatologia = doutrina das coisas que devem acontecer no fim dos tempos, no fim do mundo
+*- tautologia = uso de palavras diferentes para expressar uma mesma idéia; redundância, pleonasmo
+*- eupatia = sentimento de resignação; aceitação do sofrimento; paciência, conformidade
+*-
+*- poesia informacional|intermidia|eletronica|hopertextual|digital|
+*- infopoesia|tecnopoesia|texto estocástico|computer poetry|
+*- aramaico|minúcia|ático|teológico|
+*-
+*- ANALIS_1 =          49.409.287.200
+*- ANALIS_2 =         514.259.928.000
+*- ANALIS_3 =      14.520.280.320.000
+*- ANALIS_4 =      76.231.471.680.000
+*- ANALIS_5 =     279.515.396.160.000 - antes da linha 10
+*- ANALIS_6 =   3.726.871.948.800.000 - antes de imundícia
+*- ANALIS_7 =   4.099.559.143.680.000
+*- ANALIS_8 =   6.442.164.368.640.000 - antes de |Ensaio|Teste|Estudo|Palpite|
+*- ANALIS_9 =  22.510.972.083.600.000
+*- ANALIS_0 =  66.348.128.246.400.000
+*- ANALIS_1 =  27.583.504.724.160.000
+*- ANALIS_2 = 138.982.523.803.200.000
+*- ANALIS_3 =  71.103.284.904.960.000
+*- ANALIS_4 =  50.788.060.646.400.000
+*-
+|01|01|Reinos_0101|F|5|3|Mosaico|Ensaio|Teste|Estudo|Palpite|
+|01|02|Reinos_0102|T|21|16|automático|axiomático|prático|carismático|didático|dilemático|diplomático|dogmático|dramático|emblemático|enfático|enigmático|estático|fanático|homeopático|iniciático|lunático|midiático|pragmático|atemático|trágico|
+|01|03|Reinos_0103|F|1|1|,|
+|02|01|Reinos_0201|F|43|36|enérgico|estratégico|homérico|ascético|imagético|apoético|dialético|esquelético|estético|frenético|hermético|hipotético|impoético|mimético|profético|sincrético|sintético|cético|cibernético|cosmético|assimétrico|aético|magnético|paranóico|estóico|heróico|neófito|tecnológico|lógico|antológico|ilógico|demagógico|genealógico|mercadológico|mitológico|patológico|pedagógico|escatológico|caótico|autofágico|fálico|nostálgico|verborrágico|
+|02|02|Reinos_0202|T|1|1|e|
+|02|03|Reinos_0203|F|11|6|esfíngico|fatídico|atípico|apolítico|litúrgico|analítico|lúdico|crítico|verídico|cirúrgico|idílico|
+|03|01|Reinos_0301|F|1|1|sobre a|
+|03|02|Reinos_0302|T|14|11|eficácia|malícia|audácia|impudicícia|perspicácia|inépcia|argúcia|falácia|retórica|indecência|luxúria|esbórnia|imundícia|astúcia|
+|04|01|Reinos_0401|F|1|1|da "|
+|04|02|Reinos_0402|F|7|3|escória|milícia|quadrilha|falange|caterva|gentalha|súcia|
+|04|03|Reinos_0403|T|1|1|"|
+|04|04|Reinos_0404|F|16|13|caótica|antiética|apática|trágica|errática|fisiológica|burocrática|antipática|mítica|sistemática|patética|retórica|eclética|espúria|fatídica|grotesca|
+|05|01|Reinos_0501|F|9|3|que reina na|que pilha a|que afana na|que desgoverna a|que manda na|que surrupia a|que rapina a|que saqueia a|que usurpa a|
+|05|02|Reinos_0502|F|14|2|distante|letárgica|inventada|provável|inocente|improvável|suposta|inverossímil|idílica|tranquila|exótica|insólita|pacata|bucólica|
+|05|03|Reinos_0503|F|15|7|Lituânia|Prússia|Escócia|Croácia|Tunísia|Grécia|Etiópia|Tchetchênia|Malásia|Indonésia|Geórgia|Pasárgada|Patagônia|Andaluzia|Capadócia|
+|05|04|Reinos_0504|F|1|1|: |
+|06|00|
+|06|01|Reinos_0601|F|8|1|Bando|Corja|Súcia|Caterva|Escória|Quadrilha|Milícia|Falange|
+|06|02|Reinos_0602|F|1|1|de... ( Assinale a Opção Correta )|
+|07|00|
+|07|01|Reinos_0701|F|1|1|[  ] - |
+|07|02|Reinos_0702|F|17|1|Pulhas|Beócios|Canalhas|Párias|Ímpios|Larápios|Caquéticos|Idióticos|Heréticos|Estúpidos|Crápulas|Pernósticos|Despóticos|Lúgubres|Vândalos|Fétidos|Esdrúxulos|
+|08|01|Reinos_0801|F|1|1|[  ] - |
+|08|02|Reinos_0702|T|17|8|Pulhas|Beócios|Canalhas|Párias|Ímpios|Larápios|Caquéticos|Idióticos|Heréticos|Estúpidos|Crápulas|Pernósticos|Despóticos|Lúgubres|Vândalos|Fétidos|Esdrúxulos|
+|09|01|Reinos_0901|F|1|1|[  ] - |
+|09|02|Reinos_0702|T|17|15|Pulhas|Beócios|Canalhas|Párias|Ímpios|Larápios|Caquéticos|Idióticos|Heréticos|Estúpidos|Crápulas|Pernósticos|Despóticos|Lúgubres|Vândalos|Fétidos|Esdrúxulos|
+|10|01|Reinos_1001|F|1|1|[  ] - |
+|10|02|Reinos_0702|T|17|6|Pulhas|Beócios|Canalhas|Párias|Ímpios|Larápios|Caquéticos|Idióticos|Heréticos|Estúpidos|Crápulas|Pernósticos|Despóticos|Lúgubres|Vândalos|Fétidos|Esdrúxulos|
+|11|01|Reinos_1101|F|1|1|[  ] -  |
+|11|02|Reinos_1102|F|11|5|É dando que se|Dar murro em ponta de|Antes tarde do que|Aqui se faz, aqui se|Deus ajuda quem cedo|Há males que vem|Quem com ferro fere|Fazer o bem sem ver a|Antes só que mal|Quem dá aos pobres|Água mole em pedra dura|
+|11|03|Reinos_1103|F|1|1|...|
+<EOF>
+CATAPALA = 51
+VERBETES = 224
+PALAVRAS = 318
+VARIATIO = 735.401.085.950.361.600                                                         
+Build_By_Lay_2_Ipo em 02/02/2021_11:18

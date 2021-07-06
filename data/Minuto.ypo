@@ -1,0 +1,26 @@
+*-
+*- Minuto.ipo
+*-
+*-
+*- |Desemparelhar |01|01| de |04|01|
+*- |Desemparelhar |05|01| de |06|01|
+*-
+|01|01|Minuto_0101|F|6|5|Quanto tempo mais passar|Até onde persistir|Porquê tanto quedar-se|Até quando permanecer|Faz sentido ficar|Cansado de ser vítima,|
+|02|01|Minuto_0201|F|10|6|moldado em|encolhido em|atrelado a|perdido em|ilhado em|emaranhado em|tolhido em|escondido em|calado em|amuado em|
+|02|02|Minuto_0202|F|19|2|rotinas|sombras|horas|buscas|armadilhas|falácias|tormentas|cadeias|balelas|teimosias|máscaras|querelas|preces|quimeras|minúcias|agruras|culpas|promessas|loucuras|
+|02|03|Minuto_0203|F|25|5|infindas|amargas|obscuras|bisonhas|imutáveis|confusas|milenares|sem porvir|irrelevantes|sem propósito|sombrias|circulares|inertes|amorfas|diminutas|sinistras|incertas|tacanhas|inúteis|aladas|obtusas|atávicas|vagas|minúsculas|banais|
+|03|01|Minuto_0301|T|46|44|nos limites|nos tuneis|nas fronteiras|no frigir|nos abismos|nas ciladas|no marasmo|nas máculas|nos labirintos|nas falhas|no perto|nas entranhas|nos vícios|nos caprichos|na minuta|no sem sentido|na pequenez|nos rascunhos|no centro|na cisma|no cerne|nos vazios|aos olhos|nas migalhas|no vasto|no incerto|nas ilhas|no finito|no parto|nas urnas|no traço|nas ruas|nos cílios|nas bolhas|num piscar|na farfalha|na insonia|na calada|nos buracos|no remoto|na farra|nos extremos|nos túmulos|na cara|no improviso|no ínfimo|
+|03|02|Minuto_0302|F|43|43|do momento|do existir|da lógica|do próprio ser|do efêmero|do infinito|do universo|do velho sempre|do insignificante|do eterno|de um deserto|do minuto|do que pobre|da vasta luz|do incerto|do inferno|do divino|do tédio|da carne|do caminho|do horizonte|do exato|do longe|do vasto|do proibido|do que virá|do átomo|do segundo|da manhã|dos fatos|do passado|da ilusão|do abstrato|do agora|da espera|do trágico|do viver|do mistério|do pacato|do remoto|do enfado|de cada dia|do fracasso|
+|03|03|Minuto_0303|F|1|1|?|
+|04|00|
+|04|01|Minuto_0401|F|10|7|É chegada a hora de|Que venha o tempo de|Agora a vez é de|Dia virá de se|Basta a cada um|Contentemos-nos em|Doravante, que se saiba|Será melhor saber|Pense apenas em|Seja já o instante de|
+|04|02|Minuto_0402|F|21|18|expandir|fabricar|deixar fluir|moldar|cultivar|alimentar|impor|transformar|acelerar|irromper|interpretar|fundar|domar|plantar|vestir|multiplicar|trilhar|fincar|acatar|encarar|calcar|
+|05|01|Minuto_0501|F|17|6|finalidades humanas|olhares sobre si mesmo|o verdadeiro potencial|a força dos silêncios|energias do cosmo|pensamentos elevados|conceitos inovadores|delícias mundanas|valores da liberdade|um querer superior|a imensidão do ego|a ideia da ideia|estradas na alma|reflexões sinceras|atalhos no coração|o brilho dessa vida|a calma dos justos|
+|06|01|Minuto_0601|F|14|9|rumo a sentimentos nobres|pra ser feliz no presente|rumo ao eu mais que profundo|em busca de sentimentos nobres|rumo à felicidade de existir|na busca de um eu mais profundo|acreditando em novas saídas|visando a face do mundo|em busca do tempo perdido|na raiz de um novo mundo|a catar o tempo cá ido|sabendo que vai dar certo|mirando a vinda do futuro|atrás daquilo que valha|
+|06|03|Minuto_0603|F|1|1|!|
+<EOF>
+CATAPALA = 24
+VERBETES = 276
+PALAVRAS = 458
+VARIATIO = 2.817.522.540.000                                                               
+Build_By_Lay_2_Ipo em 02/02/2021_11:22

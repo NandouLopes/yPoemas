@@ -1,0 +1,36 @@
+*-
+*- Peixes=f.Zod
+*-
+*-
+*- Peixes: de 20 de Fevereiro a 20 de Março
+*- verificar: jeito|delicado|
+*-
+*- |01|02|Peixes=f_0102|F|9|2|profunda|sensível|simpática|generosa|solidária|inspirada|sensual|intuitiva|sonhadora|
+*- |01|03|Peixes=f_0103|F|1|1|,|
+*- |02|01|Peixes=f_0201|F|3|2|tem talentos artísticos|tem talentos literários|preocupa-se com o próximo|
+*- |04|01|Peixes=f_0401|F|5|3|Esperar muito dos relacionamentos|Colocar o amor em primeiro plano|Esperar a cumplicidade do parceiro|Ter aquele "algo mais" na intimidade|Parecer não saber dizer "não"|
+*- |05|01|Peixes=f_0501|F|7|4|Seu estilo harmônico|Seu jeito maleável|Seu estilo suave|Seu coração gigante|Seu jeito especial|Seu estilo maleável|Sua personalidade complexa|
+*-
+|01|01|Peixes=f_0101|F|1|1|Você é|
+|01|02|Peixes=f_0102|F|8|1|profunda|sensível|simpática|generosa|solidária|inspirada|intuitiva|sonhadora|
+|01|03|Peixes=f_0103|F|1|1|,|
+|01|04|Peixes=f_0104|F|8|7|imaginativa|delicada|romântica|simpática|humana|gentil|emotiva|receptiva|
+|01|05|Peixes=f_0105|F|1|1|,|
+|02|01|Peixes=f_0201|F|3|3|tem um estilo harmônico|preocupa-se com o próximo|tem uma personalidade complexa|
+|03|01|Peixes=f_0301|F|1|1|e|
+|03|02|Peixes=f_0302|F|4|4|possui uma ótima capacidade de adaptação|deseja fazer algo grandioso pelo mundo|parece ter uma rara missão aqui na Terra|parece ter uma nobre missão no Mundo|
+|03|03|Peixes=f_0303|F|1|1|.|
+|04|00|
+|04|01|Peixes=f_0401|F|3|1|Cuidar dos relacionamentos|Colocar o amor em primeiro plano|Parecer não saber dizer "não"|
+|04|02|Peixes=f_0402|F|1|1|,|
+|04|03|Peixes=f_0403|F|5|4|é detalhe...|é nuança...|é sutileza...|é mimo...|é elegância...|
+|05|00|
+|05|01|Peixes=f_0501|F|5|5|Seu jeito maleável|Seu estilo suave|Seu coração gigante|Seu jeito especial|Seu estilo maleável|
+|05|02|Peixes=f_0502|F|3|3|usa o talento|esforça-se|usa a bondade|
+|06|01|Peixes=f_0601|F|7|7|para compreender os sentimentos alheios|para oferecer bons conselhos|para ser compreensiva nas horas difíceis|para ajudar, sempre com bons conselhos|para o bem-estar da humanidade|para atrair a lealdade merecida|para mostrar o profundo amor às pessoas|
+|06|02|Peixes=f_0602|F|1|1|.|
+<EOF>
+VERBETES = 100
+PALAVRAS = 142
+VARIATIO = 1.209.600                                                                       
+Build_By_Lay_2_Ipo em 02/02/2021_11:25

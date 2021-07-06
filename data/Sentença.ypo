@@ -1,0 +1,80 @@
+*-
+*- Sentença.ipo
+*-        -  |linha|ideia|fonte|se_random|ítimo_1|.|ítimo_n|
+*-
+*- Desparear |02|01| e |02|02| e |03|01|
+*- Desparear |05|04| e |05|01|
+*- Desparear |07|01| e |07|02|
+*- Desparear |08|01| e |08|02|
+*- Eliminar linhas 04 e 05 para "caber" no Tweeter...
+*-
+*- |"nunc" usado como "nunca" em "Nunc contra legem"... licenças...
+*- |Honoris causos|In loco|Legis vacante|Vade mecum|... licenças...
+*-
+*- |outorgante|foro íntimo| usados de modo jocoso... licenças...
+*-
+*- A posteriori = posteriormente
+*- Ad aeternum = até a eternidade, para sempre
+*- Ad arbitrium = arbitrariamente
+*- Ad futurum = para o futuro
+*- Ad hoc = para isto, para esta finalidade específica
+*- Ad tempus = por um tempo, momentaneamente
+*- Animus jocandi = intenção de brincar
+*- Cognitio causae = conhecimento de causa
+*- Contra legem = contra a lei
+*- Data venia = com o devido consentimento
+*- Ex nunc = a partir de agora; que não retroage
+*- Exempli gratia = por exemplo
+*- Fac simile = fazer coisa semelhante; reprodução fiel de um original
+*- Facultas agendi = faculdade de agir
+*- Sine grosso modo = ( Sem ser... ) grosseiramente, de modo rudimentar, superficial
+*- Hic et nunc = aqui e agora; imediatamente
+*- In casu = no presente caso
+*- In dubio pro reo = na dúvida, em favor do réu
+*- In verbis = nestes termos
+*- Ipso facto = pelo mesmo fato; por isso; por si mesmo
+*- Latu sensu = em sentido amplo, irrestrito
+*- Modus vivendi = modo de viver
+*- Mutatis mutandis = mude-se o que deve ser mudado
+*- Nihil obstat = nada obsta; sem qualquer empecilho
+*- Obligatio faciendi = obrigação de fazer
+*- Pari passu = no mesmo passo; concomitantemente
+*- Post scriptum = depois do escrito
+*- Sine die = sem dia determinado; sem data marcada
+*- Conditio sine qua non = condição sem a qual; condição necessária
+*- Sui generis = do seu gênero; peculiar; especial
+*- Spont sua = por sua livre vontade; espontaneamente; por iniciativa própria
+*- Verbi gratia = por exemplo, a saber
+*-
+*- |produzir|atinar|satisfazer||
+*-
+|01|01|Sentença_0101|F|8|5|Deliberados os|À vista dos|Considerados os|Apreciados os|Decididos os|Deferidos os|Revogados os|Extintos os|
+|01|02|Sentença_0102|F|4|3|fatos|laudos|recursos|trâmites|
+|02|01|Sentença_0201|F|6|3|transitados|constantes|elencados|arrolados|arrazoados|garantidos|
+|02|02|Sentença_0202|F|9|1|em julgado|no processo|nos autos|na demanda|na petição|em foro íntimo|em precatório|neste tribunal|na oitiva|
+|03|01|Sentença_0301|F|6|5|imputa-se|cabe agora|aplique-se|resta apenas|fica devido|impõe-se|
+|03|02|Sentença_0302|F|11|8|ao querelante|ao queixoso|ao outorgado|ao outorgante|aos autores|ao apelante|ao litigante|às partes|ao requerente|ao condenado|aos réus|
+|04|00|
+|04|01|Sentença_0401|F|1|1|- |
+|04|02|Sentença_0402|F|5|3|salvo melhor juízo|decorrido o prazo|mantida a instância|mesmo à revelia|sob o manto da lei|
+|05|01|Sentença_0501|F|4|2|e sem prejuízo de|e cabendo|e no direito de|e sem caber|
+|05|02|Sentença_0502|F|13|13|recurso|embargo|agravo|surpresa|apelação|improcedência|suspeição|contraditório|veto|incompetência|alegação|negatório|aditamento|
+|05|03|Sentença_0503|F|1|1|-|
+|06|00|
+|06|01|Sentença_0601|F|9|2|acatar|cumprir|observar|obedecer|respeitar|admitir|acolher|honrar|praticar|
+|06|02|Sentença_0602|F|1|1|, "|
+|06|03|Sentença_0603|T|37|34|A posteriori|Ad futurum|Ad hoc|Ad aeternum|Ad arbitrium|Ad tempus|Animus jocandi|Cognitio causae|Nunc contra legem|Data venia|Ex nunc|Exempli gratia|Fac simile|Facultas agendi|Sine grosso modo|Hic et nunc|Honoris causos|In casu|In dubio pro reo|In loco|In verbis|Ipso facto|Latu sensu|Legis vacante|Modus vivendi|Mutatis mutandis|Nihil obstat|Obligatio faciendi|Dubium sapientiae initium|Pari passu|Post scriptum|Sine die|Conditio sine qua non|Sui generis|Vade mecum|Spont sua|Verbi gratia|
+|06|04|Sentença_0604|F|1|1|",|
+|07|01|Sentença_0701|F|11|8|o mérito|o conteúdo|o acordo|o justo|o concluso|o pertinente|o reclamo|o parecer|o pacto|a base legal|o teor|
+|07|02|Sentença_0702|F|7|4|da causa|da lide|da sentença|do despacho|da contenda|em questão|da pena|
+|07|03|Sentença_0703|F|1|1|:|
+|08|00|
+|08|01|Sentença_0801|F|15|6|beijar um pouco|banho de cachoeira|dizer obrigado|sorrir de verdade|olhar para a lua|ser mais gentil|contar até dez|carinho e cafuné|repartir alegria|fazer alguém feliz|assobiar cantigas|pensar em paz|rir de si mesmo|mandar flores|desligar o celular|
+|08|02|Sentença_0802|F|14|10|todo santo dia|de hora em hora|3 vezes ao dia|uma vez na vida|durante a semana|logo de manhã|no dia-a-dia|de vez em quando|ao cair da tarde|nas horas vagas|dia sim, dia não|assim que acordar|sempre que possível|nos dias ímpares|
+|08|03|Sentença_0803|F|1|1|.|
+<EOF>
+CATAPALA = 33
+VERBETES = 249
+PALAVRAS = 342
+VARIATIO = 798.335.201.664.000                                                             
+Build_By_Lay_2_Ipo em 02/02/2021_11:27
