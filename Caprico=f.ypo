@@ -1,0 +1,38 @@
+*-
+*- Caprico=f.Zod
+*-
+*-
+*- Capricórnio: de 22 de Dezembro a 20 de Janeiro
+*-
+|01|01|Carneiro=f_0101|F|1|1|Você tem|
+|01|02|Carneiro=f_0102|F|7|1|iniciativa|determinação|liderança|dons artísticos|um estilo moderno|tato|diplomacia|
+|01|03|Carneiro=f_0103|F|1|1|,|
+|02|01|Carneiro=f_0201|F|2|1|uma disposição a ser|a ambição de ser|
+|02|02|Carneiro=f_0202|F|9|2|perseverante|prática|esforçada|companheira|modesta|tranqüila|persistente|corajosa|objetiva|
+|03|01|Carneiro=f_0301|F|2|1|e está sempre|e vive|
+|03|02|Carneiro=f_0302|F|2|1|rodeada de|cercada de|
+|03|03|Carneiro=f_0303|F|3|1|amigos|família|valores|
+|03|04|Carneiro=f_0304|F|2|1|que lhe ajudam no caminho.|que tornam a vida mais fácil.|
+|04|00|
+|04|01|Carneiro=f_0401|F|1|1|É|
+|04|02|Carneiro=f_0402|F|11|8|exigente|reservada|perseverante|prática|esforçada|companheira|modesta|tranqüila|persistente|corajosa|objetiva|
+|04|03|Carneiro=f_0403|F|1|1|e|
+|04|04|Carneiro=f_0404|F|3|1|sente-se atraída por|percebe as|valoriza as|
+|04|05|Carneiro=f_0405|F|1|1|pessoas|
+|04|06|Carneiro=f_0406|F|6|4|sensíveis|intuitivas|carinhosas|conscientes|maduras|seguras|
+|04|07|Carneiro=f_0407|F|1|1|.|
+|05|00|
+|05|01|Carneiro=f_0501|F|1|1|Sempre com|
+|05|02|Carneiro=f_0502|F|6|1|novos projetos|iniciativa|diplomacia|bons conselhos|determinação|liderança|
+|05|03|Carneiro=f_0503|F|1|1|,|
+|06|01|Carneiro=f_0601|F|1|1|traz|
+|06|02|Carneiro=f_0602|F|4|1|energia|ânimo|entusiasmo|inspiração|
+|06|03|Carneiro=f_0603|F|1|1|para os amigos|
+|07|01|Carneiro=f_0701|F|2|1|sem nunca esquecer|sem nunca desistir|
+|07|02|Carneiro=f_0702|F|16|2|de reavivar seu lado criança|de inspirar confiança|de comunicar sua inteligência|de deixar a vida fluir|da seriedade em seus compromissos|das metas a serem alcançadas|da busca por resultados práticos|de construir algo duradouro|de comunicar seu despojamento|do valor da disciplina|do tempo próprio de cada coisa|de dar conta das dificuldades|de buscar o crescimento|de construir algo sólido|de conquistar seus objetivos|de amadurecer o seu prestígio|
+|07|03|Carneiro=f_0703|F|1|1|.|
+<EOF>
+VERBETES = 115
+PALAVRAS = 175
+COMBINAS = 459.841.536                                                                     
+Build_By_Lay_2_Ipo em 15/01/2021_17:36

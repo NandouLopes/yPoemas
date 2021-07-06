@@ -1,0 +1,57 @@
+*-
+*- Cartaz.ipo
+*-
+*-
+*- Obs: Manter |02|01| e |04|01| despareados para evitar repetidos
+*- Obs: Manter |05|01| e |05|04| despareados para evitar repetidos
+*-
+*- Em Piracicaba, uma casa simples,
+*- janela pra rua, uma pequena varanda
+*- e na porta uma placa pintada à mão:
+*- Mora-se um pedreiro.
+*-
+*- <fnt>Kids
+|01|01|Cartaz_0101|F|10|2|Consertam-se|Arrumam-se|Reformam-se|Concertam-se|Retificam-se|Dá-se um jeito em|Remendam-se|Modificam-se|Ratificam-se|Lustram-se|
+|01|02|Cartaz_0102|F|4|1|poemas|textos|versos|sonetos|
+|01|03|Cartaz_0103|T|15|12|do passado|com defeitos|antigos|vencidos|obsoletos|quebrados|nunca lidos|inacabados|esquecidos|em desuso|perdidos|de gaveta|descasados|mal feitos|anônimos|
+|01|04|Cartaz_0104|F|1|1|.|
+|02|00|
+|02|01|Cartaz_0201|F|21|7|Divisão|Polimento|Apuro|Encurtamento|Adequação|Mapeamento|Ajustes|Alinhamento|Tingimento|Revisão|Ornamento|Alongamento|Correição|Balanceamento|Modelagem|Enquadramento|Urdidura|Rastreamento|Desdobramento|Implante|Pontuação|
+|02|02|Cartaz_0202|F|1|1|de|
+|02|03|Cartaz_0203|F|19|10|poemas|textos|versos|quadras|sonetos|palavras|rimas|frases|estrofes|letras|neologismos|sílabas|sentenças|morfemas|antônimos|sofismas|profecias|trovas|sinônimos|
+|02|04|Cartaz_0204|F|1|1|,|
+|03|01|Cartaz_0301|T|21|6|revisão|polimento|apuro|encurtamento|adequação|mapeamento|ajustes|alinhamento|tingimento|ornamento|alongamento|correição|balanceamento|divisão|modelagem|enquadramento|urdidura|rastreamento|desdobramento|implante|pontuação|
+|03|02|Cartaz_0202|F|1|1|de|
+|03|03|Cartaz_0203|T|19|9|poemas|textos|versos|quadras|sonetos|palavras|rimas|frases|estrofes|letras|neologismos|sílabas|sentenças|morfemas|antônimos|sofismas|profecias|trovas|sinônimos|
+|03|04|Cartaz_0304|F|1|1|,|
+|04|01|Cartaz_0401|T|24|11|polimento|apuro|encurtamento|adequação|mapeamento|ajustes|alinhamento|tingimento|revisão|ornamento|maquiagem|alongamento|correição|balanceamento|modelagem|enquadramento|urdidura|rastreamento|implante|desdobramento|convergência|psicanálise|ressonância|calibragem|
+|04|02|Cartaz_0402|T|24|1|de métrica|de verbos|de vocabulário|de concordâncias|de dialetos|de adjetivos|de sintaxes|de ditos|de provérbios|de palavreados|de sinais|de verbosidades|de discrepâncias|de advérbios|de estribilhos|de redundâncias|de antônimos|de vírgulas|de adendos|de cadências|de parônimos|de retórica|de acentos|de aliterações|
+|05|01|Cartaz_0501|F|11|10|e grande variedade|e farto estoque|e vasta variedade|e uma gama enorme|e vasto estoque|e grande oferta|e vasto leque|e vasta oferta|e farto leque|e enorme cabedal|e amplo mostruário|
+|05|03|Cartaz_0202|F|1|1|de|
+|05|04|Cartaz_0504|F|10|5|palavras|rimas|estrofes|letras|gírias|sílabas|frases|sintaxes|sentenças|falácias|
+|05|05|Cartaz_0505|F|1|1|:|
+|06|01|Cartaz_0601|F|31|14|antigas|nacionais|modernas|raras|piegas|importadas|simples|solenes|banais|frequentes|sinônimas|pobres|atemporais|inexistentes|mágicas|inventadas|inocentes|antagônicas|recicladas|requintadas|elegantes|arcaicas|vagas|sóbrias|vulgares|sofisticadas|impávidas|sábias|graciosas|virtuoses|rebuscadas|
+|06|02|Cartaz_0602|F|1|1|,|
+|06|03|Cartaz_0603|T|21|15|exóticas|épicas|excêntricas|lúdicas|ferinas|absurdas|futuristas|floridas|puras|cultas|óbvias|precisas|atípicas|dúbias|polidas|chulas|líricas|gratuitas|traduzidas|fidedignas|luzidias|
+|06|04|Cartaz_0604|F|1|1|,|
+|07|01|Cartaz_0601|T|31|15|antigas|nacionais|modernas|raras|piegas|importadas|simples|solenes|banais|frequentes|sinônimas|pobres|atemporais|inexistentes|mágicas|inventadas|inocentes|antagônicas|recicladas|requintadas|elegantes|arcaicas|vagas|sóbrias|vulgares|sofisticadas|impávidas|sábias|graciosas|virtuoses|rebuscadas|
+|07|02|Cartaz_0702|F|2|1|e|ou|
+|07|03|Cartaz_0603|T|21|21|exóticas|épicas|excêntricas|lúdicas|ferinas|absurdas|futuristas|floridas|puras|cultas|óbvias|precisas|atípicas|dúbias|polidas|chulas|líricas|gratuitas|traduzidas|fidedignas|luzidias|
+|07|04|Cartaz_0704|F|1|1|.|
+|08|00|
+|08|01|Cartaz_0801|F|3|3|Descontos|Preços|Valores|
+|08|02|Cartaz_0802|F|9|1|especiais|reduzidos|promocionais|exclusivos|sazonais|extras|ocasionais|de lançamento|incríveis|
+|09|01|Cartaz_0901|F|4|1|apenas para|válidos para|somente para|para|
+|09|02|Cartaz_0902|F|16|15|estudantes|aposentados|iniciantes|amadores|graduados|poliglotas|sonâmbulos|anjos|boêmios|esquimós|iletrados|lunáticos|estafetas|advogados|amantes|estrangeiros|
+|09|03|Cartaz_0903|F|1|1|e|
+|09|04|Cartaz_0904|T|19|11|ministros|tímidos|malabaristas|bolsistas|faquires|andarilhos|políticos|pensionistas|suicidas|bailarinas|imortais|bissextos|cardíacos|similares|eremitas|alienígenas|indecisos|anões-de-jardim|virgens|
+|09|05|Cartaz_0905|F|1|1|.|
+|10|00|
+|10|01|Cartaz_1001|F|9|7|Fazemos engenharia reversa|Não aceitamos cartões de crédito|Agende uma visita em sigilo|Agora sob nova direção|Garantia válida por três meses|Temos gabaritos de vários concursos|Não devolvemos os originais|Parcelamos em até seis vezes|Traduzimos para qualquer idioma|
+|10|02|Cartaz_1002|F|1|1|.|
+<EOF>
+CATAPALA = 34
+VERBETES = 272
+PALAVRAS = 439
+VARIATIO = 1.323.528.195.513.169.000.000.000                                               
+Build_By_Lay_2_Ipo em 02/02/2021_11:19
