@@ -358,42 +358,42 @@ def page_home():
 
     if session_state.lang == "pt":
         last = last.button("◀", help = "anterior")
-        rand = rand.button("❇", help = "escolhe tema ao acaso")
+        rand = rand.button("✳", help = "escolhe tema ao acaso")
         nest = nest.button("▶", help = "próximo")
         bar_help = "barra de temas"
     elif session_state.lang == "es":
         last = last.button("◀", help = "anterior")
-        rand = rand.button("❇", help = "elige un tema al azar")
+        rand = rand.button("✳", help = "elige un tema al azar")
         nest = nest.button("▶", help = "próximo")
         bar_help = "barra de temas"
     elif session_state.lang == "it":
         last = last.button("◀", help = "precedente")
-        rand = rand.button("❇", help = "scegliere un tema a caso")
+        rand = rand.button("✳", help = "scegliere un tema a caso")
         nest = nest.button("▶", help = "prossimo")
         bar_help = "barra dei temi"
     elif session_state.lang == "fr":
         last = last.button("◀", help = "précédent")
-        rand = rand.button("❇", help = "choisir le thème au hasard")
+        rand = rand.button("✳", help = "choisir le thème au hasard")
         nest = nest.button("▶", help = "prochain")
         bar_help = "barre à thèmes"
     elif session_state.lang == "en":
         last = last.button("◀", help = "last")
-        rand = rand.button("❇", help = "pick theme at random")
+        rand = rand.button("✳", help = "pick theme at random")
         nest = nest.button("▶", help = "next")
         bar_help = "themes bar"
     elif session_state.lang == "ca":
         last = last.button("◀", help = "anterior")
-        rand = rand.button("❇", help = "tria un tema a l'atzar")
+        rand = rand.button("✳", help = "tria un tema a l'atzar")
         nest = nest.button("▶", help = "següent")
         bar_help = "barra de temes"
     elif session_state.lang == "de":
         last = last.button("◀", help = "letzte")
-        rand = rand.button("❇", help = "ändert das thema zufällig")
+        rand = rand.button("✳", help = "ändert das thema zufällig")
         nest = nest.button("▶", help = "nächster")
         bar_help = "Themenleiste"
     else:  # for new languages...
         last = last.button("◀", help = "last")
-        rand = rand.button("❇", help = "pick theme at random")
+        rand = rand.button("✳", help = "pick theme at random")
         nest = nest.button("▶", help = "next")
         bar_help = "barra de temas"
 
