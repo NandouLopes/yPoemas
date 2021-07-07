@@ -308,7 +308,16 @@ def page_abouts():
 
     show_expander = st.beta_expander("", True)
     with show_expander:
-        st.subheader(load_file(this + ".md"))
+        if this == "machina":
+            st.subheader(load_file("MACHINA.md"))
+        if this == "bibliografia":
+            st.subheader(load_file("BIBLIOGRAFIA.md"))
+        if this == "traduttore":
+            st.subheader(load_file("TRADUTTORE.md"))
+        if this == "index":
+            st.subheader(load_file("INDEX.md"))
+        if this == "outros":
+            st.subheader(load_file("OUTROS.md"))
 
 
 def page_license():
