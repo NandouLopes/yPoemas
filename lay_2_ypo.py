@@ -215,10 +215,6 @@ def gera_poema(nome_tema):  # abrir um script.ypo e gerar um novo texto
         print(lista_errata)
     else:
         # reconstrói o script com novas posições
-        
-        # rebuild = nome_tema + ".ypo"
-        # with open(os.path.join("./data/" + rebuild), "w", encoding = "utf-8") as save_lypo:
-        
         with open(os.path.join("./data/" + nome_tema + ".ypo"), "w", encoding = "utf-8") as file:
             for linha in lista_header:
                 file.write(linha)
@@ -319,7 +315,7 @@ def load_cidade_fato():
     :return: alguma cidade do arquivo fatos_cidades.txt
     """
     cidades = []
-    with open(os.path.join("./data/fatos_cidades.txt"), "r") as file:
+    with open(os.path.join("./data/fatos_cidades.txt"), encoding = "utf8") as file:
         for line in file:
             cidades.append(line)
         file.close()
@@ -336,7 +332,7 @@ def fala_cidade():
     """
     cidades = []
     # cidade_pais.txt ## não conseguiu abrir o codec !!!
-    with open(os.path.join("./data/fatos_cidades.txt"), "r") as file:
+    with open(os.path.join("./data/fatos_cidades.txt"), encoding = "utf8") as file:
         for line in file:
             cidades.append(line)
         file.close()
