@@ -108,7 +108,7 @@ def load_file(file):  # Open files for about's
         with open("LICENSE.md", encoding = "utf8") as f:
             file_text = f.read()
     else:  ## ./data
-        with open(os.path.join("/data/" + file), encoding = "utf8") as f:
+        with open(os.path.join("./data/" + file), encoding = "utf8") as f:
             file_text = f.read()
 
     if (file not in "THEMES.md_index.md"):  # >5000 chars not alowed in translator
@@ -132,7 +132,7 @@ def load_tems(book):  # List of yPoemas' themes inside a Book
 @st.cache(allow_output_mutation = True)
 def load_index():  # Load indexes for all themes
     index_list = []
-    with open(os.path.join("/data/index.txt"), encoding = "utf-8") as lista:
+    with open(os.path.join("./data/index.txt"), encoding = "utf-8") as lista:
         for line in lista:
             index_list.append(line)
     return index_list
@@ -141,7 +141,7 @@ def load_index():  # Load indexes for all themes
 def load_lypo():  # load last yPoema & clean translator returned text
     lypo_text = ""
     lypo_user = "LYPO_" + user_IP
-    with open(os.path.join("/temp/" + lypo_user), encoding = "utf-8") as script:
+    with open(os.path.join("./temp/" + lypo_user), encoding = "utf-8") as script:
         for line in script:
             line = line.strip()
             line = line.replace("< br>", "<br>")
@@ -155,7 +155,7 @@ def load_lypo():  # load last yPoema & clean translator returned text
 def load_typo():  # load translated yPoema & clean translator returned text
     typo_text = ""
     typo_user = "TYPO_" + user_IP
-    with open(os.path.join("/temp/" + typo_user), encoding = "utf-8") as script:
+    with open(os.path.join("./temp/" + typo_user), encoding = "utf-8") as script:
         for line in script:
             line = line.strip()
             line = line.replace("< br>", "<br>")
@@ -173,7 +173,7 @@ def load_poema():  # generate new yPoema & save a copy of last generated in LYPO
     novo_ypoema = ""
     lypo_user = "LYPO_" + user_IP
 
-    with open(os.path.join("/temp/" + lypo_user), "w", encoding = "utf-8") as save_lypo:
+    with open(os.path.join("./temp/" + lypo_user), "w", encoding = "utf-8") as save_lypo:
         # save_lypo.write(nome_tema + '\n')  ## include title of yPoema in first line
         for line in script:
             if line == "\n":
