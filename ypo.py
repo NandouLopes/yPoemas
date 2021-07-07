@@ -104,17 +104,17 @@ def main():
 # bof: loaders
 # @st.cache(allow_output_mutation = True)
 def load_file(file):  # Open files for about's
-    if file == "LICENSE.md":  ## ./ypo
-        with open("LICENSE.md", encoding = "utf8") as f:
-            file_text = f.read()
-    else:  ## ./data
-        with open(os.path.join("./data/" + file), encoding = "utf8") as f:
+    # if isfile(file)
+    try:
+        with open(os.path.join(file), encoding = "utf8") as f:
             file_text = f.read()
 
-    if (file not in "THEMES.md_index.md"):  # >5000 chars not alowed in translator
-        if not ".rol" in file:  # and...don't want to translate original titles.
-            file_text = translate(file_text)
-
+        if file != "index.md":  # and...don't want to translate original titles.
+            if not ".rol" in file:
+                file_text = translate(file_text)
+    except:
+        file_text = "ooops... arquivo ( " + file + " ) não pode ser aberto. Sorry."
+        
     return file_text
 
 
@@ -173,7 +173,7 @@ def load_poema():  # generate new yPoema & save a copy of last generated in LYPO
     novo_ypoema = ""
     lypo_user = "LYPO_" + user_IP
 
-    with open(os.path.join(".//" + lypo_user), "w", encoding = "utf-8") as save_lypo:
+    with open(os.path.join("./temp/" + lypo_user), "w", encoding = "utf-8") as save_lypo:
         # save_lypo.write(nome_tema + '\n')  ## include title of yPoema in first line
         for line in script:
             if line == "\n":
@@ -324,6 +324,7 @@ temas_list = load_tems(session_state.book)
 
 
 def page_home():
+    st.write("")
     st.sidebar.image('./img_home.jpg')
     # i1, i2, i3, i4, i5, i6, i7, last, rand, nest, numb, manu = st.beta_columns(
     #     [.9, .9, .85, .85, .9, .9, 1.4, .9, 1, 1.4, 0.9, 0.9]  # what a mess...
