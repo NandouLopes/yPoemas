@@ -106,7 +106,7 @@ def main():
 def load_file(file):  # Open files for about's
     # if isfile(file)
     try:
-        with open(os.path.join("./", file), encoding = "utf-8") as f:
+        with open(os.path.join("./" + file), encoding = "utf-8") as f:
             file_text = f.read()
 
         if file != "index.md":  # and...don't want to translate original titles.
