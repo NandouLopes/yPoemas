@@ -6,12 +6,11 @@ ___
 > - ao mudar de idioma, será mostrada a tradução do texto que está na tela.
 > - um novo clic no mesmo idioma irá gerar um novo yPoema para o tema.
 
-**ao lado dos idiomas estão os botões de navegação**
+**e os botões**
 > - ◀ = move para o tema anterior
 > - ❇ = escolhe um tema aleatoriamente
 > - ▶ = move para o próximo tema
 
-**e os botões**
 > - ☁  = mostra a quantidade de variações possíveis para o tema  
 >> - (clique para ver uma nuvem de palavras)  
 >> - (a cada clique uma nova nuvem será gerada)  
