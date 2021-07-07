@@ -325,8 +325,10 @@ temas_list = load_tems(session_state.book)
 
 def page_home():
     st.sidebar.image('./img_home.jpg')
-    i1, i2, i3, i4, i5, i6, i7, last, rand, nest, numb, manu = st.beta_columns(
-        [.9, .9, .85, .85, .9, .9, 1.4, .9, 1, 1.4, 0.9, 0.9]  # what a mess...
+    # i1, i2, i3, i4, i5, i6, i7, last, rand, nest, numb, manu = st.beta_columns(
+    #     [.9, .9, .85, .85, .9, .9, 1.4, .9, 1, 1.4, 0.9, 0.9]  # what a mess...
+    i0, i1, i2, i3, i4, i5, i6, i7, i8 = st.beta_columns(
+        [3, 1, 1, 1, 1, 1, 1, 1, 3]  # what a mess...
     )
     i1 = i1.button("pt", help = "Português")
     i2 = i2.button("es", help = "Español")
@@ -350,6 +352,9 @@ def page_home():
         session_state.lang = "de"
     elif i7:
         session_state.lang = "ca"
+
+    b0, last, rand, nest, numb, manu, b1 = st.beta_columns(
+        [4, 1, 1, 2, 1, 1, 4] ) # what a mess...
 
     if session_state.lang == "pt":
         last = last.button("◀", help = "anterior")
