@@ -102,7 +102,7 @@ def main():
 
 
 # bof: loaders
-@st.cache(allow_output_mutation = True)
+# @st.cache(allow_output_mutation = True)
 def load_file(file):  # Open files for about's
     if file == "LICENSE.md":  ## ./ypo
         with open("LICENSE.md", encoding = "utf8") as f:
@@ -173,7 +173,7 @@ def load_poema():  # generate new yPoema & save a copy of last generated in LYPO
     novo_ypoema = ""
     lypo_user = "LYPO_" + user_IP
 
-    with open(os.path.join("./temp/" + lypo_user), "w", encoding = "utf-8") as save_lypo:
+    with open(os.path.join(".//" + lypo_user), "w", encoding = "utf-8") as save_lypo:
         # save_lypo.write(nome_tema + '\n')  ## include title of yPoema in first line
         for line in script:
             if line == "\n":
