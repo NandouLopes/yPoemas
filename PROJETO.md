@@ -1,9 +1,11 @@
-Este é um projeto aberto e todos
-são bem-vindos para **contribuir**
-com comentários, sugestões, novas ideias,
-temas e palavras. Elogios e críticas
-(porque não?) também serão bem-vindos.
-Compartilhe, divulgue, participe.  
+**yPoemas** são textos e poemas
+gerados aleatoriamente pela 
+**machina de fazer Poesia**.
+
+Todos os textos são únicos
+e só se repetirão após esgotadas
+as milhares de combinações
+possíveis à cada tema.
 
 Contato: [Nando Lopes]
 (mailto:lopes.fernando@hotmail.com.br)
