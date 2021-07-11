@@ -1,12 +1,16 @@
 """
 
-yPoems is an app that randomly collects words and phrases
+yPoemas is an app that randomly collects words and phrases
 from specific databases and organizes them
-in thousands of new poems or poetic texts.
+in different new poems or poetic texts.
 
-It's a slightly different project from the data science
-and ML works I see on the web.
-I believe it can be a good example of Streamlit's possibilities.
+It's a slightly different project from the data science, NLP
+and ML works I see around.
+I believe it can be one more example of Streamlit's possibilities.
+
+All texts are unique and will only be repeated  
+after they are sold out the thousands  
+of combinations possible to each theme.
 
 LYPO == Last YPOema created from curr_ypoema
 TYPO == Translated Ypoema from LYPO
@@ -337,7 +341,7 @@ def page_home():
     # i1, i2, i3, i4, i5, i6, i7, last, rand, nest, numb, manu = st.beta_columns(
     #     [.9, .9, .85, .85, .9, .9, 1.4, .9, 1, 1.4, 0.9, 0.9]  # what a mess...
     i0, i1, i2, i3, i4, i5, i6, i7, i8 = st.beta_columns(
-        [3, 1, 1, 1, 1, 1, 1, 1, 3]  # what a mess...
+        [4, 1, 1, 1, 1, 1, 1, 1, 4]  # what a mess...
     )
     i1 = i1.button("pt", help = "Português")
     i2 = i2.button("es", help = "Español")
@@ -363,7 +367,7 @@ def page_home():
         session_state.lang = "ca"
 
     b0, last, rand, nest, numb, manu, b1 = st.beta_columns(
-        [4, 1, 1, 2, 1, 1, 4] ) # what a mess...
+        [4, 1, 1, 1, 1, 1, 4] ) # what a mess...
 
     if session_state.lang == "pt":
         last = last.button("◀", help = "anterior")
