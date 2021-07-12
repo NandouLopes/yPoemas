@@ -340,18 +340,16 @@ def page_home():
     st.write("")
     st.sidebar.image('./img_home.jpg')
     
-    poemas_idiom = st.beta_expander('', expanded = True)
-    with poemas_idiom:
-        i0, i1, i2, i3, i4, i5, i6, i7 = st.beta_columns(
-            [.3, 1, 1, 1, 1, 1, 1, 1]  # what a mess...
-        )
-        i1 = i1.button("pt", help = "Português")
-        i2 = i2.button("es", help = "Español")
-        i3 = i3.button("it", help = "Italiano")
-        i4 = i4.button("fr", help = "Français")
-        i5 = i5.button("en", help = "English")
-        i6 = i6.button("de", help = "Deutsche")
-        i7 = i7.button("ca", help = "Català")
+    i0, i1, i2, i3, i4, i5, i6, i7 = st.beta_columns(
+        [.3, 1, 1, 1, 1, 1, 1, 1]  # what a mess...
+    )
+    i1 = i1.button("pt", help = "Português")
+    i2 = i2.button("es", help = "Español")
+    i3 = i3.button("it", help = "Italiano")
+    i4 = i4.button("fr", help = "Français")
+    i5 = i5.button("en", help = "English")
+    i6 = i6.button("de", help = "Deutsche")
+    i7 = i7.button("ca", help = "Català")
 
     if i1:
         session_state.lang = "pt"
