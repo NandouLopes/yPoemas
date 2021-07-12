@@ -342,8 +342,8 @@ def page_home():
     
     poemas_idiom = st.beta_expander('', expanded = True)
     with poemas_idiom:
-        i0, i1, i2, i3, i4, i5, i6, i7, i8 = st.beta_columns(
-            [4, 1, 1, 1, 1, 1, 1, 1, 4]  # what a mess...
+        i0, i1, i2, i3, i4, i5, i6, i7 = st.beta_columns(
+            [.3, 1, 1, 1, 1, 1, 1, 1]  # what a mess...
         )
         i1 = i1.button("pt", help = "Português")
         i2 = i2.button("es", help = "Español")
@@ -368,8 +368,8 @@ def page_home():
     elif i7:
         session_state.lang = "ca"
 
-    b0, last, rand, nest, numb, manu, b1 = st.beta_columns(
-        [4, 1, 1, 1, 1, 1, 4] ) # what a mess...
+    i0, last, rand, nest, numb, manu = st.beta_columns(
+        [.55, 1, 1, 1, 1, 1] ) # what a mess...
 
     if session_state.lang == "pt":
         last = last.button("◀", help = "anterior")
