@@ -8,4 +8,4 @@ as milhares de combinações
 possíveis à cada tema.
 
 Contato: [Nando Lopes]
-(mailto:lopes.fernando@hotmail.com.br)
+(https://www.facebook.com/nandoulopes)
