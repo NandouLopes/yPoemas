@@ -5,7 +5,7 @@ ___
 
 **Visão geral**
 > O trabalho é dividido em temas.  
-> Com um total aproximado de 35.275 palavras **[obs]**,  
+> Com um total aproximado de 35.432 palavras **[obs]**,  
 > são criados "Bancos de Palavras" para cada tema.  
 
 > Escolhido um tema, o aplicativo seleciona e mistura aleatoriamente  
@@ -73,9 +73,9 @@ ___
 > Uma vez gerado, o texto é descartado e só se repetirá  
   quando esgotadas todas as variações e combinações possíveis à ele.
   
-**[obs] - cerca de 12.080 verbetes únicos**
+**[obs] - cerca de 12.092 verbetes únicos**
 >  foram excluídos dessas contagens verbetes com menos de 3 sílabas.  
 >  exemplos: o, a, à, e, é, os, as, de, da, do, eu, ao, em, um etc...
-
+>  no total de palavras incluem-se 724 em inglês. (temas: HayKay e Jealousy)
 
 Copyright © 2021 Nando Lopes - yPoemas @ "machina" de fazer Poesia
