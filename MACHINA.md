@@ -5,7 +5,7 @@ ___
 
 **Visão geral**
 > O trabalho é dividido em temas.  
-> Com um léxico aproximado de 35.400 palavras **[obs]**,  
+> Com um total aproximado de 35.400 palavras **[obs]**,  
 > são criados "Bancos de Palavras" para cada tema.  
 
 > Escolhido um tema, o aplicativo seleciona e mistura aleatoriamente  
