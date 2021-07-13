@@ -75,7 +75,7 @@ ___
   
 **[obs] - cerca de 12.092 verbetes únicos**
 >  foram excluídos dessas contagens verbetes com menos de 3 sílabas.  
->  exemplos: o, a, à, e, é, os, as, de, da, do, eu, ao, em, um etc...
+>  exemplos: o, a, à, e, é, os, as, de, da, do, eu, ao, em, um etc...  
 >  no total de palavras incluem-se 724 em inglês. (temas: HayKay e Jealousy)
 
 Copyright © 2021 Nando Lopes - yPoemas @ "machina" de fazer Poesia
