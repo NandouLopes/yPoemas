@@ -210,8 +210,6 @@ def status_leituras():
         format_func=lambda x: escritas[x],
         )
     seed_tema = selected[opt_leituras]
-    print(opt_leituras, seed_tema)
-    # st.session_state.take = selected.index[opt_leituras]
     tag_cloud(tag_text)
     return escritas
 
@@ -324,6 +322,7 @@ def last_next(updn):  # handle last, random and next theme
             st.session_state.take = last_tema
     else:
         st.session_state.take = random.randrange(0, last_tema, 1)
+    # print(st.session_state.take, " --- last_next")
     return st.session_state.take
 
 
@@ -656,19 +655,23 @@ def page_ypoemas():
 
     if lnew:
         options = list(range(len(temas_list)))
+        # print(st.session_state.take, " --- antes")
         opt_ypoema = st.selectbox(
             "",
             options,
+            index=int(st.session_state.take),
             format_func=lambda x: temas_list[x],
         )
-        st.session_state.take = opt_ypoema
-
+        # print(st.session_state.take, " --- depois")
+        # st.session_state.take = temas_list[opt_ypoema]
+        
+        this_take = st.session_state.take + 1
         info = (
             st.session_state.lang
             + " ( "
             + st.session_state.book
             + " ) ( "
-            + str(st.session_state.take + 1)
+            + str(this_take)
             + "/"
             + str(len(temas_list))
             + " )"
@@ -694,7 +697,7 @@ def page_ypoemas():
                     save_typo.write(curr_ypoema)
                     save_typo.close()
                 curr_ypoema = load_typo()  # to normalize line breaks in text
-
+            # st.subheader(temas_list[st.session_state.take])
             st.markdown(curr_ypoema, unsafe_allow_html=True)  # finally... write it
             update_leituras(temas_list[st.session_state.take].strip())
 
