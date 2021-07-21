@@ -79,7 +79,7 @@
 |Meteoro|0|
 |Minuto|3|
 |Mirante|1|
-|Neobrazil|19|
+|Neobrazil|11|
 |Niver|0|
 |Nonono|0|
 |Oca|0|
@@ -99,7 +99,7 @@
 |Pessoa|7|
 |Portal|0|
 |Posfácio|0|
-|Prefácil|48|
+|Prefácil|37|
 |Psiume|0|
 |Reclame|5|
 |Reger|0|
