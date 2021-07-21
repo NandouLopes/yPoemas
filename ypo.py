@@ -564,6 +564,7 @@ temas_list = load_tems(st.session_state.book)
 
 
 def page_ypoemas():
+
     st.write("")
     st.sidebar.image("./img_home.jpg")
     i0, i1, i2, i3, i4, i5, i6, i7, i8 = st.beta_columns(
@@ -654,23 +655,23 @@ def page_ypoemas():
         tag_cloud()
 
     if lnew:
+        options = list(range(len(temas_list)))
+        opt_ypoema = st.selectbox(
+            "",
+            options,
+            format_func=lambda x: temas_list[x],
+        )
+        st.session_state.take = opt_ypoema
+
         info = (
             st.session_state.lang
             + " ( "
             + st.session_state.book
             + " ) ( "
             + str(st.session_state.take + 1)
-            + "./"
+            + "/"
             + str(len(temas_list))
             + " )"
-        )
-
-        options = list(range(len(temas_list)))
-        st.session_state.take = st.selectbox(
-            "",
-            options,
-            format_func=lambda x: temas_list[x],
-            index=st.session_state.take,
         )
 
         ypoemas_expander = st.beta_expander(info, expanded=True)
