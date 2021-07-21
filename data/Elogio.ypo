@@ -4,21 +4,21 @@
 *- Elogio à Vida: o mundo segundo Zenilda Lua
 *- (projetado para ser inesquecível)
 *-
-|01|01|Elogio_0101|F|10|3|Preenchida de vazio|Sem a razão em desalinho|Anunciante de auroras|Exilada de teorias|No mover dos assuntos|Mãos que pesquisam a alma|Coração em rebuliço|Em estado de desassossego|Rajada de alegria profética|Na barra do desconhecido|
+|01|01|Elogio_0101|F|10|5|Preenchida de vazio|Sem a razão em desalinho|Anunciante de auroras|Exilada de teorias|No mover dos assuntos|Mãos que pesquisam a alma|Coração em rebuliço|Em estado de desassossego|Rajada de alegria profética|Na barra do desconhecido|
 |02|01|Elogio_0201|F|1|1|por|
-|02|02|Elogio_0202|T|20|10|excesso de renovo|excesso de afinidades|correnteza estranha|suavidade do estranhamento|mistérios da finitude|alvoroço cardíaco|felicidade bruta|semeadura de ecos|dilúvio de padecimento|alquimia de desejos|tratos com o infinito|senso de raridade|virose amorosa|estoque de contenteza vital|sentimentos de fazer companhia|vazio impoetizável|amor universal|contenteza genuína dos encontros|metáforas celestes|silêncio decifrado|
+|02|02|Elogio_0202|T|20|15|excesso de renovo|excesso de afinidades|correnteza estranha|suavidade do estranhamento|mistérios da finitude|alvoroço cardíaco|felicidade bruta|semeadura de ecos|dilúvio de padecimento|alquimia de desejos|tratos com o infinito|senso de raridade|virose amorosa|estoque de contenteza vital|sentimentos de fazer companhia|vazio impoetizável|amor universal|contenteza genuína dos encontros|metáforas celestes|silêncio decifrado|
 |02|03|Elogio_0203|F|1|1|...|
 |03|00|
-|03|01|Elogio_0301|T|21|17|decretar certeza|existir diferente|abraçar sem sigilo|sofrer de poesia|cavoucar ocasos|resolver agudos|amar sem cotas|sorrir sem cautela|açucarar as tardes|alcançar tais mistérios|amar sem intervalos|colecionar afetos|sustentar com carinhos|sobrevoar o futuro|permear realidades|reacender certezas|amar sem vigília|pegar o tempo de surpresa|tanger alegrias miúdas|semear aromas de bondade|ofertar saberes|
+|03|01|Elogio_0301|T|21|19|decretar certeza|existir diferente|abraçar sem sigilo|sofrer de poesia|cavoucar ocasos|resolver agudos|amar sem cotas|sorrir sem cautela|açucarar as tardes|alcançar tais mistérios|amar sem intervalos|colecionar afetos|sustentar com carinhos|sobrevoar o futuro|permear realidades|reacender certezas|amar sem vigília|pegar o tempo de surpresa|tanger alegrias miúdas|semear aromas de bondade|ofertar saberes|
 |03|02|Elogio_0302|F|1|1|e,|
-|04|01|Elogio_0401|T|22|14|na agoridade de cada minuto|sem economia de afetos|com o que cabe no breve|feito elixir de auroras|na quietude do aguardo|sem momentos obsoletos|com a alma em advertência|em porções abundantes|na metade do céu|pela luz das coisas instintivas|com palavras ocupando o vento|no carossel dos acontecimentos|num gabarito lírico|tal aço fino do destino|imprecisa como a noite|qual invenção de girassol|sem apoucar saídas|no portal das delicadezas|sem algemas invisíveis|com flores nos olhos|do céu onde a lua escorre|projetado para ser inesquecível|
+|04|01|Elogio_0401|T|22|1|na agoridade de cada minuto|sem economia de afetos|com o que cabe no breve|feito elixir de auroras|na quietude do aguardo|sem momentos obsoletos|com a alma em advertência|em porções abundantes|na metade do céu|pela luz das coisas instintivas|com palavras ocupando o vento|no carossel dos acontecimentos|num gabarito lírico|tal aço fino do destino|imprecisa como a noite|qual invenção de girassol|sem apoucar saídas|no portal das delicadezas|sem algemas invisíveis|com flores nos olhos|do céu onde a lua escorre|projetado para ser inesquecível|
 |04|02|Elogio_0402|F|1|1|,|
-|05|01|Elogio_0501|F|9|8|diminuir a solidão do mundo|alegrar-se com o desconhecido|pontilhar a escuridão de verde|tecer saudade no tempo|guardar tudo num abraço|emprestar voz para o silêncio|aprender a criar esperança|embrenhar amar no querer|botar som e cor nos sentidos|
+|05|01|Elogio_0501|F|9|2|diminuir a solidão do mundo|alegrar-se com o desconhecido|pontilhar a escuridão de verde|tecer saudade no tempo|guardar tudo num abraço|emprestar voz para o silêncio|aprender a criar esperança|embrenhar amar no querer|botar som e cor nos sentidos|
 |05|02|Elogio_0502|F|1|1|.|
 |06|00|
 |06|01|Elogio_0601|F|1|1|( Palavras de Zenilda Lua )|
 <EOF>
-CATAPALA = 30
+CATAPALA = 28
 VERBETES = 202
 PALAVRAS = 292
 VARIATIO = 831.600                                                                         

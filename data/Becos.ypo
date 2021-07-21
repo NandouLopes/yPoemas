@@ -9,29 +9,29 @@
 *- |04|02|BEC_0402|singular+plural|
 *-
 |01|01|Becos_0101|F|1|1|A olhos|
-|01|02|Becos_0102|T|8|8|vesgos|tolos|vistos|cegos|vastos|tortos|vãos|toscos|
-|01|03|Becos_0103|T|6|6|se ouvia|imagine-se|se sabia|se veria|deduzia-se|se vendia|
-|02|01|Becos_0201|F|6|4|uma ou duas taças de|um copo plástico de|uma bela dose de|uma ou outra taça de|um trago farto de|um punhado de|
-|02|02|Becos_0202|F|10|9|vinho|cio|sonho|ressaca|ócio|tédio|cachaça|alegria|coragem|festa|
+|01|02|Becos_0102|T|8|2|vesgos|tolos|vistos|cegos|vastos|tortos|vãos|toscos|
+|01|03|Becos_0103|T|6|2|se ouvia|imagine-se|se sabia|se veria|deduzia-se|se vendia|
+|02|01|Becos_0201|F|6|3|uma ou duas taças de|um copo plástico de|uma bela dose de|uma ou outra taça de|um trago farto de|um punhado de|
+|02|02|Becos_0202|F|10|10|vinho|cio|sonho|ressaca|ócio|tédio|cachaça|alegria|coragem|festa|
 |03|00|
-|03|01|Becos_0301|F|5|2|onde mal brotavam|onde só se viam|onde mal haviam|onde só haviam|onde mal se viam|
-|04|01|Becos_0401|F|26|10|traços|cópias|restos|pedaços|raios|cacos|vestígios|rastros|goles|resquícios|mapas|carentes|sopros|famintos|imagens|plágios|onomatopéias|imitações|reflexos|rasgos|fiapos|poeiras|finais|sombras|retratos|destroços|
-|04|02|Becos_0402|F|11|11|de carinho|de utopia|de escárnio|de euforia|de caminho|de boemia|de farra|de insônia|de noite|de solidão|de nirvana|
+|03|01|Becos_0301|F|5|3|onde mal brotavam|onde só se viam|onde mal haviam|onde só haviam|onde mal se viam|
+|04|01|Becos_0401|F|26|17|traços|cópias|restos|pedaços|raios|cacos|vestígios|rastros|goles|resquícios|mapas|carentes|sopros|famintos|imagens|plágios|onomatopéias|imitações|reflexos|rasgos|fiapos|poeiras|finais|sombras|retratos|destroços|
+|04|02|Becos_0402|F|11|3|de carinho|de utopia|de escárnio|de euforia|de caminho|de boemia|de farra|de insônia|de noite|de solidão|de nirvana|
 |05|00|
-|05|01|Becos_0501|F|13|2|e garrafas de vidro|e caras de farsa|e sobras de vida|e latinhas de alumínio|e gentes e mais gentes|e cenas da cidade|e vistas do caos|e luzes do sol|e falhas humanas|e ilhas em ilhas|e hordas de luxo|e margens virtuais|e ganas de magia|
+|05|01|Becos_0501|F|13|9|e garrafas de vidro|e caras de farsa|e sobras de vida|e latinhas de alumínio|e gentes e mais gentes|e cenas da cidade|e vistas do caos|e luzes do sol|e falhas humanas|e ilhas em ilhas|e hordas de luxo|e margens virtuais|e ganas de magia|
 |05|02|Becos_0502|F|1|1|,|
-|06|01|Becos_0601|T|17|13|caídas|cortantes|vadias|caladas|assombradas|mundanas|incertas|ambíguas|perdidas|ávidas|carentes|sem destino|emboscadas|mutantes|veladas|despertas|clandestinas|
-|06|02|Becos_0602|F|4|2|como|feito|tal qual|igual|
-|06|03|Becos_0603|F|13|1|mensagens|fotografias|breu|amanhãs|segundas-feiras|tomografias|as tardes|fobias|um cenário|fantasmas|impasses|as manhãs|equinócios|
+|06|01|Becos_0601|T|17|11|caídas|cortantes|vadias|caladas|assombradas|mundanas|incertas|ambíguas|perdidas|ávidas|carentes|sem destino|emboscadas|mutantes|veladas|despertas|clandestinas|
+|06|02|Becos_0602|F|4|3|como|feito|tal qual|igual|
+|06|03|Becos_0603|F|13|8|mensagens|fotografias|breu|amanhãs|segundas-feiras|tomografias|as tardes|fobias|um cenário|fantasmas|impasses|as manhãs|equinócios|
 |07|00|
 |07|01|Becos_0701|F|1|1|entre|
-|07|02|Becos_0702|T|34|2|vícios|o passeio|papéis|calçadas|testemunhas|cacos|entes|goles|"eus"|acácias|asfalto|isso|o dia|os presentes|lua|pardais|vielas|transeuntes|indigentes|o beco|dilemas|maltrapilhos|pedras|a avenida|postes|inocentes|a rua|almas|a pressa|o fácil|andorinhas|o fato|galhos secos|falácias|
+|07|02|Becos_0702|T|34|10|vícios|o passeio|papéis|calçadas|testemunhas|cacos|entes|goles|"eus"|acácias|asfalto|isso|o dia|os presentes|lua|pardais|vielas|transeuntes|indigentes|o beco|dilemas|maltrapilhos|pedras|a avenida|postes|inocentes|a rua|almas|a pressa|o fácil|andorinhas|o fato|galhos secos|falácias|
 |07|03|Becos_0703|F|1|1|,|
-|07|04|Becos_0704|T|32|6|o céu|um cão sem dono|um passeio|o vendedor de pamonhas|o silêncio|um vigia soturno|o concreto|a praça|o horizonte|uns barulhos|a espera|o dia|um Serafim|o beco|o mundano|o fácil|rosas falsas|o cimento|uma pomba sem graça|a rua|nanônimos|aquele agora|a pressa|folhas no chão|minúcias|os depois|a hera no muro|dois hereges|filhos sem rumo|o pó|semanas|uma lua cris|
+|07|04|Becos_0704|T|32|10|o céu|um cão sem dono|um passeio|o vendedor de pamonhas|o silêncio|um vigia soturno|o concreto|a praça|o horizonte|uns barulhos|a espera|o dia|um Serafim|o beco|o mundano|o fácil|rosas falsas|o cimento|uma pomba sem graça|a rua|nanônimos|aquele agora|a pressa|folhas no chão|minúcias|os depois|a hera no muro|dois hereges|filhos sem rumo|o pó|semanas|uma lua cris|
 |08|01|Becos_0801|F|1|1|e|
-|08|02|Becos_0802|F|6|4|alguma|outra|quiçá uma|qualquer|mais uma|uma ou outra|
-|08|03|Becos_0803|F|21|17|fada|notícia|madrugada|sirene|aurora|paisagem|lua|Deusa|dança|Dulcinéia|lembrança|centelha|estória|Hortênsia|garoa|pérola|Maria|primavera|Dália|mensagem|musa|
-|08|04|Becos_0804|F|46|31|quase baldia|que passasse|sem saída|quase tardia|vinda do além|quase vazia|da nova era|intocada|gratuita|sem pedigree|que houvesse|descabida|que urgisse|sem passado|inesperada|que nunca viria|de verdade|de um novo mundo|que haveria|sem valia|que chegasse|distante|suburbana|de mentira|reciclada|que viesse|sem futuro|multimídia|em desterro|esquecida|fugidia|saída do nada|quase muda|desesperada|que viria|em sinuca|sem dormir|em fantasia|sem universo|com cara de rara|ao acaso|quase possível|prometida|não identificada|igual alegoria|distorcida|
+|08|02|Becos_0802|F|6|3|alguma|outra|quiçá uma|qualquer|mais uma|uma ou outra|
+|08|03|Becos_0803|F|21|19|fada|notícia|madrugada|sirene|aurora|paisagem|lua|Deusa|dança|Dulcinéia|lembrança|centelha|estória|Hortênsia|garoa|pérola|Maria|primavera|Dália|mensagem|musa|
+|08|04|Becos_0804|F|46|12|quase baldia|que passasse|sem saída|quase tardia|vinda do além|quase vazia|da nova era|intocada|gratuita|sem pedigree|que houvesse|descabida|que urgisse|sem passado|inesperada|que nunca viria|de verdade|de um novo mundo|que haveria|sem valia|que chegasse|distante|suburbana|de mentira|reciclada|que viesse|sem futuro|multimídia|em desterro|esquecida|fugidia|saída do nada|quase muda|desesperada|que viria|em sinuca|sem dormir|em fantasia|sem universo|com cara de rara|ao acaso|quase possível|prometida|não identificada|igual alegoria|distorcida|
 |08|05|Becos_0805|F|1|1|.|
 <EOF>
 CATAPALA = 35

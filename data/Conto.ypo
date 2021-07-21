@@ -4,32 +4,32 @@
 *- restos de almas|
 *- por avenidas|perdidos|tementes|algum|sem_um vestígio de...|
 *-
-|01|01|Conto_0101|F|5|5|Ajuntei|Arrumei|Embrulhei|Ajeitei|Embalei|
-|01|02|Conto_0102|F|7|2|o que era tralha|os meus dois filhos|uns bons motivos|o que restava|as esperanças|o que passado|umas coragens|
-|02|01|Conto_0201|T|9|1|e finquei pé|e fiz-me andar|e fui marchar|e quis passeio|e andei voltas|e prossegui|e marquei passos|perambulando|e fiz a mala|
-|03|01|Conto_0301|F|6|5|em ruelas|por estradas|em viagens|por uns becos|nuns confins|por atalhos|
+|01|01|Conto_0101|F|5|4|Ajuntei|Arrumei|Embrulhei|Ajeitei|Embalei|
+|01|02|Conto_0102|F|7|7|o que era tralha|os meus dois filhos|uns bons motivos|o que restava|as esperanças|o que passado|umas coragens|
+|02|01|Conto_0201|T|9|5|e finquei pé|e fiz-me andar|e fui marchar|e quis passeio|e andei voltas|e prossegui|e marquei passos|perambulando|e fiz a mala|
+|03|01|Conto_0301|F|6|1|em ruelas|por estradas|em viagens|por uns becos|nuns confins|por atalhos|
 |03|02|Conto_0302|F|8|5|sem saída|do acaso|sem um rumo|inda virgens|sem porvir|de mentira|sem ter mapa|ao acaso|
 |03|03|Conto_0303|F|1|1|.|
 |04|00|
-|04|01|Conto_0401|F|6|3|Só iam por ali|Passagem de|Desvio de|Era rota de|Caminho de|Paragem de|
-|04|02|Conto_0402|F|7|4|infelizes|andarilhos|iludidos|descontentes|excluídos|oprimidos|despossuídos|
+|04|01|Conto_0401|F|6|5|Só iam por ali|Passagem de|Desvio de|Era rota de|Caminho de|Paragem de|
+|04|02|Conto_0402|F|7|2|infelizes|andarilhos|iludidos|descontentes|excluídos|oprimidos|despossuídos|
 |04|03|Conto_0403|F|1|1|...|
-|05|01|Conto_0501|F|5|1|e se a mãe nos esperava|e se alguém ali amasse|e se gente aparecia|e se carinho houvesse|e se um nos desse a mão|
-|06|01|Conto_0601|F|10|10|era sem um mais querer|vinha não do coração|era vontade em vão|era vera distração|faltavam lembranças|era falta de afazer|tinha cara de vingança|não era certeza|carecia de batismo|era mero protocolo|
+|05|01|Conto_0501|F|5|5|e se a mãe nos esperava|e se alguém ali amasse|e se gente aparecia|e se carinho houvesse|e se um nos desse a mão|
+|06|01|Conto_0601|F|10|4|era sem um mais querer|vinha não do coração|era vontade em vão|era vera distração|faltavam lembranças|era falta de afazer|tinha cara de vingança|não era certeza|carecia de batismo|era mero protocolo|
 |06|02|Conto_0602|T|1|1|.|
 |07|00|
-|07|01|Conto_0701|F|5|5|Alguém disse:|Talvez fosse|Dir-se-ia|Pareceu ser|Aventou-se|
-|07|02|Conto_0702|F|19|13|um perdão às avessas|um pagar de promessa|um canto retorcido|um varal de almas|improviso sem canto|o fim de um mundo|o berço dos silêncios|um grito de saber|algo vindo dos céus|um catar de pedaços|o nada acontecendo|um solo de Marte|o deleite proibido|um cotoco de paz|um pingo de humanidade|um berço de silêncios|um retrato calado|um algoritmo da solidão|placebo de alegria|
+|07|01|Conto_0701|F|5|4|Alguém disse:|Talvez fosse|Dir-se-ia|Pareceu ser|Aventou-se|
+|07|02|Conto_0702|F|19|16|um perdão às avessas|um pagar de promessa|um canto retorcido|um varal de almas|improviso sem canto|o fim de um mundo|o berço dos silêncios|um grito de saber|algo vindo dos céus|um catar de pedaços|o nada acontecendo|um solo de Marte|o deleite proibido|um cotoco de paz|um pingo de humanidade|um berço de silêncios|um retrato calado|um algoritmo da solidão|placebo de alegria|
 |07|03|Conto_0703|F|1|1|...|
 |08|00|
-|08|01|Conto_0801|F|11|10|Antro de marionetes|Um bairro perdido|Morada de estrelas|Um descaso do destino|Recanto sem nome|Um mar de totens|Um solo ardido|Casa de ninguém|Deserto de musas|Uma calma árida|Diário atemporal|
+|08|01|Conto_0801|F|11|5|Antro de marionetes|Um bairro perdido|Morada de estrelas|Um descaso do destino|Recanto sem nome|Um mar de totens|Um solo ardido|Casa de ninguém|Deserto de musas|Uma calma árida|Diário atemporal|
 |09|01|Conto_0901|F|1|1|onde|
-|09|02|Conto_0902|F|10|5|querubins|santos|deuses|profetas|poetas|gurus|sábios|astros|magos|loucos|
-|09|03|Conto_0903|F|20|5|sem nem prumo|, informalmente,|de mentira|sem moradia|, coisas miúdas,|sem fortuna|mais que falsos|sem verdade|, meio por encanto,|em queda livre|sem paraíso|encruzilhados|sem pecado|quase caídos|sem saída|quase coitados|esquecidos|de pura palha|, só faceta,|sem nem berço|
-|10|01|Conto_1001|F|20|2|brincavam de paisagem|eram só perguntas|fingiam compromissos|eram meros enfeites|esperavam só perdão|anunciavam milagres|gastavam respostas|pregavam no vazio|vestiam carapuças|soletravam lamúrias|cantarolavam hinos|deitavam suas máscaras|provavam que eram nada|mal cabiam num abraço|dobravam-se à sina|aguardavam um futuro|ostentavam o infinito|solfejavam seus ais|trocavam-se em recados|repartiam o além|
+|09|02|Conto_0902|F|10|9|querubins|santos|deuses|profetas|poetas|gurus|sábios|astros|magos|loucos|
+|09|03|Conto_0903|F|20|9|sem nem prumo|, informalmente,|de mentira|sem moradia|, coisas miúdas,|sem fortuna|mais que falsos|sem verdade|, meio por encanto,|em queda livre|sem paraíso|encruzilhados|sem pecado|quase caídos|sem saída|quase coitados|esquecidos|de pura palha|, só faceta,|sem nem berço|
+|10|01|Conto_1001|F|20|6|brincavam de paisagem|eram só perguntas|fingiam compromissos|eram meros enfeites|esperavam só perdão|anunciavam milagres|gastavam respostas|pregavam no vazio|vestiam carapuças|soletravam lamúrias|cantarolavam hinos|deitavam suas máscaras|provavam que eram nada|mal cabiam num abraço|dobravam-se à sina|aguardavam um futuro|ostentavam o infinito|solfejavam seus ais|trocavam-se em recados|repartiam o além|
 |10|02|Conto_1002|F|1|1|.|
 <EOF>
-CATAPALA = 39
+CATAPALA = 37
 VERBETES = 250
 PALAVRAS = 392
 VARIATIO = 125.737.920.000.000                                                             

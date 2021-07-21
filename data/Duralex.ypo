@@ -2,19 +2,20 @@
 *- Duralex.Bra
 *-
 *-
-|01|01|Duralex_0101|F|9|9|Como|Dá pra|Quem pode|Imagina|Quem dera|É sonho|Basta|É justo|Por que|
-|01|02|Duralex_0102|F|13|10|explicar|aplicar|inculcar|investir|incutir|imputar|vestir com|exigir|imbuir|clamar|pedir|ensinar|obrigar|
-|01|03|Duralex_0103|F|48|11|os rigores|os favores|os louvores|as desordens|as trapaças|os meandros|os tropeços|velhos truques|as falhas|as regras|os lapsos|os desmandos|minúcias|defeitos|os efeitos|entrelinhas|os pecados|os acertos|safadezas|detalhes|vantagens|poderes|a força|as balelas|as bitolas|a dureza|os regalos|os vacilos|os buracos|incoerências|as tendências|sutilezas|as benesses|os percalços|letras miúdas|promessas|exatidões|os desvios|os atalhos|a potência|os deslizes|as culpas|regalias|a ordem|o fulgor|os segredos|as "lixúrias"|nuances|
+|01|01|Duralex_0101|F|9|7|Como|Dá pra|Quem pode|Imagina|Quem dera|É sonho|Basta|É justo|Por que|
+|01|02|Duralex_0102|F|13|8|explicar|aplicar|inculcar|investir|incutir|imputar|vestir com|exigir|imbuir|clamar|pedir|ensinar|obrigar|
+|01|03|Duralex_0103|F|48|9|os rigores|os favores|os louvores|as desordens|as trapaças|os meandros|os tropeços|velhos truques|as falhas|as regras|os lapsos|os desmandos|minúcias|defeitos|os efeitos|entrelinhas|os pecados|os acertos|safadezas|detalhes|vantagens|poderes|a força|as balelas|as bitolas|a dureza|os regalos|os vacilos|os buracos|incoerências|as tendências|sutilezas|as benesses|os percalços|letras miúdas|promessas|exatidões|os desvios|os atalhos|a potência|os deslizes|as culpas|regalias|a ordem|o fulgor|os segredos|as "lixúrias"|nuances|
 |01|04|Duralex_0104|F|1|1|da lei|
 |02|01|Duralex_0201|F|1|1|(|
-|02|02|Duralex_0202|F|7|3|tão|quase|aparentemente|suposta|claro que|prevista|em ideais,|
-|02|03|Duralex_0203|F|9|1|perfeita|igual|justa|certa|exata|equânime|correta|infalível|para todos|
+|02|02|Duralex_0202|F|7|1|tão|quase|aparentemente|suposta|claro que|prevista|em ideais,|
+|02|03|Duralex_0203|F|9|8|perfeita|igual|justa|certa|exata|equânime|correta|infalível|para todos|
 |02|04|Duralex_0204|F|1|1|)|
-|03|01|Duralex_0301|F|4|3|aos tantos que|aos vulgos que|aos tontos que|aos sabidos que|
-|03|02|Duralex_0302|F|29|1|vivem|vagam|vigem|atuam|agem|regem|pairam|nascem|vingam|gozam|mandam|abusam|fulgem|criam|votam|reinam|brotam|flanam|brindam|jogam|circulam|existem|penam|vogam|vagueiam|brincam|folgam|permutam|a violam|
-|03|03|Duralex_0303|F|17|15|, livres,|, alheios,|, à margem,|, impunes,|, estranhos,|, por sina,|, inocentes,|, impotentes,|, esquecidos,|, heróis,|, números,|, avessos,|, contrários,|, inabaláveis,|, imunes,|, descrentes,|, petulantes,|
-|03|04|Duralex_0304|F|14|11|além dela?|fora dela?|aquém dela?|n'outro mundo?|quase párias?|sobrevivos?|sem pena?|sem juízo?|lá acima?|sós e em paz?|sem Deus?|perdidos?|no poder?|alienados?|
+|03|01|Duralex_0301|F|4|1|aos tantos que|aos vulgos que|aos tontos que|aos sabidos que|
+|03|02|Duralex_0302|F|29|28|vivem|vagam|vigem|atuam|agem|regem|pairam|nascem|vingam|gozam|mandam|abusam|fulgem|criam|votam|reinam|brotam|flanam|brindam|jogam|circulam|existem|penam|vogam|vagueiam|brincam|folgam|permutam|a violam|
+|03|03|Duralex_0303|F|17|13|, livres,|, alheios,|, à margem,|, impunes,|, estranhos,|, por sina,|, inocentes,|, impotentes,|, esquecidos,|, heróis,|, números,|, avessos,|, contrários,|, inabaláveis,|, imunes,|, descrentes,|, petulantes,|
+|03|04|Duralex_0304|F|14|9|além dela?|fora dela?|aquém dela?|n'outro mundo?|quase párias?|sobrevivos?|sem pena?|sem juízo?|lá acima?|sós e em paz?|sem Deus?|perdidos?|no poder?|alienados?|
 <EOF>
+CATAPALA = 22
 VERBETES = 171
 PALAVRAS = 239
 VARIATIO = 9.767.931.264                                                                   
