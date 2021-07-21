@@ -3,7 +3,7 @@ import random
 import datetime
 from random import randrange
 
-def gera_poema(nome_tema):  # abrir um script.ypo e gerar um novo texto
+def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo texto
     """
     :param = script, tema
          numero_linea = '01'  # linha
@@ -17,9 +17,7 @@ def gera_poema(nome_tema):  # abrir um script.ypo e gerar um novo texto
 
     ToDo:
        - UpDate_Numbers() = ler *.ypo da pasta e verbetes.append(cada_verbete_novo) = done in cata_pala()
-       - usar temas.rol - criar Livro_Vivo
-       - get and hilight semente in zero.py
-       - dialeto em ciuminho
+       obs: the search for a seed acctualy only works in portuguese. Try to translate your search_seed into this language.
     """
 
     lista_header = []
@@ -32,12 +30,20 @@ def gera_poema(nome_tema):  # abrir um script.ypo e gerar um novo texto
 
     conta_palavra = 0
 
-    pega_semente = ""
-    acha_semente = False
-    qual_semente = ""
-    # fonte_da_semente = AllTrim(Application:oMainForm:oCfg:fonte_semente)
-    fonte_da_semente = "nonono"
-
+    look_for_seed = False
+    this_seed = ""
+    seed_coords = ""
+    if seed_source != "":
+        where = -1
+        for letra in seed_source:
+            where += 1
+            if letra == '-':
+                minus = where
+        maxis = where
+        look_for_seed = True
+        this_seed = seed_source[0:minus-1]
+        seed_coords = seed_source[minus+2:maxis+1]
+        
     nome_tema = nome_tema.replace("\n", "")
 
     try:
@@ -54,7 +60,6 @@ def gera_poema(nome_tema):  # abrir um script.ypo e gerar um novo texto
         pass
 
     novo_poema = []
-    # novo_poema.append(nome_tema + '\n')
     novo_verso = ""
     muda_linha = "00"
     pula_linha = "no"
@@ -83,30 +88,8 @@ def gera_poema(nome_tema):  # abrir um script.ypo e gerar um novo texto
             itimos_atual = int(alinhas[6])
             array_itimos = alinhas[7: len(alinhas) - 1]
 
-            for itimo in array_itimos:
-                if (
-                        fonte_itimos == fonte_da_semente
-                ):  # Linha escolhida em TFormDemo
-                    if qual_semente.upper() in itimo.upper():
-                        if not acha_semente:  # Pega apenas uma vez...
-                            qual_semente = itimo
-                            acha_semente = True
-
-            # while True # para não repetir itimos
             tentativas = 0
-            while True:  # Seleciona próximo ítimo...
-                if (qual_semente != "") and (acha_semente):
-                    pega_semente = qual_semente.replace(
-                        qual_semente,
-                        Chr(171) + " " + qual_semente + " " + Chr(187),
-                    )  # Adiciona MARCA ao texto
-                    lista_unicos.append(
-                        qual_semente.upper()
-                    )  # adiciona à lista SEM MARCA para não repetir...
-                    acha_semente = True  # Substitui apenas uma vez...
-                    novo_verso += pega_semente + " "
-                    break  # Seleciona próximo ítimo...
-
+            while True:  # Seleciona próximo ítimo (para não repetir...)
                 if 1 != total_itimos:  # mais de hum itimo
                     if se_randomico == "F":
                         itimos_atual -= 1  # because matrix começa em zero
@@ -119,30 +102,33 @@ def gera_poema(nome_tema):  # abrir um script.ypo e gerar um novo texto
                             itimos_atual = 0
                 else:
                     itimos_atual = 0
-
-                #  if itimos_atual >= 0 and itimos_atual <= len(array_itimos) - 1:
+                
                 if itimos_atual >= 0 and itimos_atual <= len(array_itimos):
                     itimo_escolhido = array_itimos[itimos_atual]
                 else:
                     print(nome_tema, " - error: ", array_itimos, itimos_atual)
                     itimo_escolhido = "_Erro_"
 
+                if ( fonte_itimos == seed_coords ):  # eureka parameter
+                    if look_for_seed:  # not changed yet...
+                        for itimo in array_itimos:
+                            if (this_seed.lower() in itimo.lower()):
+                                itimo_escolhido = itimo
+                                lista_unicos.append(itimo_escolhido.upper())  # cannot repeat words...
+                                itimo_escolhido = itimo_escolhido.replace(this_seed, "**" + this_seed + "**")  # markdown text
+                                look_for_seed = False
+                
                 #   Elimina duplicidaders óbvias...
                 temp_random = se_randomico
-                if (
-                        not itimo_escolhido.upper()
-                            in "_E_A_AS_O_OS_NO_NOS_NA_NAS_ME_DE_SE_QUE_NÃO_SO_SEM_NEM_EM_UM_UMA_POR_MEU_VE_TE_TÃO_DA_SER_TER_PRA_PARA_QUANDO_..._._,_:_!_?"
-                ):
-                    if (
-                            itimo_escolhido.upper() not in lista_unicos
-                    ):  # verifica se Itimo ainda não foi usado...
+                if ( not itimo_escolhido.upper()
+                     in "_E_A_AS_O_OS_NO_NOS_NA_NAS_ME_DE_SE_QUE_NÃO_SO_SEM_NEM_EM_UM_UMA_POR_MEU_VE_TE_TÃO_DA_SER_TER_PRA_PARA_QUANDO_..._._,_:_!_?"
+                    ):
+                    if ( itimo_escolhido.upper() not in lista_unicos ):  # check if not yet used...
                         lista_unicos.append(itimo_escolhido.upper())
                         break
-                    else:  # Já foi usado... Busca Outro...
+                    else:  # used somewhre: searchagain...
                         tentativas += 1
-                        if (
-                                tentativas > total_itimos
-                        ):  # Tentativas > que total de ítimos: pega o próximo sequencial
+                        if ( tentativas > total_itimos ):  # Tentativas > que total de ítimos: pega o próximo sequencial
                             if temp_random == "T":
                                 tentativas = 0  # Da Capo
                                 temp_random = "F"
@@ -150,12 +136,12 @@ def gera_poema(nome_tema):  # abrir um script.ypo e gerar um novo texto
                                 lista_unicos.append(itimo_escolhido.upper())
                                 lista_duplos.append(itimo_escolhido.upper())
                                 break
-
+                
                         if itimo_escolhido in lista_duplos:
                             if len(itimo_escolhido) > 3:
                                 # print(itimo_escolhido, " ---> repetido")
                                 continue
-
+                
                         if tentativas > 50:
                             break
                 else:
