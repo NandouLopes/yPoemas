@@ -495,26 +495,26 @@ def page_abouts():
             "traduttore",
             "bibliografia",
             "outros",
-            "notes",
+            # "notes",
             "index",
         ]
         this = about_expander.radio("", abouts_list)
 
     show_expander = st.beta_expander("", True)
     with show_expander:
-        st.subheader(load_file(this + ".md"))
-        # if this == "machina":
-        #     st.subheader(load_file("MACHINA.md"))
-        # if this == "traduttore":
-        #     st.subheader(load_file("TRADUTTORE.md"))
-        # if this == "bibliografia":
-        #     st.subheader(load_file("BIBLIOGRAFIA.md"))
-        # if this == "outros":
-        #     st.subheader(load_file("OUTROS.md"))
-        # if this == "index":
-        #     st.subheader(load_file("INDEX.md"))
-        # if this == "index":
-        #     st.subheader(load_file("INDEX.md"))
+        # st.subheader(load_file(this.upper() + ".md"))
+        if this == "machina":
+            st.subheader(load_file("MACHINA.md"))
+        if this == "traduttore":
+            st.subheader(load_file("TRADUTTORE.md"))
+        if this == "bibliografia":
+            st.subheader(load_file("BIBLIOGRAFIA.md"))
+        if this == "outros":
+            st.subheader(load_file("OUTROS.md"))
+        # if this == "notes":
+        #     st.subheader(load_file("NOTES.md"))
+        if this == "index":
+            st.subheader(load_file("INDEX.md"))
 
 
 def page_books():  # available books
@@ -660,7 +660,7 @@ def page_ypoemas():
             + st.session_state.book
             + " ) ( "
             + str(st.session_state.take + 1)
-            + "/"
+            + "./"
             + str(len(temas_list))
             + " )"
         )
