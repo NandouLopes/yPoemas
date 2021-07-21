@@ -4,27 +4,27 @@
 *-
 *- decoração|canhestros|falíveis|memória|
 *-
-|01|01|Reger_0101|F|4|4|Arpejo|Rejo|Ensaio|Vejo|
-|01|02|Reger_0102|F|6|2|uma orquestra imaginária|uma sanfona fictícia|um realejo imaginário|uma orquestra fictícia|uma sanfona imaginária|um realejo fictício|
+|01|01|Reger_0101|F|4|1|Arpejo|Rejo|Ensaio|Vejo|
+|01|02|Reger_0102|F|6|5|uma orquestra imaginária|uma sanfona fictícia|um realejo imaginário|uma orquestra fictícia|uma sanfona imaginária|um realejo fictício|
 |02|01|Reger_0201|F|1|1|onde|
-|02|02|Reger_0202|F|5|1|o coro de vozes|o que sai das gargantas|o canto das almas|o som das falas|o canto de dentro|
+|02|02|Reger_0202|F|5|3|o coro de vozes|o que sai das gargantas|o canto das almas|o som das falas|o canto de dentro|
 |03|01|Reger_0301|F|3|3|um dia|por fim|sem querer|
-|03|02|Reger_0302|F|2|2|saberá|descobrirá|
+|03|02|Reger_0302|F|2|1|saberá|descobrirá|
 |04|01|Reger_0401|F|3|2|que além|que depois|que pra lá|
-|04|02|Reger_0402|F|8|2|das cortinas|do palco|dos ouvintes|da platéia|dos instrumentos|das falácias|dos acordes|dos desejos|
+|04|02|Reger_0402|F|8|7|das cortinas|do palco|dos ouvintes|da platéia|dos instrumentos|das falácias|dos acordes|dos desejos|
 |05|01|Reger_0501|F|1|1|os momentos de cantar|
-|06|01|Reger_0601|F|2|2|são mesmo assim,|são, por dizer,|
-|06|02|Reger_0602|F|7|3|tão doces|tal berços|possíveis|suaves|etéreos|voláteis|preciosos|
+|06|01|Reger_0601|F|2|1|são mesmo assim,|são, por dizer,|
+|06|02|Reger_0602|F|7|7|tão doces|tal berços|possíveis|suaves|etéreos|voláteis|preciosos|
 |06|03|Reger_0603|F|1|1|...|
-|06|04|Reger_0604|T|6|3|lampejos|centelhas|felizes|sublimes|divinos|de magia|
+|06|04|Reger_0604|T|6|6|lampejos|centelhas|felizes|sublimes|divinos|de magia|
 |06|05|Reger_0605|F|1|1|...|
 |07|00|
 |07|01|Reger_0701|F|1|1|Algo|
-|07|02|Reger_0702|F|4|4|na gente|nos povos|nas gentes|em nós|
-|07|03|Reger_0703|F|15|11|há de espantar o tédio|reconhece o silêncio|há de saber a que veio|ouvirá que a hora é certa|há de achar um caminho|carece ser mais feliz|sabe saltar no escuro|nunca acreditou em muros|sabe viver no improviso|não acredita em bruxas|há de perder meios medos|sabe sonhar acordado|desacata o silêncio|acredita... acredito|sabe ser todo ouvidos|
+|07|02|Reger_0702|F|4|1|na gente|nos povos|nas gentes|em nós|
+|07|03|Reger_0703|F|15|8|há de espantar o tédio|reconhece o silêncio|há de saber a que veio|ouvirá que a hora é certa|há de achar um caminho|carece ser mais feliz|sabe saltar no escuro|nunca acreditou em muros|sabe viver no improviso|não acredita em bruxas|há de perder meios medos|sabe sonhar acordado|desacata o silêncio|acredita... acredito|sabe ser todo ouvidos|
 |07|04|Reger_0704|F|1|1|.|
 <EOF>
-CATAPALA = 33
+CATAPALA = 34
 VERBETES = 111
 PALAVRAS = 172
 VARIATIO = 87.091.200                                                                      

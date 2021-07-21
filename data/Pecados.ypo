@@ -2,15 +2,15 @@
 *- Pecados.ipo
 *-
 *-
-|01|01|Pecados_0101|F|7|4|Vivo|Erro por|Passo|Vago por|Surfo|Bailo em|Surto|
+|01|01|Pecados_0101|F|7|2|Vivo|Erro por|Passo|Vago por|Surfo|Bailo em|Surto|
 |01|02|Pecados_0102|F|2|1|vidas|momentos|
-|02|01|Pecados_0201|F|29|28|evitando os|levitando em|aviando os|expiando os|recitando|flutuando em|repetindo os|recaindo em|espiando os|perdido em|despindo os|decorando os|acatando os|sorvendo os|ouvindo os|arfando em|aspirando os|esvaído em|afogando em|afagando os|aturando os|manando os|afundando em|aerando os|intuindo os|orando os|instigando|autuando os|afogado em|
-|02|02|Pecados_0202|F|8|3|pecados|recados|ditados|legados|achados|pedidos|segredos|regras|
-|03|01|Pecados_0301|F|9|7|que deuses|que párias|que loucos|que insanos|que mestres|que sósias|que egos|que magos|que, coitados,|
-|03|02|Pecados_0302|F|13|5|deitam|impõem|ditam|lançam|despem|jogam|regram|rogam|pregam|fincam|plicam|ordenam|deliram|
-|03|03|Pecados_0303|F|7|6|ao léu.|, em vão.|em céus.|sem véu.|sem fim.|... assim!|, impunes.|
+|02|01|Pecados_0201|F|29|26|evitando os|levitando em|aviando os|expiando os|recitando|flutuando em|repetindo os|recaindo em|espiando os|perdido em|despindo os|decorando os|acatando os|sorvendo os|ouvindo os|arfando em|aspirando os|esvaído em|afogando em|afagando os|aturando os|manando os|afundando em|aerando os|intuindo os|orando os|instigando|autuando os|afogado em|
+|02|02|Pecados_0202|F|8|1|pecados|recados|ditados|legados|achados|pedidos|segredos|regras|
+|03|01|Pecados_0301|F|9|5|que deuses|que párias|que loucos|que insanos|que mestres|que sósias|que egos|que magos|que, coitados,|
+|03|02|Pecados_0302|F|13|3|deitam|impõem|ditam|lançam|despem|jogam|regram|rogam|pregam|fincam|plicam|ordenam|deliram|
+|03|03|Pecados_0303|F|7|4|ao léu.|, em vão.|em céus.|sem véu.|sem fim.|... assim!|, impunes.|
 <EOF>
-CATAPALA = 9
+CATAPALA = 10
 VERBETES = 84
 PALAVRAS = 122
 VARIATIO = 2.660.112                                                                       

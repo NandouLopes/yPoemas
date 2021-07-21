@@ -7,20 +7,20 @@
 *|03|01|Sos_0301|F|20|13|Largue tudo|Desligue|Acorde|Perca-se|Releve|Esqueça|Compartilhe|Relaxe|Desencane|Pegue leve|Desconsidere|Pedale|Vaze|Desvia|Dê um perdido|Desapegue|Resvale|Curta|Alivia|Reaja|
 *|03|03|Sos_0303|F|27|19|vá ser livre|mude o livro|viva a vida|caia no mundo|mande um torpedo|a vida é mais|vire a página|é só um apocalipse|saia do trilho|uma hora acaba|não é nem pecado|só dói se pensar|siga sem alarde|olhe os lírios do campus|finja-se vivo|rasgue o verbo|clique em "curtir"|chão... estrada|é tudo falácia|é cíclico: vai e volta|o mal vence o bem|é virtual... nem existe|vá ser feliz|aperte o pause|saia pela tangente|um dia vai passar|finja demência|
 |01|01|Sos_0101|F|9|1|Escravo|Capacho|Refém|Cativo|Cansado|Presa|Servil|Saco cheio|Vítima|
-|01|02|Sos_0102|F|36|36|do trivial|da mesmice|do imponderável|do improviso|do dia-a-dia|do impensado|do tédio|da rotina|do inventivo|do mais difícil|do inesperado|das regras|do impensável|do inatingível|do improvável|das bitolas|do impecável|do indecifrável|dos limites|do invencível|do intangível|do infalível|do vazio|do imprevisível|do banal|do indizível|do imensurável|do mesmo ritual|do inadmissível|da monotonia|de rodeios|da perfeição|do marasmo|de ladainhas|das notícias|do inusitado|
+|01|02|Sos_0102|F|36|9|do trivial|da mesmice|do imponderável|do improviso|do dia-a-dia|do impensado|do tédio|da rotina|do inventivo|do mais difícil|do inesperado|das regras|do impensável|do inatingível|do improvável|das bitolas|do impecável|do indecifrável|dos limites|do invencível|do intangível|do infalível|do vazio|do imprevisível|do banal|do indizível|do imensurável|do mesmo ritual|do inadmissível|da monotonia|de rodeios|da perfeição|do marasmo|de ladainhas|das notícias|do inusitado|
 |01|03|Sos_0103|F|1|1|?|
-|02|01|Sos_0201|F|8|2|O aviso|O recado|O alerta|O toque|O berro|O remédio|O palpite|O caminho|
+|02|01|Sos_0201|F|8|7|O aviso|O recado|O alerta|O toque|O berro|O remédio|O palpite|O caminho|
 |02|02|Sos_0202|F|1|1|que|
-|02|03|Sos_0203|F|13|10|pinta|baila|ruge|cala|calça|cabe|urge|soa|vale|vinga|surge|ecoa|bate|
+|02|03|Sos_0203|F|13|9|pinta|baila|ruge|cala|calça|cabe|urge|soa|vale|vinga|surge|ecoa|bate|
 |02|04|Sos_0204|F|1|1|é|
-|02|05|Sos_0205|F|17|17|claro|curto|sábio|fácil|fatal|óbvio|preciso|sóbrio|direto|grave|letal|sutil|vital|sucinto|formal|gentil|suave|
+|02|05|Sos_0205|F|17|7|claro|curto|sábio|fácil|fatal|óbvio|preciso|sóbrio|direto|grave|letal|sutil|vital|sucinto|formal|gentil|suave|
 |02|06|Sos_0206|F|1|1|:|
-|03|01|Sos_0301|F|20|3|Larga tudo|Desliga|Acorda|Perca-se|Releva|Esquece|Compartilha|Relaxa|Desencana|Pega leve|Desconsidera|Pedala|Vaza|Desvia|Dá um perdido|Desapega|Resvala|Curta|Alivia|Reaja|
+|03|01|Sos_0301|F|20|16|Larga tudo|Desliga|Acorda|Perca-se|Releva|Esquece|Compartilha|Relaxa|Desencana|Pega leve|Desconsidera|Pedala|Vaza|Desvia|Dá um perdido|Desapega|Resvala|Curta|Alivia|Reaja|
 |03|02|Sos_0302|F|1|1|...|
-|03|03|Sos_0303|F|26|19|vai ser livre|muda o livro|viva a vida|cai no mundo|manda um torpedo|a vida é mais|vire a página|é só um apocalipse|saia do trilho|uma hora acaba|não é nem pecado|só dói se pensar|siga sem alarde|olhe os lírios do campus|finja-se vivo|rasgue o verbo|clique em "curtir"|chão... estrada|é tudo falácia|é cíclico: vai e volta|é virtual... nem existe|vai ser feliz|aperta o pause|sai pela tangente|um dia passa|finja demência|
+|03|03|Sos_0303|F|26|18|vai ser livre|muda o livro|viva a vida|cai no mundo|manda um torpedo|a vida é mais|vire a página|é só um apocalipse|saia do trilho|uma hora acaba|não é nem pecado|só dói se pensar|siga sem alarde|olhe os lírios do campus|finja-se vivo|rasgue o verbo|clique em "curtir"|chão... estrada|é tudo falácia|é cíclico: vai e volta|é virtual... nem existe|vai ser feliz|aperta o pause|sai pela tangente|um dia passa|finja demência|
 |03|04|Sos_0304|F|1|1|...|
 <EOF>
-CATAPALA = 15
+CATAPALA = 14
 VERBETES = 169
 PALAVRAS = 240
 VARIATIO = 297.872.640                                                                     

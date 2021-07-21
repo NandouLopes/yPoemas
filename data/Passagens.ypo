@@ -17,24 +17,24 @@
 *- |06|05|Passagens_0504|F|1|1|.|
 *- |06|04|Passagens_0604|F|3|2|e|...|,|
 *-
-|01|01|Passagens_0101|F|5|5|E quando um morrer,|No sumir de outra vida,|Quando a hora chegar,|Quando for nossa vez,|Na hora da partida,|
-|03|01|Passagens_0301|F|3|3|que seja apenas|que não passe de|que pareça ser|
-|03|02|Passagens_0302|F|5|3|breve|leve|simples|suave|sutil|
-|03|03|Passagens_0303|F|12|4|tontura|cisma|ilusão|desmaio|sonho|certeza|conluio|desdém|recado|vertigem|mistério|travessia|
+|01|01|Passagens_0101|F|5|4|E quando um morrer,|No sumir de outra vida,|Quando a hora chegar,|Quando for nossa vez,|Na hora da partida,|
+|03|01|Passagens_0301|F|3|1|que seja apenas|que não passe de|que pareça ser|
+|03|02|Passagens_0302|F|5|2|breve|leve|simples|suave|sutil|
+|03|03|Passagens_0303|F|12|5|tontura|cisma|ilusão|desmaio|sonho|certeza|conluio|desdém|recado|vertigem|mistério|travessia|
 |03|04|Passagens_0304|F|1|1|,|
-|04|01|Passagens_0401|F|8|4|um medo calmo das|um temor brando das|feito um passeio por|um sonho terno sob as|ou mero divagar sobre as|um susto fugaz pelas|ou devaneio sobre as|um receio sábio das|
-|04|02|Passagens_0402|F|8|7|alturas de Deus|vontades divinas|lonjuras|divindades|ordens do Criador|coisas desconhecidas|mãos do Criador|outras moradas|
+|04|01|Passagens_0401|F|8|1|um medo calmo das|um temor brando das|feito um passeio por|um sonho terno sob as|ou mero divagar sobre as|um susto fugaz pelas|ou devaneio sobre as|um receio sábio das|
+|04|02|Passagens_0402|F|8|4|alturas de Deus|vontades divinas|lonjuras|divindades|ordens do Criador|coisas desconhecidas|mãos do Criador|outras moradas|
 |04|03|Passagens_0403|F|1|1|.|
 |05|00|
-|05|01|Passagens_0501|F|6|6|A vida de quem fica|A sina de quem não foi|A vida que não partiu|Segue-se a vida... a alma|Quem continua, saiba,|Tudo segue... a rotina|
-|06|01|Passagens_0601|F|19|16|apanha|cala|cultua|sabe|roga|prova|tece|acata|mede|ganha|atiça|abre|arde em|descobre|treme|aquieta|soletra|apara|sussurra|
+|05|01|Passagens_0501|F|6|1|A vida de quem fica|A sina de quem não foi|A vida que não partiu|Segue-se a vida... a alma|Quem continua, saiba,|Tudo segue... a rotina|
+|06|01|Passagens_0601|F|19|5|apanha|cala|cultua|sabe|roga|prova|tece|acata|mede|ganha|atiça|abre|arde em|descobre|treme|aquieta|soletra|apara|sussurra|
 |06|02|Passagens_0602|F|11|1|pensares|esperas|dúvidas|receios|silêncios|lágrimas|saudades|lamentos|um doer|segredos|lembranças|
 |06|03|Passagens_0603|F|1|1|...|
-|07|01|Passagens_0701|F|13|8|rumina|esmiúça|aprende|conhece|revira|fabrica|guarda|suspira|cultiva|estanca|embarga|amiúda|ora|
-|07|02|Passagens_0702|F|5|3|destinos|enigmas|vazios|abismos|saídas|
+|07|01|Passagens_0701|F|13|10|rumina|esmiúça|aprende|conhece|revira|fabrica|guarda|suspira|cultiva|estanca|embarga|amiúda|ora|
+|07|02|Passagens_0702|F|5|2|destinos|enigmas|vazios|abismos|saídas|
 |07|03|Passagens_0703|F|1|1|.|
 <EOF>
-CATAPALA = 25
+CATAPALA = 27
 VERBETES = 141
 PALAVRAS = 177
 VARIATIO = 4.694.976.000                                                                   
