@@ -213,7 +213,6 @@ def status_leituras():
         format_func=lambda x: escritas[x],
         key="box_ovni",
         )
-    seed_tema = selected[opt_leituras]
     tag_cloud(tag_text)
     return escritas
 
@@ -245,12 +244,12 @@ def load_lexico():  # Lexicon for eureka
 
 @st.cache(allow_output_mutation=True)
 def load_tems(book):  # List of yPoemas themes inside a Book
-    temas_list = []
+    all_temas_list = []
     full_name = os.path.join("./data/", book) + ".rol"
     with open(full_name, encoding="utf-8") as file:
         for line in file:
-            temas_list.append(line)
-    return temas_list
+            all_temas_list.append(line)
+    return all_temas_list
 
 
 @st.cache(allow_output_mutation=True)
@@ -315,7 +314,7 @@ def load_poema(
 
 # bof: functions
 def last_next(updn):  # handle last, random and next theme
-    last_tema = len(temas_list) - 1
+    last_tema = len(all_temas_list) - 1
     if updn == ">":
         st.session_state.take += 1
         if st.session_state.take > last_tema:
@@ -332,7 +331,7 @@ def last_next(updn):  # handle last, random and next theme
 def say_numbers(index):  # search index title in index.txt
     indexes = load_index()
     analise = "nonono ..."
-    this = temas_list[index].strip()
+    this = all_temas_list[index].strip()
     for item in indexes:
         if item.startswith(this, 0, len(this)):
             analise = "#️ " + item
@@ -393,7 +392,7 @@ def tag_cloud(text):
         st.pyplot()
 
 
-def get_nome_tema(this):  # extract theme title for eureka
+def get_seed_tema(this):  # extract theme title for eureka
     minus = 0
     where = -1
     for letra in this[0:-4]:
@@ -418,68 +417,65 @@ def page_eureka():
         busca = st.text_input(
             "digite uma palavra (ou parte dela) para buscar...", busca
         )
-        seed_list = []
-        word_list = []
-        tema_show = []
-        for line in lexico_list:
-            alinhas = line.split("|")
-            palas = alinhas[1]
-            fonte = alinhas[2]
-            if busca.lower() in palas.lower():
-                seed_list.append(palas + " - " + fonte)
-                this_tema = get_nome_tema(palas + " - " + fonte)
-                if not this_tema in tema_show:
-                    tema_show.append(this_tema)
-                if not palas.lower() in word_list:
-                    word_list.append(palas.lower())
-
-        if len(busca) < 3:
-            st.warning("digite pelo menos 3 letras...")
-        else:
-            if len(seed_list) > 0:
+        if len(busca) > 2:
+            seeds_list = []
+            words_list = []
+            temas_list = []
+            for line in lexico_list:
+                alinhas = line.split("|")
+                palas = alinhas[1]
+                fonte = alinhas[2]
+                if busca.lower() in palas.lower():
+                    seeds_list.append(palas + " - " + fonte)
+                    this_tema = get_seed_tema(palas + " - " + fonte)
+                    if not this_tema in temas_list:
+                        temas_list.append(this_tema)
+                    if not palas.lower() in words_list:
+                        words_list.append(palas.lower())
+            if len(seeds_list) > 0:
                 st.session_state.seed = busca
                 tt, vv, oo, btns = st.beta_columns([2.3, 2.7, 5, 0.8])
-
+            
                 with tt:
-                    options = list(range(len(tema_show)))
+                    options = list(range(len(temas_list)))
                     opt_tema = st.selectbox(
-                        str(len(tema_show)) + " temas",
+                        str(len(temas_list)) + " temas",
                         options,
-                        format_func=lambda x: tema_show[x],
+                        format_func=lambda x: temas_list[x],
                         key="box_tema",
                     )
-
+            
                 with vv:
-                    options = list(range(len(word_list)))
+                    options = list(range(len(words_list)))
                     opt_word = st.selectbox(
-                        str(len(word_list)) + " verbetes",
+                        str(len(words_list)) + " verbetes",
                         options,
-                        format_func=lambda x: word_list[x],
+                        format_func=lambda x: words_list[x],
                         key="box_word",
                     )
-
+            
                 with oo:
-                    options = list(range(len(seed_list)))
+                    options = list(range(len(seeds_list)))
                     opt_seed = st.selectbox(
-                        str(len(seed_list)) + " ocorrências",
+                        str(len(seeds_list)) + " ocorrências",
                         options,
                         help="digite algo a ser buscado na lista",
-                        format_func=lambda x: seed_list[x],
+                        format_func=lambda x: seeds_list[x],
                         key="box_seed",
                     )
-
-                if opt_seed > len(seed_list):
+            
+                if opt_seed > len(seeds_list):
                     opt_seed = 0
-                seed_tema = get_nome_tema(seed_list[opt_seed])
-
+                seed_tema = get_seed_tema(seeds_list[opt_seed])
+            
                 with btns:
                     aide = st.button("¿", help=say_numeros(seed_tema))
                     more = st.button("+")
-
+            
                 if aide:
                     st.subheader(load_file("EUREKA.md"))
                 else:
-                    curr_ypoema = load_poema(seed_tema, seed_list[opt_seed])
+                    curr_ypoema = load_poema(seed_tema, seeds_list[opt_seed])
                     curr_ypoema = load_lypo()
                     st.subheader(seed_tema)
                     st.markdown(
@@ -488,6 +484,8 @@ def page_eureka():
                     update_leituras(seed_tema)
             else:
                 st.warning("nenhum verbete encontrado com essas letras ---> " + busca)
+        else:
+            st.warning("digite pelo menos 3 letras...")
 
 
 def page_abouts():
@@ -548,8 +546,8 @@ def page_books():  # available books
         )
 
     list_book = ""
-    temas_list = load_tems(st.session_state.book)
-    for line in temas_list:
+    all_temas_list = load_tems(st.session_state.book)
+    for line in all_temas_list:
         list_book += line
     show_expander = st.beta_expander("index", True)
     with show_expander:
@@ -565,7 +563,7 @@ def page_license():
 
 
 st.session_state.last_lang = st.session_state.lang
-temas_list = load_tems(st.session_state.book)
+all_temas_list = load_tems(st.session_state.book)
 
 
 def page_ypoemas():
@@ -659,13 +657,12 @@ def page_ypoemas():
         tag_cloud()
 
     if lnew:
-        options = list(range(len(temas_list)))
+        options = list(range(len(all_temas_list)))
         opt_ypoema = st.selectbox(
             "",
             options,
-            # on_change=find_tema(),
             index=int(st.session_state.take),
-            format_func=lambda x: temas_list[x],
+            format_func=lambda x: all_temas_list[x],
             key="box_ypoe",
         )
         if opt_ypoema != st.session_state.take:
@@ -678,7 +675,7 @@ def page_ypoemas():
             + " ) ( "
             + str(st.session_state.take + 1)
             + "/"
-            + str(len(temas_list))
+            + str(len(all_temas_list))
             + " )"
         )
 
@@ -688,7 +685,7 @@ def page_ypoemas():
                 curr_ypoema = load_lypo()
             else:
                 if lnew:
-                    curr_ypoema = load_poema(temas_list[st.session_state.take], "")
+                    curr_ypoema = load_poema(all_temas_list[st.session_state.take], "")
                     curr_ypoema = load_lypo()
                 else:
                     curr_ypoema = load_lypo()
@@ -702,20 +699,10 @@ def page_ypoemas():
                     save_typo.write(curr_ypoema)
                     save_typo.close()
                 curr_ypoema = load_typo()  # to normalize line breaks in text
-            # st.subheader(temas_list[st.session_state.take])
+            # st.subheader(all_temas_list[st.session_state.take])  # show nome_tema
             st.markdown(curr_ypoema, unsafe_allow_html=True)  # finally... write it
-            update_leituras(temas_list[st.session_state.take].strip())
+            update_leituras(all_temas_list[st.session_state.take].strip())
 
-
-#    def find_tema():
-#        try:
-#            find_nome = temas_list[opt_ypoema]
-#            index_pos = temas_list.index(find_nome)
-#            print(find_nome, index_pos)
-#            st.session_state.take = index_pos
-#        except ValueError:
-#            st.warning(temas_list[opt_ypoema] + "não encontrado...")
-#        return st.session_state.take
 
 # eof: pages
 
