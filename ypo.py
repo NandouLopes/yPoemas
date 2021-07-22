@@ -105,12 +105,15 @@ if "seed" not in st.session_state:
     st.session_state.seed = "abre"
 if "visi" not in st.session_state:
     st.session_state.visi = True
+if "ovni" not in st.session_state:
+    st.session_state.ovni = 0
 
 
 def update_visita():
     with open(os.path.join("./temp/visita.txt"), "r", encoding="utf-8") as visita:
         tots = int(visita.read())
         tots = tots + 1
+        st.session_state.ovni = tots
     with open(os.path.join("./temp/visita.txt"), "w", encoding="utf-8") as visita:
         visita.write(str(tots))
     visita.close()
@@ -205,7 +208,7 @@ def status_leituras():
 
     options = list(range(len(escritas)))
     opt_leituras = st.selectbox(
-        str(len(escritas)) + " temas, " + str(totaliza) + " leituras",
+        str(len(escritas)) + " temas, " + str(totaliza) + "/" + str(st.session_state.ovni) + " leituras",
         options,
         format_func=lambda x: escritas[x],
         )
@@ -322,7 +325,6 @@ def last_next(updn):  # handle last, random and next theme
             st.session_state.take = last_tema
     else:
         st.session_state.take = random.randrange(0, last_tema, 1)
-    # print(st.session_state.take, " --- last_next")
     return st.session_state.take
 
 
@@ -563,7 +565,6 @@ temas_list = load_tems(st.session_state.book)
 
 
 def page_ypoemas():
-
     st.write("")
     st.sidebar.image("./img_home.jpg")
     i0, i1, i2, i3, i4, i5, i6, i7, i8 = st.beta_columns(
@@ -655,15 +656,13 @@ def page_ypoemas():
 
     if lnew:
         options = list(range(len(temas_list)))
-        # print(st.session_state.take, " --- antes")
         opt_ypoema = st.selectbox(
             "",
             options,
+            # on_change=find_tema(),
             index=int(st.session_state.take),
             format_func=lambda x: temas_list[x],
         )
-        # print(st.session_state.take, " --- depois")
-        # st.session_state.take = temas_list[opt_ypoema]
         
         this_take = st.session_state.take + 1
         info = (
@@ -701,6 +700,16 @@ def page_ypoemas():
             st.markdown(curr_ypoema, unsafe_allow_html=True)  # finally... write it
             update_leituras(temas_list[st.session_state.take].strip())
 
+
+#    def find_tema():
+#        try:
+#            find_nome = temas_list[opt_ypoema]
+#            index_pos = temas_list.index(find_nome)
+#            print(find_nome, index_pos)
+#            st.session_state.take = index_pos
+#        except ValueError:
+#            st.warning(temas_list[opt_ypoema] + "não encontrado...")
+#        return st.session_state.take
 
 # eof: pages
 
