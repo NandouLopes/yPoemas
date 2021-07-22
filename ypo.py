@@ -211,6 +211,7 @@ def status_leituras():
         str(len(escritas)) + " temas, " + str(totaliza) + "/" + str(st.session_state.ovni) + " leituras",
         options,
         format_func=lambda x: escritas[x],
+        key="box_ovni",
         )
     seed_tema = selected[opt_leituras]
     tag_cloud(tag_text)
@@ -445,6 +446,7 @@ def page_eureka():
                         str(len(tema_show)) + " temas",
                         options,
                         format_func=lambda x: tema_show[x],
+                        key="box_tema",
                     )
 
                 with vv:
@@ -453,6 +455,7 @@ def page_eureka():
                         str(len(word_list)) + " verbetes",
                         options,
                         format_func=lambda x: word_list[x],
+                        key="box_word",
                     )
 
                 with oo:
@@ -462,6 +465,7 @@ def page_eureka():
                         options,
                         help="digite algo a ser buscado na lista",
                         format_func=lambda x: seed_list[x],
+                        key="box_seed",
                     )
 
                 if opt_seed > len(seed_list):
@@ -662,15 +666,17 @@ def page_ypoemas():
             # on_change=find_tema(),
             index=int(st.session_state.take),
             format_func=lambda x: temas_list[x],
+            key="box_ypoe",
         )
-        
-        this_take = st.session_state.take + 1
+        if opt_ypoema != st.session_state.take:
+            st.session_state.take=opt_ypoema
+
         info = (
             st.session_state.lang
             + " ( "
             + st.session_state.book
             + " ) ( "
-            + str(this_take)
+            + str(st.session_state.take + 1)
             + "/"
             + str(len(temas_list))
             + " )"
