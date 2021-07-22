@@ -102,7 +102,7 @@ if "lang" not in st.session_state:
 if "last_lang" not in st.session_state:
     st.session_state.last_lang = "pt"
 if "seed" not in st.session_state:
-    st.session_state.seed = "abre"
+    st.session_state.seed = "brandidas"
 if "visi" not in st.session_state:
     st.session_state.visi = True
 if "ovni" not in st.session_state:
