@@ -16,7 +16,8 @@ LYPO == Last YPOema created from curr_ypoema
 TYPO == Translated Ypoema from LYPO
 user_ip == the User IP for LYPO, TYPO
 
-® © ± ½ ¿ Æ Ø æ ¤ œ ™ €
+® © ± ½ ¿ Æ Ø æ ¤ œ ™ € "|\n"
+
 [ToDo] ---> retomar TTS - version 0.1.2
 [ToDo] ---> página Comments
 [ToDo] ---> Download Text, convert to image.jpg
@@ -29,6 +30,8 @@ import io
 import re
 import random
 import streamlit as st
+
+from datetime import datetime
 
 # Project Module
 from lay_2_ypo import gera_poema
@@ -110,10 +113,18 @@ if "ovni" not in st.session_state:
 
 
 def update_visita():
+    date_string = f'{datetime.now():%Y-%m-%d}'
+    time_string = f'{datetime.now():%H:%M:%S%z}'
+    user_data = "|" + user_ip + "|" + date_string + "|" + time_string + "|\n"
+    with open(os.path.join("./temp/user_data.txt"), "a", encoding="utf-8") as data:
+        data.write(user_data)
+    data.close()
+
     with open(os.path.join("./temp/visita.txt"), "r", encoding="utf-8") as visita:
         tots = int(visita.read())
         tots = tots + 1
         st.session_state.ovni = tots
+        
     with open(os.path.join("./temp/visita.txt"), "w", encoding="utf-8") as visita:
         visita.write(str(tots))
     visita.close()
