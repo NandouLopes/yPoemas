@@ -1,9 +1,3 @@
-|Espera-se|Manifesto_1501|
-|Fim-de-Século|Prefácil_0204|
-|Lei-de-Gérson|Estudo_0603|
-|Lei-de-Gérson|Ocio_1303|
-|vide-bula|Remedeio_0301|
-|vide-bula|Salute_0501|
 |abaixo|Manifesto_0101|
 |abala|Epitafiando_0502|
 |abala|Portal_0502|
@@ -12,7 +6,6 @@
 |abalizado|Oficio_0404|
 |abalos|Meteoro_0303|
 |Abandonando|Ais_1001|
-|abandonment|Jealousy_0301|
 |abandono|Ciuminho_0502|
 |abandono|Ciuminho_0601|
 |abandono|Epitafiando_0202|
@@ -189,7 +182,6 @@
 |absoluto|Salute_0501|
 |absoluto|Tempo_0303|
 |absoluto|Tempo_1204|
-|abstract|Jealousy_0201|
 |Abstrair|ArErIr_0301|
 |Abstrata|Ais_0102|
 |abstrata|Anjos_0403|
@@ -212,7 +204,6 @@
 |abstração|Clandestino_1102|
 |abstração|Victor_1001|
 |abstração|Victor_1102|
-|absurd|Jealousy_0201|
 |Absurda|Ais_0102|
 |absurda|Fatos_1206|
 |absurda|Meteoro_0602|
@@ -222,7 +213,6 @@
 |absurdas|Posfácio_0903|
 |absurdas|Posfácio_1006|
 |absurdas|Tempo_0203|
-|absurdly|Jealousy_0301|
 |absurdo|Batismo_0302|
 |absurdo|Blablabla_0101|
 |absurdo|Ciuminho_0502|
@@ -276,8 +266,6 @@
 |abusos|Reclame_0102|
 |abutre|Frases_0402|
 |abutre|Indolor_0303|
-|abyss|HayKay_0201|
-|abysses|Jealousy_0201|
 |abóbada|Essa_0201|
 |acaba|Enfrente_0103|
 |acaba|Sos_0303|
@@ -398,8 +386,6 @@
 |acato|Tolero_0203|
 |acato|Veio_0404|
 |acatá-las|Tiro_0601|
-|Accept|HayKay_0301|
-|accidental|HayKay_0201|
 |aceita|Avevida_0203|
 |aceitamos|Cartaz_1001|
 |Aceitando|Ais_1001|
@@ -502,8 +488,8 @@
 |acho|Lato_0101|
 |acho|MachBeth_0601|
 |acho|Olhares_1401|
-|Acho|Remedeio_0101|
 |acho|Remedeio_0101|
+|Acho|Remedeio_0101|
 |acho|Salute_0101|
 |Acho|Salute_0101|
 |Acho|Veio_0501|
@@ -618,9 +604,6 @@
 |acrescente|Buscas_0102|
 |acrílicos|Veio_0703|
 |acrônicas|Oficio_1304|
-|act|HayKay_0202|
-|act|Jealousy_0201|
-|acts|Jealousy_0201|
 |Acuada|Ais_0101|
 |acuados|Usinas_1015|
 |Acumulados|Ais_1002|
@@ -638,7 +621,6 @@
 |adaptação|Gemeos=m_0302|
 |adaptação|Peixes=f_0302|
 |adaptação|Peixes=m_0302|
-|add|HayKay_0302|
 |Ademais|Veio_0701|
 |adendos|Cartaz_0402|
 |adentra|MachBrait_0501|
@@ -742,7 +724,6 @@
 |adrenalina|Salute_0403|
 |Adubando|Ais_1001|
 |Adulterando|Ais_1001|
-|adventures|HayKay_0103|
 |adversidades|Finais_0102|
 |adversidades|Zodiacaos_1304|
 |adverso|Remedeio_0301|
@@ -817,9 +798,6 @@
 |afetos|Elogio_0401|
 |afetuoso|Virgem=f_0403|
 |afetuoso|Virgem=m_0403|
-|affection|Jealousy_0201|
-|affections|Jealousy_0201|
-|affects|Jealousy_0201|
 |Afiada|Ais_0501|
 |Afiada|Ais_0503|
 |afiados|Oca_0204|
@@ -915,7 +893,6 @@
 |Agenciador|Oficio_0103|
 |Agende|Cartaz_1001|
 |agendi|Sentença_0603|
-|ages|HayKay_0202|
 |Agigantando|Ais_1001|
 |agilidade|Aquarius=f_0301|
 |agilidade|Aquarius=m_0301|
@@ -924,7 +901,6 @@
 |agilidade|Prefácil_1203|
 |Agindo|Aries=f_0101|
 |Agindo|Aries=m_0101|
-|aging|HayKay_0202|
 |Agir|ArErIr_0301|
 |Agir|ArErIr_0402|
 |agir|Destinos_0401|
@@ -1000,7 +976,6 @@
 |agravar|Oca_0201|
 |agravar|Oco_0201|
 |agravo|Sentença_0502|
-|agrees|Jealousy_0201|
 |agrega|Anjos_0502|
 |agrega|Augusto_0502|
 |Agregando|Ais_1001|
@@ -1033,7 +1008,6 @@
 |Agência|Manifesto_0701|
 |Agência|Oficio_0201|
 |Agência|Oficio_0604|
-|aims|Jealousy_0201|
 |Ainda|Ais_0101|
 |ainda|Anjos_0104|
 |ainda|Augusto_1305|
@@ -1447,9 +1421,7 @@
 |alinho|Snowball_1601|
 |alisa|Palyndro_1501|
 |aliterações|Cartaz_0402|
-|alive|HayKay_0103|
 |Alivia|Sos_0301|
-|all|HayKay_0202|
 |alma|Amores_0301|
 |alma|Anjos_0301|
 |alma|Augusto_0101|
@@ -1538,9 +1510,7 @@
 |almejo|Snowball_1601|
 |almejo|Sopros_0302|
 |almejo|Veio_0304|
-|almost|Jealousy_0201|
 |almotolia|Essa_0205|
-|alone|Jealousy_0201|
 |Alongamento|Cartaz_0201|
 |alongamento|Cartaz_0301|
 |alongamento|Cartaz_0401|
@@ -1557,7 +1527,6 @@
 |alquimias|Destinos_0402|
 |alquimias|Distintos_0402|
 |alquimias|Usinas_2530|
-|already|Jealousy_0201|
 |Alta|Meteoro_0501|
 |alta|Meteoro_0602|
 |alta|Meteoro_0702|
@@ -1623,8 +1592,6 @@
 |alvos|Sn6=ball_0501|
 |alvos|Sn8=ball_0501|
 |alvos|Snowball_0501|
-|always|HayKay_0301|
-|always|Jealousy_0201|
 |Alçando|Ais_1001|
 |alçando|Sonoro_0201|
 |além|Becos_0804|
@@ -1763,7 +1730,6 @@
 |amassou|Ciuminho_0502|
 |amassou|Psiume_0301|
 |amassou|Zelo_0201|
-|amateurs|Jealousy_0301|
 |Amazonas|Neobrazil_1201|
 |Amazônica|Meteoro_0503|
 |ambiciosa|Aries=f_0201|
@@ -1827,7 +1793,6 @@
 |amenidades|Psiume_0301|
 |amenidades|Tempo_1101|
 |amenidades|Zelo_0201|
-|amenities|Jealousy_0201|
 |Amenizando|Ais_1001|
 |amenizar|Blablabla_0301|
 |amenizar|Nonono_0601|
@@ -2070,8 +2035,6 @@
 |Ancorando|Ais_1001|
 |Ancoro|Dolores_0701|
 |Ancoro|Indolor_0701|
-|and|HayKay_0201|
-|and|Jealousy_0201|
 |anda|Loucura_0201|
 |anda|Tempo_1302|
 |Andaluzia|Reinos_0503|
@@ -2321,8 +2284,6 @@
 |anuncias|Tempo_1302|
 |anunciavam|Conto_1001|
 |anuí|Joker_0401|
-|Any|HayKay_0301|
-|any|Jealousy_0201|
 |anzóis|MachBrait_1001|
 |anzóis|Papilio_1003|
 |anárquicas|Posfácio_0903|
@@ -2719,7 +2680,6 @@
 |armadilhas|Snowball_1201|
 |Armando|Neobrazil_0202|
 |aromas|Elogio_0301|
-|around|HayKay_0103|
 |Arpejo|Reger_0101|
 |arquipélago|MachBeth_0701|
 |arquipélago|Manusgrite_0702|
@@ -2800,7 +2760,6 @@
 |arrogante|Pessoa_0302|
 |arrogante|Pessoa_0402|
 |arrolados|Sentença_0201|
-|arrow|Jealousy_0301|
 |Arrulhando|Ais_1001|
 |arrulho|Silente_0702|
 |arrumadeira|Destinos_0202|
@@ -3253,7 +3212,6 @@
 |atrás|Minuto_0601|
 |atrás|Papilio_1201|
 |atrás|Rever_0201|
-|attitudes|HayKay_0103|
 |atual|Loremipsum_0301|
 |atualidade|Fatos_1201|
 |atuam|Duralex_0302|
@@ -3301,7 +3259,6 @@
 |atônito|Papilio_0801|
 |audazes|Gula_0303|
 |Audelá|Fatos_1103|
-|audience|Jealousy_0301|
 |Auditor|Oficio_0103|
 |Audácia|Ais_0103|
 |audácia|Amores_0301|
@@ -3438,7 +3395,6 @@
 |aventureira|Distintos_0202|
 |aventureiro|Sagitari=f_0303|
 |aventureiro|Sagitari=m_0303|
-|aversion|Jealousy_0201|
 |aves|Clandestino_0802|
 |aves|Cuores_0601|
 |aves|Ser_0101|
@@ -3498,9 +3454,7 @@
 |Avoadas|Ais_1002|
 |avulta|Rever_0103|
 |avô|Fatos_2302|
-|away|Jealousy_0201|
 |axiomático|Reinos_0102|
-|axle|HayKay_0201|
 |Ayala|Loremipsum_0801|
 |azar|Epitafiando_0202|
 |azar|Portal_0202|
@@ -3517,7 +3471,6 @@
 |aérea|Neobrazil_1201|
 |aético|Reinos_0201|
 |babel|Haikai_0201|
-|babel|HayKay_0201|
 |babel|Tempo_0801|
 |Babilônica|Manifesto_0702|
 |Babilônica|Oficio_0202|
@@ -3525,7 +3478,6 @@
 |Babélica|Oficio_0202|
 |bacanais|Gula_0202|
 |Bacharel|Oficio_0405|
-|bad|Jealousy_0201|
 |baiacu|Ocio_2301|
 |baila|Frases_0203|
 |baila|Sos_0203|
@@ -3555,7 +3507,6 @@
 |baladas|Silente_0605|
 |baladeira|Destinos_0202|
 |baladeira|Distintos_0202|
-|balance|Jealousy_0201|
 |Balanceamento|Cartaz_0201|
 |balanceamento|Cartaz_0301|
 |balanceamento|Cartaz_0401|
@@ -3637,7 +3588,6 @@
 |barco|Sagitari=f_0102|
 |barco|Sagitari=m_0102|
 |bardo|Manifesto_1502|
-|barely|Jealousy_0201|
 |barganha|Feiras_0503|
 |barra|Elogio_0101|
 |barra|Liberta_0501|
@@ -3736,12 +3686,8 @@
 |beco|Sn6=ball_0401|
 |beco|Sn8=ball_0401|
 |beco|Snowball_0401|
-|becomes|Jealousy_0201|
-|becoming|Jealousy_0201|
 |becos|Ciuminho_0304|
 |becos|Conto_0301|
-|bed|HayKay_0201|
-|bed|Jealousy_0301|
 |beduíno|Indolor_0303|
 |beija|Ciuminho_0502|
 |beija|MachBrait_1401|
@@ -3757,8 +3703,6 @@
 |beijos|Meteoro_0904|
 |beijá-lo|Anjos_0105|
 |beijá-lo|Augusto_1307|
-|being|HayKay_0103|
-|being|HayKay_0201|
 |beira|Brado_0301|
 |beira|Ciuminho_0303|
 |beira|Clandestino_0802|
@@ -3798,7 +3742,6 @@
 |belezas|Victor_1102|
 |belga|Fatos_1004|
 |belga|Ocio_2301|
-|believe|HayKay_0302|
 |belo|Liberta_0901|
 |belo|MachBrait_0501|
 |belo|Papilio_0501|
@@ -3890,7 +3833,6 @@
 |Beth|MachBeth_1501|
 |Beth|MachBrait_1501|
 |Beth|Papilio_1501|
-|bewilders|Jealousy_0201|
 |Beócios|Reinos_0702|
 |bibelô|Festim_0701|
 |biblioteca|Cordel_0303|
@@ -3926,7 +3868,6 @@
 |Bilíngue|Oficio_0202|
 |Binacional|Manifesto_0702|
 |Binacional|Oficio_0202|
-|binds|HayKay_0202|
 |Binomial|Manifesto_0702|
 |Binomial|Oficio_0202|
 |Biodegradável|Manifesto_0702|
@@ -3976,21 +3917,13 @@
 |bizarras|Oficio_1304|
 |bizarro|Avevida_0303|
 |Biônico|Oficio_0104|
-|black|Jealousy_0201|
 |Blackout|Neobrazil_0103|
-|blank|HayKay_0201|
 |blaterar|Vozes_0102|
 |blefe|Ciuminho_0401|
-|blind|HayKay_0201|
 |blindada|Silente_0303|
 |blindados|MachBrait_0901|
 |blindados|Papilio_1003|
-|blindness|Jealousy_0201|
-|blossom|HayKay_0301|
-|blows|Jealousy_0201|
 |blues|Silente_0605|
-|blunders|HayKay_0103|
-|blunders|HayKay_0202|
 |blá-blá-blá|Vozes_0201|
 |boa|Bula_0204|
 |boa|Cancer=f_0502|
@@ -4014,7 +3947,6 @@
 |boas|Niver_0204|
 |boas|Sagitari=f_0703|
 |boas|Sagitari=m_0703|
-|boasts|HayKay_0202|
 |boato|Lato_2502|
 |boato|Manifesto_4504|
 |boatos|Ciuminho_0502|
@@ -4084,7 +4016,6 @@
 |bom-dia|Tolero_0201|
 |bombas|Silente_0804|
 |bombril|Bula_0302|
-|bond|Jealousy_0301|
 |bondade|Aquarius=f_0301|
 |bondade|Aquarius=m_0301|
 |bondade|Elogio_0301|
@@ -4113,7 +4044,6 @@
 |bons|Tempo_0502|
 |bons|Touro=f_0203|
 |bons|Touro=m_0203|
-|book|HayKay_0201|
 |Booleana|Oficio_0202|
 |borboleta|Frases_0402|
 |borboletas|Estudo_0603|
@@ -4126,8 +4056,6 @@
 |boreais|Saudades_0201|
 |boreais|Veio_0304|
 |boreal|Ocio_3104|
-|born|HayKay_0202|
-|born|Jealousy_0201|
 |borrascas|Meteoro_0303|
 |borrascas|Meteoro_0902|
 |borrifar|Oca_0201|
@@ -4146,7 +4074,6 @@
 |boticária|Distintos_0202|
 |Botox|Distintos_0801|
 |botão|Saudades_0601|
-|boundaries|Jealousy_0301|
 |boxista|Destinos_0205|
 |boxista|Distintos_0205|
 |boêmios|Cartaz_0902|
@@ -4185,9 +4112,6 @@
 |bravata|Psiume_0202|
 |bravatas|Cromossomo_0402|
 |bravos|Brado_0402|
-|bread|Jealousy_0201|
-|breath|HayKay_0102|
-|breathes|Jealousy_0201|
 |brecha|Ciuminho_0502|
 |brecha|Ciuminho_0601|
 |brecha|Fugaz_0901|
@@ -4243,11 +4167,9 @@
 |brevidade|Zodiacaos_1702|
 |brevidades|Snowball_1001|
 |brevidades|Tempo_0402|
-|brief|HayKay_0201|
 |briga|Cordel_0101|
 |brigadista|Destinos_0205|
 |brigadista|Distintos_0205|
-|bright|Jealousy_0201|
 |brilha|Leao=f_0602|
 |brilha|Leao=m_0602|
 |brilha|Mirante_0202|
@@ -4334,7 +4256,6 @@
 |brinde|Ocio_3104|
 |brinde|Tempo_1101|
 |brindo|Bolero_0403|
-|brings|Jealousy_0201|
 |brinque|Olhares_1302|
 |brinque|Zoia_1302|
 |brinquedo|Joker_0403|
@@ -4366,7 +4287,6 @@
 |Britânica|Manifesto_0702|
 |Britânica|Oficio_0202|
 |Broa|Gula_0504|
-|broad|HayKay_0201|
 |bronco|Lato_2505|
 |bronze|Papilio_1001|
 |brota|Augusto_0404|
@@ -4424,8 +4344,6 @@
 |bulam|Salute_0501|
 |bulir|Remedeio_0301|
 |bulir|Salute_0501|
-|bulk|Jealousy_0201|
-|bull's-eyes|Jealousy_0201|
 |Bulo|Remedeio_0101|
 |Bulo|Salute_0101|
 |bunda|Cromossomo_0904|
@@ -4457,8 +4375,6 @@
 |burburinhos|Silente_0402|
 |burlem|Remedeio_0301|
 |burlem|Salute_0501|
-|burning|Jealousy_0301|
-|burns|Jealousy_0201|
 |burocrática|Reinos_0404|
 |burra|Blablabla_0301|
 |burra|Nonono_0301|
@@ -4533,8 +4449,8 @@
 |cabe|Avevida_0201|
 |cabe|Buscas_0301|
 |cabe|Demo_0301|
-|Cabe|Demo_0401|
 |cabe|Demo_0401|
+|Cabe|Demo_0401|
 |cabe|Elogio_0401|
 |cabe|Fugaz_1401|
 |cabe|Haikai_0301|
@@ -4685,7 +4601,6 @@
 |cafuné|Sentença_0801|
 |cafunés|Meteoro_0904|
 |café|Ocio_2402|
-|cage|Jealousy_0301|
 |cai|Circular_0301|
 |cai|Ciuminho_0502|
 |cai|Dolores_0601|
@@ -4930,7 +4845,6 @@
 |camuflado|Ciuminho_0304|
 |camuflado|Nonono_0301|
 |camuflado|Paroles_0301|
-|can|HayKay_0301|
 |canadense|Fatos_1004|
 |canais|Seguro_0101|
 |Canalhas|Reinos_0702|
@@ -5185,9 +5099,6 @@
 |carentes|Destinos_0305|
 |carentes|Distintos_0305|
 |carentes|Oficio_1304|
-|caress|Jealousy_0201|
-|caress|Jealousy_0301|
-|caresses|HayKay_0103|
 |Careço|Bula_0102|
 |Careço|Salute_0201|
 |Caribe|Epitafiando_0202|
@@ -5306,7 +5217,6 @@
 |carregas|Tempo_0802|
 |carregas|Tempo_1302|
 |carreira|Cordel_0303|
-|carries|HayKay_0202|
 |carros|Silente_0702|
 |carrossel|Ciuminho_0401|
 |carrossel|Epitafiando_0301|
@@ -5415,7 +5325,6 @@
 |catar|Minuto_0601|
 |Catar|Saudades_0101|
 |catarata|Ser_0101|
-|catches|Jealousy_0201|
 |catequista|Destinos_0205|
 |catequista|Distintos_0205|
 |caterva|Reinos_0402|
@@ -5472,7 +5381,6 @@
 |cause|Ciuminho_0401|
 |causem|Remedeio_0301|
 |causem|Salute_0501|
-|causes|Jealousy_0201|
 |causos|Sentença_0603|
 |cautela|Elogio_0301|
 |cautela|Zodiacaos_1003|
@@ -5516,7 +5424,6 @@
 |caóticas|Posfácio_0903|
 |caóticas|Posfácio_1004|
 |caótico|Reinos_0201|
-|cease|HayKay_0202|
 |Cebola|Gula_0504|
 |ceder|Cordel_0202|
 |cedinho|Saudades_0603|
@@ -5652,8 +5559,6 @@
 |certa|Touro=m_0401|
 |certa|Zelo_0201|
 |certa|Zodiacaos_0803|
-|certainties|HayKay_0103|
-|certainty|HayKay_0103|
 |certamente|Augusto_1202|
 |certamente|Meteoro_0102|
 |certamente|Zodiacaos_1002|
@@ -5729,9 +5634,6 @@
 |chaga|Anjos_0903|
 |chaga|Augusto_0903|
 |chagas|Papilio_1003|
-|chainless|Jealousy_0301|
-|chains|HayKay_0103|
-|challenges|HayKay_0103|
 |chama|Ciuminho_0502|
 |chama|Clarice_0101|
 |chama|Haikai_0201|
@@ -5755,14 +5657,10 @@
 |chamo|Solero_0402|
 |champanhe|Ocio_2301|
 |chance|Atido_1003|
-|chance|HayKay_0202|
 |chance|Mirante_0203|
 |chance|Ogiva_0203|
 |chance|Zoia_0703|
 |chance|Zoia_1103|
-|change|HayKay_0302|
-|changes|HayKay_0103|
-|changes|Jealousy_0201|
 |chantagista|Destinos_0205|
 |chantagista|Distintos_0205|
 |chapéu|Atido_2002|
@@ -5831,7 +5729,6 @@
 |Chico|Bolero_1301|
 |Chico|Lero_0402|
 |Chico|Solero_0402|
-|chimeras|HayKay_0103|
 |Chimica|Neobrazil_0103|
 |chiste|Lato_2502|
 |chocolate|Ocio_2301|
@@ -5987,8 +5884,6 @@
 |Circularmente|Anjos_1201|
 |circularmente|Augusto_1202|
 |circulas|Tempo_1302|
-|circus|HayKay_0201|
-|circus|Jealousy_0201|
 |cirúrgico|Reinos_0203|
 |cisma|Ciuminho_0202|
 |cisma|Epitafiando_0502|
@@ -6049,7 +5944,6 @@
 |claros|Bula_0202|
 |classe|Avevida_0103|
 |classe|Ciuminho_0401|
-|clear|HayKay_0201|
 |cliente|Destinos_0801|
 |cliente|Distintos_0801|
 |clima|Reclame_1002|
@@ -6350,10 +6244,8 @@
 |Combinaram|Distintos_0501|
 |combinação|Amaré_0206|
 |combinações|Posfácio_0601|
-|combined|HayKay_0201|
 |combinem|Remedeio_0301|
 |combinem|Salute_0501|
-|come|Jealousy_0201|
 |comedidas|Prefácil_0503|
 |comem|Cromossomo_0602|
 |comemos|Cromossomo_0902|
@@ -6375,7 +6267,6 @@
 |comigo|Seguro_0302|
 |comigo|Tempo_1101|
 |comigo|Tempo_1302|
-|coming|HayKay_0301|
 |como|Atido_0503|
 |como|Batismo_0402|
 |como|Becos_0602|
@@ -6435,8 +6326,6 @@
 |compartilhamos|Indolor_0401|
 |compartilhar|Zodiacaos_0902|
 |compartilho|Dolores_0401|
-|compass|HayKay_0102|
-|compass|HayKay_0201|
 |compasso|Epitafiando_0202|
 |compasso|Essa_0201|
 |compasso|Fugaz_0102|
@@ -6533,7 +6422,6 @@
 |conceituada|Oficio_0603|
 |conceituado|Fatos_1002|
 |conceituado|Oficio_0404|
-|concerns|HayKay_0103|
 |Concertam-se|Cartaz_0101|
 |concertista|Destinos_0205|
 |concertista|Distintos_0205|
@@ -6568,7 +6456,6 @@
 |concreta|Papilio_0801|
 |concreta|Tiro_0503|
 |concretas|Ciuminho_0401|
-|concrete|Jealousy_0201|
 |concretista|Destinos_0205|
 |concretista|Distintos_0205|
 |concreto|Becos_0704|
@@ -6767,7 +6654,6 @@
 |Considerando-se|Loucura_0101|
 |Considerar|ArErIr_0101|
 |Considere-se|Posfácio_1201|
-|considers|Jealousy_0201|
 |consigam|Manifesto_3001|
 |consigo|Essa_0401|
 |consigo|Silente_0902|
@@ -6815,7 +6701,6 @@
 |consultorias|Ocio_1206|
 |consumada|Oficio_0603|
 |consumado|Oficio_0404|
-|consumes|HayKay_0202|
 |consumista|Destinos_0205|
 |consumista|Distintos_0205|
 |consumista|Ocio_2101|
@@ -6842,7 +6727,6 @@
 |contamina|Ciuminho_0303|
 |contamina|Remedeio_0101|
 |contamina|Salute_0101|
-|contaminates|Jealousy_0201|
 |contando|Ciuminho_0401|
 |contar|Aquarius=f_0301|
 |contar|Aquarius=m_0301|
@@ -7120,7 +7004,6 @@
 |coriscos|Meteoro_0303|
 |coriscos|Meteoro_0902|
 |Corja|Reinos_0601|
-|corners|Jealousy_0201|
 |coro|Reger_0202|
 |coros|Silente_0702|
 |corpo|Dolores_0201|
@@ -7240,21 +7123,15 @@
 |cotoco|Conto_0702|
 |cotoco|Oca_0401|
 |cotoco|Oco_0401|
-|counterfeits|Jealousy_0201|
 |couraças|Festim_0701|
-|course|HayKay_0201|
-|course|Jealousy_0201|
 |cousa|Epitafiando_0202|
 |cousa|Portal_0202|
 |cousas|Tempo_0602|
-|cousin|HayKay_0201|
 |cova|Ciuminho_0502|
 |cova|Psiume_0301|
 |cova|Zelo_0201|
 |covardia|Feiras_0701|
 |coveiro|Indolor_0303|
-|covered|Jealousy_0301|
-|cowardly|Jealousy_0201|
 |coxas|Estudo_0201|
 |coxas|Ocio_1101|
 |cozinha|Silente_0202|
@@ -7266,7 +7143,6 @@
 |crachá|Lero_0301|
 |crachá|Solero_0301|
 |crachá|Tolero_0201|
-|cradle|HayKay_0201|
 |crase|Frases_0402|
 |Crasso|Veio_0701|
 |crassos|Insano_0503|
@@ -7286,17 +7162,12 @@
 |cravar|Nonono_0402|
 |cravar|Ocio_1205|
 |cravar|Paroles_0102|
-|crave|HayKay_0302|
 |Crave|Insano_3501|
 |cravei|Feiras_0802|
 |cravejada|Frases_0402|
 |cravá-las|Saudades_0401|
-|crazy|HayKay_0201|
-|create|HayKay_0302|
-|creates|Jealousy_0201|
 |creatina|Remedeio_0204|
 |creatina|Salute_0403|
-|creator|Jealousy_0201|
 |credibilidade|Prefácil_1203|
 |Credibilíssimo|Oficio_0101|
 |credita-se|Fatos_1302|
@@ -7426,7 +7297,6 @@
 |crime|Psiume_0301|
 |crime|Zelo_0201|
 |crime|Zelo_1001|
-|crimeless|Jealousy_0301|
 |criminalista|Destinos_0205|
 |criminalista|Distintos_0205|
 |criminosa|Neobrazil_0502|
@@ -7462,8 +7332,6 @@
 |cronista|Distintos_0205|
 |cronometrista|Destinos_0205|
 |cronometrista|Distintos_0205|
-|crooked|HayKay_0201|
-|crossroads|HayKay_0103|
 |Croácia|Reinos_0503|
 |cru|Haikai_0201|
 |cru|Posfácio_0203|
@@ -7479,7 +7347,6 @@
 |crua|Tempo_0801|
 |cruas|Posfácio_0903|
 |cruas|Posfácio_1006|
-|crucible|HayKay_0102|
 |crucifiquei|Feiras_0802|
 |cruel|Festim_1002|
 |cruel|Tempo_0702|
@@ -7511,7 +7378,6 @@
 |cubos|Ocio_2402|
 |cubro|Sopros_0501|
 |cubículos|Silente_0903|
-|cuddles|HayKay_0103|
 |cuidado|MachBrait_0901|
 |cuidado|Papilio_0901|
 |cuidado|Zodiacaos_1003|
@@ -7538,7 +7404,6 @@
 |culmina|Ciuminho_0502|
 |culmina|Psiume_0301|
 |culmina|Zelo_0201|
-|culminates|Jealousy_0201|
 |culminem|Remedeio_0301|
 |culminem|Salute_0501|
 |culmineto|Bula_0202|
@@ -7639,8 +7504,6 @@
 |curandeira|Distintos_0202|
 |curare|Essa_0201|
 |curdo|Fatos_0603|
-|cure|Jealousy_0301|
-|cureless|Jealousy_0301|
 |curinga|Joker_0402|
 |Curiosa|Gemeos=f_0101|
 |curiosidade|Oficio_0702|
@@ -7693,7 +7556,6 @@
 |Cuspi|Joker_0101|
 |cuspido|Clarice_0802|
 |custo|Liberta_0501|
-|cuts|Jealousy_0201|
 |cádmio|Ocio_2402|
 |cápsula|Augusto_0903|
 |Cáspio|Meteoro_0503|
@@ -7785,11 +7647,8 @@
 |Dana|Loremipsum_0801|
 |danação|Anjos_1103|
 |danação|Augusto_1405|
-|dance|HayKay_0201|
-|dance|HayKay_0302|
 |Dando|Neobrazil_0101|
 |dando|Reinos_1102|
-|danger|Jealousy_0201|
 |daninhas|Reclame_0603|
 |daninho|Atido_1003|
 |daninhos|Inhos_0501|
@@ -7853,13 +7712,8 @@
 |dar|Touro=m_0302|
 |Dar|Virgem=f_0601|
 |Dar|Virgem=m_0601|
-|dare|HayKay_0302|
 |daria|Feiras_0403|
-|daring|HayKay_0103|
-|dark|HayKay_0201|
-|darkness|Jealousy_0201|
 |Darmihão|Fatos_1102|
-|dart|Jealousy_0301|
 |dará|Remedeio_0301|
 |dará|Salute_0501|
 |das|Aolero_0401|
@@ -7915,11 +7769,8 @@
 |Data|Sentença_0603|
 |datiloscopista|Destinos_0205|
 |datiloscopista|Distintos_0205|
-|dating|HayKay_0103|
-|days|Jealousy_0301|
 |daí|Demo_0401|
 |daí|MachBeth_0301|
-|deadlocks|HayKay_0202|
 |debates|Aquarius=f_0402|
 |debates|Aquarius=m_0402|
 |deboches|Avevida_0303|
@@ -7941,7 +7792,6 @@
 |decifra-me|Tempo_1101|
 |decifrada|Cordel_0301|
 |decifrado|Elogio_0202|
-|decisions|HayKay_0202|
 |decisões|Finais_5002|
 |decisões|Haikai_0202|
 |decisões|Tempo_0802|
@@ -8005,7 +7855,6 @@
 |dedos|Reclame_0401|
 |deduz|Feiras_0503|
 |deduzia-se|Becos_0103|
-|deep|HayKay_0201|
 |defeitos|Cartaz_0103|
 |defeitos|Duralex_0103|
 |defeitos|Frases_0101|
@@ -8088,7 +7937,6 @@
 |delas|Tiro_0902|
 |delator|Neobrazil_0201|
 |Delavenir|Fatos_1103|
-|delays|HayKay_0103|
 |dele|Ogiva_0303|
 |delega|Avevida_0203|
 |Deleitar-se|Avevida_0101|
@@ -8124,7 +7972,6 @@
 |delicioso|Mirante_0102|
 |delicioso|Ogiva_0103|
 |delicioso|Zoia_0103|
-|delights|HayKay_0103|
 |delineia|Lato_3502|
 |delira|Frases_0203|
 |deliram|Pecados_0302|
@@ -8134,7 +7981,6 @@
 |delirante|Olhares_0501|
 |Delirante|Zoia_0301|
 |Delirante|Zoia_0501|
-|deliria|HayKay_0103|
 |deliro|MachBeth_1001|
 |deliro|Papilio_0401|
 |delitos|Papilio_1101|
@@ -8583,7 +8429,6 @@
 |desenho|Atido_1502|
 |desenho|Fatos_0702|
 |Desenvolver|ArErIr_0201|
-|desert|HayKay_0102|
 |deserto|Ciuminho_0401|
 |Deserto|Conto_0801|
 |deserto|Frases_0402|
@@ -8663,7 +8508,6 @@
 |Desiludida|Gula_0505|
 |desimportante|Epitafiando_0202|
 |desintegrado|Augusto_1401|
-|desires|HayKay_0202|
 |desistem|Tiro_0601|
 |Desisti|Remedeio_0101|
 |Desisti|Salute_0101|
@@ -8836,7 +8680,6 @@
 |destilar|Paroles_0102|
 |destina|Remedeio_0301|
 |destina|Salute_0501|
-|destinies|Jealousy_0201|
 |destino|Amores_0401|
 |destino|Becos_0601|
 |destino|Blablabla_0301|
@@ -8948,9 +8791,6 @@
 |desânimos|Avevida_0303|
 |desígnios|Finais_3002|
 |desígnios|Zodiacaos_1502|
-|detaches|Jealousy_0201|
-|details|HayKay_0103|
-|details|HayKay_0202|
 |Detal|Neobrazil_0202|
 |detalhe|Peixes=f_0403|
 |detalhe|Peixes=m_0403|
@@ -8986,7 +8826,6 @@
 |detesto|Solero_0301|
 |detesto|Tolero_0201|
 |detesto|Veio_0702|
-|detour|HayKay_0102|
 |deu|Destinos_0801|
 |deu|Distintos_0801|
 |deu|Oca_0101|
@@ -9080,7 +8919,6 @@
 |devoro|Snowball_1601|
 |devota|Dolores_0303|
 |devoto|Indolor_0303|
-|devours|HayKay_0202|
 |devoção|Amaré_0206|
 |dez|Epitafiando_0403|
 |dez|Portal_0603|
@@ -9107,8 +8945,8 @@
 |dia|MachBeth_0501|
 |dia|MachBeth_0901|
 |dia|MachBrait_0701|
-|dia|MachBrait_1201|
 |Dia|MachBrait_1201|
+|dia|MachBrait_1201|
 |dia|Meteoro_0801|
 |dia|Minuto_0302|
 |Dia|Minuto_0401|
@@ -9119,8 +8957,8 @@
 |dia|Oco_0401|
 |dia|Papilio_0701|
 |dia|Papilio_0801|
-|dia|Papilio_1201|
 |Dia|Papilio_1201|
+|dia|Papilio_1201|
 |dia|Portal_0202|
 |dia|Portal_0603|
 |dia|Psiume_0301|
@@ -9192,8 +9030,6 @@
 |die|Ocio_0204|
 |die|Sentença_0603|
 |Die|Sinais_0501|
-|dies|HayKay_0202|
-|dies|Jealousy_0201|
 |diferente|Atido_1503|
 |diferente|Buscas_0102|
 |diferente|Dolores_0202|
@@ -9256,7 +9092,6 @@
 |Digo|Epitafiando_0501|
 |digo|Remedeio_0301|
 |digo|Salute_0501|
-|digs|Jealousy_0201|
 |dilacerados|Clandestino_0802|
 |dilacerados|Victor_0802|
 |dilemas|Avevida_0303|
@@ -9314,9 +9149,6 @@
 |direção|Cartaz_1001|
 |direção|Liberta_0702|
 |diria|Feiras_0701|
-|disaffection|Jealousy_0201|
-|disagreement|Jealousy_0201|
-|disarms|Jealousy_0201|
 |Discernir|ArErIr_0301|
 |disciplina|Aries=f_0502|
 |disciplina|Aries=m_0502|
@@ -9361,7 +9193,6 @@
 |discórdia|Zelo_0201|
 |discórdias|Avevida_0303|
 |discórdias|Snowball_1001|
-|disenchants|Jealousy_0201|
 |disfarce|Mirante_0203|
 |disfarce|Ogiva_0203|
 |disfarce|Zoia_0703|
@@ -9377,10 +9208,8 @@
 |disfarçado|Portal_0202|
 |disfarçar|Oca_0201|
 |disfarçar|Oco_0201|
-|disfigures|Jealousy_0201|
 |disforme|Circular_0102|
 |disforme|Indolor_0503|
-|disinclined|HayKay_0201|
 |dispara|Ciuminho_0303|
 |dispara|Frases_0203|
 |disparar|Manifesto_3002|
@@ -9469,7 +9298,6 @@
 |distingue|Psiume_0301|
 |distingue|Zelo_0201|
 |Distinguir|ArErIr_0301|
-|distinguish|Jealousy_0201|
 |distinta|Indolor_0503|
 |distinta|Oficio_0603|
 |distinta|Tiro_0503|
@@ -9562,7 +9390,6 @@
 |divertidos|Paroles_0301|
 |divertir-se|Libra=f_0302|
 |divertir-se|Libra=m_0302|
-|dives|Jealousy_0201|
 |divida|Buscas_0301|
 |dividem|Cromossomo_0401|
 |dividido|Pessoa_0102|
@@ -9584,7 +9411,6 @@
 |divindades|Passagens_0402|
 |divindades|Prefácil_0302|
 |divindades|Snowball_1201|
-|divine|HayKay_0201|
 |divino|Ciuminho_0206|
 |divino|Haikai_0201|
 |divino|Minuto_0302|
@@ -9687,10 +9513,6 @@
 |doer|Prefácil_1401|
 |doer|Psiume_0301|
 |doer|Zelo_0201|
-|does|HayKay_0202|
-|does|Jealousy_0201|
-|doesnt|Jealousy_0201|
-|doesnt|Jealousy_0301|
 |dOficio|Oficio_1501|
 |dogmático|Reinos_0102|
 |doida|Frases_0301|
@@ -9757,8 +9579,6 @@
 |dons|Caprico=f_0102|
 |dons|Caprico=m_0102|
 |dons|Tempo_0602|
-|door|Jealousy_0301|
-|doors|Jealousy_0201|
 |dor|Aolero_0602|
 |dor|Bolero_1401|
 |dor|Circular_0104|
@@ -9917,8 +9737,8 @@
 |doses|Sn8=ball_1101|
 |doses|Snowball_1701|
 |Dou|Dolores_0701|
-|Dou|Indolor_0701|
 |dou|Indolor_0701|
+|Dou|Indolor_0701|
 |dou|Ocio_6101|
 |dou-lhe|Manusgrito_0402|
 |doura|Avevida_0203|
@@ -9958,21 +9778,15 @@
 |drama|Psiume_0204|
 |dramas|Ciuminho_0502|
 |dramas|Festim_0902|
-|dramas|Jealousy_0201|
 |dramas|Psiume_0301|
 |dramas|Zelo_0201|
 |dramático|Reinos_0102|
-|dream|HayKay_0302|
-|dream|Jealousy_0201|
-|dreams|HayKay_0202|
 |driblo|Ocio_0403|
-|drifts|HayKay_0103|
 |droga|Ciuminho_0204|
 |droga|Psiume_0204|
 |drogas|Remedeio_0101|
 |drogas|Salute_0101|
 |dromedário|Indolor_0301|
-|drowns|Jealousy_0201|
 |Drummond|Frases_0402|
 |Drummond|Tolero_0203|
 |Drumond|Aolero_0301|
@@ -10028,7 +9842,6 @@
 |duvidar|Biaba_0602|
 |Duvide|Insano_3501|
 |Duvido|Indolor_0701|
-|dysrhythmias|HayKay_0103|
 |Dá-se|Cartaz_0101|
 |dádiva|Destinos_0801|
 |dádiva|Distintos_0801|
@@ -10089,11 +9902,8 @@
 |dúzia|Feiras_0803|
 |e-mail|Epitafiando_0202|
 |e-mail|Portal_0202|
-|each|HayKay_0202|
 |EAD|Destinos_0702|
 |EAD|Distintos_0702|
-|early|HayKay_0201|
-|echo|Jealousy_0201|
 |eclipse|Frases_0402|
 |eclode|Ciuminho_0303|
 |eclodem|Manusgrito_0802|
@@ -10124,7 +9934,6 @@
 |ecos|Papilio_1003|
 |ecoturista|Destinos_0205|
 |ecoturista|Distintos_0205|
-|edge|Jealousy_0301|
 |Edificar|ArErIr_0101|
 |edifícios|Frases_0402|
 |edifícios|Saudades_0201|
@@ -10167,8 +9976,6 @@
 |efêmero|Tempo_0303|
 |efêmero|Tempo_1201|
 |efêmero|Tiro_0802|
-|egg|Jealousy_0201|
-|eggs|Jealousy_0201|
 |ego|Blablabla_0301|
 |ego|Destinos_0704|
 |ego|Distintos_0704|
@@ -10184,7 +9991,6 @@
 |egos|Blablabla_0301|
 |egos|Ciuminho_0502|
 |egos|Estudo_0603|
-|egos|Jealousy_0201|
 |egos|Nonono_0901|
 |egos|Ocio_1303|
 |egos|Paroles_0301|
@@ -10214,8 +10020,8 @@
 |eixo|Snowball_1801|
 |eixo|Tempo_0801|
 |Ela|Circular_0301|
-|ela|Clarice_0101|
 |Ela|Clarice_0101|
+|ela|Clarice_0101|
 |ela|Clarice_1003|
 |Ela|Destinos_0101|
 |ela|Destinos_0104|
@@ -10440,9 +10246,6 @@
 |empresta|Feiras_0503|
 |emprestar|Elogio_0501|
 |empresário|Neobrazil_0201|
-|emptiness|Jealousy_0301|
-|empty|HayKay_0201|
-|empty|Jealousy_0301|
 |empunho|Atido_1002|
 |empunho|Atido_1502|
 |empurra|Sopros_0103|
@@ -10501,8 +10304,6 @@
 |encenada|Cordel_0301|
 |encerra|MachBrait_0501|
 |encerra|Papilio_0501|
-|enchantment|Jealousy_0201|
-|enchants|HayKay_0202|
 |enche|Papilio_0301|
 |enche-se|Augusto_0601|
 |Enciclopédias|Manifesto_1602|
@@ -10553,16 +10354,11 @@
 |encurtar|Salute_0501|
 |encéfalo|Anjos_1202|
 |encéfalo|Augusto_1104|
-|end|Jealousy_0301|
 |endereços|Destinos_0603|
 |endereços|Distintos_0603|
-|endless|HayKay_0201|
-|endless|Jealousy_0301|
-|endlessly|Jealousy_0201|
 |endorfina|Destinos_0704|
 |endorfina|Remedeio_0204|
 |endorfina|Salute_0403|
-|ends|Jealousy_0201|
 |endêmica|Circular_0104|
 |endêmico|Circular_0104|
 |energia|Aquarius=f_0802|
@@ -10675,7 +10471,6 @@
 |enigmas|Paroles_0301|
 |enigmas|Passagens_0702|
 |enigmático|Reinos_0102|
-|enjoys|Jealousy_0201|
 |Enlace|Manusgrite_0501|
 |enlaça|MachBrait_0201|
 |enlaça|Mirante_0202|
@@ -10750,7 +10545,6 @@
 |ensino|Sn6=ball_0801|
 |ensino|Sn8=ball_1001|
 |ensino|Snowball_1601|
-|enslaves|Jealousy_0201|
 |entalada|Dolores_0601|
 |entalada|Indolor_0601|
 |entalha|Rever_0103|
@@ -10787,7 +10581,6 @@
 |entornei|Feiras_0802|
 |Entorta-te|Anjos_0901|
 |entrada|Feiras_0901|
-|entrails|Jealousy_0201|
 |entranhas|Ciuminho_0502|
 |entranhas|Minuto_0301|
 |entranhas|Oficio_0601|
@@ -10912,14 +10705,12 @@
 |enxofre|Ocio_2402|
 |enérgica|Frases_0301|
 |enérgico|Reinos_0201|
-|epicenter|HayKay_0102|
 |epicentro|Frases_0402|
 |epicentro|Fugaz_0102|
 |epicentro|Fugaz_0501|
 |epicentro|Haikai_0102|
 |epicentro|Tempo_0102|
 |epicentro|Tempo_0301|
-|epilogues|HayKay_0202|
 |epinefrina|Remedeio_0204|
 |epinefrina|Salute_0403|
 |epitáfio|Epitafiando_0502|
@@ -11304,8 +11095,8 @@
 |espantar|Reger_0703|
 |espantar|Zelo_0201|
 |Espanto|Dolores_0701|
-|Espanto|Indolor_0701|
 |espanto|Indolor_0701|
+|Espanto|Indolor_0701|
 |espanto|Sopros_0502|
 |espantos|Remedeio_0101|
 |espantos|Salute_0101|
@@ -11382,6 +11173,7 @@
 |espera|Ocio_6202|
 |espera|Papilio_1201|
 |espera|Salute_0201|
+|Espera-se|Manifesto_1501|
 |esperada|Cuores_0102|
 |esperada|Tiro_0902|
 |esperado|Batismo_0302|
@@ -11840,8 +11632,6 @@
 |eterna|Tempo_0902|
 |eterna|Tiro_0503|
 |eterna|Zelo_0201|
-|eternal|HayKay_0201|
-|eternal|Jealousy_0201|
 |eternidade|Ciuminho_0502|
 |eternidade|Liberta_1201|
 |eternidade|MachBeth_1001|
@@ -11851,7 +11641,6 @@
 |eternidade|Papilio_0601|
 |eternidade|Psiume_0301|
 |eternidade|Zelo_0201|
-|eternity|Jealousy_0201|
 |eterno|Ciuminho_0204|
 |eterno|Haikai_0201|
 |eterno|MachBeth_0302|
@@ -11905,16 +11694,10 @@
 |eventualidade|Prefácil_1203|
 |Eventualmente|Atido_2001|
 |eventualmente|Ocio_2401|
-|ever|Jealousy_0201|
-|every|HayKay_0202|
-|Every|HayKay_0301|
-|everything|HayKay_0202|
-|everything|Jealousy_0201|
 |evidenciam|Zodiacaos_0604|
 |evidência|Ciuminho_0401|
 |evidências|Snowball_1001|
 |evidências|Zodiacaos_0802|
-|evil|HayKay_0103|
 |evita-me|Mirante_0302|
 |evita-me|Ogiva_0502|
 |evita-me|Olhares_0402|
@@ -12017,7 +11800,6 @@
 |exijam|Salute_0501|
 |Exilada|Elogio_0101|
 |exilados|Cuores_0502|
-|exiles|HayKay_0103|
 |Existe|Brado_0401|
 |existe|Fatos_0501|
 |existe|Haikai_0202|
@@ -12047,7 +11829,6 @@
 |existir|Oco_0204|
 |existir|Sopros_0702|
 |existir|Zodiacaos_1702|
-|exists|HayKay_0202|
 |existência|Meteoro_0302|
 |exorbitância|Meteoro_0402|
 |exortar|Manifesto_1503|
@@ -12093,7 +11874,6 @@
 |exprimindo|Sonoro_0201|
 |exterminada|MachBrait_1001|
 |exterminada|Papilio_1003|
-|extinction|Jealousy_0301|
 |extingue-se|Frases_0203|
 |extinta|Sopros_0801|
 |extinto|Indolor_0305|
@@ -12153,7 +11933,6 @@
 |exóticas|Posfácio_0903|
 |exóticas|Posfácio_1006|
 |eólica|Augusto_0304|
-|fabric|HayKay_0201|
 |fabrica|Passagens_0701|
 |fabrica|Sopros_0801|
 |fabricar|Destinos_0402|
@@ -12174,7 +11953,6 @@
 |faca|Psiume_0301|
 |faca|Rito_0401|
 |faca|Zelo_0201|
-|face|Jealousy_0201|
 |Face|Loremipsum_0101|
 |face|Minuto_0601|
 |face|Remedeio_0301|
@@ -12218,8 +11996,6 @@
 |fagotista|Distintos_0205|
 |fagulhas|Brado_0103|
 |Fagundes|Neobrazil_0202|
-|failure|HayKay_0201|
-|failure|Jealousy_0301|
 |faisão|Ocio_2301|
 |faixa|Estudo_0201|
 |faixa|MachBrait_1101|
@@ -12301,9 +12077,6 @@
 |falho|Tempo_0801|
 |falho|Tolero_0203|
 |falho|Veio_0404|
-|fall|Jealousy_0301|
-|falling|Jealousy_0301|
-|falls|Jealousy_0201|
 |falo|Aolero_0501|
 |falo|Bolero_0403|
 |Falo|Dolores_0701|
@@ -12453,7 +12226,6 @@
 |fantasias|Tiro_0902|
 |fantasias|Zelo_0201|
 |fantasias|Zelo_1001|
-|fantasies|Jealousy_0301|
 |fantasiosa|Fatos_1206|
 |fantasista|Destinos_0205|
 |fantasista|Distintos_0205|
@@ -12484,7 +12256,6 @@
 |fardo|Psiume_0202|
 |fardos|Joker_0102|
 |fardos|Joker_0202|
-|farewells|HayKay_0103|
 |farfalha|Minuto_0301|
 |farmacologista|Destinos_0205|
 |farmacologista|Distintos_0205|
@@ -12573,7 +12344,6 @@
 |fascínio|Amaré_0204|
 |fase|Neobrazil_0102|
 |fases|Zodiacaos_0701|
-|fashioned|Jealousy_0201|
 |fastio|Epitafiando_0202|
 |fastio|Portal_0202|
 |fasto|Lato_0202|
@@ -12598,7 +12368,6 @@
 |fatalista|Destinos_0205|
 |fatalista|Distintos_0205|
 |fatalmente|Meteoro_0102|
-|fathoms|Jealousy_0201|
 |fatia|Fugaz_0102|
 |fatia|Fugaz_0501|
 |fatia|Haikai_0102|
@@ -12636,13 +12405,11 @@
 |fatos|Vozes_0102|
 |fatos|Zodiacaos_1502|
 |fatulento|Essa_0302|
-|fatuous|HayKay_0201|
 |faturista|Destinos_0205|
 |faturista|Distintos_0205|
 |Fatídica|Fatos_0103|
 |fatídica|Reinos_0404|
 |fatídico|Reinos_0203|
-|faulty|HayKay_0201|
 |favorecidos|Cancer=f_0301|
 |favorecidos|Cancer=m_0301|
 |favores|Aolero_0401|
@@ -12747,10 +12514,6 @@
 |faço|Tolero_0203|
 |faço-me|Dolores_0201|
 |faísca|Frases_0203|
-|fear|Jealousy_0201|
-|fearing|Jealousy_0301|
-|fears|Jealousy_0201|
-|fears|Jealousy_0301|
 |febre|MachBeth_0601|
 |febres|Bula_0102|
 |febres|Salute_0201|
@@ -12770,7 +12533,6 @@
 |fedelhos|Brado_0403|
 |feder|Anjos_1404|
 |feder|Augusto_1404|
-|feeds|Jealousy_0201|
 |feio|Ciuminho_0401|
 |feira|Feiras_0301|
 |feita|Silente_0903|
@@ -12899,7 +12661,6 @@
 |ferro|Salute_0101|
 |ferrolho|Augusto_1104|
 |ferrolhos|Anjos_1301|
-|fertile|HayKay_0201|
 |fertilidade|Prefácil_1203|
 |ferve|MachBrait_0201|
 |ferve|Papilio_0201|
@@ -13094,6 +12855,7 @@
 |fim|Veio_0701|
 |fim|Zelo_0201|
 |fim|Zelo_0801|
+|Fim-de-Século|Prefácil_0204|
 |fina|Fugaz_0102|
 |fina|Fugaz_0501|
 |fina|Fugaz_0902|
@@ -13195,7 +12957,6 @@
 |fininho|Epitafiando_0202|
 |fininho|Portal_0202|
 |finita|Essa_0503|
-|finite|HayKay_0202|
 |finito|Haikai_0202|
 |finito|Minuto_0301|
 |finito|Ser_0101|
@@ -13259,8 +13020,6 @@
 |Fique-se|Rito_0401|
 |fiquem|Remedeio_0301|
 |fiquem|Salute_0501|
-|fire|HayKay_0201|
-|fire|Jealousy_0201|
 |firmamento|Saudades_0201|
 |firmamento|Ser_0101|
 |firmamento|Ser_0401|
@@ -13308,8 +13067,6 @@
 |fiz-me|Conto_0201|
 |flagra|Insano_3501|
 |flagrar|Manifesto_3101|
-|flame|HayKay_0201|
-|flame|Jealousy_0201|
 |flana|Ciuminho_0303|
 |flanam|Duralex_0302|
 |flanam|Sn6=ball_0601|
@@ -13325,11 +13082,8 @@
 |flash|Ogiva_0303|
 |flautista|Destinos_0205|
 |flautista|Distintos_0205|
-|flawed|HayKay_0201|
-|flawless|HayKay_0201|
 |flecha|Ciuminho_0303|
 |flecha|Zelo_0601|
-|flees|HayKay_0202|
 |flerta|Ciuminho_0303|
 |flerta|Mirante_0202|
 |flerta|Ogiva_0202|
@@ -13376,7 +13130,6 @@
 |floridas|Cartaz_0603|
 |florista|Destinos_0205|
 |florista|Distintos_0205|
-|flowers|Jealousy_0301|
 |Fluir|Avevida_0101|
 |fluir|Blablabla_0201|
 |fluir|Caprico=f_0702|
@@ -13510,10 +13263,7 @@
 |fonte|Tempo_0102|
 |fonte|Tempo_0501|
 |fontes|Veio_0604|
-|food|HayKay_0102|
 |for|Epitafiando_0301|
-|for|HayKay_0202|
-|for|Jealousy_0201|
 |for|Lero_0401|
 |for|Ocio_6202|
 |for|Passagens_0101|
@@ -13530,9 +13280,7 @@
 |foram|Neobrazil_0902|
 |foram|Neobrazil_1501|
 |foram|Tempo_1001|
-|forbidden|HayKay_0202|
 |forem|Manusgrite_0802|
-|forever|Jealousy_0201|
 |Forjei|Silente_0101|
 |forjo|Atido_1002|
 |forjo|Lero_0303|
@@ -13652,9 +13400,6 @@
 |frecha|Ciuminho_0601|
 |frecha|Psiume_0301|
 |frecha|Zelo_0201|
-|free|Jealousy_0201|
-|free|Jealousy_0301|
-|freezes|Jealousy_0201|
 |freios|Silente_0702|
 |frementes|Gula_0303|
 |frente|Aquarius=f_0301|
@@ -13708,7 +13453,6 @@
 |fritar|Tolero_0201|
 |fritas|Ocio_2402|
 |fritei|Bolero_1101|
-|from|Jealousy_0201|
 |frontal|Augusto_0802|
 |fronteiras|Ciuminho_0401|
 |fronteiras|Clandestino_0802|
@@ -13721,7 +13465,6 @@
 |frugal|Tempo_0303|
 |frugal|Tempo_1201|
 |frugalidade|Prefácil_1203|
-|fruit|HayKay_0102|
 |fruto|Batismo_0303|
 |fruto|Fugaz_0102|
 |fruto|Fugaz_0501|
@@ -13892,7 +13635,6 @@
 |futilidades|Veio_0703|
 |futura|Fatos_2401|
 |futuras|Ciuminho_0401|
-|futures|HayKay_0202|
 |futurista|Aquarius=f_0402|
 |futurista|Aquarius=m_0402|
 |futurista|Cordel_0303|
@@ -14178,7 +13920,6 @@
 |genealógico|Reinos_0201|
 |generalista|Destinos_0205|
 |generalista|Distintos_0205|
-|generates|HayKay_0202|
 |generis|Sentença_0603|
 |generosa|Libra=f_0503|
 |generosa|Libra=m_0503|
@@ -14221,7 +13962,6 @@
 |gentileza|Leao=m_0202|
 |gentileza|Libra=f_0201|
 |gentileza|Libra=m_0201|
-|gentle|HayKay_0201|
 |gentís|Sn6=ball_0601|
 |gentís|Sn8=ball_0601|
 |gentís|Snowball_0601|
@@ -14269,7 +14009,6 @@
 |gestos|Tiro_0802|
 |Geórgia|Reinos_0503|
 |Giambattista|Fatos_1303|
-|giant|Jealousy_0301|
 |gigante|Anjos_0904|
 |gigante|Anjos_1004|
 |gigante|Augusto_1004|
@@ -14296,7 +14035,6 @@
 |Gil|Lero_0402|
 |Gil|Solero_0402|
 |Gil|Tolero_0203|
-|gimmicks|HayKay_0103|
 |ginecologista|Destinos_0205|
 |ginecologista|Distintos_0205|
 |girassol|Elogio_0401|
@@ -14305,7 +14043,6 @@
 |girassóis|Papilio_1101|
 |girino|Indolor_0305|
 |Giro|Lato_1501|
-|Give|HayKay_0301|
 |gloriosa|Oficio_0603|
 |glorioso|Oficio_0404|
 |gloterar|Vozes_0102|
@@ -14320,10 +14057,8 @@
 |Glória|Portal_0202|
 |glória|Salute_0302|
 |glórias|Festim_0801|
-|goal|HayKay_0202|
 |Gobi|Ciuminho_0401|
 |goela|Augusto_0903|
-|goes|Jealousy_0201|
 |goleada|Vozes_0301|
 |goles|Becos_0401|
 |goles|Becos_0702|
@@ -14332,7 +14067,6 @@
 |goles|Snowball_0501|
 |golpista|Destinos_0205|
 |golpista|Distintos_0205|
-|goodbyes|HayKay_0103|
 |gorjeia|Frases_0203|
 |gorjeios|Sonoro_0202|
 |gosta|Aries=f_0401|
@@ -14455,7 +14189,6 @@
 |gravata|Tolero_0201|
 |grave|Ciuminho_0202|
 |grave|Ciuminho_0401|
-|grave|Jealousy_0201|
 |grave|MachBrait_1401|
 |grave|Papilio_1401|
 |grave|Psiume_0202|
@@ -14530,9 +14263,6 @@
 |grotesco|Pessoa_0302|
 |grotesco|Pessoa_0402|
 |grou|Vozes_0102|
-|ground|HayKay_0201|
-|grounded|HayKay_0201|
-|grounds|Jealousy_0201|
 |gruda|Ciuminho_0303|
 |grugulejar|Vozes_0102|
 |gruir|Vozes_0102|
@@ -14645,17 +14375,10 @@
 |haja|Haikai_0301|
 |haja|Tempo_1401|
 |hajam|Amores_0201|
-|half|Jealousy_0201|
-|halfway|Jealousy_0301|
 |hall|Silente_0202|
 |hall|Silente_0204|
 |halterofilista|Destinos_0205|
 |halterofilista|Distintos_0205|
-|halts|Jealousy_0201|
-|happenings|Jealousy_0201|
-|happiness|HayKay_0103|
-|harbor|HayKay_0102|
-|hardly|Jealousy_0201|
 |harmonia|Cuores_0202|
 |harmonia|Niver_0206|
 |harmonia|Silente_0903|
@@ -14674,10 +14397,6 @@
 |harmônico|Virgem=m_0403|
 |harpista|Dolores_0305|
 |harpista|Indolor_0305|
-|has|Jealousy_0201|
-|haste|Jealousy_0301|
-|hasty|HayKay_0201|
-|haunts|HayKay_0103|
 |havendo|Tiro_0801|
 |haver|Ciuminho_0401|
 |haver|Cromossomo_1001|
@@ -14693,10 +14412,6 @@
 |haviam|Sn6=ball_0601|
 |haviam|Sn8=ball_0601|
 |haviam|Snowball_0601|
-|having|Jealousy_0201|
-|heart|Jealousy_0201|
-|hearts|Jealousy_0201|
-|heat|Jealousy_0201|
 |hebreu|Fatos_0603|
 |hedionda|Anjos_0702|
 |hedionda|Augusto_0203|
@@ -14713,7 +14428,6 @@
 |Hei|Ocio_1201|
 |Hei|Paroles_0401|
 |Hei|Portal_0201|
-|helm|HayKay_0102|
 |Henry|Fatos_2305|
 |hera|Becos_0704|
 |herdeira|Destinos_0202|
@@ -14770,7 +14484,6 @@
 |Hipotética|Fatos_0103|
 |hipotético|Reinos_0201|
 |hipótese|Manifesto_4504|
-|his|Jealousy_0201|
 |histamina|Remedeio_0204|
 |histamina|Salute_0403|
 |historiador|Fatos_1003|
@@ -14788,21 +14501,16 @@
 |histórias|Manifesto_2004|
 |Histórica|Fatos_0103|
 |histórico|Fatos_2002|
-|hits|Jealousy_0201|
 |hoc|Sentença_0603|
 |hoje|Cuores_0102|
 |hoje|Destinos_0801|
-|hoje|Distintos_0801|
 |Hoje|Distintos_0801|
+|hoje|Distintos_0801|
 |hoje|Olhares_0201|
 |hoje|Pessoa_0101|
 |hoje|Tempo_0303|
 |hoje|Tempo_1204|
 |hoje|Zoia_0201|
-|hole|HayKay_0201|
-|holes|Jealousy_0201|
-|holes|Jealousy_0301|
-|hollow|HayKay_0201|
 |Homenino|Fatos_1102|
 |homens|Cromossomo_0202|
 |homens|MachBeth_0803|
@@ -14906,7 +14614,6 @@
 |hordas|Becos_0501|
 |horista|Destinos_0205|
 |horista|Distintos_0205|
-|horizon|HayKay_0102|
 |horizonte|Becos_0704|
 |horizonte|Blablabla_0301|
 |horizonte|Fugaz_0102|
@@ -14962,7 +14669,6 @@
 |Houaiss|Atido_0503|
 |houvesse|Becos_0804|
 |houvesse|Conto_0501|
-|how|Jealousy_0201|
 |humana|Augusto_0504|
 |humana|Augusto_0506|
 |humana|Cancer=f_0301|
@@ -15015,8 +14721,6 @@
 |humores|Tiro_0301|
 |humorista|Destinos_0205|
 |humorista|Distintos_0205|
-|hurricanes|Jealousy_0201|
-|hurts|Jealousy_0201|
 |há-de|Augusto_1306|
 |hábil|Oficio_0404|
 |hão|Amores_0201|
@@ -15158,7 +14862,6 @@
 |ignorar|Distintos_0402|
 |ignorar|Oca_0201|
 |ignorar|Oco_0201|
-|ignore|Jealousy_0201|
 |ignore|Rito_0201|
 |ignore|Rito_0302|
 |ignorem|Remedeio_0301|
@@ -15314,7 +15017,6 @@
 |imaginação|Zelo_0201|
 |imaginação|Zodiacaos_1204|
 |imagine-se|Becos_0103|
-|imagines|Jealousy_0201|
 |imagino|MachBeth_0201|
 |imagino|Sopros_0302|
 |imaginária|Reger_0102|
@@ -15497,7 +15199,6 @@
 |importância|Libra=m_0101|
 |importância|Ocio_1302|
 |impositor|Tempo_0201|
-|impossible|Jealousy_0301|
 |impossível|Batismo_0402|
 |impossível|Brado_0502|
 |impossível|Ciuminho_0401|
@@ -15564,9 +15265,7 @@
 |improcedência|Sentença_0502|
 |impropérios|Oca_0203|
 |impropérios|Oco_0203|
-|improvements|HayKay_0103|
 |improvisado|Cordel_0104|
-|improvisation|HayKay_0202|
 |improviso|Conto_0702|
 |improviso|Epitafiando_0202|
 |improviso|Haikai_0202|
@@ -15686,7 +15385,6 @@
 |incapacidade|Zodiacaos_0804|
 |incas|Ciuminho_0401|
 |incautas|Meteoro_1001|
-|incautious|HayKay_0103|
 |incauto|Fatos_2303|
 |incauto|Prefácil_0601|
 |incauto|Usinas_2515|
@@ -15957,7 +15655,6 @@
 |inegável|Fatos_1203|
 |inegável|Oficio_1102|
 |inenarrável|Fatos_1203|
-|inequities|HayKay_0103|
 |inequívoca|Oficio_1102|
 |inerte|Gula_0202|
 |inerte|Usinas_2515|
@@ -16008,7 +15705,6 @@
 |inexorável|Indolor_0803|
 |inexorável|Oficio_1102|
 |inexorável|Tempo_0702|
-|infallible|HayKay_0201|
 |infalível|Clarice_0806|
 |infalível|Duralex_0203|
 |infalível|Epitafiando_0502|
@@ -16065,8 +15761,6 @@
 |infindos|Usinas_1515|
 |infinidade|Prefácil_1203|
 |infinitas|Snowball_1301|
-|infinite|HayKay_0201|
-|infinite|Jealousy_0201|
 |infinito|Conto_1001|
 |infinito|Elogio_0202|
 |infinito|Minuto_0302|
@@ -16110,7 +15804,6 @@
 |ingratidão|Anjos_1405|
 |ingratidão|Augusto_1405|
 |ingressando|Zodiacaos_0301|
-|inhabitant|HayKay_0201|
 |inhas|Tempo_0602|
 |inho|Epitafiando_0301|
 |inho|Lato_2502|
@@ -16228,7 +15921,6 @@
 |inseparável|Augusto_0703|
 |inseto|Indolor_0301|
 |insetos|Silente_0702|
-|inside|HayKay_0201|
 |insigne|Oficio_0404|
 |insigne|Oficio_0603|
 |insignificante|Minuto_0302|
@@ -16256,7 +15948,6 @@
 |insistência|Meteoro_0302|
 |insolente|Finais_2102|
 |insolência|Meteoro_0302|
-|insomnia|Jealousy_0301|
 |insone|Ciuminho_0502|
 |insone|Cordel_0104|
 |insone|Psiume_0301|
@@ -16320,7 +16011,6 @@
 |Instituição|Oficio_0604|
 |instrui|Manifesto_1201|
 |Instruir|ArErIr_0301|
-|instrument|HayKay_0102|
 |instrumentista|Destinos_0205|
 |instrumentista|Distintos_0205|
 |instrumento|Fugaz_0102|
@@ -16416,7 +16106,6 @@
 |intentando|Manifesto_2001|
 |intentando|Nonono_0601|
 |intentando|Paroles_0601|
-|intention|Jealousy_0201|
 |Intento|Estudo_0101|
 |Intento|Estudo_0401|
 |Intento|Ocio_1001|
@@ -16536,7 +16225,6 @@
 |invejável|Zoia_0103|
 |invencionices|Posfácio_1303|
 |invencível|Sos_0102|
-|invent|HayKay_0302|
 |inventa|Silente_0903|
 |inventa|Usinas_3021|
 |inventada|Reinos_0502|
@@ -16615,8 +16303,6 @@
 |inverossímeis|Posfácio_0903|
 |inverossímeis|Posfácio_1006|
 |inverossímil|Reinos_0502|
-|inverse|HayKay_0201|
-|inversely|Jealousy_0201|
 |inverso|Papilio_0201|
 |inverso|Prefácil_0204|
 |invertebrado|Indolor_0701|
@@ -16625,7 +16311,6 @@
 |Investigar|ArErIr_0101|
 |investir|Duralex_0102|
 |inveterado|Cordel_0104|
-|invisible|HayKay_0201|
 |invisíveis|Clandestino_1201|
 |invisíveis|Elogio_0401|
 |invisível|Circular_0104|
@@ -16707,7 +16392,6 @@
 |ironias|Fugaz_0103|
 |ironias|Haikai_0103|
 |ironias|Tempo_0103|
-|ironies|HayKay_0103|
 |irradia|Ciuminho_0303|
 |Irradiar|Avevida_0101|
 |irreais|Oficio_1304|
@@ -16746,7 +16430,6 @@
 |iscas|Sn8=ball_1101|
 |iscas|Snowball_1701|
 |isentos|Ciuminho_0401|
-|island|Jealousy_0301|
 |isoladas|Meteoro_0203|
 |isolados|Meteoro_1001|
 |isopropina|Bula_0202|
@@ -16765,14 +16448,6 @@
 |itinerantes|Cuores_0502|
 |itinerantes|Snowball_1101|
 |ito|Bula_0305|
-|its|HayKay_0301|
-|Its|HayKay_0301|
-|its|Jealousy_0201|
-|Its|Jealousy_0301|
-|itself|HayKay_0202|
-|itself|Jealousy_0201|
-|itself|Jealousy_0301|
-|It’s|HayKay_0301|
 |IXX|Manifesto_1003|
 |iça|Avevida_0203|
 |içando|Sonoro_0201|
@@ -16840,7 +16515,6 @@
 |jazz|Solero_0402|
 |jazz|Tolero_0203|
 |jazzes|Silente_0605|
-|Jealousy|Jealousy_0101|
 |jeito|Aquarius=f_0102|
 |jeito|Aquarius=m_0102|
 |jeito|Cancer=f_0102|
@@ -16895,7 +16569,6 @@
 |joguei|Joker_0201|
 |joguetes|Brado_0403|
 |Johannes|Fatos_1303|
-|joins|Jealousy_0201|
 |jornada|Fugaz_0901|
 |jornada|Ocio_3102|
 |jornada|Ocio_3104|
@@ -16913,7 +16586,6 @@
 |jorro|Liberta_0901|
 |José|Demo_0401|
 |JOTA|Neobrazil_0403|
-|journey|HayKay_0201|
 |jovens|Cromossomo_0303|
 |Jovial|Gemeos=f_0101|
 |Jovial|Gemeos=m_0101|
@@ -16922,12 +16594,8 @@
 |jovial|Sagitari=m_0303|
 |jovial|Sagitari=m_0503|
 |Joyce|Fatos_2305|
-|joys|HayKay_0103|
-|judgement|Jealousy_0301|
-|juggling|HayKay_0103|
 |jugo|Liberta_0501|
 |jugular|Ciuminho_0502|
-|jugular|Jealousy_0201|
 |jugular|Psiume_0301|
 |jugular|Zelo_0201|
 |julgado|Sentença_0202|
@@ -17028,16 +16696,8 @@
 |Júpiter|Zodiacaos_0103|
 |Júpiter|Zodiacaos_0201|
 |Kafka|Fatos_2305|
-|kills|Jealousy_0201|
-|kingdom|Jealousy_0201|
-|kisses|Jealousy_0201|
 |kkk|Vozes_0201|
 |Klauss|Fatos_1102|
-|kneaded|Jealousy_0201|
-|knew|Jealousy_0201|
-|knife|Jealousy_0201|
-|know|HayKay_0301|
-|knows|Jealousy_0201|
 |Konrad|Fatos_2305|
 |labirinto|Batismo_0402|
 |labirinto|Ciuminho_0502|
@@ -17066,7 +16726,6 @@
 |Labiríntica|Fatos_0103|
 |labirínticas|Clandestino_0701|
 |labirínticas|Victor_0701|
-|labor|HayKay_0103|
 |labor|Oficio_0902|
 |laboratório|Feiras_0301|
 |laboratório|Salute_0501|
@@ -17088,9 +16747,7 @@
 |labutas|Fugaz_0103|
 |labutas|Haikai_0103|
 |labutas|Tempo_1002|
-|labyrinth|HayKay_0201|
 |Lacan|Fatos_2305|
-|laced|HayKay_0201|
 |Lacerda|Neobrazil_1201|
 |lacrada|Dolores_0601|
 |lacrada|Indolor_0601|
@@ -17125,7 +16782,6 @@
 |ladras|Insano_0503|
 |Ladro|Insano_1501|
 |ladrões|Inhos_0501|
-|lady|HayKay_0201|
 |lagarta|Dolores_0301|
 |lagarto|Indolor_0301|
 |lagartos|MachBrait_1001|
@@ -17190,7 +16846,6 @@
 |Lanço|Veio_0501|
 |lanço|Victor_0401|
 |lanço|Victor_1201|
-|lap|HayKay_0201|
 |lapidadas|Posfácio_0201|
 |lapidadas|Snowball_1301|
 |lapidar|Circular_0102|
@@ -17212,7 +16867,6 @@
 |largar|Clarice_1002|
 |largar|Nonono_0402|
 |largar|Paroles_0102|
-|large|HayKay_0201|
 |largo|Aolero_0301|
 |largo|Atido_2002|
 |largo|Bolero_0501|
@@ -17240,7 +16894,6 @@
 |lasso|Lato_0303|
 |lasso|Tempo_0801|
 |lassos|Tiro_0802|
-|last|Jealousy_0201|
 |Lastimo|Indolor_0701|
 |lastros|Insano_0503|
 |lata|Ocio_2402|
@@ -17294,7 +16947,6 @@
 |lavrar|Nonono_0402|
 |lavrar|Paroles_0402|
 |Lavro|Veio_0401|
-|laze|HayKay_0302|
 |lazer|Ocio_0101|
 |lazeres|Niver_0204|
 |laçam-se|Prefácil_1101|
@@ -17322,7 +16974,6 @@
 |lealdade|Leao=m_0202|
 |lealdade|Peixes=f_0601|
 |lealdade|Peixes=m_0601|
-|leave|HayKay_0302|
 |Leblon|Meteoro_0503|
 |ledo|Liberta_1102|
 |ledo|Ser_0101|
@@ -17350,6 +17001,8 @@
 |lei|Sentença_0402|
 |lei|Ser_0101|
 |lei|Tiro_0902|
+|Lei-de-Gérson|Estudo_0603|
+|Lei-de-Gérson|Ocio_1303|
 |Leia|Insano_4501|
 |Leia-se|Posfácio_2001|
 |Leia-se:|Tiro_0701|
@@ -17473,7 +17126,6 @@
 |leroleo|Essa_0302|
 |leste|Estudo_0603|
 |leste|Ocio_1303|
-|Let|HayKay_0301|
 |letal|Sos_0205|
 |letal|Tempo_0702|
 |letra|Aolero_0301|
@@ -17655,10 +17307,6 @@
 |lido|Oficio_1401|
 |lido|Tiro_0802|
 |lidos|Cartaz_0103|
-|lies|Jealousy_0201|
-|life|HayKay_0103|
-|life|Jealousy_0201|
-|lift|HayKay_0102|
 |lifting|Aolero_0401|
 |lifting|Bolero_0801|
 |lifting|Tolero_0201|
@@ -17679,17 +17327,12 @@
 |ligeiro|Meteoro_0702|
 |ligeiro|Tempo_0303|
 |ligeiro|Tempo_1204|
-|light|HayKay_0201|
-|lighthouse|HayKay_0102|
 |ligo|Aolero_0301|
 |ligo|Bolero_0403|
 |ligo|Lero_0303|
 |ligo|Solero_0303|
 |ligo|Tolero_0203|
 |Ligo|Veio_0401|
-|like|Jealousy_0201|
-|like|Jealousy_0301|
-|Like|Jealousy_0301|
 |limbo|Aolero_0501|
 |limbo|Bolero_0403|
 |limbo|Lero_0303|
@@ -17742,7 +17385,6 @@
 |limpos|MachBrait_0501|
 |limpos|Papilio_0501|
 |lindo|Atido_0503|
-|line|HayKay_0201|
 |linguagens|Posfácio_0902|
 |linguista|Fatos_1003|
 |linha|Aolero_0501|
@@ -17769,7 +17411,6 @@
 |linhas|Solero_0303|
 |linhas|Tiro_0601|
 |linhas|Tolero_0203|
-|link|HayKay_0201|
 |lipoaspiração|Destinos_0704|
 |lipoaspiração|Distintos_0704|
 |liquefeita|Papilio_0501|
@@ -17793,9 +17434,6 @@
 |litoral|Meteoro_0104|
 |Lituânia|Reinos_0503|
 |litúrgico|Reinos_0203|
-|lived|Jealousy_0201|
-|lives|Jealousy_0201|
-|living|HayKay_0103|
 |living|Silente_0202|
 |living|Silente_0204|
 |livrar|Blablabla_0201|
@@ -17881,7 +17519,6 @@
 |lixo|Cromossomo_0904|
 |lixo|Tiro_0601|
 |lixúrias|Duralex_0103|
-|loaf|HayKay_0302|
 |lobista|Destinos_0205|
 |lobista|Distintos_0205|
 |lobo|Vozes_0102|
@@ -17895,7 +17532,6 @@
 |lodo|Sn6=ball_0401|
 |lodo|Sn8=ball_0401|
 |lodo|Snowball_0401|
-|logic|Jealousy_0201|
 |logo|Aolero_0601|
 |logo|Blablabla_0301|
 |logo|Dolores_0801|
@@ -17914,10 +17550,6 @@
 |loja|Distintos_0702|
 |lojista|Destinos_0205|
 |lojista|Distintos_0205|
-|loneliness|Jealousy_0201|
-|lonely|HayKay_0201|
-|lonely|Jealousy_0301|
-|long-lasting|Jealousy_0301|
 |longas|Destinos_0801|
 |longas|Distintos_0801|
 |longe|Dolores_0202|
@@ -17935,8 +17567,6 @@
 |longo|Meteoro_0801|
 |lonjuras|Lato_3503|
 |lonjuras|Passagens_0402|
-|lookout|HayKay_0102|
-|loop|HayKay_0201|
 |louca|Anjos_0103|
 |louca|Augusto_1303|
 |louca|Haikai_0201|
@@ -17987,11 +17617,6 @@
 |louça|Lero_0301|
 |louça|Solero_0301|
 |louça|Tolero_0201|
-|love|Jealousy_0201|
-|love|Jealousy_0301|
-|lovers|Jealousy_0201|
-|loves|Jealousy_0201|
-|loves|Jealousy_0301|
 |lua|Atido_2001|
 |lua|Becos_0702|
 |lua|Becos_0704|
@@ -18051,7 +17676,6 @@
 |lugares|Victor_1102|
 |Lula|Gula_0504|
 |lulas|Ocio_2301|
-|lullaby|HayKay_0102|
 |lunáticas|Snowball_1301|
 |lunático|Ciuminho_0202|
 |lunático|Psiume_0202|
@@ -18222,7 +17846,6 @@
 |maculam|Palyndro_1101|
 |macumbeira|Destinos_0202|
 |macumbeira|Distintos_0202|
-|mad|HayKay_0201|
 |Madalena|Meteoro_0503|
 |madrigalista|Destinos_0205|
 |madrigalista|Distintos_0205|
@@ -18259,8 +17882,6 @@
 |magia|Solero_0601|
 |magia|Tiro_0202|
 |magias|Distintos_0605|
-|magic|HayKay_0201|
-|magical|HayKay_0201|
 |magistrado|Indolor_0301|
 |Magistrado|Neobrazil_0702|
 |magnetismo|Escorpio=f_0601|
@@ -18409,8 +18030,6 @@
 |majestade|Leao=f_0602|
 |majestade|Leao=m_0602|
 |majestosamente|Portal_0202|
-|make|Jealousy_0201|
-|makes|Jealousy_0201|
 |mal|Aolero_0401|
 |mal|Avevida_0303|
 |mal|Becos_0301|
@@ -18493,7 +18112,6 @@
 |malho|Tolero_0201|
 |maligno|Seguro_0501|
 |Mallarmé|Fatos_1303|
-|malleable|HayKay_0201|
 |malocio|Essa_0302|
 |maltrapilha|Brado_0203|
 |maltrapilhas|Snowball_1103|
@@ -18619,7 +18237,6 @@
 |mantida|Sentença_0402|
 |mantidas|Tiro_0601|
 |mantido|Fatos_0801|
-|mantle|HayKay_0201|
 |manto|Haikai_0201|
 |manto|Sentença_0402|
 |manto|Sopros_0502|
@@ -18635,8 +18252,6 @@
 |manumisso|Augusto_1401|
 |manumissos|Anjos_1401|
 |Manutius|Fatos_1303|
-|many|Jealousy_0201|
-|map|HayKay_0102|
 |mapa|Conto_0302|
 |mapa|Fugaz_0102|
 |mapa|Fugaz_0501|
@@ -18708,7 +18323,6 @@
 |margem|Zelo_0201|
 |margem|Zelo_0601|
 |margens|Becos_0501|
-|margin|Jealousy_0301|
 |marginal|Dolores_0301|
 |marginal|Indolor_0301|
 |Maria|Becos_0803|
@@ -18730,7 +18344,6 @@
 |mariposas|Frases_0402|
 |marisco|Indolor_0305|
 |maritacas|Sonoro_0102|
-|mark|HayKay_0102|
 |marquei|Conto_0201|
 |marqueteira|Destinos_0202|
 |marqueteira|Distintos_0202|
@@ -18791,9 +18404,6 @@
 |massagens|Distintos_0704|
 |massagista|Destinos_0205|
 |massagista|Distintos_0205|
-|master|HayKay_0201|
-|master|Jealousy_0201|
-|master|Jealousy_0301|
 |mastigamos|Dolores_0401|
 |mastigamos|Indolor_0401|
 |Mastigo|Indolor_0701|
@@ -18814,7 +18424,6 @@
 |materialista|Distintos_0205|
 |materna|Haikai_0201|
 |materna|Tempo_0801|
-|maternal|HayKay_0201|
 |materno|Haikai_0201|
 |materno|Tempo_0801|
 |Mathaeus|Fatos_1102|
@@ -18828,7 +18437,6 @@
 |matou|Loremipsum_0801|
 |matriz|Fugaz_0901|
 |matriz|Tempo_0901|
-|matter|HayKay_0201|
 |maturidade|Zodiacaos_1204|
 |matuta|Avevida_0203|
 |matutam|Palyndro_0901|
@@ -18842,7 +18450,6 @@
 |maus|Ciuminho_0502|
 |maus|Psiume_0301|
 |maus|Zelo_0201|
-|maze|Jealousy_0201|
 |mazelas|Cromossomo_0402|
 |Maçã|Gula_0504|
 |MBA|Estudo_0103|
@@ -18852,7 +18459,6 @@
 |mear|Nonono_0402|
 |mear|Paroles_0402|
 |Mear|Tiro_0101|
-|measure|Jealousy_0301|
 |mecanologia|Feiras_0302|
 |mecenas|Cordel_0303|
 |mecum|Sentença_0603|
@@ -19047,8 +18653,6 @@
 |memorando|Oficio_0404|
 |memorial|Oficio_0601|
 |memorial|Tempo_0401|
-|memories|HayKay_0103|
-|memories|HayKay_0202|
 |memoriosa|Oficio_0603|
 |memorioso|Oficio_0404|
 |memorosa|Oficio_0603|
@@ -19394,8 +18998,8 @@
 |meu|Gula_0402|
 |meu|Haikai_0301|
 |meu|Joker_0403|
-|Meu|Lato_3501|
 |meu|Lato_3501|
+|Meu|Lato_3501|
 |meu|Lero_0303|
 |meu|MachBeth_0301|
 |meu|MachBeth_0601|
@@ -19524,7 +19128,6 @@
 |mililitros|Bula_0102|
 |mililitros|Salute_0201|
 |Mill|Fatos_2305|
-|mill|HayKay_0102|
 |milviu|Essa_0302|
 |milícia|Reinos_0402|
 |Milícia|Reinos_0601|
@@ -19555,7 +19158,6 @@
 |mim|Salute_0501|
 |mim|Sopros_0502|
 |Mime|Manusgrite_0201|
-|mimicry|Jealousy_0301|
 |mimo|Amores_0301|
 |mimo|Ciuminho_0502|
 |mimo|Ciuminho_0601|
@@ -19587,7 +19189,6 @@
 |minar|Paroles_0102|
 |Minas|Neobrazil_1201|
 |minera|Veio_0303|
-|mines|Jealousy_0201|
 |minguei|Silente_0401|
 |minha|Aolero_0301|
 |minha|Bolero_0801|
@@ -19731,9 +19332,7 @@
 |mirra|Victor_0401|
 |mirra|Victor_1201|
 |mirrei|Silente_0401|
-|mirror|Jealousy_0301|
 |miríades|Manifesto_2003|
-|misaligns|Jealousy_0201|
 |Miseancienne|Fatos_1103|
 |miserável|Anjos_0602|
 |miserável|Augusto_0703|
@@ -19745,9 +19344,6 @@
 |missa|Lero_0301|
 |missa|Solero_0301|
 |missa|Tolero_0201|
-|misses|Jealousy_0201|
-|missing|HayKay_0103|
-|missing|Jealousy_0301|
 |missivista|Destinos_0205|
 |missivista|Distintos_0205|
 |missão|Estudo_0403|
@@ -19757,8 +19353,6 @@
 |missão|Peixes=m_0302|
 |missão|Sonoro_0301|
 |missão|Zodiacaos_1702|
-|mistake|Jealousy_0301|
-|mistaken|Jealousy_0201|
 |misteriosa|Escorpio=f_0302|
 |Misteriosa|Fatos_0103|
 |misteriosas|Clandestino_0701|
@@ -19804,7 +19398,6 @@
 |miudinho|Inhos_0201|
 |miudinho|Inhos_0501|
 |mixa|Brado_0203|
-|mixes|Jealousy_0201|
 |miçangas|Veio_0102|
 |miçangas|Veio_0202|
 |miúda|Dolores_0601|
@@ -20006,7 +19599,6 @@
 |monótonas|Snowball_1301|
 |monótonos|Oca_0204|
 |monótonos|Oco_0204|
-|moon|Jealousy_0201|
 |Moqueca|Gula_0504|
 |Mor|Oficio_0103|
 |Morada|Conto_0801|
@@ -20027,19 +19619,16 @@
 |mordente|Clarice_0804|
 |mordê-lo|Augusto_1307|
 |mordê-lo.|Anjos_0404|
-|more|Jealousy_0201|
-|more|Jealousy_0301|
 |morfemas|Cartaz_0203|
 |morfologista|Destinos_0205|
 |morfologista|Distintos_0205|
 |moribundo|Papilio_1201|
 |mormente|Oficio_1201|
 |mormente|Posfácio_1001|
-|mornings|Jealousy_0201|
 |morra|Epitafiando_0201|
 |morra|Epitafiando_0402|
-|Morra|Portal_0201|
 |morra|Portal_0201|
+|Morra|Portal_0201|
 |morra|Portal_0602|
 |morre|Ciuminho_0502|
 |morre|Enfrente_0103|
@@ -20190,7 +19779,6 @@
 |motor|Fugaz_0102|
 |motor|Fugaz_0501|
 |motor|Haikai_0102|
-|motor|HayKay_0102|
 |motor|Silente_0702|
 |motor|Tempo_0102|
 |motor|Tempo_0501|
@@ -20206,7 +19794,6 @@
 |movem|Blablabla_0301|
 |mover|Circular_0203|
 |mover|Elogio_0101|
-|moves|Jealousy_0201|
 |Movimentar|ArErIr_0101|
 |movimento|Finais_5002|
 |movimento|Sopros_0401|
@@ -20394,7 +19981,6 @@
 |mundícies|Cromossomo_0602|
 |Muni|Joker_0101|
 |murcha|Augusto_0804|
-|murders|Jealousy_0201|
 |murmúrios|Avevida_0303|
 |murmúrios|MachBrait_0901|
 |murmúrios|Papilio_0901|
@@ -20423,7 +20009,6 @@
 |musical|Frases_0402|
 |musicista|Destinos_0205|
 |musicista|Distintos_0205|
-|musings|HayKay_0202|
 |mutam-se|Festim_0601|
 |mutandis|Sentença_0603|
 |mutante|Brado_0203|
@@ -20442,8 +20027,6 @@
 |mutilato|Bula_0202|
 |mutilato|Salute_0301|
 |muçulmano|Fatos_0603|
-|myopia|Jealousy_0301|
-|mysteries|HayKay_0103|
 |máculas|Minuto_0301|
 |mágica|Fatos_0703|
 |mágica|Frases_0301|
@@ -20745,7 +20328,6 @@
 |nata|Gemeos=m_0401|
 |natal|Zodiacaos_0302|
 |natalinas|Papilio_1003|
-|nation|Jealousy_0201|
 |nato|Escorpio=f_0601|
 |nato|Escorpio=m_0601|
 |nato|Haikai_0202|
@@ -20810,7 +20392,6 @@
 |necessárias|Finais_5002|
 |necessárias|Zodiacaos_1702|
 |necessário|Loremipsum_0203|
-|needs|Jealousy_0201|
 |nefasta|Epitafiando_0502|
 |nefasta|Portal_0502|
 |nefastas|Reclame_0603|
@@ -20845,8 +20426,6 @@
 |negros|Zelo_0201|
 |negue|Ciuminho_0401|
 |Negue|Rito_0401|
-|neighbors|Jealousy_0201|
-|neighbors|Jealousy_0301|
 |nela|Clarice_0101|
 |nela|Dolores_0401|
 |nela|Tiro_0601|
@@ -20865,16 +20444,16 @@
 |nem|Ciuminho_0502|
 |nem|Conto_0903|
 |nem|Cuores_0601|
-|Nem|Dolores_0701|
 |nem|Dolores_0701|
+|Nem|Dolores_0701|
 |nem|Epitafiando_0301|
 |nem|Feiras_0603|
 |nem|Feiras_0701|
 |nem|Festim_0603|
 |nem|Festim_1002|
 |nem|Frases_0402|
-|nem|Indolor_0701|
 |Nem|Indolor_0701|
+|nem|Indolor_0701|
 |nem|Inhos_0701|
 |nem|Joker_0403|
 |Nem|Lato_0101|
@@ -20938,7 +20517,6 @@
 |Neovais|Fatos_1102|
 |nepalense|Fatos_1004|
 |nepaleses|Ciuminho_0401|
-|nerves|Jealousy_0201|
 |nervos|Ciuminho_0502|
 |nervos|MachBeth_1001|
 |nervos|Psiume_0301|
@@ -20961,9 +20539,6 @@
 |Nesses|Loremipsum_0101|
 |Nesses|Reclame_0101|
 |Nessum|Neobrazil_0103|
-|nest|HayKay_0102|
-|nest|Jealousy_0201|
-|nest|Jealousy_0301|
 |Nesta|Cromossomo_0101|
 |nesta|Inhos_0301|
 |Neste|Cromossomo_0101|
@@ -20992,9 +20567,7 @@
 |neurônios|Usinas_1005|
 |neutros|Usinas_1515|
 |nevascas|Meteoro_0303|
-|never|Jealousy_0201|
 |nevoas|MachBeth_0801|
-|new|Jealousy_0201|
 |Newton|Fatos_2305|
 |nexo|Epitafiando_0202|
 |nexo|Oficio_1304|
@@ -21009,13 +20582,11 @@
 |neófito|Reinos_0201|
 |neófitos|Manifesto_1601|
 |nhenhenhém|Vozes_0201|
-|nibbles|Jealousy_0201|
 |nicho|Bula_0102|
 |nicho|Salute_0201|
 |nicho|Tempo_0401|
 |nichos|Silente_0102|
 |nigeriano|Fatos_1004|
-|nightmares|HayKay_0202|
 |Nihil|Sentença_0603|
 |niilista|Destinos_0205|
 |niilista|Distintos_0205|
@@ -21076,7 +20647,6 @@
 |nisso|Seguro_0902|
 |nisto|Pessoa_0403|
 |Nobilíssimo|Oficio_0101|
-|noble|HayKay_0201|
 |nobre|Haikai_0201|
 |nobre|Nonono_0601|
 |nobre|Oficio_0404|
@@ -21156,7 +20726,6 @@
 |normal|Ciuminho_0502|
 |normal|Ciuminho_0601|
 |normal|Clarice_1003|
-|normal|Jealousy_0301|
 |normal|Lero_0202|
 |normal|Psiume_0301|
 |normal|Remedeio_0301|
@@ -21280,16 +20849,12 @@
 |nossos|Tempo_0602|
 |Nostredame|Fatos_1303|
 |nostálgico|Reinos_0201|
-|not|HayKay_0202|
-|not|Jealousy_0201|
-|not|Jealousy_0301|
 |nota|Manifesto_4504|
 |Notabilíssimo|Oficio_0101|
 |notas|Sn6=ball_0901|
 |notas|Sn8=ball_1101|
 |notas|Snowball_1701|
 |notas|Tempo_0602|
-|nothing|Jealousy_0201|
 |noticia|Feiras_0604|
 |Noto|Lato_1501|
 |noturno|MachBrait_0901|
@@ -21358,7 +20923,6 @@
 |novelas|Cromossomo_0602|
 |noveleira|Destinos_0202|
 |noveleira|Distintos_0202|
-|novelties|HayKay_0103|
 |novidade|Rever_0201|
 |novidades|Cordel_0303|
 |novidades|Fugaz_0103|
@@ -21406,7 +20970,6 @@
 |novos|Sagitari=m_0703|
 |novos|Tempo_0402|
 |novos|Zelo_0201|
-|now|HayKay_0301|
 |nua|Epitafiando_0202|
 |nua|Epitafiando_0403|
 |nua|Portal_0202|
@@ -21599,8 +21162,8 @@
 |não|Distintos_0402|
 |Não|Distintos_0801|
 |não|Dolores_0601|
-|não|Dolores_0701|
 |Não|Dolores_0701|
+|não|Dolores_0701|
 |não|Dolores_0902|
 |não|Enfrente_0401|
 |Não|Epitafiando_0101|
@@ -21681,15 +21244,15 @@
 |não|Peixes=m_0401|
 |não|Pessoa_0403|
 |Não|Pessoa_0601|
-|não|Portal_0101|
 |Não|Portal_0101|
+|não|Portal_0101|
 |não|Portal_0401|
 |não|Portal_0502|
 |não|Portal_0602|
 |não|Posfácio_1001|
 |Não|Prefácil_0801|
-|Não|Prefácil_1401|
 |não|Prefácil_1401|
+|Não|Prefácil_1401|
 |não|Psiume_0301|
 |não|Reger_0703|
 |não|Remedeio_0101|
@@ -21699,8 +21262,8 @@
 |não|Rever_0302|
 |Não|Rito_0401|
 |não|Rito_0401|
-|não|Salute_0101|
 |Não|Salute_0101|
+|não|Salute_0101|
 |não|Salute_0501|
 |não|Saudades_0302|
 |não|Seguro_0501|
@@ -21729,8 +21292,8 @@
 |não|Tolero_1303|
 |Não|Veio_0101|
 |não|Veio_0404|
-|não|Veio_0501|
 |Não|Veio_0501|
+|não|Veio_0501|
 |Não|Veio_0701|
 |não|Veio_0703|
 |não|Zelo_0201|
@@ -21775,7 +21338,6 @@
 |obedecer|Salute_0101|
 |obedecer|Sentença_0601|
 |obedecerão|Manifesto_0201|
-|Obey|HayKay_0301|
 |objetiva|Caprico=f_0202|
 |objetiva|Caprico=f_0402|
 |objetiva|Fatos_3102|
@@ -21889,9 +21451,6 @@
 |ocaso|Tempo_0102|
 |ocaso|Tempo_0501|
 |ocasos|Elogio_0301|
-|occupies|Jealousy_0201|
-|ocean|Jealousy_0301|
-|oceanless|Jealousy_0301|
 |oceano|Ciuminho_0502|
 |oceano|Ciuminho_0601|
 |oceano|MachBeth_1001|
@@ -22020,7 +21579,6 @@
 |oito|Lero_0301|
 |oito|Solero_0301|
 |oito|Tolero_0201|
-|old|Jealousy_0201|
 |Olha|Demo_0401|
 |olha|Ogiva_0303|
 |olha-se|Augusto_0601|
@@ -22127,8 +21685,8 @@
 |onde|Insano_1501|
 |Onde|Loremipsum_0801|
 |onde|MachBeth_0401|
-|Onde|MachBrait_0801|
 |onde|MachBrait_0801|
+|Onde|MachBrait_0801|
 |onde|Manifesto_4001|
 |onde|Meteoro_1001|
 |onde|Minuto_0101|
@@ -22158,16 +21716,11 @@
 |Onde|Usinas_3505|
 |onde|Virgem=f_0501|
 |onde|Virgem=m_0501|
-|ones|Jealousy_0301|
 |onipotente|Epitafiando_0502|
 |onipotente|Finais_2102|
 |onipotente|Portal_0502|
 |onipotência|Meteoro_0302|
 |onipresente|Oficio_1102|
-|Only|HayKay_0301|
-|only|HayKay_0301|
-|only|Jealousy_0201|
-|only|Jealousy_0301|
 |onomatopéias|Becos_0401|
 |ontem|Saudades_0501|
 |onírico|Prefácil_0204|
@@ -22175,9 +21728,6 @@
 |Opaca|Papilio_0901|
 |opaca|Papilio_1301|
 |opacos|Veio_0703|
-|open|HayKay_0201|
-|open|Jealousy_0301|
-|opens|Jealousy_0201|
 |operador|Neobrazil_0201|
 |operadora|Destinos_0202|
 |operadora|Distintos_0202|
@@ -22232,7 +21782,6 @@
 |opções|Posfácio_0601|
 |ora|Passagens_0701|
 |ora|Tempo_1302|
-|oracle|HayKay_0201|
 |Orador|Oficio_0103|
 |oral|Remedeio_0301|
 |oral|Salute_0501|
@@ -22242,7 +21791,6 @@
 |orar|Palyndro_0101|
 |orar|Portal_0401|
 |oração|Sonoro_0301|
-|orbit|HayKay_0201|
 |orbita|Haikai_0201|
 |orbita|Mirante_0202|
 |orbita|Olhares_0602|
@@ -22271,7 +21819,6 @@
 |ordens|Finais_3002|
 |ordens|Passagens_0402|
 |ordens|Zodiacaos_1502|
-|ordered|Jealousy_0301|
 |Ordinária|Gula_0505|
 |orelha|Rever_0201|
 |orelhas|Papilio_1003|
@@ -22300,8 +21847,6 @@
 |origem|Zelo_0201|
 |origens|Estudo_0602|
 |origens|Ocio_1302|
-|origin|HayKay_0102|
-|origin|Jealousy_0201|
 |originais|Cartaz_1001|
 |original|Aquarius=f_0103|
 |original|Aquarius=m_0103|
@@ -22328,7 +21873,6 @@
 |oro-pro-nóbis|Lero_0402|
 |oro-pro-nóbis|Solero_0402|
 |oro-pro-nóbis|Tolero_0203|
-|orphans|Jealousy_0201|
 |orquestra|Reger_0102|
 |ortodoxo|Fatos_0603|
 |ortografia|Manifesto_3004|
@@ -22369,7 +21913,6 @@
 |ostracismo|Ciuminho_0601|
 |ostracismo|Psiume_0301|
 |ostracismo|Zelo_0201|
-|other|Jealousy_0201|
 |otimismo|Leao=f_0103|
 |otimismo|Leao=f_0502|
 |otimismo|Leao=m_0103|
@@ -22383,7 +21926,6 @@
 |otimista|Sagitari=m_0503|
 |otorrinolaringologista|Destinos_0205|
 |otorrinolaringologista|Distintos_0205|
-|our|HayKay_0202|
 |ourives|Veio_0304|
 |ouro|Papilio_1003|
 |ouro|Veio_0703|
@@ -22411,9 +21953,6 @@
 |ousar-te.|Tempo_1402|
 |Ouse|Rito_0101|
 |ousem|Manifesto_3001|
-|out|HayKay_0201|
-|out|Jealousy_0201|
-|outcast|HayKay_0201|
 |outorgado|Sentença_0302|
 |outorgante|Sentença_0302|
 |Outorgar|ArErIr_0101|
@@ -22483,13 +22022,13 @@
 |outro|Lato_0202|
 |outro|MachBeth_0202|
 |outro|MachBrait_1101|
-|outro|MachBrait_1301|
 |Outro|MachBrait_1301|
+|outro|MachBrait_1301|
 |outro|Ocio_1303|
 |outro|Papilio_0801|
 |outro|Papilio_1001|
-|outro|Papilio_1301|
 |Outro|Papilio_1301|
+|outro|Papilio_1301|
 |outro|Portal_0202|
 |outro|Psiume_0301|
 |outro|Rever_0201|
@@ -22568,8 +22107,6 @@
 |ouço|Veio_0404|
 |ovelha|Estudo_0403|
 |ovelhas|Brado_0103|
-|overcome|HayKay_0302|
-|overlook|HayKay_0201|
 |overloquista|Destinos_0205|
 |overloquista|Distintos_0205|
 |OVNI-PORTO|Neobrazil_1201|
@@ -22586,7 +22123,6 @@
 |ovos|Psiume_0301|
 |ovos|Psiume_0401|
 |ovos|Zelo_0401|
-|own|Jealousy_0201|
 |oxigênio|Ocio_2402|
 |oásis|Reclame_1102|
 |oásis|Tempo_0102|
@@ -22627,7 +22163,6 @@
 |Padeço|Indolor_0701|
 |Padeço|Remedeio_0101|
 |Padeço|Salute_0101|
-|padlock|Jealousy_0301|
 |padrão|Remedeio_0301|
 |padrão|Salute_0501|
 |padrões|Finais_3002|
@@ -22637,9 +22172,7 @@
 |pagamento|Neobrazil_0502|
 |pagamento|Ocio_2401|
 |pagamos|Cromossomo_0904|
-|pagan|HayKay_0201|
 |pagar|Conto_0702|
-|page|HayKay_0201|
 |pagodeira|Destinos_0202|
 |pagodeira|Distintos_0202|
 |pagã|Haikai_0201|
@@ -22649,10 +22182,6 @@
 |pagão|Tempo_0801|
 |Pai|Cromossomo_1001|
 |pai|Tempo_0401|
-|pain|Jealousy_0201|
-|pain|Jealousy_0301|
-|paint|Jealousy_0301|
-|painting|Jealousy_0301|
 |paira|Brado_0301|
 |paira|Dolores_0101|
 |paira|Dolores_0601|
@@ -22800,8 +22329,6 @@
 |palpita|Indolor_0601|
 |palpita|Manifesto_1201|
 |palpita|Tempo_0802|
-|palpitates|HayKay_0202|
-|palpitations|Jealousy_0201|
 |palpite|Clarice_0501|
 |Palpite|Reinos_0101|
 |palpite|Sos_0201|
@@ -22946,7 +22473,6 @@
 |parada|Papilio_0501|
 |paradigmas|Festim_0801|
 |paradigmas|Loremipsum_0504|
-|paradise|Jealousy_0301|
 |parados|Avevida_0303|
 |parados|Cuores_0502|
 |parafina|Remedeio_0204|
@@ -22971,7 +22497,6 @@
 |paralelos|Salute_0501|
 |paralelos|Sopros_0901|
 |paralelos|Tiro_0902|
-|parallel|HayKay_0102|
 |paralítica|Augusto_0304|
 |paranóico|Reinos_0201|
 |paraquedista|Destinos_0205|
@@ -23027,7 +22552,6 @@
 |pardais|Becos_0702|
 |pardais|Silente_0702|
 |pardal|Vozes_0102|
-|pardons|HayKay_0103|
 |pare|Tempo_1302|
 |parece|Ciuminho_0301|
 |parece|Destinos_0401|
@@ -23075,7 +22599,6 @@
 |pareça|Passagens_0301|
 |Pari|Joker_0101|
 |Pari|Sentença_0603|
-|pariah|HayKay_0201|
 |parida|Indolor_0601|
 |parir|Estudo_0501|
 |parir|Nonono_0702|
@@ -23164,8 +22687,8 @@
 |pasmo|Indolor_0803|
 |passa|Blablabla_0301|
 |passa|Ciuminho_0502|
-|Passa|Dolores_0701|
 |passa|Dolores_0701|
+|Passa|Dolores_0701|
 |passa|Frases_0203|
 |passa|Gemeos=f_0701|
 |passa|Gemeos=m_0701|
@@ -23309,8 +22832,6 @@
 |passeios|Niver_0204|
 |passeios|Saudades_0201|
 |passem|Remedeio_0301|
-|passion|Jealousy_0201|
-|passions|HayKay_0103|
 |passista|Destinos_0205|
 |passista|Distintos_0205|
 |passiva|Gula_0103|
@@ -23351,7 +22872,6 @@
 |pasto|Lato_0303|
 |pastor|Pessoa_0801|
 |pastor|Tempo_0201|
-|pasts|HayKay_0202|
 |PASTU|Neobrazil_0303|
 |Pasárgada|Reinos_0503|
 |Patagônia|Reinos_0503|
@@ -23362,8 +22882,6 @@
 |patenteio|Atido_1502|
 |paternalista|Destinos_0205|
 |paternalista|Distintos_0205|
-|path|Jealousy_0301|
-|paths|Jealousy_0201|
 |patina|Enfrente_0103|
 |pato|Vozes_0102|
 |patologista|Destinos_0205|
@@ -23441,8 +22959,6 @@
 |país|Neobrazil_0103|
 |pCidadeOficio|Oficio_1501|
 |pCity|Fatos_0501|
-|peace|Jealousy_0201|
-|peaceful|HayKay_0302|
 |peca|Zelo_1201|
 |pecado|Blablabla_0101|
 |pecado|Conto_0903|
@@ -23867,7 +23383,6 @@
 |perenes|Saudades_0603|
 |perfeccionista|Destinos_0205|
 |perfeccionista|Distintos_0205|
-|perfect|HayKay_0201|
 |perfeita|Duralex_0203|
 |perfeita|Haikai_0201|
 |perfeita|Tempo_0801|
@@ -23894,7 +23409,6 @@
 |perfume|Clandestino_1201|
 |perfume|Essa_0402|
 |perfume|Festim_0902|
-|perfume|Jealousy_0201|
 |perfume|Psiume_0301|
 |perfume|Victor_0401|
 |perfume|Victor_1201|
@@ -24129,7 +23643,6 @@
 |picha|Lato_3502|
 |pichei|Feiras_0802|
 |Picho|Bolero_1401|
-|pictures|Jealousy_0201|
 |picuinha|Ciuminho_0206|
 |picuinha|Psiume_0206|
 |picuinhas|Avevida_0303|
@@ -24137,7 +23650,6 @@
 |piegas|Sn6=ball_0601|
 |piegas|Sn8=ball_0601|
 |piegas|Snowball_0601|
-|piles|Jealousy_0201|
 |pilha|Reinos_0501|
 |pilho|Aolero_0401|
 |pilho|Bolero_0403|
@@ -24260,7 +23772,6 @@
 |pivete|Indolor_0303|
 |Pixuleco|Neobrazil_0103|
 |pizzas|Neobrazil_1201|
-|place|Jealousy_0201|
 |placebo|Bula_0202|
 |placebo|Conto_0702|
 |placebo|Dolores_0701|
@@ -24272,7 +23783,6 @@
 |plagiado|Fatos_2203|
 |plagiar|Oca_0201|
 |plagiar|Oco_0201|
-|plan|HayKay_0201|
 |Planam|Sonoro_0101|
 |planejam|Distintos_0801|
 |planejamos|Destinos_0801|
@@ -24352,18 +23862,14 @@
 |platônico|Circular_0102|
 |plausível|Essa_0503|
 |plausível|Reclame_1102|
-|play|Jealousy_0201|
-|plays|Jealousy_0201|
 |plebéa|Augusto_1303|
 |pleitear|Oficio_0302|
 |plena|Buscas_0301|
 |plena|Zodiacaos_0402|
 |plenas|Saudades_0605|
 |pleno|Lato_0202|
-|pliable|HayKay_0201|
 |plicam|Pecados_0302|
 |Plico|Veio_0401|
-|plots|Jealousy_0201|
 |plural|Clarice_1003|
 |pluralidade|Prefácil_1203|
 |pluralista|Destinos_0205|
@@ -24519,7 +24025,6 @@
 |pois|Zodiacaos_1002|
 |pois|Zodiacaos_1301|
 |Pois|Zoia_0101|
-|poison|Jealousy_0301|
 |Polar|Meteoro_0503|
 |polenta|Ocio_2402|
 |Poli|Joker_0101|
@@ -24670,12 +24175,10 @@
 |por|Frases_0402|
 |por|Fugaz_0903|
 |por|Haikai_0202|
-|por|HayKay_0501|
 |por|Indolor_0701|
 |por|Indolor_0801|
 |por|Indolor_0902|
 |por|Insano_1501|
-|por|Jealousy_0501|
 |por|Joker_0403|
 |por|Lato_1501|
 |por|Lato_3502|
@@ -24750,8 +24253,8 @@
 |por|Usinas_2525|
 |por|Veio_0304|
 |por|Veio_0404|
-|por|Veio_0701|
 |Por|Veio_0701|
+|por|Veio_0701|
 |por|Victor_0401|
 |por|Victor_0601|
 |por|Zelo_0201|
@@ -24812,7 +24315,6 @@
 |portal|Fugaz_0102|
 |portal|Fugaz_0501|
 |portal|Haikai_0102|
-|portal|HayKay_0102|
 |portal|Tempo_0102|
 |portal|Tempo_0501|
 |portaria|Feiras_0901|
@@ -24833,8 +24335,6 @@
 |porto|Ser_0101|
 |porto|Tempo_0102|
 |porto|Tempo_0501|
-|portrait|HayKay_0102|
-|portrait|Jealousy_0301|
 |Português|Manifesto_0703|
 |Português|Oficio_0203|
 |porventura|Oficio_1301|
@@ -24859,7 +24359,6 @@
 |posa|Zoia_0702|
 |posa|Zoia_1102|
 |pose|Ogiva_0303|
-|position|Jealousy_0201|
 |posologia|Remedeio_0301|
 |posologia|Salute_0501|
 |possa|Ciuminho_0401|
@@ -24871,7 +24370,6 @@
 |possamos|Loucura_0301|
 |posse|Ciuminho_0202|
 |posse|Psiume_0202|
-|possessive|HayKay_0201|
 |possibilidade|Meteoro_0901|
 |possibilidades|Inhos_0501|
 |possibilidades|Loremipsum_0101|
@@ -24879,7 +24377,6 @@
 |possibilidades|Posfácio_1303|
 |possibilidades|Prefácil_0503|
 |possibilidades|Salute_0501|
-|possible|Jealousy_0201|
 |posso|Atido_0502|
 |posso|Epitafiando_0201|
 |Posso|Lato_1501|
@@ -25081,7 +24578,6 @@
 |praia|Paroles_0301|
 |praia|Seguro_0302|
 |praias|Buscas_0301|
-|praise|HayKay_0302|
 |prantos|Oca_0203|
 |prantos|Oco_0203|
 |pratas|Veio_0102|
@@ -25252,7 +24748,6 @@
 |preponderância|Meteoro_0402|
 |presa|MachBeth_0202|
 |Presa|Sos_0101|
-|present|HayKay_0202|
 |presente|Festim_0701|
 |presente|Haikai_0202|
 |presente|Minuto_0601|
@@ -25317,7 +24812,6 @@
 |Pretendo|Ocio_1001|
 |Pretendo|Ocio_1201|
 |Pretendo|Oficio_0301|
-|pretends|Jealousy_0201|
 |preto|Frases_0402|
 |prevalência|Meteoro_0302|
 |preventiva|Neobrazil_0801|
@@ -25341,7 +24835,6 @@
 |Prezo|Remedeio_0101|
 |Prezo|Salute_0101|
 |Preços|Cartaz_0801|
-|pride|Jealousy_0201|
 |prima|Destinos_0401|
 |prima|Distintos_0401|
 |prima|Ser_0101|
@@ -25371,7 +24864,6 @@
 |principiam-se|Festim_1002|
 |principiante|Cordel_0104|
 |principias|Tempo_1302|
-|principles|Jealousy_0201|
 |princípio|Circular_0301|
 |princípio|Estudo_0602|
 |princípio|Manifesto_4504|
@@ -25385,7 +24877,6 @@
 |princípios|Tempo_1302|
 |princípios|Victor_0802|
 |princípios|Zelo_0201|
-|prison|Jealousy_0201|
 |prisão|Amaré_0206|
 |prisão|Ciuminho_0502|
 |prisão|Inhos_0701|
@@ -25772,7 +25263,6 @@
 |pulsa|Frases_0203|
 |pulsar|Clarice_0402|
 |pulsação|Amaré_0206|
-|pulse|HayKay_0102|
 |pulseiras|Veio_0102|
 |pulseiras|Veio_0202|
 |pulso|Amaré_0202|
@@ -25793,9 +25283,7 @@
 |punho|Estudo_0503|
 |punho|Ocio_1207|
 |punho|Oficio_0902|
-|punishment|Jealousy_0301|
 |pupilos|Manifesto_1601|
-|puppets|Jealousy_0201|
 |pura|Anjos_0302|
 |pura|Augusto_0302|
 |pura|Conto_0903|
@@ -25829,7 +25317,6 @@
 |puríssima|Augusto_0403|
 |putas|MachBeth_0803|
 |puto|Lato_2003|
-|puts|Jealousy_0201|
 |puídos|Festim_0403|
 |página|Haikai_0201|
 |página|Sos_0303|
@@ -25966,8 +25453,8 @@
 |qualquer|Tempo_1401|
 |qualquer|Zelo_0201|
 |quando|Aolero_0601|
-|quando|Atido_2001|
 |Quando|Atido_2001|
+|quando|Atido_2001|
 |quando|Blablabla_0301|
 |Quando|Brado_0401|
 |quando|Buscas_0401|
@@ -26009,8 +25496,8 @@
 |quando|Olhares_1202|
 |quando|Paroles_0301|
 |quando|Paroles_0601|
-|Quando|Passagens_0101|
 |quando|Passagens_0101|
+|Quando|Passagens_0101|
 |Quando|Reclame_1001|
 |Quando|Reclame_1101|
 |quando|Sentença_0802|
@@ -26054,8 +25541,8 @@
 |quase|Cordel_0303|
 |quase|Cuores_0102|
 |quase|Cuores_0601|
-|quase|Dolores_0701|
 |Quase|Dolores_0701|
+|quase|Dolores_0701|
 |quase|Dolores_0902|
 |quase|Duralex_0202|
 |quase|Duralex_0304|
@@ -26233,8 +25720,8 @@
 |que|Inhos_0401|
 |que|Inhos_0402|
 |que|Inhos_0701|
-|Que|Insano_0501|
 |que|Insano_0501|
+|Que|Insano_0501|
 |que|Lato_0101|
 |que|Lato_3001|
 |que|Leao=f_0602|
@@ -26327,8 +25814,8 @@
 |que|Pecados_0301|
 |que|Pessoa_0301|
 |que|Pessoa_0801|
-|que|Portal_0101|
 |Que|Portal_0101|
+|que|Portal_0101|
 |que|Portal_0201|
 |que|Portal_0401|
 |que|Portal_0602|
@@ -26464,8 +25951,8 @@
 |Quem|Duralex_0101|
 |quem|Epitafiando_0402|
 |Quem|Feiras_0701|
-|quem|Feiras_0901|
 |Quem|Feiras_0901|
+|quem|Feiras_0901|
 |quem|Frases_0402|
 |Quem|Gula_0101|
 |quem|Inhos_0701|
@@ -26573,8 +26060,8 @@
 |querido|Touro=m_0302|
 |queridos|Cuores_0601|
 |queridos|Seguro_0302|
-|Quero|Amores_0101|
 |quero|Amores_0101|
+|Quero|Amores_0101|
 |quero|Blablabla_0101|
 |Quero|Bula_0102|
 |Quero|Buscas_0101|
@@ -26616,7 +26103,6 @@
 |questão|Loremipsum_0702|
 |questão|Sentença_0702|
 |questões|Zodiacaos_0701|
-|quietly|Jealousy_0201|
 |quieto|Blablabla_0301|
 |quieto|Dolores_0701|
 |quieto|Joker_0403|
@@ -26877,8 +26363,6 @@
 |Ravel|Lero_0402|
 |Ravel|Solero_0402|
 |Ravel|Tolero_0203|
-|raw|HayKay_0201|
-|razor|Jealousy_0301|
 |razão|Elogio_0101|
 |razão|Festim_0701|
 |razão|Frases_0202|
@@ -26930,7 +26414,6 @@
 |realça|Virgem=m_0701|
 |realçar|Manifesto_3002|
 |reaprender|Manifesto_2002|
-|reason|HayKay_0102|
 |Reato|Dolores_0701|
 |Reato|Indolor_0701|
 |reaver|Liberta_0401|
@@ -26965,7 +26448,6 @@
 |rebeldias|Tempo_1002|
 |rebelião|MachBeth_0302|
 |rebelião|MachBeth_0701|
-|rebelliousness|HayKay_0103|
 |rebenta-se|Usinas_3005|
 |rebentar|Oca_0201|
 |rebentar|Oco_0201|
@@ -27235,8 +26717,6 @@
 |rei|Epitafiando_0202|
 |rei|Festim_0902|
 |rei|Zelo_1001|
-|reign|HayKay_0302|
-|reigns|Jealousy_0201|
 |reimplanta|Lato_3502|
 |reina|Blablabla_0301|
 |reina|Ciuminho_0502|
@@ -27265,7 +26745,6 @@
 |reinar|Tempo_1402|
 |reincidente|Circular_0104|
 |reinem|Saudades_0201|
-|reins|Jealousy_0201|
 |reinventa|Ciuminho_0502|
 |reinventa|Lato_3502|
 |reinventa|Psiume_0301|
@@ -27273,7 +26752,6 @@
 |reinventa|Zelo_1201|
 |reinventado|Clarice_1002|
 |reinventar|Manifesto_3502|
-|reinvents|Jealousy_0201|
 |reis|Cromossomo_0202|
 |Reitor|Oficio_0103|
 |Reitor|Oficio_0405|
@@ -27335,7 +26813,6 @@
 |relógio|Estudo_0603|
 |relógio|Ocio_1303|
 |relógio|Veio_0202|
-|remain|HayKay_0302|
 |remedando|Oca_0401|
 |remedando|Oco_0401|
 |remedando|Snowball_0901|
@@ -27375,7 +26852,6 @@
 |remotas|Ocio_1207|
 |remotas|Victor_1001|
 |remotas|Victor_1102|
-|remote|HayKay_0201|
 |remoto|Fatos_0601|
 |remoto|Haikai_0201|
 |remoto|Minuto_0301|
@@ -27396,7 +26872,6 @@
 |rende|Tiro_0601|
 |rendeira|Destinos_0202|
 |rendeira|Distintos_0202|
-|render|HayKay_0302|
 |rendida|Dolores_0802|
 |rendido|Indolor_0803|
 |rendição|Amaré_0206|
@@ -27521,7 +26996,6 @@
 |resolver|Indolor_0401|
 |Resolveram|Distintos_0501|
 |resolveu|Blablabla_0101|
-|respect|Jealousy_0201|
 |Respeitabilíssimo|Oficio_0101|
 |respeitada|Sagitari=f_0401|
 |respeitada|Sagitari=m_0401|
@@ -27589,7 +27063,6 @@
 |restaurar|Manifesto_3002|
 |restaure|Oficio_1401|
 |restava|Conto_0102|
-|restlessness|HayKay_0103|
 |resto|Joker_0102|
 |resto|Veio_0701|
 |restolhos|Festim_0801|
@@ -27670,7 +27143,6 @@
 |retração|Zodiacaos_0403|
 |retribuo|Atido_0503|
 |retrucam|Tiro_0601|
-|return|HayKay_0201|
 |retórica|Cartaz_0402|
 |retórica|Fatos_1201|
 |retórica|Manifesto_4003|
@@ -27716,8 +27188,6 @@
 |rever|Zodiacaos_1303|
 |reverentemente|Finais_4003|
 |reversa|Cartaz_1001|
-|reverse|HayKay_0201|
-|reverse|Jealousy_0301|
 |reversos|Ciuminho_0502|
 |reversos|Clandestino_0101|
 |reversos|Psiume_0301|
@@ -27800,8 +27270,6 @@
 |ridículo|Pessoa_0302|
 |ridículo|Pessoa_0402|
 |ridículo|Pessoa_0403|
-|right|HayKay_0201|
-|right|Jealousy_0201|
 |rigores|Duralex_0103|
 |rima|Blablabla_0301|
 |rima|Nonono_0601|
@@ -27826,7 +27294,6 @@
 |rinchar|Vozes_0102|
 |rindo|Destinos_0801|
 |rindo|Distintos_0801|
-|rings|Jealousy_0201|
 |rinoceronte|Indolor_0303|
 |rio|Neobrazil_1201|
 |Rio-Niterói|Neobrazil_1201|
@@ -27858,8 +27325,6 @@
 |riscos|Manifesto_3101|
 |riscos|Remedeio_0301|
 |riscos|Salute_0501|
-|rises|Jealousy_0201|
-|risky|HayKay_0201|
 |riso|Ciuminho_0401|
 |riso|MachBrait_0601|
 |riso|Papilio_0601|
@@ -27895,7 +27360,6 @@
 |ritual|Sos_0102|
 |ritualista|Destinos_0205|
 |ritualista|Distintos_0205|
-|road|Jealousy_0301|
 |robô|Prefácil_1401|
 |rochedo|Liberta_0602|
 |Rock|Neobrazil_0103|
@@ -27931,8 +27395,6 @@
 |rojões|Silente_0702|
 |rol|Oficio_0802|
 |rolante|Frases_0402|
-|Roman|HayKay_0501|
-|Roman|Jealousy_0501|
 |romance|Manifesto_3503|
 |romance|Niver_0202|
 |romantismo|Touro=f_0501|
@@ -27961,8 +27423,6 @@
 |Rosa|Fatos_2305|
 |rosa|Papilio_1201|
 |rosas|Becos_0704|
-|Roskowinski|HayKay_0501|
-|Roskowinski|Jealousy_0501|
 |rosnar|Vozes_0102|
 |rosto|Joker_0102|
 |rosto|Liberta_0901|
@@ -28017,7 +27477,6 @@
 |rouca|Papilio_1201|
 |rouquidão|MachBrait_0501|
 |rouquidão|Papilio_0901|
-|routine|Jealousy_0301|
 |roçando|Gula_0301|
 |roê-lo|Augusto_1307|
 |roê-lo.|Anjos_0404|
@@ -28102,7 +27561,6 @@
 |rumo|Victor_0101|
 |rumo|Zelo_0201|
 |rumores|Manifesto_4003|
-|rumors|Jealousy_0201|
 |rumos|Estudo_0602|
 |rumos|Frases_0402|
 |rumos|Manifesto_3101|
@@ -28110,7 +27568,6 @@
 |rumos|Sn6=ball_0501|
 |rumos|Sn8=ball_0501|
 |rumos|Snowball_0501|
-|running|HayKay_0103|
 |rusgo|Aolero_0401|
 |rusgo|Lero_0301|
 |rusgo|Solero_0301|
@@ -28546,7 +28003,6 @@
 |Sarto|Isso_0101|
 |Sarto|Sinais_0201|
 |sashimi|Ocio_2301|
-|sates|Jealousy_0201|
 |satisfaçam|Remedeio_0301|
 |satisfaçam|Salute_0501|
 |Satisfaço|Sinais_0201|
@@ -28600,10 +28056,8 @@
 |saudável|Leao=m_0302|
 |saudável|Remedeio_0101|
 |saudável|Salute_0101|
-|saw|Jealousy_0201|
 |saxofonista|Destinos_0205|
 |saxofonista|Distintos_0205|
-|Say|HayKay_0301|
 |sazonais|Cartaz_0802|
 |sazonal|Isso_0301|
 |Sazonal|Sinais_0102|
@@ -28651,12 +28105,8 @@
 |Saúdo|Remedeio_0101|
 |Saúdo|Salute_0101|
 |Saúdo|Sinais_0201|
-|scares|Jealousy_0201|
-|scenario|HayKay_0102|
-|scratches|Jealousy_0201|
 |scriptum|Sentença_0603|
 |se-as-lia|Feiras_0403|
-|seasonal|HayKay_0201|
 |sebo|Aolero_0301|
 |sebo|Bolero_0301|
 |sebo|Lero_0303|
@@ -28729,11 +28179,6 @@
 |Sedução|Ss2_0101|
 |sedução|Victor_1001|
 |sedução|Victor_1102|
-|see|Jealousy_0201|
-|seeing|HayKay_0103|
-|seeing|Jealousy_0201|
-|seen|Jealousy_0201|
-|sees|Jealousy_0201|
 |segreda|Manifesto_1201|
 |Segredar|Tiro_0101|
 |segredo|Anjos_0202|
@@ -28930,8 +28375,8 @@
 |seja|Ciuminho_0401|
 |seja|Cuores_0102|
 |seja|Epitafiando_0402|
-|seja|Fugaz_1401|
 |Seja|Fugaz_1401|
+|seja|Fugaz_1401|
 |Seja|Haikai_0301|
 |seja|Haikai_0301|
 |seja|Lato_0101|
@@ -29251,15 +28696,15 @@
 |sempre|Libra=f_0601|
 |sempre|Libra=m_0601|
 |sempre|MachBeth_1001|
-|Sempre|MachBrait_0801|
 |sempre|MachBrait_0801|
+|Sempre|MachBrait_0801|
 |sempre|MachBrait_0901|
 |sempre|Minuto_0302|
 |sempre|Ocio_0204|
 |sempre|Ocio_3104|
 |sempre|Oficio_1401|
-|sempre|Papilio_0801|
 |Sempre|Papilio_0801|
+|sempre|Papilio_0801|
 |sempre|Papilio_1101|
 |sempre|Papilio_1201|
 |sempre|Peixes=f_0601|
@@ -29302,7 +28747,6 @@
 |sendo|Saudades_0603|
 |Sendo|Sinais_0501|
 |sendo|Tempo_1203|
-|sends|Jealousy_0201|
 |senha|Atido_2002|
 |senha|Isso_0403|
 |Senha|Sinais_0501|
@@ -29447,8 +28891,6 @@
 |senão|Isso_0402|
 |Senão|Sinais_0501|
 |senão|Tiro_0401|
-|separate|Jealousy_0201|
-|separates|Jealousy_0201|
 |sepulcral|Anjos_0304|
 |sepulcral|Augusto_0802|
 |sepulta|Rever_0302|
@@ -29617,7 +29059,6 @@
 |seriam|Tempo_1001|
 |seriedade|Caprico=f_0702|
 |seriedade|Caprico=m_0702|
-|seriously|Jealousy_0201|
 |sermões|Isso_0201|
 |serotonina|Remedeio_0204|
 |serotonina|Salute_0403|
@@ -29762,9 +29203,6 @@
 |seus|Zelo_0201|
 |seus|Zodiacaos_1702|
 |severa|Frases_0301|
-|sheet|HayKay_0201|
-|shelter|HayKay_0102|
-|shine|HayKay_0302|
 |shopping|Aolero_0301|
 |shopping|Bolero_0801|
 |shopping|Cromossomo_0602|
@@ -29772,9 +29210,6 @@
 |shopping|Solero_0301|
 |shopping|Tolero_0201|
 |shoppings|Ciuminho_0304|
-|short|HayKay_0201|
-|shortcut|HayKay_0102|
-|shortcut|Jealousy_0301|
 |siberiana|Dolores_0301|
 |siberiano|Indolor_0301|
 |Siberianos|Meteoro_0503|
@@ -29788,13 +29223,11 @@
 |sicrano|Indolor_0301|
 |sicrano|Isso_0301|
 |Sicrano|Sinais_0102|
-|sides|Jealousy_0201|
 |sido|Fatos_2201|
 |sido|Pessoa_0301|
 |Siga|Insano_4501|
 |Siga|Sinais_0501|
 |siga|Sos_0303|
-|sighs|HayKay_0103|
 |sigilo|Aolero_0501|
 |sigilo|Bolero_0201|
 |sigilo|Bolero_0801|
@@ -29832,7 +29265,6 @@
 |signos|Distintos_0603|
 |signos|Isso_0201|
 |signos|Prefácil_0901|
-|signs|Jealousy_0201|
 |sigo|Aolero_0501|
 |sigo|Bolero_0701|
 |sigo|Bolero_1301|
@@ -29851,12 +29283,10 @@
 |silabar|Nonono_0402|
 |silabar|Paroles_0402|
 |silabas|Isso_0203|
-|silence|HayKay_0202|
 |silencia|Epitafiando_0502|
 |silencia|Feiras_0604|
 |silencia|Portal_0502|
 |silenciam|Tiro_0601|
-|silent|Jealousy_0301|
 |silente|Dolores_0202|
 |silente|Indolor_0503|
 |silente|Isso_0403|
@@ -29865,7 +29295,6 @@
 |silente|Silente_0303|
 |Silente|Sinais_0102|
 |silhueta|Essa_0203|
-|silly|HayKay_0202|
 |Silva|Neobrazil_0202|
 |silvar|Vozes_0102|
 |Silvo|Isso_0101|
@@ -30067,13 +29496,12 @@
 |sindicalista|Destinos_0205|
 |sindicalista|Distintos_0205|
 |sine|Ocio_0204|
-|Sine|Sentença_0603|
 |sine|Sentença_0603|
+|Sine|Sentença_0603|
 |Sine|Sinais_0501|
 |sinfonia|Silente_0901|
 |Sinfonia|Sinais_0501|
 |sinfonias|Isso_0203|
-|sing|HayKay_0302|
 |singelas|Saudades_0103|
 |singelo|Circular_0102|
 |singelo|Isso_0301|
@@ -30174,13 +29602,6 @@
 |Situo|Ss1_0101|
 |Situo|Ss2_0101|
 |situá-las|Saudades_0401|
-|skeptic|HayKay_0201|
-|sleep|Jealousy_0301|
-|sleeps|Jealousy_0201|
-|slice|HayKay_0102|
-|sling|Jealousy_0201|
-|small|Jealousy_0201|
-|smooth|HayKay_0201|
 |soa|Festim_1002|
 |soa|Silente_0903|
 |soa|Sos_0203|
@@ -30332,11 +29753,9 @@
 |Sofro|Salute_0201|
 |Sofro|Sinais_0501|
 |sofro|Solero_0503|
-|soft|HayKay_0201|
 |software|Posfácio_0401|
 |sofísticas|Clandestino_0802|
 |sofísticas|Victor_0802|
-|soil|HayKay_0201|
 |sol|Becos_0501|
 |sol|Ciuminho_0502|
 |sol|MachBrait_0701|
@@ -30412,7 +29831,6 @@
 |solidão|Zelo_0201|
 |solista|Destinos_0205|
 |solista|Distintos_0205|
-|solitude|Jealousy_0201|
 |solitude|Silente_0902|
 |solitária|Destinos_0202|
 |solitária|Distintos_0202|
@@ -30831,8 +30249,8 @@
 |sou|Tolero_1403|
 |Sou|Veio_0101|
 |sou|Veio_0404|
-|Sou|Veio_0501|
 |sou|Veio_0501|
+|Sou|Veio_0501|
 |sou|Victor_1201|
 |sou|Zoia_1401|
 |soube|Ciuminho_0502|
@@ -30845,7 +30263,6 @@
 |soubesse|Cuores_0102|
 |soubesse|Pessoa_0202|
 |soubéssemos|Tempo_1302|
-|souls|Jealousy_0201|
 |Sousândrade|Fatos_2305|
 |souvenir|Fatos_0801|
 |Souvenir|Sinais_0501|
@@ -30873,16 +30290,8 @@
 |Soçobro|Ss2_0101|
 |SPA|Destinos_0702|
 |SPA|Distintos_0702|
-|spacing|HayKay_0201|
-|sphinx|HayKay_0102|
 |Spont|Sentença_0603|
-|spring|HayKay_0102|
-|stage|HayKay_0102|
 |Stephane|Fatos_1303|
-|steps|Jealousy_0201|
-|still|HayKay_0301|
-|storm|HayKay_0102|
-|strangers|Jealousy_0201|
 |Sua|Aries=f_0501|
 |sua|Aries=f_0601|
 |Sua|Aries=m_0501|
@@ -31024,7 +30433,6 @@
 |Sucumbo|Isso_0101|
 |Sucumbo|Sinais_0501|
 |suecas|Ciuminho_0401|
-|suffocates|Jealousy_0201|
 |sufoca|Ciuminho_0502|
 |sufoca|Psiume_0301|
 |sufoca|Zelo_0201|
@@ -31061,7 +30469,6 @@
 |suicidas|Cartaz_0904|
 |suicidas|Silente_0804|
 |suicido|Atido_1002|
-|suit|HayKay_0201|
 |sujeito|Isso_0403|
 |sujeito|Ser_0101|
 |Sujeito|Sinais_0501|
@@ -31099,8 +30506,6 @@
 |Sumário|Sinais_0102|
 |sunita|Fatos_0603|
 |sunita|Fatos_1004|
-|sunrise|Jealousy_0201|
-|sunset|HayKay_0102|
 |suntuosas|Reclame_0403|
 |suor|MachBrait_0101|
 |suor|MachBrait_0601|
@@ -31250,7 +30655,6 @@
 |surtos|Nonono_0901|
 |surtos|Paroles_0601|
 |Surtos|Sinais_0202|
-|surviving|HayKay_0103|
 |Suscitar|ArErIr_0101|
 |suscitar|Manifesto_3103|
 |Suscito|Isso_0101|
@@ -31363,7 +30767,6 @@
 |Suíça|Destinos_0801|
 |Suíça|Distintos_0801|
 |Suíça|Neobrazil_1201|
-|swirl|HayKay_0102|
 |sábados|Aolero_0301|
 |sábados|Bolero_1101|
 |sábados|Lero_0301|
@@ -31565,7 +30968,6 @@
 |tal|Tempo_0502|
 |tal|Tempo_1302|
 |tal|Tiro_0501|
-|tale|HayKay_0201|
 |talento|Peixes=f_0502|
 |talento|Peixes=m_0502|
 |talento|Rever_0301|
@@ -31699,8 +31101,6 @@
 |tardes|Elogio_0301|
 |tardia|Becos_0804|
 |tarefa|Prefácil_0802|
-|target|Jealousy_0301|
-|targets|Jealousy_0301|
 |tartamudo|Cordel_0303|
 |tatame|Frases_0402|
 |tateia|Lato_3502|
@@ -31738,8 +31138,6 @@
 |taças|Becos_0201|
 |taças|Ocio_2301|
 |Tchetchênia|Reinos_0503|
-|tear|HayKay_0102|
-|tears|Jealousy_0301|
 |teatro|Ciuminho_0502|
 |teatro|Ciuminho_0601|
 |teatro|Festim_0603|
@@ -31883,8 +31281,6 @@
 |tempestades|Meteoro_0303|
 |tempestades|Prefácil_0503|
 |tempestades|Ser_0101|
-|template|HayKay_0201|
-|temple|HayKay_0201|
 |templo|Clandestino_0701|
 |templo|Fatos_0602|
 |templo|Haikai_0201|
@@ -31940,8 +31336,8 @@
 |tempo|Papilio_0401|
 |tempo|Papilio_0601|
 |tempo|Papilio_1001|
-|tempo|Papilio_1301|
 |Tempo|Papilio_1301|
+|tempo|Papilio_1301|
 |tempo|Paroles_0301|
 |tempo|Paroles_0601|
 |tempo|Portal_0401|
@@ -31966,10 +31362,8 @@
 |tempo|Victor_0401|
 |tempo|Victor_0701|
 |tempo|Victor_1201|
-|temporal|HayKay_0201|
 |temporal|Prefácil_0203|
 |temporal|Tempo_1302|
-|temporary|Jealousy_0201|
 |temporiu|Essa_0302|
 |temporária|Neobrazil_0801|
 |Temporário|Oficio_0104|
@@ -31999,7 +31393,6 @@
 |tempus|Sentença_0603|
 |tenacidade|Cancer=f_0202|
 |tenacidade|Cancer=m_0202|
-|tender|HayKay_0201|
 |tendo|Feiras_0102|
 |tendência|Manifesto_4504|
 |tendências|Distintos_0603|
@@ -32085,7 +31478,6 @@
 |tento|Atido_1502|
 |Tento|Lato_1501|
 |tento|Sopros_0501|
-|tenuous|HayKay_0201|
 |teor|Sentença_0701|
 |teoremas|Ciuminho_0401|
 |teoremas|Sn6=ball_0702|
@@ -32194,12 +31586,11 @@
 |território|Seguro_0701|
 |territórios|Destinos_0402|
 |territórios|Distintos_0402|
-|terror|Jealousy_0301|
 |terá|Cromossomo_1001|
 |terá|Dolores_0902|
 |terá|Indolor_0902|
-|terá|Prefácil_1401|
 |Terá|Prefácil_1401|
+|terá|Prefácil_1401|
 |Terá|Usinas_3505|
 |tese|Manifesto_3503|
 |tese|Manifesto_4504|
@@ -32246,27 +31637,9 @@
 |teóricas|Beaba_0303|
 |teóricas|Biaba_0402|
 |teórico|Cordel_0303|
-|than|HayKay_0202|
-|that|HayKay_0202|
-|that|Jealousy_0301|
-|the|HayKay_0202|
-|the|HayKay_0301|
-|the|Jealousy_0201|
-|the|Jealousy_0301|
-|theater|Jealousy_0301|
 |Theobardus|Fatos_1102|
-|there|HayKay_0301|
 |thermidor|Ocio_2301|
-|thin|HayKay_0102|
-|thin|HayKay_0201|
-|thing|Jealousy_0301|
-|thinks|Jealousy_0201|
 |Thomas|Fatos_2305|
-|thorns|Jealousy_0301|
-|thread|HayKay_0201|
-|thrives|Jealousy_0201|
-|throats|Jealousy_0201|
-|through|Jealousy_0201|
 |tiaras|Veio_0102|
 |tiaras|Veio_0202|
 |tibetano|Fatos_0603|
@@ -32281,12 +31654,6 @@
 |tilintar|Anjos_1101|
 |tilintar|Augusto_1101|
 |timbre|Liberta_0901|
-|Time|HayKay_0101|
-|time|HayKay_0202|
-|Time|HayKay_0301|
-|time|HayKay_0301|
-|time|Jealousy_0201|
-|timely|HayKay_0201|
 |tina|Fugaz_0901|
 |tina|Tempo_0901|
 |tinge|Avevida_0203|
@@ -32342,7 +31709,6 @@
 |tirar|Circular_0203|
 |tirar|Liberta_1201|
 |tire-me|Tempo_1101|
-|tired|HayKay_0201|
 |tiro|Aolero_0301|
 |tiro|Atido_2002|
 |tiro|Bolero_0301|
@@ -32506,9 +31872,7 @@
 |tomar|Zodiacaos_1702|
 |tomará|Tiro_0901|
 |tomografias|Becos_0603|
-|tomorrows|Jealousy_0201|
 |tona|Festim_0601|
-|tongue|Jealousy_0201|
 |tons|Silente_0903|
 |tons|Tempo_0602|
 |tonta|Brado_0203|
@@ -32544,7 +31908,6 @@
 |toque|Libra=m_0302|
 |toque|Sos_0201|
 |toquei|Joker_0201|
-|torment|HayKay_0102|
 |tormenta|Ciuminho_0204|
 |tormenta|Psiume_0204|
 |tormentas|Meteoro_0303|
@@ -32662,7 +32025,6 @@
 |totalmente|Fatos_2202|
 |totalmente|Meteoro_0102|
 |totens|Conto_0801|
-|touch|HayKay_0302|
 |toureira|Dolores_0303|
 |toureiro|Indolor_0303|
 |Touro|Destinos_0102|
@@ -32679,7 +32041,6 @@
 |trabalho|Rever_0301|
 |trabalhos|Manifesto_0101|
 |trabalhos|Oficio_0502|
-|trace|HayKay_0201|
 |tracei|Joker_0201|
 |Tracei|Silente_0101|
 |tradicional|Aolero_0102|
@@ -32695,8 +32056,6 @@
 |traduz|Finais_2001|
 |traduz|Zodiacaos_1401|
 |traduzidas|Cartaz_0603|
-|Traduzido|HayKay_0501|
-|Traduzido|Jealousy_0501|
 |Traduzimos|Cartaz_1001|
 |tradução|Amaré_0206|
 |tradução|Blablabla_0301|
@@ -32724,9 +32083,6 @@
 |trai|Ciuminho_0303|
 |trai|Tiro_0601|
 |traidor|Tempo_0201|
-|trail|HayKay_0102|
-|trail|HayKay_0201|
-|trails|HayKay_0202|
 |trajeto|Tiro_0902|
 |trajetórias|Clandestino_0201|
 |trajetórias|Clandestino_1201|
@@ -32802,8 +32158,6 @@
 |transponho|Seguro_0402|
 |transposição|Neobrazil_1201|
 |trança|Avevida_0203|
-|trap|HayKay_0102|
-|trap|Jealousy_0201|
 |trapaça|Lato_3003|
 |trapaças|Avevida_0303|
 |trapaças|Duralex_0103|
@@ -32877,7 +32231,6 @@
 |traços|Becos_0401|
 |traços|Fatos_1302|
 |traídos|Usinas_1025|
-|treats|HayKay_0103|
 |trecho|Fatos_2001|
 |trechos|Oficio_0802|
 |trejeito|MachBrait_0601|
@@ -32975,7 +32328,6 @@
 |tropeça|Zelo_0201|
 |tropeço|Epitafiando_0202|
 |tropeços|Duralex_0103|
-|trophy|Jealousy_0201|
 |troque|Buscas_0301|
 |troquei|Joker_0201|
 |trotskista|Demo_0206|
@@ -32984,13 +32336,10 @@
 |trovas|Cartaz_0203|
 |trovas|Oficio_0901|
 |trovões|Meteoro_0303|
-|true|Jealousy_0201|
 |trufas|Ocio_2301|
 |truques|Duralex_0103|
 |truques|Tiro_0303|
 |truste|Lato_2505|
-|truth|Jealousy_0301|
-|truths|HayKay_0103|
 |truísmos|Reclame_0401|
 |trágica|Augusto_1303|
 |trágica|Frases_0301|
@@ -33113,7 +32462,6 @@
 |turísticas|Manifesto_1505|
 |tutor|Tempo_0201|
 |tutor|Usinas_3510|
-|twisters|Jealousy_0201|
 |tão|Anjos_1102|
 |tão|Augusto_1102|
 |tão|Avevida_0103|
@@ -33229,7 +32577,6 @@
 |ultimato|Ciuminho_0502|
 |ultimato|Psiume_0301|
 |ultimato|Zelo_0201|
-|ultimatum|Jealousy_0201|
 |ultraje|Lato_2502|
 |ultrapassado|Cordel_0104|
 |ultrapassem|Remedeio_0301|
@@ -33341,12 +32688,6 @@
 |una|Haikai_0201|
 |Una|Manusgrite_0501|
 |una|Tempo_0801|
-|unbalances|Jealousy_0201|
-|uncertain|HayKay_0201|
-|uncertainties|HayKay_0103|
-|undaunted|Jealousy_0201|
-|under|Jealousy_0201|
-|undoes|Jealousy_0201|
 |une|Aquarius=f_0601|
 |une|Aquarius=m_0601|
 |une|Ciuminho_0502|
@@ -33356,8 +32697,6 @@
 |une|Psiume_0301|
 |une|Tempo_0802|
 |une|Zelo_0201|
-|unerring|HayKay_0201|
-|unexpected|HayKay_0201|
 |Ungi|Joker_0101|
 |unguento|Bula_0202|
 |unguento|Salute_0301|
@@ -33379,11 +32718,9 @@
 |unidas|Manusgrito_0802|
 |unido|Brado_0502|
 |unidos|Amores_0401|
-|unique|HayKay_0201|
 |Unir|ArErIr_0301|
 |unir|Destinos_0502|
 |unir|Distintos_0502|
-|unites|HayKay_0202|
 |universais|Finais_3002|
 |universais|Zodiacaos_1502|
 |universal|Augusto_1303|
@@ -33407,9 +32744,7 @@
 |uno|Haikai_0201|
 |uno|Tempo_0801|
 |Uno-as|Manusgrito_0501|
-|unopened|Jealousy_0201|
 |unos|Amores_0401|
-|unreasoned|Jealousy_0301|
 |uns|Becos_0704|
 |uns|Ciuminho_0401|
 |uns|Conto_0102|
@@ -33425,11 +32760,6 @@
 |uns|Ocio_2402|
 |uns|Oco_0202|
 |uns|Portal_0401|
-|untruth|Jealousy_0201|
-|untruths|HayKay_0103|
-|unwanted|Jealousy_0301|
-|upfront|Jealousy_0201|
-|upon|Jealousy_0201|
 |Urano|Zodiacaos_0101|
 |Urano|Zodiacaos_0103|
 |Urano|Zodiacaos_0201|
@@ -33499,7 +32829,6 @@
 |usufruir|Prefácil_0202|
 |usufruo|Atido_0503|
 |usurpa|Reinos_0501|
-|uterus|HayKay_0201|
 |utopia|Becos_0402|
 |utopia|Brado_0501|
 |utopia|Ciuminho_0401|
@@ -33515,8 +32844,6 @@
 |utopias|Fugaz_0103|
 |utopias|Haikai_0103|
 |utopias|Haikai_0202|
-|utopias|HayKay_0103|
-|utopias|HayKay_0202|
 |utopias|Indolor_0902|
 |utopias|MachBeth_0104|
 |utopias|Oca_0401|
@@ -33538,7 +32865,6 @@
 |vacantes|Cuores_0502|
 |vacantes|Gula_0303|
 |vacas|Ocio_2401|
-|vacation|Jealousy_0201|
 |vacilo|Ciuminho_0206|
 |vacilo|Psiume_0206|
 |vacilos|Duralex_0103|
@@ -33626,7 +32952,6 @@
 |vagos|Oca_0202|
 |vagos|Oco_0202|
 |vagos|Salute_0201|
-|vague|HayKay_0201|
 |vagueando|Festim_1002|
 |vagueia|Frases_0203|
 |vagueia|MachBeth_0301|
@@ -33670,7 +32995,6 @@
 |vaidades|Tempo_0103|
 |Vaidosa|Touro=f_0101|
 |Vaidoso|Touro=m_0101|
-|vain|HayKay_0201|
 |vaio|Aolero_0501|
 |vaio|Lero_0301|
 |vaio|Solero_0301|
@@ -33738,7 +33062,6 @@
 |vanguardista|Destinos_0205|
 |vanguardista|Distintos_0205|
 |vanilóquio|Vozes_0201|
-|vanities|HayKay_0103|
 |vantagens|Duralex_0103|
 |vantagens|Festim_1002|
 |vanádios|Ocio_2402|
@@ -33769,7 +33092,6 @@
 |vasculhe|Cuores_0402|
 |vasos|Usinas_1005|
 |vassalo|Indolor_0301|
-|vast|HayKay_0201|
 |vasta|Anjos_0103|
 |vasta|Augusto_1303|
 |vasta|Cartaz_0501|
@@ -33865,8 +33187,6 @@
 |veia|Salute_0501|
 |veia|Tiro_0202|
 |veias|Papilio_1301|
-|veil|HayKay_0201|
-|vein|HayKay_0102|
 |veio|Ciuminho_0502|
 |veio|Fugaz_0102|
 |veio|Fugaz_0501|
@@ -34035,7 +33355,6 @@
 |venho|Atido_1503|
 |Venho|Oficio_0301|
 |venia|Sentença_0603|
-|venom|Jealousy_0301|
 |ventania|Clandestino_1102|
 |ventania|MachBrait_0901|
 |ventania|Papilio_1101|
@@ -34113,7 +33432,6 @@
 |veras|Nonono_0502|
 |veras|Paroles_0202|
 |veras|Reclame_0401|
-|verb|Jealousy_0201|
 |verbas|Neobrazil_0502|
 |verbetes|Manifesto_3004|
 |Verbi|Sentença_0603|
@@ -34317,7 +33635,6 @@
 |vertigem|Zelo_0201|
 |vertigem|Zelo_1001|
 |vertigens|MachBeth_0101|
-|vertigo|Jealousy_0301|
 |verve|Brado_0501|
 |verve|Tiro_0202|
 |verve|Tiro_0301|
@@ -34498,8 +33815,8 @@
 |vida|Ocio_1303|
 |vida|Olhares_0201|
 |Vida|Papilio_0501|
-|vida|Papilio_0801|
 |Vida|Papilio_0801|
+|vida|Papilio_0801|
 |Vida|Papilio_1301|
 |vida|Paroles_0301|
 |vida|Paroles_0601|
@@ -34508,8 +33825,8 @@
 |vida|Portal_0401|
 |vida|Prefácil_0302|
 |vida|Psiume_0301|
-|vida|Remedeio_0101|
 |Vida|Remedeio_0101|
+|vida|Remedeio_0101|
 |vida|Remedeio_0301|
 |vida|Rever_0401|
 |vida|Rito_0401|
@@ -34517,8 +33834,8 @@
 |vida|Sagitari=f_0801|
 |vida|Sagitari=m_0102|
 |vida|Sagitari=m_0801|
-|vida|Salute_0101|
 |Vida|Salute_0101|
+|vida|Salute_0101|
 |vida|Salute_0501|
 |vida|Saudades_0605|
 |vida|Sentença_0802|
@@ -34553,6 +33870,8 @@
 |vidas|Prefácil_1401|
 |vidas|Tempo_0602|
 |vidas|Victor_0802|
+|vide-bula|Remedeio_0301|
+|vide-bula|Salute_0501|
 |vidente|Indolor_0303|
 |vidente|Mirante_0301|
 |vidente|Ogiva_0301|
@@ -34597,7 +33916,6 @@
 |vigia|Tempo_0102|
 |vigia|Tempo_0501|
 |vigilante|Zelo_0801|
-|vigils|HayKay_0103|
 |vigor|Finais_4003|
 |vigor|Niver_0204|
 |vigor|Tiro_0601|
@@ -34761,7 +34079,6 @@
 |virtuais|Becos_0501|
 |Virtuais|Cromossomo_0502|
 |virtual|Haikai_0201|
-|virtual|HayKay_0201|
 |Virtual|Manifesto_0601|
 |virtual|Sos_0303|
 |virtual|Tempo_0801|
@@ -34930,13 +34247,13 @@
 |viver|Minuto_0302|
 |viver|Ocio_1303|
 |viver|Reger_0703|
-|viver|Remedeio_0101|
 |Viver|Remedeio_0101|
+|viver|Remedeio_0101|
 |viver|Remedeio_0301|
 |viver|Sagitari=f_0102|
 |viver|Sagitari=m_0102|
-|Viver|Salute_0101|
 |viver|Salute_0101|
+|Viver|Salute_0101|
 |viver|Salute_0501|
 |viver|Silente_0902|
 |Viver|Solero_0601|
@@ -35058,7 +34375,6 @@
 |você|Zoia_0102|
 |vodca|Ocio_2301|
 |vogam|Duralex_0302|
-|voids|Jealousy_0201|
 |volata|Anjos_0203|
 |volata|Augusto_0204|
 |volta|Circular_0301|
@@ -35276,47 +34592,9 @@
 |vítima|Minuto_0101|
 |Vítima|Sos_0101|
 |vôo|Ocio_1303|
-|wait|Jealousy_0201|
-|waits|HayKay_0103|
-|wakeful|Jealousy_0201|
-|wall|Jealousy_0301|
-|wander|HayKay_0302|
-|wanted|Jealousy_0301|
-|warning|Jealousy_0201|
-|was|Jealousy_0201|
-|wasteless|Jealousy_0301|
 |Way|Neobrazil_0103|
-|ways|Jealousy_0201|
-|waywardness|HayKay_0202|
-|weave|Jealousy_0201|
-|weaves|Jealousy_0201|
-|well|Jealousy_0301|
-|what|HayKay_0202|
-|what|Jealousy_0201|
-|while|Jealousy_0201|
-|whirlwind|HayKay_0102|
-|who|Jealousy_0301|
-|wide|HayKay_0201|
 |Wikipidia|Manifesto_1602|
-|will|HayKay_0301|
-|will|Jealousy_0201|
-|window|Jealousy_0301|
-|wishes|Jealousy_0301|
-|wishing|Jealousy_0301|
-|with|HayKay_0201|
-|with|Jealousy_0201|
-|with|Jealousy_0301|
-|without|Jealousy_0201|
-|without|Jealousy_0301|
-|wizard|HayKay_0102|
 |Woister|Fatos_1103|
-|womb|HayKay_0201|
-|work|HayKay_0201|
-|world|Jealousy_0201|
-|worn|HayKay_0201|
-|worst|Jealousy_0301|
-|would|Jealousy_0201|
-|wrong|Jealousy_0201|
 |xamãs|Clandestino_1102|
 |xamãs|Victor_1001|
 |xamãs|Victor_1102|
@@ -35334,14 +34612,10 @@
 |XXXVII|Manifesto_1003|
 |xícara|MachBrait_0901|
 |xícara|Papilio_0901|
-|you|HayKay_0202|
-|you|HayKay_0301|
-|your|Jealousy_0201|
 |YouTubers|Cromossomo_0202|
 |zanga|Inhos_0501|
 |zanzando|Feiras_0201|
 |Zanzar|Avevida_0101|
-|zeal|Jealousy_0201|
 |zebra|Vozes_0102|
 |zela|Ciuminho_0303|
 |zelo|Ciuminho_0502|
@@ -35358,7 +34632,6 @@
 |zera|Psiume_0401|
 |zera|Zelo_0201|
 |zera|Zelo_0401|
-|zeroes|Jealousy_0201|
 |zinir|Vozes_0102|
 |zinzilular|Vozes_0102|
 |zodiacal|Zodiacaos_1702|
