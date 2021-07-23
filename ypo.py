@@ -423,15 +423,16 @@ def page_eureka():
     st.sidebar.image("./img_eureka.jpg")
     eureka_expander = st.beta_expander("", expanded=True)
     lexico_list = load_lexico()
-    busca = st.session_state.seed
     with eureka_expander:
+        # busca = st.session_state.seed
         busca = st.text_input(
-            "digite uma palavra (ou parte dela) para buscar...", busca
+            "digite uma palavra (ou parte dela) para buscar...",
         )
         if len(busca) > 2:
             seeds_list = []
             words_list = []
             temas_list = []
+            # st.session_state.seed = busca
             for line in lexico_list:
                 alinhas = line.split("|")
                 palas = alinhas[1]
@@ -443,8 +444,8 @@ def page_eureka():
                         temas_list.append(this_tema)
                     if not palas.lower() in words_list:
                         words_list.append(palas.lower())
+
             if len(seeds_list) > 0:
-                st.session_state.seed = busca
                 tt, vv, oo, btns = st.beta_columns([2.3, 2.7, 5, 0.8])
             
                 with tt:
@@ -495,6 +496,7 @@ def page_eureka():
                     update_leituras(seed_tema)
             else:
                 st.warning("nenhum verbete encontrado com essas letras ---> " + busca)
+                # st.session_state.seed = ""
         else:
             st.warning("digite pelo menos 3 letras...")
 
