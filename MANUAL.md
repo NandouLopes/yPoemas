@@ -8,7 +8,7 @@ ___
 
 **e os botões**  
 > - ◀ = move para o tema anterior  
-> - ✳ = escolhe um tema aleatoriamente  
+> - ★ = escolhe um tema aleatoriamente  
 > - ▶ = move para o próximo tema  
 
 > - ☁  = mostra a quantidade de variações possíveis para o tema  
