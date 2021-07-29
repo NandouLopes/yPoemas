@@ -15,7 +15,7 @@ ___
 >> - (clique para ver uma nuvem de palavras)  
 >> - (a cada clique uma nova nuvem será gerada)  
 >> - (use o botão direito do mouse para salvar a imagem)  
-
+> - ❤ = lista dos temas mais lidos  
 > - ?  = Manual do Usuário  
 ___
 

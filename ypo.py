@@ -22,6 +22,7 @@ user_ip == the User IP for LYPO, TYPO
 [ToDo] ---> retomar TTS - version 0.1.2
 [ToDo] ---> página Comments
 [ToDo] ---> login para comunicação via Blog
+[ToDo] ---> secret.timer para leitura automática e aleatoria
 [ToDo] ---> Download Text, convert to image.jpg
 [ToDo] ---> package for android/buildozer: MyPy_docs
 
@@ -41,6 +42,8 @@ from lay_2_ypo import gera_poema
 # TagCloud
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+from matplotlib.backends.backend_agg import RendererAgg
+_lock = RendererAgg.lock
 
 # user_ip: to create LYPO and TYPO for each hostname
 import socket
@@ -82,6 +85,21 @@ st.markdown(
 )
 
 
+# confiaveis = ['www.google.com', 'www.yahoo.com', 'www.bb.com.br']
+# def internet():
+#     global confiaveis
+#     for host in confiaveis:
+#         a=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+#         a.settimeout(.5)
+#         try:
+#            b=a.connect_ex((host, 80))
+#            if b==0: #ok, conectado
+#                return True
+#         except:
+#            pass
+#     a.close()
+#     return False
+
 def internet(host="8.8.8.8", port=53, timeout=3):
     """
     Host: 8.8.8.8 (google-public-dns-a.google.com)
@@ -121,6 +139,18 @@ def update_ovny():
     with open(os.path.join("./temp/user_data.txt"), "a", encoding="utf-8") as data:
         data.write(user_data)
     data.close()
+    
+
+def load_ovny():
+    ovny_list = []
+    with open(os.path.join("./temp/user_data.txt"), "r", encoding="utf-8") as data:
+        for line in data:
+            pipe_line = line.split("|")
+            link = pipe_line[1]
+            date = pipe_line[2]
+            time = pipe_line[3]
+            ovny_list.append(link+" "+date+" "+time)
+    return ovny_list
 
 
 def update_visy():
@@ -197,10 +227,10 @@ def update_leituras(tema):
     escritas = []
     leituras = load_leituras()
     for line in leituras:
-        alinhas = line.split("|")
-        name = alinhas[1]
+        pipe_line = line.split("|")
+        name = pipe_line[1]
         if name == tema:
-            qtds = int(alinhas[2]) + 1
+            qtds = int(pipe_line[2]) + 1
             new_line = "|" + name + "|" + str(qtds) + "|\n"
             escritas.append(new_line)
         else:
@@ -215,9 +245,9 @@ def status_leituras():
     tag_text = ""
     leituras = load_leituras()
     for line in leituras:
-        alinhas = line.split("|")
-        name = alinhas[1]
-        qtds = alinhas[2]
+        pipe_line = line.split("|")
+        name = pipe_line[1]
+        qtds = pipe_line[2]
         totaliza += int(qtds)
         if qtds != "0":
             selected.append(name)
@@ -231,9 +261,18 @@ def status_leituras():
         str(len(escritas)) + " temas, " + str(totaliza) + "/" + str(st.session_state.nany_visy) + " leituras",
         options,
         format_func=lambda x: escritas[x],
-        key="box_ovny",
+        key="box_leituras",
         )
     tag_cloud(tag_text)
+
+    ovny_list = load_ovny()
+    options = list(range(len(ovny_list)))
+    opt_leituras = st.selectbox(
+        str(len(ovny_list)) + " visitas",
+        options,
+        format_func=lambda x: ovny_list[x],
+        key="box_ovny",
+        )
     return escritas
 
 
@@ -335,26 +374,30 @@ def load_poema(
 # bof: functions
 def last_next(updn):  # handle last, random and next theme
     last_tema = len(all_temas_list) - 1
+    curr_take = st.session_state.take
     if updn == ">":
-        st.session_state.take += 1
-        if st.session_state.take > last_tema:
-            st.session_state.take = 0
+        curr_take += 1
+        if curr_take > last_tema:
+            curr_take = 0
     elif updn == "<":
-        st.session_state.take -= 1
-        if st.session_state.take < 0:
-            st.session_state.take = last_tema
-    else:
-        st.session_state.take = random.randrange(0, last_tema, 1)
-    return st.session_state.take
+        curr_take -= 1
+        if curr_take < 0:
+            curr_take = last_tema
+    elif updn == "*":
+        curr_take = random.randrange(0, last_tema, 1)
+    elif updn == "#":
+        st.session_state.take = curr_take
+    return curr_take
 
 
 def say_numbers(index):  # search index title in index.txt
     indexes = load_index()
     analise = "nonono ..."
-    tema_op = all_temas_list[index].strip()
-    for item in indexes:
-        if item.startswith(tema_op, 0, len(tema_op)):
-            analise = "#️ " + item
+    if index <= len(indexes):
+        tema_op = all_temas_list[index].strip()
+        for item in indexes:
+            if item.startswith(tema_op, 0, len(tema_op)):
+                analise = "#️ " + item
     return analise
 
 
@@ -383,7 +426,7 @@ def translate(input_text):
 
 
 def tag_cloud(text):
-    if text == None:
+    if text == "_ypo_":
         if st.session_state.lang == "pt":
             curr_ypoema = load_lypo()
         else:
@@ -408,9 +451,9 @@ def tag_cloud(text):
 
     clouds_expander = st.beta_expander("", True)
     with clouds_expander:
-        plt.show()
-        st.pyplot()
-
+        with _lock:
+            plt.show()
+            st.pyplot()
 
 def get_seed_tema(this_tema):  # extract theme title for eureka
     ini = 0
@@ -440,9 +483,9 @@ def page_eureka():
             words_list = []
             temas_list = []
             for line in lexico_list:
-                alinhas = line.split("|")
-                palas = alinhas[1]
-                fonte = alinhas[2]
+                pipe_line = line.split("|")
+                palas = pipe_line[1]
+                fonte = pipe_line[2]
                 if busca.lower() in palas.lower():
                     seeds_list.append(palas + " - " + fonte)
                     this_tema = get_seed_tema(palas + " - " + fonte)
@@ -477,13 +520,14 @@ def page_eureka():
                     opt_seed = st.selectbox(
                         str(len(seeds_list)) + " ocorrências",
                         options,
-                        help="digite algo a ser buscado na lista",
+                        help="use letras para filtrar a lista",
                         format_func=lambda x: seeds_list[x],
                         key="box_seed",
                     )
             
-                if opt_seed > len(seeds_list):
+                if opt_seed > len(seeds_list):  # just in case
                     opt_seed = 0
+                    
                 seed_tema = get_seed_tema(seeds_list[opt_seed])
             
                 with btns:
@@ -527,8 +571,8 @@ def page_abouts():
         key="box_abouts",
     )
 
-    show_expander = st.beta_expander("", True)
-    with show_expander:
+    about_expander = st.beta_expander("", True)
+    with about_expander:
         st.subheader(load_file(abouts_list[opt_abouts].upper() + ".md"))
 
 
@@ -550,9 +594,21 @@ def page_books():  # available books
             "signos_fem",
             "signos_mas",
         ]
-        opt_book = books_expander.radio("", books_list)
+        options = list(range(len(books_list)))
+
+        # opt_book = books_expander.radio("", books_list)
+        # st.session_state.take = 0
+        # st.session_state.book = opt_book
+
+        opt_book = st.selectbox(
+            "",
+            options,
+            format_func=lambda x: books_list[x],
+            key="box_books",
+        )
         st.session_state.take = 0
-        st.session_state.book = opt_book
+        st.session_state.book = books_list[opt_book]
+
         st.info(
             translate("escolha um livro e click em yPoemas para voltar à leitura...")
         )
@@ -561,8 +617,8 @@ def page_books():  # available books
     all_temas_list = load_tems(st.session_state.book)
     for line in all_temas_list:
         list_book += line
-    show_expander = st.beta_expander("index", True)
-    with show_expander:
+    show_books_expander = st.beta_expander("index", True)
+    with show_books_expander:
         st.write(list_book)
 
 
@@ -645,11 +701,11 @@ def page_ypoemas():
         nest = nest.button("▶", help="next")
 
     if last:
-        last_next("<")
+        st.session_state.take=last_next("<")
     if rand:
-        last_next("*")
+        st.session_state.take=last_next("*")
     if nest:
-        last_next(">")
+        st.session_state.take=last_next(">")
 
     numb = numb.button("☁", help=say_numbers(st.session_state.take))
     love = love.button("❤", help="mais lidos...")
@@ -666,20 +722,20 @@ def page_ypoemas():
 
     if numb:
         lnew = False
-        tag_cloud()
+        tag_cloud("_ypo_")
 
     if lnew:
         options = list(range(len(all_temas_list)))
-        opt_ypoema = st.selectbox(
+        opt_ypo = st.selectbox(
             "",
             options,
-            index=int(st.session_state.take),
-            format_func=lambda x: all_temas_list[x],
-            key="box_ypoe",
+            index=st.session_state.take,
+            format_func = lambda x: all_temas_list[x],
         )
-        if opt_ypoema != st.session_state.take:
-            st.session_state.take=opt_ypoema
-
+        if opt_ypo != st.session_state.take:
+            st.session_state.take = opt_ypo
+            st.session_state.take=last_next("#")
+            
         info = (
             st.session_state.lang
             + " ( "
@@ -711,7 +767,7 @@ def page_ypoemas():
                     save_typo.write(curr_ypoema)
                     save_typo.close()
                 curr_ypoema = load_typo()  # to normalize line breaks in text
-            # st.subheader(all_temas_list[st.session_state.take])  # show nome_tema
+            st.subheader(all_temas_list[st.session_state.take])  # show nome_tema
             st.markdown(curr_ypoema, unsafe_allow_html=True)  # finally... write it
             update_leituras(all_temas_list[st.session_state.take].strip())
 
