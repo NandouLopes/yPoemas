@@ -42,8 +42,6 @@ from lay_2_ypo import gera_poema
 # TagCloud
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
-from matplotlib.backends.backend_agg import RendererAgg
-_lock = RendererAgg.lock
 
 # user_ip: to create LYPO and TYPO for each hostname
 import socket
@@ -451,9 +449,8 @@ def tag_cloud(text):
 
     clouds_expander = st.beta_expander("", True)
     with clouds_expander:
-        with _lock:
-            plt.show()
-            st.pyplot()
+        plt.show()
+        st.pyplot()
 
 def get_seed_tema(this_tema):  # extract theme title for eureka
     ini = 0
