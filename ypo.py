@@ -13,18 +13,14 @@ after they are sold out the thousands
 of combinations possible to each theme.
 
 OVNY == Outro Visitante Nos Ypoemas
-VISY == New Visit
-NANY_VISY == Number of Visits
+VISY == New Visitor
+NANY_VISY == Number of Visitors
 LYPO == Last YPOema created from curr_ypoema
 TYPO == Translated Ypoema from LYPO
 user_ip == the User IP for LYPO, TYPO
 
-[ToDo] ---> retomar TTS - version 0.1.2
-[ToDo] ---> página Comments
-[ToDo] ---> login para comunicação via Blog
-[ToDo] ---> secret.timer para leitura automática e aleatoria
-[ToDo] ---> Download Text, convert to image.jpg
-[ToDo] ---> package for android/buildozer: MyPy_docs
+https://share.streamlit.io/nandoulopes/ypoemas/main/ypo.py
+https://www.facebook.com/fernando.lopes.942/posts/3797156397062571?comment_id=3797297573715120&notif_id=1626293136581310&notif_t=feed_comment&ref=notif
 
 """
 
@@ -83,10 +79,10 @@ st.markdown(
 )
 
 
-# confiaveis = ['www.google.com', 'www.yahoo.com', 'www.bb.com.br']
+# trusted = ['www.google.com', 'www.yahoo.com', 'www.bb.com.br']
 # def internet():
-#     global confiaveis
-#     for host in confiaveis:
+#     global trusted
+#     for host in trusted:
 #         a=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 #         a.settimeout(.5)
 #         try:
@@ -97,6 +93,7 @@ st.markdown(
 #            pass
 #     a.close()
 #     return False
+
 
 def internet(host="8.8.8.8", port=53, timeout=3):
     """
@@ -122,33 +119,38 @@ if "lang" not in st.session_state:
     st.session_state.lang = "pt"
 if "last_lang" not in st.session_state:
     st.session_state.last_lang = "pt"
-if "ovny" not in st.session_state:
-    st.session_state.ovny = True
 if "visy" not in st.session_state:
     st.session_state.visy = True
 if "nany_visy" not in st.session_state:
     st.session_state.nany_visy = 0
+# if "ovny" not in st.session_state:
+#     st.session_state.ovny = True
 
 
-def update_ovny():
-    date_string = f'{datetime.now():%Y-%m-%d}'
-    time_string = f'{datetime.now():%H:%M:%S%z}'
-    user_data = "|" + user_ip + "|" + date_string + "|" + time_string + "|\n"
-    with open(os.path.join("./temp/user_data.txt"), "a", encoding="utf-8") as data:
-        data.write(user_data)
-    data.close()
-    
+# def update_ovny():
+#     date_string = f'{datetime.now():%Y-%m-%d}'
+#     time_string = f'{datetime.now():%H:%M:%S%z}'
+#     user_data = "|" + user_ip + "|" + date_string + "|" + time_string + "|\n"
+#     with open(os.path.join("./temp/user_data.txt"), "a", encoding="utf-8") as data:
+#         data.write(user_data)
+#     data.close()
 
-def load_ovny():
-    ovny_list = []
-    with open(os.path.join("./temp/user_data.txt"), "r", encoding="utf-8") as data:
-        for line in data:
-            pipe_line = line.split("|")
-            link = pipe_line[1]
-            date = pipe_line[2]
-            time = pipe_line[3]
-            ovny_list.append(link+" "+date+" "+time)
-    return ovny_list
+
+# def load_ovny():
+#     ovny_list = []
+#     with open(os.path.join("./temp/user_data.txt"), "r", encoding="utf-8") as data:
+#         for line in data:
+#             pipe_line = line.split("|")
+#             link = pipe_line[1]
+#             date = pipe_line[2]
+#             time = pipe_line[3]
+#             ovny_list.append(link+" "+date+" "+time)
+#     return ovny_list
+
+
+# if st.session_state.ovny:
+#     update_ovny()
+#     st.session_state.ovny = False
 
 
 def update_visy():
@@ -160,11 +162,6 @@ def update_visy():
     with open(os.path.join("./temp/visita.txt"), "w", encoding="utf-8") as visita:
         visita.write(str(tots))
     visita.close()
-
-
-if st.session_state.ovny:
-    update_ovny()
-    st.session_state.ovny = False
 
 
 if st.session_state.visy:
@@ -184,10 +181,11 @@ def main():
         "eureka": page_eureka,
         "about": page_abouts,
         "books": page_books,
+        "comments": page_comments,
         "license": page_license,
     }
+    page = st.sidebar.selectbox("Menu",tuple(pages.keys()))
 
-    page = st.sidebar.radio("", tuple(pages.keys()))
     pages[page]()
     st.sidebar.info(load_file("PROJETO.md"))
     st.sidebar.image("./img_coffee.jpg")
@@ -262,15 +260,14 @@ def status_leituras():
         key="box_leituras",
         )
     tag_cloud(tag_text)
-
-    ovny_list = load_ovny()
-    options = list(range(len(ovny_list)))
-    opt_leituras = st.selectbox(
-        str(len(ovny_list)) + " visitas",
-        options,
-        format_func=lambda x: ovny_list[x],
-        key="box_ovny",
-        )
+    # ovny_list = load_ovny()
+    # options = list(range(len(ovny_list)))
+    # opt_leituras = st.selectbox(
+    #     str(len(ovny_list)) + " visitas",
+    #     options,
+    #     format_func=lambda x: ovny_list[x],
+    #     key="box_ovny",
+    #     )
     return escritas
 
 
@@ -472,68 +469,72 @@ def page_eureka():
     eureka_expander = st.beta_expander("", expanded=True)
     lexico_list = load_lexico()
     with eureka_expander:
-        busca = st.text_input(
-            "digite uma palavra (ou parte dela) para buscar...",
-        )
-        if len(busca) > 2:
-            seeds_list = []
-            words_list = []
-            temas_list = []
-            for line in lexico_list:
-                pipe_line = line.split("|")
-                palas = pipe_line[1]
-                fonte = pipe_line[2]
-                if busca.lower() in palas.lower():
-                    seeds_list.append(palas + " - " + fonte)
-                    this_tema = get_seed_tema(palas + " - " + fonte)
-                    if not this_tema in temas_list:
-                        temas_list.append(this_tema)
-                    if not palas.lower() in words_list:
-                        words_list.append(palas.lower())
+        bb, hh = st.beta_columns([9.3,.7])
+        with bb:
+            busca = st.text_input(
+                "digite uma palavra (ou parte dela) para buscar...",
+            )
+        with hh:
+            aide = st.button("¿", help="help !!!")
 
-            if len(seeds_list) > 0:
-                tt, vv, oo, btns = st.beta_columns([2.3, 2.7, 5, 0.8])
+        if aide:
+            st.subheader(load_file("EUREKA.md"))
+        else:
+            if len(busca) > 2:
+                seeds_list = []
+                words_list = []
+                temas_list = []
+                for line in lexico_list:
+                    pipe_line = line.split("|")
+                    palas = pipe_line[1]
+                    fonte = pipe_line[2]
+                    if busca.lower() in palas.lower():
+                        seeds_list.append(palas + " - " + fonte)
+                        this_tema = get_seed_tema(palas + " - " + fonte)
+                        if not this_tema in temas_list:
+                            temas_list.append(this_tema)
+                        if not palas.lower() in words_list:
+                            words_list.append(palas.lower())
             
-                with tt:
-                    options = list(range(len(temas_list)))
-                    opt_tema = st.selectbox(
-                        str(len(temas_list)) + " temas",
-                        options,
-                        format_func=lambda x: temas_list[x],
-                        key="box_tema",
-                    )
-            
-                with vv:
-                    options = list(range(len(words_list)))
-                    opt_word = st.selectbox(
-                        str(len(words_list)) + " verbetes",
-                        options,
-                        format_func=lambda x: words_list[x],
-                        key="box_word",
-                    )
-            
-                with oo:
-                    options = list(range(len(seeds_list)))
-                    opt_seed = st.selectbox(
-                        str(len(seeds_list)) + " ocorrências",
-                        options,
-                        help="use letras para filtrar a lista",
-                        format_func=lambda x: seeds_list[x],
-                        key="box_seed",
-                    )
-            
-                if opt_seed > len(seeds_list):  # just in case
-                    opt_seed = 0
-                    
-                seed_tema = get_seed_tema(seeds_list[opt_seed])
-            
-                with btns:
-                    aide = st.button("¿", help=say_numeros(seed_tema))
-                    more = st.button("+")
-            
-                if aide:
-                    st.subheader(load_file("EUREKA.md"))
-                else:
+                if len(seeds_list) > 0:
+                    tt, vv, oo, btns = st.beta_columns([2.3, 2.7, 5, 0.8])
+                
+                    with tt:
+                        options = list(range(len(temas_list)))
+                        opt_tema = st.selectbox(
+                            str(len(temas_list)) + " temas",
+                            options,
+                            format_func=lambda x: temas_list[x],
+                            key="box_tema",
+                        )
+                
+                    with vv:
+                        options = list(range(len(words_list)))
+                        opt_word = st.selectbox(
+                            str(len(words_list)) + " verbetes",
+                            options,
+                            format_func=lambda x: words_list[x],
+                            key="box_word",
+                        )
+                
+                    with oo:
+                        options = list(range(len(seeds_list)))
+                        opt_seed = st.selectbox(
+                            str(len(seeds_list)) + " ocorrências",
+                            options,
+                            help="use letras para filtrar a lista",
+                            format_func=lambda x: seeds_list[x],
+                            key="box_seed",
+                        )
+                
+                    if opt_seed > len(seeds_list):  # just in case
+                        opt_seed = 0
+                        
+                    seed_tema = get_seed_tema(seeds_list[opt_seed])
+                
+                    with btns:
+                        more = st.button("+", help=say_numeros(seed_tema))
+                
                     curr_ypoema = load_poema(seed_tema, seeds_list[opt_seed])
                     curr_ypoema = load_lypo()
                     st.subheader(seed_tema)
@@ -541,22 +542,22 @@ def page_eureka():
                         curr_ypoema, unsafe_allow_html=True
                     )  # finally... write it
                     update_leituras(seed_tema)
+                else:
+                    st.warning("nenhum verbete encontrado com essas letras ---> " + busca)
             else:
-                st.warning("nenhum verbete encontrado com essas letras ---> " + busca)
-        else:
-            st.warning("digite pelo menos 3 letras...")
+                st.warning("digite pelo menos 3 letras...")
 
 
 def page_abouts():
     st.write("")
     st.sidebar.image("./img_about.jpg")
     abouts_list = [
+        "prefácio",
         "machina",
         "traduttore",
         "bibliografia",
         "outros",
         # "notes",
-        # "comments",
         "index",
     ]
 
@@ -619,6 +620,14 @@ def page_books():  # available books
         st.write(list_book)
 
 
+def page_comments():  # available comments
+    st.write("")
+    st.sidebar.image("./img_comments.jpg")
+    comments_expander = st.beta_expander("", True)
+    with comments_expander:
+        st.subheader(load_file("COMMENTS.md"))
+
+
 def page_license():
     st.write("")
     st.sidebar.image("./img_license.jpg")
@@ -668,34 +677,42 @@ def page_ypoemas():
         last = last.button("◀", help="anterior")
         rand = rand.button("★", help="escolhe tema ao acaso")
         nest = nest.button("▶", help="próximo")
+        love = love.button("❤", help="mais lidos...")
     elif st.session_state.lang == "es":
         last = last.button("◀", help="anterior")
         rand = rand.button("★", help="elige un tema al azar")
         nest = nest.button("▶", help="próximo")
+        love = love.button("❤", help="mas leídos...")
     elif st.session_state.lang == "it":
         last = last.button("◀", help="precedente")
         rand = rand.button("★", help="scegliere un tema a caso")
         nest = nest.button("▶", help="prossimo")
+        love = love.button("❤", help="più letti...")
     elif st.session_state.lang == "fr":
         last = last.button("◀", help="précédent")
         rand = rand.button("★", help="choisir le thème au hasard")
         nest = nest.button("▶", help="prochain")
+        love = love.button("❤", help="plus lus...")
     elif st.session_state.lang == "en":
         last = last.button("◀", help="last")
         rand = rand.button("★", help="pick theme at random")
         nest = nest.button("▶", help="next")
-    elif st.session_state.lang == "ca":
-        last = last.button("◀", help="anterior")
-        rand = rand.button("★", help="tria un tema a l'atzar")
-        nest = nest.button("▶", help="següent")
+        love = love.button("❤", help="most read...")
     elif st.session_state.lang == "de":
         last = last.button("◀", help="letzte")
         rand = rand.button("★", help="ändert das thema zufällig")
         nest = nest.button("▶", help="nächster")
+        love = love.button("❤", help="meistgelesenen...")
+    elif st.session_state.lang == "ca":
+        last = last.button("◀", help="anterior")
+        rand = rand.button("★", help="tria un tema a l'atzar")
+        nest = nest.button("▶", help="següent")
+        love = love.button("❤", help="més llegits...")
     else:  # for new languages, just in case...
         last = last.button("◀", help="last")
         rand = rand.button("★", help="pick theme at random")
         nest = nest.button("▶", help="next")
+        love = love.button("❤", help="most read...")
 
     if last:
         st.session_state.take=last_next("<")
@@ -705,7 +722,6 @@ def page_ypoemas():
         st.session_state.take=last_next(">")
 
     numb = numb.button("☁", help=say_numbers(st.session_state.take))
-    love = love.button("❤", help="mais lidos...")
     manu = manu.button("?", help="help !!!")
 
     lnew = True

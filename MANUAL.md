@@ -31,7 +31,7 @@ ___
 > - clique para ver a lista completa ou selecionar um tema.  
 ___
 - para **buscar palavras** use a opção **eureka** do **menu**.  
-- você pode usar **ctrl+C** e **ctrl+V** para **copiar** qualquer texto da tela.  
+- você pode usar **ctrl+C** e **ctrl+V** para **copiar** qualquer texto da tela.    
 - para mudar de **livro** use a opção **books** do **menu**.  
 ___
 Copyright © 2021 Nando Lopes - yPoemas @ "machina" de fazer Poesia
