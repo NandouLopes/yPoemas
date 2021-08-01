@@ -79,22 +79,6 @@ st.markdown(
 )
 
 
-# trusted = ['www.google.com', 'www.yahoo.com', 'www.bb.com.br']
-# def internet():
-#     global trusted
-#     for host in trusted:
-#         a=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-#         a.settimeout(.5)
-#         try:
-#            b=a.connect_ex((host, 80))
-#            if b==0: #ok, conectado
-#                return True
-#         except:
-#            pass
-#     a.close()
-#     return False
-
-
 def internet(host="8.8.8.8", port=53, timeout=3):
     """
     Host: 8.8.8.8 (google-public-dns-a.google.com)
@@ -123,34 +107,6 @@ if "visy" not in st.session_state:
     st.session_state.visy = True
 if "nany_visy" not in st.session_state:
     st.session_state.nany_visy = 0
-# if "ovny" not in st.session_state:
-#     st.session_state.ovny = True
-
-
-# def update_ovny():
-#     date_string = f'{datetime.now():%Y-%m-%d}'
-#     time_string = f'{datetime.now():%H:%M:%S%z}'
-#     user_data = "|" + user_ip + "|" + date_string + "|" + time_string + "|\n"
-#     with open(os.path.join("./temp/user_data.txt"), "a", encoding="utf-8") as data:
-#         data.write(user_data)
-#     data.close()
-
-
-# def load_ovny():
-#     ovny_list = []
-#     with open(os.path.join("./temp/user_data.txt"), "r", encoding="utf-8") as data:
-#         for line in data:
-#             pipe_line = line.split("|")
-#             link = pipe_line[1]
-#             date = pipe_line[2]
-#             time = pipe_line[3]
-#             ovny_list.append(link+" "+date+" "+time)
-#     return ovny_list
-
-
-# if st.session_state.ovny:
-#     update_ovny()
-#     st.session_state.ovny = False
 
 
 def update_visy():
@@ -185,9 +141,10 @@ def main():
         "license": page_license,
     }
     page = st.sidebar.selectbox("Menu",tuple(pages.keys()))
-
     pages[page]()
+
     st.sidebar.info(load_file("PROJETO.md"))
+    st.sidebar.button(" contatos: Face, Messenger, Whatsapp ", help="https://www.facebook.com/nandoulopes")
     st.sidebar.image("./img_coffee.jpg")
     st.sidebar.info(load_file("COFFEE.md"))
     st.sidebar.state = True
@@ -260,14 +217,6 @@ def status_leituras():
         key="box_leituras",
         )
     tag_cloud(tag_text)
-    # ovny_list = load_ovny()
-    # options = list(range(len(ovny_list)))
-    # opt_leituras = st.selectbox(
-    #     str(len(ovny_list)) + " visitas",
-    #     options,
-    #     format_func=lambda x: ovny_list[x],
-    #     key="box_ovny",
-    #     )
     return escritas
 
 
@@ -479,73 +428,73 @@ def page_eureka():
 
         if aide:
             st.subheader(load_file("EUREKA.md"))
-        else:
-            if len(busca) > 2:
-                seeds_list = []
-                words_list = []
-                temas_list = []
-                for line in lexico_list:
-                    pipe_line = line.split("|")
-                    palas = pipe_line[1]
-                    fonte = pipe_line[2]
-                    if busca.lower() in palas.lower():
-                        seeds_list.append(palas + " - " + fonte)
-                        this_tema = get_seed_tema(palas + " - " + fonte)
-                        if not this_tema in temas_list:
-                            temas_list.append(this_tema)
-                        if not palas.lower() in words_list:
-                            words_list.append(palas.lower())
+
+        if len(busca) > 2:
+            seeds_list = []
+            words_list = []
+            temas_list = []
+            for line in lexico_list:
+                pipe_line = line.split("|")
+                palas = pipe_line[1]
+                fonte = pipe_line[2]
+                if busca.lower() in palas.lower():
+                    seeds_list.append(palas + " - " + fonte)
+                    this_tema = get_seed_tema(palas + " - " + fonte)
+                    if not this_tema in temas_list:
+                        temas_list.append(this_tema)
+                    if not palas.lower() in words_list:
+                        words_list.append(palas.lower())
+        
+            if len(seeds_list) > 0:
+                tt, vv, oo, btns = st.beta_columns([2.3, 2.7, 5, 0.8])
             
-                if len(seeds_list) > 0:
-                    tt, vv, oo, btns = st.beta_columns([2.3, 2.7, 5, 0.8])
-                
-                    with tt:
-                        options = list(range(len(temas_list)))
-                        opt_tema = st.selectbox(
-                            str(len(temas_list)) + " temas",
-                            options,
-                            format_func=lambda x: temas_list[x],
-                            key="box_tema",
-                        )
-                
-                    with vv:
-                        options = list(range(len(words_list)))
-                        opt_word = st.selectbox(
-                            str(len(words_list)) + " verbetes",
-                            options,
-                            format_func=lambda x: words_list[x],
-                            key="box_word",
-                        )
-                
-                    with oo:
-                        options = list(range(len(seeds_list)))
-                        opt_seed = st.selectbox(
-                            str(len(seeds_list)) + " ocorrências",
-                            options,
-                            help="use letras para filtrar a lista",
-                            format_func=lambda x: seeds_list[x],
-                            key="box_seed",
-                        )
-                
-                    if opt_seed > len(seeds_list):  # just in case
-                        opt_seed = 0
-                        
-                    seed_tema = get_seed_tema(seeds_list[opt_seed])
-                
-                    with btns:
-                        more = st.button("+", help=say_numeros(seed_tema))
-                
-                    curr_ypoema = load_poema(seed_tema, seeds_list[opt_seed])
-                    curr_ypoema = load_lypo()
-                    st.subheader(seed_tema)
-                    st.markdown(
-                        curr_ypoema, unsafe_allow_html=True
-                    )  # finally... write it
-                    update_leituras(seed_tema)
-                else:
-                    st.warning("nenhum verbete encontrado com essas letras ---> " + busca)
+                with tt:
+                    options = list(range(len(temas_list)))
+                    opt_tema = st.selectbox(
+                        str(len(temas_list)) + " temas",
+                        options,
+                        format_func=lambda x: temas_list[x],
+                        key="box_tema",
+                    )
+            
+                with vv:
+                    options = list(range(len(words_list)))
+                    opt_word = st.selectbox(
+                        str(len(words_list)) + " verbetes",
+                        options,
+                        format_func=lambda x: words_list[x],
+                        key="box_word",
+                    )
+            
+                with oo:
+                    options = list(range(len(seeds_list)))
+                    opt_seed = st.selectbox(
+                        str(len(seeds_list)) + " ocorrências",
+                        options,
+                        help="use letras para filtrar a lista",
+                        format_func=lambda x: seeds_list[x],
+                        key="box_seed",
+                    )
+            
+                if opt_seed > len(seeds_list):  # just in case
+                    opt_seed = 0
+                    
+                seed_tema = get_seed_tema(seeds_list[opt_seed])
+            
+                with btns:
+                    more = st.button("+", help=say_numeros(seed_tema))
+            
+                curr_ypoema = load_poema(seed_tema, seeds_list[opt_seed])
+                curr_ypoema = load_lypo()
+                st.subheader(seed_tema)
+                st.markdown(
+                    curr_ypoema, unsafe_allow_html=True
+                )  # finally... write it
+                update_leituras(seed_tema)
             else:
-                st.warning("digite pelo menos 3 letras...")
+                st.warning("nenhum verbete encontrado com essas letras ---> " + busca)
+        else:
+            st.warning("digite pelo menos 3 letras...")
 
 
 def page_abouts():
@@ -592,21 +541,17 @@ def page_books():  # available books
             "signos_fem",
             "signos_mas",
         ]
+
         options = list(range(len(books_list)))
-
-        # opt_book = books_expander.radio("", books_list)
-        # st.session_state.take = 0
-        # st.session_state.book = opt_book
-
         opt_book = st.selectbox(
             "",
             options,
             format_func=lambda x: books_list[x],
             key="box_books",
         )
+
         st.session_state.take = 0
         st.session_state.book = books_list[opt_book]
-
         st.info(
             translate("escolha um livro e click em yPoemas para voltar à leitura...")
         )

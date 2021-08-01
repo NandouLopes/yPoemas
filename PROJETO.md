@@ -4,6 +4,3 @@ gerados aleatoriamente pela
 e só se repetirão se esgotadas  
 as milhares de combinações  
 possíveis à cada tema.  
-
-Contato:  [Nando Lopes]
-(https://www.facebook.com/nandoulopes)

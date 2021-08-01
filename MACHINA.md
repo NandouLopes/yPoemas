@@ -14,17 +14,17 @@ ___
 
 **Como funciona**  
 > Em uma visão espacial, o texto é criado em três dimensões-eixos  
-  onde a leitura convencional multiplica-se à cada mudança no eixo Z.  
+  onde a leitura convencional multiplica-se à cada mudança no **eixo Z**.  
 
 > A **machina** distribui o texto em camadas.  
   As frases são escritas no eixo X, as linhas no eixo Y,  
-  e as palavras de cada frase são extraidas do **imaginário** eixo Z.  
+  e as palavras de cada frase são extraidas do **imaginário eixo Z**.  
 
 > O trabalho criativo está na escolha das palavras  
   que em algum momento irão compor o texto.  
 
 >> - Cada palavra escolhida deve, além de ser pertinente ao tema,  
-  fazer sentido para **o que** vem antes e para ***o que*** vem depois dela.  
+  fazer sentido para **o que** vem antes e para **o que** vem depois dela.  
 
 >> - Essa escolha estabelece o tom desejado  
      (lírico, crítico, subjetivo, conceitual, satírico, jocoso...)  
@@ -39,10 +39,12 @@ ___
   insere-se o acaso no sorteio das palavras que dele farão parte.  
 
 **Características**  
-> Efêmero, vivo e aberto.  
+> Efêmero, inesperado e aberto.  
 
 > Não existe "leitura anterior" do tema.  
-  Os **yPoemas** gerados são substituídos pelo próximo.  
+>> Cada yPoema gerado será substituído pelo próximo.  
+>> O texto é descartado e só se repetirá quando combinadas   
+>> todas as variações possíveis à ele.  
 
 > O objetivo não é esgotar o tema e sim explorar todas as suas possibilidades,  
   variações, nuanças, matizes, sutilezas, mistérios e contrastes.  
@@ -62,13 +64,11 @@ ___
 > A possibilidade matemática de que um yPoema se repita  
   depende da quantidade de opções existentes nos "Bancos de Palavras" do tema.  
   O número varia de alguns milhões a valores quase astronômicos.  
+
 > Na página **yPoemas** o botão '☁' mostra essas variações.  
 > Na página **eureka** o botão '¿' mostra essas variações.  
 
-> Uma vez gerado, o texto é descartado e só se repetirá  
-  quando esgotadas todas as variações e combinações possíveis à ele.  
-  
-**[obs] - cerca de 12.500 verbetes únicos**  
+**[obs]** - cerca de 12.500 verbetes únicos  
 >  foram excluídos dessas contagens verbetes com menos de 3 sílabas.  
 >  exemplos: o, a, à, e, é, os, as, de, da, do, eu, ao, em, um etc...  
 ___

@@ -14,12 +14,12 @@
 > e de escrever poesia. Fiz isso a vida toda e Fernando Lopes também.  
 
 > No entanto, apesar dessas afinidades, tive uma dúvida no dia em que fui convidado,  
-> por ele, para escrever o prefácio deste **yPoemas**.  
+> por ele, para escrever o prefácio deste **yPoemas**:  
 > “Serei eu a pessoa mais indicada?”.  
 
 > Trata-se de uma pergunta aparentemente incompreensível,  
 > já que temos muita coisa em comum, por isso vou aprofundar a questão.  
-> Este **livro** é excelente e contém poemas tão originais, instigantes,  
+> Este **livro-vivo** é excelente e contém poemas tão originais, instigantes,  
 > desconcertantes e, às vezes, sutilmente impregnados de humor,  
 > que minha dúvida inicial pode parecer absurda.  
 
@@ -29,17 +29,18 @@
 
 > A palavra “máquina” me assustou um pouco, pois em minha cabeça ela estava  
 > necessariamente associada a uma racionalidade rígida e a um procedimento  
-> mecanicista incompatível com a criação poética, que a meu ver  
-> deve ser sempre espontânea, não planejada, imprevisível, baseada na intuição  
+> mecanicista incompatível com a criação poética, que a meu ver deve ser 
+> sempre espontânea, não planejada, imprevisível, baseada na intuição  
 > e na imaginação: algo que brota das profundezas do inconsciente do poeta  
 > e que não pode ser inventado por um computador.  
+
 > O computador é, para Fernando, a tal **“máquina de fazer poesia”**.  
 
 > Depois de ter lido e relido, vários e vários **yPoemas**,  
 > confesso que seu autor tem razão e que é possível, sim,  
 > associar à subjetividade de um poeta algo que surge graças à máquina  
-> como sugestão para que o escritor, soberanamente, livremente, decida  
-> se aceita ou não esta ou aquela alternativa lexical possível.  
+> como sugestão para que o escritor, soberanamente, livremente,  
+> decida se aceita ou não esta ou aquela alternativa lexical possível.  
 > Ou seja, na verdade é o poeta que está escrevendo, é ele o autor. Não a máquina.  
 > A máquina está a seu serviço, é uma ferramenta de trabalho moderna.  
 
