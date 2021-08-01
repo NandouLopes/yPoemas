@@ -12,7 +12,7 @@ All texts are unique and will only be repeated
 after they are sold out the thousands  
 of combinations possible to each theme.
 
-OVNY == Outro Visitante Nos Ypoemas
+OVNY == Others Visitors Nos Ypoemas
 VISY == New Visitor
 NANY_VISY == Number of Visitors
 LYPO == Last YPOema created from curr_ypoema
@@ -110,14 +110,14 @@ if "nany_visy" not in st.session_state:
 
 
 def update_visy():
-    with open(os.path.join("./temp/visita.txt"), "r", encoding="utf-8") as visita:
-        tots = int(visita.read())
+    with open(os.path.join("./temp/visitors.txt"), "r", encoding="utf-8") as visitors:
+        tots = int(visitors.read())
         tots = tots + 1
         st.session_state.nany_visy = tots
         
-    with open(os.path.join("./temp/visita.txt"), "w", encoding="utf-8") as visita:
-        visita.write(str(tots))
-    visita.close()
+    with open(os.path.join("./temp/visitors.txt"), "w", encoding="utf-8") as visitors:
+        visitors.write(str(tots))
+    visitors.close()
 
 
 if st.session_state.visy:
@@ -160,64 +160,61 @@ def natural_keys(text):
 
 
 # bof: loaders
-def load_leituras():  # Lista de Temas + readings
-    leitor_list = []
-    with open(os.path.join("./temp/leitor.txt"), encoding="utf-8") as leitor:
-        for line in leitor:
-            leitor_list.append(line)
-    leitor.close()
-    return leitor_list
+def load_readings():  # Lista de Temas + readings
+    readers_list = []
+    with open(os.path.join("./temp/readings.txt"), encoding="utf-8") as reader:
+        for line in reader:
+            readers_list.append(line)
+    reader.close()
+    return readers_list
 
 
-def save_leituras(escritas):
-    with open(os.path.join("./temp/leitor.txt"), "w", encoding="utf-8") as new_leitor:
-        for line in escritas:
-            new_leitor.write(line)
-    new_leitor.close()
+def save_readings(this_read):
+    with open(os.path.join("./temp/readings.txt"), "w", encoding="utf-8") as new_reader:
+        for line in this_read:
+            new_reader.write(line)
+    new_reader.close()
 
 
-def update_leituras(tema):
-    escritas = []
-    leituras = load_leituras()
-    for line in leituras:
+def update_readings(tema):
+    read_changes = []
+    readings = load_readings()
+    for line in readings:
         pipe_line = line.split("|")
         name = pipe_line[1]
         if name == tema:
             qtds = int(pipe_line[2]) + 1
             new_line = "|" + name + "|" + str(qtds) + "|\n"
-            escritas.append(new_line)
+            read_changes.append(new_line)
         else:
-            escritas.append(line)
-    save_leituras(escritas)
+            read_changes.append(line)
+    save_readings(read_changes)
 
 
-def status_leituras():
+def status_readings():
     totaliza = 0
-    escritas = []
-    selected = []
+    readonce = []
     tag_text = ""
-    leituras = load_leituras()
-    for line in leituras:
+    readings = load_readings()
+    for line in readings:
         pipe_line = line.split("|")
         name = pipe_line[1]
         qtds = pipe_line[2]
         totaliza += int(qtds)
         if qtds != "0":
-            selected.append(name)
             new_line = str(qtds) + " - " + name + "\n"
-            escritas.append(new_line)
+            readonce.append(new_line)
             tag_text += name + " "
-    escritas.sort(key=natural_keys, reverse=True)
+    readonce.sort(key=natural_keys, reverse=True)
 
-    options = list(range(len(escritas)))
-    opt_leituras = st.selectbox(
-        str(len(escritas)) + " temas, " + str(totaliza) + "/" + str(st.session_state.nany_visy) + " leituras",
+    options = list(range(len(readonce)))
+    opt_readings = st.selectbox(
+        str(len(readonce)) + " temas, " + str(totaliza) + "/" + str(st.session_state.nany_visy) + " leituras",
         options,
-        format_func=lambda x: escritas[x],
-        key="box_leituras",
+        format_func=lambda x: readonce[x],
+        key="box_readings",
         )
     tag_cloud(tag_text)
-    return escritas
 
 
 @st.cache(allow_output_mutation=True)
@@ -490,7 +487,7 @@ def page_eureka():
                 st.markdown(
                     curr_ypoema, unsafe_allow_html=True
                 )  # finally... write it
-                update_leituras(seed_tema)
+                update_readings(seed_tema)
             else:
                 st.warning("nenhum verbete encontrado com essas letras ---> " + busca)
         else:
@@ -583,6 +580,7 @@ def page_license():
 
 st.session_state.last_lang = st.session_state.lang
 all_temas_list = load_tems(st.session_state.book)
+st.session_state.take = random.randrange(0, len(all_temas_list), 1)
 
 
 def page_ypoemas():
@@ -672,7 +670,7 @@ def page_ypoemas():
     lnew = True
     if love:
         lnew = False
-        status_leituras()
+        status_readings()
 
     if manu:
         lnew = False
@@ -687,7 +685,7 @@ def page_ypoemas():
         opt_ypo = st.selectbox(
             "",
             options,
-            index=st.session_state.take,
+            index = st.session_state.take,
             format_func = lambda x: all_temas_list[x],
         )
         if opt_ypo != st.session_state.take:
@@ -727,7 +725,7 @@ def page_ypoemas():
                 curr_ypoema = load_typo()  # to normalize line breaks in text
             st.subheader(all_temas_list[st.session_state.take])  # show nome_tema
             st.markdown(curr_ypoema, unsafe_allow_html=True)  # finally... write it
-            update_leituras(all_temas_list[st.session_state.take].strip())
+            update_readings(all_temas_list[st.session_state.take].strip())
 
 
 # eof: pages
