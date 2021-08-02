@@ -17,6 +17,7 @@ VISY == New Visitor
 NANY_VISY == Number of Visitors
 LYPO == Last YPOema created from curr_ypoema
 TYPO == Translated Ypoema from LYPO
+POLY == Poliglot Idiom == Changed on Catalán
 user_ip == the User IP for LYPO, TYPO
 
 https://share.streamlit.io/nandoulopes/ypoemas/main/ypo.py
@@ -101,6 +102,10 @@ if "book" not in st.session_state:
     st.session_state.book = "livro vivo"
 if "lang" not in st.session_state:
     st.session_state.lang = "pt"
+if "poly_lang" not in st.session_state:
+    st.session_state.poly_lang = "ca"
+if "poly_name" not in st.session_state:
+    st.session_state.poly_name = "català"
 if "last_lang" not in st.session_state:
     st.session_state.last_lang = "pt"
 if "visy" not in st.session_state:
@@ -213,7 +218,7 @@ def status_readings():
         options,
         format_func=lambda x: readonce[x],
         key="box_readings",
-        )
+    )
     tag_cloud(tag_text)
 
 
@@ -230,6 +235,51 @@ def load_file(file):  # Open files for about's
         file_text = "ooops... arquivo ( " + file + " ) não pode ser aberto. Sorry."
 
     return file_text
+
+
+
+# @st.cache(allow_output_mutation=True)
+def load_poly():  # Lista de Idiomas
+    st.write("")
+    poly_list = []
+    # if not isfile()
+    with open(os.path.join("./data/poly_en.txt"), encoding="utf-8") as poly:
+        for line in poly:
+            poly_list.append(line)
+    poly.close()
+
+    options = list(range(len(poly_list)))
+    opt_poly = st.selectbox(
+        str(len(poly_list)) + " idiomas",
+        options,
+        format_func=lambda x: poly_list[x],
+        key="box_poly",
+    )
+
+    poly_name = poly_list[opt_poly].split("|")
+    st.session_state.poly_name = poly_name[1]
+    st.session_state.poly_lang = poly_name[2]
+    
+    old_lang = st.session_state.lang
+    st.session_state.lang = st.session_state.poly_lang
+    poly_news = []
+    for line in poly_list:
+        pipe_line = line.split("|")
+        longo = translate(pipe_line[1])
+        sigla = pipe_line[2]
+        new_line = "|" + longo.lower() + "|" + sigla + "|\n"
+        poly_news.append(new_line)
+    
+    save_poly(poly_news)
+    st.session_state.lang = old_lang
+    return poly_list
+
+
+def save_poly(this_poly):
+    with open(os.path.join("./data/poly_"+st.session_state.lang+".txt"), "w", encoding="utf-8") as new_poly:
+        for line in this_poly:
+            new_poly.write(line)
+    new_poly.close()
 
 
 @st.cache(allow_output_mutation=True)
@@ -249,6 +299,7 @@ def load_tems(book):  # List of yPoemas themes inside a Book
     with open(full_name, encoding="utf-8") as file:
         for line in file:
             all_temas_list.append(line)
+    st.session_state.take = random.randrange(0, len(all_temas_list), 1)
     return all_temas_list
 
 
@@ -580,12 +631,13 @@ def page_license():
 
 st.session_state.last_lang = st.session_state.lang
 all_temas_list = load_tems(st.session_state.book)
-st.session_state.take = random.randrange(0, len(all_temas_list), 1)
+st.session_state.take=last_next("#")
 
 
 def page_ypoemas():
     st.write("")
     st.sidebar.image("./img_home.jpg")
+
     i0, i1, i2, i3, i4, i5, i6, i7, i8 = st.beta_columns(
         [1.5, 1, 1, 1, 1, 1, 1, 1, 1.5]
     )
@@ -595,7 +647,8 @@ def page_ypoemas():
     i4 = i4.button("fr", help="Français")
     i5 = i5.button("en", help="English")
     i6 = i6.button("de", help="Deutsche")
-    i7 = i7.button("ca", help="Català")
+    i7 = i7.button("ca", help="català")
+    # i7 = i7.button("☀", help=st.session_state.poly_name)
 
     if i1:
         st.session_state.lang = "pt"
@@ -611,6 +664,7 @@ def page_ypoemas():
         st.session_state.lang = "de"
     elif i7:
         st.session_state.lang = "ca"
+        # st.session_state.lang = st.session_state.poly_lang
 
     b0, last, rand, nest, numb, love, manu, b1 = st.beta_columns(
         [2, 1, 1, 1, 1, 1, 1, 2]
@@ -651,7 +705,8 @@ def page_ypoemas():
         rand = rand.button("★", help="tria un tema a l'atzar")
         nest = nest.button("▶", help="següent")
         love = love.button("❤", help="més llegits...")
-    else:  # for new languages, just in case...
+    else:
+    # elif st.session_state.lang == st.session_state.poly_lang:  # for new languages
         last = last.button("◀", help="last")
         rand = rand.button("★", help="pick theme at random")
         nest = nest.button("▶", help="next")
@@ -671,6 +726,7 @@ def page_ypoemas():
     if love:
         lnew = False
         status_readings()
+        # load_poly()
 
     if manu:
         lnew = False
@@ -691,7 +747,7 @@ def page_ypoemas():
         if opt_ypo != st.session_state.take:
             st.session_state.take = opt_ypo
             st.session_state.take=last_next("#")
-            
+        
         info = (
             st.session_state.lang
             + " ( "

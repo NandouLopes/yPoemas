@@ -1,5 +1,6 @@
 alguns comentários sobre os yPoemas...  
 ---  
+
 **Rui Torres**  
 > Caro Fernando Lopes,  
 > Abri a sua machina no dia em que teve a gentileza de partilhar o link comigo.  
@@ -34,28 +35,34 @@ alguns comentários sobre os yPoemas...
 > Esse grande trabalho de Fernando Lopes tem muito a acrescentar ao processo de criação.  
 > Trata-se de uma ferramenta com recursos ainda não explorados em sua totalidade  
 > e que pode auxiliar principalmente os iniciantes na arte de escrever.  
-> O texto pode ser editado, modificado e recriado,
-> até que obra e autor se tornem uma unidade poética cheia de sentimentos e emoções.
-[saber mais](https://x.facebook.com/silvioferreiraleitee)
----  
-
-**Laila Nasser**  
-> Sensacional! Espaço para o exercício democrático da criação. Parabéns, Fernando Lopes.  
+> O texto pode ser editado, modificado e recriado,  
+> até que obra e autor se tornem uma unidade poética cheia de sentimentos e emoções.  
+[saber mais](https://x.facebook.com/silvioferreiraleitee)  
 ---  
 
 **Silvia Vasconcellos**  
 > Querido poeta.  
 > Sua genialidade me causou perplexidade.  
-> Com certeza um máquina auxiliar e criativa a serviço do poeta.  
+> Com certeza um máquina auxiliar e criativa a serviço da poesia.  
+
 > Engana-se quem acha que tirou a personalidade e autenticidade do poeta,  
-> uma vez que quem oferece o tema , as palavras, e até versos para a máquina é o poeta.  
-> Os sentimentos, a sensibilidade virão sempre do talento do poeta,  
-> a máquina como seu braço direito lhe dará diversas maneiras de " organizar " sua poesia.  
-> Então toda a sensibilidade, criatividade e autenticidade do poeta serão preservados,  
-> a máquina apenas arruma para você, as suas ideias em forma de poesia.  
-> Podendo brincar com a essência que foi você que escreveu, mudando a ordem das palavras.  
-> Seu talento continua sendo a base de tudo, porque sem sua escrita não tem o que a máquina fazer.  
+> uma vez que quem oferece o tema, as palavras e os versos para a máquina é o poeta.  
+
+> Os sentimentos e a sensibilidade virão sempre do talento do poeta.  
+> A máquina, como seu braço direito, lhe dará diversas maneiras de "organizar" sua poesia.  
+
+> Então, toda a sensibilidade, criatividade e autenticidade do poeta serão preservados...  
+> A máquina apenas arruma para você as suas ideias em forma de poesia,  
+> podendo  brincar com a essência que você que escreveu,  
+> apenas mudando a ordem das palavras.    
+
+> Seu talento continua sendo a base de tudo.  
+> Sem sua escrita, a máquina não tem o que fazer.  
 > Sensacional!!!  
+---  
+
+**Laila Nasser**  
+> Sensacional! Espaço para o exercício democrático da criação. Parabéns, Fernando Lopes.  
 ---  
 
 **Mariangela Amendola**  
@@ -67,4 +74,4 @@ alguns comentários sobre os yPoemas...
 **MarieLou Miranda Camargo-Nash**  
 > It’s brilliant! Well done you! I love words.  
 ---  
-Copyright © 2021 Nando Lopes - **yPoemas** @ **machina** de fazer Poesia
+Copyright © 2021 Nando Lopes - **yPoemas @ machina de fazer Poesia**

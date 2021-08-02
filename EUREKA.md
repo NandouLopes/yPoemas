@@ -22,4 +22,4 @@ ___
 >> para ser fiel aos nomes próprios e a grafia original dos textos  
 >> as palavras iniciadas por Maiúsculas foram mantidas.  
 ___
-Copyright © 2021 Nando Lopes - yPoemas @ "machina" de fazer Poesia
+Copyright © 2021 Nando Lopes - **yPoemas @ machina de fazer Poesia**

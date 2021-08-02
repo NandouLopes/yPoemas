@@ -34,4 +34,4 @@ ___
 - você pode usar **ctrl+C** e **ctrl+V** para **copiar** qualquer texto da tela.    
 - para mudar de **livro** use a opção **books** do **menu**.  
 ___
-Copyright © 2021 Nando Lopes - yPoemas @ "machina" de fazer Poesia
+Copyright © 2021 Nando Lopes - **yPoemas @ machina de fazer Poesia**

@@ -23,20 +23,21 @@ ___
 > O trabalho criativo está na escolha das palavras  
   que em algum momento irão compor o texto.  
 
->> - Cada palavra escolhida deve, além de ser pertinente ao tema,  
+>> Cada palavra escolhida deve, além de ser pertinente ao tema,  
   fazer sentido para **o que** vem antes e para **o que** vem depois dela.  
 
->> - Essa escolha estabelece o tom desejado  
-     (lírico, crítico, subjetivo, conceitual, satírico, jocoso...)  
-	 e contempla as ideias, os estados de alma, os sentimentos,  
-     a musicalidade, as aliterações, as rimas, a imagética,  
-	 a visão de mundo de quem escreve...  
-     além, é claro, de todas as concordâncias formais e necessárias  
-     à criação de um texto consistente e condizente com o tema.  
+>> Essa escolha estabelece o tom desejado  
+   (lírico, crítico, subjetivo, conceitual, satírico, jocoso...)  
+   e contempla as ideias, os estados de alma, os sentimentos,  
+   a musicalidade, as aliterações, as rimas, a imagética,  
+   a visão de mundo de quem escreve...  
+   além, é claro, de todas as concordâncias formais e necessárias  
+   à criação de um texto consistente e condizente com o tema.  
 
 > A **machina** deixa de ser máquina quando,  
-  a cada nova geração de um yPoema,  
-  insere-se o acaso no sorteio das palavras que dele farão parte.  
+  a cada nova geração de um texto,  
+  insere-se o **acaso** no sorteio das palavras que dele farão parte.  
+>> os **yPoemas** foram milimetricamente programados para acontecer **al-atzar**.  
 
 **Características**  
 > Efêmero, inesperado e aberto.  
@@ -72,4 +73,4 @@ ___
 >  foram excluídos dessas contagens verbetes com menos de 3 sílabas.  
 >  exemplos: o, a, à, e, é, os, as, de, da, do, eu, ao, em, um etc...  
 ___
-Copyright © 2021 Nando Lopes - **yPoemas** @ **machina** de fazer Poesia
+Copyright © 2021 Nando Lopes - **yPoemas @ machina de fazer Poesia**

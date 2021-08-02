@@ -36,7 +36,7 @@ ___
 > A ***primeira*** tradução será sempre do ***último*** poema gerado.  
 
 > Isso permite ler o ***mesmo*** texto em qualquer idioma selecionado.  
-
+___  
 **Idiomas disponíveis:**  
 > - pt = Português [Porquê aprender outra língua?] (https://www.unibh.br/blog/por-que-aprender-um-novo-idioma-pode-alavancar-sua-carreira/)  
 > - es = Espanhol [Porquê aprender outra língua?] (https://mx.unoi.com/2015/09/28/la-importancia-de-hablar-otro-idioma/)  
@@ -53,3 +53,6 @@ ___
 
 >> P.S. Em alguns idiomas (para o Google Translate?)  
 >> parece não haver distinção entre "língua" e "idioma".  
+___  
+
+Copyright © 2021 Nando Lopes - **yPoemas @ machina de fazer Poesia**
