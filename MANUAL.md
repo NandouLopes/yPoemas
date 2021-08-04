@@ -7,7 +7,7 @@ ___
 - ao mudar de idioma, será mostrada a tradução do texto que está na tela.  
 - um novo clic no mesmo idioma irá gerar um novo yPoema para o tema.  
 > - o botão **[☀]** pode ser configurado na aba **poly** no **menu**.  
-> - há uma lista com 96 outros idiomas disponíveis no **Google Translator**.  
+> - há uma lista com 95 outros idiomas disponíveis no **Google Translator**.  
 > - o idioma selecionado na lista ficará sempre neste botão.  
 > - recomenda-se a leitura do texto **traduttore** na aba **about**.  
 ___
