@@ -172,7 +172,8 @@ def main():
 def update_ovny():
 #   date_string = f'{datetime.now():%Y-%m-%d}'
 #   time_string = f'{datetime.now():%H:%M:%S%z}'
-#   ovny_data = "|" + user_ip + "|" + date_string + "|" + time_string + "|\n"
+#   ovny_data = "|" + date_string + "|" + time_string + "|\n"
+#   2021-08-05T09:09:36.506315+00:00
     ovny_data = utcnow().isoformat() + "\n"
     with open(os.path.join("./temp/ovny_data.txt"), "a", encoding="utf-8") as data:
         data.write(ovny_data)
@@ -183,12 +184,9 @@ def load_ovny():
     ovny_list = []
     with open(os.path.join("./temp/ovny_data.txt"), "r", encoding="utf-8") as data:
         for line in data:
-#           pipe_line = line.split("|")
-#           link = pipe_line[1]
-#           date = pipe_line[2]
-#           time = pipe_line[3]
-#           ovny_list.append(link+" "+date+" "+time)
-            ovny_list.append(line)
+            date = line[0:10]
+            time = line[11:19]
+            ovny_list.append(date+" "+time)
     return ovny_list
 
 
