@@ -12,7 +12,7 @@ All texts are unique and will only be repeated
 after they are sold out the thousands  
 of combinations possible to each theme.
 
-OVNY == Others Visitors Nos Ypoemas
+OVNY == Other Visitor iN Ypoemas
 VISY == New Visitor
 NANY_VISY == Number of Visitors
 LYPO == Last YPOema created from curr_ypoema
@@ -31,7 +31,11 @@ import re
 import random
 import streamlit as st
 
+# for ovny's
+import pytz
 from datetime import datetime
+def utcnow():
+    return datetime.now(tz=pytz.utc)
 
 # Project Module
 from lay_2_ypo import gera_poema
@@ -40,11 +44,11 @@ from lay_2_ypo import gera_poema
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
+# poly translations
 from deep_translator import GoogleTranslator
 
 # user_ip: to create LYPO and TYPO for each hostname
 import socket
-
 
 st.set_page_config(
     page_title='yPoemas - a "machina" de fazer Poesia',
@@ -97,6 +101,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+
 def internet(host="8.8.8.8", port=53, timeout=3):
     """
     Host: 8.8.8.8 (google-public-dns-a.google.com)
@@ -136,6 +141,8 @@ if "visy" not in st.session_state:
 if "nany_visy" not in st.session_state:
     st.session_state.nany_visy = 0
 
+if "ovny" not in st.session_state:
+    st.session_state.ovny = True
 
 if not internet():
     st.warning("Internet não conectada. Traduções não disponíveis no momento.")
@@ -161,6 +168,35 @@ def main():
     st.sidebar.state = True
 
 
+# count one more ovny
+def update_ovny():
+#   date_string = f'{datetime.now():%Y-%m-%d}'
+#   time_string = f'{datetime.now():%H:%M:%S%z}'
+#   ovny_data = "|" + user_ip + "|" + date_string + "|" + time_string + "|\n"
+    ovny_data = utcnow().isoformat() + "\n"
+    with open(os.path.join("./temp/ovny_data.txt"), "a", encoding="utf-8") as data:
+        data.write(ovny_data)
+    data.close()
+
+
+def load_ovny():
+    ovny_list = []
+    with open(os.path.join("./temp/ovny_data.txt"), "r", encoding="utf-8") as data:
+        for line in data:
+#           pipe_line = line.split("|")
+#           link = pipe_line[1]
+#           date = pipe_line[2]
+#           time = pipe_line[3]
+#           ovny_list.append(link+" "+date+" "+time)
+            ovny_list.append(line)
+    return ovny_list
+
+
+if st.session_state.ovny:
+    update_ovny()
+    st.session_state.ovny = False
+
+
 # count one more visitor
 def update_visy():
     with open(os.path.join("./temp/visitors.txt"), "r", encoding="utf-8") as visitors:
@@ -172,7 +208,7 @@ def update_visy():
         visitors.write(str(tots))
     visitors.close()
 
-
+# check visitor once
 if st.session_state.visy:
     update_visy()
     st.session_state.visy = False
@@ -190,7 +226,7 @@ def natural_keys(text):
 # update themes readings
 def load_readings():
     readers_list = []
-    with open(os.path.join("./temp/readings.txt"), encoding="utf-8") as reader:
+    with open(os.path.join("./temp/read_list.txt"), encoding="utf-8") as reader:
         for line in reader:
             readers_list.append(line)
     reader.close()
@@ -198,7 +234,7 @@ def load_readings():
 
 
 def save_readings(this_read):
-    with open(os.path.join("./temp/readings.txt"), "w", encoding="utf-8") as new_reader:
+    with open(os.path.join("./temp/read_list.txt"), "w", encoding="utf-8") as new_reader:
         for line in this_read:
             new_reader.write(line)
     new_reader.close()
@@ -221,7 +257,7 @@ def update_readings(tema):
 
 def status_readings():
     totaliza = 0
-    readonce = []
+    read_one = []
     tag_text = ""
     readings = load_readings()
     for line in readings:
@@ -231,18 +267,28 @@ def status_readings():
         totaliza += int(qtds)
         if qtds != "0":
             new_line = str(qtds) + " - " + name + "\n"
-            readonce.append(new_line)
+            read_one.append(new_line)
             tag_text += name + " "
-    readonce.sort(key=natural_keys, reverse=True)
+    read_one.sort(key=natural_keys, reverse=True)
 
-    options = list(range(len(readonce)))
+    options = list(range(len(read_one)))
     opt_readings = st.selectbox(
-        str(len(readonce)) + " temas, " + str(totaliza) + "/" + str(st.session_state.nany_visy) + " leituras",
+        str(len(read_one)) + " temas, " + str(totaliza) + "/" + str(st.session_state.nany_visy) + " leituras",
         options,
-        format_func=lambda x: readonce[x],
+        format_func=lambda x: read_one[x],
         key="box_readings",
     )
     tag_cloud(tag_text)
+
+    # ovny_list
+    ovny_list = load_ovny()
+    options = list(range(len(ovny_list)))
+    opt_leituras = st.selectbox(
+        str(len(ovny_list)) + " visitas",
+        options,
+        format_func=lambda x: ovny_list[x],
+        key="box_ovny",
+        )
 
 
 # bof: loaders
