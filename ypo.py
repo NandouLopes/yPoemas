@@ -454,12 +454,17 @@ def load_typo():  # load translated yPoema & clean translator returned text
 
 @st.cache(allow_output_mutation=True)
 def load_all_offs():  # List off_themes
-    all_books_off = []
-    for file in os.listdir("./off_machina/"):
-        this = file.lower()
-        if this.endswith(".Pip"):
-            this = this.replace(".Pip","")
-            all_books_off.append(this)
+    all_books_off = [
+        "a_torre_de_papel",
+        "linguafiada",
+        "quase_que_eu_Poesia",
+    ]
+    # this = books_list.index(st.session_state.book)
+    # for file in os.listdir("./off_machina/"):
+    #     this = file.lower()
+    #     if this.endswith(".Pip"):
+    #         this = this.replace(".Pip","")
+    #         all_books_off.append(this)
     return all_books_off
 
 
