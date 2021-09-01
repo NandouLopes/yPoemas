@@ -457,8 +457,8 @@ def load_all_offs():  # List off_themes
     all_books_off = []
     for file in os.listdir("./off_machina/"):
         this = file.lower()
-        if this.endswith(".pip"):
-            this = this.replace(".pip","")
+        if this.endswith(".Pip"):
+            this = this.replace(".Pip","")
             all_books_off.append(this)
     return all_books_off
 
@@ -466,7 +466,7 @@ def load_all_offs():  # List off_themes
 @st.cache(allow_output_mutation=True)
 def load_off_book(book):  # Load selected Book
     book_full = []
-    full_name = os.path.join("./off_machina/", book) + ".pip"
+    full_name = os.path.join("./off_machina/", book) + ".Pip"
     with open(full_name, encoding="utf-8") as file:
         for line in file:
             book_full.append(line)
