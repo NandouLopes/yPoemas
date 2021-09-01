@@ -808,7 +808,7 @@ def page_off_machina():  # available off_books
     opt_off_book = st.selectbox(
         "",
         options,
-        # index=st.session_state.off_book,
+        index=st.session_state.off_book,
         format_func=lambda x: off_books_list[x],
         help = "books",
         key="opt_off_book",
@@ -817,7 +817,7 @@ def page_off_machina():  # available off_books
     if opt_off_book != st.session_state.off_book:
         st.session_state.off_book = opt_off_book
         st.session_state.off_take = 0
-    off_book_name = off_books_list[opt_off_book]
+    off_book_name = off_books_list[st.session_state.off_book]
     
     i0, i1, i2, i3, i4, i5, i6, i7, i8 = st.beta_columns(
         [1.5, 1, 1, 1, 1, 1, 1, 1, 1.5]
