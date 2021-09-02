@@ -45,7 +45,7 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
         this_seed = seed_source[0:minus-1]
         seed_coords = seed_source[minus+2:maxis+1]
         
-    nome_tema = nome_tema.replace("\n", "")
+    nome_tema = nome_tema.strip("\n")
 
     try:
         if nome_tema == "Babel":

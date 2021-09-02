@@ -23,8 +23,9 @@ https://gonative.io/share/rbqdod
 https://www.buymeacoffee.com/yPoemas
 https://share.streamlit.io/nandoulopes/ypoemas/main/ypo.py
 https://www.facebook.com/fernando.lopes.942/posts/3797156397062571?comment_id=3797297573715120&notif_id=1626293136581310&notif_t=feed_comment&ref=notif
+https://www.facebook.com/permalink.php?story_fbid=583356275191079&id=100005501349559&comment_id=585000445026662 == oVale/Adriano
 https://youtu.be/SxtA5SM1hUw
-
+https://studio.youtube.com/channel/UCBzkwy5R3K3WS_i5wz_UwNQ
 """
 
 import os
@@ -34,7 +35,11 @@ import time
 import random
 import streamlit as st
 
-from deep_translator import GoogleTranslator
+try:
+    from deep_translator import GoogleTranslator
+except ImportError as ex:
+    st.warning("Google Translator não conectado. Traduções não disponíveis no momento.")
+    print(ex)
 
 # for ovny's
 import pytz
@@ -519,7 +524,11 @@ def load_poema(
 def say_numeros(tema):  # search index title for eureka
     analise = "#️ nonono"
     indexes = load_index()
-    this = next(i for i in indexes if i.startswith(tema))
+    for line in indexes:
+        if line.startswith(tema):
+            this = line
+            break
+    # this = next(i for i in indexes if i.startswith(tema))
     if this is not None:
         analise = "#️ " + this
     return analise
@@ -777,8 +786,8 @@ def page_abouts():
     st.write("")
     st.sidebar.image("./images/img_about.jpg")
     abouts_list = [
-        "prefácio",
         "machina",
+        "prefácio",
         "off-machina",
         "outros",
         "traduttore",
