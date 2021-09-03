@@ -33,6 +33,7 @@ import io
 import re
 import time
 import random
+import base64
 import streamlit as st
 
 try:
@@ -241,6 +242,16 @@ if st.session_state.visy:  # used to random first text on yPoemas them, set to F
     # st.session_state.visy = False
 
 
+# download files
+# Usage: st.markdown(get_binary_file_downloader_html('./temp/ovny_data.txt', 'Visitors'), unsafe_allow_h
+def get_binary_file_downloader_html(bin_file, file_label='File'):
+    with open(bin_file, 'rb') as f:
+        data = f.read()
+    bin_str = base64.b64encode(data).decode()
+    href = f'<a href="data:application/octet-stream;base64,{bin_str}" download="{os.path.basename(bin_file)}">Download {file_label}</a>'
+    return href
+
+
 # human reading number functions for sorting
 def atoi(text):
     return int(text) if text.isdigit() else text
@@ -259,13 +270,6 @@ def load_readings():
     return readers_list
 
 
-def save_readings(this_read):
-    with open(os.path.join("./temp/read_list.txt"), "w", encoding="utf-8") as new_reader:
-        for line in this_read:
-            new_reader.write(line)
-    new_reader.close()
-
-
 def update_readings(tema):
     read_changes = []
     readings = load_readings()
@@ -278,7 +282,11 @@ def update_readings(tema):
             read_changes.append(new_line)
         else:
             read_changes.append(line)
-    save_readings(read_changes)
+
+    with open(os.path.join("./temp/read_list.txt"), "w", encoding="utf-8") as new_reader:
+        for line in read_changes:
+            new_reader.write(line)
+    new_reader.close()
 
 
 def status_readings():
@@ -1063,6 +1071,7 @@ def page_ypoemas():
     if love:
         lnew = False
         status_readings()
+        st.markdown(get_binary_file_downloader_html('./temp/ovny_data.txt', 'Visitors'), unsafe_allow_html=True)
 
     if numb:
         lnew = False
