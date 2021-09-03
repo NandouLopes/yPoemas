@@ -40,7 +40,7 @@ ___
 >> Os **yPoemas** foram minuciosamente programados para acontecer **al-atzar**.  
 
 **Características**  
-> Efêmero, inesperado, impermanente e aberto.  
+> Efêmero, inesperado, impermanente, imprevisível e aberto.  
 
 > Não existe "leitura anterior" do tema.  
 >> Cada yPoema gerado será substituído pelo próximo.  
@@ -67,7 +67,7 @@ ___
   O número varia de alguns milhões a valores quase astronômicos.  
 
 > Na página **yPoemas** o botão '☁' mostra essas variações.  
-> Na página **eureka** o botão '?' mostra essas variações.  
+> Na página **eureka** o botão '+' mostra essas variações.  
 
 **[obs.]** - cerca de 12.500 verbetes únicos  
 > foram excluídos dessas contagens verbetes com menos de 3 sílabas.  
