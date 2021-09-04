@@ -37,7 +37,7 @@ import random
 import base64
 import streamlit as st
 
-from gtts import gTTS
+# from gtts import gTTS
 
 try:
     from deep_translator import GoogleTranslator
@@ -554,19 +554,19 @@ def load_poema(nome_tema, seed_eureka):
 
 
 # bof: functions
-def talk(texto):  # text to speech(texto em session_state.lang)
-    texto = texto.replace('**','')
-    texto = texto.replace('<br>','')
-    # try:
-    myobj = gTTS(text=texto, lang=st.session_state.lang, slow=False)
-    nany = random.randint(1, 20000000)
-    file_name = "audio" + str(nany) + ".mp3"
-    myobj.save(file_name)  # save as mp3
-    audio_file = open(file_name, 'rb')
-    audio_bytes = audio_file.read()
-    st.audio(audio_bytes, format='audio/ogg')
-    audio_file.close()
-    os.remove(file_name)  # remove audio file
+# def talk(texto):  # text to speech(texto em session_state.lang)
+#     texto = texto.replace('**','')
+#     texto = texto.replace('<br>','')
+#     # try:
+#     myobj = gTTS(text=texto, lang=st.session_state.lang, slow=False)
+#     nany = random.randint(1, 20000000)
+#     file_name = "audio" + str(nany) + ".mp3"
+#     myobj.save(file_name)  # save as mp3
+#     audio_file = open(file_name, 'rb')
+#     audio_bytes = audio_file.read()
+#     st.audio(audio_bytes, format='audio/ogg')
+#     audio_file.close()
+#     os.remove(file_name)  # remove audio file
     # except IOError as exc:
     #     raise RuntimeError("oops... Leitor de Textos não está repondendo...   Internet?") from exc
 
