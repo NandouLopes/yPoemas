@@ -1,1 +1,173 @@
-variações para cada tema:___- Ais : 1.315.153.125- Amaré : 54.191.856.554.035.200- Amores : 2.671.680- Anjos : 5.194.981.441.617.714.437.160.960.000.000- Aolero : 247.463.424- Aquarius=f : 107.811.000- Aquarius=m : 107.811.000- ArErIr : 9.229.440- Aries=f : 1.848.000- Aries=m : 1.848.000- Atido : 664.215.552.000- Augusto : 731.619.324.106.718.334.890.803.200.000.000.000.000- Avevida : 8.441.974.464- Batismo : 32.640- Beaba : 48.009.024- Becos : 298.456.756.332.134.400- Biaba : 497.871.360- Blablabla : 19.769.568- Bolero : 326.097.734.266.257.408.000.000- Brado : 1.207.664.640.000- Bula : 222.211.080- Buscas : 21.060- Cancer=f : 30.965.760- Cancer=m : 30.965.760- Caprico=f : 459.841.536- Caprico=m : 459.841.536- Cartaz : 1.799.998.345.897.909.420.032.000- Circular : 3.251.404.800- Ciuminho : 36.032.886.238.752.000- Clandestino : 18.153.412.200- Clarice : 43.545.600.000- Conto : 132.723.360.000.000- Cordel : 1.048.110.000- Cromossomo : 7.316.998.520.832- Cuores : 1.293.667.200- Demo : 196.992.000- Destinos : 1.944.965.621.451.460.608.000- Distintos : 3.979.435.417.993.614.458.880- Dolores : 247.676.194.022.400.000- Duralex : 9.767.931.264- Elogio : 831.600- Enfrente : 186.624- Epitafiando : 44.094.016.512.000- Escorpio=f : 853.493.760- Escorpio=m : 853.493.760- Essa : 351.061.401.600- Estudo : 486.150.160.003.200- Fatos : 623.755.107.092.195.654.164.807.680.000- Feiras : 32.921.225.228.160.000- Festim : 461.722.060.800- Finais : 481.178.880.000- Frases : 10.090.895.360- Fugaz : 24.680.680.611.840- Gemeos=f : 1.782.000- Gemeos=m : 1.782.000- Gula : 1.083.900.148.531.200- Haikai : 91.009.106.496- HayKay : 86.788.647.792- Indolor : 818.385.372.973.808.640.000- Inhos : 314.496.000- Insano : 7.044.710.400.000- Isso : 3.365.142.165- Jealousy : 6.900- Joker : 63.564.963.840.000- Lato : 77.133.613.469.552.640.000- Leao=f : 1.036.800- Leao=m : 1.036.800- Lero : 22.179.830.400- Liberta : 5.230.697.472.000- Libra=f : 21.228.480- Libra=m : 21.228.480- Loremipsum : 414.720- Loucura : 259.200- MachBeth : 398.340.963.820.800- MachBrait : 106.563.309.679.411.200.000- Manifesto : 59.415.567.642.079.711.741.931.411.327.680.512.000.000- Manusgrite : 21.337.344.000- Manusgrito : 16.003.008.000- Meteoro : 364.969.648.078.376.140.800- Minuto : 2.817.522.540.000- Mirante : 4.963.483.555.430.400- Neobrazil : 48.675.271.680.000.000- Niver : 3.692.304- Nonono : 426.789.998.809.574.400.000- Oca : 26.854.027.200- Ocio : 36.537.019.332.210.695.208.960.000.000.000.000- Oco : 18.069.480.000- Oficio : 392.945.925.473.301.439.795.691.520.000.000- Ogiva : 1.624.147.132.608.000- Olhares : 1.995.708.418.716.879.877.570.560.000.000.000- Palyndro : 967.680- Papilio : 17.276.809.528.053.504.000- Paroles : 342.203.852.390.400- Passagens : 4.694.976.000- Paz : 16.200- Pecados : 2.660.112- Peixes=f : 1.209.600- Peixes=m : 1.058.400- Pessoa : 2.799.360- Portal : 173.688.769.800- Posfácio : 23.356.081.768.224.522.240.000.000- Prefácil : 1.183.158.660.818.534.400.000.000- Psiume : 196.263.540- Reclame : 25.035.816.960- Reger : 87.091.200- Reinos : 739.825.290.344.448.000- Remedeio : 1.967.232- Rever : 2.115.072- Rito : 7.620.480.000- Sagitari=f : 2.911.334.400- Sagitari=m : 2.911.334.400- Salute : 32.637.136.896- Saudades : 2.599.674.157.080- Seguro : 167.961.600- Sentença : 159.667.040.332.800- Ser : 21.506.100- Silente : 313.233.575.510.016.000.000- Sinais : 4.570.919.100.000.000- Sn6=ball : 258.863.705.100.000- Sn8=ball : 1.682.614.083.150.000- Snowball : 20.441.528.502.877.359.259.200.000- Solero : 595.158.782.400- Sonoro : 1.192.320- Sopros : 94.680.907.776.000.000- Sos : 297.872.640- Ss1 : 388.588.515.194.880.000- Ss2 : 388.588.515.194.880.000- Tempo : 3.182.112.107.044.333.927.454.050.792.527.825.469.440.000.000- Tiro : 2.959.668.737.625.600.000- Tolero : 644.297.645.803.080.334.952.235.904.398.544.129.228.800.000- Touro=f : 1.254.528- Touro=m : 1.254.528- Usinas : 102.938.787.190.407.168.000- Veio : 10.136.914.301.631.237.120.000- Victor : 171.666.000- Virgem=f : 4.255.027.200- Virgem=m : 3.616.773.120- Vozes : 128.520- Zelo : 79.535.520- Zodiacaos : 10.545.250.322.161.336.320.000.000.000.000- Zoia : 11.856.675.688.642.436.212.924.147.040.256.000.000___Copyright © 2021 Nando Lopes - **yPoemas @ machina de fazer Poesia**
+variações para cada tema:
+___
+> Ais : 1.315.153.125 (bilhões)
+> Amaré : 54.191.856.554.035.200 (quatrilhões)
+> Amores : 2.671.680 (milhões)
+> Anjos : 5.194.981.441.617.714.437.160.960.000.000 (nonilhões)
+> Aolero : 247.463.424 (milhões)
+> Aquarius=f : 107.811.000 (milhões)
+> Aquarius=m : 107.811.000 (milhões)
+> ArErIr : 9.229.440 (milhões)
+> Aries=f : 1.848.000 (milhões)
+> Aries=m : 1.848.000 (milhões)
+> Atido : 664.215.552.000 (bilhões)
+> Augusto : 731.619.324.106.718.334.890.803.200.000.000.000.000 (undecilhões)
+> Avevida : 8.441.974.464 (bilhões)
+> Batismo : 32.640 (mil)
+> Beaba : 48.009.024 (milhões)
+> Becos : 298.456.756.332.134.400 (quatrilhões)
+> Biaba : 497.871.360 (milhões)
+> Blablabla : 19.769.568 (milhões)
+> Bolero : 326.097.734.266.257.408.000.000 (sextilhões)
+> Brado : 1.207.664.640.000 (trilhões)
+> Bula : 222.211.080 (milhões)
+> Buscas : 21.060 (mil)
+> Cancer=f : 30.965.760 (milhões)
+> Cancer=m : 30.965.760 (milhões)
+> Caprico=f : 459.841.536 (milhões)
+> Caprico=m : 459.841.536 (milhões)
+> Cartaz : 1.799.998.345.897.909.420.032.000 (setilhões)
+> Circular : 3.251.404.800 (bilhões)
+> Ciuminho : 36.032.886.238.752.000 (quatrilhões)
+> Clandestino : 18.153.412.200 (bilhões)
+> Clarice : 43.545.600.000 (bilhões)
+> Conto : 132.723.360.000.000 (trilhões)
+> Cordel : 1.048.110.000 (bilhões)
+> Cromossomo : 7.316.998.520.832 (trilhões)
+> Cuores : 1.293.667.200 (bilhões)
+> Demo : 196.992.000 (milhões)
+> Destinos : 1.944.965.621.451.460.608.000 (sextilhões)
+> Distintos : 3.979.435.417.993.614.458.880 (sextilhões)
+> Dolores : 247.676.194.022.400.000 (quatrilhões)
+> Duralex : 9.767.931.264 (bilhões)
+> Elogio : 831.600 (mil)
+> Enfrente : 186.624 (mil)
+> Epitafiando : 44.094.016.512.000 (trilhões)
+> Escorpio=f : 853.493.760 (milhões)
+> Escorpio=m : 853.493.760 (milhões)
+> Essa : 468.917.729.280 (bilhões)
+> Estudo : 486.150.160.003.200 (trilhões)
+> Fatos : 623.755.107.092.195.654.164.807.680.000 (octilhões)
+> Feiras : 32.921.225.228.160.000 (quatrilhões)
+> Festim : 461.722.060.800 (bilhões)
+> Finais : 481.178.880.000 (bilhões)
+> Frases : 10.090.895.360 (bilhões)
+> Fugaz : 24.680.680.611.840 (trilhões)
+> Gemeos=f : 1.782.000 (milhões)
+> Gemeos=m : 1.782.000 (milhões)
+> Gula : 1.083.900.148.531.200 (quatrilhões)
+> Haikai : 91.009.106.496 (bilhões)
+> HayKay : 86.788.647.792 (bilhões)
+> Indolor : 818.385.372.973.808.640.000 (quintilhões)
+> Inhos : 314.496.000 (milhões)
+> Insano : 7.044.710.400.000 (trilhões)
+> Isso : 3.365.142.165 (bilhões)
+> Jealousy : 6.900 (mil)
+> Joker : 63.564.963.840.000 (trilhões)
+> Lato : 77.133.613.469.552.640.000 (quintilhões)
+> Leao=f : 1.036.800 (milhões)
+> Leao=m : 1.036.800 (milhões)
+> Lero : 22.179.830.400 (bilhões)
+> Liberta : 5.230.697.472.000 (trilhões)
+> Libra=f : 21.228.480 (milhões)
+> Libra=m : 21.228.480 (milhões)
+> Loremipsum : 414.720 (mil)
+> Loucura : 259.200 (mil)
+> MachBeth : 398.340.963.820.800 (trilhões)
+> MachBrait : 106.563.309.679.411.200.000 (quintilhões)
+> Manifesto : 59.415.567.642.079.711.741.931.411.327.680.512.000.000 (dodecilhões)
+> Manusgrite : 21.337.344.000 (bilhões)
+> Manusgrito : 16.003.008.000 (bilhões)
+> Meteoro : 364.969.648.078.376.140.800 (quintilhões)
+> Minuto : 2.817.522.540.000 (trilhões)
+> Mirante : 4.963.483.555.430.400 (quatrilhões)
+> Neobrazil : 48.675.271.680.000.000 (quatrilhões)
+> Niver : 3.692.304 (milhões)
+> Nonono : 426.789.998.809.574.400.000 (quintilhões)
+> Oca : 26.854.027.200 (bilhões)
+> Ocio : 36.537.019.332.210.695.208.960.000.000.000.000 (decilhões)
+> Oco : 18.069.480.000 (bilhões)
+> Oficio : 392.945.925.473.301.439.795.691.520.000.000 (nonilhões)
+> Ogiva : 1.624.147.132.608.000 (quatrilhões)
+> Olhares : 1.995.708.418.716.879.877.570.560.000.000.000 (decilhões)
+> Palyndro : 967.680 (mil)
+> Papilio : 17.276.809.528.053.504.000 (quintilhões)
+> Paroles : 342.203.852.390.400 (trilhões)
+> Passagens : 4.694.976.000 (bilhões)
+> Paz : 16.200 (mil)
+> Pecados : 2.660.112 (milhões)
+> Peixes=f : 1.209.600 (milhões)
+> Peixes=m : 1.058.400 (milhões)
+> Pessoa : 2.799.360 (milhões)
+> Portal : 173.688.769.800 (bilhões)
+> Posfácio : 23.356.081.768.224.522.240.000.000 (setilhões)
+> Prefácil : 1.183.158.660.818.534.400.000.000 (setilhões)
+> Psiume : 196.263.540 (milhões)
+> Reclame : 25.035.816.960 (bilhões)
+> Reger : 87.091.200 (milhões)
+> Reinos : 739.825.290.344.448.000 (quatrilhões)
+> Remedeio : 1.967.232 (milhões)
+> Rever : 2.115.072 (milhões)
+> Rito : 7.620.480.000 (bilhões)
+> Sagitari=f : 2.911.334.400 (bilhões)
+> Sagitari=m : 2.911.334.400 (bilhões)
+> Salute : 32.637.136.896 (bilhões)
+> Saudades : 2.599.674.157.080 (trilhões)
+> Seguro : 167.961.600 (milhões)
+> Sentença : 159.667.040.332.800 (trilhões)
+> Ser : 21.506.100 (milhões)
+> Silente : 313.233.575.510.016.000.000 (quintilhões)
+> Sinais : 4.570.919.100.000.000 (quatrilhões)
+> Sn6=ball : 258.863.705.100.000 (trilhões)
+> Sn8=ball : 1.682.614.083.150.000 (quatrilhões)
+> Snowball : 20.441.528.502.877.359.259.200.000 (setilhões)
+> Solero : 595.158.782.400 (bilhões)
+> Sonoro : 1.192.320 (milhões)
+> Sopros : 94.680.907.776.000.000 (quatrilhões)
+> Sos : 297.872.640 (milhões)
+> Ss1 : 388.588.515.194.880.000 (quatrilhões)
+> Ss2 : 388.588.515.194.880.000 (quatrilhões)
+> Sua : 63.840 (mil)
+> Tempo : 3.182.112.107.044.333.927.454.050.792.527.825.469.440.000.000 (quatordecilhões)
+> Tiro : 2.959.668.737.625.600.000 (quintilhões)
+> Tolero : 644.297.645.803.080.334.952.235.904.398.544.129.228.800.000 (tredecilhões)
+> Touro=f : 1.254.528 (milhões)
+> Touro=m : 1.254.528 (milhões)
+> Usinas : 102.938.787.190.407.168.000 (quintilhões)
+> Veio : 10.136.914.301.631.237.120.000 (sextilhões)
+> Victor : 308.998.800 (milhões)
+> Virgem=f : 4.255.027.200 (bilhões)
+> Virgem=m : 3.616.773.120 (bilhões)
+> Vozes : 128.520 (mil)
+> Zelo : 79.535.520 (milhões)
+> Zodiacaos : 10.545.250.322.161.336.320.000.000.000.000 (nonilhões)
+> Zoia : 11.856.675.688.642.436.212.924.147.040.256.000.000 (undecilhões)
+___
+[escala dos nomes das potências de 10]  
+
+> mil=1.000|10e3|  
+> milhão=1.000.000|10e6|  
+> bilhão=1.000.000.000|10e9|  
+> trilhão=1.000.000.000.000|10e12|  
+> quatrilhão=1.000.000.000.000.000|10e15|  
+> quintilhão=1.000.000.000.000.000.000|10e18|  
+> sextilhão=1.000.000.000.000.000.000.000|10e21|  
+> setilhão=1.000.000.000.000.000.000.000.000|10e24|  
+> octilhão=1.000.000.000.000.000.000.000.000.000|10e27|  
+> nonilhão=1.000.000.000.000.000.000.000.000.000.000|10e30|  
+> decilhão=1.000.000.000.000.000.000.000.000.000.000.000|10e33|  
+> undecilhão=1.000.000.000.000.000.000.000.000.000.000.000.000|10e36|  
+> dodecilhão=1.000.000.000.000.000.000.000.000.000.000.000.000.000|10e39|  
+> tredecilhão=1.000.000.000.000.000.000.000.000.000.000.000.000.000.000|10e42|  
+> quatordecilhão=1.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000|10e45|  
+> quindecilhão=1.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000|10e48|  
+> sedecilhão=1.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000|10e51|  
+> septendecilhão=1.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000|10e54|  
+> googol=dez duotrigintilhões|10e100|  
+> googolplexo=quanto dá isso?|10e googol|  
+> googolplexiano=por enquanto, o maior número com nome|10e googolplexo|  
+
+[fonte](http://www.fisica-interessante.com/matematica-divertida-ordens-classes-multiplos.html)
+___
+
+Copyright © 2021 Nando Lopes - **yPoemas @ machina de fazer Poesia**
