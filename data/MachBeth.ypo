@@ -1,44 +1,45 @@
 *-
-*- MachBeth.ipo
+*- MachBeth.ypo
 *-
 *- |01|01|MachBeth_0101|F|3|2|sucumbo em|me atiço com|me encanto com|me atordoo com ???| == |01|05|
 *- |01|01| + |01|04|
 *- |01|02|MachBeth_0102|T|7|1|sedução|fugas|lendas|delírios|estrelas|luas tortas|segredos|aventuras|vertigens|simpatias|utopias|melodias|ventanias|maresias|
-*- |01|06|MachBeth_0106|F|1|1|.|
-*- |03|03|MachBeth_0303|F|1|1|.|
 *- |04|02|MachBeth_0402|F|1|1|.|
-*- |05|02|MachBeth_0502|F|1|1|.|
 *- |08|01|MachBeth_0801|F|21|8|dos poemas|das nevoas|dos colos|dos abandonos|das ausências|das ruínas|dos lamentos|dos espelhos|das vitrines|dos sábios|das putas|dos loucos|dos poetas|dos amantes|dos homens|das mulheres|dos amigos|dos filhos|das fadas|dos anjos|dos últimos dias|
 *- |08|02|MachBeth_0802|F|1|1|e|
 *- |08|03|MachBeth_0801|T|21|1|dos poemas|das nevoas|dos colos|dos abandonos|das ausências|das ruínas|dos lamentos|dos espelhos|das vitrines|dos sábios|das putas|dos loucos|dos poetas|dos amantes|dos homens|das mulheres|dos amigos|dos filhos|das fadas|dos anjos|dos últimos dias|
-*- |08|04|MachBeth_0804|F|1|1|.|
-*- |09|02|MachBeth_0902|F|1|1|...|
 *-
-|01|01|MachBeth_0101|F|9|9|fugas|lendas|delírios|estrelas|luas tortas|segredos|aventuras|vertigens|horizontes|
+|01|01|MachBeth_0101|F|9|1|Fugas|Lendas|Delírios|Estrelas|Luas tortas|Segredos|Aventuras|Vertigens|Horizontes|
 |01|03|MachBeth_0103|F|1|1|e|
-|01|04|MachBeth_0104|F|6|4|simpatias|utopias|melodias|ventanias|maresias|sedução|
-|01|05|MachBeth_0105|F|6|3|me sucumbem|me atiçam|me encantam|me atordoam|me desconcertam|me consomem|
-|02|01|MachBeth_0201|F|13|11|pactuo|derramo|flano|desnorteio|abraço|congelo|trituro|naufrago|tateio|ajeito|imagino|ensaio|aquieto|
-|02|02|MachBeth_0202|F|9|8|minhas queixas|minhas unhas|minha vulva|meus florais|minha língua presa|minha carne viva|minha música|meus mil mimos|outro pedaço de mim|
-|03|01|MachBeth_0301|F|3|3|e daí me afogo|e então desmaio|e meu sangue vagueia|
-|03|02|MachBeth_0302|F|11|3|em amor e sorte|no tempo que pousa breve|em corações abertos|na saliva de girassóis|no leito do eterno|em obsessões pessoais|nas dobras do tempo|no uivo dos pensamentos|no tempo nenhum|enquanto a lua zomba|no prazer de rebelião|
+|01|04|MachBeth_0104|F|6|5|simpatias|utopias|melodias|ventanias|maresias|sedução|
+|01|05|MachBeth_0105|F|6|4|me sucumbem|me atiçam|me encantam|me atordoam|me desconcertam|me consomem|
+|01|06|MachBeth_0106|F|1|1|:|
+|02|01|MachBeth_0201|F|13|7|pactuo|derramo|flano|desnorteio|abraço|congelo|trituro|naufrago|tateio|ajeito|imagino|ensaio|aquieto|
+|02|02|MachBeth_0202|F|9|9|minhas queixas|minhas unhas|minha vulva|meus florais|minha língua presa|minha carne viva|minha música|meus mil mimos|outro pedaço de mim|
+|03|01|MachBeth_0301|F|3|1|e daí me afogo|e então desmaio|e meu sangue vagueia|
+|03|02|MachBeth_0302|F|11|8|em amor e sorte|no tempo que pousa breve|em corações abertos|na saliva de girassóis|no leito do eterno|em obsessões pessoais|nas dobras do tempo|no uivo dos pensamentos|no tempo nenhum|enquanto a lua zomba|no prazer de rebelião|
+|03|03|MachBeth_0303|F|1|1|.|
 |04|00|
-|04|01|MachBeth_0401|F|9|4|não sei o que acalma|não sei onde é a alma|não sei onde dói|sei nada que me salva|não sei se isso basta|não sei o que me habita|sei não se tenho perdão|não vendo alma ao diabo|não sei se ando ereta|
-|05|01|MachBeth_0501|F|15|4|só não corro porque espreito o voo|me desloco para antes do não sei|me corrompo ouvindo lamúrias|eco de cântico adocicado|devoro tudo o que me consome|universo em que não me percebo|toda noite e dia|a luta me encolhe e me expande|vivo de ensaio e de arremesso|o que é vero é que no meio|sei que o sério não se sustenta|suspiro por algum motivo|meus dedos rabiscam tonturas|as linhas da vida me escapam|essa lua inchando meus sentidos|
+|04|01|MachBeth_0401|F|9|5|Não sei o que acalma|Não sei onde é a alma|Não sei onde dói|Sei nada que me salva|Não sei se isso basta|Não sei o que me habita|Sei não se tenho perdão|Não vendo alma ao diabo|Não sei se ando ereta|
+|04|02|MachBeth_0502|F|1|1|...|
+|05|01|MachBeth_0501|F|15|2|só não corro porque espreito o voo|me desloco para antes do não sei|me corrompo ouvindo lamúrias|eco de cântico adocicado|devoro tudo o que me consome|universo em que não me percebo|toda noite e dia|a luta me encolhe e me expande|vivo de ensaio e de arremesso|o que é vero é que no meio|sei que o sério não se sustenta|suspiro por algum motivo|meus dedos rabiscam tonturas|as linhas da vida me escapam|essa lua inchando meus sentidos|
+|05|02|MachBeth_0502|F|1|1|.|
 |06|00|
-|06|01|MachBeth_0601|F|8|5|esfrego minha febre|minha prótese está|meu sangue há nas lentes|alguma curva reflete|arranjo meus suspiros|cato restos de sombras|orgia que não temo|acho que não nasci|
-|07|01|MachBeth_0701|F|10|8|no coração cheio de enguias|nessa ânsia de sentir|no coração cheio de lascas|no sentir do mundo|no peito imaginário|nas ausências que transpiram|no cheiro subterrâneo das almas saudáveis|no estrondo de vida|no arquipélago de páginas|no prazer de rebelião|
-|08|01|MachBeth_0801|F|9|2|dos poemas|das nevoas|dos colos|dos abandonos|das ausências|das ruínas|dos lamentos|dos espelhos|das vitrines|
+|06|01|MachBeth_0601|F|8|4|Esfrego minha febre|Minha prótese está|Meu sangue há nas lentes|Alguma curva reflete|Arranjo meus suspiros|Cato restos de sombras|Orgia que não temo|Acho que não nasci|
+|07|01|MachBeth_0701|F|10|1|no coração cheio de enguias|nessa ânsia de sentir|no coração cheio de lascas|no sentir do mundo|no peito imaginário|nas ausências que transpiram|no cheiro subterrâneo das almas saudáveis|no estrondo de vida|no arquipélago de páginas|no prazer de rebelião|
+|08|01|MachBeth_0801|F|9|3|dos poemas|das nevoas|dos colos|dos abandonos|das ausências|das ruínas|dos lamentos|dos espelhos|das vitrines|
 |08|02|MachBeth_0802|F|1|1|e|
-|08|03|MachBeth_0803|F|12|11|dos sábios|das putas|dos loucos|dos poetas|dos amantes|dos homens|das mulheres|dos amigos|dos filhos|das fadas|dos anjos|dos últimos dias|
-|09|00|
-|09|01|MachBeth_0901|F|13|6|quase em nudez de tudo|até o pouco ser nada|um sentir peso nenhum|que ninguém me ouça...|olhos de água sem segredos|que a morte seja mesmo o nada|luz que não faz noite nunca|velas de um navio cansado|se antes na noite,|nada resta de concreto|nem vento nem tempestade|dia após dia desperta|se nada me consola|
-|10|01|MachBeth_1001|F|21|18|eu ao menos deliro|nem é rude nem faz mal|beijo todos os lábios|confesso o ardor humano|sempre soube da eternidade|um canto me ergue da terra|fora do eixo, deslizo|desde menina sempre amei|eu no começo, no meio e no fim|e deliro assim mesmo|tenho nervos de flores|que me embalsamem para nunca mais|vivo segundos simples assim|sou náufraga em meu oceano|ah que nos embale um transe|sou estrada, curva e paisagem|desejo todas as terras|escrevo o que vou viver|a vida é cheia de solavancos|é meu coração de volta|ninguém mais está no cio|
+|08|03|MachBeth_0803|F|12|6|dos sábios|das putas|dos loucos|dos poetas|dos amantes|dos homens|das mulheres|dos amigos|dos filhos|das fadas|dos anjos|dos últimos dias|
+|08|04|MachBeth_0804|F|1|1|...|
+|09|01|MachBeth_0901|F|13|2|quase em nudez de tudo|até o pouco ser nada|um sentir peso nenhum|que ninguém me ouça|olhos de água sem segredos|que a morte seja mesmo o nada|luz que não faz noite nunca|velas de um navio cansado|sempre antes na noite|nada resta de concreto|nem vento nem tempestade|dia após dia desperta|se nada me consola|
+|09|02|MachBeth_0902|F|1|1|.|
+|10|00|
+|10|01|MachBeth_1001|F|21|1|Eu ao menos deliro|Nem é rude nem faz mal|Beijo todos os lábios|Confesso o ardor humano|Sempre soube da eternidade|Um canto me ergue da terra|Fora do eixo, deslizo|Desde menina sempre amei|Eu no começo, no meio e no fim|E deliro assim mesmo|Tenho nervos de flores|Que me embalsamem para nunca mais|Vivo segundos simples assim|Sou náufraga em meu oceano|Ah que nos embale um transe|Sou estrada, curva e paisagem|Desejo todas as terras|Escrevo o que vou viver|A vida é cheia de solavancos|É meu coração de volta|Ninguém mais está no cio|
 |10|02|MachBeth_1002|F|1|1|.|
 |15|00|
 |15|01|MachBeth_1501|F|1|1|( Palavras de Beth Brait Alvim )|
 <EOF>
-CATAPALA = 62
+CATAPALA = 55
 VERBETES = 279
 PALAVRAS = 529
 VARIATIO = 4.780.091.565.849.600                                                           
