@@ -42,7 +42,7 @@ ___
 ___
 
 - Para **buscar** palavras use a página **eureka** do **menu**.  
-- Você pode usar **ctrl+C** e **ctrl+V** para **copiar** textos da tela.  
+- Você pode usar **Ctrl C** e **Ctrl V** para **copiar** textos da tela.  
 - Para mudar de **livro** use a página **books** do **menu**.  
 - Clique em qualquer **botão** para sair desta tela.  
 ___
