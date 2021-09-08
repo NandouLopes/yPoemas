@@ -317,7 +317,7 @@ def status_readings():
             else:
                 read_zod.append(new_line)
 
-    read_day.sort(key=natural_keys, reverse=False)
+    read_day.sort(key=natural_keys, reverse=True)
     read_zod.sort(key=natural_keys, reverse=True)
 
     options = list(range(len(read_day)))
@@ -357,6 +357,7 @@ def status_readings():
             tot_days += days
     visitors.pop(0)  # because ini_day = "2001-01-01"
     percent = int(st.session_state.nany_visy/len(visitors))
+    visitors.sort(key=natural_keys, reverse=True)
 
     options = list(range(len(visitors)))
     opt_visitors = st.selectbox(
@@ -367,13 +368,13 @@ def status_readings():
     )
     # chart = st.bar_chart(graf_day)
     
-    read_hhh = load_hour()
-    read_hhh.sort(key=natural_keys, reverse=False)
 
     by_hours = []
     tmp_hour = 0
     tot_hour = 0
     ini_hour = "00"
+    read_hhh = load_hour()
+    read_hhh.sort(key=natural_keys, reverse=True)
     for line in read_hhh:
         line = line.strip("\n")
         hour = int(line[0:2])
