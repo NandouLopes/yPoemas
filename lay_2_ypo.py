@@ -92,6 +92,8 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
             total_itimos = int(alinhas[5])
             itimos_atual = int(alinhas[6])
             array_itimos = alinhas[7: len(alinhas) - 1]
+            if total_itimos != len(array_itimos):  # just in case...
+                total_itimos = len(array_itimos)   # real lenght...
 
             tentativas = 0
             while True:  # Seleciona próximo ítimo (para não repetir...)
@@ -174,8 +176,6 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
                     + "|"
             )
 
-            if total_itimos != len(array_itimos):  # just in case...
-                total_itimos = len(array_itimos)
             if itimos_atual < 1:  # sequencial = -1
                 if total_itimos == 1:
                     itimos_atual = 1
