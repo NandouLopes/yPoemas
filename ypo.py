@@ -1103,7 +1103,6 @@ def page_ypoemas():
     )
 
     if opt_take != st.session_state.take:
-        curr_tema = all_temas_list[st.session_state.take]
         st.session_state.take = opt_take
 
     curr_tema = all_temas_list[st.session_state.take]
