@@ -1,0 +1,26 @@
+*-
+*- Finalmentes.ypo
+*-
+|01|01|Finalmentes_0101|F|12|2|Aceitar|Vencer|Respeitar|Discutir|Superar|Definir|Encarar|Rever|Enfrentar|Suportar|Avançar|Tangenciar|
+|01|02|Finalmentes_0102|F|16|3|limites|desafios|batalhas|obstáculos|revezes|adversidades|devaneios|descaminhos|leis|regras|ordens|fatos|receios|leis|desígnios|padrões|
+|01|03|Finalmentes_0103|F|15|9|aparentes|iminentes|permanentes|diferentes|pertinentes|dementes|transientes|inocentes|latentes|nascentes|oprimentes|pendentes|persistentes|transcendentes|vigentes|
+|20|01|Finalmentes_2001|F|5|5|não significa|não se traduz em|não quer dizer|não implica em|não é o mesmo que|
+|20|02|Finalmentes_2002|F|5|5|tentar|pretender|fingir|ousar|preferir|
+|21|01|Finalmentes_2101|F|5|5|interferir|intervir|interceder|influir|inferir|
+|21|02|Finalmentes_2102|F|1|1|de modo|
+|21|03|Finalmentes_2103|T|26|2|negativo|aleatório|impulsivo|livre|impune|infantil|superficial|conivente|temente|imune|onipotente|estúpido|fortuito|impaciente|imponente|imprudente|incoerente|inconveniente|insolente|irreverente|leviano|intransigente|intermitente|complacente|condizente|tardio|
+|30|01|Finalmentes_3001|F|3|3|em|ante|face a|
+|30|02|Finalmentes_0102|F|16|1|limites|desafios|batalhas|obstáculos|revezes|adversidades|devaneios|descaminhos|leis|regras|ordens|fatos|receios|leis|desígnios|padrões|
+|30|03|Finalmentes_0103|F|15|2|aparentes|iminentes|permanentes|diferentes|pertinentes|dementes|transientes|inocentes|latentes|nascentes|oprimentes|pendentes|persistentes|transcendentes|vigentes|
+|40|01|Finalmentes_4001|F|4|4|e sim poder|e sim querer|e sim almejar|mas, tão somente,|
+|40|02|Finalmentes_4002|F|9|4|agir|refletir|atuar|inclinar-se|decidir|intuir|ponderar|aprender|trilhar|
+|40|03|Finalmentes_4003|F|17|7|realisticamente|sobriamente|com vontade|tranquilamente|calmamente|com urgência|com afinco|criativamente|inventivamente|com vigor|serenamente|coerentemente|indolentemente|literalmente|reverentemente|com transparência|veementemente|
+|50|01|Finalmentes_5001|F|1|1|sobre|
+|50|02|Finalmentes_5002|T|45|4|seus próprios medos|anseios descabidos|caminhos possíveis|prováveis desvios|as razões do sucesso|seu elemento natural|o próximo movimento|o que realmente importa|sua verdade mais íntima|etapas vindouras|novas energias|o grande ciclo evolutivo|as decisões a tomar|os motivos da luta|os porquês da liberdade|as causas do novo|a busca de soluções|assuntos do coração|outras alternativas|o sentido do "velho"|a imensidão do cosmo|velhos preconceitos|a brevidade da matéria|mudanças necessárias|antigas promessas repetidas|sonhos irrealizáveis|a sua missão na terra|eventuais casuísmos|a vida que se renova|a fragilidade do existir|o quanto sabemos viver nossas vidas|o momento da mudança|o valor da inovação|os inadiáveis futuros passos|o real valor dos erros|o futuro inexistente|os repentes da vida|o mistério do outro ser|virtudes vertentes|o que mais é importante|o preço de ser diferente|o porquê dos labirintos|a razão de ser divergente|o que move as gentes|o que é ser normal|
+|50|03|Finalmentes_5003|F|1|1|.|
+<EOF>
+CATAPALA = 27
+VERBETES = 209
+PALAVRAS = 277
+VARIATIO = 150.798.024.000.000
+Build_By_Lay_2_Ipo em 18/01/2021_09:15
