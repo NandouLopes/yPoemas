@@ -4,6 +4,11 @@ import datetime
 import streamlit as st
 from random import randrange
 
+# ToDo:
+# def key_words():  # based on eureka: st.session_state.find_word
+#     load_key_words():
+#  if word in key_words; word = '**' + word + '**'
+
 def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo texto
     """
     :param = script, tema
@@ -194,7 +199,7 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
     # end for... lista_linhas
 
     novo_poema.append(acerto_final(novo_verso, nome_tema))
-    # removendo CataPala:
+    # remove CataPala:
     # catapala = conta_palas(novo_poema)
     # catapala = str(catapala)
 

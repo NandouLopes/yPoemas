@@ -8,7 +8,7 @@ and ML works I see around.
 I believe it can be one more example of Streamlit's possibilities.
 
 All texts are unique and will only be repeated  
-after they are sold out the thousands  
+after they are sold out the thourekasands  
 of combinations possible to each theme.
 
 OVNY == anOther Visitor iN Ypoemas
@@ -18,12 +18,9 @@ LYPO == Last YPOema created from curr_ypoema
 TYPO == Translated YPOema from LYPO
 POLY == Poliglot Idiom == Changed on Catalán
 
-https://gonative.io/share/rbqdod
+https://youtu.be/SxtA5SM1hUw == vídeo-tutorial
 https://www.buymeacoffee.com/yPoemas
 https://share.streamlit.io/nandoulopes/ypoemas/main/ypo.py
-https://www.facebook.com/fernando.lopes.942/posts/3797156397062571?comment_id=3797297573715120&notif_id=1626293136581310&notif_t=feed_comment&ref=notif
-https://www.facebook.com/permalink.php?story_fbid=583356275191079&id=100005501349559&comment_id=585000445026662 == oVale/Adriano
-https://youtu.be/SxtA5SM1hUw == vídeo-tutorial
 https://www.youtube.com/watch?v=CTDj3BzsFxw == vídeo machina Xailer
 https://studio.youtube.com/channel/UCBzkwy5R3K3WS_i5wz_UwNQ
 """
@@ -159,7 +156,9 @@ if "nany_visy" not in st.session_state:
 
 if "find_word" not in st.session_state:
     st.session_state.find_word = "mar"
-
+if "word_type" not in st.session_state:
+    st.session_state.word_type = "semente"
+    
 
 def main():
     pages = {
@@ -175,10 +174,10 @@ def main():
     pages[page]()
 
     st.sidebar.info(load_file("INFO_" + page.upper() + ".md"))
-    st.sidebar.image("./images/img_coffee.jpg")
     st.sidebar.markdown(
-        "[email](mailto:lopes.fernando@hotmail.com) [face](https://www.facebook.com/nandoulopes) [coffee](https://www.buymeacoffee.com/yPoemas) [insta](https://www.instagram.com/fernando.lopes.942/) [whatsap-pix](https://api.whatsapp.com/send?phone=+5512991368181)"
+        "([email](mailto:lopes.fernando@hotmail.com) [face](https://www.facebook.com/nandoulopes) [coffee](https://www.buymeacoffee.com/yPoemas) [insta](https://www.instagram.com/fernando.lopes.942/)  [whatsapp pix](https://api.whatsapp.com/send?phone=+5512991368181))"
     )
+    st.sidebar.image("./images/img_coffee.jpg")
     st.sidebar.state = True
 
 
@@ -415,9 +414,9 @@ def load_file(file):  # Open files for about's
         with open(os.path.join("./md_files/" + file), encoding="utf-8") as f:
             file_text = f.read()
 
-        if file != "about_index.md":  # don't want to translate original titles
-            if not ".rol" in file:
-                file_text = translate(file_text)
+        # if file != "about_index.md":  # don't want to translate original titles
+        if not ".rol" in file:
+            file_text = translate(file_text)
     except:
         file_text = "ooops... arquivo ( " + file + " ) não pode ser aberto. Sorry."
         st.session_state.lang = "pt"
@@ -452,13 +451,35 @@ def load_help(idiom):
     
 
 @st.cache(allow_output_mutation=True)
-def load_lexico():  # Lexicon for eureka
-    index_lexico = []
+def load_eureka_semente(seed):  # Lexicon
+    index_eureka = []
     with open(os.path.join("./data/lexico_pt.txt"), encoding="utf-8") as lista:
-        # with open(os.path.join("./data/"+"lexico_"+st.session_state.lang+".txt"), encoding = "utf-8") as lista:
         for line in lista:
-            index_lexico.append(line)
-    return index_lexico
+            pipe_line = line.split("|")
+            palas = pipe_line[1]
+            fonte = pipe_line[2]
+            if seed.lower() in palas.lower():
+                index_eureka.append(line)
+
+    return index_eureka
+
+
+@st.cache(allow_output_mutation=True)
+def load_eureka_letras(seed):  # Lexicon
+    index_eureka = []
+    with open(os.path.join("./data/lexico_pt.txt"), encoding="utf-8") as lista:
+        for line in lista:
+            pipe_line = line.split("|")
+            palas = pipe_line[1]
+            fonte = pipe_line[2]
+            exists = True
+            for letra in seed.lower():
+                if not letra in palas.lower():
+                    exists = False
+            if exists:
+                index_eureka.append(line)
+
+    return index_eureka
 
 
 @st.cache(allow_output_mutation=True)
@@ -649,87 +670,128 @@ def page_eureka():
     st.write("")
     st.sidebar.image("./images/img_eureka.jpg")
     eureka_expander = st.beta_expander("", expanded=True)
-    lexico_list = load_lexico()
+    icone = "✴"
+    if st.session_state.word_type == "letras":
+        icone = "Ø"
     lnew = True
 
     with eureka_expander:
-        bb, hh = st.beta_columns([9.3, 0.7])
+        bb, sp, sm, lt, hh = st.beta_columns([4.6,2.3,.7,.7,.7])
         with bb:
-            st.session_state.find_word = st.text_input(
-                label="digite uma palavra (ou parte dela) para buscar..."
+            seed = st.text_input(
+                label="digite uma palavra (ou parte dela) para buscar...",
+                value=st.session_state.find_word,
             )
 
+        with sm:
+            semente = st.button("✴", help="temas com essa sequência de letras")
+
+        with lt:
+            letras = st.button("Ø", help="temas contendo as letras digitadas")
+
         with hh:
-            aide = st.button("?", help="help !!!")
+            aide = st.button("?", help="modo de usar")
+            
+        if semente:
+            st.session_state.word_type = "semente"
+            icone = "✴"
+            
+        if letras:
+            st.session_state.word_type = "letras"
+            icone = "Ø"
 
         if aide:
             lnew = False
-            st.session_state.find_word = ""
             st.subheader(load_file("MANUAL_EUREKA.md"))
 
-        if lnew and len(st.session_state.find_word) > 2:
-            seeds_list = []
+        if lnew and len(seed) > 2:
             words_list = []
             temas_list = []
-            for line in lexico_list:
+            seeds_list = []
+            leter_list = []
+
+            if st.session_state.word_type == "semente":
+                this_list = load_eureka_semente(seed)
+            else:
+                this_list = load_eureka_letras(seed)
+            
+            eureka_list = this_list
+            for line in eureka_list:
                 pipe_line = line.split("|")
                 palas = pipe_line[1]
                 fonte = pipe_line[2]
-                if st.session_state.find_word.lower() in palas.lower():
-                    seeds_list.append(palas + " - " + fonte)
+                
+                if palas is None or fonte is None:
+                    continue
+                else:
+                    if st.session_state.word_type == "semente":
+                        seeds_list.append(palas + " - " + fonte)
+                    else:
+                        leter_list.append(palas + " - " + fonte)
+                        
                     this_tema = get_seed_tema(palas + " - " + fonte)
-                    if not this_tema in temas_list:
-                        temas_list.append(this_tema)
                     if not palas.lower() in words_list:
                         words_list.append(palas.lower())
-
-            if len(seeds_list) > 0:
-                tt, vv, oo, btns = st.beta_columns([2.3, 2.7, 5, 0.8])
+                    if not this_tema in temas_list:
+                        temas_list.append(this_tema)
+                        
+            if len(seeds_list) > 0 or len(leter_list) > 0:
+                tt, vv, oo, btns = st.beta_columns([2.3, 2.7, 4, 0.8])
+                seeds_list.sort()
+                leter_list.sort()
 
                 with tt:
-                    options = list(range(len(temas_list)))
+                    # options = list(range( len(temas_list)))
                     opt_tema = st.selectbox(
                         str(len(temas_list)) + " temas",
-                        options,
-                        format_func=lambda x: temas_list[x],
+                        list(range( len(temas_list))),
+                        format_func=lambda w: temas_list[w],
                         key="opt_tema",
                     )
 
                 with vv:
-                    options = list(range(len(words_list)))
+                    # options = list(range( len(words_list)))
                     opt_word = st.selectbox(
                         str(len(words_list)) + " verbetes",
-                        options,
+                        list(range( len(words_list))),
                         format_func=lambda x: words_list[x],
                         key="opt_word",
                     )
 
                 with oo:
-                    options = list(range(len(seeds_list)))
-                    opt_seed = st.selectbox(
-                        str(len(seeds_list)) + " ocorrências",
-                        options,
-                        help="use letras para filtrar a lista",
-                        format_func=lambda x: seeds_list[x],
-                        key="opt_seed",
-                    )
+                    if st.session_state.word_type == "semente":
+                        opt_seed = st.selectbox(
+                            "( " + icone + " ) " + str(len(seeds_list)) + " ocorrências",
+                            list(range( len(seeds_list))),
+                            format_func=lambda y: seeds_list[y],
+                            key="opt_seed",
+                        )
+                    else:
+                        opt_letr = st.selectbox(
+                            "( " + icone + " ) " + str(len(leter_list)) + " ocorrências",
+                            list(range( len(leter_list))),
+                            format_func=lambda y: leter_list[y],
+                            key="opt_letr",
+                        )
 
-                if opt_seed > len(seeds_list):  # just in case
-                    opt_seed = 0
-
-                seed_tema = get_seed_tema(seeds_list[opt_seed])
+                if st.session_state.word_type == "semente":
+                    seed_tema = get_seed_tema(seeds_list[opt_seed])
+                    this_seed = seeds_list[opt_seed]
+                else:
+                    seed_tema = get_seed_tema(leter_list[opt_letr])
+                    this_seed = leter_list[opt_letr]
 
                 with btns:
                     more = st.button("+", help=say_numeros(seed_tema))
 
-                curr_ypoema = load_poema(seed_tema, seeds_list[opt_seed])
+                curr_ypoema = load_poema(seed_tema, this_seed)
                 curr_ypoema = load_lypo()
                 st.markdown(curr_ypoema, unsafe_allow_html=True)  # finally... write it
                 update_readings(seed_tema)
             else:
                 st.warning(
                     "nenhum verbete encontrado com essas letras ---> "
-                    + st.session_state.find_word
+                    + seed
                 )
         else:
             st.warning("digite pelo menos 3 letras...")
@@ -1078,6 +1140,10 @@ def page_ypoemas():
         status_readings()
         st.markdown(
             get_binary_file_downloader_html("./temp/ovny_data.txt", "Visitors"),
+            unsafe_allow_html=True,
+        )
+        st.markdown(
+            get_binary_file_downloader_html("./temp/read_list.txt", "Readings"),
             unsafe_allow_html=True,
         )
 
