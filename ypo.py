@@ -18,6 +18,8 @@ LYPO == Last YPOema created from curr_ypoema
 TYPO == Translated YPOema from LYPO
 POLY == Poliglot Idiom == Changed on Catalán
 
+https://share.streamlit.io/ == deploy
+
 https://youtu.be/SxtA5SM1hUw == vídeo-tutorial
 https://www.buymeacoffee.com/yPoemas
 https://share.streamlit.io/nandoulopes/ypoemas/main/ypo.py
@@ -485,8 +487,7 @@ def load_eureka_letras(seed):  # Lexicon
 @st.cache(allow_output_mutation=True)
 def load_temas(book):  # List of yPoemas themes inside a Book
     all_temas_list = []
-    full_name = os.path.join("./data/", book) + ".rol"
-    with open(full_name, encoding="utf-8") as file:
+    with open(os.path.join("./data/" + book + ".rol"), "r", encoding = "utf-8") as file:
         for line in file:
             all_temas_list.append(line.strip("\n"))
     return all_temas_list
@@ -1015,7 +1016,6 @@ def page_off_machina():  # available off_books
 
     if opt_off_take != st.session_state.off_take:
         st.session_state.off_take = opt_off_take
-
 
     lnew = True
     if manu:
