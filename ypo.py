@@ -710,14 +710,14 @@ def page_eureka():
             temas_list = []
             seeds_list = []
             leter_list = []
+            eurek_list = []
 
             if st.session_state.word_type == "semente":
-                this_list = load_eureka_semente(seed)
+                eurek_list = load_eureka_semente(seed)
             else:
-                this_list = load_eureka_letras(seed)
+                eurek_list = load_eureka_letras(seed)
             
-            eureka_list = this_list
-            for line in eureka_list:
+            for line in eurek_list:
                 pipe_line = line.split("|")
                 palas = pipe_line[1]
                 fonte = pipe_line[2]
@@ -776,9 +776,13 @@ def page_eureka():
                         )
 
                 if st.session_state.word_type == "semente":
+                    if (opt_seed < 0) or (opt_seed > len(seeds_list)):
+                        opt_seed = 0
                     seed_tema = get_seed_tema(seeds_list[opt_seed])
                     this_seed = seeds_list[opt_seed]
                 else:
+                    if (opt_letr < 0) or (opt_letr > len(leter_list)):
+                        opt_letr = 0
                     seed_tema = get_seed_tema(leter_list[opt_letr])
                     this_seed = leter_list[opt_letr]
 
