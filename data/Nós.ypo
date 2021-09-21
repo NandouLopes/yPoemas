@@ -1,14 +1,58 @@
 *- 
 *- Nós.ypo
+*- https://thispersondoesnotexist.com/ == lucidrains@gmail.com
+*- desparear todas as linhas except |T|
 *- 
-|01|01|Nós_0101|F|1|1|Nós,|
-|01|02|Nós_0102|F|6|2|usados pelo tempo|repletos de memórias|recheados de passados|eternos aprendizes|abusados da vida|sofridos de amores|
-|01|03|Nós_0103|F|1|1|,|
+|01|01|Nós_0101|F|1|1|Nós, "|
+|01|02|Nós_0102|F|6|4|usados pelo tempo|repletos de memórias|abusados de vida|recheados de passados|eternos aprendizes|sofridos de amores|
+|01|03|Nós_0103|F|1|1|",|
 |02|01|Nós_0201|F|1|1|que já|
-|02|02|Nós_0202|F|14|5|recolhemos trapos|atiramos por culatras|vivemos de migalhas|andamos de mãos dadas|tivemos mais idades|demos cara à tapa|juntamos tontos cacos|fugimos de infernos|desatamos tantos nós|soubemos alegrias|saltamos precipícios|frequentamos paraísos|colecionamos vícios|levamos tombo|
+|02|02|Nós_0202|F|9|8|juntamos trapos|atiramos por culatras|vivemos de migalhas|andamos de mãos dadas|trocamos farpas|demos cara à tapa|acreditamos|renascemos de cinzas|pulamos cercas|
 |02|03|Nós_0103|F|1|1|,|
-|03|01|Nós_0202|T|14|3|recolhemos trapos|atiramos por culatras|vivemos de migalhas|andamos de mãos dadas|tivemos mais idades|demos cara à tapa|juntamos tontos cacos|fugimos de infernos|desatamos tantos nós|soubemos alegrias|saltamos precipícios|frequentamos paraísos|colecionamos vícios|levamos tombo|
-|03|02|Nós_0302|F|1|1|e|
-|04|01|Nós_0202|T|14|10|recolhemos trapos|atiramos por culatras|vivemos de migalhas|andamos de mãos dadas|tivemos mais idades|demos cara à tapa|juntamos tontos cacos|fugimos de infernos|desatamos tantos nós|soubemos alegrias|saltamos precipícios|frequentamos paraísos|colecionamos vícios|levamos tombo|
-|05|01|Nós_0501|F|4|2|somos íntimos da dor.|renascemos só de birra.|aprendemos o que é dor.|encontramos saídas.|
+|03|01|Nós_0301|F|8|5|tivemos mais idades|recolhemos os cacos|fugimos de infernos|desatamos tantos nós|soubemos alegrias|votamos errado|fizemos história|arregaçamos mangas|
+|04|01|Nós_0202|F|8|1|e saltamos precipícios|e frequentamos paraísos|e colecionamos vícios|e levamos tombo|e recomeçamos do nada|e voltamos ao início|e renascemos de birra|e encontramos saídas|
+|04|02|Nós_0402|F|1|1|...|
+|05|01|Nós_0501|F|6|3|em que seríamos|por quê seríamos|como seríamos|onde seríamos|quando seríamos|seríamos|
+|05|02|Nós_0502|F|4|2|melhores que|piores que|iguais a|desiguais a|
+|05|03|Nós_0503|F|1|1|eles|
+|05|04|Nós_0504|F|1|1|?|
+|06|00|
+|06|01|Nós_0601|F|1|1|Eles, "|
+|06|02|Nós_0102|T|6|1|usados pelo tempo|repletos de memórias|abusados de vida|recheados de passados|eternos aprendizes|sofridos de amores|
+|06|03|Nós_0603|F|1|1|",|
+|07|01|Nós_0701|F|1|1|que já|
+|07|02|Nós_0702|F|9|2|juntaram trapos|atiraram por culatras|viveram de migalhas|andaram de mãos dadas|trocaram farpas|deram cara à tapa|acreditaram|renasceram de cinzas|pularam cercas|
+|07|03|Nós_0703|F|1|1|,|
+|08|01|Nós_0801|F|8|2|tiveram mais idades|recolheram os cacos|fugiram de infernos|desataram tantos nós|souberam alegrias|votaram errado|fizeram história|arregaçaram mangas|
+|09|01|Nós_0901|F|8|5|e saltaram precipícios|e frequentaram paraísos|e colecionaram vícios|e levaram tombo|e recomeçaram do nada|e voltaram ao início|e renasceram de birra|e encontraram saídas|
+|09|02|Nós_0902|F|1|1|...|
+|10|01|Nós_1001|F|6|5|em que seriam|por quê seriam|onde seriam|como seriam|quando seriam|seriam|
+|10|02|Nós_1002|F|4|1|melhores que|piores que|iguais a|desiguais a|
+|10|03|Nós_1003|F|1|1|nós|
+|10|04|Nós_1004|F|1|1|?|
+|11|00|
+|11|01|Nós_1101|F|1|1|[quem será essa pessoa?] (https://thispersondoesnotexist.com/)|
 <EOF>
+
+Sobre a polarização que acontece no Brasil:
+  históricamente me parece que a partir de Jânio Quadros,
+  revolução/golpe de 64
+  até a constituição de 88 quando a esquerda virou instituição
+  e o congresso "tomou o poder".
+
+Esse tema me incomoda há tempos: nós e eles.
+O mote é o pressuposto da superioridade de "uns" sobre os "outros"
+
+o porquê da parceria:
+1- É uma boa porta de entrada para a "engenharia de construção dos ítimos".
+   Embora o tema seja importante, a construção dele pela "machina" e razoavelmente simples
+   (comparada ao que teremos pela frente com o Escriba...)
+   e o "script" já está bem estruturado.
+
+2- E, o mais importante: o seu conhecimento histórico/filosófico
+   que certamente terá muito a acrescentar.
+
+P.S: a única diferença entre "nós" e "eles" é o tempo de conjugação do verbo.
+     a premissa é não oferecer respostas.
+
+Fazer política sem ser partidário.
