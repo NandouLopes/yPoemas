@@ -11,12 +11,14 @@ All texts are unique and will only be repeated
 after they are sold out the thourekasands  
 of combinations possible to each theme.
 
-OVNY == anOther Visitor iN Ypoemas
 VISY == New Visitor
 NANY_VISY == Number of Visitors
 LYPO == Last YPOema created from curr_ypoema
 TYPO == Translated YPOema from LYPO
 POLY == Poliglot Idiom == Changed on Catalán
+
+keywords = "| what  | why    | when   | how  | where | which | who  | whose   |".split("|")
+keywords = "| o que | porquê | quando | como | onde  | qual  | quem | de quem |"
 
 https://share.streamlit.io/ == deploy
 
@@ -183,46 +185,6 @@ def main():
     st.sidebar.state = True
 
 
-def update_ovny():  # count one more ovny
-    ovny_data = utcnow().isoformat()
-    date_time = ovny_data[0:16]
-    with open(os.path.join("./temp/ovny_data.txt"), "a", encoding="utf-8") as data:
-        data.write(date_time + " " + utcnew() + "\n")
-    data.close()
-
-
-def load_ovny():  # days, zone, full
-    days = 0
-    ini_day = "2001-01-01"
-    this_list = []
-    with open(os.path.join("./temp/ovny_data.txt"), "r", encoding="utf-8") as data:
-        for line in data:
-            days = days + 1
-            cur_day = line[0:10]  # time = line[11:16] zone = line[17:23]
-            if cur_day != ini_day and cur_day != "":
-                this_list.append(ini_day + " - " + str(days))
-                days = 0
-                ini_day = cur_day
-        this_list.append(ini_day + " - " + str(days))
-    return this_list
-
-
-def load_hour():  # hours
-    hour = 0
-    ini_hhh = "00"
-    this_list = []
-    with open(os.path.join("./temp/ovny_data.txt"), "r", encoding="utf-8") as data:
-        for line in data:
-            hour = hour + 1
-            cur_hhh = line[11:13]
-            if cur_hhh != ini_hhh and cur_hhh != "":
-                this_list.append(ini_hhh + " - " + str(hour))
-                hour = 0
-                ini_hhh = cur_hhh
-        this_list.append(ini_hhh + " - " + str(hour))
-    return this_list
-
-
 # count one more visitor
 def update_visy():
     with open(os.path.join("./temp/visitors.txt"), "r", encoding="utf-8") as visitors:
@@ -233,6 +195,14 @@ def update_visy():
     with open(os.path.join("./temp/visitors.txt"), "w", encoding="utf-8") as visitors:
         visitors.write(str(tots))
     visitors.close()
+
+
+def update_ovny():  # count one more ovny
+    ovny_data = utcnow().isoformat()
+    date_time = ovny_data[0:16]
+    with open(os.path.join("./temp/ovny_data.txt"), "a", encoding="utf-8") as data:
+        data.write(date_time + " " + utcnew() + "\n")
+    data.close()
 
 
 # check visitor once
@@ -292,40 +262,28 @@ def update_readings(tema):
 
 
 def status_readings():
-    soma_one = 0
-    soma_zod = 0
-    soma_hhh = 0
+    soma_day = 0
     read_day = []  # days
-    read_zod = []  # zodiac
     tag_text = ""
     readings = load_readings()
     for line in readings:
         pipe_line = line.split("|")
         name = pipe_line[1]
         qtds = pipe_line[2]
-
-        soma_hhh += int(qtds)
-        if not "=" in line:
-            soma_one += int(qtds)
-        else:
-            soma_zod += int(qtds)
-
+        soma_day += int(qtds)
         if qtds != "0":
             new_line = str(qtds) + " - " + name + "\n"
-            if not "=" in line:
-                read_day.append(new_line)
+            if not "=" in name:  # out zodiac
                 tag_text += name + " "
-            else:
-                read_zod.append(new_line)
+            read_day.append(new_line)
 
     read_day.sort(key=natural_keys, reverse=True)
-    read_zod.sort(key=natural_keys, reverse=True)
 
     options = list(range(len(read_day)))
     opt_readings = st.selectbox(
         str(len(read_day))
         + " temas, "
-        + str(soma_one)
+        + str(soma_day)
         + " leituras por "
         + str(st.session_state.nany_visy)
         + " visitantes",
@@ -333,79 +291,7 @@ def status_readings():
         format_func=lambda x: read_day[x],
         key="opt_readings",
     )
-
-    options = list(range(len(read_zod)))
-    zod_readings = st.selectbox(
-        str(len(read_zod))
-        + " signos, "
-        + str(soma_zod)
-        + " leituras ( de "
-        + str(soma_zod + soma_one)
-        + " )",
-        options,
-        format_func=lambda x: read_zod[x],
-        key="zod_readings",
-    )
-
-    visitors = []
-    tot_days = 0
-    ovny_list = load_ovny()
-    for line in ovny_list:
-        date = line[0:10]
-        days = int(line[13 : len(line)])
-        if int(days) > 0:
-            visitors.append(line)
-            tot_days += days
-    visitors.pop(0)  # because ini_day = "2001-01-01"
-    percent = int(st.session_state.nany_visy/len(visitors))
-    visitors.sort(key=natural_keys, reverse=True)
-
-    options = list(range(len(visitors)))
-    opt_visitors = st.selectbox(
-        str(tot_days) + " visitas em " + str(len(visitors)) + " dias ( " + str(percent) + " )",
-        options,
-        format_func=lambda x: visitors[x],
-        key="opt_visitors",
-    )
-    # chart = st.bar_chart(graf_day)
-    
-
-    by_hours = []
-    tmp_hour = 0
-    tot_hour = 0
-    ini_hour = "00"
-    read_hhh = load_hour()
-    read_hhh.sort(key=natural_keys, reverse=True)
-    for line in read_hhh:
-        line = line.strip("\n")
-        hour = int(line[0:2])
-        if hour == 2:
-            hour = 23
-        elif hour == 1:
-            hour = 22
-        elif hour == 0:
-            hour = 21
-        else:
-            hour -= 3  #  UTC -3 for Brasil
-        hour = str(hour).zfill(2)
-
-        qtds = int(line[4 : len(line)])
-        tot_hour += qtds
-        if hour == ini_hour:
-            tmp_hour += qtds
-        else:
-            by_hours.append(str(tmp_hour) + " - " + ini_hour + " h")
-            ini_hour = hour
-            tmp_hour = qtds
-
-    by_hours.sort(key=natural_keys, reverse=True)
-    options = list(range(len(by_hours)))
-    opt_by_hours = st.selectbox(
-        str(tot_hour) + " visitas em " + str(len(by_hours) + 1) + " horários",
-        options,
-        format_func=lambda x: by_hours[x],
-        key="opt_by_hours",
-    )
+    tag_cloud(tag_text)
 # eof: update themes readings
 
 
@@ -1143,11 +1029,11 @@ def page_ypoemas():
         lnew = False
         status_readings()
         st.markdown(
-            get_binary_file_downloader_html("./temp/ovny_data.txt", "Visitors"),
+            get_binary_file_downloader_html("./temp/read_list.txt", "views"),
             unsafe_allow_html=True,
         )
         st.markdown(
-            get_binary_file_downloader_html("./temp/read_list.txt", "Readings"),
+            get_binary_file_downloader_html("./temp/ovny_data.txt", "visitors"),
             unsafe_allow_html=True,
         )
 
