@@ -79,9 +79,8 @@
 |Meteoro|1|
 |Minuto|22|
 |Mirante|21|
-|Neobrazil|21|
-|Niver|1|
 |Nonono|1|
+|Nós|13|
 |Oca|3|
 |Ocio|25|
 |Oco|20|
@@ -92,8 +91,6 @@
 |Papilio|35|
 |Paroles|0|
 |Passagens|26|
-|Paz|0|
-|Pecados|0|
 |Peixes=f|0|
 |Peixes=m|0|
 |Pessoa|10|
