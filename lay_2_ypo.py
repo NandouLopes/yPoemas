@@ -280,7 +280,7 @@ def load_cidade_fato():
     :return: alguma cidade do arquivo fatos_cidades.txt
     """
     cidades = []
-    with open(os.path.join("./data/fatos_cidades.txt"), encoding = "utf8") as file:
+    with open(os.path.join("./base/fatos_cidades.txt"), encoding = "utf8") as file:
         for line in file:
             cidades.append(line)
         file.close()
@@ -297,7 +297,7 @@ def fala_cidade():
     """
     cidades = []
     # cidade_pais.txt ## não conseguiu abrir o codec !!!
-    with open(os.path.join("./data/fatos_cidades.txt"), encoding = "utf8") as file:
+    with open(os.path.join("./base/fatos_cidades.txt"), encoding = "utf8") as file:
         for line in file:
             cidades.append(line)
         file.close()
@@ -411,7 +411,7 @@ def abre(nome_do_tema):
 @st.cache(allow_output_mutation=True)
 def load_babel():
     lista = []
-    with open(os.path.join("./data/babel.txt"), "r") as babel:
+    with open(os.path.join("./base/babel.txt"), "r") as babel:
         for line in babel:
             lista.append(line)
     return lista

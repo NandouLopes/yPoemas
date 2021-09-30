@@ -35,6 +35,7 @@ import re
 import time
 import random
 import base64
+import datetime
 import streamlit as st
 
 try:
@@ -42,17 +43,6 @@ try:
 except ImportError as ex:
     st.warning("Google Translator não conectado. Traduções não disponíveis no momento.")
     print(ex)
-
-# for ovny's
-import pytz
-from datetime import datetime
-
-def utcnow():  # Coordinated Universal Time (UTC)
-    return datetime.now(tz=pytz.utc)
-
-def utcnew():  # Local Time
-    tznow = str(datetime.now().astimezone())
-    return tznow[-6:]
 
 # Project Module
 from lay_2_ypo import gera_poema
@@ -63,6 +53,8 @@ import matplotlib.pyplot as plt
 
 # user_id: to create LYPO and TYPO for each hostname
 import socket
+
+from gtts import gTTS
 
 st.set_page_config(
     page_title='yPoemas - a "machina" de fazer Poesia',
@@ -162,7 +154,7 @@ if "find_word" not in st.session_state:
     st.session_state.find_word = "mar"
 if "word_type" not in st.session_state:
     st.session_state.word_type = "semente"
-    
+
 
 def main():
     pages = {
@@ -176,7 +168,6 @@ def main():
     }
     page = st.sidebar.selectbox("Menu", tuple(pages.keys()))
     pages[page]()
-
     st.sidebar.info(load_file("INFO_" + page.upper() + ".md"))
     st.sidebar.markdown(
         "([email](mailto:lopes.fernando@hotmail.com) [face](https://www.facebook.com/nandoulopes) [coffee](https://www.buymeacoffee.com/yPoemas) [insta](https://www.instagram.com/fernando.lopes.942/)  [whatsapp pix](https://api.whatsapp.com/send?phone=+5512991368181))"
@@ -197,18 +188,9 @@ def update_visy():
     visitors.close()
 
 
-def update_ovny():  # count one more ovny
-    ovny_data = utcnow().isoformat()
-    date_time = ovny_data[0:16]
-    with open(os.path.join("./temp/ovny_data.txt"), "a", encoding="utf-8") as data:
-        data.write(date_time + " " + utcnew() + "\n")
-    data.close()
-
-
 # check visitor once
 if st.session_state.visy:  # used to random first text on yPoemas them, set to False
     update_visy()
-    update_ovny()
     # st.session_state.visy = False  # checked later, on random first yPoema
 
 
@@ -262,33 +244,43 @@ def update_readings(tema):
 
 
 def status_readings():
-    soma_day = 0
-    read_day = []  # days
+    sum_all_days = 0
+    read_days = []  # days
     tag_text = ""
     readings = load_readings()
     for line in readings:
         pipe_line = line.split("|")
         name = pipe_line[1]
         qtds = pipe_line[2]
-        soma_day += int(qtds)
+        sum_all_days += int(qtds)
         if qtds != "0":
             new_line = str(qtds) + " - " + name + "\n"
             if not "=" in name:  # out zodiac
                 tag_text += name + " "
-            read_day.append(new_line)
+            read_days.append(new_line)
 
-    read_day.sort(key=natural_keys, reverse=True)
+    read_days.sort(key=natural_keys, reverse=True)
 
-    options = list(range(len(read_day)))
+    currrent_day = datetime.date.today()
+    begining_day = datetime.date(2021, 7, 6)
+    total_viewes = st.session_state.nany_visy
+    days_of_runs = begining_day - currrent_day
+    days_of_runs = abs(days_of_runs.days)
+    views_by_day = total_viewes/days_of_runs
+    reads_by_day = (sum_all_days/views_by_day)/days_of_runs
+
+    options = list(range(len(read_days)))
     opt_readings = st.selectbox(
-        str(len(read_day))
+        str(len(read_days))
         + " temas, "
-        + str(soma_day)
+        + str(sum_all_days)
         + " leituras por "
-        + str(st.session_state.nany_visy)
-        + " visitantes",
+        + str(total_viewes)
+        + " visitantes ( "
+        + str(int(views_by_day)) + " dia / "
+        + str(int(reads_by_day)) + " reads )",
         options,
-        format_func=lambda x: read_day[x],
+        format_func=lambda x: read_days[x],
         key="opt_readings",
     )
     tag_cloud(tag_text)
@@ -314,7 +306,7 @@ def load_file(file):  # Open files for about's
 @st.cache(allow_output_mutation=True)
 def load_help_tips():
     help_list = []
-    with open(os.path.join("./data/helpers.txt"), encoding="utf-8") as file:
+    with open(os.path.join("./base/helpers.txt"), encoding="utf-8") as file:
         for line in file:
             help_list.append(line)
     file.close()
@@ -335,13 +327,14 @@ def load_help(idiom):
         returns.append(translate("escolhe tema ao acaso"))
         returns.append(translate("próximo"))
         returns.append(translate("mais lidos..."))
+        returns.append(translate("ouvir o texto"))
     return(returns)
     
 
 @st.cache(allow_output_mutation=True)
 def load_eureka_semente(seed):  # Lexicon
     index_eureka = []
-    with open(os.path.join("./data/lexico_pt.txt"), encoding="utf-8") as lista:
+    with open(os.path.join("./base/lexico_pt.txt"), encoding="utf-8") as lista:
         for line in lista:
             pipe_line = line.split("|")
             palas = pipe_line[1]
@@ -355,7 +348,7 @@ def load_eureka_semente(seed):  # Lexicon
 @st.cache(allow_output_mutation=True)
 def load_eureka_letras(seed):  # Lexicon
     index_eureka = []
-    with open(os.path.join("./data/lexico_pt.txt"), encoding="utf-8") as lista:
+    with open(os.path.join("./base/lexico_pt.txt"), encoding="utf-8") as lista:
         for line in lista:
             pipe_line = line.split("|")
             palas = pipe_line[1]
@@ -373,7 +366,7 @@ def load_eureka_letras(seed):  # Lexicon
 @st.cache(allow_output_mutation=True)
 def load_temas(book):  # List of yPoemas themes inside a Book
     all_temas_list = []
-    with open(os.path.join("./data/" + book + ".rol"), "r", encoding = "utf-8") as file:
+    with open(os.path.join("./base/" + book + ".rol"), "r", encoding = "utf-8") as file:
         for line in file:
             all_temas_list.append(line.strip("\n"))
     return all_temas_list
@@ -382,7 +375,7 @@ def load_temas(book):  # List of yPoemas themes inside a Book
 @st.cache(allow_output_mutation=True)
 def load_index():  # Load indexes numbers for all themes
     index_list = []
-    with open(os.path.join("./data/index.txt"), encoding="utf-8") as lista:
+    with open(os.path.join("./base/index.txt"), encoding="utf-8") as lista:
         for line in lista:
             index_list.append(line)
     return index_list
@@ -398,16 +391,17 @@ def load_lypo():  # load last yPoema & replace "\n" with "<br>" for translator r
     return lypo_text
 
 
-def load_typo():  # load translated yPoema & clean translator returned text
+def load_typo():  # load translated yPoema & clean translator returned bugs in text
     typo_text = ""
     typo_user = "TYPO_" + user_id
     with open(os.path.join("./temp/" + typo_user), encoding="utf-8") as script:
         for line in script:  # just 1 line
             line = line.strip()
-            line = line.replace("< br>", "<br>")
-            line = line.replace("<br >", "<br>")
-            line = line.replace("<br ", "<br>")
-            line = line.replace(" br>", "<br>")
+            line = line.replace("< br>", "\n")
+            line = line.replace("<br >", "\n")
+            line = line.replace("<br ", "\n")
+            line = line.replace(" br>", "\n")
+            line = line.replace("> >", ">")
             typo_text += line + "<br>"
     return typo_text
 
@@ -471,6 +465,23 @@ def load_poema(nome_tema, seed_eureka):
 
 
 # bof: functions
+def talk(text):  # text to speech(text in session_state.lang)
+    text = text.replace('**','')  # clear mark_down & fix line_feeds
+    text = text.replace('<br>','\n')
+    text = text.replace('< br>','')
+    text = text.replace('<br >','')
+    # try:
+    tts = gTTS(text=text, lang=st.session_state.lang, slow=False)
+    nany_file = random.randint(1, 20000000)
+    file_name = "audio" + str(nany_file) + ".mp3"
+    tts.save(file_name)
+    audio_file = open(file_name, 'rb')
+    audio_bytes = audio_file.read()
+    st.audio(audio_bytes, format='audio/ogg')
+    audio_file.close()
+    os.remove(file_name)
+
+
 def say_numeros(tema):  # search index title for eureka
     analise = "#️ nonono"
     indexes = load_index()
@@ -481,6 +492,10 @@ def say_numeros(tema):  # search index title for eureka
             break
     if this is not None:
         analise = "#️ " + this
+        if st.session_state.lang == "en":
+            analise = analise.replace(".",",")
+        elif st.session_state.lang == "de":
+            analise = analise.replace("."," ")
     return analise
 
 
@@ -498,6 +513,12 @@ def translate(input_text):
             raise RuntimeError(
                 "oops... Google Translator não está repondendo... Offline?"
             ) from exc
+
+        output_text = output_text.replace("<br>>", "<br>")
+        output_text = output_text.replace("< br>", "<br>")
+        output_text = output_text.replace("<br >", "<br>")
+        output_text = output_text.replace("<br ", "<br>")
+        output_text = output_text.replace(" br>", "<br>")
         return output_text
     else:
         st.session_state.lang = "pt"
@@ -698,7 +719,7 @@ def page_polys():  # available languages
             poly_list = []
             poly_show = []
             with open(
-                os.path.join("./data/" + st.session_state.poly_file), encoding="utf-8"
+                os.path.join("./base/" + st.session_state.poly_file), encoding="utf-8"
             ) as poly:
                 for line in poly:
                     poly_list.append(line)
@@ -706,15 +727,14 @@ def page_polys():  # available languages
                     poly_show.append(pipe_line[1] + " : " + pipe_line[2])
             poly.close()
 
-            if len(poly_list) > 0:
-                options = list(range(len(poly_show)))
-                opt_poly = st.selectbox(
-                    str(len(poly_list)) + " idiomas",
-                    options,
-                    index=st.session_state.poly_take,
-                    format_func=lambda x: poly_show[x],
-                    key="opt_poly",
-                )
+            options = list(range(len(poly_show)))
+            opt_poly = st.selectbox(
+                str(len(poly_list)) + " idiomas",
+                options,
+                index=st.session_state.poly_take,
+                format_func=lambda x: poly_show[x],
+                key="opt_poly",
+            )
 
         with ok:
             doit = st.button("✔", help="confirm ?")
@@ -820,7 +840,7 @@ st.session_state.last_lang = st.session_state.lang
 def page_off_machina():  # available off_books
     st.write("")
     st.sidebar.image("./images/img_off_machina.jpg")
-
+    talk_text_button = st.sidebar.checkbox("☄", help=translate("clique para ouvir o texto"), key="ypoemas")
     off_books_list = load_all_offs()
     options = list(range(len(off_books_list)))
     opt_off_book = st.selectbox(
@@ -960,6 +980,9 @@ def page_off_machina():  # available off_books
                 st.markdown(
                     off_book_text, unsafe_allow_html=True
                 )  # finally... write it
+            
+        if talk_text_button:
+            talk(off_book_text)
 
 
 st.session_state.last_lang = st.session_state.lang
@@ -976,9 +999,11 @@ if st.session_state.visy:  # random text at first entry
 def page_ypoemas():
     st.write("")
     st.sidebar.image("./images/img_home.jpg")
+    talk_text_button = st.sidebar.checkbox("☄", help=translate("clique para ouvir o texto"), key="ypoemas")
     i0, i1, i2, i3, i4, i5, i6, i7, i8 = st.beta_columns(
         [1.5, 1, 1, 1, 1, 1, 1, 1, 1.5]
     )
+
     i1 = i1.button("pt", help="Português")
     i2 = i2.button("es", help="Español")
     i3 = i3.button("it", help="Italiano")
@@ -986,6 +1011,8 @@ def page_ypoemas():
     i5 = i5.button("en", help="English")
     i6 = i6.button("de", help="Deutsche")
     i7 = i7.button("☀", help=st.session_state.poly_name)
+
+    lnew = True
 
     if i1:
         st.session_state.lang = "pt"
@@ -1008,7 +1035,7 @@ def page_ypoemas():
     elif i7:
         st.session_state.last_lang = st.session_state.lang
         st.session_state.lang = st.session_state.poly_lang
-
+                
     b0, last, rand, nest, love, numb, manu, b1 = st.beta_columns(
         [2, 1, 1, 1, 1, 1, 1, 2]
     )
@@ -1024,16 +1051,11 @@ def page_ypoemas():
     nest = nest.button("▶", help=h_nest)
     love = love.button("❤", help=h_love)
 
-    lnew = True
     if love:
         lnew = False
         status_readings()
         st.markdown(
             get_binary_file_downloader_html("./temp/read_list.txt", "views"),
-            unsafe_allow_html=True,
-        )
-        st.markdown(
-            get_binary_file_downloader_html("./temp/ovny_data.txt", "visitors"),
             unsafe_allow_html=True,
         )
 
@@ -1109,6 +1131,9 @@ def page_ypoemas():
 
             st.markdown(curr_ypoema, unsafe_allow_html=True)  # finally... write it
             update_readings(curr_tema)
+            
+        if talk_text_button:
+            talk(curr_ypoema)
 
         # st.markdown(get_binary_file_downloader_html('./temp/'+"LYPO_" + user_id, curr_tema), unsafe_allow_html=True)
 # eof: pages
