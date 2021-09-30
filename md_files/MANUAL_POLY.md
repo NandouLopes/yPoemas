@@ -2,7 +2,7 @@ outros idiomas disponíveis...
 ___
 
 > **poliglota**  
->> Palavra de origem grega para polý, que significa numeroso e glottos, para línguas.  
+>> Palavra de origem grega para **polý**, que significa numeroso e **glottos**, para línguas.  
 
 > O idioma aqui selecionado será usado nas páginas **yPoemas** e **eureka**,  
 > no último botão da primeira linha da tela,  
