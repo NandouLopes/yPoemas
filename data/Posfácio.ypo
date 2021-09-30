@@ -14,58 +14,58 @@
 *- |19|03|Posfaciar_1903|F|1|1|de Anos-Luz.|
 *-
 |01|01|Posfácio_0101|F|1|1|Este Livro-Vivo contém palavras|
-|02|01|Posfácio_0201|F|8|6|colhidas|pinçadas|escolhidas|garimpadas|elegidas|lapidadas|sacadas|capturadas|
-|02|02|Posfácio_0202|F|3|3|primeiramente|cuidadosamente|minuciosamente|
-|02|03|Posfácio_0203|F|6|5|a mão|a lupa|a dedo|a olho nu|a unha|a olho cru|
+|02|01|Posfácio_0201|F|8|3|colhidas|pinçadas|escolhidas|garimpadas|elegidas|lapidadas|sacadas|capturadas|
+|02|02|Posfácio_0202|F|3|1|primeiramente|cuidadosamente|minuciosamente|
+|02|03|Posfácio_0203|F|6|6|a mão|a lupa|a dedo|a olho nu|a unha|a olho cru|
 |03|01|Posfácio_0301|F|1|1|e depois|
-|03|02|Posfácio_0302|F|15|10|arranjadas|sorteadas|distribuídas|lançadas|selecionadas|elencadas|dispostas|juntadas|misturadas|expostas|ordenadas|listadas|esculpidas|combinadas|estiladas|
-|03|03|Posfácio_0303|F|4|2|de modo aleatório|em variantes|em sequências diversas|feito jogo de dados|
-|04|01|Posfácio_0401|F|6|2|pelo software que lhe dá nome|por uma procissão de bytes|pelo acaso em si mesmo|pela vastidão do verbo|pela própria máquina|por bits em multidão|
+|03|02|Posfácio_0302|F|15|11|arranjadas|sorteadas|distribuídas|lançadas|selecionadas|elencadas|dispostas|juntadas|misturadas|expostas|ordenadas|listadas|esculpidas|combinadas|estiladas|
+|03|03|Posfácio_0303|F|4|3|de modo aleatório|em variantes|em sequências diversas|feito jogo de dados|
+|04|01|Posfácio_0401|F|6|3|pelo software que lhe dá nome|por uma procissão de bytes|pelo acaso em si mesmo|pela vastidão do verbo|pela própria máquina|por bits em multidão|
 |04|02|Posfácio_0402|F|1|1|.|
 |05|00|
-|05|01|Posfácio_0501|F|3|3|É quase impossível|É meio descabido|É coisa intangível|
-|05|02|Posfácio_0502|F|8|8|conhecer|imaginar|saber|abarcar|prever|alcançar|abranger|realizar|
-|06|01|Posfácio_0601|F|3|2|todas as combinações|as milhares de opções|todas as variações|
-|06|02|Posfácio_0602|F|4|4|possíveis de serem geradas.|latentes.|passíveis de criação.|que podem ser ideadas.|
+|05|01|Posfácio_0501|F|3|1|É quase impossível|É meio descabido|É coisa intangível|
+|05|02|Posfácio_0502|F|8|5|conhecer|imaginar|saber|abarcar|prever|alcançar|abranger|realizar|
+|06|01|Posfácio_0601|F|3|3|todas as combinações|as milhares de opções|todas as variações|
+|06|02|Posfácio_0602|F|4|1|possíveis de serem geradas.|latentes.|passíveis de criação.|que podem ser ideadas.|
 |07|01|Posfácio_0701|F|1|1|Que a licença poética|
 |07|02|Posfácio_0702|F|1|1|seja|
-|07|03|Posfácio_0703|F|16|4|considerada|cabível|necessária|só nuança|invocada|rumo|pertinente|cativa|essencial|admitida|indispensável|bem-vinda|a única saída|o de menos|a ousadia|a guia|
+|07|03|Posfácio_0703|F|16|9|considerada|cabível|necessária|só nuança|invocada|rumo|pertinente|cativa|essencial|admitida|indispensável|bem-vinda|a única saída|o de menos|a ousadia|a guia|
 |07|04|Posfácio_0704|F|1|1|!|
-|09|01|Posfácio_0901|F|5|5|Hão de haver|Cabe supor|Hão de ver|Esperem-se|Que surjam|
-|09|02|Posfácio_0902|F|8|7|leituras|viagens|passagens|imagens|paisagens|paragens|clonagens|linguagens|
-|09|03|Posfácio_0903|T|30|30|inusitadas|absurdas|insanas|impensadas|inverossímeis|inventadas|inesperadas|óbvias|irreais|abusadas|anárquicas|rebuscadas|obsoletas|desmedidas|lúdicas|incoerentes|caóticas|refinadas|ambíguas|cruas|invulgares|exóticas|malandras|inspiradas|improváveis|comuns|provocantes|sensatas|medidas|recriadas|
+|09|01|Posfácio_0901|F|5|1|Hão de haver|Cabe supor|Hão de ver|Esperem-se|Que surjam|
+|09|02|Posfácio_0902|F|8|4|leituras|viagens|passagens|imagens|paisagens|paragens|clonagens|linguagens|
+|09|03|Posfácio_0903|T|30|14|inusitadas|absurdas|insanas|impensadas|inverossímeis|inventadas|inesperadas|óbvias|irreais|abusadas|anárquicas|rebuscadas|obsoletas|desmedidas|lúdicas|incoerentes|caóticas|refinadas|ambíguas|cruas|invulgares|exóticas|malandras|inspiradas|improváveis|comuns|provocantes|sensatas|medidas|recriadas|
 |09|04|Posfácio_0904|F|1|1|,|
-|10|01|Posfácio_1001|F|9|4|talvez|outras|quiçá|por vezes|se não|todavia|mormente|sobretudo|mas, onde caiba,|
-|10|02|Posfácio_1002|F|9|5|inusitadas|impensadas|inventadas|inesperadas|abusadas|rebuscadas|refinadas|inspiradas|recriadas|
+|10|01|Posfácio_1001|F|9|8|talvez|outras|quiçá|por vezes|se não|todavia|mormente|sobretudo|mas, onde caiba,|
+|10|02|Posfácio_1002|F|9|8|inusitadas|impensadas|inventadas|inesperadas|abusadas|rebuscadas|refinadas|inspiradas|recriadas|
 |10|03|Posfácio_1003|F|1|1|,|
-|10|04|Posfácio_1004|F|12|11|insanas|óbvias|irreais|anárquicas|obsoletas|provocantes|sensatas|incoerentes|improváveis|caóticas|invulgares|comuns|
+|10|04|Posfácio_1004|F|12|9|insanas|óbvias|irreais|anárquicas|obsoletas|provocantes|sensatas|incoerentes|improváveis|caóticas|invulgares|comuns|
 |10|05|Posfácio_1005|F|1|1|,|
-|10|06|Posfácio_1006|F|10|6|desmedidas|absurdas|lúdicas|ambíguas|cruas|medidas|inverossímeis|malandras|exóticas|oferecidas|
+|10|06|Posfácio_1006|F|10|3|desmedidas|absurdas|lúdicas|ambíguas|cruas|medidas|inverossímeis|malandras|exóticas|oferecidas|
 |10|07|Posfácio_1007|F|1|1|...|
 |12|01|Posfácio_1201|F|1|1|Considere-se|
-|12|02|Posfácio_1202|F|10|6|esse apanhado|esse punhado|essa variedade|esse emaranhado|esse turbilhão|essa profusão|esse labirinto|esse embaralhado|essa diversidade|esse moto contínuo|
-|12|03|Posfácio_1203|F|6|6|de versos|de palavras|de ideias|de linhas|de sentenças|de frases|
-|13|01|Posfácio_1301|F|6|4|um mero|um breve|um tosco|um modesto|um curto|um vago|
+|12|02|Posfácio_1202|F|10|7|esse apanhado|esse punhado|essa variedade|esse emaranhado|esse turbilhão|essa profusão|esse labirinto|esse embaralhado|essa diversidade|esse moto-contínuo|
+|12|03|Posfácio_1203|F|6|1|de versos|de palavras|de ideias|de linhas|de sentenças|de frases|
+|13|01|Posfácio_1301|F|6|5|um mero|um breve|um tosco|um modesto|um curto|um vago|
 |13|02|Posfácio_1302|T|18|4|ensaio|repente|estudo|passeio|trato|brincar|dilúvio|espasmo|exercício|jogo|exemplo|extrato|rascunho|mosaico|passe|traço|plano|calidoscópio|
-|13|03|Posfácio_1303|F|7|7|anárquico|de criação|de possibilidades|utópico|de musculação da língua|de invencionices|informático|
-|14|01|Posfácio_1401|F|2|1|com|sobre|
-|14|02|Posfácio_1402|F|10|7|o pouco|o mínimo|o tanto|a sobra|o caldo|o pulso|a cota|o quinhão|a ilusão|a fatia|
+|13|03|Posfácio_1303|F|7|4|anárquico|de criação|de possibilidades|utópico|de musculação da língua|de invencionices|informático|
+|14|01|Posfácio_1401|F|2|2|com|sobre|
+|14|02|Posfácio_1402|F|10|8|o pouco|o mínimo|o tanto|a sobra|o caldo|o pulso|a cota|o quinhão|a ilusão|a fatia|
 |14|03|Posfácio_1403|F|1|1|de liberdade|
-|15|01|Posfácio_1501|F|2|2|que cada um de nós ainda|que cada um de nós por certo|
-|15|02|Posfácio_1502|F|11|7|cultiva|apregoa|tem em si|ostenta|preza|traz|anuncia|alimenta|idealiza|destila|crê ter|
+|15|01|Posfácio_1501|F|2|1|que cada um de nós ainda|que cada um de nós por certo|
+|15|02|Posfácio_1502|F|11|3|cultiva|apregoa|tem em si|ostenta|preza|traz|anuncia|alimenta|idealiza|destila|crê ter|
 |15|03|Posfácio_1503|F|1|1|.|
 |16|00|
-|16|01|Posfácio_1601|F|3|3|Por fim,|Por último,|Por enquanto,|
+|16|01|Posfácio_1601|F|3|1|Por fim,|Por último,|Por enquanto,|
 |16|02|Posfácio_1602|F|1|1|saiba-se|
-|16|03|Posfácio_1603|F|2|2|que este quase livro|que este livreto|
-|16|04|Posfácio_1604|F|7|5|é único|é original|é ímpar|é incomum|é invulgar|é distinto|é anormal|
+|16|03|Posfácio_1603|F|2|1|que este quase livro|que este livreto|
+|16|04|Posfácio_1604|F|7|2|é único|é original|é ímpar|é incomum|é invulgar|é distinto|é anormal|
 |18|01|Posfácio_1801|F|1|1|e só se repetirá após|
-|18|02|Posfácio_1802|F|2|2|incontáveis|incalculáveis|
+|18|02|Posfácio_1802|F|2|1|incontáveis|incalculáveis|
 |18|03|Posfácio_1803|F|1|1|impressões.|
 |20|01|Posfácio_2001|F|1|1|Leia-se nunca.|
-|20|02|Posfácio_2002|F|5|3|Salve a nossa língua!|Amem a nossa língua!|Viva a nossa língua!|Amém à nossa língua!|Que a língua tenha mais valia!|
+|20|02|Posfácio_2002|F|5|4|Salve a nossa língua!|Amem a nossa língua!|Viva a nossa língua!|Amém à nossa língua!|Que a língua tenha mais valia!|
 <EOF>
-CATAPALA = 90
+CATAPALA = 87
 VERBETES = 279
 PALAVRAS = 438
 VARIATIO = 11.678.040.884.112.260.000.000.000                                              
