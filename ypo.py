@@ -168,7 +168,6 @@ def main():
     }
     page = st.sidebar.selectbox("Menu", tuple(pages.keys()))
     pages[page]()
-    st.sidebar.info(load_file("INFO_" + page.upper() + ".md"))
     st.sidebar.markdown(
         "([email](mailto:lopes.fernando@hotmail.com) [face](https://www.facebook.com/nandoulopes) [coffee](https://www.buymeacoffee.com/yPoemas) [insta](https://www.instagram.com/fernando.lopes.942/)  [whatsapp pix](https://api.whatsapp.com/send?phone=+5512991368181))"
     )
@@ -577,6 +576,7 @@ def get_poly_name(this_poly):  # extract language name for poly
 def page_eureka():
     st.write("")
     st.sidebar.image("./images/img_eureka.jpg")
+    st.sidebar.info(load_file("INFO_EUREKA.md"))
     eureka_expander = st.beta_expander("", expanded=True)
     icone = "✴"
     if st.session_state.word_type == "letras":
@@ -712,6 +712,7 @@ def page_eureka():
 def page_polys():  # available languages
     st.write("")
     st.sidebar.image("./images/img_poly.jpg")
+    st.sidebar.info(load_file("INFO_POLY.md"))
     poly_expander = st.beta_expander("", True)
     with poly_expander:
         pp, ok = st.beta_columns([9.3, 0.7])
@@ -751,6 +752,7 @@ def page_polys():  # available languages
 def page_books():  # available books
     st.write("")
     st.sidebar.image("./images/img_books.jpg")
+    st.sidebar.info(load_file("INFO_BOOKS.md"))
     books_expander = st.beta_expander("", True)
     with books_expander:
         bb, ok = st.beta_columns([9.3, 0.7])
@@ -799,6 +801,7 @@ def page_books():  # available books
 def page_comments():  # available comments
     st.write("")
     st.sidebar.image("./images/img_comments.jpg")
+    st.sidebar.info(load_file("INFO_COMMENTS.md"))
     comments_expander = st.beta_expander("", True)
     with comments_expander:
         st.subheader(load_file("MANUAL_COMMENTS.md"))
@@ -807,6 +810,7 @@ def page_comments():  # available comments
 def page_abouts():
     st.write("")
     st.sidebar.image("./images/img_about.jpg")
+    st.sidebar.info(load_file("INFO_ABOUTS.md"))
     abouts_list = [
         "machina",
         "prefácio",
@@ -840,7 +844,6 @@ st.session_state.last_lang = st.session_state.lang
 def page_off_machina():  # available off_books
     st.write("")
     st.sidebar.image("./images/img_off_machina.jpg")
-    talk_text_button = st.sidebar.checkbox("☄", help=translate("clique para ouvir o texto"), key="ypoemas")
     off_books_list = load_all_offs()
     options = list(range(len(off_books_list)))
     opt_off_book = st.selectbox(
@@ -883,6 +886,9 @@ def page_off_machina():  # available off_books
     elif i7:
         st.session_state.last_lang = st.session_state.lang
         st.session_state.lang = st.session_state.poly_lang
+
+    talk_text = st.sidebar.checkbox("☄", help=translate("clique para ouvir o texto"), key="ypoemas")
+    st.sidebar.info(load_file("INFO_OFF-MACHINA.md"))
 
     help_me = load_help(st.session_state.lang)
     h_last = help_me[0]
@@ -981,7 +987,7 @@ def page_off_machina():  # available off_books
                     off_book_text, unsafe_allow_html=True
                 )  # finally... write it
             
-        if talk_text_button:
+        if talk_text:
             talk(off_book_text)
 
 
@@ -999,7 +1005,6 @@ if st.session_state.visy:  # random text at first entry
 def page_ypoemas():
     st.write("")
     st.sidebar.image("./images/img_home.jpg")
-    talk_text_button = st.sidebar.checkbox("☄", help=translate("clique para ouvir o texto"), key="ypoemas")
     i0, i1, i2, i3, i4, i5, i6, i7, i8 = st.beta_columns(
         [1.5, 1, 1, 1, 1, 1, 1, 1, 1.5]
     )
@@ -1036,6 +1041,9 @@ def page_ypoemas():
         st.session_state.last_lang = st.session_state.lang
         st.session_state.lang = st.session_state.poly_lang
                 
+    talk_text = st.sidebar.checkbox("☄", help=translate("clique para ouvir o texto"), key="ypoemas")
+    st.sidebar.info(load_file("INFO_YPOEMAS.md"))
+
     b0, last, rand, nest, love, numb, manu, b1 = st.beta_columns(
         [2, 1, 1, 1, 1, 1, 1, 2]
     )
@@ -1132,7 +1140,7 @@ def page_ypoemas():
             st.markdown(curr_ypoema, unsafe_allow_html=True)  # finally... write it
             update_readings(curr_tema)
             
-        if talk_text_button:
+        if talk_text:
             talk(curr_ypoema)
 
         # st.markdown(get_binary_file_downloader_html('./temp/'+"LYPO_" + user_id, curr_tema), unsafe_allow_html=True)
