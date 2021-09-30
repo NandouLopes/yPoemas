@@ -763,10 +763,10 @@ def page_books():  # available books
                 "variações",
                 "metalingua",
                 "outros autores",
+                "todos os temas",
                 "signos_fem",
                 "signos_mas",
                 "todos os signos",
-                "todos os temas",
             ]
             this = books_list.index(st.session_state.book)
 
