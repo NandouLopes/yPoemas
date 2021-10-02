@@ -97,6 +97,10 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
             total_itimos = int(alinhas[5])
             itimos_atual = int(alinhas[6])
             array_itimos = alinhas[7: len(alinhas) - 1]
+            
+            if itimos_atual > len(array_itimos):
+                itimos_atual = len(array_itimos)
+                
             if total_itimos != len(array_itimos):  # just in case...
                 total_itimos = len(array_itimos)   # real lenght...
 
@@ -115,6 +119,7 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
                 else:
                     itimos_atual = 0
                 
+                # print(array_itimos)  # for debug
                 if itimos_atual >= 0 and itimos_atual <= len(array_itimos):
                     itimo_escolhido = array_itimos[itimos_atual]
                 else:
