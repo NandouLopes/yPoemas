@@ -887,7 +887,9 @@ def page_off_machina():  # available off_books
         st.session_state.last_lang = st.session_state.lang
         st.session_state.lang = st.session_state.poly_lang
 
-    talk_text = st.sidebar.checkbox("☄", help=translate("clique para ouvir o texto"), key="off-machina")
+    info = translate("ouvir")
+    info = info.upper()
+    talk_text = st.sidebar.checkbox(info, key="off-machina")
     st.sidebar.info(load_file("INFO_OFF-MACHINA.md"))
 
     help_me = load_help(st.session_state.lang)
@@ -1041,10 +1043,9 @@ def page_ypoemas():
         st.session_state.last_lang = st.session_state.lang
         st.session_state.lang = st.session_state.poly_lang
 
-    info = translate("ouça")
+    info = translate("ouvir")
     info = info.upper()
     talk_text = st.sidebar.checkbox(info, key="ypoemas")
-    # talk_text = st.sidebar.checkbox("☄", help=translate("clique para ouvir o texto"), key="ypoemas")
     st.sidebar.info(load_file("INFO_YPOEMAS.md"))
 
     b0, last, rand, nest, love, numb, manu, b1 = st.beta_columns(
