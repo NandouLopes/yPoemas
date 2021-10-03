@@ -276,8 +276,8 @@ def status_readings():
         + " leituras por "
         + str(total_viewes)
         + " visitantes ( "
-        + str(int(views_by_day)) + " dia / "
-        + str(int(reads_by_day)) + " reads )",
+        + str(int(views_by_day)) + " / "
+        + str(int(reads_by_day)) + " )",
         options,
         format_func=lambda x: read_days[x],
         key="opt_readings",
