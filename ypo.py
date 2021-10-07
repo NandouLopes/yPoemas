@@ -332,6 +332,7 @@ def load_help(idiom):
 
 @st.cache(allow_output_mutation=True)
 def load_eureka_semente(seed):  # Lexicon
+    # index_eureka = [line for line in lista if seed.lower in line.split("|")[1]]
     index_eureka = []
     with open(os.path.join("./base/lexico_pt.txt"), encoding="utf-8") as lista:
         for line in lista:
@@ -469,7 +470,7 @@ def talk(text):  # text to speech(text in session_state.lang)
     text = text.replace('<br>','\n')
     text = text.replace('< br>','')
     text = text.replace('<br >','')
-    # try:
+
     tts = gTTS(text=text, lang=st.session_state.lang, slow=False)
     nany_file = random.randint(1, 20000000)
     file_name = "audio" + str(nany_file) + ".mp3"
@@ -479,6 +480,10 @@ def talk(text):  # text to speech(text in session_state.lang)
     st.audio(audio_bytes, format='audio/ogg')
     audio_file.close()
     os.remove(file_name)
+
+    # mp3_fp = BytesIO()
+    # tts = gTTS(text=text, lang=st.session_state.lang, slow=False)
+    # tts.write_to_fp(mp3_fp)
 
 
 def say_numeros(tema):  # search index title for eureka
@@ -810,7 +815,7 @@ def page_comments():  # available comments
 def page_abouts():
     st.write("")
     st.sidebar.image("./images/img_about.jpg")
-    st.sidebar.info(load_file("INFO_ABOUTS.md"))
+    st.sidebar.info(load_file("INFO_ABOUT.md"))
     abouts_list = [
         "machina",
         "prefácio",
