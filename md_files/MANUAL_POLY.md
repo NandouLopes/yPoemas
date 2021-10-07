@@ -24,8 +24,8 @@ ___
 > Holandês(nl), Indonésio(id), Irlandês(ga), Islandês(is), Malaio(ms), Maltês(mt),  
 > Myanmar(my), Norueguês(no), Samoano(sm), Suaíli(sw), Sueco(sv) e Ucraniano(uk).  
 >> Para alguns idiomas, vê-se na tradução caracteres estranhos ao texto:  
->> são variações como **<br>**, ** br>**, **<br **  
->> esses caracteres são usados como padrão para a **quebra-de-linha** nos textos.  
+>> são variações como **<br>**, ** br>**, **<br **.  
+>> Esses caracteres são usados como padrão para a **quebra-de-linha** nos textos.  
 
 >> - Ainda não encontrei solução para essas possíveis **falhas**.  
 >> - Dicas e sugestões para esse assunto serão bem-vindas!  

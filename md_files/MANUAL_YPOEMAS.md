@@ -1,5 +1,5 @@
 yPoemas: modo de usar  
-___
+---
 
 No topo da página há um **botão** para cada idioma: **[ pt es it fr en de ☀ ]**  
 
@@ -10,7 +10,7 @@ No topo da página há um **botão** para cada idioma: **[ pt es it fr en de ☀
 >> - Há uma **lista** com 95 outros idiomas disponíveis no Google Translator.  
 >> - O idioma selecionado na **lista** ficará sempre neste botão.  
 >> - Recomenda-se a leitura do texto **traduttore** na página **about**.  
-___
+---
 
 **na segunda linha de botões**  
 
@@ -26,12 +26,13 @@ ___
 >> - ( ***mouse:*** apetrecho eletrônico que se usava antes do celular... )  
 
 - ?  = Manual do Usuário  
-___
+---
 
 **barra** de temas  
 - Clique para ver a lista completa ou selecionar um tema.  
 > - Para filtrar os temas digite alguma(s) letra(s) na **barra**.  
-___
+---
+
 **dentro da área de leitura**  
 
 - A linha **pt** ( **nome_do_livro** ) ( **13** / **48** ) mostra informações sobre o tema:  
@@ -39,12 +40,15 @@ ___
 > - ( **nome_do_livro** ) = livro selecionado  
 > - **13**  = posição do tema dentro do livro  
 > - **48**  = total de temas deste livro  
-___
+---
+
+- No navegador Google Chrome use as setas **Ctrl+ ou Ctrl-**  
+- para aumentar ou diminuir o tamanho da tela.  
 
 - Para **buscar** palavras use a página **eureka** do **menu**.  
 - Você pode usar **Ctrl C** e **Ctrl V** para **copiar** textos da tela.  
 - Para mudar de **livro** use a página **books** do **menu**.  
 - Clique em qualquer **botão** para sair desta tela.  
-___
+---
 
 Copyright © 2021 Nando Lopes - **yPoemas @ machina de fazer Poesia**

@@ -27,6 +27,10 @@ ___
 ✔ **Clandestino**  
 ✔ **Victor**  
 ___
+- Victor Leonardi [saber mais](https://www.amazon.com.br/Quando-Escriba-Castelo-Victor-Leonardi/dp/8586372277)  
+- © - Quando o Escriba do Castelo era Eu  
+✔ **Escriba**  
+___
 - Zenilda Lua [saber mais](https://www.instagram.com/zenildalua/)  
 - © - Quando chorei no ombro do meu amor  
 ✔ **Elogio**  
