@@ -11,6 +11,9 @@ All texts are unique and will only be repeated
 after they are sold out the thourekasands  
 of combinations possible to each theme.
 
+[dica do dia - a machina de fazer poesia - yPoemas]
+no Chrome, digite Ctrl + ou Ctrl -, use a lupa para aumentar ou diminuir a tela
+
 VISY == New Visitor
 NANY_VISY == Number of Visitors
 LYPO == Last YPOema created from curr_ypoema
@@ -260,13 +263,13 @@ def status_readings():
 
     read_days.sort(key=natural_keys, reverse=True)
 
+    total_viewes = st.session_state.nany_visy
     currrent_day = datetime.date.today()
     begining_day = datetime.date(2021, 7, 6)
-    total_viewes = st.session_state.nany_visy
     days_of_runs = begining_day - currrent_day
     days_of_runs = abs(days_of_runs.days)
     views_by_day = total_viewes/days_of_runs
-    reads_by_day = (sum_all_days/views_by_day)/days_of_runs
+    reads_by_day = sum_all_days/total_viewes
 
     options = list(range(len(read_days)))
     opt_readings = st.selectbox(
@@ -277,7 +280,7 @@ def status_readings():
         + str(total_viewes)
         + " visitantes ( "
         + str(int(views_by_day)) + " / "
-        + str(int(reads_by_day)) + " )",
+        + f"{reads_by_day:.2}" + " )",
         options,
         format_func=lambda x: read_days[x],
         key="opt_readings",
@@ -332,7 +335,6 @@ def load_help(idiom):
 
 @st.cache(allow_output_mutation=True)
 def load_eureka_semente(seed):  # Lexicon
-    # index_eureka = [line for line in lista if seed.lower in line.split("|")[1]]
     index_eureka = []
     with open(os.path.join("./base/lexico_pt.txt"), encoding="utf-8") as lista:
         for line in lista:
@@ -473,17 +475,14 @@ def talk(text):  # text to speech(text in session_state.lang)
 
     tts = gTTS(text=text, lang=st.session_state.lang, slow=False)
     nany_file = random.randint(1, 20000000)
-    file_name = "audio" + str(nany_file) + ".mp3"
+    file_name = os.path.join("./temp/" + "audio" + str(nany_file) + ".mp3")
+    # file_name = "audio" + str(nany_file) + ".mp3"
     tts.save(file_name)
     audio_file = open(file_name, 'rb')
     audio_bytes = audio_file.read()
     st.audio(audio_bytes, format='audio/ogg')
     audio_file.close()
     os.remove(file_name)
-
-    # mp3_fp = BytesIO()
-    # tts = gTTS(text=text, lang=st.session_state.lang, slow=False)
-    # tts.write_to_fp(mp3_fp)
 
 
 def say_numeros(tema):  # search index title for eureka
@@ -651,10 +650,10 @@ def page_eureka():
             if len(seeds_list) > 0 or len(leter_list) > 0:
                 tt, vv, oo, btns = st.beta_columns([2.3, 2.7, 4, 0.8])
                 seeds_list.sort()
+                words_list.sort()
                 leter_list.sort()
 
                 with tt:
-                    # options = list(range( len(temas_list)))
                     opt_tema = st.selectbox(
                         str(len(temas_list)) + " temas",
                         list(range( len(temas_list))),
@@ -663,7 +662,6 @@ def page_eureka():
                     )
 
                 with vv:
-                    # options = list(range( len(words_list)))
                     opt_word = st.selectbox(
                         str(len(words_list)) + " verbetes",
                         list(range( len(words_list))),
