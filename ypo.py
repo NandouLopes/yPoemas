@@ -12,7 +12,8 @@ after they are sold out the thourekasands
 of combinations possible to each theme.
 
 [dica do dia - a machina de fazer poesia - yPoemas]
-no Chrome, digite Ctrl + ou Ctrl -, use a lupa para aumentar ou diminuir a tela
+no Chrome, digite Ctrl + ou Ctrl -, use a lupa para aumentar ou diminuir a tela/ experimente tela cheia
+em settings, mudar tema para dark
 
 VISY == New Visitor
 NANY_VISY == Number of Visitors
@@ -177,6 +178,16 @@ def main():
     st.sidebar.image("./images/img_coffee.jpg")
     st.sidebar.state = True
 
+
+# @st.cache(allow_output_mutation=True)
+def pick_dolore():  # Select one image for Dolores
+    all_dolore = []
+    for file in os.listdir("./dolore/"):
+        if file.endswith(".jpg"):
+            all_dolore.append(file)
+    this = random.randrange(0, len(all_dolore))
+
+    return "./dolore/"+all_dolore[this]
 
 # count one more visitor
 def update_visy():
@@ -493,6 +504,7 @@ def say_numeros(tema):  # search index title for eureka
         if line.startswith(tema):
             this = line.strip("\n")
             break
+
     if this is not None:
         analise = "#️ " + this
         if st.session_state.lang == "en":
@@ -503,6 +515,7 @@ def say_numeros(tema):  # search index title for eureka
 
 
 @st.cache(allow_output_mutation=True)
+# @st.cache(suppress_st_warning=True, allow_output_mutation=True)
 def translate(input_text):
     if st.session_state.lang == "pt":  # no need
         return input_text
@@ -1128,7 +1141,7 @@ def page_ypoemas():
         )
         ypoemas_expander = st.beta_expander(info, expanded=True)
         with ypoemas_expander:
-            # start_time = datetime.now()
+            # start_time = time.time()
             if st.session_state.lang != st.session_state.last_lang:
                 curr_ypoema = load_lypo()  # changes in lang, keep LYPO
             else:
@@ -1145,10 +1158,58 @@ def page_ypoemas():
                     save_typo.close()
                 curr_ypoema = load_typo()  # to normalize line breaks in text
 
-            st.markdown(curr_ypoema, unsafe_allow_html=True)  # finally... write it
-            # print("Took: ", datetime.now() - start_time)
             update_readings(curr_tema)
-            
+            LOGO_TEXTO = curr_ypoema.replace("**", "")
+            # font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            # Times New Roman, Tahoma, Calibri, Verdana, Lucida Sans (PC) or Lucida Grande (Mac), IBM Plex Sans
+            st.markdown(
+                """
+                <style>
+                .container {
+                    display: flex;
+                }
+                .logo-text {
+                    font-weight:700 !important;
+                    font-size:18px !important;
+                    font-family: 'IBM Plex Sans';
+                    color: #000000 !important;
+                    padding-left: 20px !important;
+                    padding-top: 0px !important;
+                }
+                .logo-img {
+                    float:right;
+                }
+                </style>
+                """,
+                unsafe_allow_html=True
+                )
+                
+            if not talk_text:
+                # st.markdown(curr_ypoema, unsafe_allow_html=True)  # finally... write it
+                st.markdown(
+                    f"""
+                    <div class="container">
+                        <p class="logo-text">{LOGO_TEXTO}</p>
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                    )
+                # end_time = time.time()
+                # print("Execution Time: ",(end_time-start_time))
+            else: # if talk_text:
+                # color: #f9a01b !important;
+                # LOGO_IMAGE = pick_dolore()
+                # <div class="container">
+                #     <img class="logo-img" src="data:image/jpg;base64,{base64.b64encode(open(LOGO_IMAGE, "rb").read()).decode()}">
+                st.markdown(
+                    f"""
+                    <div class="container">
+                        <p class="logo-text">{LOGO_TEXTO}</p>
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                    )
+                
         if talk_text:
             talk(curr_ypoema)
 
