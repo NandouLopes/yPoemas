@@ -8,7 +8,7 @@
 |ArErIr|6|
 |Aries=f|4|
 |Aries=m|1|
-|Atido|9|
+|Atido|12|
 |Augusto|5|
 |Avevida|7|
 |Batismo|9|
@@ -31,7 +31,7 @@
 |Clarice|6|
 |Conto|48|
 |Cordel|2|
-|Cromossomo|57|
+|Cromossomo|59|
 |Cuores|38|
 |Demo|0|
 |Destinos|3|
@@ -43,7 +43,7 @@
 |Epitafiando|35|
 |Escorpio=f|2|
 |Escorpio=m|1|
-|Escriba|201|
+|Escriba|272|
 |Escribo|15|
 |Essa|58|
 |Estudo|14|
@@ -75,15 +75,15 @@
 |Loucura|0|
 |MachBeth|4|
 |MachBrait|3|
-|Manifesto|183|
+|Manifesto|191|
 |Manusgrite|38|
 |Manusgrito|0|
 |Meteoro|1|
 |Minuto|25|
 |Mirante|21|
 |Nonono|1|
-|Nós|24|
-|Oca|11|
+|Nós|35|
+|Oca|16|
 |Ocio|38|
 |Oco|20|
 |Oficio|48|
@@ -101,7 +101,7 @@
 |Prefácil|262|
 |Psiume|9|
 |Reclame|30|
-|Reger|21|
+|Reger|22|
 |Reinos|10|
 |Remedeio|4|
 |Rever|0|
@@ -109,7 +109,7 @@
 |Sagitari=f|0|
 |Sagitari=m|0|
 |Salute|4|
-|Saudades|139|
+|Saudades|141|
 |Seguro|81|
 |Sentença|35|
 |Ser|0|
