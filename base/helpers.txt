@@ -2,27 +2,34 @@
 |pt_rand|escolhe tema ao acaso|
 |pt_nest|próximo|
 |pt_love|mais lidos...|
+|pt_more|gera um novo yPoema|
+|pt_draw|imagens|
+|pt_talk|leituras|
 |es_last|anterior|
 |es_rand|elige un tema al azar|
 |es_nest|próximo|
 |es_love|mas leidos...|
+|es_more|genera un nuevo yPoem|
+|es_draw|imagenes|
+|es_talk|lecturas|
 |it_last|precedente|
 |it_rand|scegliere un tema a caso|
 |it_nest|prossimo|
 |it_love|più letto...|
+|it_more|genera un nuovo yPoem|
+|it_draw|immagini|
+|it_talk|lettura|
 |fr_last|précédent|
 |fr_rand|choisir le thème au hasard|
 |fr_nest|prochain|
 |fr_love|les plus lus...|
+|fr_more|génère un nouveau yPoem|
+|fr_draw|images|
+|fr_talk|lectures|
 |en_last|last|
 |en_rand|pick theme at random|
 |en_nest|next|
 |en_love|most read...|
-|de_last|letzte|
-|de_rand|ändert das thema zufällig|
-|de_nest|nächster|
-|de_love|meist gelesen...|
-|ca_last|anterior|
-|ca_rand|tria un tema a l'atzar|
-|ca_nest|següent|
-|ca_love|més llegit ...|
+|en_more|generates a new yPoem|
+|en_draw|pictures|
+|en_talk|readings|
