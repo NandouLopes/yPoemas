@@ -2,12 +2,9 @@ import os
 import random
 import datetime
 import streamlit as st
+
 from random import randrange
 
-# ToDo:
-# def key_words():  # based on eureka: st.session_state.find_word
-#     load_key_words():
-#  if word in key_words; word = '**' + word + '**'
 
 def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo texto
     """
@@ -43,13 +40,13 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
         where = -1
         for letra in seed_source:
             where += 1
-            if letra == '-':
+            if letra == "-":
                 minus = where
         maxis = where
         look_for_seed = True
-        this_seed = seed_source[0:minus-1]
-        seed_coords = seed_source[minus+2:maxis+1]
-        
+        this_seed = seed_source[0 : minus - 1]
+        seed_coords = seed_source[minus + 2 : maxis + 1]
+
     nome_tema = nome_tema.strip("\n")
 
     try:
@@ -96,13 +93,16 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
             se_randomico = alinhas[4]
             total_itimos = int(alinhas[5])
             itimos_atual = int(alinhas[6])
-            array_itimos = alinhas[7: len(alinhas) - 1]
-            
+            array_itimos = alinhas[7 : len(alinhas) - 1]
+
             if itimos_atual > len(array_itimos):
                 itimos_atual = len(array_itimos)
-                
+
             if total_itimos != len(array_itimos):  # just in case...
-                total_itimos = len(array_itimos)   # real lenght...
+                total_itimos = len(array_itimos)  # real lenght...
+
+            if total_itimos == 1:  # just in case...
+                se_randomico = "F"
 
             tentativas = 0
             while True:  # Seleciona próximo ítimo (para não repetir...)
@@ -110,7 +110,9 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
                     if se_randomico == "F":
                         itimos_atual -= 1  # because matrix começa em zero
                         if itimos_atual < 0:
-                            itimos_atual = total_itimos - 1  # because matrix começa em zero
+                            itimos_atual = (
+                                total_itimos - 1
+                            )  # because matrix começa em zero
                     else:
                         if total_itimos >= 1:
                             itimos_atual = randrange(0, total_itimos - 1)
@@ -118,34 +120,44 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
                             itimos_atual = 0
                 else:
                     itimos_atual = 0
-                
-                # print(array_itimos)  # for debug
+
                 if itimos_atual >= 0 and itimos_atual <= len(array_itimos):
                     itimo_escolhido = array_itimos[itimos_atual]
                 else:
-                    print(nome_tema, " - error: ", array_itimos, itimos_atual)
+                    st.warning(
+                        "Algo deu errado com o tema "
+                        + nome_tema.upper() + ". Se puder, entre em contato com o Autor."
+                        )
                     itimo_escolhido = "_Erro_"
 
-                if ( fonte_itimos == seed_coords ):  # eureka parameter
+                if fonte_itimos == seed_coords:  # eureka parameter
                     if look_for_seed:  # not changed yet...
                         for itimo in array_itimos:
-                            if (this_seed.lower() in itimo.lower()):
+                            if this_seed.lower() in itimo.lower():
                                 itimo_escolhido = itimo
-                                lista_unicos.append(itimo_escolhido.upper())  # cannot repeat words...
-                                itimo_escolhido = itimo_escolhido.replace(this_seed, "**" + this_seed + "**")  # markdown text
+                                lista_unicos.append(
+                                    itimo_escolhido.upper()
+                                )  # cannot repeat words...
+                                itimo_escolhido = itimo_escolhido.replace(
+                                    this_seed, "<mark>" + this_seed + "</mark>"
+                                )  # markdown text
                                 look_for_seed = False
-                
-                #   Elimina duplicidaders óbvias...
+
                 temp_random = se_randomico
-                if ( not itimo_escolhido.upper()
-                     in "_E_A_AS_O_OS_NO_NOS_NA_NAS_ME_DE_SE_QUE_NÃO_SO_SEM_NEM_EM_UM_UMA_POR_MEU_VE_TE_TÃO_DA_SER_TER_PRA_PARA_QUANDO_..._._,_:_!_?"
-                    ):
-                    if ( itimo_escolhido.upper() not in lista_unicos ):  # check if not yet used...
+                if (
+                    not itimo_escolhido.upper()  # Elimina duplicidaders óbvias...
+                    in "_E_A_AS_O_OS_NO_NOS_NA_NAS_ME_DE_SE_QUE_NÃO_SO_SEM_NEM_EM_UM_UMA_POR_MEU_VE_TE_TÃO_DA_SER_TER_PRA_PARA_QUANDO_..._._,_:_!_?"
+                ):
+                    if (
+                        itimo_escolhido.upper() not in lista_unicos
+                    ):  # check if not yet used...
                         lista_unicos.append(itimo_escolhido.upper())
                         break
-                    else:  # used somewhre... s...
+                    else:
                         tentativas += 1
-                        if ( tentativas > total_itimos ):  # Tentativas > que total de ítimos: pega o próximo sequencial
+                        if (
+                            tentativas > total_itimos
+                        ):  # tentativas > que total de ítimos: pega o próximo sequencial
                             if temp_random == "T":
                                 tentativas = 0  # Da Capo
                                 temp_random = "F"
@@ -153,19 +165,17 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
                                 lista_unicos.append(itimo_escolhido.upper())
                                 lista_duplos.append(itimo_escolhido.upper())
                                 break
-                
+
                         if itimo_escolhido in lista_duplos:
                             if len(itimo_escolhido) > 3:
-                                # print(itimo_escolhido, " ---> repetido")
                                 continue
-                
+
                         if tentativas > 50:
                             break
                 else:
                     break
 
-            # check if is a new line on script
-            if numero_linea != muda_linha:  # line is changed
+            if numero_linea != muda_linha:  # check if is a new line on script
                 novo_poema.append(acerto_final(novo_verso, nome_tema))
                 novo_verso = ""
                 muda_linha = numero_linea
@@ -177,13 +187,7 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
                 pula_linha = "no"
 
             new_line = (
-                    "|"
-                    + numero_linea
-                    + "|"
-                    + ideia_numero
-                    + "|"
-                    + fonte_itimos
-                    + "|"
+                "|" + numero_linea + "|" + ideia_numero + "|" + fonte_itimos + "|"
             )
 
             if itimos_atual < 1:  # sequencial = -1
@@ -197,41 +201,41 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
                 new_line += "F"
             new_line += "|" + str(total_itimos) + "|" + str(itimos_atual)
 
-            for v in alinhas[7: len(alinhas) - 1]:
+            for v in alinhas[7 : len(alinhas) - 1]:
                 new_line += "|" + v
             new_line += "|\n"
             lista_change.append(new_line)
     # end for... lista_linhas
 
     novo_poema.append(acerto_final(novo_verso, nome_tema))
-    # remove CataPala:
-    # catapala = conta_palas(novo_poema)
-    # catapala = str(catapala)
+
+    if nome_tema == "Nós":
+        novo_poema.append("\n")
+        novo_poema.append(
+            '<a href="https://thispersondoesnotexist.com/" target="_blank">... quem será essa pessoa que não existe?</a>'
+        )
 
     if len(lista_errata) > 0:
-        print(lista_errata)
+        st.warning(
+        "Algo deu errado com o tema "
+        + nome_tema.upper() + ". Se puder, entre em contato com o Autor."
+        )
     else:
         # rebuild script with new positions
-        with open(os.path.join("./data/" + nome_tema + ".ypo"), "w", encoding = "utf-8") as file:
+        with open(
+            os.path.join("./data/" + nome_tema + ".ypo"), "w", encoding="utf-8"
+        ) as file:
             for linha in lista_header:
                 file.write(linha)
 
             for linha in lista_change:
                 file.write(linha)
-        
-            # for linha in lista_finais:
-            #     if 'CATAPALA' in str(linha):
-            #         del (linha)
-        
-            # if "CATAPALA" not in str(lista_finais):  # se não gravou...
-            #     lista_finais.insert(1, "CATAPALA = " + catapala + "\n")
-        
+
             for linha in lista_finais:
-                # if "CATAPALA" in str(linha):
-                #     linha = "CATAPALA = " + catapala + "\n"
                 file.write(linha)
+
         file.close()
-        
+
     return novo_poema
 
 
@@ -285,7 +289,7 @@ def load_cidade_fato():
     :return: alguma cidade do arquivo fatos_cidades.txt
     """
     cidades = []
-    with open(os.path.join("./base/fatos_cidades.txt"), encoding = "utf8") as file:
+    with open(os.path.join("./base/fatos_cidades.txt"), encoding="utf8") as file:
         for line in file:
             cidades.append(line)
         file.close()
@@ -301,8 +305,7 @@ def fala_cidade():
     :return: alguma cidade do arquivo cidade_país.txt
     """
     cidades = []
-    # cidade_pais.txt ## não conseguiu abrir o codec !!!
-    with open(os.path.join("./base/fatos_cidades.txt"), encoding = "utf8") as file:
+    with open(os.path.join("./base/fatos_cidades.txt"), encoding="utf8") as file:
         for line in file:
             cidades.append(line)
         file.close()
@@ -379,31 +382,12 @@ def fala_norma_abnp():
     return str(hoje.day) + "/" + str(hoje.year)
 
 
-def conta_palas(frase):
-    """
-    :param frase
-    :return: quantidade de palavras na "frase" = todas as linhas do poema gerado
-    """
-
-    # palavras = frase.split(" ")  # separa palavras
-    texto = ""
-    somas = 0
-    for p in frase:
-        texto += p
-
-    for p in texto:
-        if p == " ":
-            somas += 1
-
-    return somas
-
-
 def abre(nome_do_tema):
     """
     :param nome_do_tema
     :return: lista do arquivo
     """
-    
+
     full_name = os.path.join("./data/", nome_do_tema) + ".ypo"
     lista = []
     with open(full_name, encoding="utf-8") as file:
@@ -412,6 +396,7 @@ def abre(nome_do_tema):
         file.close()
 
     return lista
+
 
 @st.cache(allow_output_mutation=True)
 def load_babel():
@@ -427,15 +412,15 @@ def novo_babel(swap_pala):
     :param swap_pala: quantas palavras por linhas no poema: 0 = rand; n = n-1 palavras
     :return: poema aleatório
     """
-    
+
     lista_silabas = load_babel()
     sinais_ini = [".", ",", ":", "!", "?", "...", " "]
     sinais_end = [".", "!", "?", "..."]
-        
+
     min_versos = 5
     max_versos = 15
     qtd_versos = random.randrange(min_versos, max_versos)
-    
+
     sinal = "."
     novo_poema = []
     for nQtdLin in range(1, qtd_versos):
@@ -444,7 +429,7 @@ def novo_babel(swap_pala):
             qtd_palas = random.randrange(3, 7)
         else:
             qtd_palas = swap_pala
-    
+
         for nova_frase in range(1, qtd_palas):
             nova_pala = ""
             qtd_silabas = random.randrange(2, 4)
@@ -458,12 +443,12 @@ def novo_babel(swap_pala):
             nova = nova.replace("uu", "u")
             novo_verso += nova.strip() + " "
             novo_verso.strip()
-    
+
         if nQtdLin == 1:
             njump = random.randrange(0, len(sinais_ini))
             sinal = sinais_ini[njump]
             novo_poema.append("")
-            novo_poema.append(novo_verso.strip()+sinal)
+            novo_poema.append(novo_verso.strip() + sinal)
         else:
             nany = random.randrange(0, 99)
             if nany <= 50:
@@ -474,7 +459,7 @@ def novo_babel(swap_pala):
             if nany <= 50:  # put some ","
                 if "," != sinal:
                     novo_poema.append("")
-    
+
     last = novo_poema[-1]
     njump = random.randrange(0, len(sinais_end))
     sinal = sinais_end[njump]
@@ -484,6 +469,5 @@ def novo_babel(swap_pala):
             novo_poema[-1] += sinal
         else:
             novo_poema[-1] += "."
-    
-    return novo_poema
 
+    return novo_poema
