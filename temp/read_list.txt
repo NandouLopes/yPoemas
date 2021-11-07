@@ -111,7 +111,7 @@
 |Salute|4|
 |Saudades|145|
 |Seguro|118|
-|Sentença|68|
+|Sentença|78|
 |Ser|0|
 |Silente|68|
 |Sinais|39|
