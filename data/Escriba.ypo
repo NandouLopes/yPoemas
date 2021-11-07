@@ -21,46 +21,49 @@
 *- |13|01|revelando|
 *-
 *- [novo] o homem e suas próprias aberrações? == o homem com suas aberrações;
+*- [novo] |13|01|Quem é o escriba?|
+*- [novo] |13|02|Victor|Vitão|Victor Leonardi|Perguntar em Sucy-en-Brie|Professor da UNB|[link]|
 *-
 *- [intervenções] a música é a poesia(a música e a poesia)
 *- [intervenções] indo, vindo e indo(ia e voltava)
+*- |13|02|Victor|Vitão|Victor|Vitão Leonardi|Informar-se em Sucy-en-Brie|um link|Professor da U.N.B|
 *-
 *- |10|04|Escriba_1004|F|1|1|,|
-|01|01|Escriba_0101|F|1|1|[ o não-livro ]|
-|02|01|Escriba_0201|F|5|4|Tal|Uma|Feito|... Sendo|Um ideal de|
-|02|02|Escriba_0202|F|6|1|utopia|felicidade|viagem|ficção|não-obra|vida|
-|02|03|Escriba_0203|F|8|2|metafísica|desconhecida|nômade|coletiva|duradoura|quase inofensiva|misteriosa|inventiva|
+|01|01|Escriba_0101|F|1|1|( o não-livro )|
+|02|01|Escriba_0201|F|5|2|Tal|Uma|Feito|... Sendo|Um ideal de|
+|02|02|Escriba_0202|F|6|4|utopia|felicidade|viagem|ficção|não-obra|vida|
+|02|03|Escriba_0203|F|8|3|metafísica|desconhecida|nômade|coletiva|duradoura|quase inofensiva|misteriosa|inventiva|
 |02|04|Escriba_0204|F|1|1|,|
-|03|01|Escriba_0301|F|17|16|linguagem desencarnada|momento na sombra|tempo não passado|monólogos internos|espelho sem imagem|ideia desencarnada|ilhas imaginárias|labirinto medieval|interminável monólogo|mar de sem fim|desvios e meandros|corpos inventados|frases soltas|mar de imensidão|fruto indeiscente|mar abstrato|literatura perdida|
+|03|01|Escriba_0301|F|17|12|linguagem desencarnada|momento na sombra|tempo não passado|monólogos internos|espelho sem imagem|ideia desencarnada|ilhas imaginárias|labirinto medieval|interminável monólogo|mar de sem fim|desvios e meandros|corpos inventados|frases soltas|mar de imensidão|fruto indeiscente|mar abstrato|literatura perdida|
 |03|02|Escriba_0302|F|3|1|...|,|e|
 |04|01|Escriba_0401|F|3|3|textos|livros|pensamentos|
-|04|02|Escriba_0402|F|14|5|sem idade|não escritos|mediúnicos|vaga-lumes|fogo-fátuos|-ideias|imaginários|impossíveis|com destino próprio|-entidades|não materializados|interligados|sem raciocinar|nunca realizados|
-|04|03|Escriba_0403|F|8|2|na trajetória do pensamento|vagando no limbo|na esfera do pensamento|passeando pelo espírito|indo, vindo e indo|guardados na imaginação|gestados na cabeça|pensados vez em quando|
+|04|02|Escriba_0402|F|14|14|sem idade|não escritos|mediúnicos|vaga-lumes|fogo-fátuos|-ideias|imaginários|impossíveis|com destino próprio|-entidades|não materializados|interligados|sem raciocinar|nunca realizados|
+|04|03|Escriba_0403|F|8|3|na trajetória do pensamento|vagando no limbo|na esfera do pensamento|passeando pelo espírito|indo, vindo e indo|guardados na imaginação|gestados na cabeça|pensados vez em quando|
 |04|04|Escriba_0404|F|1|1|.|
 |05|00|
-|05|01|Escriba_0501|F|1|1|[ a biblioteca ]|
-|06|01|Escriba_0601|F|7|3|Falsificação|Deturpação|Mentira|Imitação|Subversão|Deformação|Paródia|
-|06|02|Escriba_0602|F|11|9|desconhecida|romanesca|objetiva|coletiva|duradoura|quase inofensiva|misteriosa|em lantejoulas|burlesca|intelectual|máxima|
+|05|01|Escriba_0501|F|1|1|( a biblioteca )|
+|06|01|Escriba_0601|F|7|5|Falsificação|Deturpação|Mentira|Imitação|Subversão|Deformação|Paródia|
+|06|02|Escriba_0602|F|11|2|desconhecida|romanesca|objetiva|coletiva|duradoura|quase inofensiva|misteriosa|em lantejoulas|burlesca|intelectual|máxima|
 |06|03|Escriba_0603|F|1|1|:|
-|07|01|Escriba_0701|F|4|2|se|quando|onde|para|
+|07|01|Escriba_0701|F|4|3|se|quando|onde|para|
 |07|02|Escriba_0702|F|1|1|livros|
-|07|03|Escriba_0703|F|8|1|desencarnados|recusados|desconhecidos|tortos|não escritos|indo, vindo e indo|pedagógicos|objetos|
+|07|03|Escriba_0703|F|8|2|desencarnados|recusados|desconhecidos|tortos|não escritos|indo, vindo e indo|pedagógicos|objetos|
 |07|04|Escriba_0704|F|1|1|,|
-|08|01|Escriba_0801|F|16|1|espíritos livres|latim bárbaro|espíritos errantes|mitos ibéricos|espíritos cativos|almas viúvas|segredos essênios|desmemória|a lógica-rainha|sociedades sem escrita|almas penadas|matéria rude|surpresas, imprevistos|almas vagabundas|repúblicas antigas|isolamento, segregação|
-|08|02|Escriba_0802|F|4|2|e|... quiçá|ou|... e talvez|
-|08|03|Escriba_0803|T|15|9|latim bárbaro|mitos ibéricos|segredos essênios|a lógica-rainha|surpresas, imprevistos|repúblicas antigas|conotações pejorativas|requerimentos burocráticos|tempos merovíngios|melancólicos relatos|torturas e prisões|aceitação da rotina|guerra de rapina|sociedades primitivas|aceitação da monotonia|
+|08|01|Escriba_0801|F|16|10|espíritos livres|latim bárbaro|espíritos errantes|mitos ibéricos|espíritos cativos|almas viúvas|segredos essênios|desmemória|a lógica-rainha|sociedades sem escrita|almas penadas|matéria rude|surpresas, imprevistos|almas vagabundas|repúblicas antigas|isolamento, segregação|
+|08|02|Escriba_0802|F|4|3|e|... quiçá|ou|... e talvez|
+|08|03|Escriba_0803|T|15|10|latim bárbaro|mitos ibéricos|segredos essênios|a lógica-rainha|surpresas, imprevistos|repúblicas antigas|conotações pejorativas|requerimentos burocráticos|tempos merovíngios|melancólicos relatos|torturas e prisões|aceitação da rotina|guerra de rapina|sociedades primitivas|aceitação da monotonia|
 |08|04|Escriba_0804|F|1|1|.|
 |09|00|
-|09|01|Escriba_0901|F|1|1|[ utopia: |
-|09|02|Escriba_0902|F|25|3|a ficção do terceiro milênio|o domínio dos signos|a lei da atração|o triunfo dos comediantes|a música interior|o degelo da sisudez|o caráter sagrado|a sociedade ideal|os mundos irrealizáveis|o circo feito catedral|o livro mais que impossível|a eufórica lucidez|a música e a poesia|a desordem e a loucura|o eterno ciganismo|o estímulo da descoberta|a poesia liberta do poema|a poesia respingando tudo|a música é a poesia|a liberdade de ação|o fantástico inexistente|a superação dos limites|algumas palavras a mais|o tempo não passado|outra língua qualquer|
-|09|03|Escriba_0903|F|1|1| ]|
-|10|01|Escriba_1001|F|6|1|Nômade|Poeta|Náufrago|Deus-raposa|Homem|Escriba|
-|10|02|Escriba_1002|F|4|1|etéreo|-antropófago|submergível,|sem fronteiras,|
-|10|03|Escriba_1003|F|8|6|avesso aos conceitos|vacinado contra teses|em corpo de Hidra|descartado de antinomias|semeado por Cronos|acolhido por Hera|com destino próprio|depois dos limites|
-|11|01|Escriba_1101|F|12|4|apenas encontrando|em nascimento|no reino da analogia|grão de areia no deserto|replantando esperanças|rompendo o espaço|febrilhando|estreita as garras, humano|a replantar ilusão|animal que emerge|revelando|sem perder o essencial|
+|09|01|Escriba_0901|F|1|1|( utopia: |
+|09|02|Escriba_0902|F|25|24|a ficção do terceiro milênio|o domínio dos signos|a lei da atração|o triunfo dos comediantes|a música interior|o degelo da sisudez|o caráter sagrado|a sociedade ideal|os mundos irrealizáveis|o circo feito catedral|o livro mais que impossível|a eufórica lucidez|a música e a poesia|a desordem e a loucura|o eterno ciganismo|o estímulo da descoberta|a poesia liberta do poema|a poesia respingando tudo|a música é a poesia|a liberdade de ação|o fantástico inexistente|a superação dos limites|algumas palavras a mais|o tempo não passado|outra língua qualquer|
+|09|03|Escriba_0903|F|1|1| )|
+|10|01|Escriba_1001|F|6|4|Nômade|Poeta|Náufrago|Deus-raposa|Homem|Escriba|
+|10|02|Escriba_1002|F|4|2|etéreo|-antropófago|submergível,|sem fronteiras,|
+|10|03|Escriba_1003|F|8|7|avesso aos conceitos|vacinado contra teses|em corpo de Hidra|descartado de antinomias|semeado por Cronos|acolhido por Hera|com destino próprio|depois dos limites|
+|11|01|Escriba_1101|F|12|1|apenas encontrando|em nascimento|no reino da analogia|grão de areia no deserto|replantando esperanças|rompendo o espaço|febrilhando|estreita as garras, humano|a replantar ilusão|animal que emerge|revelando|sem perder o essencial|
 |11|02|Escriba_1102|F|1|1|,|
-|11|03|Escriba_1101|T|12|2|apenas encontrando|em nascimento|no reino da analogia|grão de areia no deserto|replantando esperanças|rompendo o espaço|febrilhando|estreita as garras, humano|a replantar ilusão|animal que emerge|revelando|sem perder o essencial|
+|11|03|Escriba_1101|T|12|3|apenas encontrando|em nascimento|no reino da analogia|grão de areia no deserto|replantando esperanças|rompendo o espaço|febrilhando|estreita as garras, humano|a replantar ilusão|animal que emerge|revelando|sem perder o essencial|
 |11|04|Escriba_1104|F|3|1|...|.|:|
-|12|01|Escriba_0902|T|25|22|A ficção do terceiro milênio|O domínio dos signos|A lei da atração|O triunfo dos comediantes|A música interior|O degelo da sisudez|O caráter sagrado|A sociedade ideal|Os mundos irrealizáveis|O circo feito catedral|O livro mais que impossível|A eufórica lucidez|A música e a poesia|A desordem e a loucura|O eterno ciganismo|O estímulo da descoberta|A poesia liberta do poema|A poesia respingando tudo|A música é a poesia|A liberdade de ação|O fantástico inexistente|A superação dos limites|Algumas palavras a mais|O tempo não passado|Outra língua qualquer|
+|12|01|Escriba_0902|T|25|19|A ficção do terceiro milênio|O domínio dos signos|A lei da atração|O triunfo dos comediantes|A música interior|O degelo da sisudez|O caráter sagrado|A sociedade ideal|Os mundos irrealizáveis|O circo feito catedral|O livro mais que impossível|A eufórica lucidez|A música e a poesia|A desordem e a loucura|O eterno ciganismo|O estímulo da descoberta|A poesia liberta do poema|A poesia respingando tudo|A música é a poesia|A liberdade de ação|O fantástico inexistente|A superação dos limites|Algumas palavras a mais|O tempo não passado|Outra língua qualquer|
 |12|02|Escriba_1202|F|1|1|.|
 <EOF>

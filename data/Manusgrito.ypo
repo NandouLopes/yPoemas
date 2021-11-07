@@ -1,43 +1,41 @@
 *-
 *- Manusgrito.ipo
 *- ( eu grito )
-*- |05|01|Manusgrito_0501|F|4|2|Passam por mim|Saltam dela|Giram na memória|Brincam na retina|
-*- |05|02|Manusgrito_0502|F|2|1|vontades|desejos|
-*- |05|03|Manusgrito_0503|F|1|1|e|
-*- |05|04|Manusgrito_0502|F|2|1|lembranças|infâncias|
-*- |05|07|Manusgrito_0507|F|1|1|.|
 *-
 |01|01|Manusgrito_0101|F|1|1|( |
-|01|02|Manusgrito_0102|F|5|1|mini-manual|dicas inúteis|pequenos rituais|mapa da mina|caminhos fáceis|
-|01|03|Manusgrito_0103|F|1|1|para quem escreve )|
+|01|02|Manusgrito_0102|F|10|6|método|ritual|mapa|truque|caminho|guia|manual|roteiro|conselho|oráculo|
+|01|03|Manusgrito_0103|F|11|5|infalível|sintético|fictício|secreto|quase mágico|caótico|eclético|inútil|simplificado|resumido|empírico|exótico|
+|01|04|Manusgrito_0104|F|1|1|para quem escreve )|
 |02|00|
-|02|01|Manusgrito_0201|F|7|1|Gesto|Nutro|Gasto|Passo|Mimo|Viro|Gero|
-|02|02|Manusgrito_0202|F|5|1|anos|segundos|dias|horas|noites|
-|03|01|Manusgrito_0301|F|7|3|moldando|auscultando|lustrando|procurando|polindo|costurando|rebuscando|
-|03|02|Manusgrito_0302|F|4|4|uma|outra|a mesma|a certa|
-|03|03|Manusgrito_0303|F|1|1|palavra|
+|02|01|Manusgrito_0201|F|8|8|Gesto|Nutro|Gasto|Passo|Mimo|Reviro|Gero|Encaro|
+|02|02|Manusgrito_0202|F|6|6|anos|segundos|dias|horas|noites|meses|
+|03|01|Manusgrito_0301|F|7|7|moldando|auscultando|lustrando|procurando|polindo|costurando|rebuscando|
+|03|02|Manusgrito_0302|F|4|3|algumas|"aquelas"|as mesmas|a certas|
+|03|03|Manusgrito_0303|F|1|1|palavras|
 |04|01|Manusgrito_0401|F|1|1|... |
-|04|02|Manusgrito_0402|F|4|1|e nem a uso.|e não a desnudo.|e uso outra.|e dou-lhe nova lida.|
+|04|02|Manusgrito_0402|F|4|3|e nem as uso.|e não as desnudo.|e uso outras.|e dou-lhes nova lida.|
 |05|00|
-|05|01|Manusgrito_0501|F|7|3|Junto-as|Costuro-as|Uno-as|Ato-as|Envolvo-as|Abraço-as|Enlaço-as|
+|05|01|Manusgrito_0501|F|7|2|Junto-as|Costuro-as|Uno-as|Ato-as|Envolvo-as|Abraço-as|Enlaço-as|
 |05|03|Manusgrito_0503|F|1|1|,|
-|05|04|Manusgrito_0504|F|6|2|sem acaso|pacientemente|meticuloso|com minúcia|mesmo as sem utopia|uma pós outra|
+|05|04|Manusgrito_0504|F|10|10|sem acaso|pacientemente|meticuloso|com minúcia|mesmo as sem utopia|uma pós outra|incluindo as obscuras|mesmo que humildes|contundentes ou não|sabendo sempre onde estão|
 |05|05|Manusgrito_0503|F|1|1|,|
 |06|01|Manusgrito_0601|F|5|1|para que conversem entre si|... que conversem entre si|numa fogueira sem vaidades|em algum amanhã|em algo não sonhado|
 |06|02|Manusgrito_0602|F|1|1|:|
-|07|01|Manusgrito_0701|F|1|1|são|
-|07|02|Manusgrito_0702|F|6|2|floresta|tempestade|constelação|arquipélago|cardume|melodia|
+|07|01|Manusgrito_0701|F|2|2|são|serão|
+|07|02|Manusgrito_0702|F|8|8|floresta|tempestade|constelação|arquipélago|cardume|turbilhão|melodia|furacão|
 |07|03|Manusgrito_0703|F|1|1|.|
 |08|00|
-|08|01|Manusgrito_0801|F|1|1|Quando finalmente|
-|08|02|Manusgrito_0802|F|9|8|respiram|juntas|me acodem|eclodem|explodem|unidas|acordam|despem-se|despontam|
-|08|03|Manusgrito_0401|F|2|1|,||
-|09|01|Manusgrito_0901|F|4|1|criam|desenham|alimentam|espelham|
-|09|02|Manusgrito_0902|F|2|1|seu próprio sentido|um novo tabuleiro|
-|10|01|Manusgrito_1001|F|3|2|e mostram|e anunciam|e provam|
-|10|02|Manusgrito_1002|F|3|2|o poder que já tinham.|cada uma a que veio.|que de nada ainda sei.|
+|08|01|Manusgrito_0801|F|3|2|Quando enfim|No futuro, quando|Quando finalmente|
+|08|02|Manusgrito_0802|F|9|3|respirarem|andarem juntas|forem melodia|eclodirem|explodirem|estiverem despidas|pulsarem unidas|concordarem|despontarem|
+|09|01|Manusgrito_0901|F|4|2|criarão|desenharão|alimentarão|espelharão|
+|09|02|Manusgrito_0902|F|3|3|seu próprio sentido|um novo tabuleiro|um novo sentido|
+|09|03|Manusgrito_0903|F|1|1|e,|
+|10|01|Manusgrito_1001|F|8|5|imprevisíveis|maleáveis|inesperadas|surpreendentes|misteriosas|voláteis|enigmáticas|tentadoras|
+|10|01|Manusgrito_1001|F|1|1|que são,|
+|11|01|Manusgrito_1101|T|5|1|descobrirão|mostrarão|anunciarão|provarão|revelarão|
+|11|02|Manusgrito_1102|F|3|3|o poder que já tinham.|, cada uma, a que veio.|o que estava escondido.|
 <EOF>
-CATAPALA = 43
+CATAPALA = 44
 VERBETES = 115
 PALAVRAS = 149
 VARIATIO = 32.006.016.000                                                                  
