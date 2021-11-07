@@ -1,31 +1,32 @@
 yPoemas: modo de usar  
 ---
+[**vídeo-tutorial**](https://youtu.be/SxtA5SM1hUw)  
 
-No topo da página há um **botão** para cada idioma: **[ pt es it fr en de ☀ ]**  
+No menu principal há um **botão** para cada idioma: **[ pt es it fr en ⚒️ ]**  
 
 - Escolha o **botão** para ler o yPoema no **idioma** desejado.  
 > - Ao trocar de idioma será mostrada a tradução do texto que está na tela.  
-- Clique novamente no mesmo **botão** para gerar **variações** sobre o tema.  
-> - O **botão** [☀] pode ser configurado na página **poly** no **menu**.  
->> - Há uma **lista** com 95 outros idiomas disponíveis no Google Translator.  
->> - O idioma selecionado na **lista** ficará sempre neste botão.  
->> - Recomenda-se a leitura do texto **traduttore** na página **about**.  
+- Selecione **imagens** para ver ilustrações do texto.  
+- Selecione **leituras** para ouvir o texto no idioma selecionado.  
+
+- O idioma do **botão** [ ⚒️  ] pode ser configurado na página **poly** no **menu**.  
+> - Há uma **lista** com 95 outros idiomas disponíveis no Google Translator.  
+> - O idioma selecionado na **lista** ficará sempre neste botão.  
+> - Recomenda-se a leitura do texto **traduttore** na página **about**.  
 ---
 
-**na segunda linha de botões**  
+**na área de leitura**  
 
+- ✔ = Gera um novo texto para o tema.  
 - ◀ = Move para o tema anterior.  
-- ★ = Escolhe um tema aleatoriamente.  
+- ✴ = Escolhe um tema aleatoriamente.  
 - ▶ = Move para o próximo tema.  
-- ❤ = Lista dos temas mais lidos.  
+- ☁  = Quantidade de variações possíveis para o tema.  
+- ?  = Modo de Usar  
 
-- ☁  = Mostra a quantidade de variações possíveis para o tema.  
-> - Clique para ver uma nuvem de palavras.  
+> - Clique em ☁ para ver uma nuvem de palavras.  
 > - Cada clique gera uma nuvem diferente.  
-> - Use o botão direito do **mouse** para salvar a imagem.  
->> - ( ***mouse:*** apetrecho eletrônico que se usava antes do celular... )  
 
-- ?  = Manual do Usuário  
 ---
 
 **barra** de temas  
@@ -42,13 +43,14 @@ No topo da página há um **botão** para cada idioma: **[ pt es it fr en de ☀
 > - **48**  = total de temas deste livro  
 ---
 
-- No navegador Google Chrome use as setas **Ctrl+ ou Ctrl-**  
-- para aumentar ou diminuir o tamanho da tela.  
+- No navegador Google Chrome:  
+> - Use as setas **Ctrl + ou Ctrl -** para aumentar ou diminuir o tamanho da tela.  
+> - Use o botão direito do **mouse** para salvar uma imagem.  
 
-- Para **buscar** palavras use a página **eureka** do **menu**.  
-- Você pode usar **Ctrl C** e **Ctrl V** para **copiar** textos da tela.  
-- Para mudar de **livro** use a página **books** do **menu**.  
-- Clique em qualquer **botão** para sair desta tela.  
+> - Para **buscar** palavras use a página **eureka** do **menu**.  
+> - Você pode usar **Ctrl C** e **Ctrl V** para **copiar** textos da tela.  
+> - Para mudar de **livro** use a página **books** do **menu**.  
+> - Clique em qualquer **botão** para sair desta tela.  
 ---
 
 Copyright © 2021 Nando Lopes - **yPoemas @ machina de fazer Poesia**

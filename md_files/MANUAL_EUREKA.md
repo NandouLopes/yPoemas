@@ -1,28 +1,22 @@
 eureka: modo de usar
 ___
 > No topo da página, abaixo da frase  
-> "digite uma palavra (ou parte dela) para buscar..."  
-> escreva algo que queira ler no ambiente da "machina".  
+> "digite algo para **buscar**..."  
+> escreva o que quer ler no ambiente da "machina".  
 >  
->> ✳ = buscar palavras com essa sequência de letras.  
->> Ø  = buscar palavras que contenham todas as letras digitadas.  
->>  ? = modo de usar  
->>> ( pense nisso como uma **semente** )  
+>> Clique em ✔ para buscar palavras com essas letras  
+>> **ou** para ver variações do mesmo tema.  
 
-> Logo abaixo serão listados os temas e verbetes que contém  
-> a **semente** e as **ocorrências** dos verbetes em cada tema.  
-  
+> Ao lado serão listados os **verbetes** e as **ocorrências** da busca.  
 > Clique em qualquer **ocorrência** para gerar um novo yPoema.  
->> O verbete escolhido aparecerá em **negrito** no texto.  
+>> O **verbete** escolhido aparecerá **destacado** no texto.  
   
 > Na lista de **ocorrências** digite letras para filtrar os resultados:  
 >> experimente 1 ou 2 letras... para entender o efeito do **filtro**.
-
-> O botão **[ + ]** mostra a quantidadede variações possíveis de cada tema.  
->> Clique nesse botão para ver variações do mesmo tema.  
   ___
 > - A busca é por palavras da lingua portuguesa.  
-> - Quanto menor a **semente**, mais resultados serão encontrados.  
+> - ( pense nisso como uma **semente** )  
+> - Quanto menor a **semente**, mais **verbetes** serão encontrados.  
 
 >> Para ser fiel aos nomes próprios e à grafia original dos textos  
 >> as palavras iniciadas por Maiúsculas foram mantidas.  

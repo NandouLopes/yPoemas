@@ -1,11 +1,11 @@
 off-machina: modo de usar  
 ___
 
-**no topo da página** há um botão para cada idioma: **[ pt es it fr en de ☀ ]**  
+**no topo da página** há um botão para cada idioma: **[ pt es it fr en ⚒️ ]**  
 
 - Clique no botão para ler os poemas/textos no idioma selecionado.  
 - Ao mudar de idioma, será mostrada a tradução do texto que está na tela.  
-> - O botão **[☀]** pode ser configurado na página **poly** no **menu**.  
+> - O botão **[ ⚒️ ]** pode ser configurado na página **poly** no **menu**.  
 >> - Há uma lista com 95 outros idiomas disponíveis no **Google Translator**.  
 >> - O idioma selecionado na lista ficará sempre neste botão.  
 >> - Recomenda-se a leitura do texto **traduttore** na página **about**.  

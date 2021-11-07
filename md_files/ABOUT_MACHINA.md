@@ -4,8 +4,8 @@ ___
 > Um aplicativo para gerar poemas ou textos aleatóriamente.  
 
 **Visão geral**  
-> O trabalho é dividido em temas. Atualmente são 142.  
-> Com um total aproximado de 34.600 palavras **[ver obs.]**,  
+> O trabalho é dividido em temas. Atualmente são 144.  
+> Com um total aproximado de 35.000 palavras **[ver obs.]**,  
 > são criados **Bancos de Palavras** para cada tema.  
 
 > Escolhido um tema, o aplicativo seleciona e embaralha aleatoriamente  
@@ -66,10 +66,10 @@ ___
   depende da quantidade de opções existentes nos "Bancos de Palavras" do tema.  
   O número varia de alguns milhões a valores quase astronômicos.  
 
+> Na página **mini** o botão '☁' mostra essas variações.  
 > Na página **yPoemas** o botão '☁' mostra essas variações.  
-> Na página **eureka** o botão '+' mostra essas variações.  
 
-**[obs.]** - cerca de 12.300 verbetes únicos  
+**[obs.]** - cerca de 12.500 verbetes únicos  
 > foram excluídos dessas contagens verbetes com menos de 3 sílabas.  
 > exemplos: o, a, à, e, é, os, as, de, da, do, eu, ao, em, um etc...  
 

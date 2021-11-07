@@ -1,4 +1,4 @@
-são textos e poemas únicos,  
+São textos e poemas únicos  
 gerados aleatoriamente pela  
 **machina de fazer Poesia**  
 e só se repetirão se esgotadas  
