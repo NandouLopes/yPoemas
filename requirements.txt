@@ -1,4 +1,4 @@
-streamlit==0.84.1
+streamlit==1.1.0
 wordcloud==1.8.1
 matplotlib==3.4.2
 deep-translator==1.4.2
