@@ -552,7 +552,7 @@ def pick_arts(nome_tema):  # Select one image for arts
             arts_list.append(file)
 
     item = random.randrange(0, len(arts_list))
-    print(arts_list[item])
+    # print(arts_list[item])
     logo = path + arts_list[item]
     return logo
 
