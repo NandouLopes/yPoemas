@@ -11,8 +11,8 @@ All texts are unique and will only be repeated
 after they are sold out the thourekasands  
 of combinations possible to each theme.
 
-[ToDo] - print_ypoema == write_text
-[ToDo] - st.subheader == print_ypoema(load_file(manual_))
+[ToDo] - write_ypoema == write_text
+[ToDo] - st.subheader == write_ypoema(load_file(manual_))
 
 VISY == New Visitor
 NANY_VISY == Number of Visitors
@@ -552,7 +552,7 @@ def pick_arts(nome_tema):  # Select one image for arts
             arts_list.append(file)
 
     item = random.randrange(0, len(arts_list))
-    # print(arts_list[item])
+    print(arts_list[item])
     logo = path + arts_list[item]
     return logo
 
@@ -578,7 +578,7 @@ def get_poly_name(poly):  # extract language name for poly
 # bof: functions
 
 
-def print_ypoema(LOGO_TEXT, LOGO_IMAGE):
+def write_ypoema(LOGO_TEXT, LOGO_IMAGE):
     if LOGO_IMAGE == "none":
         st.markdown(
             f"""
@@ -799,6 +799,7 @@ def page_abouts():
         "prefácio",
         "off-machina",
         "outros",
+        "imagens",
         "traduttore",
         "bibliografia",
         "samizdát",
@@ -953,7 +954,7 @@ def page_off_machina():  # available off_books
                 if st.session_state.draw:
                     LOGO_IMAGE = pick_arts("off_machina")
 
-                print_ypoema(LOGO_TEXT, LOGO_IMAGE)
+                write_ypoema(LOGO_TEXT, LOGO_IMAGE)
 
         if st.session_state.talk:
             talk(off_book_text)
@@ -1067,7 +1068,7 @@ def page_ypoemas():
             if st.session_state.draw:
                 LOGO_IMAGE = pick_arts(curr_tema)
 
-            print_ypoema(LOGO_TEXT, LOGO_IMAGE)
+            write_ypoema(LOGO_TEXT, LOGO_IMAGE)
 
         if st.session_state.talk:
             talk(curr_ypoema)
@@ -1126,7 +1127,7 @@ def page_mini():
             if st.session_state.draw:
                 LOGO_IMAGE = pick_arts(curr_tema)
 
-            print_ypoema(LOGO_TEXT, LOGO_IMAGE)
+            write_ypoema(LOGO_TEXT, LOGO_IMAGE)
 
         if st.session_state.talk:
             talk(curr_ypoema)
@@ -1152,7 +1153,9 @@ def page_eureka():
     with more:
         more = more.button("✔", help=help_more)
 
-    if len(find_what) > 2:
+    if len(find_what) < 3:
+        st.warning("digite pelo menos 3 letras...")
+    else:
         seed_list = []
         eureka_list = load_eureka(find_what)
 
@@ -1213,7 +1216,7 @@ def page_eureka():
                 if st.session_state.draw:
                     LOGO_IMAGE = pick_arts(seed_tema)
 
-                print_ypoema(LOGO_TEXT, LOGO_IMAGE)
+                write_ypoema(LOGO_TEXT, LOGO_IMAGE)
                 update_readings(seed_tema)
 
             if aide:
@@ -1224,8 +1227,6 @@ def page_eureka():
                 talk(curr_ypoema)
         else:
             st.warning("nenhum verbete encontrado com essas letras ---> " + find_what)
-    else:
-        st.warning("digite pelo menos 3 letras...")
 
 
 # eof: pages
