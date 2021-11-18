@@ -33,10 +33,6 @@ import streamlit as st
 # Project Module
 from lay_2_ypo import gera_poema
 
-# TagCloud
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
-
 # user_id: to create LYPO and TYPO for each hostname
 import socket
 
@@ -119,6 +115,7 @@ st.markdown(
 )
 
 # change text area font
+# <meta charset="UTF-8">
 st.markdown(
     """
     <style>
@@ -400,7 +397,6 @@ def status_readings():
         format_func=lambda x: read_days[x],
         key="opt_readings",
     )
-    tag_cloud(tag_text)
 
 
 ### eof: update themes readings
@@ -566,7 +562,7 @@ def pick_arts(nome_tema):  # Select one image for arts
         st.session_state.fila.popleft()
 
     logo = path + image
-    # print(image)
+    print(image)
     return logo
 
 
@@ -591,7 +587,7 @@ def get_poly_name(poly):  # extract language name for poly
 ### bof: functions
 
 
-def write_ypoema(LOGO_TEXT, LOGO_IMAGE):
+def write_ypoema(LOGO_TEXT, LOGO_IMAGE):  # ver save_img.py
     if LOGO_IMAGE == "none":
         st.markdown(
             f"""
@@ -666,36 +662,6 @@ def translate(input_text):
     else:
         st.session_state.lang = "pt"  # if no Internet then...
         return input_text
-
-
-def tag_cloud(text):
-    if text == "_ypo_":
-        if st.session_state.lang == "pt":
-            curr_ypoema = load_lypo()
-        else:
-            curr_ypoema = load_typo()
-
-        text = ""
-        word = ""
-        for line in curr_ypoema:
-            if line == " ":
-                word = word.replace("<br>", " ")
-                if len(word) > 2:
-                    text += word + " "
-                word = ""
-            else:
-                word += line
-
-    wordcloud = WordCloud(collocations=False, background_color="white").generate(text)
-    st.set_option("deprecation.showPyplotGlobalUse", False)
-    plt.imshow(wordcloud, interpolation="bilinear")
-    plt.axis("off")
-    plt.margins(x=0, y=0)
-
-    clouds_expander = st.expander("", True)
-    with clouds_expander:
-        plt.show()
-        st.pyplot()
 
 
 ### eof: functions
@@ -856,47 +822,44 @@ def page_mini():
     temas_list = load_temas(st.session_state.book)
     maxy = len(temas_list) - 1
 
-    foo1, more, rand, numb, foo2 = st.columns([3.5, 1, 1, 1, 3.5])
-    more = more.button("✔")
-    rand = rand.button("✴")
+    mini_expander = st.expander("", expanded=True)
+    with mini_expander:
 
-    if rand:
-        st.session_state.take = random.randrange(0, maxy, 1)
+        foo1, more, rand, foo2 = st.columns([3.5, 1, 1, 3.5])
+        rand = rand.button("✴")
+        
+        if rand:
+            st.session_state.take = random.randrange(0, maxy, 1)
+        
+        curr_tema = temas_list[st.session_state.take]
+        analise = say_numeros(curr_tema)
+        more = more.button("✔", help=analise)
 
-    curr_tema = temas_list[st.session_state.take]
-    analise = say_numeros(curr_tema)
-    numb = numb.button("☁", help=analise)
-
-    if numb:
-        st.subheader(analise)
-        tag_cloud("_ypo_")
-    else:
-        mini_expander = st.expander("", expanded=True)
-        with mini_expander:
-            if st.session_state.lang != st.session_state.last_lang:
-                curr_ypoema = load_lypo()  # changes in lang, keep LYPO
-            else:
-                curr_ypoema = load_poema(curr_tema, "")
-                curr_ypoema = load_lypo()
-
-            if st.session_state.lang != "pt":  # translate if idioma <> pt
-                curr_ypoema = translate(curr_ypoema)
-                typo_user = "TYPO_" + user_id
-                with open(
-                    os.path.join("./temp/" + typo_user), "w", encoding="utf-8"
-                ) as save_typo:
-                    save_typo.write(curr_ypoema)
-                    save_typo.close()
-                curr_ypoema = load_typo()  # to normalize line breaks in text
-
-            update_readings(curr_tema)
-            LOGO_TEXT = curr_ypoema
-            LOGO_IMAGE = "none"
-            if st.session_state.draw:
-                LOGO_IMAGE = pick_arts(curr_tema)
-
-            write_ypoema(LOGO_TEXT, LOGO_IMAGE)
-
+        if st.session_state.lang != st.session_state.last_lang:
+            curr_ypoema = load_lypo()  # changes in lang, keep LYPO
+        else:
+            curr_ypoema = load_poema(curr_tema, "")
+            curr_ypoema = load_lypo()
+        
+        if st.session_state.lang != "pt":  # translate if idioma <> pt
+            curr_ypoema = translate(curr_ypoema)
+            typo_user = "TYPO_" + user_id
+            with open(
+                os.path.join("./temp/" + typo_user), "w", encoding="utf-8"
+            ) as save_typo:
+                save_typo.write(curr_ypoema)
+                save_typo.close()
+            curr_ypoema = load_typo()  # to normalize line breaks in text
+        
+        update_readings(curr_tema)
+        LOGO_TEXT = curr_ypoema
+        LOGO_IMAGE = "none"
+        
+        if st.session_state.draw:
+            LOGO_IMAGE = pick_arts(curr_tema)
+        
+        write_ypoema(LOGO_TEXT, LOGO_IMAGE)
+        
         if st.session_state.talk:
             talk(curr_ypoema)
 
@@ -907,57 +870,53 @@ def page_ypoemas():
     pick_draw()
     st.sidebar.info(load_file("INFO_YPOEMAS.md"))
 
-    foo1, more, last, rand, nest, numb, manu, foo2 = st.columns(
-        [2, 1, 1, 1, 1, 1, 1, 2]
-    )
+    buttons_expander = st.expander("", expanded=True)
+    with buttons_expander:
+        foo1, more, last, rand, nest, manu, foo2 = st.columns(
+            [2, 1, 1, 1, 1, 1, 2]
+        )
+        
+        help_me = load_help(st.session_state.lang)
+        help_last = help_me[0]
+        help_rand = help_me[1]
+        help_nest = help_me[2]
+        help_more = help_me[4]
 
-    help_me = load_help(st.session_state.lang)
-    help_last = help_me[0]
-    help_rand = help_me[1]
-    help_nest = help_me[2]
-    help_more = help_me[4]
-
-    more = more.button("✔", help=help_more)
-    last = last.button("◀", help=help_last)
-    rand = rand.button("✴", help=help_rand)
-    nest = nest.button("▶", help=help_nest)
-
-    if last:
-        st.session_state.take -= 1
-        if st.session_state.take < 0:
-            st.session_state.take = maxy
-
-    if rand:
-        st.session_state.take = random.randrange(0, maxy, 1)
-
-    if nest:
-        st.session_state.take += 1
-        if st.session_state.take > maxy:
-            st.session_state.take = 0
-
-    options = list(range(len(temas_list)))
-    opt_take = st.selectbox(
-        "",
-        options,
-        index=st.session_state.take,
-        format_func=lambda z: temas_list[z],
-        key="opt_take",
-    )
+        more = more.button("✔", help=help_more)
+        last = last.button("◀", help=help_last)
+        rand = rand.button("✴", help=help_rand)
+        nest = nest.button("▶", help=help_nest)
+        
+        if last:
+            st.session_state.take -= 1
+            if st.session_state.take < 0:
+                st.session_state.take = maxy
+        
+        if rand:
+            st.session_state.take = random.randrange(0, maxy, 1)
+        
+        if nest:
+            st.session_state.take += 1
+            if st.session_state.take > maxy:
+                st.session_state.take = 0
+        
+        options = list(range(len(temas_list)))
+        opt_take = st.selectbox(
+            "",
+            options,
+            index=st.session_state.take,
+            format_func=lambda z: temas_list[z],
+            key="opt_take",
+        )
 
     if opt_take != st.session_state.take:
         st.session_state.take = opt_take
 
     curr_tema = temas_list[st.session_state.take]
     analise = say_numeros(curr_tema)
-    numb = numb.button("☁", help=analise)
-    manu = manu.button("?", help="help !!!")
+    manu = manu.button("?", help=analise)
 
     lnew = True
-    if numb:
-        lnew = False
-        st.subheader(analise)
-        tag_cloud("_ypo_")
-
     if manu:
         lnew = False
         st.subheader(load_file("MANUAL_YPOEMAS.md"))
@@ -1004,6 +963,9 @@ def page_ypoemas():
         if st.session_state.talk:
             talk(curr_ypoema)
         # st.markdown(get_binary_file_downloader_html('./temp/'+"LYPO_" + user_id, curr_tema), unsafe_allow_html=True)
+        # bin_file = base64.b64encode(open(LOGO_IMAGE, "rb").read()).decode()+LOGO_TEXT
+        # st.markdown(get_binary_file_downloader_html(bin_file, curr_tema), unsafe_allow_html=True)
+
 
 
 def page_eureka():
