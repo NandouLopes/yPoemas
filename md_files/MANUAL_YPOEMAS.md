@@ -21,11 +21,7 @@ No menu principal há um **botão** para cada idioma: **[ pt es it fr en ⚒️ 
 - ◀ = Move para o tema anterior.  
 - ✴ = Escolhe um tema aleatoriamente.  
 - ▶ = Move para o próximo tema.  
-- ☁  = Quantidade de variações possíveis para o tema.  
-- ?  = Modo de Usar  
-
-> - Clique em ☁ para ver uma nuvem de palavras.  
-> - Cada clique gera uma nuvem diferente.  
+- ?  = Modo de Usar & Quantidade de variações para o tema.  
 
 ---
 
