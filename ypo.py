@@ -562,7 +562,7 @@ def pick_arts(nome_tema):  # Select one image for arts
         st.session_state.fila.popleft()
 
     logo = path + image
-    print(image)
+    # print(image)
     return logo
 
 
