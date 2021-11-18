@@ -870,44 +870,42 @@ def page_ypoemas():
     pick_draw()
     st.sidebar.info(load_file("INFO_YPOEMAS.md"))
 
-    buttons_expander = st.expander("", expanded=True)
-    with buttons_expander:
-        foo1, more, last, rand, nest, manu, foo2 = st.columns(
-            [2, 1, 1, 1, 1, 1, 2]
-        )
-        
-        help_me = load_help(st.session_state.lang)
-        help_last = help_me[0]
-        help_rand = help_me[1]
-        help_nest = help_me[2]
-        help_more = help_me[4]
+    foo1, more, last, rand, nest, manu, foo2 = st.columns(
+        [2, 1, 1, 1, 1, 1, 2]
+    )
+    
+    help_me = load_help(st.session_state.lang)
+    help_last = help_me[0]
+    help_rand = help_me[1]
+    help_nest = help_me[2]
+    help_more = help_me[4]
 
-        more = more.button("✔", help=help_more)
-        last = last.button("◀", help=help_last)
-        rand = rand.button("✴", help=help_rand)
-        nest = nest.button("▶", help=help_nest)
-        
-        if last:
-            st.session_state.take -= 1
-            if st.session_state.take < 0:
-                st.session_state.take = maxy
-        
-        if rand:
-            st.session_state.take = random.randrange(0, maxy, 1)
-        
-        if nest:
-            st.session_state.take += 1
-            if st.session_state.take > maxy:
-                st.session_state.take = 0
-        
-        options = list(range(len(temas_list)))
-        opt_take = st.selectbox(
-            "",
-            options,
-            index=st.session_state.take,
-            format_func=lambda z: temas_list[z],
-            key="opt_take",
-        )
+    more = more.button("✔", help=help_more)
+    last = last.button("◀", help=help_last)
+    rand = rand.button("✴", help=help_rand)
+    nest = nest.button("▶", help=help_nest)
+    
+    if last:
+        st.session_state.take -= 1
+        if st.session_state.take < 0:
+            st.session_state.take = maxy
+    
+    if rand:
+        st.session_state.take = random.randrange(0, maxy, 1)
+    
+    if nest:
+        st.session_state.take += 1
+        if st.session_state.take > maxy:
+            st.session_state.take = 0
+    
+    options = list(range(len(temas_list)))
+    opt_take = st.selectbox(
+        "",
+        options,
+        index=st.session_state.take,
+        format_func=lambda z: temas_list[z],
+        key="opt_take",
+    )
 
     if opt_take != st.session_state.take:
         st.session_state.take = opt_take
