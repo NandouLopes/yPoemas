@@ -119,6 +119,10 @@ st.markdown(
 st.markdown(
     """
     <style>
+    mark {
+      background-color: lightblue;
+      color: black;
+    }
     .container {
         display: flex;
     }
@@ -199,16 +203,19 @@ def main():
     st.sidebar.state = True
     st.write("")
 
-
+### eof: settings
 ### bof: tools
-# social media icons
+
+# social media links
 def show_icons():
     st.sidebar.markdown(
         f"""
-        <a href="https://www.facebook.com/nandoulopes" target="_blank"><button>facebook</button></a>
-        <a href="mailto:lopes.fernando@hotmail.com" target="_blank"><button>email</button></a>
-        <a href="https://www.instagram.com/fernando.lopes.942/" target="_blank"><button>insta</button></a>
-        <a href="https://api.whatsapp.com/send?phone=+5512991368181" target="_blank"><button>whatsapp</button></a>
+        <nav>
+        <a href="https://www.facebook.com/nandoulopes" target="_blank">facebook</a> |
+        <a href="mailto:lopes.fernando@hotmail.com" target="_blank">e-mail</a> |
+        <a href="https://www.instagram.com/fernando.lopes.942/" target="_blank">instagram</a> |
+        <a href="https://api.whatsapp.com/send?phone=+5512991368181" target="_blank">whatsapp</a>
+        </nav>
         """,
         unsafe_allow_html=True,
     )
@@ -418,6 +425,15 @@ def load_file(file):  # Open files for about's
 
 
 @st.cache(allow_output_mutation=True)
+def load_arts():
+    arts_list = []
+    with open(os.path.join("./base/arts_list.txt"), encoding="utf-8") as lista:
+        for line in lista:
+            arts_list.append(line)
+    return arts_list
+    
+
+@st.cache(allow_output_mutation=True)
 def load_eureka(part_of_word):  # Lexicon
     index_eureka = []
     with open(os.path.join("./base/lexico_pt.txt"), encoding="utf-8") as lista:
@@ -427,7 +443,6 @@ def load_eureka(part_of_word):  # Lexicon
             fonte = pipe_line[2]
             if part_of_word.lower() in palas.lower():
                 index_eureka.append(line)
-
     return index_eureka
 
 
@@ -530,20 +545,17 @@ def load_poema(nome_tema, seed_eureka):  # generate new yPoema
     return novo_ypoema
 
 
-def pick_arts(nome_tema):  # Select one image for arts
-    animas = "_Atido_Avevida_Biaba_Cartaz_Ciuminho_Clandestino_Destinos_Escriba_Essa_Feiras_Frases_Fugaz_Indolor_Inhos_Lato_Manusgrite_Meteoro_Ocio_Oficio_Oco_Prefácil_Reger_Remedeio_Rever_Ser_Silente_Sinais_Sonoro_Sopros_Veio_Victor"
-    esoteric = "_Astros_Distintos_Finalmentes_Rito_Zodiacaos"
-    personas = "_Amaré_Amores_Buscas_Clarice_Cuores_Distintos_Dolores_Elogio_Enfrente_Gula_Isso_MachBeth_MachBrait_Mirante_Oca_Ogiva_Olhares_Papilio_Saudades_Sua_Zelo_Zoia"
-    if (nome_tema in animas) or (
-        nome_tema == "off_machina"
-    ):  # primavera = teocrático = essa é a verdade.
-        path = "./images/anima/"
-    elif ("=" in nome_tema) or (nome_tema in esoteric):  # outono = aristocrático = a verdade pertence à...
+def pick_arts(nome_tema):  # Select image for arts
+
+    if ("=" in nome_tema):
         path = "./images/esoteric/"
-    elif nome_tema in personas:  # verão = democrático = todos são donos da verdade!
-        path = "./images/persona/"
-    else:  # inverno = caótico == onde está a verdade? volta-se ao teocrático
+    else:
         path = "./images/machina/"
+        path_list = load_arts()
+        for line in path_list:
+            pipe_line = line.split("|")
+            if nome_tema == pipe_line[1]:
+                path = "./images/" + pipe_line[2] + "/"
 
     arts_list = []
     for file in os.listdir(path):
@@ -961,8 +973,6 @@ def page_ypoemas():
         if st.session_state.talk:
             talk(curr_ypoema)
         # st.markdown(get_binary_file_downloader_html('./temp/'+"LYPO_" + user_id, curr_tema), unsafe_allow_html=True)
-        # bin_file = base64.b64encode(open(LOGO_IMAGE, "rb").read()).decode()+LOGO_TEXT
-        # st.markdown(get_binary_file_downloader_html(bin_file, curr_tema), unsafe_allow_html=True)
 
 
 
