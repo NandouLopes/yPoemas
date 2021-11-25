@@ -307,8 +307,8 @@ def update_visy():
 
 
 # check visitor once
-if st.session_state.visy:  # used to random first text on yPoemas them, set to False
-    update_visy()
+# if st.session_state.visy:  # used to random first text on yPoemas them, set to False
+#     update_visy()
     # st.session_state.visy = False  # checked later, on random first yPoema
 
 
@@ -550,8 +550,14 @@ def pick_arts(nome_tema):  # Select image for arts
     if ("=" in nome_tema):
         path = "./images/esoteric/"
     else:
-        path = "./images/machina/"
         path_list = load_arts()
+        # if not nome_tema in path_list:
+        #     path = "./images/machina/"
+        # else:
+        #     nova = path_list.index(nome_tema)
+        #     pipe_line = path_list[nova].split("|")
+        #     path = "./images/" + pipe_line[2] + "/"
+        path = "./images/machina/"
         for line in path_list:
             pipe_line = line.split("|")
             if nome_tema == pipe_line[1]:
@@ -564,14 +570,15 @@ def pick_arts(nome_tema):  # Select image for arts
 
     item = random.randrange(0, len(arts_list))
     image = arts_list[item]
-    if image in st.session_state.fila:  # insert new image in last 24
-        while not image in st.session_state.fila:
-            item = random.randrange(0, len(arts_list))
-            image = arts_list[item]
 
+    # nova = st.session_state.fila.index(image)
+    if image in st.session_state.fila:  # insert new image in last 30
+        item = random.randrange(0, len(arts_list))
+        image = arts_list[item]
     st.session_state.fila.append(image)
-    if len(st.session_state.fila) > 24:  # remove first
-        st.session_state.fila.popleft()
+
+    if len(st.session_state.fila) > 10:  # remove first
+        del st.session_state.fila[0]
 
     logo = path + image
     # print(image)
@@ -821,8 +828,9 @@ if st.session_state.take > maxy:  # just in case
     st.session_state.take = 0
 
 if st.session_state.visy:  # random text at first entry
-    st.session_state.take = random.randrange(0, maxy, 1)
+    update_visy()
     st.session_state.visy = False
+    st.session_state.take = random.randrange(0, maxy, 1)
 
 
 def page_mini():
