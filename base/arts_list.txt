@@ -50,6 +50,7 @@
 |Ser|anima|
 |Silente|anima|
 |Sinais|anima|
+|Sinas|persona|
 |Sonoro|anima|
 |Sopros|anima|
 |Sua|persona|
