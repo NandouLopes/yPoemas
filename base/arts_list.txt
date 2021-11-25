@@ -35,10 +35,12 @@
 |Oca|persona|
 |Ocio|anima|
 |Oco|anima|
+|off_machina|anima|
 |Oficio|anima|
 |Ogiva|persona|
 |Olhares|persona|
 |Papilio|persona|
+|Pessoa|anima|
 |Prefácil|anima|
 |Reger|anima|
 |Remedeio|anima|
