@@ -3,40 +3,36 @@
 *- quanto menor a semente, mais frutos...
 *- extras: latim; gozo;
 *- pálpebras|Amor sem falsete:|
-*- |02|01|Clarice_0201|F|10|2|a chuva na alma|o sonho do sono|a chave do cofre|a tinta que mancha|o mel do olhar|dedo fino e anéis|o sonho dormido|o convite febril|as unhas roídas|a rota da lua|
-*- |02|03|Clarice_0201|T|10|1|a chuva na alma|o sonho do sono|a chave do cofre|a tinta que mancha|o mel do olhar|dedo fino e anéis|o sonho dormido|o convite febril|as unhas roídas|a rota da lua|
-*- |02|05|Clarice_0201|T|10|5|a chuva na alma|o sonho do sono|a chave do cofre|a tinta que mancha|o mel do olhar|dedo fino e anéis|o sonho dormido|o convite febril|as unhas roídas|a rota da lua|
-*- |09|01|Clarice_0901|F|1|1|E ainda assim, amor.|
-*- |10|03|Clarice_1003|F|1|1|em dias singulares, ela ama no plural.|em dias estranhos, ela ama normal.|
 *- |15|00|
 *- |15|01|Clarice_1501|F|1|1|( Palavras de Clarice Sabino )|
 *-
-|01|01|Clarice_0101|F|5|2|Tudo nela é amor:|Ela é o amor:|Tudo nela é chama:|O amor é ela:|Tudo nela ama:|
-|02|01|Clarice_0201|F|5|1|a chuva na alma|dedo fino e anéis|a chave do cofre|o mel do olhar|a tinta que mancha|
+|01|01|Clarice_0101|F|5|4|Tudo nela é amor:|Ela é o amor:|Tudo nela é chama:|O amor é ela:|Tudo nela ama:|
+|02|01|Clarice_0201|F|5|3|a chuva na alma|dedo fino e anéis|a chave do cofre|o mel do olhar|a tinta que mancha|
 |02|02|Clarice_0202|F|1|1|,|
 |02|03|Clarice_0203|F|4|1|o sonho dormido|o sonho do sono|a veia que grita|o convite febril|
 |02|04|Clarice_0202|F|1|1|,|
-|02|05|Clarice_0205|F|3|2|a rota da lua|a unha roída|a veia que grita|
+|02|05|Clarice_0205|F|3|3|a rota da lua|a unha roída|a veia que grita|
 |02|06|Clarice_0206|F|1|1|...|
 |04|00|
 |04|01|Clarice_0401|F|1|1|É amor|
 |04|02|Clarice_0402|F|7|2|de olho cerrado|pousando na pele|no sangue, no pulso|no pulsar do sangue|de cara lavada|de perder conta|na carne, no osso|
 |04|03|Clarice_0201|F|1|1|,|
-|05|01|Clarice_0501|F|5|3|no coração em palpite|na aurora ou madrugada|no coração, no palpite|na imensidão|em verso ou meloso|
+|05|01|Clarice_0501|F|5|5|no coração em palpite|na aurora ou madrugada|no coração, no palpite|na imensidão|em verso ou meloso|
 |05|02|Clarice_0201|F|1|1|,|
-|06|01|Clarice_0601|F|6|1|no silêncio, no grito|expiando o tempo|no silêncio do grito|espiando o tempo|no grito em silêncio|no renascer, na partida|
-|06|02|Clarice_0602|F|4|4|sem nunca ver fim|... em braile ou latim|que nunca vê fim|de dentro do mim|
+|06|01|Clarice_0601|F|6|3|no silêncio, no grito|expiando o tempo|no silêncio do grito|espiando o tempo|no grito em silêncio|no renascer, na partida|
+|06|02|Clarice_0602|F|4|4|sem nunca ver fim|... em braile ou latim|que nunca vê fim|de dentro do 'mim'|
 |06|03|Clarice_0603|F|1|1|.|
 |08|00|
 |08|01|Clarice_0801|F|1|1|Amor|
-|08|02|Clarice_0802|F|5|5|estilhado|cuspido|queimando|esculpido|escolhido|
+|08|02|Clarice_0802|F|5|2|estilhado|cuspido|queimando|esculpido|escolhido|
 |08|03|Clarice_0201|F|1|1|,|
 |08|04|Clarice_0804|F|4|3|mordente|persistente|impalpável|paciente|
 |08|05|Clarice_0805|F|1|1|,|
-|08|06|Clarice_0806|F|6|3|intangível|impossível|invisível|indescritível|indizível|infalível|
+|08|06|Clarice_0806|F|6|5|intangível|impossível|invisível|indescritível|indizível|infalível|
 |08|07|Clarice_0206|F|1|1|...|
-|10|02|Clarice_1002|F|15|6|Amor sobre nada:|Amor feito fogo:|Amor reinventado:|Amor sem jogo:|Amor de abrir mão:|Amor feito gozo:|Amor de mão dada:|Amor de largar tudo:|Amor que liberta:|Amor que derrete:|Amor de cortar mão:|Amor que insiste:|Amor em escuta:|Amor que não cala:|Amor de servir:|
-|10|03|Clarice_1003|F|4|1|em dias singulares, ela ama plural.|em dias estranhos, ela ama normal.|se o dia é bisonho, ela não ama igual.|na calma dos dias, ela ama frugal.|
+|10|02|Clarice_1002|F|15|8|Amor sobre nada:|Amor feito fogo:|Amor reinventado:|Amor sem jogo:|Amor de abrir mão:|Amor feito gozo:|Amor de mão dada:|Amor de largar tudo:|Amor que liberta:|Amor que derrete:|Amor de cortar mão:|Amor que insiste:|Amor em escuta:|Amor que não cala:|Amor de servir:|
+|11|01|Clarice_1101|F|1|1|- |
+|11|02|Clarice_1101|F|4|1|em dias singulares, ela ama plural.|em dias estranhos, ela ama normal.|se o dia é bisonho, ela não ama igual.|na calma dos dias, ela ama frugal.|
 <EOF>
 CATAPALA = 50
 VERBETES = 127
