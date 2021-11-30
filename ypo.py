@@ -557,7 +557,7 @@ def pick_arts(nome_tema):  # Select image for arts
     if len(st.session_state.fila) > 36:  # remove first
         del st.session_state.fila[0]
 
-    print(image)
+    # print(image)
     logo = path + image
     return logo
 
