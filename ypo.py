@@ -41,6 +41,8 @@ from gtts import gTTS
 
 from collections import deque
 
+### bof: settings
+
 st.set_page_config(
     page_title='yPoemas - a "machina" de fazer Poesia',
     page_icon=":star:",
@@ -183,25 +185,6 @@ if "talk" not in st.session_state:
 
 if "fila" not in st.session_state:
     st.session_state.fila = deque([])
-
-
-def main():
-    pages = {
-        "mini": page_mini,
-        "yPoemas": page_ypoemas,
-        "eureka": page_eureka,
-        "off-machina": page_off_machina,
-        "poly": page_polys,
-        "books": page_books,
-        "comments": page_comments,
-        "about": page_abouts,
-    }
-
-    page = st.sidebar.selectbox("", tuple(pages.keys()))
-    pages[page]()
-    show_icons()
-    st.sidebar.state = True
-    st.write("")
 
 ### eof: settings
 ### bof: tools
@@ -510,16 +493,16 @@ def load_off_book(book):  # Load selected Book
 
 
 def load_book_pages(book):  # Load Book pages
-    page = 0
+    page_numer = 0
     book_pages = []
     for line in book:
         if line.startswith("<EOF>"):
             break
 
         if line.startswith("|"):  # only valid lines in PIP
-            page += 1
+            page_numer += 1
             pipe_line = line.split("|")
-            # book_pages.append(pipe_line[1]+" ( " + str(page) + " )")
+            # book_pages.append(pipe_line[1]+" ( " + str(page_numer) + " )")
             book_pages.append(pipe_line[1])
     return book_pages
 
@@ -547,21 +530,15 @@ def load_poema(nome_tema, seed_eureka):  # generate new yPoema
 
 def pick_arts(nome_tema):  # Select image for arts
 
-    if ("=" in nome_tema):
-        path = "./images/esoteric/"
-    else:
-        path_list = load_arts()
-        # if not nome_tema in path_list:
-        #     path = "./images/machina/"
-        # else:
-        #     nova = path_list.index(nome_tema)
-        #     pipe_line = path_list[nova].split("|")
-        #     path = "./images/" + pipe_line[2] + "/"
-        path = "./images/machina/"
-        for line in path_list:
-            pipe_line = line.split("|")
-            if nome_tema == pipe_line[1]:
-                path = "./images/" + pipe_line[2] + "/"
+    # if ("=" in nome_tema):
+    #     path = "./images/esoteric/"
+    # else:
+    path = "./images/machina/"
+    path_list = load_arts()
+    for line in path_list:
+        pipe_line = line.split("|")
+        if nome_tema == pipe_line[1]:
+            path = "./images/" + pipe_line[2] + "/"
 
     arts_list = []
     for file in os.listdir(path):
@@ -571,17 +548,17 @@ def pick_arts(nome_tema):  # Select image for arts
     item = random.randrange(0, len(arts_list))
     image = arts_list[item]
 
-    # nova = st.session_state.fila.index(image)
-    if image in st.session_state.fila:  # insert new image in last 30
+    # nova = st.session_state.fila.index(image)  # ver fila.get
+    if image in st.session_state.fila:  # insert new image
         item = random.randrange(0, len(arts_list))
         image = arts_list[item]
     st.session_state.fila.append(image)
 
-    if len(st.session_state.fila) > 10:  # remove first
+    if len(st.session_state.fila) > 36:  # remove first
         del st.session_state.fila[0]
 
+    print(image)
     logo = path + image
-    # print(image)
     return logo
 
 
@@ -687,9 +664,28 @@ def translate(input_text):
 ### bof: pages
 
 
+def main():
+    pages = {
+        "mini": page_mini,
+        "yPoemas": page_ypoemas,
+        "eureka": page_eureka,
+        "off-machina": page_off_machina,
+        "poly": page_polys,
+        "books": page_books,
+        "comments": page_comments,
+        "about": page_abouts,
+    }
+
+    page = st.sidebar.selectbox("menu", tuple(pages.keys()))
+    pages[page]()
+    show_icons()
+    st.sidebar.state = True
+    st.write("")
+
+
 def page_polys():  # available languages
-    st.sidebar.image("./images/img_poly.jpg")
     pick_lang()
+    st.sidebar.image("./images/img_poly.jpg")
     st.sidebar.info(load_file("INFO_POLY.md"))
 
     poly_expander = st.expander("", True)
@@ -729,8 +725,8 @@ def page_polys():  # available languages
 
 
 def page_books():  # available books
-    st.sidebar.image("./images/img_books.jpg")
     pick_lang()
+    st.sidebar.image("./images/img_books.jpg")
     st.sidebar.info(load_file("INFO_BOOKS.md"))
 
     books_expander = st.expander("", True)
@@ -778,8 +774,8 @@ def page_books():  # available books
 
 
 def page_comments():  # available comments
-    st.sidebar.image("./images/img_comments.jpg")
     pick_lang()
+    st.sidebar.image("./images/img_comments.jpg")
     st.sidebar.info(load_file("INFO_COMMENTS.md"))
 
     comments_expander = st.expander("", True)
@@ -788,8 +784,8 @@ def page_comments():  # available comments
 
 
 def page_abouts():
-    st.sidebar.image("./images/img_about.jpg")
     pick_lang()
+    st.sidebar.image("./images/img_about.jpg")
     st.sidebar.info(load_file("INFO_ABOUT.md"))
 
     abouts_list = [
@@ -833,10 +829,11 @@ if st.session_state.visy:  # random text at first entry
     st.session_state.take = random.randrange(0, maxy, 1)
 
 
-def page_mini():
-    st.sidebar.image("./images/img_mini.jpg")
+def page_mini():  # F4C3S
     pick_lang()
     pick_draw()
+    if st.session_state.draw:
+        st.sidebar.image("./images/img_mini.jpg")
     st.sidebar.info(load_file("INFO_MINI.md"))
 
     temas_list = load_temas(st.session_state.book)
@@ -885,9 +882,10 @@ def page_mini():
 
 
 def page_ypoemas():
-    st.sidebar.image("./images/img_ypoemas.jpg")
     pick_lang()
     pick_draw()
+    if st.session_state.draw:
+        st.sidebar.image("./images/img_ypoemas.jpg")
     st.sidebar.info(load_file("INFO_YPOEMAS.md"))
 
     foo1, more, last, rand, nest, manu, foo2 = st.columns(
@@ -985,9 +983,10 @@ def page_ypoemas():
 
 
 def page_eureka():
-    st.sidebar.image("./images/img_eureka.jpg")
     pick_lang()
     pick_draw()
+    if st.session_state.draw:
+        st.sidebar.image("./images/img_eureka.jpg")
     st.sidebar.info(load_file("INFO_EUREKA.md"))
 
     help_me = load_help(st.session_state.lang)
@@ -1002,7 +1001,7 @@ def page_eureka():
         )
 
     with more:
-        more = more.button("✔", help=help_more)
+        more = more.button('✔', help=help_more)
 
     if len(find_what) < 3:
         st.warning("digite pelo menos 3 letras...")
@@ -1028,6 +1027,7 @@ def page_eureka():
                     info_find = "ocorrência"
                 else:
                     info_find = "ocorrências"
+                info_find += ' de "' + find_what + '"'
 
                 with occurrences:
                     opt_ocur = st.selectbox(
@@ -1081,9 +1081,10 @@ def page_eureka():
 
 
 def page_off_machina():  # available off_books
-    st.sidebar.image("./images/img_off_machina.jpg")
     pick_lang()
     pick_draw()
+    if st.session_state.draw:
+        st.sidebar.image("./images/img_off_machina.jpg")
     st.sidebar.info(load_file("INFO_OFF-MACHINA.md"))
 
     off_books_list = load_all_offs()
