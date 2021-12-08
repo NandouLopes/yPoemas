@@ -11,8 +11,9 @@ All texts are unique and will only be repeated
 after they are sold out the thourekasands  
 of combinations possible to each theme.
 
-[ToDo] - write_ypoema == write_text
-[ToDo] - st.subheader == write_ypoema(load_file(manual_))
+deploys: https://share.streamlit.io/redirect
+sharing: https://share.streamlit.io/nandoulopes/ypoemas/main/ypo.py
+configs: chrome://settings/content/siteDetails?site=https%3A%2F%2Fauth.streamlit.io
 
 VISY == New Visitor
 NANY_VISY == Number of Visitors
@@ -183,8 +184,9 @@ if "draw" not in st.session_state:
 if "talk" not in st.session_state:
     st.session_state.talk = False
 
-if "fila" not in st.session_state:
-    st.session_state.fila = deque([])
+if "arts" not in st.session_state:
+    # st.session_state.arts = deque([])
+    st.session_state.arts = []
 
 ### eof: settings
 ### bof: tools
@@ -530,9 +532,6 @@ def load_poema(nome_tema, seed_eureka):  # generate new yPoema
 
 def pick_arts(nome_tema):  # Select image for arts
 
-    # if ("=" in nome_tema):
-    #     path = "./images/esoteric/"
-    # else:
     path = "./images/machina/"
     path_list = load_arts()
     for line in path_list:
@@ -548,16 +547,20 @@ def pick_arts(nome_tema):  # Select image for arts
     item = random.randrange(0, len(arts_list))
     image = arts_list[item]
 
-    # nova = st.session_state.fila.index(image)  # ver fila.get
-    if image in st.session_state.fila:  # insert new image
-        item = random.randrange(0, len(arts_list))
-        image = arts_list[item]
-    st.session_state.fila.append(image)
+    if image in st.session_state.arts:  # insert new image
+        while image in st.session_state.arts:
+            item = random.randrange(0, len(arts_list))
+            image = arts_list[item]
+        st.session_state.arts.append(image)
+        image = st.session_state.arts[-1]
+    else:
+        st.session_state.arts.append(image)
 
-    if len(st.session_state.fila) > 36:  # remove first
-        del st.session_state.fila[0]
+    if len(st.session_state.arts) > 36:  # remove first
+        del st.session_state.arts[0]
 
     # print(image)
+    
     logo = path + image
     return logo
 
@@ -1208,7 +1211,8 @@ def page_off_machina():  # available off_books
                 LOGO_TEXT = off_book_text
                 LOGO_IMAGE = "none"
                 if st.session_state.draw:
-                    LOGO_IMAGE = pick_arts("off_machina")
+                    # LOGO_IMAGE = pick_arts("off_machina")
+                    LOGO_IMAGE = pick_arts(off_book_name)
 
                 write_ypoema(LOGO_TEXT, LOGO_IMAGE)
                 update_readings(off_book_name)
