@@ -1,6 +1,6 @@
 Apresentação minimalista da  
 **machina de fazer poesia**,  
 com temas escolhidos ao acaso.  
-___
-**✔** cria um novo texto  
+Apenas 2 opções:  
+**✔** gera um novo texto  
 **✴** escolhe outro tema  
