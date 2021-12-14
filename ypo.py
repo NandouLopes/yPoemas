@@ -11,6 +11,11 @@ All texts are unique and will only be repeated
 after they are sold out the thourekasands  
 of combinations possible to each theme.
 
+[Epitaph]
+Passei boa parte da minha vida escrevendo a "machina".
+A leitura fica para os amanhãs.
+Não vivo no meu tempo.
+
 deploys: https://share.streamlit.io/redirect
 sharing: https://share.streamlit.io/nandoulopes/ypoemas/main/ypo.py
 configs: chrome://settings/content/siteDetails?site=https%3A%2F%2Fauth.streamlit.io
@@ -40,12 +45,10 @@ import socket
 # text-to-speech
 from gtts import gTTS
 
-from collections import deque
-
 ### bof: settings
 
 st.set_page_config(
-    page_title='yPoemas - a "machina" de fazer Poesia',
+    page_title='a máquina de fazer Poesia - yPoemas',
     page_icon=":star:",
     layout="centered",
     initial_sidebar_state="auto",
@@ -118,7 +121,6 @@ st.markdown(
 )
 
 # change text area font
-# <meta charset="UTF-8">
 st.markdown(
     """
     <style>
@@ -185,7 +187,6 @@ if "talk" not in st.session_state:
     st.session_state.talk = False
 
 if "arts" not in st.session_state:
-    # st.session_state.arts = deque([])
     st.session_state.arts = []
 
 ### eof: settings
@@ -238,6 +239,7 @@ def pick_lang():
         st.session_state.lang = st.session_state.poly_lang
 
 
+# define help_tips
 @st.cache(allow_output_mutation=True)
 def load_help_tips():
     help_list = []
@@ -248,7 +250,6 @@ def load_help_tips():
     return help_list
 
 
-# define help_tips
 def load_help(idiom):
     returns = []
     if idiom in "_pt_es_it_fr_en":
@@ -289,12 +290,6 @@ def update_visy():
     with open(os.path.join("./temp/visitors.txt"), "w", encoding="utf-8") as visitors:
         visitors.write(str(tots))
     visitors.close()
-
-
-# check visitor once
-# if st.session_state.visy:  # used to random first text on yPoemas them, set to False
-#     update_visy()
-    # st.session_state.visy = False  # checked later, on random first yPoema
 
 
 # download files
@@ -449,7 +444,7 @@ def load_index():  # Load indexes numbers for all themes
     return index_list
 
 
-def load_lypo():  # load last yPoema & replace "\n" with "<br>" for translator returned text
+def load_lypo():  # Load last yPoema & replace "\n" with "<br>" for translator returned text
     lypo_text = ""
     lypo_user = "LYPO_" + user_id
     with open(os.path.join("./temp/" + lypo_user), encoding="utf-8") as script:
@@ -459,7 +454,7 @@ def load_lypo():  # load last yPoema & replace "\n" with "<br>" for translator r
     return lypo_text
 
 
-def load_typo():  # load translated yPoema & clean translator returned bugs in text
+def load_typo():  # Load translated yPoema & clean translator returned bugs in text
     typo_text = ""
     typo_user = "TYPO_" + user_id
     with open(os.path.join("./temp/" + typo_user), encoding="utf-8") as script:
@@ -531,7 +526,6 @@ def load_poema(nome_tema, seed_eureka):  # generate new yPoema
 
 
 def pick_arts(nome_tema):  # Select image for arts
-
     path = "./images/machina/"
     path_list = load_arts()
     for line in path_list:
@@ -560,7 +554,6 @@ def pick_arts(nome_tema):  # Select image for arts
         del st.session_state.arts[0]
 
     # print(image)
-    
     logo = path + image
     return logo
 
@@ -688,7 +681,6 @@ def main():
 
 def page_polys():  # available languages
     pick_lang()
-    st.sidebar.image("./images/img_poly.jpg")
     st.sidebar.info(load_file("INFO_POLY.md"))
 
     poly_expander = st.expander("", True)
@@ -729,7 +721,6 @@ def page_polys():  # available languages
 
 def page_books():  # available books
     pick_lang()
-    st.sidebar.image("./images/img_books.jpg")
     st.sidebar.info(load_file("INFO_BOOKS.md"))
 
     books_expander = st.expander("", True)
@@ -776,9 +767,8 @@ def page_books():  # available books
             return None
 
 
-def page_comments():  # available comments
+def page_comments():
     pick_lang()
-    st.sidebar.image("./images/img_comments.jpg")
     st.sidebar.info(load_file("INFO_COMMENTS.md"))
 
     comments_expander = st.expander("", True)
@@ -788,7 +778,6 @@ def page_comments():  # available comments
 
 def page_abouts():
     pick_lang()
-    st.sidebar.image("./images/img_about.jpg")
     st.sidebar.info(load_file("INFO_ABOUT.md"))
 
     abouts_list = [
@@ -826,6 +815,7 @@ maxy = len(temas_list) - 1
 if st.session_state.take > maxy:  # just in case
     st.session_state.take = 0
 
+# check visitor once
 if st.session_state.visy:  # random text at first entry
     update_visy()
     st.session_state.visy = False
@@ -835,8 +825,6 @@ if st.session_state.visy:  # random text at first entry
 def page_mini():  # F4C3S
     pick_lang()
     pick_draw()
-    if st.session_state.draw:
-        st.sidebar.image("./images/img_mini.jpg")
     st.sidebar.info(load_file("INFO_MINI.md"))
 
     temas_list = load_temas(st.session_state.book)
@@ -887,8 +875,6 @@ def page_mini():  # F4C3S
 def page_ypoemas():
     pick_lang()
     pick_draw()
-    if st.session_state.draw:
-        st.sidebar.image("./images/img_ypoemas.jpg")
     st.sidebar.info(load_file("INFO_YPOEMAS.md"))
 
     foo1, more, last, rand, nest, manu, foo2 = st.columns(
@@ -984,12 +970,9 @@ def page_ypoemas():
         # st.markdown(get_binary_file_downloader_html('./temp/'+"LYPO_" + user_id, curr_tema), unsafe_allow_html=True)
 
 
-
 def page_eureka():
     pick_lang()
     pick_draw()
-    if st.session_state.draw:
-        st.sidebar.image("./images/img_eureka.jpg")
     st.sidebar.info(load_file("INFO_EUREKA.md"))
 
     help_me = load_help(st.session_state.lang)
@@ -1086,8 +1069,6 @@ def page_eureka():
 def page_off_machina():  # available off_books
     pick_lang()
     pick_draw()
-    if st.session_state.draw:
-        st.sidebar.image("./images/img_off_machina.jpg")
     st.sidebar.info(load_file("INFO_OFF-MACHINA.md"))
 
     off_books_list = load_all_offs()
@@ -1219,7 +1200,6 @@ def page_off_machina():  # available off_books
 
         if st.session_state.talk:
             talk(off_book_text)
-
 
 ### eof: pages
 
