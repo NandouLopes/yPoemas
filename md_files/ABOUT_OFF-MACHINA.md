@@ -1,7 +1,7 @@
 **off-machina**  
 ___
 > Os textos e poemas dos livros **off-machina** foram escritos  
-> em algum lugar no tempo entre os anos 60 e 2021.  
+> em algum lugar no tempo entre os anos 1968 e 2021.  
 > Não há precisão pois não tenho o hábito de datar meus escritos.  
 > Assim como os textos da **machina**, também são únicos.  
 > Porém, não imutáveis.  
@@ -13,8 +13,8 @@ ___
 > São mínimos.
 
 > Não posso dizer que vivo da poesia mas, vivo de poesia.  
->> No canto inferior esquerdo da tela, abaixo da imagem **Buy me a coffee**,  
->> há **links** para **Hotmail, Facebook, Coffee, Instagram e Whatsapp & Pix**.  
+>> No canto inferior esquerdo da tela, há **links** para  
+>> **Facebook, Hotmail, Instagram e Whatsapp + Pix**.  
 >>> Gostando, querendo ou podendo, clique neles...  
 >>> Qualquer ***importância*** será bem-vinda!  
 
