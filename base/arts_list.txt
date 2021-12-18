@@ -1,6 +1,7 @@
 |a_torre_de_papel|machina|
 |linguafiada|joco|
 |quase_que_eu_Poesia|anima|
+|um_romance|anima|
 |Amaré|persona|
 |Amores|persona|
 |Astros|esoteric|
@@ -63,6 +64,7 @@
 |Sinas|persona|
 |Sonoro|anima|
 |Sopros|anima|
+|Sos|joco|
 |Sua|persona|
 |Usinas|anima|
 |Veio|anima|
