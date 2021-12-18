@@ -16,6 +16,8 @@ Passei boa parte da minha vida escrevendo a "machina".
 A leitura fica para os amanhãs.
 Não vivo no meu tempo.
 
+st.download_button(f"Download {uploaded_file.name}", data=uploaded_file, file_name=uploaded_file.name)
+
 deploys: https://share.streamlit.io/redirect
 sharing: https://share.streamlit.io/nandoulopes/ypoemas/main/ypo.py
 configs: chrome://settings/content/siteDetails?site=https%3A%2F%2Fauth.streamlit.io
@@ -82,6 +84,7 @@ def internet(host="8.8.8.8", port=53, timeout=3):  # ckeck internet
 hostname = socket.gethostname()
 user_id = socket.gethostbyname(hostname)
 
+
 # hide Streamlit Menu
 st.markdown(
     """ <style>
@@ -90,6 +93,7 @@ footer {visibility: hidden;}
 </style> """,
     unsafe_allow_html=True,
 )
+
 
 # change padding between components
 padding = 0  # all set to zero
@@ -103,6 +107,7 @@ st.markdown(
     }} </style> """,
     unsafe_allow_html=True,
 )
+
 
 # change sidebar width
 st.markdown(
@@ -119,6 +124,7 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
 
 # change text area font
 st.markdown(
@@ -188,6 +194,9 @@ if "talk" not in st.session_state:
 
 if "arts" not in st.session_state:
     st.session_state.arts = []
+
+if "plug" not in st.session_state:
+    st.session_state.plug = False
 
 ### eof: settings
 ### bof: tools
@@ -474,6 +483,7 @@ def load_all_offs():
     all_books_off = [
         "a_torre_de_papel",
         "linguafiada",
+        "um_romance",
         "quase_que_eu_Poesia",
     ]
     return all_books_off
@@ -553,7 +563,7 @@ def pick_arts(nome_tema):  # Select image for arts
     if len(st.session_state.arts) > 36:  # remove first
         del st.session_state.arts[0]
 
-    # print(image)
+    print(image)
     logo = path + image
     return logo
 
@@ -639,18 +649,21 @@ def translate(input_text):
     if st.session_state.lang == "pt":  # no need
         return input_text
 
-    if internet():
-        # try:
-        output_text = GoogleTranslator(
-            source="pt", target=st.session_state.lang
-        ).translate(text=input_text)
-
-        output_text = output_text.replace("<br>>", "<br>")
-        output_text = output_text.replace("< br>", "<br>")
-        output_text = output_text.replace("<br >", "<br>")
-        output_text = output_text.replace("<br ", "<br>")
-        output_text = output_text.replace(" br>", "<br>")
-        return output_text
+    # if internet():
+    if st.session_state.plug:
+        try:
+            output_text = GoogleTranslator(
+                source="pt", target=st.session_state.lang
+            ).translate(text=input_text)
+        
+            output_text = output_text.replace("<br>>", "<br>")
+            output_text = output_text.replace("< br>", "<br>")
+            output_text = output_text.replace("<br >", "<br>")
+            output_text = output_text.replace("<br ", "<br>")
+            output_text = output_text.replace(" br>", "<br>")
+            return output_text
+        except:
+            return translate("Sorry... arquivo muito grande para ser traduzido.")
     else:
         st.session_state.lang = "pt"  # if no Internet then...
         return input_text
@@ -668,7 +681,6 @@ def main():
         "off-machina": page_off_machina,
         "poly": page_polys,
         "books": page_books,
-        "comments": page_comments,
         "about": page_abouts,
     }
 
@@ -767,15 +779,6 @@ def page_books():  # available books
             return None
 
 
-def page_comments():
-    pick_lang()
-    st.sidebar.info(load_file("INFO_COMMENTS.md"))
-
-    comments_expander = st.expander("", True)
-    with comments_expander:
-        st.subheader(load_file("MANUAL_COMMENTS.md"))
-
-
 def page_abouts():
     pick_lang()
     st.sidebar.info(load_file("INFO_ABOUT.md"))
@@ -783,12 +786,13 @@ def page_abouts():
     abouts_list = [
         "machina",
         "prefácio",
+        "comments",
         "off-machina",
         "outros",
-        "imagens",
         "traduttore",
-        "bibliografia",
+        "imagens",
         "samizdát",
+        "bibliografia",
         "pensares",
         "license",
         "notes",
@@ -803,9 +807,10 @@ def page_abouts():
         key="opt_abouts",
     )
 
+    choice = abouts_list[opt_abouts].upper()
     about_expander = st.expander("", True)
     with about_expander:
-        st.subheader(load_file("ABOUT_" + abouts_list[opt_abouts].upper() + ".md"))
+        st.subheader(load_file("ABOUT_" + choice + ".md"))
 
 
 st.session_state.last_lang = st.session_state.lang
@@ -820,7 +825,7 @@ if st.session_state.visy:  # random text at first entry
     update_visy()
     st.session_state.visy = False
     st.session_state.take = random.randrange(0, maxy, 1)
-
+    st.session_state.plug = internet()
 
 def page_mini():  # F4C3S
     pick_lang()
