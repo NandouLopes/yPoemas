@@ -16,11 +16,9 @@ Passei boa parte da minha vida escrevendo a "machina".
 A leitura fica para os amanhãs.
 Não vivo no meu tempo.
 
-st.download_button(f"Download {uploaded_file.name}", data=uploaded_file, file_name=uploaded_file.name)
-
-deploys: https://share.streamlit.io/redirect
-sharing: https://share.streamlit.io/nandoulopes/ypoemas/main/ypo.py
-configs: chrome://settings/content/siteDetails?site=https%3A%2F%2Fauth.streamlit.io
+deploy: https://share.streamlit.io/nandoulopes/ypoemas/main/ypo.py
+config: chrome://settings/content/siteDetails?site=https%3A%2F%2Fauth.streamlit.io
+transl: https://translate.google.com/
 
 VISY == New Visitor
 NANY_VISY == Number of Visitors
@@ -414,7 +412,7 @@ def load_file(file):  # Open files for about's
 
 
 @st.cache(allow_output_mutation=True)
-def load_arts():
+def load_arts_list():
     arts_list = []
     with open(os.path.join("./base/arts_list.txt"), encoding="utf-8") as lista:
         for line in lista:
@@ -537,11 +535,12 @@ def load_poema(nome_tema, seed_eureka):  # generate new yPoema
 
 def pick_arts(nome_tema):  # Select image for arts
     path = "./images/machina/"
-    path_list = load_arts()
+    path_list = load_arts_list()
     for line in path_list:
         pipe_line = line.split("|")
         if nome_tema == pipe_line[1]:
             path = "./images/" + pipe_line[2] + "/"
+            break
 
     arts_list = []
     for file in os.listdir(path):
