@@ -1,5 +1,6 @@
 |a_torre_de_papel|machina|
 |linguafiada|joco|
+|livro_vivo|anima|
 |quase_que_eu_Poesia|anima|
 |um_romance|anima|
 |Amaré|persona|
@@ -20,7 +21,7 @@
 |Distintos|esoteric|
 |Distintos|persona|
 |Dolores|beauty|
-|Elogio|persona|
+|Elogio|anima|
 |Enfrente|persona|
 |Escriba|anima|
 |Essa|anima|
