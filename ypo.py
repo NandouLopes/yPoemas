@@ -42,9 +42,6 @@ from lay_2_ypo import gera_poema
 # user_id: to create LYPO and TYPO for each hostname
 import socket
 
-# text-to-speech
-from gtts import gTTS
-
 ### bof: settings
 
 st.set_page_config(
@@ -61,20 +58,19 @@ except ImportError as ex:
     st.warning("Google Translator não conectado. Traduções não disponíveis no momento.")
 
 
+try:
+    from gtts import gTTS
+except ImportError as ex:
+    st.warning("Google TTS não conectado. Leituras não disponíveis no momento.")
+
+
 def internet(host="8.8.8.8", port=53, timeout=3):  # ckeck internet
-    """
-    Host: 8.8.8.8 (google-public-dns-a.google.com)
-    OpenPort: 53/tcp
-    Service: domain (DNS/TCP)
-    """
     try:
         socket.setdefaulttimeout(timeout)
         socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect((host, port))
         return True
     except socket.error as ex:
-        raise RuntimeError(
-            "Internet não conectada. Traduções não disponíveis no momento."
-        )
+        st.warning("Internet não conectada. Traduções não disponíveis no momento.")
         return False
 
 
@@ -283,8 +279,8 @@ def pick_draw():
     help_me = load_help(st.session_state.lang)
     help_draw = help_me[5]
     help_talk = help_me[6]
-    st.session_state.draw = draw_text.checkbox(help_draw, key="draw_machina")
-    st.session_state.talk = talk_text.checkbox(help_talk, key="talk_machina")
+    st.session_state.draw = draw_text.checkbox(help_draw, st.session_state.draw, key="draw_machina")
+    st.session_state.talk = talk_text.checkbox(help_talk, st.session_state.talk, key="talk_machina")
 
 
 # count one more visitor
@@ -481,6 +477,7 @@ def load_all_offs():
     all_books_off = [
         "a_torre_de_papel",
         "linguafiada",
+        "livro_vivo",
         "um_romance",
         "quase_que_eu_Poesia",
     ]
@@ -562,7 +559,7 @@ def pick_arts(nome_tema):  # Select image for arts
     if len(st.session_state.arts) > 36:  # remove first
         del st.session_state.arts[0]
 
-    # print(image)
+    print(image)
     logo = path + image
     return logo
 
@@ -826,6 +823,7 @@ if st.session_state.visy:  # random text at first entry
     st.session_state.take = random.randrange(0, maxy, 1)
     st.session_state.plug = internet()
 
+
 def page_mini():  # F4C3S
     pick_lang()
     pick_draw()
@@ -837,7 +835,7 @@ def page_mini():  # F4C3S
     mini_expander = st.expander("", expanded=True)
     with mini_expander:
 
-        foo1, more, rand, foo2 = st.columns([3.5, 1, 1, 3.5])
+        foo1, more, rand, foo2 = st.columns([4, 1, 1, 4])
         rand = rand.button("✴")
         
         if rand:
@@ -882,7 +880,7 @@ def page_ypoemas():
     st.sidebar.info(load_file("INFO_YPOEMAS.md"))
 
     foo1, more, last, rand, nest, manu, foo2 = st.columns(
-        [2, 1, 1, 1, 1, 1, 2]
+        [3.5, 1, 1, 1, 1, 1, 3.5]
     )
     
     help_me = load_help(st.session_state.lang)
@@ -1180,10 +1178,14 @@ def page_off_machina():  # available off_books
             if capo:
                 capa, isbn = st.columns([2.5, 7.5])
                 with capa:
-                    st.image(
-                        "./off_machina/capa_" + off_book_name + ".jpg",
-                        use_column_width=True,
-                    )
+                    if off_book_name == "livro_vivo":
+                        LOGO_CAPA = pick_arts("livro_vivo")
+                        st.image(LOGO_CAPA, use_column_width=True)
+                    else:
+                        st.image(
+                            "./off_machina/capa_" + off_book_name + ".jpg",
+                            use_column_width=True,
+                        )
                 with isbn:
                     st.markdown(
                         off_book_text, unsafe_allow_html=True
@@ -1192,11 +1194,9 @@ def page_off_machina():  # available off_books
                 if st.session_state.lang != "pt":
                     off_book_text = translate(off_book_text)
 
-                # st.markdown(off_book_text, unsafe_allow_html=True)  # finally... write it
                 LOGO_TEXT = off_book_text
                 LOGO_IMAGE = "none"
                 if st.session_state.draw:
-                    # LOGO_IMAGE = pick_arts("off_machina")
                     LOGO_IMAGE = pick_arts(off_book_name)
 
                 write_ypoema(LOGO_TEXT, LOGO_IMAGE)
