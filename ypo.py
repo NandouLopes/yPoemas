@@ -222,24 +222,27 @@ def pick_lang():
     btn_en = btn_en.button("en", help="English")
     btn_xy = btn_xy.button("⚒️", help=st.session_state.poly_name)
 
-    if btn_pt:
-        st.session_state.lang = "pt"
-        st.session_state.poly_file = "poly_pt.txt"
-    elif btn_es:
-        st.session_state.lang = "es"
-        st.session_state.poly_file = "poly_es.txt"
-    elif btn_it:
-        st.session_state.lang = "it"
-        st.session_state.poly_file = "poly_it.txt"
-    elif btn_fr:
-        st.session_state.lang = "fr"
-        st.session_state.poly_file = "poly_fr.txt"
-    elif btn_en:
-        st.session_state.lang = "en"
-        st.session_state.poly_file = "poly_en.txt"
-    elif btn_xy:
-        st.session_state.last_lang = st.session_state.lang
-        st.session_state.lang = st.session_state.poly_lang
+    if not st.session_state.plug:
+        st.warning("Traduções não disponíveis")
+    else:
+        if btn_pt:
+            st.session_state.lang = "pt"
+            st.session_state.poly_file = "poly_pt.txt"
+        elif btn_es:
+            st.session_state.lang = "es"
+            st.session_state.poly_file = "poly_es.txt"
+        elif btn_it:
+            st.session_state.lang = "it"
+            st.session_state.poly_file = "poly_it.txt"
+        elif btn_fr:
+            st.session_state.lang = "fr"
+            st.session_state.poly_file = "poly_fr.txt"
+        elif btn_en:
+            st.session_state.lang = "en"
+            st.session_state.poly_file = "poly_en.txt"
+        elif btn_xy:
+            st.session_state.last_lang = st.session_state.lang
+            st.session_state.lang = st.session_state.poly_lang
 
 
 # define help_tips
@@ -559,7 +562,7 @@ def pick_arts(nome_tema):  # Select image for arts
     if len(st.session_state.arts) > 36:  # remove first
         del st.session_state.arts[0]
 
-    print(image)
+    # print(image)
     logo = path + image
     return logo
 
@@ -642,27 +645,27 @@ def say_numeros(tema):  # search index title for eureka
 
 
 def translate(input_text):
-    if st.session_state.lang == "pt":  # no need
+    if st.session_state.lang == "pt":  # don't need translations here
         return input_text
 
-    # if internet():
-    if st.session_state.plug:
-        try:
-            output_text = GoogleTranslator(
-                source="pt", target=st.session_state.lang
-            ).translate(text=input_text)
-        
-            output_text = output_text.replace("<br>>", "<br>")
-            output_text = output_text.replace("< br>", "<br>")
-            output_text = output_text.replace("<br >", "<br>")
-            output_text = output_text.replace("<br ", "<br>")
-            output_text = output_text.replace(" br>", "<br>")
-            return output_text
-        except:
-            return translate("Sorry... arquivo muito grande para ser traduzido.")
-    else:
+    if not st.session_state.plug:
+        st.warning("Internet não conectada. Traduções não disponíveis no momento.")
         st.session_state.lang = "pt"  # if no Internet then...
         return input_text
+
+    try:
+        output_text = GoogleTranslator(
+            source="pt", target=st.session_state.lang
+        ).translate(text=input_text)
+    
+        output_text = output_text.replace("<br>>", "<br>")
+        output_text = output_text.replace("< br>", "<br>")
+        output_text = output_text.replace("<br >", "<br>")
+        output_text = output_text.replace("<br ", "<br>")
+        output_text = output_text.replace(" br>", "<br>")
+        return output_text
+    except:
+        return translate("Arquivo muito grande para ser traduzido.")
 
 
 ### eof: functions
@@ -821,6 +824,8 @@ if st.session_state.visy:  # random text at first entry
     update_visy()
     st.session_state.visy = False
     st.session_state.take = random.randrange(0, maxy, 1)
+    curr_tema = temas_list[st.session_state.take]
+    update_readings(curr_tema)
     st.session_state.plug = internet()
 
 
