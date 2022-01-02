@@ -35,6 +35,7 @@
 |Indolor|anima|
 |Inhos|anima|
 |Isso|persona|
+|Joker|joco|
 |Lato|author|
 |MachBeth|persona|
 |MachBrait|persona|
