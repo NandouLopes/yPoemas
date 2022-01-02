@@ -49,4 +49,4 @@ No menu principal há um **botão** para cada idioma: **[ pt es it fr en ⚒️ 
 > - Clique em qualquer **botão** para sair desta tela.  
 ---
 
-Copyright © 2021 Nando Lopes - **yPoemas @ machina de fazer Poesia**
+Copyright © 2022 Nando Lopes - **yPoemas @ machina de fazer Poesia**

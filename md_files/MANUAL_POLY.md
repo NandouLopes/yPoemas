@@ -31,4 +31,4 @@ ___
 >> - Dicas e sugestões para esse assunto serão bem-vindas!  
 ___
 
-Copyright © 2021 Nando Lopes - **yPoemas @ machina de fazer Poesia**
+Copyright © 2022 Nando Lopes - **yPoemas @ machina de fazer Poesia**

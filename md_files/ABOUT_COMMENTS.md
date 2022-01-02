@@ -134,4 +134,4 @@ ___
 > It’s brilliant! Well done you! I love words.  
 ___  
 
-Copyright © 2021 Nando Lopes - **yPoemas @ machina de fazer Poesia**
+Copyright © 2022 Nando Lopes - **yPoemas @ machina de fazer Poesia**

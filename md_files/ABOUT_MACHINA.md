@@ -83,4 +83,4 @@ ___
 >> independentemente da significação que nela se encerra.  
 
 ___
-Copyright © 2021 Nando Lopes - **yPoemas @ machina de fazer Poesia**
+Copyright © 2022 Nando Lopes - **yPoemas @ machina de fazer Poesia**

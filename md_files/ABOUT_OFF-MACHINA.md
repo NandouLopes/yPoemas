@@ -1,7 +1,7 @@
 **off-machina**  
 ___
 > Os textos e poemas dos livros **off-machina** foram escritos  
-> em algum lugar no tempo entre os anos 1968 e 2021.  
+> em algum lugar no tempo entre os anos 1968 e 2022.  
 > Não há precisão pois não tenho o hábito de datar meus escritos.  
 > Assim como os textos da **machina**, também são únicos.  
 > Porém, não imutáveis.  
@@ -69,4 +69,4 @@ ___
 > e que é objeto de Número Internacional Normalizado para Livro (ISBN).  
 
 ___
-Copyright © 2021 Nando Lopes - **yPoemas @ machina de fazer Poesia**
+Copyright © 2022 Nando Lopes - **yPoemas @ machina de fazer Poesia**

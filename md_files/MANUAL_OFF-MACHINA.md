@@ -32,4 +32,4 @@ ___
 >> Ao clicar neles, em qualquer idioma, um novo texto será gerado.
 ___
 
-Copyright © 2021 Nando Lopes - **yPoemas @ machina de fazer Poesia**
+Copyright © 2022 Nando Lopes - **yPoemas @ machina de fazer Poesia**

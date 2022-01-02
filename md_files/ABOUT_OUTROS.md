@@ -43,4 +43,4 @@ ___
 ✔ **Imagens e ilustrações do menu principal  
 ___
 
-Copyright © 2021 Nando Lopes - **yPoemas @ machina de fazer Poesia**
+Copyright © 2022 Nando Lopes - **yPoemas @ machina de fazer Poesia**
