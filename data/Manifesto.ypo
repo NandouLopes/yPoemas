@@ -1,5 +1,5 @@
 *-
-*- Manifesto.ipo
+*- Manifesto.ypo
 *-
 *- "no princípio era o Verbo, e o Verbo estava com Deus, e o Verbo era Deus"
 *- "In the beginning was the Word, and the Word was with God, and the Word was God." João 1:1
@@ -11,63 +11,63 @@
 *- <OLD>afrontar-se com|a reviravolta|preces|desacatar|preservar|iniciar|desnorteia|amestra|aliena|alicia|alicerça|rege|
 *- <NEW> estratégia|inerente à/ao|mutantes|resmungos|revanches|o ridículo|heresia|antologia|
 *-
-|01|01|Manifesto_0101|F|5|2|Os poemas que seguem|Os textos abaixo|Os trabalhos aqui apresentados|As palavras aqui ditas|As páginas deste livro|
-|02|01|Manifesto_0201|F|14|1|estão em conformidade com|obedecem|estarão em conformidade com|acatarão|contestam|obedecerão|respeitam, ao pé da letra,|acatam|abominarão|harmonizam com|exemplificam|colocam em dúvida|abominam|concordam com|
-|02|02|Manifesto_0202|F|6|1|as indicações da|os padrões indicados pela|as orientações da|o que determinado pela|os métodos exigidos pela|a sistemática estabelecida pela|
-|06|01|Manifesto_0601|F|5|2|Norma Geral|Regra Culta|Lei Formal|Praxe Virtual|Ordem Interna|
+|01|01|Manifesto_0101|F|5|3|Os poemas que seguem|Os textos abaixo|Os trabalhos aqui apresentados|As palavras aqui ditas|As páginas deste livro|
+|02|01|Manifesto_0201|F|14|10|estão em conformidade com|obedecem|estarão em conformidade com|acatarão|contestam|obedecerão|respeitam, ao pé da letra,|acatam|abominarão|harmonizam com|exemplificam|colocam em dúvida|abominam|concordam com|
+|02|02|Manifesto_0202|F|6|2|as indicações da|os padrões indicados pela|as orientações da|o que determinado pela|os métodos exigidos pela|a sistemática estabelecida pela|
+|06|01|Manifesto_0601|F|5|3|Norma Geral|Regra Culta|Lei Formal|Praxe Virtual|Ordem Interna|
 |06|02|Manifesto_0602|F|1|1|< dNormas > da A.B.N.P.|
-|07|01|Manifesto_0701|F|4|2|( Associação|( Academia|( Agência|( Assembléia|
-|07|02|Manifesto_0702|F|12|11|Brasileira|Binacional|Britânica|Bilateral|Bilíngue|Binomial|Babilônica|Berlinense|Biodegradável|Brasilianista|Bolchevique|Bostoniana|
-|07|03|Manifesto_0703|F|7|5|de Normas Poéticas )|de Não-Poetas )|da Nova Poética )|da NanoEngenharia Poética )|da Nova Palavra )|do Novo Português )|de Nano Poetas )|
+|07|01|Manifesto_0701|F|4|1|( Associação|( Academia|( Agência|( Assembléia|
+|07|02|Manifesto_0702|F|12|6|Brasileira|Binacional|Britânica|Bilateral|Bilíngue|Binomial|Babilônica|Berlinense|Biodegradável|Brasilianista|Bolchevique|Bostoniana|
+|07|03|Manifesto_0703|F|7|7|de Normas Poéticas )|de Não-Poetas )|da Nova Poética )|da NanoEngenharia Poética )|da Nova Palavra )|do Novo Português )|de Nano Poetas )|
 |08|01|Manifesto_0801|F|1|1|publicada em < dPublic >,|
 |10|01|Manifesto_1001|F|1|1|que em seu Parágrafo único,|
-|10|02|Manifesto_1002|F|4|3|Artigo|Versículo|Inciso|Capítulo|
-|10|03|Manifesto_1003|F|8|7|IXX,|Nulo,|XXXVII,|Vago|XIII,|Ímpar,|MMDC,|n,|
-|12|01|Manifesto_1201|F|24|10|dispõe|instrui|norteia|regulamenta|disparata|deriva|tergiversa|discorre|divaga|doutrina|desvaira|palpita|deixa pistas|viaja|pondera|despista|adorna|segreda|redunda|ensaia|ordena|consente|legisla|decreta|
+|10|02|Manifesto_1002|F|4|2|Artigo|Versículo|Inciso|Capítulo|
+|10|03|Manifesto_1003|F|8|2|IXX,|Nulo,|XXXVII,|Vago|XIII,|Ímpar,|MMDC,|n,|
+|12|01|Manifesto_1201|F|24|5|dispõe|instrui|norteia|regulamenta|disparata|deriva|tergiversa|discorre|divaga|doutrina|desvaira|palpita|deixa pistas|viaja|pondera|despista|adorna|segreda|redunda|ensaia|ordena|consente|legisla|decreta|
 |12|02|Manifesto_1202|F|1|1|sobre|
-|12|03|Manifesto_1203|F|4|4|o fim da atividade poética|o valor do fazer poético|o ato versificatório|a prática do trovar|
-|12|04|Manifesto_1204|F|7|5|nos seguintes termos:|vaticinando que:|do seguinte modo:|nessas exatas palavras:|e assim recomenda:|preconizando:|em seus Estatutos:|
+|12|03|Manifesto_1203|F|4|3|o fim da atividade poética|o valor do fazer poético|o ato versificatório|a prática do trovar|
+|12|04|Manifesto_1204|F|7|7|nos seguintes termos:|vaticinando que:|do seguinte modo:|nessas exatas palavras:|e assim recomenda:|preconizando:|em seus Estatutos:|
 |15|00|
-|15|01|Manifesto_1501|F|5|5|"Cabe ao|"É dever do|"Espera-se do|"É obrigação do|"É missão do|
-|15|02|Manifesto_1502|F|8|2|poeta|bardo|autor|vate|escritor|dito-cujo|escrevente|criador|
-|15|03|Manifesto_1503|F|12|7|incentivar|conduzir|estimular|sugerir|ofertar|promover|exortar|induzir|fomentar|inspirar|rotear|instigar|
-|15|04|Manifesto_1504|F|7|3|consultas|incursões|visitas|invasões|passeatas|viagens|excursões|
-|15|05|Manifesto_1505|F|11|7|regulares|esporádicas|frequentes|metódicas|lúdicas|inesperadas|acidentais|intermitentes|recursivas|turísticas|periódicas|
-|16|01|Manifesto_1601|F|5|1|dos leitores|dos pupilos|dos neófitos|do público|dos iniciantes|
-|16|02|Manifesto_1602|F|9|8|aos Dicionários|às Bibliotecas|aos Pais-dos-burros|às Enciclopédias|aos Livros|aos Oráculos|ao Wikipidia|aos Léxicos|aos Vernáculos|
-|20|01|Manifesto_2001|F|4|2|visando|objetivando|intentando|ansiando|
-|20|02|Manifesto_2002|F|19|7|ampliar|semear|multiplicar|desvelar|brincar com|revisitar|clamar|revigorar|recuperar|reaprender|rebuscar|recitar|ressalvar|ver ressurgir|rever|reinar por|romper com|refletir sobre|anunciar|
-|20|03|Manifesto_2003|F|6|2|diferentes|miríades de|constantes|possíveis|incontáveis|milhares de|
-|20|04|Manifesto_2004|F|16|11|caminhos|horizontes|teorias|sentidos|narrativas|minúcias|variações|respostas|vivências|histórias|pontos de partida|domínios|recursos|métricas|divisas|enunciados|
-|25|01|Manifesto_2501|F|3|1|para que,|como se assim,|de modo que,|
-|25|02|Manifesto_2502|F|4|2|usando o|servindo-se do|abusando do|donos do|
-|25|03|Manifesto_2503|F|13|7|multi-pensar,|poder da língua,|pluri-pensar,|raciocínio,|flexi-pensar,|cabedal disponível,|poli-pensar,|mundi-pensar,|diversi-pensar,|livre-versar,|nem-pensar,|neo-pensar|inusitado|
-|30|01|Manifesto_3001|F|6|6|possam|consigam|ousem|se atrevam a|teimem em|queiram apenas|
-|30|02|Manifesto_3002|F|27|23|repartir|revirar|revolver|remixar|descobrir|alardear|inverter|realçar|abrir|disparar|colher|revelar|incitar|oferecer|agregar|captar|alternar|desvendar|arriscar|declamar|abarcar|esculpir|abraçar|talhar|capturar|reabitar|restaurar|
-|30|03|Manifesto_3003|T|53|6|os valores latentes|os valores ocultos|os valores duplos|os valores vários|os valores amplos|os valores fartos|os valores vastos|os valores virgens|os valores mutantes|as nuanças latentes|as nuanças ocultas|as nuanças duplas|as nuanças várias|as nuanças amplas|as nuanças fartas|as nuanças vastas|as nuanças virgens|as nuanças mutantes|os sentidos latentes|os sentidos ocultos|os sentidos duplos|os sentidos vários|os sentidos amplos|os sentidos vastos|os sentidos virgens|os sentidos mutantes|as possibilidades latentes|as possibilidades ocultas|as possibilidades duplas|as possibilidades várias|as possibilidades amplas|as possibilidades fartas|as possibilidades vastas|as possibilidades virgens|as possibilidades mutantes|os desvios latentes|os desvios ocultos|os desvios duplos|os desvios vários|os desvios amplos|os desvios fartos|os desvios vastos|os desvios virgens|os desvios mutantes|os matizes latentes|os matizes ocultos|os matizes duplos|os matizes vários|os matizes amplos|os matizes fartos|os matizes vastos|os matizes virgens|os matizes mutantes|
-|30|04|Manifesto_3004|F|10|1|das palavras|dos versos|da ortografia|do verbo|da voz|do vocabulário|das rimas|dos verbetes|da nossa língua|dos vocábulos|
+|15|01|Manifesto_1501|F|5|1|"Cabe ao|"É dever do|"Espera-se do|"É obrigação do|"É missão do|
+|15|02|Manifesto_1502|F|8|5|poeta|bardo|autor|vate|escritor|dito-cujo|escrevente|criador|
+|15|03|Manifesto_1503|F|12|2|incentivar|conduzir|estimular|sugerir|ofertar|promover|exortar|induzir|fomentar|inspirar|rotear|instigar|
+|15|04|Manifesto_1504|F|7|5|consultas|incursões|visitas|invasões|passeatas|viagens|excursões|
+|15|05|Manifesto_1505|F|11|4|regulares|esporádicas|frequentes|metódicas|lúdicas|inesperadas|acidentais|intermitentes|recursivas|turísticas|periódicas|
+|16|01|Manifesto_1601|F|5|2|dos leitores|dos pupilos|dos neófitos|do público|dos iniciantes|
+|16|02|Manifesto_1602|F|9|3|aos Dicionários|às Bibliotecas|aos Pais-dos-burros|às Enciclopédias|aos Livros|aos Oráculos|ao Wikipidia|aos Léxicos|aos Vernáculos|
+|20|01|Manifesto_2001|F|4|1|visando|objetivando|intentando|ansiando|
+|20|02|Manifesto_2002|F|19|11|ampliar|semear|multiplicar|desvelar|brincar com|revisitar|clamar|revigorar|recuperar|reaprender|rebuscar|recitar|ressalvar|ver ressurgir|rever|reinar por|romper com|refletir sobre|anunciar|
+|20|03|Manifesto_2003|F|6|3|diferentes|miríades de|constantes|possíveis|incontáveis|milhares de|
+|20|04|Manifesto_2004|F|16|14|caminhos|horizontes|teorias|sentidos|narrativas|minúcias|variações|respostas|vivências|histórias|pontos de partida|domínios|recursos|métricas|divisas|enunciados|
+|25|01|Manifesto_2501|F|3|2|para que,|como se assim,|de modo que,|
+|25|02|Manifesto_2502|F|4|1|usando o|servindo-se do|abusando do|donos do|
+|25|03|Manifesto_2503|F|13|5|multi-pensar,|poder da língua,|pluri-pensar,|raciocínio,|flexi-pensar,|cabedal disponível,|poli-pensar,|mundi-pensar,|diversi-pensar,|livre-versar,|nem-pensar,|neo-pensar|inusitado|
+|30|01|Manifesto_3001|F|6|1|possam|consigam|ousem|se atrevam a|teimem em|queiram apenas|
+|30|02|Manifesto_3002|F|27|27|repartir|revirar|revolver|remixar|descobrir|alardear|inverter|realçar|abrir|disparar|colher|revelar|incitar|oferecer|agregar|captar|alternar|desvendar|arriscar|declamar|abarcar|esculpir|abraçar|talhar|capturar|reabitar|restaurar|
+|30|03|Manifesto_3003|T|53|38|os valores latentes|os valores ocultos|os valores duplos|os valores vários|os valores amplos|os valores fartos|os valores vastos|os valores virgens|os valores mutantes|as nuanças latentes|as nuanças ocultas|as nuanças duplas|as nuanças várias|as nuanças amplas|as nuanças fartas|as nuanças vastas|as nuanças virgens|as nuanças mutantes|os sentidos latentes|os sentidos ocultos|os sentidos duplos|os sentidos vários|os sentidos amplos|os sentidos vastos|os sentidos virgens|os sentidos mutantes|as possibilidades latentes|as possibilidades ocultas|as possibilidades duplas|as possibilidades várias|as possibilidades amplas|as possibilidades fartas|as possibilidades vastas|as possibilidades virgens|as possibilidades mutantes|os desvios latentes|os desvios ocultos|os desvios duplos|os desvios vários|os desvios amplos|os desvios fartos|os desvios vastos|os desvios virgens|os desvios mutantes|os matizes latentes|os matizes ocultos|os matizes duplos|os matizes vários|os matizes amplos|os matizes fartos|os matizes vastos|os matizes virgens|os matizes mutantes|
+|30|04|Manifesto_3004|F|10|2|das palavras|dos versos|da ortografia|do verbo|da voz|do vocabulário|das rimas|dos verbetes|da nossa língua|dos vocábulos|
 |30|05|Manifesto_3005|F|1|1|,|
-|31|01|Manifesto_3101|F|15|10|discutir artes|rir dos riscos|ofertar focos|deixar rastros|igualar desiguais|povoar ideias|rumar rumos|questionar certezas|anexar nexos|seduzir culturas|arriscar estrofes|vingar pérolas|flagrar falhas|livrar liberdades|inventar modos|
+|31|01|Manifesto_3101|F|15|11|discutir artes|rir dos riscos|ofertar focos|deixar rastros|igualar desiguais|povoar ideias|rumar rumos|questionar certezas|anexar nexos|seduzir culturas|arriscar estrofes|vingar pérolas|flagrar falhas|livrar liberdades|inventar modos|
 |31|02|Manifesto_3005|F|1|1|,|
-|31|03|Manifesto_3103|T|11|9|suscitar criativos|matar mitos|plantar dúvidas|trilhar estribilhos|incluir excluídos|sair de trilhos|revelar rebeldias|gerar gírias|indicar indícios|fincar trilhas|supor saídas|
+|31|03|Manifesto_3103|T|11|7|suscitar criativos|matar mitos|plantar dúvidas|trilhar estribilhos|incluir excluídos|sair de trilhos|revelar rebeldias|gerar gírias|indicar indícios|fincar trilhas|supor saídas|
 |31|04|Manifesto_3104|F|1|1|...|
 |35|00|
 |35|01|Manifesto_3501|F|1|1|e|
-|35|02|Manifesto_3502|F|8|4|produzir|reinventar|escrever|criar|redigir|elaborar|conceber|formular|
-|35|03|Manifesto_3503|F|17|16|ficção|poesia|prosa|folclore|fantasia|romance|conto|notícia|fábula|manifesto|resenha|discurso|metáfora|tese|ensaio|novela|paródia|
-|40|01|Manifesto_4001|F|3|3|onde a|cuja|onde qualquer|
-|40|02|Manifesto_4002|F|6|4|semelhança com|incoerência com|ressonância com|coincidência com|disparidade com|concordância com|
-|40|03|Manifesto_4003|F|17|9|a realidade|o absurdo|o rústico|o caos|os fatos|a retórica|o resumo|a propaganda|a reprise|o refino|rituais|rotinas|rumores|o ritmo|o novo|o dia-a-dia|sinonímias|
-|45|01|Manifesto_4501|F|7|3|seja meramente|torne-se|não passe de|seja apenas isso:|pareça ser|mostre-se feito|saiba ser|
-|45|02|Manifesto_4502|F|13|8|educação|ficção|recreação|invenção|instrução|redação|ilusão|recriação|furacão|informação|musculação da língua|diversão|provocação|
+|35|02|Manifesto_3502|F|8|7|produzir|reinventar|escrever|criar|redigir|elaborar|conceber|formular|
+|35|03|Manifesto_3503|F|17|17|ficção|poesia|prosa|folclore|fantasia|romance|conto|notícia|fábula|manifesto|resenha|discurso|metáfora|tese|ensaio|novela|paródia|
+|40|01|Manifesto_4001|F|3|1|onde a|cuja|onde qualquer|
+|40|02|Manifesto_4002|F|6|5|semelhança com|incoerência com|ressonância com|coincidência com|disparidade com|concordância com|
+|40|03|Manifesto_4003|F|17|10|a realidade|o absurdo|o rústico|o caos|os fatos|a retórica|o resumo|a propaganda|a reprise|o refino|rituais|rotinas|rumores|o ritmo|o novo|o dia-a-dia|sinonímias|
+|45|01|Manifesto_4501|F|7|5|seja meramente|torne-se|não passe de|seja apenas isso:|pareça ser|mostre-se feito|saiba ser|
+|45|02|Manifesto_4502|F|13|9|educação|ficção|recreação|invenção|instrução|redação|ilusão|recriação|furacão|informação|musculação da língua|diversão|provocação|
 |45|03|Manifesto_3005|F|1|1|,|
-|45|04|Manifesto_4504|F|54|25|lábia|notícia|requinte|sátira|ofício|reverência|sonho|revista|paródia|tendência|malícia|princípio|diversidade|veemência|novela|substância|perícia|rodapé|fábula|repúdio|resenha|compromisso|tese|rebento|vontade|verso|discurso|cultura|lenda|exercício|mudança|remoinho|coragem|desabafo|revolta|retrato|metáfora|audácia|contraponto|resistência|boato|memória|protesto|hipótese|passeio|relato|rótulo|réplica|deleite|dialética|lero|manifesto|ensaio|nota de rodapé|
+|45|04|Manifesto_4504|F|54|50|lábia|notícia|requinte|sátira|ofício|reverência|sonho|revista|paródia|tendência|malícia|princípio|diversidade|veemência|novela|substância|perícia|rodapé|fábula|repúdio|resenha|compromisso|tese|rebento|vontade|verso|discurso|cultura|lenda|exercício|mudança|remoinho|coragem|desabafo|revolta|retrato|metáfora|audácia|contraponto|resistência|boato|memória|protesto|hipótese|passeio|relato|rótulo|réplica|deleite|dialética|lero|manifesto|ensaio|nota de rodapé|
 |45|05|Manifesto_3005|F|1|1|,|
-|45|06|Manifesto_4506|F|21|9|utopia|poesia|anarquia|profecia|magia|algo que rodopia|alegoria|fantasia|alquimia|ousadia|teimosia|energia|mera mania|terapia|rebeldia|picardia|coreografia|analogia|elegia|apologia|neologia|
+|45|06|Manifesto_4506|F|21|20|utopia|poesia|anarquia|profecia|magia|algo que rodopia|alegoria|fantasia|alquimia|ousadia|teimosia|energia|mera mania|terapia|rebeldia|picardia|coreografia|analogia|elegia|apologia|neologia|
 |45|05|Manifesto_4505|F|1|1|."|
 |45|06|Manifesto_4506|F|1|1|{ sic }|
 <EOF>
-CATAPALA = 92
+CATAPALA = 94
 VERBETES = 539
 PALAVRAS = 842
 VARIATIO = 535.986.023.459.665.300.000.000.000.000.000.000.000                             

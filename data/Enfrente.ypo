@@ -1,5 +1,5 @@
 *-
-*- Enfrente.ipo - amor-es-muerto
+*- Enfrente.ypo - amor-es-muerto
 *-
 |01|01|Enfrente_0101|F|3|3|Cada|Todo|Qualquer|
 |01|02|Enfrente_0102|F|1|1|amor que|
@@ -7,14 +7,14 @@
 |02|01|Enfrente_0201|F|6|6|planta|brota|finca|deixa aberto|abre|faz surgir|
 |02|02|Enfrente_0202|F|4|2|na alma|num canto|na dor|na sina|
 |02|03|Enfrente_0203|F|2|2|do poeta|da gente|
-|03|01|Enfrente_0301|T|3|3|um novo|um outro|o possível|
+|03|01|Enfrente_0301|T|3|1|um novo|um outro|o possível|
 |03|02|Enfrente_0302|F|1|1|que|
 |03|03|Enfrente_0303|F|3|3|deve|merece|há de|
 |03|04|Enfrente_0404|F|4|2|nascer.|reviver.|renascer.|acontecer.|
 |04|00|
 |04|01|Enfrente_0401|F|4|2|Os pactos não tem força de lei.|A índole fala mais alto.|Mesmo sem haver perdão.|Um e outro seguem em frente.|
 <EOF>
-CATAPALA = 18
+CATAPALA = 22
 VERBETES = 62
 PALAVRAS = 76
 VARIATIO = 1                                                                               
