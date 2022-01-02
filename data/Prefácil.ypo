@@ -1,5 +1,5 @@
 *-
-*- Prefácil.ipo
+*- Prefácil.ypo
 *-
 *- |05|03| == artista principal == antes de tiro == make poesia!!!
 *- |14|01| e |15|01| = Manter pareados e Random=.F.
@@ -7,51 +7,51 @@
 *- Fim-de-Século = desenvolvido ou moderno para o momento em questão; adiantado
 *-
 |01|01|Prefácil_0101|F|2|1|De início,|Antes,|
-|01|02|Prefácil_0102|F|7|5|pergunta-se|questiona-se|indaga-se|espanta-se|admira-se|duvida-se|assusta-se|
+|01|02|Prefácil_0102|F|7|2|pergunta-se|questiona-se|indaga-se|espanta-se|admira-se|duvida-se|assusta-se|
 |01|03|Prefácil_0103|F|1|1|:|
 |02|00|
 |02|01|Prefácil_0201|F|1|1|Como|
-|02|02|Prefácil_0202|F|7|6|usufruir deste|penetrar neste|invadir o|mergulhar no|sair ileso do|arriscar-se neste|adentrar no|
-|02|03|Prefácil_0203|T|16|5|realejo|passatempo|universo|labirinto|mundo|carrossel|pântano|circo|temporal|vendaval|passeio|esboço|palácio|calidoscópio|dilúvio|espaço|
+|02|02|Prefácil_0202|F|7|3|usufruir deste|penetrar neste|invadir o|mergulhar no|sair ileso do|arriscar-se neste|adentrar no|
+|02|03|Prefácil_0203|T|16|7|realejo|passatempo|universo|labirinto|mundo|carrossel|pântano|circo|temporal|vendaval|passeio|esboço|palácio|calidoscópio|dilúvio|espaço|
 |02|04|Prefácil_0204|T|16|4|onírico|anárquico|híbrido|avesso|multiforme|aleatório|múltiplo|travesso|inexistente|etéreo|lúdico|quase lírico|"Fim-de-Século"|inverso|paralelo|multifacetado|
-|03|01|Prefácil_0301|F|10|3|proposto|esmiuçado|sugerido|arquitetado|enredado|imaginado|inventado|construído|iniciado|criado|
-|03|02|Prefácil_0302|F|9|2|pelo autor?|pela "máquina"?|pelo agora?|pela vida?|pelo acaso?|por outrem?|pelo destino?|pelo amor?|por divindades?|
+|03|01|Prefácil_0301|F|10|1|proposto|esmiuçado|sugerido|arquitetado|enredado|imaginado|inventado|construído|iniciado|criado|
+|03|02|Prefácil_0302|F|9|4|pelo autor?|pela "máquina"?|pelo agora?|pela vida?|pelo acaso?|por outrem?|pelo destino?|pelo amor?|por divindades?|
 |04|00|
-|04|01|Prefácil_0401|F|4|2|Ao navegar por esse|Cara-a-cara com um|Ao perambular por tal|Para brincar no|
-|04|02|Prefácil_0203|F|16|15|realejo|passatempo|universo|labirinto|mundo|carrossel|pântano|circo|temporal|vendaval|passeio|esboço|palácio|calidoscópio|dilúvio|espaço|
+|04|01|Prefácil_0401|F|4|4|Ao navegar por esse|Cara-a-cara com um|Ao perambular por tal|Para brincar no|
+|04|02|Prefácil_0203|F|16|14|realejo|passatempo|universo|labirinto|mundo|carrossel|pântano|circo|temporal|vendaval|passeio|esboço|palácio|calidoscópio|dilúvio|espaço|
 |05|01|Prefácil_0501|F|1|1|@ onde|
-|05|02|Prefácil_0502|F|8|7|borbulham|transitam|desfilam|brotam|explodem|ocorrem|pululam|tramitam|
-|05|03|Prefácil_0503|F|15|11|cores de camaleões|ideias feito mudas|desordens no caos|tempestades de erros|futuros implausíveis|impasses previstos|vãs possibilidades|mais que palpites|palavras ao léu|chuvas de egos|pensamentos amorfos|utopias dos "eus"|medidas comedidas|sonhos sem fins|falsas verdades|
+|05|02|Prefácil_0502|F|8|5|borbulham|transitam|desfilam|brotam|explodem|ocorrem|pululam|tramitam|
+|05|03|Prefácil_0503|F|15|4|cores de camaleões|ideias feito mudas|desordens no caos|tempestades de erros|futuros implausíveis|impasses previstos|vãs possibilidades|mais que palpites|palavras ao léu|chuvas de egos|pensamentos amorfos|utopias dos "eus"|medidas comedidas|sonhos sem fins|falsas verdades|
 |05|04|Prefácil_0504|F|1|1|,|
 |06|01|Prefácil_0601|F|11|11|o leitor é|o incauto é|o passageiro é|o novato é|o marinheiro é|o internauta é|o transeunte é|o turista é|o amante é|o vivente é|o fulano é|
-|06|02|Prefácil_0602|F|6|4|convidado|instigado|provocado|incentivado|instado|intimado|
+|06|02|Prefácil_0602|F|6|6|convidado|instigado|provocado|incentivado|instado|intimado|
 |06|03|Prefácil_0603|F|1|1|,|
-|06|04|Prefácil_0604|T|26|24|cada verso|paulatinamente|por instantes|cada passo|cada minuto|cada instante|cada momento|n'algum verso|indefinidamente|no repente|algum minuto|algum instante|algum momento|todo verso|incessantemente|todo passo|todo minuto|todo instante|todo momento|qualquer verso|ocasionalmente|qualquer passo|qualquer minuto|qualquer instante|qualquer momento|acidentalmente|
+|06|04|Prefácil_0604|T|26|17|cada verso|paulatinamente|por instantes|cada passo|cada minuto|cada instante|cada momento|n'algum verso|indefinidamente|no repente|algum minuto|algum instante|algum momento|todo verso|incessantemente|todo passo|todo minuto|todo instante|todo momento|qualquer verso|ocasionalmente|qualquer passo|qualquer minuto|qualquer instante|qualquer momento|acidentalmente|
 |06|06|Prefácil_0606|F|1|1|,|
 |07|01|Prefácil_0701|F|1|1|a|
 |07|02|Prefácil_0702|T|9|3|encontrar|rever|sondar|tecer|buscar|colher|recriar|engatilhar|verter|
-|07|03|Prefácil_0703|F|5|5|novos horizontes|as próprias saídas|mais respostas|o inusitado|outros limites|
+|07|03|Prefácil_0703|F|5|3|novos horizontes|as próprias saídas|mais respostas|o inusitado|outros limites|
 |07|04|Prefácil_0704|F|1|1|.|
 |08|00|
 |08|01|Prefácil_0801|F|2|1|Não é|Talvez|
-|08|02|Prefácil_0802|F|5|4|leitura|tarefa|coisa|lida|aventura|
-|08|03|Prefácil_0803|F|8|8|óbvia|natural|fácil|casual|fortuita|acidental|de graça|incidental|
+|08|02|Prefácil_0802|F|5|2|leitura|tarefa|coisa|lida|aventura|
+|08|03|Prefácil_0803|F|8|6|óbvia|natural|fácil|casual|fortuita|acidental|de graça|incidental|
 |08|04|Prefácil_0804|F|1|1|...|
 |09|01|Prefácil_0901|F|11|5|Os sentidos|Os sinais|Os valores|Os signos|Os ditos|Os tinos|Os escritos|Os verbos|Os princípios|Os fatos|As palavras|
 |09|02|Prefácil_0902|F|1|1|trans-|
 |09|03|Prefácil_0903|F|1|1|inter-|
-|11|01|Prefácil_1101|F|14|10|calam-se|agem|rogam-se|cambiam-se|correm|laçam-se|ferem-se|ligam-se|pelam-se|mediam-se|põem-se|penetram-se|comunicam-se|pretam-se|
+|11|01|Prefácil_1101|F|14|14|calam-se|agem|rogam-se|cambiam-se|correm|laçam-se|ferem-se|ligam-se|pelam-se|mediam-se|põem-se|penetram-se|comunicam-se|pretam-se|
 |12|01|Prefácil_1201|F|1|1|com|
-|12|02|Prefácil_1202|F|3|1|tal|tamanha|tanta|
+|12|02|Prefácil_1202|F|3|3|tal|tamanha|tanta|
 |12|03|Prefácil_1203|T|50|32|afinidade|agilidade|ambiguidade|austeridade|autenticidade|autoridade|banalidade|capacidade|casualidade|causalidade|comodidade|credibilidade|criatividade|cumplicidade|densidade|disparidade|diversidade|duplicidade|efetividade|eventualidade|facilidade|fecundidade|ferocidade|fertilidade|fidelidade|flexibilidade|frugalidade|habilidade|homogeneidade|identidade|infinidade|intensidade|intimidade|inverdade|jocosidade|mobilidade|naturalidade|peculariedade|plasticidade|pluralidade|propriedade|promiscuidade|reciprocidade|simplicidade|singularidade|sinuosidade|versatilidade|velocidade|vitalidade|voracidade|
 |12|04|Prefácil_1204|F|1|1|que,|
-|13|01|Prefácil_1301|F|6|5|ao final,|inutilmente,|na hora,|por acaso,|depois,|sem porquê,|
-|13|02|Prefácil_0102|F|7|3|pergunta-se|questiona-se|indaga-se|espanta-se|admira-se|duvida-se|assusta-se|
+|13|01|Prefácil_1301|F|6|1|ao final,|inutilmente,|na hora,|por acaso,|depois,|sem porquê,|
+|13|02|Prefácil_0102|F|7|7|pergunta-se|questiona-se|indaga-se|espanta-se|admira-se|duvida-se|assusta-se|
 |13|03|Prefácil_1303|F|1|1|:|
 |14|00|
-|14|01|Prefácil_1401|F|17|17|É possível? Sim. É!|Pode isso? Sim. Pode!|Há saídas? Sim. Há!|Faz sentido? Sim. Faz!|Terá um fim? Não. Não terá.|Cabe em vidas? Sim. Cabe!|É vero? Não. Nem sempre.|Imita-se? Sim. É só tentar.|É contra-indicado? Não. Nunca.|Causa efeitos colaterais? Pensando bem... sim.|São só falácias? Não. Há verdades.|Posso fugir? Não. Não há fuga.|Vai doer? Não. Só se pensar.|É moderno? Não. Foi passado.|É oculto? Não... é claro.|Contagia? Sim. A alma.|Como assim... uma máquina? Não. Eu não sou um robô!|
+|14|01|Prefácil_1401|F|17|15|É possível? Sim. É!|Pode isso? Sim. Pode!|Há saídas? Sim. Há!|Faz sentido? Sim. Faz!|Terá um fim? Não. Não terá.|Cabe em vidas? Sim. Cabe!|É vero? Não. Nem sempre.|Imita-se? Sim. É só tentar.|É contra-indicado? Não. Nunca.|Causa efeitos colaterais? Pensando bem... sim.|São só falácias? Não. Há verdades.|Posso fugir? Não. Não há fuga.|Vai doer? Não. Só se pensar.|É moderno? Não. Foi passado.|É oculto? Não... é claro.|Contagia? Sim. A alma.|Como assim... uma máquina? Não. Eu não sou um robô!|
 <EOF>
-CATAPALA = 48
+CATAPALA = 52
 VERBETES = 343
 PALAVRAS = 491
 VARIATIO = 1.419.790.392.982.241.000.000.000                                               

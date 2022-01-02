@@ -1,5 +1,5 @@
 *-
-*- Sn6=ball.ipo
+*- Sn6=ball.ypo
 *-
 *-
 *- |for|der|par|mau|eco|mil|não|ser|ter|sim|
@@ -12,25 +12,25 @@
 *-
 *- <fnt>DroidSansMono
 |01|01|Sn6=ball_0101|F|1|1|e|
-|02|01|Sn6=ball_0201|F|5|5|ao|de|em|se|no|
-|03|01|Sn6=ball_0301|F|5|5|oco|cru|vil|tal|meu|
-|04|01|Sn6=ball_0401|F|21|20|algo|amor|beco|breu|caos|erro|fado|faro|fogo|laço|lodo|luxo|medo|muro|ócio|tiro|vago|vero|zelo|lida|brio|
+|02|01|Sn6=ball_0201|F|5|2|ao|de|em|se|no|
+|03|01|Sn6=ball_0301|F|5|2|oco|cru|vil|tal|meu|
+|04|01|Sn6=ball_0401|F|21|7|algo|amor|beco|breu|caos|erro|fado|faro|fogo|laço|lodo|luxo|medo|muro|ócio|tiro|vago|vero|zelo|lida|brio|
 |04|02|Sn6=ball_0402|F|1|1|,|
 |05|00|
-|05|01|Sn6=ball_0501|F|26|22|anjos|laços|alvos|males|casos|focos|dados|mitos|raios|entes|jatos|ritos|nomes|tinos|erros|fados|goles|lados|modos|rumos|sinos|solos|todos|cacos|fatos|urros|
-|06|01|Sn6=ball_0601|F|31|2|apenas|bailam|banais|breves|brotam|cabiam|comuns|dançam|demais|faltam|finais|flanam|fatais|fúteis|gentís|haviam|ideais|iguais|imunes|jamais|livres|mandam|nascem|pairam|párias|passam|piegas|reinam|saltam|sobram|teimam|
-|07|01|Sn6=ball_0701|F|26|25|abertos|aflitos|alheios|alhures|amorfos|antigos|astutos|avessos|baratos|batidos|cabidos|calados|eleitos|hereges|humanos|inertes|ínfimos|insanos|inúteis|líricos|lúdicos|mágicos|omissos|opostos|velados|vividos|
-|07|02|Sn6=ball_0702|F|44|13|destinos|adereços|arrepios|assuntos|caminhos|cantares|carinhos|chamados|círculos|conluios|convites|cuidados|defeitos|deleites|delírios|desertos|deslizes|diálogos|dilúvios|domínios|enfeites|engenhos|escritos|espantos|espelhos|espinhos|estorvos|extremos|farrapos|lamentos|milagres|momentos|palhaços|paraísos|passados|profetas|repentes|retratos|senhores|sintomas|teoremas|trinados|vizinhos|zumbidos|
+|05|01|Sn6=ball_0501|F|26|9|anjos|laços|alvos|males|casos|focos|dados|mitos|raios|entes|jatos|ritos|nomes|tinos|erros|fados|goles|lados|modos|rumos|sinos|solos|todos|cacos|fatos|urros|
+|06|01|Sn6=ball_0601|F|31|20|apenas|bailam|banais|breves|brotam|cabiam|comuns|dançam|demais|faltam|finais|flanam|fatais|fúteis|gentís|haviam|ideais|iguais|imunes|jamais|livres|mandam|nascem|pairam|párias|passam|piegas|reinam|saltam|sobram|teimam|
+|07|01|Sn6=ball_0701|F|26|12|abertos|aflitos|alheios|alhures|amorfos|antigos|astutos|avessos|baratos|batidos|cabidos|calados|eleitos|hereges|humanos|inertes|ínfimos|insanos|inúteis|líricos|lúdicos|mágicos|omissos|opostos|velados|vividos|
+|07|02|Sn6=ball_0702|F|44|44|destinos|adereços|arrepios|assuntos|caminhos|cantares|carinhos|chamados|círculos|conluios|convites|cuidados|defeitos|deleites|delírios|desertos|deslizes|diálogos|dilúvios|domínios|enfeites|engenhos|escritos|espantos|espelhos|espinhos|estorvos|extremos|farrapos|lamentos|milagres|momentos|palhaços|paraísos|passados|profetas|repentes|retratos|senhores|sintomas|teoremas|trinados|vizinhos|zumbidos|
 |07|03|Sn6=ball_0703|F|1|1|...|
-|08|01|Sn6=ball_0801|F|25|12|alinho|cobiço|cogito|desfio|desvio|divido|diviso|ensejo|ensino|escuto|almejo|cultuo|desejo|devoro|divago|ensaio|esboço|espero|invejo|planto|refino|semeio|simulo|sugiro|sacudo|
-|09|01|Sn6=ball_0901|F|31|7|horas|ilhas|luzes|novas|obras|falas|iscas|ligas|rimas|sinas|fotos|taras|teias|auras|fugas|ganas|musas|notas|sagas|rezas|artes|cenas|cores|dores|doses|peles|penas|retas|todas|fomes|nadas|
+|08|01|Sn6=ball_0801|F|25|24|alinho|cobiço|cogito|desfio|desvio|divido|diviso|ensejo|ensino|escuto|almejo|cultuo|desejo|devoro|divago|ensaio|esboço|espero|invejo|planto|refino|semeio|simulo|sugiro|sacudo|
+|09|01|Sn6=ball_0901|F|31|25|horas|ilhas|luzes|novas|obras|falas|iscas|ligas|rimas|sinas|fotos|taras|teias|auras|fugas|ganas|musas|notas|sagas|rezas|artes|cenas|cores|dores|doses|peles|penas|retas|todas|fomes|nadas|
 |09|02|Sn6=ball_0902|F|1|1|,|
 |10|00|
-|10|01|Sn6=ball_1001|F|23|14|eixo|cais|chão|auge|leme|gozo|rumo|mote|jogo|mais|viço|rito|alvo|éter|nexo|topo|veio|colo|hino|riso|raro|urge|meio|
-|11|01|Sn6=ball_1101|F|5|1|são|cru|meu|tal|vão|
-|12|01|Sn6=ball_1201|F|2|1|do|no|
+|10|01|Sn6=ball_1001|F|23|1|eixo|cais|chão|auge|leme|gozo|rumo|mote|jogo|mais|viço|rito|alvo|éter|nexo|topo|veio|colo|hino|riso|raro|urge|meio|
+|11|01|Sn6=ball_1101|F|5|3|são|cru|meu|tal|vão|
+|12|01|Sn6=ball_1201|F|2|2|do|no|
 |13|01|Sn6=ball_1301|F|1|1|é|
-|13|02|Sn6=ball_1302|F|3|3|.|!|...|
+|13|02|Sn6=ball_1302|F|3|2|.|!|...|
 <EOF>
 CATAPALA = 14
 VERBETES = 237

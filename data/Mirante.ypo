@@ -1,5 +1,5 @@
 *-
-*- Mirante.ipo
+*- Mirante.ypo
 *-
 *-
 *- quando quer-se|quando rí-se|quando fixa|
@@ -7,29 +7,29 @@
 *-
 *- |01|01|MIR_0101|F|1|1|Teu olhar é|
 *-
-|01|01|Mirante_0101|F|7|3|Teu olhar sabe ser|Teu olhar flutua,|Teu olhar paira,|Teu olhar reluz|Teu olhar me sacia,|Teu olhar me invade|Teu olhar pousa em mim,|
-|01|02|Mirante_0102|F|16|13|invejável|sedutor|adorável|abusado|curioso|indomável|sonhador|gracioso|agradável|delicioso|insaciável|tentador|delicado|desejável|invulgar|atirado|
+|01|01|Mirante_0101|F|7|2|Teu olhar sabe ser|Teu olhar flutua,|Teu olhar paira,|Teu olhar reluz|Teu olhar me sacia,|Teu olhar me invade|Teu olhar pousa em mim,|
+|01|02|Mirante_0102|F|16|12|invejável|sedutor|adorável|abusado|curioso|indomável|sonhador|gracioso|agradável|delicioso|insaciável|tentador|delicado|desejável|invulgar|atirado|
 |01|03|Mirante_0103|F|1|1|:|
 |02|00|
-|02|01|Mirante_0201|F|19|13|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Ofuscante|Instigante|Petulante|
-|02|02|Mirante_0202|F|23|2|quando brinda|quando encanta|quando espia|quando pousa|quando fita|quando flerta|quando joga|quando mira|quando encara|quando pisca|quando reina|quando posa|quando enquadra|quando enlaça|quando mede|quando espreita|quando aponta|quando brilha|quando busca|quando foge|quando impera|quando orbita|quando paira|
-|02|03|Mirante_0203|F|11|7|e rouba a cena|de pirraça|de relance|sem ter pressa|e nem disfarça|e me atravessa|e não dá chance|e oferece|sem nuance|só por graça|sem disfarce|
+|02|01|Mirante_0201|F|19|14|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Ofuscante|Instigante|Petulante|
+|02|02|Mirante_0202|F|23|4|quando brinda|quando encanta|quando espia|quando pousa|quando fita|quando flerta|quando joga|quando mira|quando encara|quando pisca|quando reina|quando posa|quando enquadra|quando enlaça|quando mede|quando espreita|quando aponta|quando brilha|quando busca|quando foge|quando impera|quando orbita|quando paira|
+|02|03|Mirante_0203|F|11|4|e rouba a cena|de pirraça|de relance|sem ter pressa|e nem disfarça|e me atravessa|e não dá chance|e oferece|sem nuance|só por graça|sem disfarce|
 |02|04|Mirante_0204|F|1|1|,|
-|03|01|Mirante_0301|F|15|14|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
-|03|02|Mirante_0302|F|19|14|quando acha-se|quando brinca de|quando cerra-se|quando sorve-me|quando despe-se|quando esconde-se|quando farta-se|quando mostra-se|quando pinta-se|quando sabe-se|quando serve-se|quando oculta-se|quando supõe-se|quando torna-se|quando turva-se|quando evita-me|quando crava em mim|quando faz que é|quando atento e|
-|03|03|Mirante_0303|F|12|10|inventivo|atrativo|esquivo|evasivo|festivo|furtivo|impulsivo|afetivo|incisivo|efusivo|emotivo|impassível|
+|03|01|Mirante_0301|F|15|6|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
+|03|02|Mirante_0302|F|19|15|quando acha-se|quando brinca de|quando cerra-se|quando sorve-me|quando despe-se|quando esconde-se|quando farta-se|quando mostra-se|quando pinta-se|quando sabe-se|quando serve-se|quando oculta-se|quando supõe-se|quando torna-se|quando turva-se|quando evita-me|quando crava em mim|quando faz que é|quando atento e|
+|03|03|Mirante_0303|F|12|5|inventivo|atrativo|esquivo|evasivo|festivo|furtivo|impulsivo|afetivo|incisivo|efusivo|emotivo|impassível|
 |03|04|Mirante_0304|F|1|1|.|
 |04|00|
-|04|01|Mirante_0201|T|19|7|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Ofuscante|Instigante|Petulante|
-|04|02|Mirante_0402|F|10|4|quando dá de|quando pede o|quando pensa em|quando finge|quando pode|quando sabe|quando sonha|quando tenta|quando supõe|quando visa|
-|04|03|Mirante_0403|F|9|1|desviar-se|entregar-se|espelhar-se|enciumar-se|ocultar-se|revelar-se|revirar-se|esconder-se|rebelar-se|
+|04|01|Mirante_0201|T|19|5|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Ofuscante|Instigante|Petulante|
+|04|02|Mirante_0402|F|10|1|quando dá de|quando pede o|quando pensa em|quando finge|quando pode|quando sabe|quando sonha|quando tenta|quando supõe|quando visa|
+|04|03|Mirante_0403|F|9|5|desviar-se|entregar-se|espelhar-se|enciumar-se|ocultar-se|revelar-se|revirar-se|esconder-se|rebelar-se|
 |04|04|Mirante_0404|F|1|1|,|
-|05|01|Mirante_0301|T|15|5|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
-|05|02|Mirante_0302|T|19|19|quando acha-se|quando brinca de|quando cerra-se|quando sorve-me|quando despe-se|quando esconde-se|quando farta-se|quando mostra-se|quando pinta-se|quando sabe-se|quando serve-se|quando oculta-se|quando supõe-se|quando torna-se|quando turva-se|quando evita-me|quando crava em mim|quando faz que é|quando atento e|
-|05|03|Mirante_0303|T|12|6|inventivo|atrativo|esquivo|evasivo|festivo|furtivo|impulsivo|afetivo|incisivo|efusivo|emotivo|impassível|
+|05|01|Mirante_0301|T|15|7|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
+|05|02|Mirante_0302|T|19|17|quando acha-se|quando brinca de|quando cerra-se|quando sorve-me|quando despe-se|quando esconde-se|quando farta-se|quando mostra-se|quando pinta-se|quando sabe-se|quando serve-se|quando oculta-se|quando supõe-se|quando torna-se|quando turva-se|quando evita-me|quando crava em mim|quando faz que é|quando atento e|
+|05|03|Mirante_0303|T|12|9|inventivo|atrativo|esquivo|evasivo|festivo|furtivo|impulsivo|afetivo|incisivo|efusivo|emotivo|impassível|
 |05|04|Mirante_0504|F|1|1|.|
 <EOF>
-CATAPALA = 21
+CATAPALA = 24
 VERBETES = 150
 PALAVRAS = 334
 VARIATIO = 8.268.495.442.099.200                                                           

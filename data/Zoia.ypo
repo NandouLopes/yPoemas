@@ -1,5 +1,5 @@
 *-
-*- Zoia.ipo
+*- Zoia.ypo
 *-
 *-
 *- abstrato|infinito|
@@ -17,61 +17,61 @@
 *-
 *- |09|03|ZOI_0303|T|8|4|tão afável|inefável|indomável|agradável|insaciável|desejável|adorável|impensável|
 *-
-|01|01|Zoia_0101|F|3|1|Sei...|Sim,|Pois|
+|01|01|Zoia_0101|F|3|3|Sei...|Sim,|Pois|
 |01|02|Zoia_0102|F|1|1|você tem o olhar mais|
-|01|03|Zoia_0103|F|16|8|invejável|sedutor|adorável|abusado|curioso|indomável|sonhador|gracioso|agradável|delicioso|insaciável|tentador|delicado|desejável|invulgar|atirado|
-|02|01|Zoia_0201|F|4|3|que o meu modo de ver já viu ao vivo|que até hoje em minha vida vi ao vivo|que eu já tenha em minha vida visto ao vivo|que eu já pude em minha vida ver ao vivo|
+|01|03|Zoia_0103|F|16|10|invejável|sedutor|adorável|abusado|curioso|indomável|sonhador|gracioso|agradável|delicioso|insaciável|tentador|delicado|desejável|invulgar|atirado|
+|02|01|Zoia_0201|F|4|1|que o meu modo de ver já viu ao vivo|que até hoje em minha vida vi ao vivo|que eu já tenha em minha vida visto ao vivo|que eu já pude em minha vida ver ao vivo|
 |02|02|Zoia_0202|F|1|1|:|
-|03|01|Zoia_0301|F|19|7|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Instigante|Ofuscante|Petulante|
-|03|02|Zoia_0302|F|21|4|quando brinda|quando encanta|quando espia|quando pousa|quando fita|quando flerta|quando criva|quando joga|quando mira|quando encara|quando quer ser|quando pisca|quando reina|quando posa|quando fixa|quando enquadra|quando enlaça|quando mede|quando espreita|quando crava|quando trava|
-|03|03|Zoia_0103|F|16|16|invejável|sedutor|adorável|abusado|curioso|indomável|sonhador|gracioso|agradável|delicioso|insaciável|tentador|delicado|desejável|invulgar|atirado|
+|03|01|Zoia_0301|F|19|17|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Instigante|Ofuscante|Petulante|
+|03|02|Zoia_0302|F|21|9|quando brinda|quando encanta|quando espia|quando pousa|quando fita|quando flerta|quando criva|quando joga|quando mira|quando encara|quando quer ser|quando pisca|quando reina|quando posa|quando fixa|quando enquadra|quando enlaça|quando mede|quando espreita|quando crava|quando trava|
+|03|03|Zoia_0103|F|16|2|invejável|sedutor|adorável|abusado|curioso|indomável|sonhador|gracioso|agradável|delicioso|insaciável|tentador|delicado|desejável|invulgar|atirado|
 |03|04|Zoia_0304|F|1|1|,|
-|04|01|Zoia_0401|F|15|2|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
-|04|02|Zoia_0402|F|16|1|quando acha-se|quando brinca de|quando cerra-se|quando despe-se|quando esconde-se|quando farta-se|quando mostra-se|quando pinta-se|quando sabe-se|quando serve-se|quando oculta-se|quando supõe-se|quando torna-se|quando turva-se|quando evita-me|quando sorve-me|
-|04|03|Zoia_0403|F|13|4|inventivo|atrativo|esquivo|evasivo|festivo|furtivo|impulsivo|passivo|afetivo|incisivo|efusivo|emotivo|altivo|
+|04|01|Zoia_0401|F|15|10|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
+|04|02|Zoia_0402|F|16|3|quando acha-se|quando brinca de|quando cerra-se|quando despe-se|quando esconde-se|quando farta-se|quando mostra-se|quando pinta-se|quando sabe-se|quando serve-se|quando oculta-se|quando supõe-se|quando torna-se|quando turva-se|quando evita-me|quando sorve-me|
+|04|03|Zoia_0403|F|13|5|inventivo|atrativo|esquivo|evasivo|festivo|furtivo|impulsivo|passivo|afetivo|incisivo|efusivo|emotivo|altivo|
 |04|04|Zoia_0404|F|1|1|.|
 |05|00|
-|05|01|Zoia_0501|F|19|18|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Instigante|Ofuscante|Petulante|
-|05|02|Zoia_0502|F|10|7|quando dá de|quando pede o|quando pensa em|quando finge|quando pode|quando sabe|quando sonha|quando tenta|quando supõe|quando visa|
-|05|03|Zoia_0503|F|10|5|desviar-se|entregar-se|espelhar-se|enciumar-se|ocultar-se|revelar-se|revirar-se|esconder-se|adivinhar-se|aconchegar-se|
+|05|01|Zoia_0501|F|19|9|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Instigante|Ofuscante|Petulante|
+|05|02|Zoia_0502|F|10|5|quando dá de|quando pede o|quando pensa em|quando finge|quando pode|quando sabe|quando sonha|quando tenta|quando supõe|quando visa|
+|05|03|Zoia_0503|F|10|3|desviar-se|entregar-se|espelhar-se|enciumar-se|ocultar-se|revelar-se|revirar-se|esconder-se|adivinhar-se|aconchegar-se|
 |05|04|Zoia_0504|F|1|1|,|
-|06|01|Zoia_0401|T|15|11|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
-|06|02|Zoia_0602|F|12|4|quando crava|quando aponta|quando brilha|quando busca o|quando atenta|quando faz que é|quando foge|quando impera|quando orbita|quando paira|quando quer-se|quando rí do|
-|06|03|Zoia_0603|F|11|2|disponível|impassível|impossível|inatingível|indizível|infalível|intangível|intraduzível|invisível|irresistível|tão possível|
+|06|01|Zoia_0401|T|15|8|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
+|06|02|Zoia_0602|F|12|6|quando crava|quando aponta|quando brilha|quando busca o|quando atenta|quando faz que é|quando foge|quando impera|quando orbita|quando paira|quando quer-se|quando rí do|
+|06|03|Zoia_0603|F|11|3|disponível|impassível|impossível|inatingível|indizível|infalível|intangível|intraduzível|invisível|irresistível|tão possível|
 |06|04|Zoia_0604|F|1|1|.|
-|07|01|Zoia_0501|T|19|17|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Instigante|Ofuscante|Petulante|
-|07|02|Zoia_0702|F|17|11|quando brinda|quando encanta|quando espia|quando pousa|quando fita|quando flerta|quando joga|quando mira|quando encara|quando pisca|quando reina|quando posa|quando fixa|quando enquadra|quando enlaça|quando mede|quando espreita|
-|07|03|Zoia_0703|F|11|11|e rouba a cena|de pirraça|de relance|sem ter pressa|e nem disfarça|e me atravessa|e não dá chance|e oferece|sem nuance|só por graça|sem disfarce|
+|07|01|Zoia_0501|T|19|13|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Instigante|Ofuscante|Petulante|
+|07|02|Zoia_0702|F|17|3|quando brinda|quando encanta|quando espia|quando pousa|quando fita|quando flerta|quando joga|quando mira|quando encara|quando pisca|quando reina|quando posa|quando fixa|quando enquadra|quando enlaça|quando mede|quando espreita|
+|07|03|Zoia_0703|F|11|1|e rouba a cena|de pirraça|de relance|sem ter pressa|e nem disfarça|e me atravessa|e não dá chance|e oferece|sem nuance|só por graça|sem disfarce|
 |07|04|Zoia_0704|F|1|1|,|
-|08|01|Zoia_0401|T|15|6|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
-|08|02|Zoia_0802|F|16|5|quando acha-se|quando brinca de|quando cerra-se|quando despe-se|quando esconde-se|quando farta-se|quando mostra-se|quando pinta-se|quando sabe-se|quando serve-se|quando oculta-se|quando supõe-se|quando torna-se|quando turva-se|quando evita-me|quando sorve-me|
-|08|03|Zoia_0803|F|12|12|inventivo|atrativo|esquivo|evasivo|festivo|furtivo|impulsivo|passivo|afetivo|incisivo|efusivo|emotivo|
+|08|01|Zoia_0401|T|15|9|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
+|08|02|Zoia_0802|F|16|7|quando acha-se|quando brinca de|quando cerra-se|quando despe-se|quando esconde-se|quando farta-se|quando mostra-se|quando pinta-se|quando sabe-se|quando serve-se|quando oculta-se|quando supõe-se|quando torna-se|quando turva-se|quando evita-me|quando sorve-me|
+|08|03|Zoia_0803|F|12|1|inventivo|atrativo|esquivo|evasivo|festivo|furtivo|impulsivo|passivo|afetivo|incisivo|efusivo|emotivo|
 |08|04|Zoia_0804|F|1|1|.|
 |09|00|
-|09|01|Zoia_0501|T|19|15|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Instigante|Ofuscante|Petulante|
-|09|02|Zoia_0902|F|10|3|quando dá de|quando pede o|quando pensa em|quando finge|quando pode|quando sabe|quando sonha|quando tenta|quando supõe|quando visa|
-|09|03|Zoia_0903|F|10|8|desviar-se|entregar-se|espelhar-se|enciumar-se|ocultar-se|revelar-se|revirar-se|esconder-se|adivinhar-se|aconchegar-se|
+|09|01|Zoia_0501|T|19|7|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Instigante|Ofuscante|Petulante|
+|09|02|Zoia_0902|F|10|1|quando dá de|quando pede o|quando pensa em|quando finge|quando pode|quando sabe|quando sonha|quando tenta|quando supõe|quando visa|
+|09|03|Zoia_0903|F|10|6|desviar-se|entregar-se|espelhar-se|enciumar-se|ocultar-se|revelar-se|revirar-se|esconder-se|adivinhar-se|aconchegar-se|
 |09|04|Zoia_0904|F|1|1|,|
-|10|01|Zoia_0401|T|15|15|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
-|10|02|Zoia_1002|F|12|10|quando crava|quando aponta|quando brilha|quando busca o|quando atenta|quando faz que é|quando foge|quando impera|quando orbita|quando paira|quando quer-se|quando rí do|
-|10|03|Zoia_1003|F|11|8|disponível|impassível|impossível|inatingível|indizível|infalível|intangível|intraduzível|invisível|irresistível|tão possível|
+|10|01|Zoia_0401|T|15|2|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
+|10|02|Zoia_1002|F|12|12|quando crava|quando aponta|quando brilha|quando busca o|quando atenta|quando faz que é|quando foge|quando impera|quando orbita|quando paira|quando quer-se|quando rí do|
+|10|03|Zoia_1003|F|11|9|disponível|impassível|impossível|inatingível|indizível|infalível|intangível|intraduzível|invisível|irresistível|tão possível|
 |10|04|Zoia_1004|F|1|1|.|
-|11|01|Zoia_0501|T|19|4|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Instigante|Ofuscante|Petulante|
-|11|02|Zoia_1102|F|17|14|quando brinda|quando encanta|quando espia|quando pousa|quando fita|quando flerta|quando joga|quando mira|quando encara|quando pisca|quando reina|quando posa|quando fixa|quando enquadra|quando enlaça|quando mede|quando espreita|
-|11|03|Zoia_1103|F|11|8|e rouba a cena|de pirraça|de relance|sem ter pressa|e nem disfarça|e me atravessa|e não dá chance|e oferece|sem nuance|só por graça|sem disfarce|
+|11|01|Zoia_0501|T|19|15|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Instigante|Ofuscante|Petulante|
+|11|02|Zoia_1102|F|17|6|quando brinda|quando encanta|quando espia|quando pousa|quando fita|quando flerta|quando joga|quando mira|quando encara|quando pisca|quando reina|quando posa|quando fixa|quando enquadra|quando enlaça|quando mede|quando espreita|
+|11|03|Zoia_1103|F|11|9|e rouba a cena|de pirraça|de relance|sem ter pressa|e nem disfarça|e me atravessa|e não dá chance|e oferece|sem nuance|só por graça|sem disfarce|
 |11|04|Zoia_1104|F|1|1|,|
 |12|00|
-|12|01|Zoia_0401|T|15|13|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
-|12|02|Zoia_1202|T|16|8|quando acha-se|quando brinca de|quando cerra-se|quando despe-se|quando esconde-se|quando farta-se|quando mostra-se|quando pinta-se|quando sabe-se|quando serve-se|quando oculta-se|quando supõe-se|quando torna-se|quando turva-se|quando evita-me|quando sorve-me|
-|12|03|Zoia_0803|F|12|11|inventivo|atrativo|esquivo|evasivo|festivo|furtivo|impulsivo|passivo|afetivo|incisivo|efusivo|emotivo|
+|12|01|Zoia_0401|T|15|11|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
+|12|02|Zoia_1202|T|16|1|quando acha-se|quando brinca de|quando cerra-se|quando despe-se|quando esconde-se|quando farta-se|quando mostra-se|quando pinta-se|quando sabe-se|quando serve-se|quando oculta-se|quando supõe-se|quando torna-se|quando turva-se|quando evita-me|quando sorve-me|
+|12|03|Zoia_0803|F|12|12|inventivo|atrativo|esquivo|evasivo|festivo|furtivo|impulsivo|passivo|afetivo|incisivo|efusivo|emotivo|
 |12|05|Zoia_1205|F|1|1|...|
 |13|01|Zoia_1301|F|2|2|E embora a gente|E por mais que a gente|
-|13|02|Zoia_1302|F|4|2|viva de|só tente|brinque de|teime em|
-|13|03|Zoia_1303|T|4|4|esquivar-se|olhar-se|encarar-se|amar-se|
-|14|01|Zoia_1401|F|4|2|do seu olhar mais qu'escravo sou cativo|sem olhar o teu olhar é que não vivo|é de olhar olhares como o teu que vivo|sem me ver em teu olhar é que não vivo|
+|13|02|Zoia_1302|F|4|4|viva de|só tente|brinque de|teime em|
+|13|03|Zoia_1303|T|4|1|esquivar-se|olhar-se|encarar-se|amar-se|
+|14|01|Zoia_1401|F|4|4|do seu olhar mais qu'escravo sou cativo|sem olhar o teu olhar é que não vivo|é de olhar olhares como o teu que vivo|sem me ver em teu olhar é que não vivo|
 |14|02|Zoia_1402|F|1|1|.|
 <EOF>
-CATAPALA = 76
+CATAPALA = 79
 VERBETES = 202
 PALAVRAS = 770
 VARIATIO = 211.161.747.978.679.500.000.000.000.000.000.000.000                             
