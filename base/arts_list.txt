@@ -18,8 +18,7 @@
 |Cromossomo|joco|
 |Cuores|persona|
 |Destinos|anima|
-|Distintos|esoteric|
-|Distintos|persona|
+|Distintos|anima|
 |Dolores|beauty|
 |Elogio|anima|
 |Enfrente|persona|
@@ -30,7 +29,7 @@
 |Finalmentes|esoteric|
 |Frases|joco|
 |Fugaz|anima|
-|Gula|persona|
+|Gula|joco|
 |Haikai|anima|
 |Indolor|anima|
 |Inhos|anima|
@@ -45,15 +44,15 @@
 |Neobrazil|joco|
 |Oca|persona|
 |Ocio|joco|
-|Oficio|joco|
+|Oficio|author|
 |Oco|anima|
-|Ogiva|persona|
+|Ogiva|beauty|
 |Olhares|persona|
 |Papilio|persona|
 |Pessoa|anima|
 |Prefácil|anima|
 |Reger|anima|
-|Remedeio|anima|
+|Remedeio|joco|
 |Reinos|joco|
 |Rever|anima|
 |Rito|esoteric|
