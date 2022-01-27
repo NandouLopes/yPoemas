@@ -189,9 +189,6 @@ if "talk" not in st.session_state:
 if "arts" not in st.session_state:
     st.session_state.arts = []
 
-if "plug" not in st.session_state:
-    st.session_state.plug = False
-
 ### eof: settings
 ### bof: tools
 
@@ -222,27 +219,24 @@ def pick_lang():
     btn_en = btn_en.button("en", help="English")
     btn_xy = btn_xy.button("⚒️", help=st.session_state.poly_name)
 
-    if not st.session_state.plug:
-        st.warning("Traduções não disponíveis")
-    else:
-        if btn_pt:
-            st.session_state.lang = "pt"
-            st.session_state.poly_file = "poly_pt.txt"
-        elif btn_es:
-            st.session_state.lang = "es"
-            st.session_state.poly_file = "poly_es.txt"
-        elif btn_it:
-            st.session_state.lang = "it"
-            st.session_state.poly_file = "poly_it.txt"
-        elif btn_fr:
-            st.session_state.lang = "fr"
-            st.session_state.poly_file = "poly_fr.txt"
-        elif btn_en:
-            st.session_state.lang = "en"
-            st.session_state.poly_file = "poly_en.txt"
-        elif btn_xy:
-            st.session_state.last_lang = st.session_state.lang
-            st.session_state.lang = st.session_state.poly_lang
+    if btn_pt:
+        st.session_state.lang = "pt"
+        st.session_state.poly_file = "poly_pt.txt"
+    elif btn_es:
+        st.session_state.lang = "es"
+        st.session_state.poly_file = "poly_es.txt"
+    elif btn_it:
+        st.session_state.lang = "it"
+        st.session_state.poly_file = "poly_it.txt"
+    elif btn_fr:
+        st.session_state.lang = "fr"
+        st.session_state.poly_file = "poly_fr.txt"
+    elif btn_en:
+        st.session_state.lang = "en"
+        st.session_state.poly_file = "poly_en.txt"
+    elif btn_xy:
+        st.session_state.last_lang = st.session_state.lang
+        st.session_state.lang = st.session_state.poly_lang
 
 
 # define help_tips
@@ -562,7 +556,7 @@ def pick_arts(nome_tema):  # Select image for arts
     if len(st.session_state.arts) > 36:  # remove first
         del st.session_state.arts[0]
 
-    # print(image)
+    print(image)
     logo = path + image
     return logo
 
@@ -648,8 +642,7 @@ def translate(input_text):
     if st.session_state.lang == "pt":  # don't need translations here
         return input_text
 
-    if not st.session_state.plug:
-        st.warning("Internet não conectada. Traduções não disponíveis no momento.")
+    if not internet:
         st.session_state.lang = "pt"  # if no Internet then...
         return input_text
 
@@ -783,9 +776,9 @@ def page_abouts():
     st.sidebar.info(load_file("INFO_ABOUT.md"))
 
     abouts_list = [
+        "comments",
         "machina",
         "prefácio",
-        "comments",
         "off-machina",
         "outros",
         "traduttore",
@@ -822,11 +815,10 @@ if st.session_state.take > maxy:  # just in case
 # check visitor once
 if st.session_state.visy:  # random text at first entry
     update_visy()
-    st.session_state.visy = False
     st.session_state.take = random.randrange(0, maxy, 1)
     curr_tema = temas_list[st.session_state.take]
     update_readings(curr_tema)
-    st.session_state.plug = internet()
+    st.session_state.visy = False
 
 
 def page_mini():  # F4C3S
@@ -834,8 +826,8 @@ def page_mini():  # F4C3S
     pick_draw()
     st.sidebar.info(load_file("INFO_MINI.md"))
 
-    temas_list = load_temas(st.session_state.book)
-    maxy = len(temas_list) - 1
+    # temas_list = load_temas(st.session_state.book)
+    # maxy = len(temas_list) - 1
 
     mini_expander = st.expander("", expanded=True)
     with mini_expander:
@@ -931,6 +923,7 @@ def page_ypoemas():
     lnew = True
     if manu:
         lnew = False
+        st.markdown(analise, unsafe_allow_html=True)
         st.subheader(load_file("MANUAL_YPOEMAS.md"))
 
     if lnew:
@@ -1012,60 +1005,62 @@ def page_eureka():
                 seed_list.append(palas + " - " + fonte)
 
         if len(seed_list) > 0:
+            seed_list.sort()
             st.session_state.find_word = find_what
-            eureka_expander = st.expander("", expanded=True)
-            with eureka_expander:
-                seed_list.sort()
-                if len(seed_list) == 1:
-                    info_find = "ocorrência"
-                else:
-                    info_find = "ocorrências"
-                info_find += ' de "' + find_what + '"'
+            if len(seed_list) == 1:
+                info_find = "ocorrência"
+            else:
+                info_find = "ocorrências"
 
-                with occurrences:
-                    opt_ocur = st.selectbox(
-                        str(len(seed_list)) + " " + translate(info_find),
-                        list(range(len(seed_list))),
-                        format_func=lambda y: seed_list[y],
-                        key="opt_ocur",
-                    )
+            info_find += ' de "' + find_what + '"'
 
-                if (opt_ocur < 0) or (opt_ocur > len(seed_list)):
-                    opt_ocur = 0
+            with occurrences:
+                opt_ocur = st.selectbox(
+                    str(len(seed_list)) + " " + translate(info_find),
+                    list(range(len(seed_list))),
+                    format_func=lambda y: seed_list[y],
+                    key="opt_ocur",
+                )
 
-                seed_tema = get_seed_tema(seed_list[opt_ocur])
-                this_seed = seed_list[opt_ocur]
-                analise = say_numeros(seed_tema)
-                with aide:
-                    aide = st.button("?", help=analise)
+            if (opt_ocur < 0) or (opt_ocur > len(seed_list)):
+                opt_ocur = 0
 
-                if st.session_state.lang != st.session_state.last_lang:
-                    curr_ypoema = load_lypo()  # changes in lang, keep LYPO
-                else:
-                    curr_ypoema = load_poema(seed_tema, this_seed)
-                    curr_ypoema = load_lypo()
+            seed_tema = get_seed_tema(seed_list[opt_ocur])
+            this_seed = seed_list[opt_ocur]
+            analise = say_numeros(seed_tema)
+            with aide:
+                aide = st.button("?", help=analise)
 
-                if st.session_state.lang != "pt":  # translate if idioma <> pt
-                    curr_ypoema = translate(curr_ypoema)
-                    typo_user = "TYPO_" + user_id
-                    with open(
-                        os.path.join("./temp/" + typo_user), "w", encoding="utf-8"
-                    ) as save_typo:
-                        save_typo.write(curr_ypoema)
-                        save_typo.close()
-                    curr_ypoema = load_typo()  # to normalize line breaks in text
+            if st.session_state.lang != st.session_state.last_lang:
+                curr_ypoema = load_lypo()  # changes in lang, keep LYPO
+            else:
+                curr_ypoema = load_poema(seed_tema, this_seed)
+                curr_ypoema = load_lypo()
 
-                LOGO_TEXT = curr_ypoema
-                LOGO_IMAGE = "none"
-                if st.session_state.draw:
-                    LOGO_IMAGE = pick_arts(seed_tema)
-
-                write_ypoema(LOGO_TEXT, LOGO_IMAGE)
-                update_readings(seed_tema)
+            if st.session_state.lang != "pt":  # translate if idioma <> pt
+                curr_ypoema = translate(curr_ypoema)
+                typo_user = "TYPO_" + user_id
+                with open(
+                    os.path.join("./temp/" + typo_user), "w", encoding="utf-8"
+                ) as save_typo:
+                    save_typo.write(curr_ypoema)
+                    save_typo.close()
+                curr_ypoema = load_typo()  # to normalize line breaks in text
 
             if aide:
                 lnew = False
+                st.markdown(analise, unsafe_allow_html=True)
                 st.subheader(load_file("MANUAL_EUREKA.md"))
+            else:
+                eureka_expander = st.expander("", expanded=True)
+                with eureka_expander:
+                    LOGO_TEXT = curr_ypoema
+                    LOGO_IMAGE = "none"
+                    if st.session_state.draw:
+                        LOGO_IMAGE = pick_arts(seed_tema)
+                    
+                    write_ypoema(LOGO_TEXT, LOGO_IMAGE)
+                    update_readings(seed_tema)
 
             if st.session_state.talk:
                 talk(curr_ypoema)
