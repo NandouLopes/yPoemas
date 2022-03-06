@@ -49,6 +49,7 @@
 |Ogiva|beauty|
 |Olhares|persona|
 |Papilio|persona|
+|Perfil|beauty|
 |Pessoa|anima|
 |Prefácil|anima|
 |Reger|anima|
