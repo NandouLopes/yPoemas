@@ -13,6 +13,7 @@
 |carinhoza|Perfil_0102|
 |cauma|Perfil_0102|
 |cinsera|Perfil_0102|
+|fiante|Perfil_0102|
 |companhêra|Perfil_0102|
 |compriensiva|Perfil_0102|
 |decedida|Perfil_0102|
@@ -138,6 +139,9 @@
 |comum|Perfil_0201|
 |como|Perfil_0201|
 |outras|Perfil_0201|
+|preso|Perfil_0201|
+|dimais|Perfil_0201|
+|carácter|Perfil_0201|
 |procuro|Perfil_0301|
 |quero|Perfil_0301|
 |gostaria|Perfil_0301|
@@ -232,12 +236,14 @@
 |nao|Perfil_0303|
 |veija|Perfil_0303|
 |feitos|Perfil_0303|
+|complissidade|Perfil_0303|
 |qui|Perfil_0401|
 |ceja|Perfil_0401|
-|quem|Perfil_0401|
 |cima|Perfil_0401|
 |tudo|Perfil_0401|
 |seje|Perfil_0401|
+|ascima|Perfil_0401|
+|quem|Perfil_0401|
 |adespozisão|Perfil_0402|
 |alto-confiante|Perfil_0402|
 |bem|Perfil_0402|
@@ -247,7 +253,11 @@
 |carinhoza|Perfil_0402|
 |cauma|Perfil_0402|
 |cencível|Perfil_0402|
+|cinsera|Perfil_0402|
+|fiante|Perfil_0402|
+|companhêra|Perfil_0402|
 |compriensiva|Perfil_0402|
+|cumprisse|Perfil_0402|
 |descreta|Perfil_0402|
 |desempedida|Perfil_0402|
 |desvociada|Perfil_0402|
@@ -262,7 +272,7 @@
 |passiente|Perfil_0402|
 |resouvida|Perfil_0402|
 |respetadora|Perfil_0402|
-|responsaveu|Perfil_0402|
+|respossavel|Perfil_0402|
 |simpres|Perfil_0402|
 |sinssera|Perfil_0402|
 |tranguila|Perfil_0402|
@@ -354,6 +364,11 @@
 |siceridade|Perfil_0602|
 |comesse|Perfil_0602|
 |conversa|Perfil_0602|
+|sou|Perfil_0602|
+|uma|Perfil_0602|
+|opição|Perfil_0602|
+|vem|Perfil_0602|
+|encomodar|Perfil_0602|
 |Mosaico|Reinos_0101|
 |Ensaio|Reinos_0101|
 |Teste|Reinos_0101|
