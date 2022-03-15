@@ -1,16 +1,17 @@
-**yPoemas @ machina** de fazer Poesia  
+**a machina de fazer Poesia - yPoemas**  
 ___
 **O que é**  
 > Um aplicativo para gerar poemas ou textos aleatóriamente.  
 
 **Visão geral**  
 > O trabalho é dividido em temas. Atualmente são 144.  
-> Com um total aproximado de 35.000 palavras **[ver obs.]**,  
+> Com um total aproximado de 35.700 palavras **[ver obs.]**,  
 > são criados **Bancos de Palavras** para cada tema.  
 
 > Escolhido um tema, o aplicativo seleciona e embaralha aleatoriamente  
 > as palavras do **banco** ligado ao mesmo e reorganiza-as  
 > em um novo texto, único, original e diferente do anterior.  
+> Cada texto gerado é um novo **yPoema**  
 
 **Como funciona**  
 > Em uma visão espacial, o texto é criado em três dimensões-eixos  
@@ -66,21 +67,19 @@ ___
   depende da quantidade de opções existentes nos "Bancos de Palavras" do tema.  
   O número varia de alguns milhões a valores quase astronômicos.  
 
-> Na página **mini** o botão '☁' mostra essas variações.  
-> Na página **yPoemas** o botão '☁' mostra essas variações.  
+> Na página **mini** o botão '✔' mostra essas variações.  
+> Na página **yPoemas** o botão '?' mostra essas variações.  
+> Na página **eureka** o botão '?' mostra essas variações.	
 
-**[obs.]** - cerca de 12.500 verbetes únicos  
+
+**[obs.]** - cerca de 12.750 verbetes únicos  
 > foram excluídos dessas contagens verbetes com menos de 3 sílabas.  
-> exemplos: o, a, à, e, é, os, as, de, da, do, eu, ao, em, um etc...  
+> exemplos: o, a, à, e, é, os, as, de, da, do, eu, ao, em, um etc.  
 
 >> palavra: unidade linguística com significado próprio e existência independente,  
 >> que pode ser escrita ou falada.  
 
 >> verbete: palavras que estão listadas em um dicionário, por ordem alfabética,  
 >> com suas respectivas definições.  
-
->> vocábulo: palavra considerada apenas quanto à sua forma,  
->> independentemente da significação que nela se encerra.  
-
 ___
 Copyright © 2022 Nando Lopes - **yPoemas @ machina de fazer Poesia**
