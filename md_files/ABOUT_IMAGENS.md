@@ -9,7 +9,7 @@ ___
 ___  
   
 - O porquê das imagens:  
-> A imagem é linguagem que não depende de tradução, assim como a música.  
+> A imagem é linguagem que, assim como a música, não depende de tradução.  
 > A imagem é uma engenharia reversa do processo de aprendizagem. (som, imagem e grafia)  
 > Uma imagem vale mais que mil palavras (sic)...  
 
