@@ -44,12 +44,12 @@ ___
 > Efêmero, inesperado, impermanente, imprevisível e aberto.  
 
 > Não existe "leitura anterior" do tema.  
->> Cada yPoema gerado será substituído pelo próximo.  
->> O texto é descartado e só se repetirá quando combinadas   
->> todas as variações possíveis à ele.  
+>> Cada yPoema gerado é substituído pelo próximo.  
+>> O texto anterior é descartado e só se repetirá  
+>> quando forem usadas todas as variações possíveis à ele.  
 
-> O objetivo não é esgotar o tema e sim explorar todas as suas possibilidades,  
-  variações, nuanças, matizes, sutilezas, mistérios e contrastes.  
+> O objetivo não é esgotar o tema e sim explorar todas as suas nuanças,  
+  sutilezas, matizes, possibilidades, mistérios e contrastes.  
 
 > Os **yPoemas** são essencialmente "vivos" e em mutação.  
   As linhas, ideias e palavras podem ser eliminadas, acrescentadas ou modificadas  
@@ -67,7 +67,7 @@ ___
   depende da quantidade de opções existentes nos "Bancos de Palavras" do tema.  
   O número varia de alguns milhões a valores quase astronômicos.  
 
-> Na página **mini** o botão '✔' mostra essas variações.  
+> Na página **mini** o botão '!!!' mostra essas variações.  
 > Na página **yPoemas** o botão '?' mostra essas variações.  
 > Na página **eureka** o botão '?' mostra essas variações.	
 

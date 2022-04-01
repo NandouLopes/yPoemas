@@ -1,4 +1,4 @@
-sobre a **Editora Samizdát** ( dos livros off-machina )  
+sobre a **Editora Samizdát**  
 ___
 > samizdát: substantivo masculino  
 ___
