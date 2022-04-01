@@ -37,12 +37,12 @@
 |Joker|joco|
 |Lato|author|
 |MachBeth|persona|
-|MachBrait|persona|
-|Manusgrite|anima|
+|MachBrait|anima|
+|Manusgrite|beauty|
 |Meteoro|joco|
 |Mirante|persona|
 |Neobrazil|joco|
-|Oca|persona|
+|Oca|beauty|
 |Ocio|joco|
 |Oficio|author|
 |Oco|anima|
@@ -56,7 +56,7 @@
 |Remedeio|joco|
 |Reinos|joco|
 |Rever|anima|
-|Rito|esoteric|
+|Rito|joco|
 |Saudades|persona|
 |Ser|anima|
 |Seguro|joco|
@@ -67,7 +67,7 @@
 |Sonoro|anima|
 |Sopros|anima|
 |Sos|joco|
-|Sua|persona|
+|Sua|beauty|
 |Tiro|anima|
 |Usinas|anima|
 |Veio|anima|

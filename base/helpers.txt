@@ -3,33 +3,38 @@
 |pt_nest|próximo|
 |pt_love|mais lidos...|
 |pt_more|gera um novo yPoema|
-|pt_draw|imagens|
-|pt_talk|leituras|
+|pt_draw|imagem|
+|pt_talk|áudio|
+|pt_vydo|vídeo|
 |es_last|anterior|
 |es_rand|elige un tema al azar|
 |es_nest|próximo|
 |es_love|mas leidos...|
 |es_more|genera un nuevo yPoem|
-|es_draw|imagenes|
-|es_talk|lecturas|
+|es_draw|imagen|
+|es_talk|audio|
+|es_vydo|video|
 |it_last|precedente|
 |it_rand|scegliere un tema a caso|
 |it_nest|prossimo|
 |it_love|più letto...|
 |it_more|genera un nuovo yPoem|
-|it_draw|immagini|
-|it_talk|lettura|
+|it_draw|immagine|
+|it_talk|audio|
+|it_vydo|video|
 |fr_last|précédent|
 |fr_rand|choisir le thème au hasard|
 |fr_nest|prochain|
 |fr_love|les plus lus...|
 |fr_more|génère un nouveau yPoem|
-|fr_draw|images|
-|fr_talk|lectures|
+|fr_draw|image|
+|fr_talk|audio|
+|fr_vydo|video|
 |en_last|last|
 |en_rand|pick theme at random|
 |en_nest|next|
 |en_love|most read...|
 |en_more|generates a new yPoem|
-|en_draw|pictures|
-|en_talk|readings|
+|en_draw|image|
+|en_talk|audio|
+|en_vydo|video|
