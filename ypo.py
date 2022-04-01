@@ -645,10 +645,10 @@ def vydo_show(vydo):  # mostra vídeo-tutorial da página
     #    unsafe_allow_html=True,
     #)
     
-    video_name = os.path.join("./base/" + "video_" + vydo + ".WEBM")
+    video_name = os.path.join("./base/" + "video_" + vydo + ".webm")
     video_file = open(video_name, "rb")
     video_byts = video_file.read()
-    st.video(video_byts, format="WEBM")
+    st.video(video_byts, format="webm")
     video_file.close()
 
 
