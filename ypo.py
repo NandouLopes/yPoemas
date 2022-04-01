@@ -16,9 +16,15 @@ Passei boa parte da minha vida escrevendo a "machina".
 A leitura fica para os amanhãs.
 Não vivo no meu tempo.
 
+share : https://share.streamlit.io/
 deploy: https://share.streamlit.io/nandoulopes/ypoemas/main/ypo.py
 config: chrome://settings/content/siteDetails?site=https%3A%2F%2Fauth.streamlit.io
 transl: https://translate.google.com/
+
+
+# tic = time.perf_counter()
+# tac = time.perf_counter()
+# tictac = (f" ( {tac - tic:0.4f} sec )")
 
 VISY == New Visitor
 NANY_VISY == Number of Visitors
@@ -185,6 +191,8 @@ if "draw" not in st.session_state:
     st.session_state.draw = False
 if "talk" not in st.session_state:
     st.session_state.talk = False
+if "vydo" not in st.session_state:
+    st.session_state.vydo = False
 
 if "arts" not in st.session_state:
     st.session_state.arts = []
@@ -193,6 +201,8 @@ if "arts" not in st.session_state:
 ### bof: tools
 
 # social media links
+#        <a href="https://youtu.be/SxtA5SM1hUw" target="_blank">manual</a> |
+
 def show_icons():
     st.sidebar.markdown(
         f"""
@@ -265,19 +275,22 @@ def load_help(idiom):
         returns.append(translate("próximo"))
         returns.append(translate("mais lidos..."))
         returns.append(translate("gera novo yPoema"))
-        returns.append(translate("imagens"))
-        returns.append(translate("leituras"))
+        returns.append(translate("imagem"))
+        returns.append(translate("áudio"))
+        returns.append(translate("vídeo"))
     return returns
 
 
 # define draw & talk
 def pick_draw():
-    draw_text, talk_text = st.sidebar.columns([6.2, 3.8])
+    draw_text, talk_text, vydo_text = st.sidebar.columns([3.8, 3.2, 3])
     help_me = load_help(st.session_state.lang)
     help_draw = help_me[5]
     help_talk = help_me[6]
+    help_vydo = help_me[7]
     st.session_state.draw = draw_text.checkbox(help_draw, st.session_state.draw, key="draw_machina")
     st.session_state.talk = talk_text.checkbox(help_talk, st.session_state.talk, key="talk_machina")
+    st.session_state.vydo = vydo_text.checkbox(help_vydo, st.session_state.vydo, key="vydo_machina")
 
 
 # count one more visitor
@@ -398,6 +411,7 @@ def load_file(file):  # Open files for about's
 
         if not ".rol" in file:
             file_text = translate(file_text)
+
     except:
         file_text = "ooops... arquivo ( " + file + " ) não pode ser aberto. Sorry."
         st.session_state.lang = "pt"
@@ -614,10 +628,28 @@ def talk(text):  # text to speech(text in session_state.lang)
     file_name = os.path.join("./temp/" + "audio" + str(nany_file) + ".mp3")
     tts.save(file_name)
     audio_file = open(file_name, "rb")
-    audio_bytes = audio_file.read()
-    st.audio(audio_bytes, format="audio/ogg")
+    audio_byts = audio_file.read()
+    st.audio(audio_byts, format="audio/ogg")
     audio_file.close()
     os.remove(file_name)
+
+
+def vydo_show(vydo):  # mostra vídeo-tutorial da página
+    #video_modo = os.path.join("./base/" + "modo_" + vydo + ".JPG")
+    #st.markdown(
+    #    f"""
+    #    <div class="container">
+    #        <img class="logo-img" src="data:image/jpg;base64,{base64.b64encode(open(video_modo, "rb").read()).decode()}">
+    #    </div>
+    #    """,
+    #    unsafe_allow_html=True,
+    #)
+    
+    video_name = os.path.join("./base/" + "video_" + vydo + ".WEBM")
+    video_file = open(video_name, "rb")
+    video_byts = video_file.read()
+    st.video(video_byts, format="WEBM")
+    video_file.close()
 
 
 def say_numeros(tema):  # search index title for eureka
@@ -676,7 +708,7 @@ def main():
         "about": page_abouts,
     }
 
-    page = st.sidebar.selectbox("menu", tuple(pages.keys()))
+    page = st.sidebar.selectbox('', tuple(pages.keys()))
     pages[page]()
     show_icons()
     st.sidebar.state = True
@@ -685,94 +717,109 @@ def main():
 
 def page_polys():  # available languages
     pick_lang()
+    pick_draw()
     st.sidebar.info(load_file("INFO_POLY.md"))
 
-    poly_expander = st.expander("", True)
-    with poly_expander:
-        pp, ok = st.columns([9.3, 0.7])
-        with pp:
-            poly_list = []
-            poly_show = []
-            with open(
-                os.path.join("./base/" + st.session_state.poly_file), encoding="utf-8"
-            ) as poly:
-                for line in poly:
-                    poly_list.append(line)
-                    pipe_line = line.split("|")
-                    poly_show.append(pipe_line[1] + " : " + pipe_line[2])
-            poly.close()
+    pp, ok = st.columns([9.3, 0.7])
+    with pp:
+        poly_list = []
+        poly_show = []
+        with open(
+            os.path.join("./base/" + st.session_state.poly_file), encoding="utf-8"
+        ) as poly:
+            for line in poly:
+                poly_list.append(line)
+                pipe_line = line.split("|")
+                poly_show.append(pipe_line[1] + " : " + pipe_line[2])
+        poly.close()
 
-            options = list(range(len(poly_show)))
-            opt_poly = st.selectbox(
-                str(len(poly_list)) + " idiomas",
-                options,
-                index=st.session_state.poly_take,
-                format_func=lambda x: poly_show[x],
-                key="opt_poly",
-            )
+        options = list(range(len(poly_show)))
+        opt_poly = st.selectbox(
+            str(len(poly_list)) + " idiomas",
+            options,
+            index=st.session_state.poly_take,
+            format_func=lambda x: poly_show[x],
+            key="opt_poly",
+        )
 
-        with ok:
-            doit = st.button("✔", help="confirm ?")
+    with ok:
+        doit = st.button("✔", help="confirm ?")
 
-        st.subheader(load_file("MANUAL_POLY.md"))
-
-        if doit:
-            get_poly_name(poly_list[opt_poly])
-            st.session_state.poly_take = opt_poly
-            st.session_state.last_lang = st.session_state.lang
-            st.session_state.lang = st.session_state.poly_lang
+    lnew = True
+    if st.session_state.vydo:
+        lnew = False
+        vydo_show("poly")
+    
+    if lnew:
+        poly_expander = st.expander("", True)
+        with poly_expander:
+            st.subheader(load_file("MANUAL_POLY.md"))
+        
+            if doit:
+                get_poly_name(poly_list[opt_poly])
+                st.session_state.poly_take = opt_poly
+                st.session_state.last_lang = st.session_state.lang
+                st.session_state.lang = st.session_state.poly_lang
 
 
 def page_books():  # available books
     pick_lang()
+    pick_draw()
     st.sidebar.info(load_file("INFO_BOOKS.md"))
 
-    books_expander = st.expander("", True)
-    with books_expander:
-        bb, ok = st.columns([9.3, 0.7])
-        with bb:
-            books_list = [
-                "livro vivo",
-                "poemas",
-                "jocosos",
-                "ensaios",
-                "variações",
-                "metalingua",
-                "todos os temas",
-                "outros autores",
-                "signos_fem",
-                "signos_mas",
-                "todos os signos",
-            ]
+    bb, ok = st.columns([9.3, 0.7])
+    with bb:
+        books_list = [
+            "livro vivo",
+            "poemas",
+            "jocosos",
+            "ensaios",
+            "variações",
+            "metalingua",
+            "todos os temas",
+            "outros autores",
+            "signos_fem",
+            "signos_mas",
+            "todos os signos",
+        ]
 
-            options = list(range(len(books_list)))
-            opt_book = st.selectbox(
-                "",
-                options,
-                index=books_list.index(st.session_state.book),
-                format_func=lambda x: books_list[x],
-                key="opt_book",
-            )
+        options = list(range(len(books_list)))
+        opt_book = st.selectbox(
+            "",
+            options,
+            index=books_list.index(st.session_state.book),
+            format_func=lambda x: books_list[x],
+            key="opt_book",
+        )
 
+        with ok:
+            doit = st.button("✔", help="confirm ?")
+
+        lnew = True
+        if st.session_state.vydo:
+            lnew = False
+            vydo_show("books")
+    
+        if lnew:
             list_book = ""
             temas_list = load_temas(books_list[opt_book])
             for line in temas_list:
                 list_book += line.strip() + ", "
             st.write(list_book[:-2])
 
-        with ok:
-            doit = st.button("✔", help="confirm ?")
-
-        st.subheader(load_file("MANUAL_BOOKS.md"))
-
-        if doit:
-            st.session_state.take = 0
-            st.session_state.book = books_list[opt_book]
-            return None
+            books_expander = st.expander("", True)
+            with books_expander:
+                st.subheader(load_file("MANUAL_BOOKS.md"))
+        
+                if doit:
+                    st.session_state.take = 0
+                    st.session_state.book = books_list[opt_book]
+                    return None
 
 
 def page_abouts():
     pick_lang()
+    pick_draw()
     st.sidebar.info(load_file("INFO_ABOUT.md"))
 
     abouts_list = [
@@ -799,10 +846,16 @@ def page_abouts():
         key="opt_abouts",
     )
 
-    choice = abouts_list[opt_abouts].upper()
-    about_expander = st.expander("", True)
-    with about_expander:
-        st.subheader(load_file("ABOUT_" + choice + ".md"))
+    lnew = True
+    if st.session_state.vydo:
+        lnew = False
+        vydo_show("about")
+
+    if lnew:
+        choice = abouts_list[opt_abouts].upper()
+        about_expander = st.expander("", True)
+        with about_expander:
+            st.subheader(load_file("ABOUT_" + choice + ".md"))
 
 
 st.session_state.last_lang = st.session_state.lang
@@ -826,49 +879,52 @@ def page_mini():  # F4C3S
     pick_draw()
     st.sidebar.info(load_file("INFO_MINI.md"))
 
-    # temas_list = load_temas(st.session_state.book)
-    # maxy = len(temas_list) - 1
+    foo1, more, rand, foo2 = st.columns([4, 1, 1, 4])
+    rand = rand.button("✴")
+    
+    if rand:
+        st.session_state.take = random.randrange(0, maxy, 1)
+    
+    curr_tema = temas_list[st.session_state.take]
+    analise = say_numeros(curr_tema)
+    more = more.button("!!!", help=analise)
 
-    mini_expander = st.expander("", expanded=True)
-    with mini_expander:
+    lnew = True
+    if st.session_state.vydo:
+        lnew = False
+        vydo_show("mini")
 
-        foo1, more, rand, foo2 = st.columns([4, 1, 1, 4])
-        rand = rand.button("✴")
-        
-        if rand:
-            st.session_state.take = random.randrange(0, maxy, 1)
-        
-        curr_tema = temas_list[st.session_state.take]
-        analise = say_numeros(curr_tema)
-        more = more.button("✔", help=analise)
-
-        if st.session_state.lang != st.session_state.last_lang:
-            curr_ypoema = load_lypo()  # changes in lang, keep LYPO
-        else:
-            curr_ypoema = load_poema(curr_tema, "")
-            curr_ypoema = load_lypo()
-        
-        if st.session_state.lang != "pt":  # translate if idioma <> pt
-            curr_ypoema = translate(curr_ypoema)
-            typo_user = "TYPO_" + user_id
-            with open(
-                os.path.join("./temp/" + typo_user), "w", encoding="utf-8"
-            ) as save_typo:
-                save_typo.write(curr_ypoema)
-                save_typo.close()
-            curr_ypoema = load_typo()  # to normalize line breaks in text
-        
-        update_readings(curr_tema)
-        LOGO_TEXT = curr_ypoema
-        LOGO_IMAGE = "none"
-        
-        if st.session_state.draw:
-            LOGO_IMAGE = pick_arts(curr_tema)
-        
-        write_ypoema(LOGO_TEXT, LOGO_IMAGE)
-        
-        if st.session_state.talk:
-            talk(curr_ypoema)
+    if lnew:
+        mini_expander = st.expander("", expanded=True)
+        with mini_expander:
+                
+            if st.session_state.lang != st.session_state.last_lang:
+                curr_ypoema = load_lypo()  # changes in lang, keep LYPO
+            else:
+                curr_ypoema = load_poema(curr_tema, "")
+                curr_ypoema = load_lypo()
+            
+            if st.session_state.lang != "pt":  # translate if idioma <> pt
+                curr_ypoema = translate(curr_ypoema)
+                typo_user = "TYPO_" + user_id
+                with open(
+                    os.path.join("./temp/" + typo_user), "w", encoding="utf-8"
+                ) as save_typo:
+                    save_typo.write(curr_ypoema)
+                    save_typo.close()
+                curr_ypoema = load_typo()  # to normalize line breaks in text
+            
+            update_readings(curr_tema)
+            LOGO_TEXT = curr_ypoema
+            LOGO_IMAGE = "none"
+            
+            if st.session_state.draw:
+                LOGO_IMAGE = pick_arts(curr_tema)
+            
+            write_ypoema(LOGO_TEXT, LOGO_IMAGE)
+            
+            if st.session_state.talk:
+                talk(curr_ypoema)
 
 
 def page_ypoemas():
@@ -886,7 +942,7 @@ def page_ypoemas():
     help_nest = help_me[2]
     help_more = help_me[4]
 
-    more = more.button("✔", help=help_more)
+    more = more.button("!!!", help=help_more)
     last = last.button("◀", help=help_last)
     rand = rand.button("✴", help=help_rand)
     nest = nest.button("▶", help=help_nest)
@@ -925,6 +981,10 @@ def page_ypoemas():
         lnew = False
         st.markdown(analise, unsafe_allow_html=True)
         st.subheader(load_file("MANUAL_YPOEMAS.md"))
+
+    if st.session_state.vydo:
+        lnew = False
+        vydo_show("ypoemas")
 
     if lnew:
         info = (
@@ -967,6 +1027,7 @@ def page_ypoemas():
 
         if st.session_state.talk:
             talk(curr_ypoema)
+
         # st.markdown(get_binary_file_downloader_html('./temp/'+"LYPO_" + user_id, curr_tema), unsafe_allow_html=True)
 
 
@@ -987,7 +1048,7 @@ def page_eureka():
         )
 
     with more:
-        more = more.button('✔', help=help_more)
+        more = more.button('!!!', help=help_more)
 
     if len(find_what) < 3:
         st.warning("digite pelo menos 3 letras...")
@@ -1047,28 +1108,33 @@ def page_eureka():
                     save_typo.close()
                 curr_ypoema = load_typo()  # to normalize line breaks in text
 
-            if aide:
+            lnew = True
+            if st.session_state.vydo:
                 lnew = False
-                st.markdown(analise, unsafe_allow_html=True)
-                st.subheader(load_file("MANUAL_EUREKA.md"))
-            else:
-                eureka_expander = st.expander("", expanded=True)
-                with eureka_expander:
-                    LOGO_TEXT = curr_ypoema
-                    LOGO_IMAGE = "none"
-                    if st.session_state.draw:
-                        LOGO_IMAGE = pick_arts(seed_tema)
-                    
-                    write_ypoema(LOGO_TEXT, LOGO_IMAGE)
-                    update_readings(seed_tema)
+                vydo_show("eureka")
 
-            if st.session_state.talk:
-                talk(curr_ypoema)
+            if lnew:
+                if aide:
+                    st.markdown(analise, unsafe_allow_html=True)
+                    st.subheader(load_file("MANUAL_EUREKA.md"))
+                else:
+                    eureka_expander = st.expander("", expanded=True)
+                    with eureka_expander:
+                        LOGO_TEXT = curr_ypoema
+                        LOGO_IMAGE = "none"
+                        if st.session_state.draw:
+                            LOGO_IMAGE = pick_arts(seed_tema)
+                        
+                        write_ypoema(LOGO_TEXT, LOGO_IMAGE)
+                        update_readings(seed_tema)
+                
+                    if st.session_state.talk:
+                        talk(curr_ypoema)
         else:
             st.warning("nenhum verbete encontrado com essas letras ---> " + find_what)
 
 
-def page_off_machina():  # available off_books
+def page_off_machina():  # available off_machina_books
     pick_lang()
     pick_draw()
     st.sidebar.info(load_file("INFO_OFF-MACHINA.md"))
@@ -1146,6 +1212,10 @@ def page_off_machina():  # available off_books
             get_binary_file_downloader_html("./temp/read_list.txt", "views"),
             unsafe_allow_html=True,
         )
+
+    if st.session_state.vydo:
+        lnew = False
+        vydo_show("off-machina")
 
     if lnew:
         info = (
