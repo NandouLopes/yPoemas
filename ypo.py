@@ -21,7 +21,6 @@ deploy: https://share.streamlit.io/nandoulopes/ypoemas/main/ypo.py
 config: chrome://settings/content/siteDetails?site=https%3A%2F%2Fauth.streamlit.io
 transl: https://translate.google.com/
 
-
 # tic = time.perf_counter()
 # tac = time.perf_counter()
 # tictac = (f" ( {tac - tic:0.4f} sec )")
@@ -191,8 +190,8 @@ if "draw" not in st.session_state:
     st.session_state.draw = False
 if "talk" not in st.session_state:
     st.session_state.talk = False
-if "vydo" not in st.session_state:
-    st.session_state.vydo = False
+if "vide" not in st.session_state:
+    st.session_state.vide = False
 
 if "arts" not in st.session_state:
     st.session_state.arts = []
@@ -283,14 +282,14 @@ def load_help(idiom):
 
 # define draw & talk
 def pick_draw():
-    draw_text, talk_text, vydo_text = st.sidebar.columns([3.8, 3.2, 3])
+    draw_text, talk_text, vyde_text = st.sidebar.columns([3.8, 3.2, 3])
     help_me = load_help(st.session_state.lang)
     help_draw = help_me[5]
     help_talk = help_me[6]
-    help_vydo = help_me[7]
+    help_vyde = help_me[7]
     st.session_state.draw = draw_text.checkbox(help_draw, st.session_state.draw, key="draw_machina")
     st.session_state.talk = talk_text.checkbox(help_talk, st.session_state.talk, key="talk_machina")
-    st.session_state.vydo = vydo_text.checkbox(help_vydo, st.session_state.vydo, key="vydo_machina")
+    st.session_state.vide = vyde_text.checkbox(help_vyde, st.session_state.vide, key="vyde_machina")
 
 
 # count one more visitor
@@ -634,8 +633,8 @@ def talk(text):  # text to speech(text in session_state.lang)
     os.remove(file_name)
 
 
-def vydo_show(vydo):  # mostra vídeo-tutorial da página
-    #video_modo = os.path.join("./base/" + "modo_" + vydo + ".JPG")
+def show_video(name):  # mostra vídeo-tutorial da página
+    #video_modo = os.path.join("./base/" + "modo_" + name + ".JPG")
     #st.markdown(
     #    f"""
     #    <div class="container">
@@ -645,7 +644,7 @@ def vydo_show(vydo):  # mostra vídeo-tutorial da página
     #    unsafe_allow_html=True,
     #)
     
-    video_name = os.path.join("./base/" + "video_" + vydo + ".webm")
+    video_name = os.path.join("./base/" + "video_" + name + ".webm")
     video_file = open(video_name, "rb")
     video_byts = video_file.read()
     st.video(video_byts, format="webm")
@@ -746,9 +745,11 @@ def page_polys():  # available languages
         doit = st.button("✔", help="confirm ?")
 
     lnew = True
-    if st.session_state.vydo:
+    if st.session_state.vide:
         lnew = False
-        vydo_show("poly")
+        show_video("poly")
+        update_readings("video_poly")
+        st.session_state.vide = False
     
     if lnew:
         poly_expander = st.expander("", True)
@@ -796,9 +797,11 @@ def page_books():  # available books
             doit = st.button("✔", help="confirm ?")
 
         lnew = True
-        if st.session_state.vydo:
+        if st.session_state.vide:
             lnew = False
-            vydo_show("books")
+            show_video("books")
+            update_readings("video_books")
+            st.session_state.vide = False
     
         if lnew:
             list_book = ""
@@ -847,9 +850,11 @@ def page_abouts():
     )
 
     lnew = True
-    if st.session_state.vydo:
+    if st.session_state.vide:
         lnew = False
-        vydo_show("about")
+        show_video("about")
+        update_readings("video_about")
+        st.session_state.vide = False
 
     if lnew:
         choice = abouts_list[opt_abouts].upper()
@@ -870,7 +875,7 @@ if st.session_state.visy:  # random text at first entry
     update_visy()
     st.session_state.take = random.randrange(0, maxy, 1)
     curr_tema = temas_list[st.session_state.take]
-    update_readings(curr_tema)
+    # update_readings(curr_tema)
     st.session_state.visy = False
 
 
@@ -890,9 +895,11 @@ def page_mini():  # F4C3S
     more = more.button("!!!", help=analise)
 
     lnew = True
-    if st.session_state.vydo:
+    if st.session_state.vide:
         lnew = False
-        vydo_show("mini")
+        show_video("mini")
+        update_readings("video_mini")
+        st.session_state.vide = False
 
     if lnew:
         mini_expander = st.expander("", expanded=True)
@@ -982,9 +989,11 @@ def page_ypoemas():
         st.markdown(analise, unsafe_allow_html=True)
         st.subheader(load_file("MANUAL_YPOEMAS.md"))
 
-    if st.session_state.vydo:
+    if st.session_state.vide:
         lnew = False
-        vydo_show("ypoemas")
+        show_video("ypoemas")
+        update_readings("video_ypoemas")
+        st.session_state.vide = False
 
     if lnew:
         info = (
@@ -1055,7 +1064,6 @@ def page_eureka():
     else:
         seed_list = []
         eureka_list = load_eureka(find_what)
-
         for line in eureka_list:
             pipe_line = line.split("|")
             palas = pipe_line[1]
@@ -1109,9 +1117,11 @@ def page_eureka():
                 curr_ypoema = load_typo()  # to normalize line breaks in text
 
             lnew = True
-            if st.session_state.vydo:
+            if st.session_state.vide:
                 lnew = False
-                vydo_show("eureka")
+                show_video("eureka")
+                update_readings("video_eureka")
+                st.session_state.vide = False
 
             if lnew:
                 if aide:
@@ -1213,9 +1223,11 @@ def page_off_machina():  # available off_machina_books
             unsafe_allow_html=True,
         )
 
-    if st.session_state.vydo:
+    if st.session_state.vide:
         lnew = False
-        vydo_show("off-machina")
+        show_video("off-machina")
+        update_readings("video_off-machina")
+        st.session_state.vide = False
 
     if lnew:
         info = (
