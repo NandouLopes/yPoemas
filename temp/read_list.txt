@@ -26,7 +26,7 @@
 |Caprico=m|0|
 |Cartaz|113|
 |Circular|43|
-|Ciuminho|202|
+|Ciuminho|203|
 |Clandestino|147|
 |Clarice|67|
 |Conto|52|
@@ -59,11 +59,11 @@
 |Haikai|3|
 |HayKay|0|
 |Indolor|26|
-|Inhos|122|
+|Inhos|123|
 |Insano|10|
 |Isso|91|
 |Jealousy|12|
-|Joker|99|
+|Joker|104|
 |Lato|228|
 |Leao=f|19|
 |Leao=m|2|
@@ -77,13 +77,13 @@
 |MachBeth|14|
 |MachBrait|23|
 |Manifesto|290|
-|Manusgrite|155|
+|Manusgrite|156|
 |Manusgrito|0|
 |Meteoro|85|
 |Minuto|70|
 |Mirante|21|
 |Nonono|18|
-|Nós|83|
+|Nós|85|
 |Oca|57|
 |Ocio|149|
 |Oco|20|
@@ -94,7 +94,7 @@
 |Papilio|97|
 |Paroles|0|
 |Passagens|26|
-|Perfil|161|
+|Perfil|163|
 |Peixes=f|0|
 |Peixes=m|0|
 |Pessoa|37|
@@ -112,7 +112,7 @@
 |Sagitari=m|0|
 |Salute|4|
 |Saudades|210|
-|Seguro|251|
+|Seguro|253|
 |Sentença|171|
 |Ser|0|
 |Silente|164|
@@ -122,7 +122,7 @@
 |Snowball|2|
 |Solero|0|
 |Sonoro|0|
-|Sopros|172|
+|Sopros|175|
 |Sos|123|
 |Ss1|4|
 |Ss2|1|
@@ -144,3 +144,10 @@
 |linguafiada|11|
 |quase_que_eu_Poesia|9|
 |um_romance|102|
+|video_mini|1|
+|video_ypoemas|1|
+|video_eureka|1|
+|video_off-machina|1|
+|video_books|1|
+|video_poly|1|
+|video_about|1|
