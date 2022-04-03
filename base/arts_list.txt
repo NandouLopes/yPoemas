@@ -36,6 +36,7 @@
 |Isso|persona|
 |Joker|joco|
 |Lato|author|
+|Leituras|author|
 |MachBeth|persona|
 |MachBrait|anima|
 |Manusgrite|beauty|
