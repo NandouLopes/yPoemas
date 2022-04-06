@@ -1,34 +1,33 @@
 *-
 *- Reclame.ypo
 *-
-*- manter despareados: _0403, _0502 e _0505
-*- |11|02|Reclame_1102|T|4|2|uma nesga de utopia|uma taça de empatia|um pouco de rebeldia|uma simples alegria|um olhar em sintonia|uma hora de poesia|
+*- |08|02|Reclame_0802|T|6|2|uma nesga de utopia|uma taça de empatia|um pouco de rebeldia|uma simples alegria|um olhar em sintonia|uma hora de poesia|
 *-
 |01|01|Reclame_0101|F|1|1|Nesses tempos de|
-|01|02|Reclame_0102|F|9|5|abusos de autoridade|medidas impopulares|ideologias baratas|falas cruzadas|caras-à-tapa|meias palavras|"dias de cão"|novas artimanhas|teses infundadas|
+|01|02|Reclame_0102|F|9|7|abusos de autoridade|medidas impopulares|ideologias baratas|falas cruzadas|caras-à-tapa|"dias de cão"|novas artimanhas|teses infundadas|ardís ideológicos|
 |01|03|Reclame_0103|F|1|1|,|
-|02|01|Reclame_0201|T|15|12|palavras cruéis|ícones insensatos|pontos sem nó|"olho-por-olho"|tiros no escuro|falsos profetas|dedos no gatilho|truísmos a granel|amor por dinheiro|opiniões divergentes|vozes impostadas|egos inflados|palpites equivocados|especialistas em tudo|heróis de araque|
+|02|01|Reclame_0201|T|18|9|palavras cruéis|ícones insensatos|meias palavras|pontos sem nó|"olho-por-olho"|tiros no escuro|falsos profetas|dedos no gatilho|truísmos a granel|amor por dinheiro|opiniões imutáveis|vozes impostadas|egos inflados|palpites equivocados|especialistas em tudo|heróis de araque|dicotomias perversas|mentiras na nuvem|
 |02|02|Reclame_0202|F|1|1|e|
-|02|03|Reclame_0203|F|9|2|visões distorcidas|suntuosas regalias|falsas notícias|mentiras na nuvem|balas perdidas|medos absurdos|velhas ladainhas|veras mentiras|renovadas velharias|
+|02|03|Reclame_0203|F|10|7|visões distorcidas|suntuosas regalias|falsas notícias|vagas profecias|balas perdidas|medos absurdos|velhas ladainhas|veras mentiras|renovadas velharias|oratórias vazias|
 |02|04|Reclame_0204|F|1|1|#;|
 |03|00|
 |04|01|Reclame_0401|F|1|1|de|
 |04|02|Reclame_0402|F|8|4|pessoas|teorias|verdades|ideias|mentes|apologias|certezas|falácias|
-|04|03|Reclame_0403|F|10|4|nefastas|impermeáveis|monótonas|imutáveis|tacanhas|insanas|ambíguas|insólitas|patéticas|exóticas|
+|04|03|Reclame_0403|F|11|9|nefastas|impermeáveis|monótonas|imutáveis|tacanhas|insanas|ambíguas|insólitas|patéticas|exóticas|ilusórias|
 |04|04|Reclame_0103|F|1|1|,|
-|05|01|Reclame_0402|T|8|1|pessoas|teorias|verdades|ideias|mentes|apologias|certezas|falácias|
-|05|02|Reclame_0403|T|10|3|nefastas|impermeáveis|monótonas|imutáveis|tacanhas|insanas|ambíguas|insólitas|patéticas|exóticas|
+|05|01|Reclame_0402|T|8|8|pessoas|teorias|verdades|ideias|mentes|apologias|certezas|falácias|
+|05|02|Reclame_0403|T|11|3|nefastas|impermeáveis|monótonas|imutáveis|tacanhas|insanas|ambíguas|insólitas|patéticas|exóticas|ilusórias|
 |05|03|Reclame_0202|F|1|1|e|
-|05|04|Reclame_0402|T|8|8|pessoas|teorias|verdades|ideias|mentes|apologias|certezas|falácias|
-|05|05|Reclame_0505|F|7|6|obtusas|daninhas|apocalípticas|bicudas|espúrias|estapafúrdias|esdrúxulas|
+|05|04|Reclame_0402|T|8|6|pessoas|teorias|verdades|ideias|mentes|apologias|certezas|falácias|
+|05|05|Reclame_0505|F|8|5|obtusas|daninhas|apocalípticas|bicudas|espúrias|estapafúrdias|esdrúxulas|fictícias|
 |05|06|Reclame_0506|F|1|1|...|
 |06|00|
 |07|01|Reclame_0701|F|2|2|Quando|Onde|
-|07|02|Reclame_0702|F|11|2|desculpas sinceras|um clima de festa|um abraço apertado|um olho no olho|mãos dadas às outras|sorrisos na cara|um afago inesperado|a primavera na alma|um sonho plausível|um carinho querido|um oásis de amigos|
+|07|02|Reclame_0702|F|11|8|desculpas sinceras|um clima de festa|um abraço apertado|um olho no olho|mãos dadas às outras|sorrisos na cara|um afago inesperado|a primavera na alma|um sonho plausível|um carinho querido|um oásis de amigos|
 |07|03|Reclame_0703|F|1|1|?|
 |08|01|Reclame_0801|F|2|2|Onde|Quando|
-|08|02|Reclame_0802|F|3|3|um mínimo de|uma nesga de|uma taça de|
-|08|03|Reclame_0803|F|6|6|simpatia|utopia|empatia|rebeldia|alegria|poesia|
+|08|02|Reclame_0802|F|4|4|um mínimo de|uma nesga de|uma taça de|um vislumbre de|
+|08|03|Reclame_0803|F|8|5|simpatia|utopia|empatia|rebeldia|alegria|poesia|fantasia|"novo mundo"|
 |08|04|Reclame_0703|F|1|1|?|
 <EOF>
 CATAPALA = 30
@@ -37,6 +36,8 @@ PALAVRAS = 179
 VARIATIO = 1.452.971.520                                                                   
 Build_By_Lay_2_Ipo em 18/01/2021_09:15
 
-pandemia|endemia|
-cabisbaixas|
-
+cabisbaixas
+divergentes
+cruzadas
+denúncias
+palavras-armadilhas|
