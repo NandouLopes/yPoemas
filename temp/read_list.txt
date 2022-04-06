@@ -1,6 +1,5 @@
 |Ais|93|
 |Amaré|274|
-|Amores|144|
 |Anjos|20|
 |Aolero|0|
 |Aquarius=f|3|
@@ -19,7 +18,6 @@
 |Bolero|0|
 |Brado|354|
 |Bula|0|
-|Buscas|10|
 |Cancer=f|2|
 |Cancer=m|0|
 |Caprico=f|0|
@@ -47,12 +45,12 @@
 |Escribo|15|
 |Essa|132|
 |Estudo|29|
-|Fatos|114|
+|Fatos|115|
 |Feiras|172|
-|Festim|190|
+|Festim|191|
 |Finais|19|
 |Frases|45|
-|Fugaz|130|
+|Fugaz|131|
 |Gemeos=f|1|
 |Gemeos=m|3|
 |Gula|102|
@@ -61,7 +59,7 @@
 |Indolor|26|
 |Inhos|124|
 |Insano|10|
-|Isso|91|
+|Isso|92|
 |Jealousy|12|
 |Joker|105|
 |Lato|229|
@@ -73,11 +71,10 @@
 |Libra=f|0|
 |Libra=m|0|
 |Loremipsum|1|
-|Loucura|0|
 |MachBeth|14|
 |MachBrait|23|
 |Manifesto|290|
-|Manusgrite|157|
+|Manusgrite|159|
 |Manusgrito|0|
 |Meteoro|85|
 |Minuto|70|
@@ -102,7 +99,7 @@
 |Posfácio|53|
 |Prefácil|367|
 |Psiume|14|
-|Reclame|89|
+|Reclame|102|
 |Reger|100|
 |Reinos|125|
 |Remedeio|4|
