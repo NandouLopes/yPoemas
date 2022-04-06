@@ -163,6 +163,8 @@ if "book" not in st.session_state:  #  index for books_list
     st.session_state.book = "livro vivo"
 if "take" not in st.session_state:  #  index for selected tema in books_list
     st.session_state.take = 0
+if "mini" not in st.session_state:  #  index for selected tema in page_mini
+    st.session_state.mini = 0
 
 if "off_book" not in st.session_state:  #  index for off_books_list
     st.session_state.off_book = 0
@@ -697,6 +699,7 @@ def translate(input_text):
 
 
 def main():
+    st.write("")
     pages = {
         "mini": page_mini,
         "yPoemas": page_ypoemas,
@@ -711,7 +714,6 @@ def main():
     pages[page]()
     show_icons()
     st.sidebar.state = True
-    st.write("")
 
 
 def page_polys():  # available languages
@@ -863,34 +865,30 @@ def page_abouts():
             st.subheader(load_file("ABOUT_" + choice + ".md"))
 
 
-st.session_state.last_lang = st.session_state.lang
-temas_list = load_temas(st.session_state.book)
-maxy = len(temas_list) - 1
-
-if st.session_state.take > maxy:  # just in case
-    st.session_state.take = 0
-
 # check visitor once
 if st.session_state.visy:  # random text at first entry
     update_visy()
-    st.session_state.take = random.randrange(0, maxy, 1)
-    curr_tema = temas_list[st.session_state.take]
-    # update_readings(curr_tema)
     st.session_state.visy = False
 
+st.session_state.last_lang = st.session_state.lang
 
 def page_mini():  # F4C3S
     pick_lang()
     pick_draw()
     st.sidebar.info(load_file("INFO_MINI.md"))
 
+    temas_list = load_temas("temas_mini")
+    maxy = len(temas_list) - 1
+    if st.session_state.mini > maxy:  # just in case
+        st.session_state.mini = 0
+
     foo1, more, rand, foo2 = st.columns([4, 1, 1, 4])
     rand = rand.button("✴")
     
     if rand:
-        st.session_state.take = random.randrange(0, maxy, 1)
+        st.session_state.mini = random.randrange(0, maxy, 1)
     
-    curr_tema = temas_list[st.session_state.take]
+    curr_tema = temas_list[st.session_state.mini]
     analise = say_numeros(curr_tema)
     more = more.button("!!!", help=analise)
 
@@ -938,6 +936,11 @@ def page_ypoemas():
     pick_lang()
     pick_draw()
     st.sidebar.info(load_file("INFO_YPOEMAS.md"))
+
+    temas_list = load_temas(st.session_state.book)
+    maxy = len(temas_list) - 1
+    if st.session_state.take > maxy:  # just in case
+        st.session_state.take = 0
 
     foo1, more, last, rand, nest, manu, foo2 = st.columns(
         [3.5, 1, 1, 1, 1, 1, 3.5]
