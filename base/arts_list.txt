@@ -10,11 +10,13 @@
 |Avevida|anima|
 |Biaba|author|
 |Brado|joco|
+|Bula|joco|
 |Buscas|persona|
 |Cartaz|joco|
 |Ciuminho|beauty|
 |Clandestino|anima|
 |Clarice|beauty|
+|Cordel|joco|
 |Cromossomo|joco|
 |Cuores|persona|
 |Destinos|anima|
