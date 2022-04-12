@@ -1,18 +1,19 @@
 *-
 *- Enfrente.ypo - amor-es-muerto
 *-
-|01|01|Enfrente_0101|F|3|3|Cada|Todo|Qualquer|
+|01|01|Enfrente_0101|F|3|1|Cada|Todo|Qualquer|
 |01|02|Enfrente_0102|F|1|1|amor que|
-|01|03|Enfrente_0103|F|9|6|morre|acaba|perece|se vai|evolui a óbito|se esvai|patina|desanda|se vai|
-|02|01|Enfrente_0201|F|6|6|planta|brota|finca|deixa aberto|abre|faz surgir|
-|02|02|Enfrente_0202|F|4|2|na alma|num canto|na dor|na sina|
-|02|03|Enfrente_0203|F|2|2|do poeta|da gente|
-|03|01|Enfrente_0301|T|3|1|um novo|um outro|o possível|
+|01|03|Enfrente_0103|F|12|10|morre|acaba|perece|se vai|evolui a óbito|se esvai|patina|desanda|finda|termina|evapora|é pouco|
+|02|01|Enfrente_0201|F|9|3|planta|faz brotar|finca|deixa aberto|abre|faz surgir|escancara|rasga|descortina|
+|02|02|Enfrente_0202|F|6|5|na alma|num canto|na dor|no horizonte|na sina|no olhar|
+|02|03|Enfrente_0203|F|3|2|do poeta|da gente|de quem ama|
+|03|01|Enfrente_0301|T|4|1|um novo|um outro|o possível|um próximo|
 |03|02|Enfrente_0302|F|1|1|que|
-|03|03|Enfrente_0303|F|3|3|deve|merece|há de|
-|03|04|Enfrente_0404|F|4|2|nascer.|reviver.|renascer.|acontecer.|
+|03|03|Enfrente_0303|F|3|1|deve|merece|há de|
+|03|04|Enfrente_0404|F|4|1|nascer.|reviver.|renascer.|acontecer.|
 |04|00|
-|04|01|Enfrente_0401|F|4|2|Os pactos não tem força de lei.|A índole fala mais alto.|Mesmo sem haver perdão.|Um e outro seguem em frente.|
+|04|01|Enfrente_0401|F|5|1|Os pactos não tem força de lei|A índole fala mais alto|Mesmo sem haver perdão|Um e outro seguem em frente|Amor nem sempre é calmaria|
+|04|02|Enfrente_0402|F|1|1|.|
 <EOF>
 CATAPALA = 22
 VERBETES = 62
