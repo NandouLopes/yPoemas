@@ -21,10 +21,6 @@ deploy: https://share.streamlit.io/nandoulopes/ypoemas/main/ypo.py
 config: chrome://settings/content/siteDetails?site=https%3A%2F%2Fauth.streamlit.io
 transl: https://translate.google.com/
 
-# tic = time.perf_counter()
-# tac = time.perf_counter()
-# tictac = (f" ( {tac - tic:0.4f} sec )")
-
 VISY == New Visitor
 NANY_VISY == Number of Visitors
 LYPO == Last YPOema created from curr_ypoema
@@ -636,16 +632,6 @@ def talk(text):  # text to speech(text in session_state.lang)
 
 
 def show_video(name):  # mostra vídeo-tutorial da página
-    #video_modo = os.path.join("./base/" + "modo_" + name + ".JPG")
-    #st.markdown(
-    #    f"""
-    #    <div class="container">
-    #        <img class="logo-img" src="data:image/jpg;base64,{base64.b64encode(open(video_modo, "rb").read()).decode()}">
-    #    </div>
-    #    """,
-    #    unsafe_allow_html=True,
-    #)
-    
     video_name = os.path.join("./base/" + "video_" + name + ".webm")
     video_file = open(video_name, "rb")
     video_byts = video_file.read()
@@ -705,8 +691,8 @@ def main():
         "yPoemas": page_ypoemas,
         "eureka": page_eureka,
         "off-machina": page_off_machina,
-        "poly": page_polys,
         "books": page_books,
+        "poly": page_polys,
         "about": page_abouts,
     }
 
@@ -714,55 +700,6 @@ def main():
     pages[page]()
     show_icons()
     st.sidebar.state = True
-
-
-def page_polys():  # available languages
-    pick_lang()
-    pick_draw()
-    st.sidebar.info(load_file("INFO_POLY.md"))
-
-    pp, ok = st.columns([9.3, 0.7])
-    with pp:
-        poly_list = []
-        poly_show = []
-        with open(
-            os.path.join("./base/" + st.session_state.poly_file), encoding="utf-8"
-        ) as poly:
-            for line in poly:
-                poly_list.append(line)
-                pipe_line = line.split("|")
-                poly_show.append(pipe_line[1] + " : " + pipe_line[2])
-        poly.close()
-
-        options = list(range(len(poly_show)))
-        opt_poly = st.selectbox(
-            str(len(poly_list)) + " idiomas",
-            options,
-            index=st.session_state.poly_take,
-            format_func=lambda x: poly_show[x],
-            key="opt_poly",
-        )
-
-    with ok:
-        doit = st.button("✔", help="confirm ?")
-
-    lnew = True
-    if st.session_state.vide:
-        lnew = False
-        show_video("poly")
-        update_readings("video_poly")
-        st.session_state.vide = False
-    
-    if lnew:
-        poly_expander = st.expander("", True)
-        with poly_expander:
-            st.subheader(load_file("MANUAL_POLY.md"))
-        
-            if doit:
-                get_poly_name(poly_list[opt_poly])
-                st.session_state.poly_take = opt_poly
-                st.session_state.last_lang = st.session_state.lang
-                st.session_state.lang = st.session_state.poly_lang
 
 
 def page_books():  # available books
@@ -822,6 +759,55 @@ def page_books():  # available books
                     return None
 
 
+def page_polys():  # available languages
+    pick_lang()
+    pick_draw()
+    st.sidebar.info(load_file("INFO_POLY.md"))
+
+    pp, ok = st.columns([9.3, 0.7])
+    with pp:
+        poly_list = []
+        poly_show = []
+        with open(
+            os.path.join("./base/" + st.session_state.poly_file), encoding="utf-8"
+        ) as poly:
+            for line in poly:
+                poly_list.append(line)
+                pipe_line = line.split("|")
+                poly_show.append(pipe_line[1] + " : " + pipe_line[2])
+        poly.close()
+
+        options = list(range(len(poly_show)))
+        opt_poly = st.selectbox(
+            str(len(poly_list)) + " idiomas",
+            options,
+            index=st.session_state.poly_take,
+            format_func=lambda x: poly_show[x],
+            key="opt_poly",
+        )
+
+    with ok:
+        doit = st.button("✔", help="confirm ?")
+
+    lnew = True
+    if st.session_state.vide:
+        lnew = False
+        show_video("poly")
+        update_readings("video_poly")
+        st.session_state.vide = False
+    
+    if lnew:
+        poly_expander = st.expander("", True)
+        with poly_expander:
+            st.subheader(load_file("MANUAL_POLY.md"))
+        
+            if doit:
+                get_poly_name(poly_list[opt_poly])
+                st.session_state.poly_take = opt_poly
+                st.session_state.last_lang = st.session_state.lang
+                st.session_state.lang = st.session_state.poly_lang
+
+
 def page_abouts():
     pick_lang()
     pick_draw()
@@ -867,8 +853,16 @@ def page_abouts():
 
 # check visitor once
 if st.session_state.visy:  # random text at first entry
-    update_visy()
     st.session_state.visy = False
+    update_visy()
+
+    # temas_list = load_temas("temas_mini")
+    # maxy = len(temas_list) - 1
+    # if st.session_state.mini > maxy:  # just in case
+    #     st.session_state.mini = 0
+    # 
+    # curr_tema = temas_list[st.session_state.mini]
+    # update_readings(curr_tema)
 
 st.session_state.last_lang = st.session_state.lang
 
