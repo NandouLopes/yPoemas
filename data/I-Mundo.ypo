@@ -1,0 +1,41 @@
+*-
+*- i-Mundo.ypo
+*-
+*- i-Mundo_0402: observar concordância de gênero
+*-
+|01|01|i-Mundo_0101|F|1|1|Nesses tempos de|
+|01|02|i-Mundo_0102|F|12|9|abusos de autoridade|medidas impopulares|ideologias baratas|falas cruzadas|caras-à-tapa|novas artimanhas|teses infundadas|inteligências vestigiais|veras mentiras|ícones insensatos|vozes impostadas|instintos embotados|
+|01|03|i-Mundo_0103|F|1|1|,|
+|02|01|i-Mundo_0201|T|20|11|palavras cruéis|meias palavras|"olho-por-olho"|tiros no escuro|falsos profetas|dedos no gatilho|truísmos a granel|amor por dinheiro|egos inflados|palpites equivocados|especialistas em tudo|heróis de araque|dicotomias perversas|mentiras na nuvem|ardís ideológicos|labutas impróprias|"Doutores do Google"|donos da ciência|medos absurdos|denúncias a granel|
+|02|02|i-Mundo_0202|F|1|1|e|
+|02|03|i-Mundo_0203|F|11|4|visões distorcidas|suntuosas regalias|falsas notícias|vagas profecias|novas velharias|oratórias vazias|"um-leão-por-dia"|pontos sem nó|balas perdidas|velhas ladainhas|"dias de cão"|
+|02|04|i-Mundo_0204|F|1|1|...|
+|03|00|
+|04|01|i-Mundo_0401|F|1|1|de|
+|04|02|i-Mundo_0402|F|9|1|pessoas|teorias|verdades|ideias|mentes|apologias|certezas|falácias|opiniões|
+|04|03|i-Mundo_0403|F|21|11|nefastas|impermeáveis|monótonas|imutáveis|onipotentes|tacanhas|insanas|ambíguas|insólitas|patéticas|exóticas|ilusórias|lunáticas|medíocres|inconsequentes|mundanas|divergentes|medianas|flutuantes|de cristal|soberanas|
+|04|04|i-Mundo_0103|F|1|1|,|
+|05|01|i-Mundo_0402|T|9|4|pessoas|teorias|verdades|ideias|mentes|apologias|certezas|falácias|opiniões|
+|05|02|i-Mundo_0403|T|21|6|nefastas|impermeáveis|monótonas|imutáveis|tacanhas|onipotentes|insanas|ambíguas|insólitas|patéticas|exóticas|ilusórias|lunáticas|medíocres|inconsequentes|mundanas|divergentes|medianas|flutuantes|de cristal|soberanas|
+|05|03|i-Mundo_0202|F|1|1|e|
+|05|04|i-Mundo_0402|T|9|6|pessoas|teorias|verdades|ideias|mentes|apologias|certezas|falácias|opiniões|
+|05|05|i-Mundo_0505|F|11|7|obtusas|daninhas|apocalípticas|espúrias|esdrúxulas|fictícias|sizudas|indistintas|estapafúrdias|indevidas|absolutas|
+|05|06|i-Mundo_0204|F|1|1|...|
+|06|00|
+|07|01|i-Mundo_0701|F|2|2|Quando|Onde|
+|07|02|i-Mundo_0702|F|15|8|desculpas sinceras|um clima de festa|mãos dadas às outras|um abraço apertado|um olho no olho|uma alegoria possível|um ideal factível|sorrisos na cara|um afago inesperado|um sonho plausível|um carinho querido|a primavera na alma|um oásis de amigos|um sossego na alma|um cafuné no ego|
+|07|03|i-Mundo_0703|F|1|1|?|
+|08|01|i-Mundo_0801|F|2|2|Onde|Quando|
+|08|02|i-Mundo_0802|F|10|3|um mínimo|uma nesga|um vislumbre|uma taça|um princípio|uma fonte|um rastro|uma poção|um canteiro|um berço|
+|08|03|i-Mundo_0803|F|11|1|de simpatia|do "novo mundo"|de utopia|de empatia|de rebeldia|de alegria|de poesia|do tal impossível|de fantasia|de alforria|de cortesia|
+|08|04|i-Mundo_0704|F|1|1|?|
+<EOF>
+CATAPALA = 30
+VERBETES = 111
+PALAVRAS = 179
+VARIATIO = 1.452.971.520                                                                   
+Build_By_Lay_2_Ipo em 18/01/2021_09:15
+
+cabisbaixas|escravas|cruzadas|moribundas|
+palavras-armadilhas
+tribunais ao acaso
