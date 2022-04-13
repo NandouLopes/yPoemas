@@ -19,7 +19,6 @@
 |Cartaz|joco|
 |Circular|anima|
 |Ciuminho|beauty|
-|Clame|machina|
 |Clandestino|anima|
 |Clarice|beauty|
 |Conto|anima|
@@ -37,14 +36,15 @@
 |Essa|anima|
 |Estudo|joco|
 |Fatos|machina|
-|Feiras|anima|
-|Festim |machina|
+|Feiras|joco|
+|Festim|anima|
 |Finalmentes|esoteric|
 |Frases|joco|
 |Fugaz|anima|
 |Gula|joco|
 |Haikai|anima|
 |HayKay|anima|
+|I-Mundo|machina|
 |Indolor|anima|
 |Inhos|anima|
 |Insano|joco|
