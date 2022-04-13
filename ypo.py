@@ -23,6 +23,7 @@ transl: https://translate.google.com/
 
 VISY == New Visitor
 NANY_VISY == Number of Visitors
+OVNY == anOther Visitor iN Ypoemas
 LYPO == Last YPOema created from curr_ypoema
 TYPO == Translated YPOema from LYPO
 POLY == Poliglot Idiom == Changed on Catalán
@@ -34,8 +35,9 @@ import re
 import time
 import random
 import base64
-import datetime
 import streamlit as st
+
+from datetime import datetime
 
 # Project Module
 from lay_2_ypo import gera_poema
@@ -58,6 +60,16 @@ try:
 except ImportError as ex:
     st.warning("Google Translator não conectado. Traduções não disponíveis no momento.")
 
+
+# for ovny's
+import pytz
+
+def utcnow():  # Coordinated Universal Time (UTC)
+    return datetime.now(tz=pytz.utc)
+
+def utcnew():  # Local Time
+    tznow = str(datetime.now().astimezone())
+    return tznow[-6:]
 
 try:
     from gtts import gTTS
@@ -290,18 +302,6 @@ def pick_draw():
     st.session_state.vide = vyde_text.checkbox(help_vyde, st.session_state.vide, key="vyde_machina")
 
 
-# count one more visitor
-def update_visy():
-    with open(os.path.join("./temp/visitors.txt"), "r", encoding="utf-8") as visitors:
-        tots = int(visitors.read())
-        tots = tots + 1
-        st.session_state.nany_visy = tots
-
-    with open(os.path.join("./temp/visitors.txt"), "w", encoding="utf-8") as visitors:
-        visitors.write(str(tots))
-    visitors.close()
-
-
 # download files
 def get_binary_file_downloader_html(bin_file, file_label="File"):
     with open(bin_file, "rb") as f:
@@ -322,6 +322,49 @@ def natural_keys(text):
 
 ### eof: tools
 ### bof: update themes readings
+
+
+# count one more visitor
+def update_visy():
+    with open(os.path.join("./temp/visitors.txt"), "r", encoding="utf-8") as visitors:
+        tots = int(visitors.read())
+        tots = tots + 1
+        st.session_state.nany_visy = tots
+
+    with open(os.path.join("./temp/visitors.txt"), "w", encoding="utf-8") as visitors:
+        visitors.write(str(tots))
+    visitors.close()
+
+
+def update_ovny():  # count one more ovny
+    ovny_data = utcnow().isoformat()
+    date_time = ovny_data[0:16]
+    with open(os.path.join("./temp/ovny_data.txt"), "a", encoding="utf-8") as data:
+        data.write(date_time + " " + utcnew() + "|"  + user_id + "\n")
+    data.close()
+
+
+# check visitor once
+if st.session_state.visy:  # random text at first entry
+    update_visy()
+    update_ovny()
+    st.session_state.visy = False
+
+
+def load_ovny():  # days, zone, full
+    days = 0
+    ini_day = "2001-01-01"
+    this_list = []
+    with open(os.path.join("./temp/ovny_data.txt"), "r", encoding="utf-8") as data:
+        for line in data:
+            days = days+1
+            cur_day = line[0:10]
+            if cur_day != ini_day and cur_day != "":
+                this_list.append(ini_day+" - "+str(days))
+                days = 0
+                ini_day = cur_day
+        this_list.append(ini_day+" - "+str(days))
+    return this_list
 
 
 def load_readings():
@@ -373,8 +416,8 @@ def status_readings():
     read_days.sort(key=natural_keys, reverse=True)
 
     total_viewes = st.session_state.nany_visy
-    currrent_day = datetime.date.today()
-    begining_day = datetime.date(2021, 7, 6)
+    currrent_day = datetime.now()
+    begining_day = datetime(2021, 7, 6)
     days_of_runs = begining_day - currrent_day
     days_of_runs = abs(days_of_runs.days)
     views_by_day = total_viewes / days_of_runs
@@ -395,6 +438,24 @@ def status_readings():
         key="opt_readings",
     )
 
+    visitors = []
+    tot_days = 0
+    ovny_list = load_ovny()
+    for line in ovny_list:
+        date = line[0:10]
+        days = int(line[13:len(line)])
+        if int(days) > 0:
+            visitors.append(line)
+            tot_days += days
+    visitors.pop(0)  # because ini_day = "2001-01-01"
+
+    options = list(range(len(visitors)))
+    opt_leituras = st.selectbox(
+        str(tot_days) + " visitas em " + str(len(visitors)) + " dias",
+        options,
+        format_func=lambda x: visitors[x],
+        key="box_ovny",
+        )
 
 ### eof: update themes readings
 ### bof: loaders
@@ -851,21 +912,7 @@ def page_abouts():
             st.subheader(load_file("ABOUT_" + choice + ".md"))
 
 
-# check visitor once
-if st.session_state.visy:  # random text at first entry
-    st.session_state.visy = False
-    update_visy()
-
-    # temas_list = load_temas("temas_mini")
-    # maxy = len(temas_list) - 1
-    # if st.session_state.mini > maxy:  # just in case
-    #     st.session_state.mini = 0
-    # 
-    # curr_tema = temas_list[st.session_state.mini]
-    # update_readings(curr_tema)
-
 st.session_state.last_lang = st.session_state.lang
-
 def page_mini():  # F4C3S
     pick_lang()
     pick_draw()
