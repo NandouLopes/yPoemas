@@ -1,5 +1,5 @@
-|Ais|108|
-|Amaré|274|
+|Ais|111|
+|Amaré|283|
 |Anjos|20|
 |Aolero|0|
 |Aquarius=f|3|
@@ -7,7 +7,7 @@
 |ArErIr|15|
 |Aries=f|4|
 |Aries=m|1|
-|Astros|1|
+|Astros|2|
 |Atido|90|
 |Augusto|7|
 |Avevida|69|
@@ -27,15 +27,15 @@
 |Cartaz|113|
 |Circular|43|
 |Ciuminho|203|
-|Clame|102|
+|Clame|112|
 |Clandestino|147|
 |Clarice|67|
 |Conto|52|
 |Cordel|2|
 |Cromossomo|167|
-|Cuores|173|
-|Destinos|125|
-|Distintos|153|
+|Cuores|174|
+|Destinos|129|
+|Distintos|157|
 |Dolores|41|
 |Duralex|0|
 |Elogio|123|
@@ -48,7 +48,7 @@
 |Estudo|29|
 |Fatos|115|
 |Feiras|173|
-|Festim|191|
+|Festim|192|
 |Finalmentes|19|
 |Frases|45|
 |Fugaz|131|
@@ -66,7 +66,7 @@
 |Lato|229|
 |Leao=f|19|
 |Leao=m|2|
-|Leituras|11|
+|Leituras|21|
 |Lero|1|
 |Liberta|0|
 |Libra=f|0|
@@ -98,7 +98,7 @@
 |Pessoa|37|
 |Portal|13|
 |Posfácio|93|
-|Prefácil|370|
+|Prefácil|373|
 |Psiume|14|
 |Reger|100|
 |Reinos|125|
