@@ -357,13 +357,16 @@ def load_ovny():  # days, zone, full
     this_list = []
     with open(os.path.join("./temp/ovny_data.txt"), "r", encoding="utf-8") as data:
         for line in data:
-            days = days+1
-            cur_day = line[0:10]
-            if cur_day != ini_day and cur_day != "":
-                this_list.append(ini_day+" - "+str(days))
-                days = 0
-                ini_day = cur_day
-        this_list.append(ini_day+" - "+str(days))
+            line = line.replace('T', '|')
+            line = line.replace(' ', '|')
+            this_list.append(line)
+            # days = days+1
+            # cur_day = line[0:10]
+            # if cur_day != ini_day and cur_day != "":
+            #     this_list.append(ini_day+" - "+str(days))
+            #     days = 0
+            #     ini_day = cur_day
+        # this_list.append(ini_day+" - "+str(days))
     return this_list
 
 
@@ -440,18 +443,19 @@ def status_readings():
 
     visitors = []
     tot_days = 0
+    tmp_date = datetime(2021, 7, 6)
     ovny_list = load_ovny()
     for line in ovny_list:
         date = line[0:10]
-        days = int(line[13:len(line)])
-        if int(days) > 0:
-            visitors.append(line)
-            tot_days += days
+        visitors.append(line)
+        if not date == tmp_date:
+            tot_days += 1
+            tmp_date = date
     visitors.pop(0)  # because ini_day = "2001-01-01"
 
     options = list(range(len(visitors)))
     opt_leituras = st.selectbox(
-        str(tot_days) + " visitas em " + str(len(visitors)) + " dias",
+        str(len(visitors)) + " visitas em " + str(tot_days) + " dias",
         options,
         format_func=lambda x: visitors[x],
         key="box_ovny",
@@ -1264,6 +1268,11 @@ def page_off_machina():  # available off_machina_books
         status_readings()
         st.markdown(
             get_binary_file_downloader_html("./temp/read_list.txt", "views"),
+            unsafe_allow_html=True,
+        )
+
+        st.markdown(
+            get_binary_file_downloader_html("./temp/ovny_data.txt", "ovnys"),
             unsafe_allow_html=True,
         )
 
