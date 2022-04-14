@@ -1,4 +1,4 @@
-|Ais|111|
+|Ais|114|
 |Amaré|283|
 |Anjos|20|
 |Aolero|0|
@@ -56,7 +56,7 @@
 |Gula|102|
 |Haikai|3|
 |HayKay|0|
-|I-Mundo|112|
+|I-Mundo|124|
 |Indolor|26|
 |Inhos|126|
 |Insano|10|
@@ -98,7 +98,7 @@
 |Pessoa|37|
 |Portal|13|
 |Posfácio|93|
-|Prefácil|373|
+|Prefácil|380|
 |Psiume|14|
 |Reger|100|
 |Reinos|125|
