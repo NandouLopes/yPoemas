@@ -1,5 +1,5 @@
-|Ais|114|
-|Amaré|283|
+|Ais|159|
+|Amaré|333|
 |Anjos|20|
 |Aolero|0|
 |Aquarius=f|3|
@@ -26,12 +26,12 @@
 |Caprico=m|0|
 |Cartaz|113|
 |Circular|43|
-|Ciuminho|203|
+|Ciuminho|253|
 |Clandestino|147|
 |Clarice|67|
 |Conto|52|
 |Cordel|2|
-|Cromossomo|167|
+|Cromossomo|217|
 |Cuores|174|
 |Destinos|129|
 |Distintos|157|
@@ -57,6 +57,7 @@
 |Haikai|3|
 |HayKay|0|
 |I-Mundo|124|
+|Impar|1|     
 |Indolor|26|
 |Inhos|126|
 |Insano|10|
@@ -75,7 +76,7 @@
 |MachBeth|14|
 |MachBrait|23|
 |Manifesto|290|
-|Manusgrite|159|
+|Manusgrite|209|
 |Manusgrito|0|
 |Meteoro|88|
 |Minuto|72|
@@ -98,7 +99,7 @@
 |Pessoa|37|
 |Portal|13|
 |Posfácio|93|
-|Prefácil|380|
+|Prefácil|381|
 |Psiume|14|
 |Reger|100|
 |Reinos|125|
@@ -108,7 +109,7 @@
 |Sagitari=f|0|
 |Sagitari=m|0|
 |Salute|4|
-|Saudades|213|
+|Saudades|263|
 |Seguro|254|
 |Sentença|172|
 |Ser|0|
@@ -125,7 +126,7 @@
 |Ss1|4|
 |Ss2|1|
 |Sua|1|
-|Tempo|260|
+|Tempo|310|
 |Tiro|311|
 |Tolero|0|
 |Touro=f|0|
@@ -139,7 +140,9 @@
 |Zodiacaos|1|
 |Zoia|166|
 |a_torre_de_papel|61|
+|faz_de_conto|1|
 |linguafiada|11|
+|livro_vivo|1|
 |quase_que_eu_Poesia|9|
 |um_romance|102|
 |video_mini|1|
