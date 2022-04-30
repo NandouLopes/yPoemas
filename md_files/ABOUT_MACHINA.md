@@ -25,7 +25,7 @@ ___
   que em algum momento irão compor o texto.  
 
 >> Cada palavra escolhida deve, além de ser pertinente ao tema,  
-  fazer sentido para **o que** vem antes e para **o que** vem depois dela.  
+  fazer sentido para o que vem **antes** e para o que vem **depois** dela.  
 
 >> Essa escolha estabelece o tom desejado  
    (lírico, crítico, subjetivo, conceitual, satírico, jocoso...)  
@@ -67,7 +67,7 @@ ___
   depende da quantidade de opções existentes nos "Bancos de Palavras" do tema.  
   O número varia de alguns milhões a valores quase astronômicos.  
 
-> Na página **mini** o botão '!!!' mostra essas variações.  
+> Na página **mini** o botão '✚' mostra essas variações.  
 > Na página **yPoemas** o botão '?' mostra essas variações.  
 > Na página **eureka** o botão '?' mostra essas variações.	
 

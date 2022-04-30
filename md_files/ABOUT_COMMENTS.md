@@ -112,7 +112,7 @@ até que obra e autor se tornem uma unidade poética cheia de sentimentos e emo�
 [sobre](https://x.facebook.com/silvioferreiraleitee)  
 ---  
 
-**Silvia Vasconcellos**  
+- **Silvia Vasconcellos**  
 
 Querido poeta.  
 Sua genialidade me causou perplexidade.  
