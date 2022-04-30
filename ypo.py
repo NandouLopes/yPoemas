@@ -11,15 +11,22 @@ All texts are unique and will only be repeated
 after they are sold out the thourekasands  
 of combinations possible to each theme.
 
-[Epitaph]
+[Epitaph] ›››
 Passei boa parte da minha vida escrevendo a "machina".
 A leitura fica para os amanhãs.
 Não vivo no meu tempo.
+
+A.B.N.P. in '_Cordel_Fatos_Manifesto_Oficio'
+PT == Angola, Cabo Verde, Guiné-Bissau, Moçambique e São Tomé e Príncipe
+
+ELO - Board of Directors == Rui Torres, Dene Grigar/ == https://eliterature.org/elo-awards/
+Erika Fülöp == https://hybrid.univ-paris8.fr/lodel/index.php?id=1491&lang=pt
 
 share : https://share.streamlit.io/
 deploy: https://share.streamlit.io/nandoulopes/ypoemas/main/ypo.py
 config: chrome://settings/content/siteDetails?site=https%3A%2F%2Fauth.streamlit.io
 transl: https://translate.google.com/
+emojis: https://www.webfx.com/tools/emoji-cheat-sheet/
 
 VISY == New Visitor
 NANY_VISY == Number of Visitors
@@ -134,6 +141,8 @@ st.markdown(
 
 
 # change text area font
+#       background-color:rgba(255, 99, 71, 0.1);
+#       opacity: .9;
 st.markdown(
     """
     <style>
@@ -340,6 +349,7 @@ def update_ovny():  # count one more ovny
     ovny_data = utcnow().isoformat()
     date_time = ovny_data[0:16]
     with open(os.path.join("./temp/ovny_data.txt"), "a", encoding="utf-8") as data:
+        # data.write(date_time + " " + utcnew() + "|"  + hostname + "\n")
         data.write(date_time + " " + utcnew() + "|"  + user_id + "\n")
     data.close()
 
@@ -443,7 +453,7 @@ def status_readings():
 
     visitors = []
     tot_days = 0
-    tmp_date = datetime(2021, 7, 6)
+    tmp_date = datetime(2001, 1, 1)
     ovny_list = load_ovny()
     for line in ovny_list:
         date = line[0:10]
@@ -551,6 +561,7 @@ def load_all_offs():
         "a_torre_de_papel",
         "linguafiada",
         "livro_vivo",
+        "faz_de_conto",
         "um_romance",
         "quase_que_eu_Poesia",
     ]
@@ -592,6 +603,7 @@ def load_poema(nome_tema, seed_eureka):  # generate new yPoema
             nome_tema
         )  # include title of yPoema in first line for translations
         save_lypo.write("\n")
+        
         for line in script:
             if line == "\n":
                 save_lypo.write("\n")
@@ -599,6 +611,7 @@ def load_poema(nome_tema, seed_eureka):  # generate new yPoema
             else:
                 save_lypo.write(line + "\n")
                 novo_ypoema += line + "<br>"
+
     save_lypo.close()  # save a copy of last generated in LYPO
     return novo_ypoema
 
@@ -642,7 +655,7 @@ def get_seed_tema(tema):  # extract theme title for eureka
     end = -1
     for letra in tema[0:-4]:
         end += 1
-        if letra == "-":
+        if letra == "➪":
             ini = end
     return tema[ini + 2 : end]
 
@@ -705,7 +718,7 @@ def show_video(name):  # mostra vídeo-tutorial da página
 
 
 def say_numeros(tema):  # search index title for eureka
-    analise = "#️ nonono"
+    analise = "nonono"
     indexes = load_index()
     number = None
     for line in indexes:
@@ -714,7 +727,8 @@ def say_numeros(tema):  # search index title for eureka
             break
 
     if number is not None:
-        analise = "#️ " + number
+        analise = number
+        # analise = "#️ " + number
         if st.session_state.lang == "en":
             analise = analise.replace(".", ",")
         elif st.session_state.lang == "de":
@@ -771,6 +785,9 @@ def page_books():  # available books
     pick_lang()
     pick_draw()
     st.sidebar.info(load_file("INFO_BOOKS.md"))
+
+    # choices = load_temas('todos os temas')
+    # my_list = st.multiselect('Selecione os temas do Livro:', choices)
 
     bb, ok = st.columns([9.3, 0.7])
     with bb:
@@ -880,8 +897,8 @@ def page_abouts():
 
     abouts_list = [
         "comments",
-        "machina",
         "prefácio",
+        "machina",
         "off-machina",
         "outros",
         "traduttore",
@@ -928,14 +945,18 @@ def page_mini():  # F4C3S
         st.session_state.mini = 0
 
     foo1, more, rand, foo2 = st.columns([4, 1, 1, 4])
-    rand = rand.button("✴")
+
+    help_me = load_help(st.session_state.lang)
+    help_rand = help_me[1]
+    help_more = help_me[4]
+    rand = rand.button("✴", help=help_rand)
     
     if rand:
         st.session_state.mini = random.randrange(0, maxy, 1)
     
     curr_tema = temas_list[st.session_state.mini]
     analise = say_numeros(curr_tema)
-    more = more.button("!!!", help=analise)
+    more = more.button("✚", help=help_more+' • '+analise)
 
     lnew = True
     if st.session_state.vide:
@@ -997,7 +1018,7 @@ def page_ypoemas():
     help_nest = help_me[2]
     help_more = help_me[4]
 
-    more = more.button("!!!", help=help_more)
+    more = more.button("✚", help=help_more)
     last = last.button("◀", help=help_last)
     rand = rand.button("✴", help=help_rand)
     nest = nest.button("▶", help=help_nest)
@@ -1105,7 +1126,7 @@ def page_eureka():
         )
 
     with more:
-        more = more.button('!!!', help=help_more)
+        more = more.button('✚', help=help_more)
 
     if len(find_what) < 3:
         st.warning("digite pelo menos 3 letras...")
@@ -1119,7 +1140,7 @@ def page_eureka():
             if palas is None or fonte is None:
                 continue
             else:
-                seed_list.append(palas + " - " + fonte)
+                seed_list.append(palas + " ➪ " + fonte)
 
         if len(seed_list) > 0:
             seed_list.sort()
@@ -1204,7 +1225,7 @@ def page_off_machina():  # available off_machina_books
         options,
         index=st.session_state.off_book,
         format_func=lambda x: off_books_list[x],
-        help="books",
+        # help="books",
         key="opt_off_book",
     )
 

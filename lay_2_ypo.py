@@ -40,7 +40,7 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
         where = -1
         for letra in seed_source:
             where += 1
-            if letra == "-":
+            if letra == "➪":
                 minus = where
         maxis = where
         look_for_seed = True
