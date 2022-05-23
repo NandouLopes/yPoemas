@@ -1,4 +1,4 @@
-"""
+r"""
 st.session_state.seed
 yPoemas is an app that randomly collects words and phrases
 from specific databases and organizes them
@@ -34,12 +34,13 @@ import time
 import random
 import base64
 import streamlit as st
+import extra_streamlit_components as stx
 
 from datetime import datetime
-from PIL import Image
 
 # Project Modules
 from lay_2_ypo import gera_poema
+from model import build_matrix
 from info import load_info
 
 import pytz    # Universal Time Coordinated (UTC)
@@ -47,10 +48,9 @@ import socket  # Internet
 
 ### bof: settings
 
-img=Image.open('./logo_yp.png')
 st.set_page_config(
     page_title='a máquina de fazer Poesia - yPoemas',
-    page_icon=img,
+    page_icon=":star:",
     layout="centered",
     initial_sidebar_state="auto",
 )
@@ -933,7 +933,6 @@ def page_mini():
 
     foo1, more, rand, foo2 = st.columns([4, 1, 1, 4])
 
-    img=Image.open('./rand.png')
     help_me = load_help(st.session_state.lang)
     help_rand = help_me[1]
     help_more = help_me[4]
