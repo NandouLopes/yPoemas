@@ -1,23 +1,22 @@
 *-
 *- Touro=f.Zod
 *-
-*-
 *- Touro| de 21 de Abril a 20 de Maio
 *-
-|01|01|Touro=f_0101|F|11|11|Confiável|Vaidosa|Carinhosa|Prática|Leal|Sincera|Justa|Digna de confiança|Estável|Atraente|Paciente|
+|01|01|Touro=f_0101|F|11|7|Confiável|Vaidosa|Carinhosa|Prática|Leal|Sincera|Justa|Digna de confiança|Estável|Atraente|Paciente|
 |01|02|Touro=f_0102|F|1|1|e|
-|01|03|Touro=f_0103|F|8|6|protetora|afetiva|ambiciosa|trabalhadora|sensível|esforçada|tranqüila|determinada|
+|01|03|Touro=f_0103|F|8|2|protetora|afetiva|ambiciosa|trabalhadora|sensível|esforçada|tranqüila|determinada|
 |01|04|Touro=f_0104|F|1|1|,|
 |02|01|Touro=f_0201|F|1|1|você|
-|02|02|Touro=f_0202|F|3|1|cultiva|adora|preza|
-|02|03|Touro=f_0203|F|11|7|a boa comida|os bons amigos|estar perto da família|programas caseiros|viver confortavelmente|a alegria das festas|o carinho essencial|ser profunda nas emoções|a simples beleza|os prazeres da vida|o luxo do conforto|
+|02|02|Touro=f_0202|F|3|3|cultiva|adora|preza|
+|02|03|Touro=f_0203|F|11|3|a boa comida|os bons amigos|estar perto da família|programas caseiros|viver confortavelmente|a alegria das festas|o carinho essencial|ser profunda nas emoções|a simples beleza|os prazeres da vida|o luxo do conforto|
 |02|04|Touro=f_0204|F|1|1|.|
 |03|00|
-|03|01|Touro=f_0301|F|2|1|Pronta para|Disposta a|
-|03|02|Touro=f_0302|F|6|1|ajudar o outro|ser confidente|tornar-se querida|dar conselhos|sentir-se útil|ser profunda nas emoções|
-|03|03|Touro=f_0303|F|1|1|,|
-|04|01|Touro=f_0401|F|4|4|dona um bom coração,|consciente de seu papel,|sensual na medida certa,|provocante... mas sem exageros,|
-|05|01|Touro=f_0501|F|9|5|faz amizades que duram pela vida.|sabe como deve agir e age.|faz do seu ambiente o melhor.|sabe ser útil onde quer que esteja.|traz a marca das pessoas tranqüilas.|sabe usar o seu carisma.|em busca do bem estar espiritual.|sabe manter o romantismo.|enobrece o gosto pela vida.|
+|04|01|Touro=f_0401|F|2|1|Pronta para|Disposta a|
+|04|02|Touro=f_0402|F|6|3|ajudar o outro|ser confidente|tornar-se querida|dar conselhos|sentir-se útil|ser profunda nas emoções|
+|04|03|Touro=f_0403|F|1|1|,|
+|05|01|Touro=f_0501|F|4|4|dona um bom coração,|consciente de seu papel,|sensual na medida certa,|provocante... mas sem exageros,|
+|06|01|Touro=f_0601|F|9|1|faz amizades que duram pela vida.|sabe como deve agir e age.|faz do seu ambiente o melhor.|sabe ser útil onde quer que esteja.|traz a marca das pessoas tranqüilas.|sabe usar o seu carisma.|em busca do bem estar espiritual.|sabe manter o romantismo.|enobrece o gosto pela vida.|
 <EOF>
 CATAPALA = 23
 VERBETES = 108

@@ -6,38 +6,38 @@
 *- |povoarão|
 *-
 |01|01|Manusgrite_0101|F|1|1|( |
-|01|02|Manusgrite_0102|F|10|3|método|ritual|mapa|truque|caminho|guia|manual|roteiro|conselho|oráculo|
-|01|03|Manusgrite_0103|F|12|4|infalível|sintético|fictício|secreto|quase mágico|caótico|eclético|inútil|simplificado|resumido|empírico|exótico|
+|01|02|Manusgrite_0102|F|10|6|método|ritual|mapa|truque|caminho|guia|manual|roteiro|conselho|oráculo|
+|01|03|Manusgrite_0103|F|12|3|infalível|sintético|fictício|secreto|quase mágico|caótico|eclético|inútil|simplificado|resumido|empírico|exótico|
 |01|04|Manusgrite_0104|F|1|1|para quem escreve )|
 |02|00|
-|02|01|Manusgrite_0201|F|8|8|Geste|Nutra|Gaste|Passe|Mime|Revire|Gere|Encare|
-|02|02|Manusgrite_0202|F|6|5|anos|segundos|dias|horas|noites|meses|
-|03|01|Manusgrite_0301|F|7|7|moldando|auscultando|lustrando|procurando|polindo|costurando|rebuscando|
-|03|02|Manusgrite_0302|F|4|2|algumas|"aquelas"|as mesmas|certas|
-|03|03|Manusgrite_0303|F|1|1|palavras|
-|04|01|Manusgrite_0401|F|1|1|... |
-|04|02|Manusgrite_0402|F|4|3|e não as use.|e não as desnude.|e use outras.|e dê-lhes nova lida.|
-|05|00|
-|05|01|Manusgrite_0501|F|8|2|Junte|Costure|Una|Enlace|Ate|Envolva|Abrace|Reuna|
-|05|02|Manusgrite_0502|F|1|1|todas|
-|05|03|Manusgrite_0503|F|1|1|,|
-|05|04|Manusgrite_0504|F|10|7|sem acaso|pacientemente|meticuloso|com minúcia|mesmo as sem utopia|uma pós outra|incluindo as obscuras|mesmo que humildes|contundentes ou não|sabendo sempre onde estão|
-|05|05|Manusgrite_0503|F|1|1|,|
-|06|01|Manusgrite_0601|F|5|4|para que conversem entre si|em algo não sonhado|... que conversem entre si|numa fogueira sem vaidades|em algum amanhã|
-|06|02|Manusgrite_0602|F|1|1|:|
-|07|01|Manusgrite_0701|F|2|2|são|serão|
-|07|02|Manusgrite_0702|F|8|7|floresta|tempestade|constelação|arquipélago|cardume|turbilhão|melodia|furacão|
-|07|03|Manusgrite_0703|F|1|1|.|
-|08|00|
-|08|01|Manusgrite_0801|F|3|2|Quando enfim|No futuro, quando|Quando finalmente|
-|08|02|Manusgrite_0802|F|9|3|respirarem|andarem juntas|forem melodia|eclodirem|explodirem|estiverem despidas|pulsarem unidas|concordarem|despontarem|
-|09|01|Manusgrite_0901|F|4|1|criarão|desenharão|alimentarão|espelharão|
-|09|02|Manusgrite_0902|F|3|2|seu próprio sentido|um novo tabuleiro|um novo sentido|
-|09|03|Manusgrite_0903|F|1|1|e,|
-|10|01|Manusgrite_1001|F|8|8|imprevisíveis|maleáveis|inesperadas|surpreendentes|misteriosas|voláteis|enigmáticas|tentadoras|
-|10|01|Manusgrite_1001|F|1|1|que são,|
-|11|01|Manusgrite_1101|T|5|1|descobrirão|mostrarão|anunciarão|provarão|revelarão|
-|11|02|Manusgrite_1102|F|3|2|o poder que já tinham.|, cada uma, a que veio.|o que estava escondido.|
+|03|01|Manusgrite_0301|F|8|3|Geste|Nutra|Gaste|Passe|Mime|Revire|Gere|Encare|
+|03|02|Manusgrite_0302|F|6|4|anos|segundos|dias|horas|noites|meses|
+|04|01|Manusgrite_0401|F|7|5|moldando|auscultando|lustrando|procurando|polindo|costurando|rebuscando|
+|04|02|Manusgrite_0402|F|4|1|algumas|"aquelas"|as mesmas|certas|
+|04|03|Manusgrite_0403|F|1|1|palavras|
+|05|01|Manusgrite_0501|F|1|1|... |
+|05|02|Manusgrite_0502|F|4|2|e não as use.|e não as desnude.|e use outras.|e dê-lhes nova lida.|
+|06|00|
+|07|01|Manusgrite_0701|F|8|5|Junte|Costure|Una|Enlace|Ate|Envolva|Abrace|Reuna|
+|07|02|Manusgrite_0702|F|1|1|todas|
+|07|03|Manusgrite_0703|F|1|1|,|
+|07|04|Manusgrite_0704|F|10|10|sem acaso|pacientemente|meticuloso|com minúcia|mesmo as sem utopia|uma pós outra|incluindo as obscuras|mesmo que humildes|contundentes ou não|sabendo sempre onde estão|
+|07|05|Manusgrite_0703|F|1|1|,|
+|08|01|Manusgrite_0801|F|5|2|para que conversem entre si|em algo não sonhado|... que conversem entre si|numa fogueira sem vaidades|em algum amanhã|
+|08|02|Manusgrite_0802|F|1|1|:|
+|09|01|Manusgrite_0901|F|2|1|são|serão|
+|09|02|Manusgrite_0902|F|8|2|floresta|tempestade|constelação|arquipélago|cardume|turbilhão|melodia|furacão|
+|09|03|Manusgrite_0903|F|1|1|.|
+|10|00|
+|11|01|Manusgrite_1101|F|3|1|Quando enfim|No futuro, quando|Quando finalmente|
+|11|02|Manusgrite_1102|F|9|2|respirarem|andarem juntas|forem melodia|eclodirem|explodirem|estiverem despidas|pulsarem unidas|concordarem|despontarem|
+|12|01|Manusgrite_1201|F|4|4|criarão|desenharão|alimentarão|espelharão|
+|12|02|Manusgrite_1202|F|3|1|seu próprio sentido|um novo tabuleiro|um novo sentido|
+|12|03|Manusgrite_1203|F|1|1|e,|
+|13|01|Manusgrite_1301|F|8|3|imprevisíveis|maleáveis|inesperadas|surpreendentes|misteriosas|voláteis|enigmáticas|tentadoras|
+|13|01|Manusgrite_1301|F|1|1|que são,|
+|14|01|Manusgrite_1401|T|5|5|descobrirão|mostrarão|anunciarão|provarão|revelarão|
+|14|02|Manusgrite_1402|F|3|1|o poder que já tinham.|, cada uma, a que veio.|o que estava escondido.|
 <EOF>
 CATAPALA = 46
 VERBETES = 110

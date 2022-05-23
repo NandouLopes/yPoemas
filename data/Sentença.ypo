@@ -48,30 +48,30 @@
 *-
 *- |produzir|atinar|satisfazer||
 *-
-|01|01|Sentença_0101|F|8|4|Deliberados os|À vista dos|Considerados os|Apreciados os|Decididos os|Deferidos os|Revogados os|Extintos os|
-|01|02|Sentença_0102|F|4|2|fatos|laudos|recursos|trâmites|
-|02|01|Sentença_0201|F|6|6|transitados|constantes|elencados|arrolados|arrazoados|garantidos|
-|02|02|Sentença_0202|F|9|1|em julgado|no processo|nos autos|na demanda|na petição|em foro íntimo|em precatório|neste tribunal|na oitiva|
-|03|01|Sentença_0301|F|6|2|imputa-se|cabe agora|aplique-se|resta apenas|fica devido|impõe-se|
-|03|02|Sentença_0302|F|11|8|ao querelante|ao queixoso|ao outorgado|ao outorgante|aos autores|ao apelante|ao litigante|às partes|ao requerente|ao condenado|aos réus|
+|01|01|Sentença_0101|F|8|5|Deliberados os|À vista dos|Considerados os|Apreciados os|Decididos os|Deferidos os|Revogados os|Extintos os|
+|01|02|Sentença_0102|F|4|3|fatos|laudos|recursos|trâmites|
+|02|01|Sentença_0201|F|6|3|transitados|constantes|elencados|arrolados|arrazoados|garantidos|
+|02|02|Sentença_0202|F|9|7|em julgado|no processo|nos autos|na demanda|na petição|em foro íntimo|em precatório|neste tribunal|na oitiva|
+|03|01|Sentença_0301|F|6|5|imputa-se|cabe agora|aplique-se|resta apenas|fica devido|impõe-se|
+|03|02|Sentença_0302|F|11|2|ao querelante|ao queixoso|ao outorgado|ao outorgante|aos autores|ao apelante|ao litigante|às partes|ao requerente|ao condenado|aos réus|
 |04|00|
-|04|01|Sentença_0401|F|1|1|( |
-|04|02|Sentença_0402|F|5|1|salvo melhor juízo|decorrido o prazo|mantida a instância|mesmo à revelia|sob o manto da lei|
-|04|03|Sentença_0403|F|4|1|e sem prejuízo de|e cabendo|e no direito de|e sem caber|
-|04|03|Sentença_0404|F|13|2|recurso|embargo|agravo|surpresa|apelação|improcedência|suspeição|contraditório|veto|incompetência|alegação|negatório|aditamento|
-|04|04|Sentença_0405|F|1|1| )|
+|05|01|Sentença_0501|F|1|1|( |
+|05|02|Sentença_0502|F|5|2|salvo melhor juízo|decorrido o prazo|mantida a instância|mesmo à revelia|sob o manto da lei|
+|05|03|Sentença_0503|F|4|2|e sem prejuízo de|e cabendo|e no direito de|e sem caber|
+|05|03|Sentença_0504|F|13|2|recurso|embargo|agravo|surpresa|apelação|improcedência|suspeição|contraditório|veto|incompetência|alegação|negatório|aditamento|
+|05|04|Sentença_0505|F|1|1| )|
 |06|00|
-|06|01|Sentença_0601|F|9|2|acatar|cumprir|observar|obedecer|respeitar|admitir|acolher|honrar|praticar|
-|06|02|Sentença_0602|F|1|1|, "|
-|06|03|Sentença_0603|T|37|3|A posteriori|Ad futurum|Ad hoc|Ad aeternum|Ad arbitrium|Ad tempus|Animus jocandi|Cognitio causae|Nunc contra legem|Data venia|Ex nunc|Exempli gratia|Fac simile|Facultas agendi|Sine grosso modo|Hic et nunc|Honoris causos|In casu|In dubio pro reo|In loco|In verbis|Ipso facto|Latu sensu|Legis vacante|Modus vivendi|Mutatis mutandis|Nihil obstat|Obligatio faciendi|Dubium sapientiae initium|Pari passu|Post scriptum|Sine die|Conditio sine qua non|Sui generis|Vade mecum|Spont sua|Verbi gratia|
-|06|04|Sentença_0604|F|1|1|",|
-|07|01|Sentença_0701|F|11|8|o mérito|o conteúdo|o acordo|o justo|o concluso|o pertinente|o reclamo|o parecer|o pacto|a base legal|o teor|
-|07|02|Sentença_0702|F|7|1|da causa|da lide|da sentença|do despacho|da contenda|em questão|da pena|
-|07|03|Sentença_0703|F|1|1|:|
-|08|00|
-|08|01|Sentença_0801|F|15|9|beijar um pouco|banho de cachoeira|dizer obrigado|sorrir de verdade|olhar para a lua|ser mais gentil|contar até dez|carinho e cafuné|repartir alegria|fazer alguém feliz|assobiar cantigas|pensar em paz|rir de si mesmo|mandar flores|desligar o celular|
-|08|02|Sentença_0802|F|14|7|todo santo dia|de hora em hora|3 vezes ao dia|uma vez na vida|durante a semana|logo de manhã|no dia-a-dia|de vez em quando|ao cair da tarde|nas horas vagas|dia sim, dia não|assim que acordar|sempre que possível|nos dias ímpares|
-|08|03|Sentença_0803|F|1|1|.|
+|07|01|Sentença_0701|F|9|8|acatar|cumprir|observar|obedecer|respeitar|admitir|acolher|honrar|praticar|
+|07|02|Sentença_0702|F|1|1|, "|
+|07|03|Sentença_0703|T|37|13|A posteriori|Ad futurum|Ad hoc|Ad aeternum|Ad arbitrium|Ad tempus|Animus jocandi|Cognitio causae|Nunc contra legem|Data venia|Ex nunc|Exempli gratia|Fac simile|Facultas agendi|Sine grosso modo|Hic et nunc|Honoris causos|In casu|In dubio pro reo|In loco|In verbis|Ipso facto|Latu sensu|Legis vacante|Modus vivendi|Mutatis mutandis|Nihil obstat|Obligatio faciendi|Dubium sapientiae initium|Pari passu|Post scriptum|Sine die|Conditio sine qua non|Sui generis|Vade mecum|Spont sua|Verbi gratia|
+|07|04|Sentença_0704|F|1|1|",|
+|08|01|Sentença_0801|F|11|2|o mérito|o conteúdo|o acordo|o justo|o concluso|o pertinente|o reclamo|o parecer|o pacto|a base legal|o teor|
+|08|02|Sentença_0802|F|7|4|da causa|da lide|da sentença|do despacho|da contenda|em questão|da pena|
+|08|03|Sentença_0803|F|1|1|:|
+|09|00|
+|10|01|Sentença_1001|F|15|15|beijar um pouco|banho de cachoeira|dizer obrigado|sorrir de verdade|olhar para a lua|ser mais gentil|contar até dez|carinho e cafuné|repartir alegria|fazer alguém feliz|assobiar cantigas|pensar em paz|rir de si mesmo|mandar flores|desligar o celular|
+|10|02|Sentença_1002|F|14|10|todo santo dia|de hora em hora|3 vezes ao dia|uma vez na vida|durante a semana|logo de manhã|no dia-a-dia|de vez em quando|ao cair da tarde|nas horas vagas|dia sim, dia não|assim que acordar|sempre que possível|nos dias ímpares|
+|10|03|Sentença_1003|F|1|1|.|
 <EOF>
 CATAPALA = 31
 VERBETES = 249

@@ -1,16 +1,14 @@
 *-
-*- Criar Function Baralho( aRay ) == Return( Random( aRay ) )
+*- Sua.ypo == outro Ser.ypo
 *-
-*- Ser.ypo
-*-
-|01|01|Ser_0101|F|16|14|Do céu, uma nuvem vã|Da montanha, horizonte|Da cachoeira, as águas|Da catarata, um pingo|Da floresta, o que verde|Do firmamento, um ponto|Das areias, só pegadas|Do deserto, a miragem|Das aves, o leve voo|Do espelho, a imagem|Da loucura, um retrato|Do mistério, a pergunta|Do caminho, a paisagem|Do caminho, a viagem|Da fé, um vão abstrato|Da música, uma pausa|
-|01|02|Ser_0102|F|1|1|.|
-|02|01|Ser_0101|F|19|16|Da corredeira, o canto|Do mar, a onda que vem|Do tempo, só um segundo|Da vida, o que passeio|Do futuro, o incerto|Dos ventos, o que alento|Do silêncio, um ruído|Do distante, o mais perto|Dos amigos, o mais perto|Do destino, quase crente|Da viagem, só o meio|Do acaso... que me inventem|Dos sonhos, o despertar|Da liberdade, um seio|Dos ateus, um Deus devasso|Da noite, uma estrela|Dos momentos, o eterno|Das mentiras, o segredo|Da esperança, o fiel|
-|02|02|Ser_0202|F|1|1|.|
-|03|01|Ser_0101|T|23|17|Das regras, um contraponto|Das cidades, uma esquina|Da tempestade, o porto|Da chuva, a prima gota|Dos abraços, solo e ninho|Dos prazeres, quase tudo|Dos fatos, equidistante|De cada passo, o seguinte|Do espaço, o profundo|Da saudade, só o sopro|Do abstrato, o que vero|Da pele, um mero poro|À cada falso, eu mesmo|Da sentença, um sujeito|Da gana, um ledo engano|Da verdade, o capacho|Do nada, mero milagre|Da fala, a entrelinha|Das brisas, algum chamego|Da verdade, um Deus avesso|Das palavras, o que grito|Do infinito, um além|Dos erros, o aprendiz|
-|03|02|Ser_0302|F|1|1|.|
-|04|01|Ser_0401|T|19|19|Da cordilheira, a vista|Da esperança, um fio|Da costura, uma linha|Dos oprimidos, a vez|Da sorte, a ilusão|Da lei, o que não tem nó|Das metades, o inteiro|Da solidão, qualquer ai|Do medo, um professor|Dos perdidos, um a mais|Do horizonte, a imensidão|Dos edifícios, um chão|Dos apartamentos, um chão|Do universo, um grão|Da terra, barro ou pó|Dos amores, a magia|Das estradas, só a ida|Na multidão, um a mais|Dos oceanos, um cais|
-|04|02|Ser_0402|F|1|1|!|
+|01|01|Sua_0101|F|16|12|Do céu, uma nuvem vã|Da montanha, horizonte|Da cachoeira, as águas|Da catarata, um pingo|Da floresta, o que verde|Do firmamento, um ponto|Das areias, só pegadas|Do deserto, a miragem|Das aves, o leve voo|Do espelho, a imagem|Da loucura, um retrato|Do mistério, a pergunta|Do caminho, a paisagem|Do caminho, a viagem|Da fé, um vão abstrato|Da música, uma pausa|
+|01|02|Sua_0102|F|1|1|.|
+|02|01|Sua_0101|F|19|17|Da corredeira, o canto|Do mar, a onda que vem|Do tempo, só um segundo|Da vida, o que passeio|Do futuro, o incerto|Dos ventos, o que alento|Do silêncio, um ruído|Do distante, o mais perto|Dos amigos, o mais perto|Do destino, quase crente|Da viagem, só o meio|Do acaso... que me inventem|Dos sonhos, o despertar|Da liberdade, um seio|Dos ateus, um Deus devasso|Da noite, uma estrela|Dos momentos, o eterno|Das mentiras, o segredo|Da esperança, o fiel|
+|02|02|Sua_0202|F|1|1|.|
+|03|01|Sua_0101|T|23|20|Das regras, um contraponto|Das cidades, uma esquina|Da tempestade, o porto|Da chuva, a prima gota|Dos abraços, solo e ninho|Dos prazeres, quase tudo|Dos fatos, equidistante|De cada passo, o seguinte|Do espaço, o profundo|Da saudade, só o sopro|Do abstrato, o que vero|Da pele, um mero poro|À cada falso, eu mesmo|Da sentença, um sujeito|Da gana, um ledo engano|Da verdade, o capacho|Do nada, mero milagre|Da fala, a entrelinha|Das brisas, algum chamego|Da verdade, um Deus avesso|Das palavras, o que grito|Do infinito, um além|Dos erros, o aprendiz|
+|03|02|Sua_0302|F|1|1|.|
+|04|01|Sua_0401|T|19|7|Da cordilheira, a vista|Da esperança, um fio|Da costura, uma linha|Dos oprimidos, a vez|Da sorte, a ilusão|Da lei, o que não tem nó|Das metades, o inteiro|Da solidão, qualquer ai|Do medo, um professor|Dos perdidos, um a mais|Do horizonte, a imensidão|Dos edifícios, um chão|Dos apartamentos, um chão|Do universo, um grão|Da terra, barro ou pó|Dos amores, a magia|Das estradas, só a ida|Na multidão, um a mais|Dos oceanos, um cais|
+|04|02|Sua_0402|F|1|1|!|
 <EOF>
 CATAPALA = 16
 VERBETES = 187

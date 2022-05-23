@@ -6,10 +6,10 @@
 *- NEWS = Se de... uma cena|um filme|uma peça|... + artes?|pena|falha|nosso|
 *- NONO = convenhamos|falta=HARD!|
 *- JOKE = o salário|uma pulga atrás da orelha|
-*- CINE = Ator Principal = |REV_0201|
-*- CINE = catapulta = 2 papéis... quebra a contagem em |REV_0103|
+*- CINE = Ator Principal = |Rever_0201|
+*- CINE = catapulta = 2 papéis... quebra a contagem em |Rever_0103|
 *-
-*- Desparear: |REV_0201|F|12| de |REV_0302|F|12| + |REV_0401|F|12| ou... |T|
+*- Desparear: |Rever_0201|F|12| de |Rever_0302|F|12| + |Rever_0401|F|12| ou... |T|
 *-
 *- __amiúde = repetidas vezes, com freqüência, a miúdo
 *- __catapultar = projetar à frente ou acima de outros; fazer progredir, levantar
@@ -24,13 +24,13 @@
 *-
 |01|01|Rever_0101|F|1|1|Se de|
 |01|02|Rever_0102|F|6|2|um poema|uma frase|um verso|uma fala|uma prosa|uma pena|
-|01|03|Rever_0103|F|12|4|se exalta|me valha|resulta|se volta|se talha|ressalta|se avulta|se entalha|se solta|se espalha|se devolve|se avista|
-|02|01|Rever_0201|F|17|9|uma busca em dicionário|uma pulga atrás da orelha|um distinto panorama|um futuro não distante|um passeio no alfarrábio|a leitura de outro livro|um pensar no diferente|a abertura de outra porta|uma luz no cerebelo|algo novo no horizonte|o abrir de uma cortina|outra ideia tão brilhante|um monólogo de sina|a janela do adiante|algum amor mais gigante|uma ideia mais brilhante|um sabor de novidade|
+|01|03|Rever_0103|F|12|10|se exalta|me valha|resulta|se volta|se talha|ressalta|se avulta|se entalha|se solta|se espalha|se devolve|se avista|
+|02|01|Rever_0201|F|17|3|uma busca em dicionário|uma pulga atrás da orelha|um distinto panorama|um futuro não distante|um passeio no alfarrábio|a leitura de outro livro|um pensar no diferente|a abertura de outra porta|uma luz no cerebelo|algo novo no horizonte|o abrir de uma cortina|outra ideia tão brilhante|um monólogo de sina|a janela do adiante|algum amor mais gigante|uma ideia mais brilhante|um sabor de novidade|
 |03|00|
-|03|01|Rever_0301|F|9|5|o salário|o atalho|o trabalho|a labuta|o engenho|o desgaste|o empenho|a batalha|o talento|
-|03|02|Rever_0302|F|12|11|não sepulta|só indulta|não insulta|nos faculta|não revolta|catapulta|só ausculta|não avilta|só exulta|não oculta|mal consulta|só escolta|
-|04|01|Rever_0401|F|18|3|o valor da velha lida|a vitória merecida|o sentido dessa lida|outra vida... mais cabida|uma noite mal dormida|o que sonho nessa vida|essa busca por guarida|outra coisa, mais querida|um cheirinho de flor ida|o que falta nessa vida|essa sorte retorcida|tanta busca suicida|uma sorte mais erguida|o torpor da vera lida|a vontade esquecida|essa ida sem saída|... alegria revivida|a magia dessa vida|
-|04|02|Rever_0402|F|1|1|.|
+|04|01|Rever_0401|F|9|8|o salário|o atalho|o trabalho|a labuta|o engenho|o desgaste|o empenho|a batalha|o talento|
+|04|02|Rever_0402|F|12|5|não sepulta|só indulta|não insulta|nos faculta|não revolta|catapulta|só ausculta|não avilta|só exulta|não oculta|mal consulta|só escolta|
+|05|01|Rever_0501|F|18|15|o valor da velha lida|a vitória merecida|o sentido dessa lida|outra vida... mais cabida|uma noite mal dormida|o que sonho nessa vida|essa busca por guarida|outra coisa, mais querida|um cheirinho de flor ida|o que falta nessa vida|essa sorte retorcida|tanta busca suicida|uma sorte mais erguida|o torpor da vera lida|a vontade esquecida|essa ida sem saída|... alegria revivida|a magia dessa vida|
+|05|02|Rever_0502|F|1|1|.|
 <EOF>
 CATAPALA = 18
 VERBETES = 124
