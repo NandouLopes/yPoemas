@@ -40,7 +40,7 @@ from datetime import datetime
 
 # Project Modules
 from lay_2_ypo import gera_poema
-from model import build_matrix
+# from model import build_matrix
 from info import load_info
 
 import pytz    # Universal Time Coordinated (UTC)
@@ -917,8 +917,8 @@ def page_abouts():
         choice = abouts_list[opt_abouts].upper()
         about_expander = st.expander("", True)
         with about_expander:
-            if 'MACHINA' in choice:
-                build_matrix('Fatos')
+            #if 'MACHINA' in choice:
+            #    build_matrix('Fatos')
 
             st.subheader(load_file("ABOUT_" + choice + ".md"))
 
