@@ -98,6 +98,5 @@ ___
 > - tente descobrir onde o novo está presente.  
 > - doe-se ao futuro.  
 > - o prazer é o próprio pensar.  
-___  
-
-Copyright © 2022 Nando Lopes - **yPoemas @ machina de fazer Poesia**
+___
+Copyright © 1983-2022 Nando Lopes - **yPoemas @ máquina de fazer Poesia**

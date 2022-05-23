@@ -1,6 +1,7 @@
-Apresentação minimalista da  
-**machina de fazer poesia**,  
-com temas escolhidos ao acaso.  
-Apenas 2 opções:  
+Apresentação minimalista com  
+alguns temas escolhidos  
+aleatóriamente pela **máquina**.  
+
+Apenas duas opções:  
 **✚** para gerar um novo texto e  
 **✴** para escolher outro tema.  

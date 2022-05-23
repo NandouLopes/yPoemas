@@ -1,4 +1,4 @@
-sobre as Imagens...  
+sobre a seleção das Imagens  
 ___  
   
 > Nenhuma dessas fotos é minha, a menos que seja declarada.  
@@ -10,8 +10,8 @@ ___
   
 - O porquê das imagens:  
 > A imagem é linguagem que, assim como a música, não depende de tradução.  
-> A imagem é uma engenharia reversa do processo de aprendizagem. (som, imagem e grafia)  
-> Uma imagem vale mais que mil palavras (sic)...  
+> A **imagem**, ao lado do **yPoema**, torna-se uma engenharia reversa  
+  do processo de aprendizagem. (imagem, grafia e leitura)  
 
 - Critérios gerais da escolha:  
 > Axioma zero: a **máquina** é essencialmente feminina.  
@@ -27,10 +27,9 @@ ___
 > escultura, circo, papel machê, moda, artesanato... e literatura.  
 >> Foram evitados: choro, modismos, lágrimas, coraçõezinhos... e obviedades em geral.  
 
-- O porquê imagens nos ypoemas:
+- O porquê imagens nos **yPoemas**:
 > A linguagem-aparição do yPoema se manifesta quando ele é gerado.  
 > A imagem (aleatória) agregada ao tema apenas multi-aplica-lhe outro valor.  
 > As conexões tema-imagem ficam por conta dos neurônios do leitor, a cada lida.  
 ___
-
-Copyright © 2022 Nando Lopes - **yPoemas @ machina de fazer Poesia**
+Copyright © 1983-2022 Nando Lopes - **yPoemas @ máquina de fazer Poesia**

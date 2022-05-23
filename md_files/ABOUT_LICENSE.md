@@ -1,4 +1,4 @@
-Licença  
+Licença de Uso  
 ___
 A permissão é concedida, gratuitamente, a qualquer pessoa que obtenha  
 **uma cópia de qualquer yPoema** gerado e arquivos de documentação associados  
@@ -22,4 +22,4 @@ DANOS OU OUTROS RESPONSABILIDADE, SEJA EM UMA AÇÃO DE CONTRATO, ATO ILÍCITO
 OU DE OUTRA FORMA, DECORRENTE DE, FORA OU EM CONEXÃO COM O SOFTWARE  
 OU O USO OU OUTRAS NEGOCIAÇÕES NO PROGRAMAS.  
 ___
-Copyright © 1983-2022 Nando Lopes - **yPoemas @ machina de fazer Poesia**
+Copyright © 1983-2022 Nando Lopes - **yPoemas @ máquina de fazer Poesia**

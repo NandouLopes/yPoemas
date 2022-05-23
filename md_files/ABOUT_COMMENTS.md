@@ -1,9 +1,9 @@
-alguns comentários sobre os yPoemas...  
+alguns comentários sobre os **yPoemas**  
 ---  
 - **Prof. Rui Torres** (Porto - Portugal)  
 
 Caro Fernando Lopes,  
-Abri a sua machina no dia em que teve a gentileza de partilhar o link comigo.  
+Abri a sua "machina" no dia em que teve a gentileza de partilhar o link comigo.  
 Excepcional! Muitos parabéns.  
 
 É um trabalho de grande calibre  
@@ -13,12 +13,12 @@ e de grande valor (pensado, coerente, elegante).
 Foi uma surpresa muito agradável.  
 Aqui fica o agradecimento e o reconhecimento.  
 Saudações cordiais,  
-[sobre](http://telepoesis.net/)  
+[saber mais...](http://telepoesis.net/)  
 ---  
 - **Iacyr Anderson Freitas** (Patrocínio do Muriaé, MG - Brasil)  
 
 Li com prazer (e espanto, devo confessar)  
-a metralhadora lírica da "machina de fazer poesia".  
+a metralhadora lírica da "máquina de fazer poesia".  
 E fiquei me perguntando: onde entra (se entra) o eu lírico  
 nessa história fabril-febril do Fernando Lopes?  
 
@@ -28,7 +28,7 @@ Há ramificações novas, radicalmente novas, em verdade, para a história da l�
 Há um caminho totalmente novo à frente.  
 Daqui das Gerais, só me cabe lhe desejar sucesso.  
 Ah... e lhe parabenizar pelo feito notável  
-[sobre](http://www.algumapoesia.com.br/poesia3/poesianet373.htm)  
+[saber mais...](http://www.algumapoesia.com.br/poesia3/poesianet373.htm)  
 ---  
 - **Beth Brait Alvim** (São José dos Campos, SP - Brasil)  
 
@@ -49,9 +49,9 @@ Pois que assim deveria ser toda Criação: nos levar à loucura de tão bela,
 de tão semelhante e diversa, de tão indizível e total,  
 inda mais num mundo plano, banal, destituído de encantos, como querem os boçais.  
 
-A machina veio para quebrar o feio, o pouco, o nada.  
+A Máquina veio para quebrar o feio, o pouco, o nada.  
 Que venham mais e mais poemas!  
-[sobre](https://www.editorapatua.com.br/produto/24326/a-febre-e-a-mariposa-de-beth-brait-alvim)
+[saber mais...](https://www.editorapatua.com.br/produto/24326/a-febre-e-a-mariposa-de-beth-brait-alvim)
 ---  
 - **Prof. Luis Gonzaga Guimarães Pinheiro** (São José dos Campos, SP - Brasil)  
 
@@ -109,7 +109,7 @@ Trata-se de uma ferramenta com recursos ainda não explorados em sua totalidade
 e que pode auxiliar principalmente os iniciantes na arte de escrever.  
 O texto pode ser editado, modificado e recriado,  
 até que obra e autor se tornem uma unidade poética cheia de sentimentos e emoções.  
-[sobre](https://x.facebook.com/silvioferreiraleitee)  
+[saber mais...](https://x.facebook.com/silvioferreiraleitee)  
 ---  
 
 - **Silvia Vasconcellos**  
@@ -146,5 +146,5 @@ Legal!
 - **MarieLou Miranda Camargo-Nash**  
 
 It’s brilliant! Well done you! I love words.  
----  
-Copyright © 2022 Nando Lopes - **yPoemas @ machina de fazer Poesia**
+---
+Copyright © 1983-2022 Nando Lopes - **yPoemas @ máquina de fazer Poesia**

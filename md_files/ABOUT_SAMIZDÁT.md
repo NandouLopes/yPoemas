@@ -16,4 +16,4 @@ ___
 >  
 >> p.ex., Gosizdát: sigla de Gosudárstvnnoe izdátel'stvo "Editora Estatal"  
 ___
-Copyright © 2022 Nando Lopes - **yPoemas @ machina de fazer Poesia**
+Copyright © 1983-2022 Nando Lopes - **yPoemas @ máquina de fazer Poesia**

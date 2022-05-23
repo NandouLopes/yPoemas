@@ -44,3 +44,5 @@ ___
 - Tabbi, Joseph - “Toward a Semantic Literary” <eliterature.org/pad/slw.html>
 
 - Van Looy, Jan, y Jan Baetens - “Digitising Cultural Heritage”
+---
+Copyright © 1983-2022 Nando Lopes - **yPoemas @ máquina de fazer Poesia**

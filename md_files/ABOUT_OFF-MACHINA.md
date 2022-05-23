@@ -1,9 +1,9 @@
-**off-machina**  
+sobre os livros **off-machina**  
 ___
 > Os textos e poemas dos livros **off-machina** foram escritos  
 > em algum lugar no tempo entre os anos 1968 e 2022.  
 > Não há precisão pois não tenho o hábito de datar meus escritos.  
-> Assim como os textos da **machina**, também são únicos.  
+> Assim como os textos da **máquina**, também são únicos.  
 > Porém, não imutáveis.  
 > Posso, graças à tecnologia, trocar uma palavra aqui, outra ali...  
 > Não o faço constantemente mas quem escreve há de saber a delícia que é.  
@@ -15,7 +15,7 @@ ___
 > Não posso dizer que vivo da poesia mas, vivo de poesia.  
 >> No canto inferior esquerdo da tela, há **links** para  
 >> **Facebook, Hotmail, Instagram e Whatsapp + Pix**.  
->>> Gostando, querendo ou podendo, clique neles...  
+>>> Gostando, querendo ou podendo, clique neles!  
 >>> Qualquer ***importância*** será bem-vinda!  
 
 ___
@@ -61,12 +61,11 @@ ___
 
 > Segundo as normas de documentação da ABNT  
 > e organismos internacionais, o livro é a publicação  
-> com mais de 48 páginas, além da capa.  
+> com mais de 49 páginas, além da capa.  
 
 (1) **livro**: ABNT - NBR 6029: 3.31  
 
 > Publicação não periódica que contém acima de 49 páginas, excluídas as capas,  
 > e que é objeto de Número Internacional Normalizado para Livro (ISBN).  
-
 ___
-Copyright © 2022 Nando Lopes - **yPoemas @ machina de fazer Poesia**
+Copyright © 1983-2022 Nando Lopes - **yPoemas @ máquina de fazer Poesia**

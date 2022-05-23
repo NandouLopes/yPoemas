@@ -1,6 +1,7 @@
 Aqui você pode selecionar  
-outro idioma ( +95 disponíveis )  
+outro idioma ( +97 disponíveis )  
 para traduzir os textos  
-e poemas da **machina**.  
+e poemas da **máquina**.  
+
 A internet não tem fronteiras:  
 que o idioma não seja barreira!  

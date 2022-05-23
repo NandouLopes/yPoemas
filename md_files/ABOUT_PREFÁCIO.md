@@ -1,4 +1,4 @@
-a **machina** segundo **Victor Leonardi:**  
+a **máquina** segundo **Victor Leonardi:**  
 ---
 > Fernando Lopes e eu já conversamos inúmeras vezes sobre temas que nos aproximam.  
 > Viagens, por exemplo. Ele já morou em Paris e eu também, e gostamos muito do Oriente:  
@@ -24,7 +24,7 @@ a **machina** segundo **Victor Leonardi:**
 > que minha dúvida inicial pode parecer absurda.  
 
 > A dúvida surgiu por causa de uma expressão que Fernando Lopes criou:  
-> “**machina** de fazer poesia”. Esse foi o título que ele deu para sua palestra  
+> **máquina de fazer poesia**. Esse foi o título que ele deu para sua palestra  
 > no último festival de literatura do qual participamos, em São Francisco Xavier.  
 
 > A palavra **máquina** me assustou um pouco, pois em minha cabeça ela estava  
@@ -34,7 +34,7 @@ a **machina** segundo **Victor Leonardi:**
 > e na imaginação: algo que brota das profundezas do inconsciente do poeta  
 > e que não pode ser inventado por um computador.  
 
-> O computador é, para Fernando, a tal **“machina de fazer poesia”**.  
+> O computador é, para Fernando, a tal **máquina de fazer poesia**.  
 
 > Depois de ter lido e relido, vários e vários **yPoemas**,  
 > confesso que seu autor tem razão e que é possível, sim,  
@@ -65,11 +65,13 @@ a **machina** segundo **Victor Leonardi:**
 > os futuros **yPoemas** do poeta Fernando Lopes,  
 > pois são muito bons e a leitura é agradável.  
 
-> Os livros da **machina** tem uma tiragem ilimitada de exemplares  
+> Os livros da **máquina** tem uma tiragem ilimitada de exemplares  
 > e cada um deles é diferente dos demais. Como **é isto possível**?  
 
 > É o que o próprio leitor descobrirá.  
 > São segredos da máquina, sobre os quais eu nada sei.  
 > Sou apenas um leitor de seus poemas.  
 
-[saber mais](https://www.facebook.com/victor.leonardi.18)
+[saber mais...](https://www.facebook.com/victor.leonardi.18)
+___
+Copyright © 1983-2022 Nando Lopes - **yPoemas @ máquina de fazer Poesia**

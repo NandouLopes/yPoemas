@@ -1,11 +1,11 @@
-**a machina de fazer Poesia - yPoemas**  
+**a máquina de fazer Poesia - yPoemas**  
 ___
 **O que é**  
 > Um aplicativo para gerar poemas ou textos aleatóriamente.  
 
 **Visão geral**  
-> O trabalho é dividido em temas. Atualmente são 144.  
-> Com um total aproximado de 35.700 palavras **[ver obs.]**,  
+> O trabalho é dividido em temas. Atualmente são 141.  
+> Com um total aproximado de 43.500 palavras **[ver obs.]**,  
 > são criados **Bancos de Palavras** para cada tema.  
 
 > Escolhido um tema, o aplicativo seleciona e embaralha aleatoriamente  
@@ -17,7 +17,7 @@ ___
 > Em uma visão espacial, o texto é criado em três dimensões-eixos  
   onde a leitura convencional multiplica-se à cada mudança no **eixo Z**.  
 
-> A **machina** distribui o texto em camadas.  
+> A **máquina** distribui o texto em camadas.  
   As frases são escritas no eixo X, as linhas no eixo Y,  
   e as palavras de cada frase são extraidas do **imaginário eixo Z**.  
 
@@ -35,7 +35,7 @@ ___
    além, é claro, de todas as concordâncias formais e necessárias  
    à criação de um texto consistente e condizente com o tema.  
 
-> A **machina** deixa de ser máquina quando,  
+> A **máquina** deixa de ser máquina quando,  
   a cada nova geração de um texto,  
   insere-se o **acaso** no sorteio das palavras que dele farão parte.  
 >> Os **yPoemas** foram minuciosamente programados para acontecer **al-atzar**.  
@@ -69,17 +69,21 @@ ___
 
 > Na página **mini** o botão '✚' mostra essas variações.  
 > Na página **yPoemas** o botão '?' mostra essas variações.  
-> Na página **eureka** o botão '?' mostra essas variações.	
-
+> Na página **eureka**  o botão '?' mostra essas variações.	 
 
 **[obs.]** - cerca de 12.750 verbetes únicos  
-> foram excluídos dessas contagens verbetes com menos de 3 sílabas.  
-> exemplos: o, a, à, e, é, os, as, de, da, do, eu, ao, em, um etc.  
+> foram excluídos dessa contagem:  
+>> os nomes de diferentes **cidades** que aparecem nos temas Fatos e Oficio,  
+>> a **umidade do ar** e as **temperaturas** no tema Meteoro,  
+>> as **normas** e **datas passadas** do tema Manifesto,  
+>> as **datas futuras** no tema Oficio e  
+>> verbetes com menos de 3 sílabas:  
+>> exemplos: o, a, à, e, é, os, as, de, da, do, eu, ao, em, um etc.  
 
->> palavra: unidade linguística com significado próprio e existência independente,  
->> que pode ser escrita ou falada.  
+> palavra: unidade linguística com significado próprio e existência independente,  
+> que pode ser escrita ou falada.  
 
 >> verbete: palavras que estão listadas em um dicionário, por ordem alfabética,  
 >> com suas respectivas definições.  
 ___
-Copyright © 2022 Nando Lopes - **yPoemas @ machina de fazer Poesia**
+Copyright © 1983-2022 Nando Lopes - **yPoemas @ máquina de fazer Poesia**

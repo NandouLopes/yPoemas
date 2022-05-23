@@ -11,7 +11,7 @@ ___
 > **barra de títulos** : clique para ver a lista de títulos.  
 ___
 **obs:**
-> Os títulos iniciados com **@** são oriúndos da **machina**.  
+> Os títulos iniciados com **@** são oriúndos da **máquina**.  
 >> Ao clicar neles, em qualquer idioma, um novo texto será gerado.
 ___
-Copyright © 2022 Nando Lopes - **yPoemas @ machina de fazer Poesia**
+Copyright © 1983-2022 Nando Lopes - **yPoemas @ máquina de fazer Poesia**

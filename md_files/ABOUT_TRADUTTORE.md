@@ -1,4 +1,4 @@
-sobre as traduções...
+sobre as traduções  
 ___
 **Traduttore, traditore.**  
 > É um provérbio italiano que, literalmente, significa que o tradutor é traidor  
@@ -54,5 +54,4 @@ ___
 >> P.S. Em alguns idiomas (para o Google Translate?)  
 >> parece não haver distinção entre "língua" e "idioma".  
 ___  
-
-Copyright © 2022 Nando Lopes - **yPoemas @ machina de fazer Poesia**
+Copyright © 1983-2022 Nando Lopes - **yPoemas @ máquina de fazer Poesia**

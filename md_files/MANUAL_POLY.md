@@ -1,4 +1,4 @@
-outros idiomas disponíveis...
+outros idiomas disponíveis
 ___
 - Selecione um idioma da lista acima.  
 - O idioma selecionado ficará disponível no botão **"⚒️"** dos idiomas.   
@@ -25,5 +25,4 @@ ___
 >> - Ainda não encontrei solução para essas possíveis **falhas**.  
 >> - Dicas e sugestões para esse assunto serão bem-vindas!  
 ___
-
-Copyright © 2022 Nando Lopes - **yPoemas @ machina de fazer Poesia**
+Copyright © 1983-2022 Nando Lopes - **yPoemas @ máquina de fazer Poesia**
