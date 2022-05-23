@@ -1,10 +1,10 @@
-|Ais|159|
-|Amaré|333|
+|Ais|239|
+|Amaré|365|
 |Anjos|20|
 |Aolero|0|
 |Aquarius=f|3|
 |Aquarius=m|3|
-|ArErIr|15|
+|ArErIr|16|
 |Aries=f|4|
 |Aries=m|1|
 |Astros|2|
@@ -26,7 +26,7 @@
 |Caprico=m|0|
 |Cartaz|113|
 |Circular|43|
-|Ciuminho|253|
+|Ciuminho|283|
 |Clandestino|147|
 |Clarice|67|
 |Conto|52|
@@ -34,7 +34,7 @@
 |Cromossomo|217|
 |Cuores|174|
 |Destinos|129|
-|Distintos|157|
+|Distintos|187|
 |Dolores|41|
 |Duralex|0|
 |Elogio|123|
@@ -86,7 +86,7 @@
 |Oca|57|
 |Ocio|149|
 |Oco|20|
-|Oficio|122|
+|Oficio|123|
 |Ogiva|9|
 |Olhares|12|
 |Palyndro|0|
@@ -98,11 +98,11 @@
 |Perfil|164|
 |Pessoa|37|
 |Portal|13|
-|Posfácio|93|
-|Prefácil|381|
+|Posfácio|123|
+|Prefácil|382|
 |Psiume|14|
-|Reger|100|
-|Reinos|125|
+|Reger|108|
+|Reinos|126|
 |Remedeio|4|
 |Rever|21|
 |Rito|102|
@@ -113,7 +113,7 @@
 |Seguro|254|
 |Sentença|172|
 |Ser|0|
-|Silente|164|
+|Silente|174|
 |Sinais|85|
 |Sinas|1|
 |Sn6=ball|2|
@@ -121,7 +121,7 @@
 |Snowball|2|
 |Solero|0|
 |Sonoro|2|
-|Sopros|178|
+|Sopros|188|
 |Sos|124|
 |Ss1|4|
 |Ss2|1|
