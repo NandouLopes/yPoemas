@@ -645,6 +645,7 @@ def write_ypoema(LOGO_TEXT, LOGO_IMAGE):  # ver save_img.py
             unsafe_allow_html=True,
         )
     else:
+        print(LOGO_IMAGE)
         st.markdown(
             f"""
             <div class="container">
@@ -1038,7 +1039,7 @@ def page_ypoemas():
         if st.session_state.lang != "pt":  # translate if idioma <> pt
             LOGO_TEXT = translate(LOGO_TEXT)
             
-        LOGO_IMAGE = "./images/matrix/" + curr_tema.capitalize() + ".PNG"
+        LOGO_IMAGE = "./images/matrix/" + curr_tema.capitalize() + ".jpg"
         write_ypoema(LOGO_TEXT, LOGO_IMAGE)
 
     if st.session_state.vide:
