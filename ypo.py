@@ -150,8 +150,6 @@ st.markdown(
     }
     .logo-img {
         float:right;
-    .logo-matrix {
-        float:center;
     }
     </style>
     """,
