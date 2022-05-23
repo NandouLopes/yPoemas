@@ -129,8 +129,8 @@
 |Ss1|ensaio|machina|17|30|49|350|388.588.515.194.880.000 (quatrilhões)|3,886 e+17|
 |Ss2|ensaio|machina|17|29|49|350|388.588.515.194.880.000 (quatrilhões)|3,886 e+17|
 |Sua|poesia|beauty|4|16|165|81|63.840 (mil)|6,384 e+04|
-|Tempo|poesia|machina|17|71|1108|3073|3.182.112.107.044.333.927.454.050.792.527.825.469.440.000.000 (quatordecilhões)|3,182 e+45|
-|Tiro|metalinguagem|anima|11|30|517|385|2.986.821.661.824.000.000 (quintilhões)|2,987 e+18|
+|Tempo|poesia|machina|17|71|1108|3102|7.247.770.007.124.225.427.373.632.189.851.972.403.200.000.000 (quatordecilhões)|7,248 e+45|
+|Tiro|metalinguagem|anima|11|30|517|385|2.903.854.393.440.000.000 (quintilhões)|2,904 e+18|
 |Tolero|poesia|anima|17|72|323|1751|644.297.645.803.080.334.952.235.904.398.544.129.228.800.000 (tredecilhões)|6,443 e+44|
 |Touro=f|zodíaco|esoteric|6|22|111|59|1.254.528 (milhões)|1,255 e+06|
 |Touro=m|zodíaco|esoteric|6|23|111|59|1.254.528 (milhões)|1,255 e+06|
