@@ -11,7 +11,7 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
     :param = script, tema
          numero_linea = '01'  # linha
          ideia_numero = '01'  # ideia
-         fonte_itimos = 'NA'  # fonte
+         fonte_itimos = nome_tema + '_' + numero_linea + ideia_numero # fonte dos itimos. Pode haver re-uso !!!
          se_randomico = 'F'   # se_random
          total_itimos = N     # qtd_itimos
          itimos_atual = 1     # itimos_atual
@@ -33,9 +33,10 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
 
     conta_palavra = 0
 
-    look_for_seed = False
     this_seed = ""
     seed_coords = ""
+    look_for_seed = False
+
     if seed_source != "":
         where = -1
         for letra in seed_source:
@@ -70,6 +71,7 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
     novo_verso = ""
     muda_linha = "00"
     pula_linha = "no"
+    fonte_eureka = ""
 
     for line in lista_linhas:
         alinhas = line.split("|")
@@ -94,6 +96,8 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
             total_itimos = int(alinhas[5])
             itimos_atual = int(alinhas[6])
             array_itimos = alinhas[7 : len(alinhas) - 1]
+            
+            fonte_eureka = nome_tema + '_' + numero_linea + ideia_numero
 
             if itimos_atual > len(array_itimos):
                 itimos_atual = len(array_itimos)
@@ -130,7 +134,8 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
                         )
                     itimo_escolhido = "_Erro_"
 
-                if fonte_itimos == seed_coords:  # eureka parameter
+                if fonte_eureka == seed_coords:  # eureka parameter
+                # if fonte_itimos == seed_coords:  # eureka parameter
                     if look_for_seed:  # not changed yet...
                         for itimo in array_itimos:
                             if this_seed.lower() in itimo.lower():
