@@ -3,27 +3,27 @@
 *-
 *- quadro|sensível à kryptonita|
 *-
-|01|01|Insano_0101|F|12|2|Penso muito|Passo ao largo|Pinço passagens|Folheio futuros|Nego quase tudo|Lanço pistas|Gosto dos acasos|Chovo em molhados|Visto carapuças|Dôo-me em segredo|Reviro os fatos|Floreio notícias|
+|01|01|Insano_0101|F|12|8|Penso muito|Passo ao largo|Pinço passagens|Folheio futuros|Nego quase tudo|Lanço pistas|Gosto dos acasos|Chovo em molhados|Visto carapuças|Dôo-me em segredo|Reviro os fatos|Floreio notícias|
 |01|02|Insano_0102|F|1|1|...|
-|05|01|Insano_0501|F|5|5|Que não me|Aceito que|Prefiro que|Basta que|Só não peço que|
-|05|02|Insano_0502|F|5|5|venham com|mintam|inventem|me iludam com|vistam|
-|05|03|Insano_0503|F|14|2|dentes de vidro|almas ladras|falas nobres|algo sacro|almas pobres|ideias vesgas|novo logro|lados negros|nortes vagos|erros crassos|falsos brios|lastros restritos|fartos lucros|tolos descalabros|
+|05|01|Insano_0501|F|5|4|Que não me|Aceito que|Prefiro que|Basta que|Só não peço que|
+|05|02|Insano_0502|F|5|4|venham com|mintam|inventem|me iludam com|vistam|
+|05|03|Insano_0503|F|14|10|dentes de vidro|almas ladras|falas nobres|algo sacro|almas pobres|ideias vesgas|novo logro|lados negros|nortes vagos|erros crassos|falsos brios|lastros restritos|fartos lucros|tolos descalabros|
 |05|04|Insano_0504|F|1|1|.|
-|15|00|
-|15|01|Insano_1501|F|8|6|Sangro cigano|Creio-me são|Singro pesadelos|Sei onde falho|Cruzo avenidas|Ladro escondido|Falho por vezes|Sagro primaveras|
+|10|00|
+|15|01|Insano_1501|F|8|8|Sangro cigano|Creio-me são|Singro pesadelos|Sei onde falho|Cruzo avenidas|Ladro escondido|Falho por vezes|Sagro primaveras|
 |15|02|Insano_1502|F|1|1|...|
-|25|01|Insano_2501|F|8|6|meio|quase|todo|semi|um tanto|sempre|assim...|talvez|
-|25|02|Insano_2502|F|20|7|alegre|presto|pasto|vasto|magro|sóbrio|ébrio|íntegro|besta|ogro|bolha|fardo|casto|pronto|perdido|perfeito|cego|distinto|insano|abstrato|
+|25|01|Insano_2501|F|8|8|meio|quase|todo|semi|um tanto|sempre|assim...|talvez|
+|25|02|Insano_2502|F|20|1|alegre|presto|pasto|vasto|magro|sóbrio|ébrio|íntegro|besta|ogro|bolha|fardo|casto|pronto|perdido|perfeito|cego|distinto|insano|abstrato|
 |25|03|Insano_2503|F|1|1|,|
-|25|04|Insano_2501|F|8|8|meio|quase|assim...|todo|semi|um tanto|sempre|talvez|
-|25|05|Insano_2502|T|20|4|alegre|presto|pasto|vasto|magro|sóbrio|ébrio|íntegro|besta|ogro|bolha|fardo|casto|pronto|perdido|perfeito|cego|distinto|insano|abstrato|
+|25|04|Insano_2501|F|8|2|meio|quase|assim...|todo|semi|um tanto|sempre|talvez|
+|25|05|Insano_2502|T|20|13|alegre|presto|pasto|vasto|magro|sóbrio|ébrio|íntegro|besta|ogro|bolha|fardo|casto|pronto|perdido|perfeito|cego|distinto|insano|abstrato|
 |25|06|Insano_2506|F|1|1|,|
-|25|07|Insano_2501|F|8|1|meio|quase|todo|semi|um tanto|sempre|assim...|talvez|
-|25|08|Insano_2502|T|20|17|alegre|presto|pasto|vasto|magro|sóbrio|ébrio|íntegro|besta|ogro|bolha|fardo|casto|pronto|perdido|perfeito|cego|distinto|insano|abstrato|
+|25|07|Insano_2501|F|8|3|meio|quase|todo|semi|um tanto|sempre|assim...|talvez|
+|25|08|Insano_2502|T|20|11|alegre|presto|pasto|vasto|magro|sóbrio|ébrio|íntegro|besta|ogro|bolha|fardo|casto|pronto|perdido|perfeito|cego|distinto|insano|abstrato|
 |25|09|Insano_2509|F|1|1|...|
 |35|00|
-|35|01|Insano_3501|F|10|8|Não se assuste:|Gaste seus medos:|Ate-se ao destino:|Duvide verdades:|Escancare janelas:|Crave tua marca:|Pince o fato:|Junte-se a mim:|Fuja do flagra:|Abra o leque:|
-|45|01|Insano_4501|F|13|9|Declare-se inocente!|Ganhe um amigo!|É só negar!|Leia entrelinhas!|Quebre uma regra!|Mate algum vírus!|Rasgue outro verbo!|Recorra ao risco!|Destema a vida!|Siga uma bússola!|Faça um cafuné!|Busque um rumo!|Saiba carinhos!|
+|35|01|Insano_3501|F|10|2|Não se assuste:|Gaste seus medos:|Ate-se ao destino:|Duvide verdades:|Escancare janelas:|Crave tua marca:|Pince o fato:|Junte-se a mim:|Fuja do flagra:|Abra o leque:|
+|45|01|Insano_4501|F|13|3|Declare-se inocente!|Ganhe um amigo!|É só negar!|Leia entrelinhas!|Quebre uma regra!|Mate algum vírus!|Rasgue outro verbo!|Recorra ao risco!|Destema a vida!|Siga uma bússola!|Faça um cafuné!|Busque um rumo!|Saiba carinhos!|
 <EOF>
 CATAPALA = 22
 VERBETES = 167

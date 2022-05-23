@@ -37,19 +37,19 @@
 *- |medos|dados|dedos|idos|lados| == SubIdeias =
 *- |uns|o|dois|
 *-
-|01|01|Joker_0101|T|32|32|Bebi|Reli|Cerzi|Perdi|Cobri|Pari|Carpi|Medi|Servi|Cuspi|Abri|Sorti|Despi|Tingi|Flori|Rugi|Fundi|Jungi|Nutri|Fluí|Sorvi|Tangi|Vesti|Ungi|Luzi|Muni|Poli|Senti|Supri|Urgi|Incuti|Erigi|
-|01|02|Joker_0102|F|9|4|a prosa|o resto|paisagens|o rosto|amores|o gesto|ideias|o vasto|os fardos|
+|01|01|Joker_0101|T|32|23|Bebi|Reli|Cerzi|Perdi|Cobri|Pari|Carpi|Medi|Servi|Cuspi|Abri|Sorti|Despi|Tingi|Flori|Rugi|Fundi|Jungi|Nutri|Fluí|Sorvi|Tangi|Vesti|Ungi|Luzi|Muni|Poli|Senti|Supri|Urgi|Incuti|Erigi|
+|01|02|Joker_0102|F|9|7|a prosa|o resto|paisagens|o rosto|amores|o gesto|ideias|o vasto|os fardos|
 |01|03|Joker_0103|F|5|2|com gosto|brincando|amiúde|pra sempre|à toa|
 |01|04|Joker_0104|F|1|1|,|
-|02|01|Joker_0201|F|21|18|troquei|joguei|toquei|narrei|piquei|lancei|mirei|tranquei|guardei|sentei|rasguei|calcei|gastei|cacei|marrei|tracei|plantei|risquei|mudei|soquei|deitei|
-|02|02|Joker_0202|F|12|3|uns medos|dois dados|recados|uns dados|dois medos|os fardos|segredos|os credos|agrados|os brados|os fados|grunhidos|
-|02|03|Joker_0203|F|16|1|na cara|no parque|ilhados|na fala|do peito|na praça|alados|sem fala|sem jeito|na fila|e pecados|no laço|no passo|privados|idiotas|da fala|
-|03|01|Joker_0201|T|21|21|troquei|joguei|toquei|narrei|piquei|lancei|mirei|tranquei|guardei|sentei|rasguei|calcei|gastei|cacei|marrei|tracei|plantei|risquei|mudei|soquei|deitei|
-|03|02|Joker_0202|T|12|10|uns medos|dois dados|recados|uns dados|dois medos|os fardos|segredos|os credos|agrados|os brados|os fados|grunhidos|
-|03|03|Joker_0203|T|16|11|na cara|no parque|ilhados|na fala|do peito|na praça|alados|sem fala|sem jeito|na fila|e pecados|no laço|no passo|privados|idiotas|da fala|
-|04|01|Joker_0401|T|23|8|e parti|e sumi|e menti|e aludi|e corri|e fulgi|e anuí|e curti|e exibi|e fingi|e saí|e iludi|e aturdi|e entrevi|e fruí|e intuí|e exigi|e eludi|e enxeri|e fluí|e segui|e urdi|e colhi|
-|04|02|Joker_0402|F|10|8|ser assim,|ser mais eu|, curinga,|ser alguém|ser mais um|, já fantasma,|ser feliz|ser ninguém,|saciado|, banido|
-|04|03|Joker_0403|F|16|10|pela vida|por esquinas|em Paris|ao acaso|em retrato|por escrito|em Berlim|sem querer mais nada|no quieto|em meu canto|no secreto|por brinquedo|sem querer futuro|só... quieto|sem nem rito|por magia|
+|02|01|Joker_0201|F|21|3|troquei|joguei|toquei|narrei|piquei|lancei|mirei|tranquei|guardei|sentei|rasguei|calcei|gastei|cacei|marrei|tracei|plantei|risquei|mudei|soquei|deitei|
+|02|02|Joker_0202|F|12|12|uns medos|dois dados|recados|uns dados|dois medos|os fardos|segredos|os credos|agrados|os brados|os fados|grunhidos|
+|02|03|Joker_0203|F|16|2|na cara|no parque|ilhados|na fala|do peito|na praça|alados|sem fala|sem jeito|na fila|e pecados|no laço|no passo|privados|idiotas|da fala|
+|03|01|Joker_0201|T|21|8|troquei|joguei|toquei|narrei|piquei|lancei|mirei|tranquei|guardei|sentei|rasguei|calcei|gastei|cacei|marrei|tracei|plantei|risquei|mudei|soquei|deitei|
+|03|02|Joker_0202|T|12|9|uns medos|dois dados|recados|uns dados|dois medos|os fardos|segredos|os credos|agrados|os brados|os fados|grunhidos|
+|03|03|Joker_0203|T|16|9|na cara|no parque|ilhados|na fala|do peito|na praça|alados|sem fala|sem jeito|na fila|e pecados|no laço|no passo|privados|idiotas|da fala|
+|04|01|Joker_0401|T|23|9|e parti|e sumi|e menti|e aludi|e corri|e fulgi|e anuí|e curti|e exibi|e fingi|e saí|e iludi|e aturdi|e entrevi|e fruí|e intuí|e exigi|e eludi|e enxeri|e fluí|e segui|e urdi|e colhi|
+|04|02|Joker_0402|F|10|3|ser assim,|ser mais eu|, curinga,|ser alguém|ser mais um|, já fantasma,|ser feliz|ser ninguém,|saciado|, banido|
+|04|03|Joker_0403|F|16|11|pela vida|por esquinas|em Paris|ao acaso|em retrato|por escrito|em Berlim|sem querer mais nada|no quieto|em meu canto|no secreto|por brinquedo|sem querer futuro|só... quieto|sem nem rito|por magia|
 |04|04|Joker_0404|F|1|1|.|
 <EOF>
 CATAPALA = 20

@@ -4,19 +4,19 @@
 *-
 *- Aries: de 21 de Março a 20 de Abril
 *-
-|01|01|Aries=f_0101|F|5|2|Sempre pronta para tomar a iniciativa|De personalidade marcante|Agindo com honestidade|Sincera nas amizades|Esbanjando vitalidade|
+|01|01|Aries=f_0101|F|5|1|Sempre pronta para tomar a iniciativa|De personalidade marcante|Agindo com honestidade|Sincera nas amizades|Esbanjando vitalidade|
 |01|02|Aries=f_0102|F|1|1|,|
-|02|01|Aries=f_0201|F|10|1|independente|espontânea|ardente|direta|verdadeira|atraente|ambiciosa|intensa|harmoniosa|corajosa|
+|02|01|Aries=f_0201|F|10|10|independente|espontânea|ardente|direta|verdadeira|atraente|ambiciosa|intensa|harmoniosa|corajosa|
 |02|02|Aries=f_0202|F|1|1|e|
-|02|03|Aries=f_0203|F|8|3|combativa|impulsiva|determinada|ativa|dinâmica|ponta firme|sedutora|sem maldade|
+|02|03|Aries=f_0203|F|8|6|combativa|impulsiva|determinada|ativa|dinâmica|ponta firme|sedutora|sem maldade|
 |02|04|Aries=f_0204|F|1|1|,|
-|03|01|Aries=f_0301|F|5|5|faz contatos com facilidade e|sempre animada,|presença querida nos eventos,|muito admirada,|líder do grupo,|
-|04|01|Aries=f_0401|F|2|1|se mostra de modo ousado.|gosta de reunir as pessoas.|
+|03|01|Aries=f_0301|F|5|4|faz contatos com facilidade e|sempre animada,|presença querida nos eventos,|muito admirada,|líder do grupo,|
+|04|01|Aries=f_0401|F|2|2|se mostra de modo ousado.|gosta de reunir as pessoas.|
 |05|00|
-|05|01|Aries=f_0501|F|6|2|Seu lema|Sua virtude|Seu mote|Sua natureza|Sua qualidade|Sua índole|
-|05|02|Aries=f_0502|F|11|2|é arriscar|é liderar|é ser direta|é vencer|é impor disciplina|é a liderança|é realizar|é sentir-se livre|é a atitude|é enfrentar desafios|é comandar|
-|06|01|Aries=f_0601|F|7|3|acreditando no próprio esforço|criando seu próprio espaço|administrando a própria vida|sem perder o ar provocante|com sua imensa energia|preservando a autonomia|com muita serenidade|
-|06|02|Aries=f_0602|F|1|1|.|
+|06|01|Aries=f_0601|F|6|3|Seu lema|Sua virtude|Seu mote|Sua natureza|Sua qualidade|Sua índole|
+|06|02|Aries=f_0602|F|11|11|é arriscar|é liderar|é ser direta|é vencer|é impor disciplina|é a liderança|é realizar|é sentir-se livre|é a atitude|é enfrentar desafios|é comandar|
+|07|01|Aries=f_0701|F|7|7|acreditando no próprio esforço|criando seu próprio espaço|administrando a própria vida|sem perder o ar provocante|com sua imensa energia|preservando a autonomia|com muita serenidade|
+|07|02|Aries=f_0702|F|1|1|.|
 <EOF>
 CATAPALA = 21
 VERBETES = 98

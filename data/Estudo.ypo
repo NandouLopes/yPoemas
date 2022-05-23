@@ -1,25 +1,25 @@
 *-
 *- Estudo.ypo
 *-
-|01|01|Estudo_0101|F|7|7|A meta é|Vou|Hei de|Pretendo|Intento|Meu sonho é|Quero|
-|01|02|Estudo_0102|F|6|2|terminar|cursar|tentar|concluir|fazer|completar|
-|01|03|Estudo_0103|F|7|7|o mestrado|um diploma|o doutorado|o MBA|o ph.D.|um título|uma faculdade|
+|01|01|Estudo_0101|F|7|1|A meta é|Vou|Hei de|Pretendo|Intento|Meu sonho é|Quero|
+|01|02|Estudo_0102|F|6|6|terminar|cursar|tentar|concluir|fazer|completar|
+|01|03|Estudo_0103|F|7|1|o mestrado|um diploma|o doutorado|o MBA|o ph.D.|um título|uma faculdade|
 |01|04|Estudo_0104|F|1|1|,|
 |02|01|Estudo_0201|F|10|10|lato sensu|por correspondência|lentamente|à distância|honoris causa|nas coxas|à toa|remotamente|sem pressa|na faixa|
 |02|02|Estudo_0202|F|1|1|,|
-|03|01|Estudo_0301|F|9|2|em ócio.|do nada.|em horar.|em caos.|em recreio.|em vagar.|em nada.|em conselho.|no flanar.|
+|03|01|Estudo_0301|F|9|9|em ócio.|do nada.|em horar.|em caos.|em recreio.|em vagar.|em nada.|em conselho.|no flanar.|
 |04|00|
-|04|01|Estudo_0401|F|9|3|A meta é|Depois eu vou|Intento|Meu sonho é|Quero|Pretendo|Prometo|Poderia|Hei de|
-|04|02|Estudo_0402|F|1|1|,|
-|04|03|Estudo_0403|T|47|27|do futuro|algum dia|vício e verso|abelha|num futuro|simples|tente|vagabundo|neofóbico|já formado|cá e lá|poeta|sem missão|cordial|sim... possível|no futuro|formiga|saiba|dia desses|por missão|cigarra|vivente|vice-e-versa|amanhã|ido|em fim|full turista|um mano|sem pressa|ovelha|vacante|já douto|vadio|imagina|pé ante pé|folgado|mestre|sabido|moleque|cabisbaixo|contente-se|cabra|saciado|arisco|desde cedo|sem norte|pragmático|
-|04|04|Estudo_0404|F|1|1|,|
-|05|01|Estudo_0501|F|10|8|dourar|ofertar|gravar|criar|ministrar|elaborar|cravar|contemplar|parir|tecer|
-|05|02|Estudo_0502|F|8|4|aulas|videoconferências|auto-ajudas|atividades|palestras|conferências|teorias|consultorias|
-|05|03|Estudo_0503|T|29|17|genéricas|esporádicas|indistintas|, à distância,|via Nuvem|ocasionais|, sem compromisso,|breves|imaginárias|remotas|simbólicas|corriqueiras|vagas|ímpares|incidentais|, em farsas,|de próprio punho|herméticas|intermitentes|amenas|precisas|, mesmo ausente,|extracurriculares|acadêmicas|pré-gravadas|coesas|, aos berros,|iluminadas|mediúnicas|
-|06|01|Estudo_0601|F|11|9|sobre|observando|seguindo|concordantes com|rebatendo|colocando em dúvida|contestando|questionando|que corroborem|segundo|brincando com|
-|06|02|Estudo_0602|T|37|11|a imensidão|os rumos|a equidade|a vastidão|a procedência|o propósito|as probabilidades|a pertinência|a contradição|as origens|o fim|a insignificância|a brevidade|a precisão|a ótica|a solidão|o futuro|a amplidão|a recorrência|o estilo|as raízes|o porquê|o cunho|o senso|a inexorabilidade|a precedência|a incerteza|a imprecisão|a veracidade|o sentido|a insensatez|o absurdo|a ética|a validade|a ilusão|o princípio|a significância|
-|06|03|Estudo_0603|F|46|29|do nada|da vida|do fim|de um outro eu|do passar tempo|da tal ordem|do acaso|dos egos|dos "sem mestre"|da partícula|dos inexistentes|de algo vago|do futuro|dos anões de jardim|do destino|do erro|do vento leste|do moderno|do cosmos|do voo das borboletas|dos malditos|do porvir|das flores de maio|dos desbussolados|do existir em si mesmo|dos bichos de pelúcia|disso tudo|da "Lei-de-Gérson"|do partir|da solidão|dos passados|dos "sem tato"|de cada mundo|do soar certo|da desordem|do pôr-do-sol|do prazer, por prazer|dos "sem relógio"|de outro viver|do tédio|de algo gigante|do que alguém já disse|do "eu" profundo|de cada vazio|do ser vil|dos bandidos|
-|06|04|Estudo_0604|F|1|1|.|
+|05|01|Estudo_0501|F|9|6|A meta é|Depois eu vou|Intento|Meu sonho é|Quero|Pretendo|Prometo|Poderia|Hei de|
+|05|02|Estudo_0502|F|1|1|,|
+|05|03|Estudo_0503|T|47|33|do futuro|algum dia|vício e verso|abelha|num futuro|simples|tente|vagabundo|neofóbico|já formado|cá e lá|poeta|sem missão|cordial|sim... possível|no futuro|formiga|saiba|dia desses|por missão|cigarra|vivente|vice-e-versa|amanhã|ido|em fim|full turista|um mano|sem pressa|ovelha|vacante|já douto|vadio|imagina|pé ante pé|folgado|mestre|sabido|moleque|cabisbaixo|contente-se|cabra|saciado|arisco|desde cedo|sem norte|pragmático|
+|05|04|Estudo_0504|F|1|1|,|
+|06|01|Estudo_0601|F|10|8|dourar|ofertar|gravar|criar|ministrar|elaborar|cravar|contemplar|parir|tecer|
+|06|02|Estudo_0602|F|8|8|aulas|videoconferências|auto-ajudas|atividades|palestras|conferências|teorias|consultorias|
+|06|03|Estudo_0603|T|29|19|genéricas|esporádicas|indistintas|, à distância,|via Nuvem|ocasionais|, sem compromisso,|breves|imaginárias|remotas|simbólicas|corriqueiras|vagas|ímpares|incidentais|, em farsas,|de próprio punho|herméticas|intermitentes|amenas|precisas|, mesmo ausente,|extracurriculares|acadêmicas|pré-gravadas|coesas|, aos berros,|iluminadas|mediúnicas|
+|07|01|Estudo_0701|F|11|11|sobre|observando|seguindo|concordantes com|rebatendo|colocando em dúvida|contestando|questionando|que corroborem|segundo|brincando com|
+|07|02|Estudo_0702|T|37|31|a imensidão|os rumos|a equidade|a vastidão|a procedência|o propósito|as probabilidades|a pertinência|a contradição|as origens|o fim|a insignificância|a brevidade|a precisão|a ótica|a solidão|o futuro|a amplidão|a recorrência|o estilo|as raízes|o porquê|o cunho|o senso|a inexorabilidade|a precedência|a incerteza|a imprecisão|a veracidade|o sentido|a insensatez|o absurdo|a ética|a validade|a ilusão|o princípio|a significância|
+|07|03|Estudo_0703|F|46|9|do nada|da vida|do fim|de um outro eu|do passar tempo|da tal ordem|do acaso|dos egos|dos "sem mestre"|da partícula|dos inexistentes|de algo vago|do futuro|dos anões de jardim|do destino|do erro|do vento leste|do moderno|do cosmos|do voo das borboletas|dos malditos|do porvir|das flores de maio|dos desbussolados|do existir em si mesmo|dos bichos de pelúcia|disso tudo|da "Lei-de-Gérson"|do partir|da solidão|dos passados|dos "sem tato"|de cada mundo|do soar certo|da desordem|do pôr-do-sol|do prazer, por prazer|dos "sem relógio"|de outro viver|do tédio|de algo gigante|do que alguém já disse|do "eu" profundo|de cada vazio|do ser vil|dos bandidos|
+|07|04|Estudo_0704|F|1|1|.|
 <EOF>
 CATAPALA = 19
 VERBETES = 268

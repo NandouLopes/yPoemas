@@ -22,66 +22,66 @@
 *-
 |01|01|Fatos_0101|F|1|1|Sobre a|
 |01|02|Fatos_0102|F|1|1|"|
-|01|03|Fatos_0103|F|18|15|Misteriosa|Hipotética|Mística|Psicodélica|Excêntrica|Simbólica|Fatídica|Apoteótica|Arcaica|Satânica|Futurística|Mitológica|Histórica|Exótica|Idílica|Labiríntica|Apocalíptica|Hipnótica|
+|01|03|Fatos_0103|F|18|13|Misteriosa|Hipotética|Mística|Psicodélica|Excêntrica|Simbólica|Fatídica|Apoteótica|Arcaica|Satânica|Futurística|Mitológica|Histórica|Exótica|Idílica|Labiríntica|Apocalíptica|Hipnótica|
 |01|04|Fatos_0104|F|1|1|Máquina|
 |01|05|Fatos_0105|F|1|1|"|
 |01|06|Fatos_0106|F|1|1|de fazer Poesia:|
-|05|00|
+|04|00|
 |05|01|Fatos_0501|F|1|1|A cidade é < pCity >, e lá existe|
-|06|01|Fatos_0601|F|6|5|um pequeno|um velho|um pacato|um milenar|um remoto|um rústico|
-|06|02|Fatos_0602|F|9|1|templo|gueto|museu|vilarejo|mosteiro|povoado|convento|bairro|santuário|
-|06|03|Fatos_0603|T|15|11|pagão|budista|cristão|tibetano|brâmane|ortodoxo|ateísta|laico|muçulmano|celta|curdo|bizantino|hebreu|sunita|panteísta|
+|06|01|Fatos_0601|F|6|3|um pequeno|um velho|um pacato|um milenar|um remoto|um rústico|
+|06|02|Fatos_0602|F|9|8|templo|gueto|museu|vilarejo|mosteiro|povoado|convento|bairro|santuário|
+|06|03|Fatos_0603|T|15|7|pagão|budista|cristão|tibetano|brâmane|ortodoxo|ateísta|laico|muçulmano|celta|curdo|bizantino|hebreu|sunita|panteísta|
 |07|01|Fatos_0701|F|1|1|onde|
-|07|02|Fatos_0702|F|6|5|um rascunho|um desenho|o que resta|um pergaminho|um esboço|o projeto|
-|07|03|Fatos_0703|F|12|12|da famosa|da desconhecida|da secreta|da obscura|da mágica|da cobiçada|da referida|da engenhosa|da refinada|da fictícia|da improvável|da inaudita|
+|07|02|Fatos_0702|F|6|3|um rascunho|um desenho|o que resta|um pergaminho|um esboço|o projeto|
+|07|03|Fatos_0703|F|12|10|da famosa|da desconhecida|da secreta|da obscura|da mágica|da cobiçada|da referida|da engenhosa|da refinada|da fictícia|da improvável|da inaudita|
 |07|04|Fatos_0704|F|1|1|"Machina"|
-|08|01|Fatos_0801|F|11|2|foi visto pela primeira vez.|foi encontrado no início do século.|foi visto pela última vez.|fica guardado a sete chaves.|repousa longe dos olhares curiosos.|fica exposto ao tempo e traças.|é tido como sagrado.|parece ter ganhado vida.|fica a salvo dos turistas.|é mantido em segredo.|virou mero souvenir.|
-|10|00|
+|08|01|Fatos_0801|F|11|5|foi visto pela primeira vez.|foi encontrado no início do século.|foi visto pela última vez.|fica guardado a sete chaves.|repousa longe dos olhares curiosos.|fica exposto ao tempo e traças.|é tido como sagrado.|parece ter ganhado vida.|fica a salvo dos turistas.|é mantido em segredo.|virou mero souvenir.|
+|09|00|
 |10|01|Fatos_1001|F|1|1|Segundo o|
-|10|02|Fatos_1002|F|8|3|renomado|ilustre|célebre|reconhecido|famigerado|grande mestre|conceituado|olvidado|
-|10|03|Fatos_1003|F|12|1|historiador|paleontólogo|linguista|pesquisador|antropólogo|ensaísta|hermeneuta|ocultista|gramatólogo|erudito|sambista|iconologista|
-|10|04|Fatos_1004|T|15|9|turco|cipriota|belga|nigeriano|canadense|hondurenho|paraguaio|nepalense|sunita|afro-americano|egípcio|malaio|costa-riquenho|argentino|tupi-guarani|
+|10|02|Fatos_1002|F|8|1|renomado|ilustre|célebre|reconhecido|famigerado|grande mestre|conceituado|olvidado|
+|10|03|Fatos_1003|F|12|11|historiador|paleontólogo|linguista|pesquisador|antropólogo|ensaísta|hermeneuta|ocultista|gramatólogo|erudito|sambista|iconologista|
+|10|04|Fatos_1004|T|15|3|turco|cipriota|belga|nigeriano|canadense|hondurenho|paraguaio|nepalense|sunita|afro-americano|egípcio|malaio|costa-riquenho|argentino|tupi-guarani|
 |10|05|Fatos_1005|F|1|1|,|
 |11|01|Fatos_1101|F|1|1|Dr.|
-|11|02|Fatos_1102|F|16|4|Abraham|Neovais|Advindo|Virgulin|Arturo|Hermés|Klauss|Bastyan|Ananiz|Icaro|Mathaeus|Libero|Theobardus|Oblitério|Darmihão|Homenino|
-|11|03|Fatos_1103|T|17|17|Woister|Deuxsanstrois|Papadapolis|Miradelante|Sansrêves|Erradióz|Delavenir|Daascostem|Audelá|Menterwords|Al-a-Tzar|Lointain|de Caravaga|von Absconso|Pasdepassée|Miseancienne|Centenebres|
+|11|02|Fatos_1102|F|16|10|Abraham|Neovais|Advindo|Virgulin|Arturo|Hermés|Klauss|Bastyan|Ananiz|Icaro|Mathaeus|Libero|Theobardus|Oblitério|Darmihão|Homenino|
+|11|03|Fatos_1103|T|17|11|Woister|Deuxsanstrois|Papadapolis|Miradelante|Sansrêves|Erradióz|Delavenir|Daascostem|Audelá|Menterwords|Al-a-Tzar|Lointain|de Caravaga|von Absconso|Pasdepassée|Miseancienne|Centenebres|
 |11|04|Fatos_1104|F|1|1|,|
-|12|01|Fatos_1201|F|6|6|a ideia|a atualidade|a retórica|a argúcia|a contemporaneidade|a astúcia|
+|12|01|Fatos_1201|F|6|4|a ideia|a atualidade|a retórica|a argúcia|a contemporaneidade|a astúcia|
 |12|02|Fatos_1202|F|1|1|,|
-|12|03|Fatos_1203|F|8|5|original|inconfundível|vigente|inegável|indiscutível|latente|ímpar|inenarrável|
+|12|03|Fatos_1203|F|8|3|original|inconfundível|vigente|inegável|indiscutível|latente|ímpar|inenarrável|
 |12|04|Fatos_1204|F|1|1|,|
-|12|05|Fatos_1205|F|3|2|aparentemente|claramente|obviamente|
-|12|06|Fatos_1206|F|9|9|farsa|inexequível|fantasiosa|simples|absurda|dúbia|implausível|genial|inútil|
+|12|05|Fatos_1205|F|3|3|aparentemente|claramente|obviamente|
+|12|06|Fatos_1206|F|9|7|farsa|inexequível|fantasiosa|simples|absurda|dúbia|implausível|genial|inútil|
 |12|07|Fatos_1207|F|1|1|,|
-|13|02|Fatos_1302|F|5|4|pertence a|tem traços de|remete a|credita-se a|é obra de|
-|13|03|Fatos_1303|F|8|3|Leonardo da Vinci|Giambattista Vico|Michel de Nostredame|Johannes Gutenberg|Galileo Galilei|Dante Alighieri|Stephane Mallarmé|Aldus Manutius|
+|13|02|Fatos_1302|F|5|5|pertence a|tem traços de|remete a|credita-se a|é obra de|
+|13|03|Fatos_1303|F|8|1|Leonardo da Vinci|Giambattista Vico|Michel de Nostredame|Johannes Gutenberg|Galileo Galilei|Dante Alighieri|Stephane Mallarmé|Aldus Manutius|
 |13|04|Fatos_1304|F|1|1|.|
-|20|00|
-|20|01|Fatos_2001|F|4|3|Na única parte legível do|Do pouco que sobrou desse|No trecho preservado de tão|Nas entrelinhas do|
-|20|02|Fatos_2002|F|11|5|histórico|lendário|incrível|inusitado|raro|atávico|tosco|fantástico|antigo|atípico|incógnito|
-|20|03|Fatos_2003|F|5|5|documento|modelo|achado|registro|oráculo|
-|21|01|Fatos_2101|F|3|2|( embora haja indícios de que|( ainda que, segundo os estudiosos,|( em que pese... reles suspeita...|
+|19|00|
+|20|01|Fatos_2001|F|4|1|Na única parte legível do|Do pouco que sobrou desse|No trecho preservado de tão|Nas entrelinhas do|
+|20|02|Fatos_2002|F|11|8|histórico|lendário|incrível|inusitado|raro|atávico|tosco|fantástico|antigo|atípico|incógnito|
+|20|03|Fatos_2003|F|5|1|documento|modelo|achado|registro|oráculo|
+|21|01|Fatos_2101|F|3|3|( embora haja indícios de que|( ainda que, segundo os estudiosos,|( em que pese... reles suspeita...|
 |22|01|Fatos_2201|F|1|1|tenha sido|
-|22|02|Fatos_2202|F|6|1|totalmente|ligeiramente|erroneamente|estupidamente|radicalmente|levianamente|
-|22|03|Fatos_2203|F|9|5|aperfeiçoado|remodelado|melhorado|falsificado|redesenhado|alterado|corrompido|reescrito|plagiado|
+|22|02|Fatos_2202|F|6|5|totalmente|ligeiramente|erroneamente|estupidamente|radicalmente|levianamente|
+|22|03|Fatos_2203|F|9|3|aperfeiçoado|remodelado|melhorado|falsificado|redesenhado|alterado|corrompido|reescrito|plagiado|
 |23|01|Fatos_2301|F|1|1|por um|
-|23|02|Fatos_2302|F|11|2|sobrinho|neto|tio|avô|primo|bisneto|cunhado|amigo|parente|discípulo|irmão|
-|23|03|Fatos_2303|F|12|7|autista|equidistante|visionário|estrábico|meticuloso|distante|incauto|desastrado|hermafrodita|profano|ambidestro|inconsequente|
+|23|02|Fatos_2302|F|11|5|sobrinho|neto|tio|avô|primo|bisneto|cunhado|amigo|parente|discípulo|irmão|
+|23|03|Fatos_2303|F|12|5|autista|equidistante|visionário|estrábico|meticuloso|distante|incauto|desastrado|hermafrodita|profano|ambidestro|inconsequente|
 |23|04|Fatos_2304|F|1|1|de|
-|23|05|Fatos_2305|F|18|1|Thomas Edison|Isaac Newton|Guimarães Rosa|Albert Einstein|Konrad Von Gesner|Henry Mill|James Joyce|Salvador Dali|Antoni Gaudí|Sigmund Freud|Augusto dos Anjos|Maria Callas|Franz Kafka|Miguel de Cervantes|Cruz e Souza|Jaques Lacan|Sousândrade|Eric Satie|
+|23|05|Fatos_2305|F|18|17|Thomas Edison|Isaac Newton|Guimarães Rosa|Albert Einstein|Konrad Von Gesner|Henry Mill|James Joyce|Salvador Dali|Antoni Gaudí|Sigmund Freud|Augusto dos Anjos|Maria Callas|Franz Kafka|Miguel de Cervantes|Cruz e Souza|Jaques Lacan|Sousândrade|Eric Satie|
 |23|06|Fatos_2306|F|1|1|)|
 |24|01|Fatos_2401|F|1|1|leem-se referências a uma suposta entidade futura,|
 |25|01|Fatos_2501|F|1|1|siglada A.B.N.P.,|
-|25|02|Fatos_2502|F|3|2|que teria por fim|cuja meta seria|que viria para|
-|25|03|Fatos_2503|F|8|8|regulamentar|moldar|aperfeiçoar|multiplicar|implementar|regrar|moderar|propagar|
+|25|02|Fatos_2502|F|3|3|que teria por fim|cuja meta seria|que viria para|
+|25|03|Fatos_2503|F|8|6|regulamentar|moldar|aperfeiçoar|multiplicar|implementar|regrar|moderar|propagar|
 |30|01|Fatos_3001|F|1|1|a produção poética|
-|30|02|Fatos_3002|F|3|2|oriunda|proveniente|vindoura|
-|30|03|Fatos_0703|T|11|3|da famosa|da desconhecida|da secreta|da obscura|da mágica|da cobiçada|da referida|da engenhosa|da refinada|da fictícia|da improvável|
+|30|02|Fatos_3002|F|3|3|oriunda|proveniente|vindoura|
+|30|03|Fatos_0703|T|11|4|da famosa|da desconhecida|da secreta|da obscura|da mágica|da cobiçada|da referida|da engenhosa|da refinada|da fictícia|da improvável|
 |30|04|Fatos_3004|F|1|1|"Machina".|
 |31|00|
-|31|01|Fatos_3101|F|1|1|Este Livro-Vivo|
-|31|02|Fatos_3102|F|7|2|segue fielmente|corrobora|tenta imitar|reproduz ao pé-da-letra|retrata rusticamente|apenas repete|objetiva explicar|
-|31|03|Fatos_3103|F|6|1|o que lá está escrito.|os algoritmos lá listados.|os passos lá descritos.|o que lá foi explicado.|os segredos lá revelados.|as descobertas de tal achado.|
+|32|01|Fatos_3201|F|1|1|Este Livro-Vivo|
+|32|02|Fatos_3202|F|7|5|segue fielmente|corrobora|tenta imitar|reproduz ao pé-da-letra|retrata rusticamente|apenas repete|objetiva explicar|
+|32|03|Fatos_3203|F|6|5|o que lá está escrito.|os algoritmos lá listados.|os passos lá descritos.|o que lá foi explicado.|os segredos lá revelados.|as descobertas de tal achado.|
 <EOF>
 CATAPALA = 103
 VERBETES = 415

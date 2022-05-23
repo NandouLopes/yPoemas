@@ -1,24 +1,24 @@
 *-
 *- Aquarius=f.Zod
 *-
-|01|01|Aquarius=f_0101|F|2|2|Um|O|
+|01|01|Aquarius=f_0101|F|2|1|Um|O|
 |01|02|Aquarius=f_0102|F|3|2|jeito|modo|estilo|
-|01|03|Aquarius=f_0103|F|11|3|amigo|sincero|inteligente|rebelde|autêntico|original|aberto|solícito|comunicativo|fraterno|inusitado|
+|01|03|Aquarius=f_0103|F|11|7|amigo|sincero|inteligente|rebelde|autêntico|original|aberto|solícito|comunicativo|fraterno|inusitado|
 |01|04|Aquarius=f_0104|F|1|1|de ser|
 |01|05|Aquarius=f_0105|F|1|1|,|
-|02|01|Aquarius=f_0201|F|2|2|a|uma|
+|02|01|Aquarius=f_0201|F|2|1|a|uma|
 |02|02|Aquarius=f_0202|F|3|2|natureza|maneira|personalidade|
-|02|03|Aquarius=f_0203|F|11|7|leal|criativa|perspicaz|alegre|ilimitada|idealista|pacífica|independente|paciente|agradável|cativante|
+|02|03|Aquarius=f_0203|F|11|11|leal|criativa|perspicaz|alegre|ilimitada|idealista|pacífica|independente|paciente|agradável|cativante|
 |02|04|Aquarius=f_0204|F|1|1|,|
-|03|01|Aquarius=f_0301|F|11|6|a mente sempre à frente|as histórias pra contar|a genialidade nata|a busca do conhecimento|a afinidade de ideias|a intuição acentuada|a capacidade crítica|as ideias modernas|a bondade nas atitudes|a agilidade mental|as ideias avançadas|
+|03|01|Aquarius=f_0301|F|11|10|a mente sempre à frente|as histórias pra contar|a genialidade nata|a busca do conhecimento|a afinidade de ideias|a intuição acentuada|a capacidade crítica|as ideias modernas|a bondade nas atitudes|a agilidade mental|as ideias avançadas|
 |04|01|Aquarius=f_0401|F|1|1|e|
 |04|02|Aquarius=f_0402|F|9|8|o companheirismo pontual|o amor pelos debates|o respeito aos excluídos|o filosofar sobre a vida|o espírito humanitário|os dons artísticos|o respeito à humanidade|o ar quase futurista|o desprezo pelo preconceito|
-|05|01|Aquarius=f_0501|F|2|2|fazem de você|tornam você|
-|06|01|Aquarius=f_0601|F|5|5|aquela que tem fé na igualdade,|aquela pessoa fora do comum|aquela que une pessoas distintas,|aquela que reparte o carisma,|a pessoa cordial|
+|05|01|Aquarius=f_0501|F|2|1|fazem de você|tornam você|
+|06|01|Aquarius=f_0601|F|5|3|aquela que tem fé na igualdade,|aquela pessoa fora do comum|aquela que une pessoas distintas,|aquela que reparte o carisma,|a pessoa cordial|
 |07|01|Aquarius=f_0701|F|1|1|capaz de|
-|07|02|Aquarius=f_0702|F|5|2|impactar|surpreender|atrair|cativar|perseverar|
+|07|02|Aquarius=f_0702|F|5|5|impactar|surpreender|atrair|cativar|perseverar|
 |08|01|Aquarius=f_0801|F|1|1|e|
-|08|02|Aquarius=f_0802|F|5|3|aproximar os amigos.|ser um prêmio para os amigos.|ser querida por todo mundo.|dar espaço ao bom humor.|distribuir energia.|
+|08|02|Aquarius=f_0802|F|5|1|aproximar os amigos.|ser um prêmio para os amigos.|ser querida por todo mundo.|dar espaço ao bom humor.|distribuir energia.|
 <EOF>
 CATAPALA = 32
 VERBETES = 116

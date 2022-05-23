@@ -11,18 +11,18 @@
 *- Senha = marca ou indicação para dar a entender uma coisa ou se chegar ao conhecimento dela; sinal, indício
 *- Senão = pequena imperfeição; falha, defeito, mácula
 *-
-|01|01|Isso_0101|T|63|46|Saboreio|Saboto|Saliento|Suborno|Supero|Surrupio|Suscito|Suspendo|Sustento|Suturo|Suponho|Suprimo|Supro|Surfo|Subtraio|Subverto|Sucateio|Sucumbo sem|Sugiro|Sugo|Semeio|Seduzo|Silvo|Sirvo|Situo|Simulo|Sequestro|Solapo|Soletro|Saturo|Saúdo|Serro|Sesteio|Sibilo|Soterro|Sovo|Suavizo|Sulco|Salivo|Saqueio|Selo|Saro|Sarto|Saldo|Solvo|Sorteio|Sorvo|Somo|Sondo|Sôo|Salgo|Sacio|Salvo|Singro|Sano|Salpico|Sacudo|Sagro|Sonho|Sinalizo|Sobrevôo|Sopro|Substituo|
-|02|01|Isso_0201|F|56|3|saberes|sabores|segredos|segundos|seios|sonetos|superegos|sorrisos|sotaques|suspenses|sinais|sentidos|sermões|sambas|souvenirs|submundos|sumiços|surtos|suspiros|séculos|sinos|sins|signos|sumos|solos|saltos|sátiras|siglas|saudades|sinfonias|sílabas|sobras|sinucas|surdinas|solidão|saídas|sandices|silabas|sinas|serenatas|sagas|sereias|sequelas|safras|seitas|senhas|sentenças|sucatas|sedas|sendas|sentinelas|silêncios|sustos|sigilos|sussurros|sujeitos|
+|01|01|Isso_0101|T|63|36|Saboreio|Saboto|Saliento|Suborno|Supero|Surrupio|Suscito|Suspendo|Sustento|Suturo|Suponho|Suprimo|Supro|Surfo|Subtraio|Subverto|Sucateio|Sucumbo sem|Sugiro|Sugo|Semeio|Seduzo|Silvo|Sirvo|Situo|Simulo|Sequestro|Solapo|Soletro|Saturo|Saúdo|Serro|Sesteio|Sibilo|Soterro|Sovo|Suavizo|Sulco|Salivo|Saqueio|Selo|Saro|Sarto|Saldo|Solvo|Sorteio|Sorvo|Somo|Sondo|Sôo|Salgo|Sacio|Salvo|Singro|Sano|Salpico|Sacudo|Sagro|Sonho|Sinalizo|Sobrevôo|Sopro|Substituo|
+|02|01|Isso_0201|F|56|20|saberes|sabores|segredos|segundos|seios|sonetos|superegos|sorrisos|sotaques|suspenses|sinais|sentidos|sermões|sambas|souvenirs|submundos|sumiços|surtos|suspiros|séculos|sinos|sins|signos|sumos|solos|saltos|sátiras|siglas|saudades|sinfonias|sílabas|sobras|sinucas|surdinas|solidão|saídas|sandices|silabas|sinas|serenatas|sagas|sereias|sequelas|safras|seitas|senhas|sentenças|sucatas|sedas|sendas|sentinelas|silêncios|sustos|sigilos|sussurros|sujeitos|
 |02|02|Isso_0202|F|1|1|e|
-|02|03|Isso_0201|T|56|47|saberes|sabores|segredos|segundos|seios|sonetos|superegos|sorrisos|sotaques|suspenses|sinais|sentidos|sermões|sambas|souvenirs|submundos|sumiços|surtos|suspiros|séculos|sinos|sins|signos|sumos|solos|saltos|sátiras|siglas|saudades|sinfonias|sílabas|sobras|sinucas|surdinas|solidão|saídas|sandices|silabas|sinas|serenatas|sagas|sereias|sequelas|safras|seitas|senhas|sentenças|sucatas|sedas|sendas|sentinelas|silêncios|sustos|sigilos|sussurros|sujeitos|
+|02|03|Isso_0201|T|56|26|saberes|sabores|segredos|segundos|seios|sonetos|superegos|sorrisos|sotaques|suspenses|sinais|sentidos|sermões|sambas|souvenirs|submundos|sumiços|surtos|suspiros|séculos|sinos|sins|signos|sumos|solos|saltos|sátiras|siglas|saudades|sinfonias|sílabas|sobras|sinucas|surdinas|solidão|saídas|sandices|silabas|sinas|serenatas|sagas|sereias|sequelas|safras|seitas|senhas|sentenças|sucatas|sedas|sendas|sentinelas|silêncios|sustos|sigilos|sussurros|sujeitos|
 |02|04|Isso_0204|F|1|1|,|
-|03|01|Isso_0301|T|39|39|sabida|sábia|solícita|senhora|soberana|sóbria|sensata|soberba|súdita|sucinta|solidária|sólida|solta|santa|subjetiva|submissa|sintética|sonora|sozinha|secreta|sincera|singela|suprema|séria|safada|serva|saciada|sacra|sarada|sã|segura|sofrida|sicrana|sedenta|satisfeita|solta|sucinta|serena|só sua|
+|03|01|Isso_0301|T|39|33|sabida|sábia|solícita|senhora|soberana|sóbria|sensata|soberba|súdita|sucinta|solidária|sólida|solta|santa|subjetiva|submissa|sintética|sonora|sozinha|secreta|sincera|singela|suprema|séria|safada|serva|saciada|sacra|sarada|sã|segura|sofrida|sicrana|sedenta|satisfeita|solta|sucinta|serena|só sua|
 |03|02|Isso_0302|F|1|1|...|
 |04|00|
-|04|01|Isso_0401|F|12|11|Sei ser|Surpreendo|Sei-me|Sou|Soube ser|Sigo sendo|Sou sim...|Saio sendo|Serei|Significo|Sobro|Sobrevivo|
-|04|02|Isso_0402|F|8|4|sobretudo|suave...|sempre|somente|, sem senão,|simples...|singular:|simplesmente|
-|04|03|Isso_0403|F|16|9|sã simbiose|sua senha|símbolo|seiva|sossego|sanha|semente|sonho seu|sutil|sua sede|sentinela|sintonia|sopro|silente|sem sombras|sem similar|
-|04|04|Isso_0404|F|1|1|.|
+|05|01|Isso_0501|F|12|8|Sei ser|Surpreendo|Sei-me|Sou|Soube ser|Sigo sendo|Sou sim...|Saio sendo|Serei|Significo|Sobro|Sobrevivo|
+|05|02|Isso_0502|F|8|5|sobretudo|suave...|sempre|somente|, sem senão,|simples...|singular:|simplesmente|
+|05|03|Isso_0503|F|16|2|sã simbiose|sua senha|símbolo|seiva|sossego|sanha|semente|sonho seu|sutil|sua sede|sentinela|sintonia|sopro|silente|sem sombras|sem similar|
+|05|04|Isso_0504|F|1|1|.|
 <EOF>
 CATAPALA = 8
 VERBETES = 215

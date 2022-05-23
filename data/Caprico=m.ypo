@@ -1,36 +1,35 @@
 *-
 *- Caprico=m.ypo
 *-
-*-
 *- Capricórnio: de 22 de Dezembro a 20 de Janeiro
 *-
 |01|01|Caprico=m_0101|F|1|1|Você tem|
-|01|02|Caprico=m_0102|F|7|3|iniciativa|determinação|liderança|dons artísticos|um estilo moderno|tato|diplomacia|
+|01|02|Caprico=m_0102|F|7|6|iniciativa|determinação|liderança|dons artísticos|um estilo moderno|tato|diplomacia|
 |01|03|Caprico=m_0103|F|1|1|,|
 |02|01|Caprico=m_0201|F|2|2|uma disposição a ser|a ambição de ser|
-|02|02|Caprico=m_0202|F|9|1|perseverante|prático|esforçado|companheiro|modesto|tranqüilo|persistente|corajoso|objetivo|
+|02|02|Caprico=m_0202|F|9|6|perseverante|prático|esforçado|companheiro|modesto|tranqüilo|persistente|corajoso|objetivo|
 |03|01|Caprico=m_0301|F|2|2|e está sempre|e vive|
 |03|02|Caprico=m_0302|F|2|2|rodeado de|cercado de|
-|03|03|Caprico=m_0303|F|3|3|amigos|família|valores|
+|03|03|Caprico=m_0303|F|3|2|amigos|família|valores|
 |03|04|Caprico=m_0304|F|2|2|que lhe ajudam no caminho.|que tornam a vida mais fácil.|
 |04|00|
-|04|01|Caprico=m_0401|F|1|1|É|
-|04|02|Caprico=m_0402|F|11|11|exigente|reservado|perseverante|prático|esforçado|companheiro|modesto|tranqüilo|persistente|corajoso|objetivo|
-|04|03|Caprico=m_0403|F|1|1|e|
-|04|04|Caprico=m_0404|F|3|1|sente-se atraído por|percebe as|valoriza as|
-|04|05|Caprico=m_0405|F|1|1|pessoas|
-|04|06|Caprico=m_0406|F|6|3|sensíveis|intuitivas|carinhosas|conscientes|maduras|seguras|
-|04|07|Caprico=m_0407|F|1|1|.|
-|05|00|
-|05|01|Caprico=m_0501|F|1|1|Sempre com|
-|05|02|Caprico=m_0502|F|6|5|novos projetos|iniciativa|diplomacia|bons conselhos|determinação|liderança|
-|05|03|Caprico=m_0503|F|1|1|,|
-|06|01|Caprico=m_0601|F|1|1|traz|
-|06|02|Caprico=m_0602|F|4|3|energia|ânimo|entusiasmo|inspiração|
-|06|03|Caprico=m_0603|F|1|1|para os amigos|
-|07|01|Caprico=m_0701|F|2|2|sem nunca esquecer|sem nunca desistir|
-|07|02|Caprico=m_0702|F|16|15|de reavivar seu lado criança|de inspirar confiança|de comunicar sua inteligência|de deixar a vida fluir|da seriedade em seus compromissos|das metas a serem alcançadas|da busca por resultados práticos|de construir algo duradouro|de comunicar seu despojamento|do valor da disciplina|do tempo próprio de cada coisa|de dar conta das dificuldades|de buscar o crescimento|de construir algo sólido|de conquistar seus objetivos|de amadurecer o seu prestígio|
-|07|03|Caprico=m_0703|F|1|1|.|
+|05|01|Caprico=m_0501|F|1|1|É|
+|05|02|Caprico=m_0502|F|11|11|exigente|reservado|perseverante|prático|esforçado|companheiro|modesto|tranqüilo|persistente|corajoso|objetivo|
+|05|03|Caprico=m_0503|F|1|1|e|
+|05|04|Caprico=m_0504|F|3|3|sente-se atraído por|percebe as|valoriza as|
+|05|05|Caprico=m_0505|F|1|1|pessoas|
+|05|06|Caprico=m_0506|F|6|5|sensíveis|intuitivas|carinhosas|conscientes|maduras|seguras|
+|05|07|Caprico=m_0507|F|1|1|.|
+|06|00|
+|07|01|Caprico=m_0701|F|1|1|Sempre com|
+|07|02|Caprico=m_0702|F|6|4|novos projetos|iniciativa|diplomacia|bons conselhos|determinação|liderança|
+|07|03|Caprico=m_0703|F|1|1|,|
+|08|01|Caprico=m_0801|F|1|1|traz|
+|08|02|Caprico=m_0802|F|4|1|energia|ânimo|entusiasmo|inspiração|
+|08|03|Caprico=m_0803|F|1|1|para os amigos|
+|09|01|Caprico=m_0901|F|2|2|sem nunca esquecer|sem nunca desistir|
+|09|02|Caprico=m_0902|F|16|15|de reavivar seu lado criança|de inspirar confiança|de comunicar sua inteligência|de deixar a vida fluir|da seriedade em seus compromissos|das metas a serem alcançadas|da busca por resultados práticos|de construir algo duradouro|de comunicar seu despojamento|do valor da disciplina|do tempo próprio de cada coisa|de dar conta das dificuldades|de buscar o crescimento|de construir algo sólido|de conquistar seus objetivos|de amadurecer o seu prestígio|
+|09|03|Caprico=m_0903|F|1|1|.|
 <EOF>
 VERBETES = 115
 PALAVRAS = 175

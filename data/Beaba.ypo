@@ -1,28 +1,26 @@
 *-
 *- Beaba.ypo
 *-
-*-
 *- reverter|discursos|conceitos|sustentar|assuntos|
 *-
-*- <fnt>DroidSansMono
 |01|01|Beaba_0101|F|1|1|1 - |
-|01|02|Beaba_0102|F|7|4|Inventar|Pesquisar|Estudar|Engendrar|Gerar|Escolher|Eleger|
+|01|02|Beaba_0102|F|7|2|Inventar|Pesquisar|Estudar|Engendrar|Gerar|Escolher|Eleger|
 |01|03|Beaba_0103|F|1|1|um Tema.|
 |02|01|Beaba_0201|F|1|1|2 - |
-|02|02|Beaba_0102|T|7|5|Inventar|Pesquisar|Estudar|Engendrar|Gerar|Escolher|Eleger|
+|02|02|Beaba_0102|T|7|7|Inventar|Pesquisar|Estudar|Engendrar|Gerar|Escolher|Eleger|
 |02|03|Beaba_0203|F|6|4|visões|poesias|mensagens|instruções|polêmicas|palavras|
 |02|04|Beaba_0204|F|3|3|e distribuí-las em|e embaralhá-las em|e misturá-las em|
 |03|01|Beaba_0301|F|1|1|3 - |
 |03|02|Beaba_0302|F|1|1|Linhas|
-|03|03|Beaba_0303|F|7|2|de pensamento|de raciocínio|de ação|teóricas|de conduta|cruzadas|imaginárias|
+|03|03|Beaba_0303|F|7|7|de pensamento|de raciocínio|de ação|teóricas|de conduta|cruzadas|imaginárias|
 |04|01|Beaba_0401|F|1|1|4 - |
 |04|02|Beaba_0402|F|2|2|Recheadas de|Ancoradas por|
 |04|03|Beaba_0403|F|2|2|ideias|entrelinhas|
-|04|04|Beaba_0404|T|9|5|diferentes|conflitantes|concorrentes|concordantes|inovadoras|concludentes|geniais|provocantes|recorrentes|
+|04|04|Beaba_0404|T|9|9|diferentes|conflitantes|concorrentes|concordantes|inovadoras|concludentes|geniais|provocantes|recorrentes|
 |05|01|Beaba_0501|F|1|1|5 - |
 |05|02|Beaba_0502|F|4|2|Que contribuam para|Que levem a|Capazes de|Que possam|
 |05|03|Beaba_0503|F|9|4|duvidar do|melhorar o|discutir o|ampliar o|questionar o|explorar o|repensar o|sobrepor-se ao|acrescentar algo ao|
-|05|04|Beaba_0504|F|7|2|mesmo|tema|dia-a-dia|conhecido|acaso|normal|próprio|
+|05|04|Beaba_0504|F|7|7|mesmo|tema|dia-a-dia|conhecido|acaso|normal|próprio|
 |05|05|Beaba_0505|F|1|1|.|
 <EOF>
 CATAPALA = 26

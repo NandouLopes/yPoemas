@@ -14,28 +14,28 @@
 *-
 |01|01|Essa_0101|F|2|1|Das palavras que|Dentre as palavras que|
 |01|02|Essa_0102|F|1|1|mais|
-|01|03|Essa_0103|F|13|3|gosto|venero|são sonoras|usamos|acalanto|adoro|prezamos|admiro|falam por si|ostento|amamos|estimo|gostamos|
+|01|03|Essa_0103|F|13|5|gosto|venero|são sonoras|usamos|acalanto|adoro|prezamos|admiro|falam por si|ostento|amamos|estimo|gostamos|
 |01|04|Essa_0104|F|1|1|,|
 |02|01|Essa_0201|F|1|1|( |
-|02|02|Essa_0202|F|18|10|abóbada|compasso|desmaio|porcelana|aurora|carapaça|albatroz|descalvado|alavanca|mariposa|curare|alfazema|barricada|castiçal|tálamo|catarata|acordes|papoula|
+|02|02|Essa_0202|F|18|4|abóbada|compasso|desmaio|porcelana|aurora|carapaça|albatroz|descalvado|alavanca|mariposa|curare|alfazema|barricada|castiçal|tálamo|catarata|acordes|papoula|
 |02|03|Essa_0203|F|1|1|,|
 |02|04|Essa_0204|F|24|13|escaravelho|parafuso|marionete|pelicano|silhueta|acordeon|sanfona|escafandro|maltrapilho|pistom|ramalhete|minueto|placebo|ludíbrio|cardume|lampejo|paraninfo|pergaminho|catapulta|remoinho|perdiz|lacuna|vislumbre|clamor|
 |02|05|Essa_0205|F|1|1|,|
-|02|06|Essa_0206|F|15|2|calmaria|anomalia|obtusa|extravio|revelia|almotolia|minúcia|hipotenusa|dicotomia|recidiva|ergonomia|idílio|armadilha|película|ocarina|deriva|
+|02|06|Essa_0206|F|16|10|calmaria|anomalia|obtusa|extravio|revelia|almotolia|minúcia|hipotenusa|dicotomia|recidiva|ergonomia|idílio|armadilha|película|ocarina|deriva|
 |02|07|Essa_0207|F|1|1|... )|
 |03|01|Essa_0301|F|1|1|Esta, "|
-|03|02|Essa_0302|T|46|10|raiossol|maislodias|luassua|nanônimo|passocio|viasruas|humildilhado|sonhadelo|adoecéu|maisnino|milviu|raciossano|voseus|ninua|dormil|amorsão|neovais|nanomimo|peonhias|vemais|óbitunel|morriu|nanocaos|cossonhei|minsoa|cionasduas|egoando|surgideus|visemver|leroleo|expiadias|veracaso|asnocarro|corachão|remorrido|soacaso|mãocia|regrito|femeacho|fatulento|novanave|malocio|neurapia|temporiu|mesmória|obcegado|
+|03|02|Essa_0302|T|46|19|raiossol|maislodias|luassua|nanônimo|passocio|viasruas|humildilhado|sonhadelo|adoecéu|maisnino|milviu|raciossano|voseus|ninua|dormil|amorsão|neovais|nanomimo|peonhias|vemais|óbitunel|morriu|nanocaos|cossonhei|minsoa|cionasduas|egoando|surgideus|visemver|leroleo|expiadias|veracaso|asnocarro|corachão|remorrido|soacaso|mãocia|regrito|femeacho|fatulento|novanave|malocio|neurapia|temporiu|mesmória|obcegado|
 |03|03|Essa_0303|F|1|1|"|
 |03|04|Essa_0304|F|1|1|,|
-|04|01|Essa_0401|F|14|5|traz em si|escancara|desafia|faz-que-exala|alavanca|regurgita|instaura|traz consigo|alumia|quase inova|adivinha|explora|instala|soletra|
-|04|02|Essa_0402|F|7|6|o perfume de si mesma|a brevidade de tudo|o valor do que é mero|um sentimento de mundo|a calma do não-pensar|um perdão imprevisível|algo, de novo,na alma|
+|04|01|Essa_0401|F|14|9|traz em si|escancara|desafia|faz-que-exala|alavanca|regurgita|instaura|traz consigo|alumia|quase inova|adivinha|explora|instala|soletra|
+|04|02|Essa_0402|F|7|3|o perfume de si mesma|a brevidade de tudo|o valor do que é mero|um sentimento de mundo|a calma do não-pensar|um perdão imprevisível|algo, de novo,na alma|
 |04|03|Essa_0202|F|1|1|.|
 |05|00|
-|05|01|Essa_0501|F|9|7|Paira torta|Irrequieta|Vaga livre|Desacata|Mira léus|Adivinha|Balbucia-se|Incomoda|Acalanta|
-|05|02|Essa_0502|F|3|3|sem|em|... tem|
-|05|03|Essa_0503|F|13|7|plausível|visível|possível|cabível|dizível|finita|credível|tangível|legível|sabível|palpável|tecível|inaferível|
-|05|04|Essa_0504|F|10|4|geometria|simetria|revelia|maestria|rebeldia|alforria|calmaria|sintonia|nostalgia|empatia|
-|05|05|Essa_0505|F|1|1|.|
+|06|01|Essa_0601|F|9|1|Paira torta|Irrequieta|Vaga livre|Desacata|Mira léus|Adivinha|Balbucia-se|Incomoda|Acalanta|
+|06|02|Essa_0602|F|3|3|sem|em|... tem|
+|06|03|Essa_0603|F|13|9|plausível|visível|possível|cabível|dizível|finita|credível|tangível|legível|sabível|palpável|tecível|inaferível|
+|06|04|Essa_0604|F|10|9|geometria|simetria|revelia|maestria|rebeldia|alforria|calmaria|sintonia|nostalgia|empatia|
+|06|05|Essa_0605|F|1|1|.|
 <EOF>
 CATAPALA = 24
 VERBETES = 163
