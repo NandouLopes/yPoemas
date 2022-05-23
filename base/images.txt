@@ -76,7 +76,7 @@ Loremipsum : machina
 MachBeth : persona
 MachBrait : anima
 Manifesto : machina
-Manusgrite : beauty
+Manusgrite : joco
 Manusgrito : author
 Meteoro : joco
 Minuto : esoteric
