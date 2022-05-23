@@ -34,7 +34,6 @@ import time
 import random
 import base64
 import streamlit as st
-import extra_streamlit_components as stx
 
 from datetime import datetime
 from PIL import Image
