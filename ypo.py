@@ -638,7 +638,7 @@ def get_seed_tema(tema):  # extract theme title for eureka
 
 
 def write_ypoema(LOGO_TEXT, LOGO_IMAGE):  # ver save_img.py
-    if LOGO_IMAGE == "none":
+    if LOGO_IMAGE == None:
         st.markdown(
             f"""
             <div class="container">
@@ -647,7 +647,7 @@ def write_ypoema(LOGO_TEXT, LOGO_IMAGE):  # ver save_img.py
             """,
             unsafe_allow_html=True,
         )
-    elif LOGO_TEXT == "none":
+    elif LOGO_TEXT == None:
         st.markdown(
             f"""
             <div class="container">
@@ -983,7 +983,7 @@ def page_mini():
             
             update_readings(curr_tema)
             LOGO_TEXT = curr_ypoema
-            LOGO_IMAGE = "none"
+            LOGO_IMAGE = None
             
             if st.session_state.draw:
                 LOGO_IMAGE = load_arts(curr_tema)
@@ -1055,8 +1055,8 @@ def page_ypoemas():
             LOGO_TEXT = translate(LOGO_TEXT)
             
         LOGO_IMAGE = "./images/matrix/" + curr_tema.capitalize() + ".PNG"
-        write_ypoema(LOGO_TEXT, 'none')
-        write_ypoema('none', LOGO_IMAGE)
+        write_ypoema(LOGO_TEXT, None)
+        write_ypoema(None, LOGO_IMAGE)
 
     if st.session_state.vide:
         lnew = False
@@ -1097,7 +1097,7 @@ def page_ypoemas():
 
             update_readings(curr_tema)
             LOGO_TEXT = curr_ypoema
-            LOGO_IMAGE = "none"
+            LOGO_IMAGE = None
             if st.session_state.draw:
                 LOGO_IMAGE = load_arts(curr_tema)
 
@@ -1206,7 +1206,7 @@ def page_eureka():
                     eureka_expander = st.expander("", expanded=True)
                     with eureka_expander:
                         LOGO_TEXT = curr_ypoema
-                        LOGO_IMAGE = "none"
+                        LOGO_IMAGE = None
                         if st.session_state.draw:
                             LOGO_IMAGE = load_arts(seed_tema)
 
@@ -1353,7 +1353,7 @@ def page_off_machina():  # available off_machina_books
                     off_book_text = translate(off_book_text)
 
                 LOGO_TEXT = off_book_text
-                LOGO_IMAGE = "none"
+                LOGO_IMAGE = None
                 if st.session_state.draw:
                     LOGO_IMAGE = load_arts(off_book_name)
 
