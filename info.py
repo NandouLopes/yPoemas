@@ -22,15 +22,15 @@ def load_info(nome_tema):
                     qtd_itimos = pipe[7]
                     qtd_analiz = pipe[8]
                     qtd_cienti = pipe[9]
-                    result += 'Titulo: **' + tema + '**  ' + '\n'
-                    result += 'Gênero: ' + genero + '  ' + '\n'
-                    result += 'Imagem: ' + imagem + '  ' + '\n'
-                    result += 'Versos: ' + qtd_versos + '  ' + '\n'
-                    result += 'Ítimos: ' + qtd_itimos + '  ' + '\n'
-                    result += 'Verbetes no texto: ' + qtd_wordin + '  ' + '\n'
-                    result += 'Palavras do Tema: ' + qtd_lexico + '  ' + '\n'
-                    result += 'Análise Combinatória: ' + qtd_analiz + '  ' + '\n'
-                    result += 'Notação Científica: ' + qtd_cienti + '  ' + '\n'
+                    result += 'Titulo: ' + tema + '<br>'
+                    result += 'Gênero: ' + genero + '  ' + '<br>'
+                    result += 'Imagem: ' + imagem + '  ' + '<br>'
+                    result += 'Versos: ' + qtd_versos + '  ' + '<br>'
+                    result += 'Ítimos: ' + qtd_itimos + '  ' + '<br>'
+                    result += 'Verbetes no texto: ' + qtd_wordin + '  ' + '<br>'
+                    result += 'Palavras do Tema: ' + qtd_lexico + '  ' + '<br>'
+                    result += 'Análise Combinatória: ' + qtd_analiz + '  ' + '<br>'
+                    result += 'Notação Científica: ' + qtd_cienti + '  ' + '<br>'
 
         return(result)
 

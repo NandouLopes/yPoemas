@@ -647,6 +647,15 @@ def write_ypoema(LOGO_TEXT, LOGO_IMAGE):  # ver save_img.py
             """,
             unsafe_allow_html=True,
         )
+    elif LOGO_TEXT == "none":
+        st.markdown(
+            f"""
+            <div class="container">
+                <img class="logo-img" src="data:image/jpg;base64,{base64.b64encode(open(LOGO_IMAGE, "rb").read()).decode()}">
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
     else:
         st.markdown(
             f"""
@@ -917,8 +926,8 @@ def page_abouts():
         choice = abouts_list[opt_abouts].upper()
         about_expander = st.expander("", True)
         with about_expander:
-            #if 'MACHINA' in choice:
-            #    build_matrix('Fatos')
+            # if 'MACHINA' in choice:
+            #     build_matrix('Fatos')
 
             st.subheader(load_file("ABOUT_" + choice + ".md"))
 
@@ -1042,12 +1051,12 @@ def page_ypoemas():
 
         LOGO_TEXT = load_info(curr_tema)
         if st.session_state.lang != "pt":  # translate if idioma <> pt
-            LOGO_TEXT.replace('\n', '<br>')
+        #     LOGO_TEXT.replace('\n', '<br>')
             LOGO_TEXT = translate(LOGO_TEXT)
-        st.markdown(LOGO_TEXT)
             
         LOGO_IMAGE = "./images/matrix/" + curr_tema.capitalize() + ".PNG"
-        write_ypoema('', LOGO_IMAGE)
+        write_ypoema(LOGO_TEXT, 'none')
+        write_ypoema('none', LOGO_IMAGE)
 
     if st.session_state.vide:
         lnew = False
