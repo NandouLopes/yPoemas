@@ -40,7 +40,6 @@ from PIL import Image
 
 # Project Modules
 from lay_2_ypo import gera_poema
-from model import build_matrix
 from info import load_info
 
 import pytz    # Universal Time Coordinated (UTC)
