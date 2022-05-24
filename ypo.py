@@ -645,7 +645,6 @@ def write_ypoema(LOGO_TEXT, LOGO_IMAGE):  # ver save_img.py
             unsafe_allow_html=True,
         )
     else:
-        print(LOGO_IMAGE)
         st.markdown(
             f"""
             <div class="container">
@@ -915,7 +914,13 @@ def page_abouts():
         choice = abouts_list[opt_abouts].upper()
         about_expander = st.expander("", True)
         with about_expander:
-            st.subheader(load_file("ABOUT_" + choice + ".md"))
+            if choice == 'MACHINA':
+                st.subheader(load_file("ABOUT_MACHINA.md"))
+                LOGO_TEXT = load_info('Essa')
+                LOGO_IMAGE = "./images/matrix/Essa.jpg"
+                write_ypoema(LOGO_TEXT, LOGO_IMAGE)
+            else:
+                st.subheader(load_file("ABOUT_" + choice + ".md"))
 
 
 st.session_state.last_lang = st.session_state.lang
