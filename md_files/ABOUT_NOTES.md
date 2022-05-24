@@ -1,5 +1,5 @@
 notas & curiosidades sobre alguns temas  
-___  
+___
 - Cada **yPoema** foi milimetricamente programado para acontecer **al-atzar**.  
 - **Prefácil** é uma brincadeira óbvia com Prefácio.  
 - **Ocio** é a primeira pessoa do singular do verbo Ociar.  
@@ -7,7 +7,7 @@ ___
 - **Anjos**, por fidelidade à Augusto dos Anjos, são sonetos brancos.  
 - **Olhares** tem contagem silábica = 11 em todos os versos.  
 - **Oca, Oco, Becos, Conto e Cuores** são trechos de um romance-digital não escrito.  
-  
+
 - em **Manifesto**, todas as datas **"publicada em"** estão no passado.  
 - em **Oficio**, cidades e países são mutantes e as **datas** estão no futuro.  
 - em **faz_de_conto**, na página **off-machina**,  
@@ -29,13 +29,15 @@ ___
 > os temas **Lero, Aolero, Solero e Tolero** são variações do **Bolero**.  
 
 - os temas **Zodiacaos e Finalmentes** foram criados com palavras extraídas  
-  de alguns horóscopos diários de jornais.
+  de alguns horóscopos diários de jornais.  
+
+- o tema **Astros** foi criado com palavras extraídas de alguns sites de "auto-ajuda".  
 
 - No tema **Nós** o mote é o **pressuposto da superioridade** de "uns" sobre "outros".  
 > Clique em [... quem será essa pessoa que não existe?](https://thispersondoesnotexist.com/) para conhecer mais gente.  
-___  
+___
 > Você pode **selecionar** uma **palavra** ou **frase** em qualquer parte dos textos e,  
 > usando o botão direito do mouse, **buscar** no Google o significado da seleção.  
->> Pode também usar a combinação **Ctrl C** e **Ctrl V** para copiar e colar o texto.
-___  
+>> Pode também usar a combinação **Ctrl C** e **Ctrl V** para copiar e colar o texto.  
+___
 Copyright © 1983-2022 Nando Lopes - **yPoemas @ máquina de fazer Poesia**
