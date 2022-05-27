@@ -46,8 +46,8 @@
   O número varia de alguns milhões a valores quase astronômicos.  
 
 > Na página **mini** o botão '✚' mostra essas variações.  
-> Na página **yPoemas** o botão '?' mostra essas variações.  
-> Na página **eureka**  o botão '?' mostra essas variações.	 
+> Na página **yPoemas** o botão **[ ? ]** mostra essas variações.  
+> Na página **eureka**  o botão **[ ? ]** mostra essas variações.	 
 
 **[obs.]** - cerca de 12.750 verbetes únicos  
 > foram excluídos dessa contagem:  
