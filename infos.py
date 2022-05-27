@@ -1,19 +1,17 @@
 '''
-    load info sobre o tema
+    load info for nome_tema
 '''
 
 import os
 
 def load_info(nome_tema):
 
-    info = []
-    with open(os.path.join("./base/" + "info.txt"), "r", encoding="utf-8") as novo:
+    with open(os.path.join("./base/" + "info.txt"), "r", encoding="utf-8") as file:
         result = ""
-        for line in novo:
+        for line in file:
             if line.startswith('|'):
                 pipe = line.split("|")
                 if pipe[1].upper() == nome_tema.upper():
-                    tema = pipe[1]
                     genero = pipe[2]
                     imagem = pipe[3]
                     qtd_versos = pipe[4]
@@ -25,7 +23,7 @@ def load_info(nome_tema):
                     result += '<br>'
                     result += '<br>'
                     result += '<br>'
-                    result += 'Titulo: ' + tema + '<br>'
+                    result += 'Titulo: ' + nome_tema + '<br>'
                     result += 'Gênero: ' + genero + '  ' + '<br>'
                     result += 'Imagem: ' + imagem + '  ' + '<br>'
                     result += 'Versos: ' + qtd_versos + '  ' + '<br>'

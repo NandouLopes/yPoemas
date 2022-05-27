@@ -692,6 +692,7 @@ def talk(text):  # text to speech( in session_state.lang )
 
 
 def show_video(pagina):  # vídeo-tutorial da página
+    st.sidebar.info(load_file("INFO_VYDE.md"))
     video_name = os.path.join("./base/" + "video_" + pagina + ".webm")
     video_file = open(video_name, "rb")
     video_byts = video_file.read()
@@ -1010,9 +1011,10 @@ def page_eureka():
 
             info_find += ' de "' + find_what + '"'
 
-            st.session_state.eureka = 0
             if rand:
                 st.session_state.eureka = random.randrange(0, len(seed_list), 1)
+                this_seed = seed_list[st.session_state.eureka]
+                seed_tema = get_seed_tema(seed_list[st.session_state.eureka])
 
             with occurrences:
                 options = list(range(len(seed_list)))
@@ -1024,13 +1026,11 @@ def page_eureka():
                     key="opt_ocur",
                 )
 
-            if opt_ocur != st.session_state.eureka:
-                st.session_state.eureka = opt_ocur
-        
-            seed_tema = get_seed_tema(seed_list[opt_ocur])
-            this_seed = seed_list[opt_ocur]
-            analise = say_number(seed_tema)
+            st.session_state.eureka = opt_ocur
+            this_seed = seed_list[st.session_state.eureka]
+            seed_tema = get_seed_tema(seed_list[st.session_state.eureka])
             st.session_state.tema = seed_tema
+            analise = say_number(seed_tema)
 
             with aide:
                 aide = st.button("?", help=analise)
