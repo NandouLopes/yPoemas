@@ -4,8 +4,8 @@ ___
 > Um aplicativo para gerar poemas ou textos aleatóriamente.  
 
 **Visão geral**  
-> O trabalho é dividido em temas. Atualmente são 141.  
-> Com um total aproximado de 43.500 palavras **[ver obs.]**,  
+> O trabalho é dividido em temas. Atualmente são 142.  
+> Com um total aproximado de 43.800 palavras **[ver obs.]**,  
 > são criados **Bancos de Ítimos** para cada tema.  
 
 > Escolhido um tema, o aplicativo seleciona e embaralha aleatoriamente  
