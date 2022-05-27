@@ -40,7 +40,7 @@ from datetime import datetime
 
 # Project Modules
 from lay_2_ypo import gera_poema
-from info import load_info
+from infos import load_info
 
 import pytz    # Universal Time Coordinated (UTC)
 import socket  # Internet
@@ -54,17 +54,17 @@ st.set_page_config(
     initial_sidebar_state="auto",
 )
 
-try:
-    from deep_translator import GoogleTranslator
-except ImportError as ex:
-    st.warning("Google Translator não conectado. Traduções não disponíveis no momento.")
-
 def utcnow():  # Universal Time Coordinated (UTC)
     return datetime.now(tz=pytz.utc)
 
 def utcnew():  # Local Time for ovny_data.txt
     tznow = str(datetime.now().astimezone())
     return tznow[-6:]
+
+try:
+    from deep_translator import GoogleTranslator
+except ImportError as ex:
+    st.warning("Google Translator não conectado. Traduções não disponíveis no momento.")
 
 try:
     from gtts import gTTS
@@ -169,16 +169,18 @@ if "take" not in st.session_state:  #  index for selected tema in books_list
     st.session_state.take = 0
 if "mini" not in st.session_state:  #  index for selected tema in page_mini
     st.session_state.mini = 0
+if "tema" not in st.session_state:  #  selected tema for all pages
+    st.session_state.tema = 'Fatos'
     
-if "off_book" not in st.session_state:  #  index for off_books_list
+if "off_book" not in st.session_state:   #  index for off_books_list
     st.session_state.off_book = 0
-if "off_take" not in st.session_state:  #  index for selected book in off_books_list
+if "off_take" not in st.session_state:   #  index for selected book in off_books_list
     st.session_state.off_take = 0
 
-if "eureka" not in st.session_state:  #  index for random tema in page_eureka
+if "eureka" not in st.session_state:     #  index for random tema in page_eureka
     st.session_state.eureka = 0
 if "find_word" not in st.session_state:  #  palavra para buscar em eureka
-    st.session_state.find_word = "amor"
+    st.session_state.find_word = "amar"
 
 if "poly_lang" not in st.session_state:
     st.session_state.poly_lang = "ca"
@@ -329,14 +331,6 @@ def update_visy():  # count one more visitor
     visitors.close()
 
 
-def update_ovny():  # count one more ovny
-    ovny_data = utcnow().isoformat()
-    date_time = ovny_data[0:16]
-    with open(os.path.join("./temp/ovny_data.txt"), "a", encoding="utf-8") as data:
-        data.write(date_time + " " + utcnew() + "|"  + users_id + "\n")
-    data.close()
-
-
 def load_ovny():  # days, zone, full
     this_list = []
     with open(os.path.join("./temp/ovny_data.txt"), "r", encoding="utf-8") as data:
@@ -344,7 +338,35 @@ def load_ovny():  # days, zone, full
             line = line.replace('T', '|')
             line = line.replace(' ', '|')
             this_list.append(line)
+#            currrent_day = datetime.now()
+#            register_day = line[0:16]
+#            date_time_obj = datetime.datetime.strptime(register_day, '%Y-%m-%d %H:%M:%S.%f')
+#            print('Date:', date_time_obj.date())
+#            print('Time:', date_time_obj.time())
+#            print('Date-time:', date_time_obj)
+#
+#            register_day = datetime.strptime(register_day, '%Y-%m-%d').date()
+#            days_of_runs = currrent_day - register_day
+#            if days_of_runs < 11:
+#                line = line.replace('T', '|')
+#                line = line.replace(' ', '|')
+#                this_list.append(line)
+#        data.close()
+
+#    with open(os.path.join("./temp/ovny_data.txt"), "w", encoding="utf-8") as data:
+#        for line in this_list:
+#            data.write(line)
+#        data.close()
+
     return this_list
+
+
+def update_ovny():  # count one more ovny
+    ovny_data = utcnow().isoformat()
+    date_time = ovny_data[0:16]
+    with open(os.path.join("./temp/ovny_data.txt"), "a", encoding="utf-8") as data:
+        data.write(date_time + " " + utcnew() + "|"  + users_id + "\n")
+    data.close()
 
 
 def load_readings():
@@ -380,7 +402,6 @@ def update_readings(tema):
 def list_readings():
     sum_all_days = 0
     read_days = []  # days
-    tag_text = ""
     readings = load_readings()
     for line in readings:
         pipe_line = line.split("|")
@@ -389,8 +410,6 @@ def list_readings():
         sum_all_days += int(qtds)
         if qtds != "0":
             new_line = str(qtds) + " - " + name + "\n"
-            if not "=" in name:  # out esoteric
-                tag_text += name + " "
             read_days.append(new_line)
 
     read_days.sort(key=natural_keys, reverse=True)
@@ -773,158 +792,7 @@ def main():
     st.sidebar.state = True
 
 
-def page_books():  # available books
-    bb, ok = st.columns([9.3, 0.7])
-    with bb:
-        books_list = [
-            "livro vivo",
-            "poemas",
-            "jocosos",
-            "ensaios",
-            "variações",
-            "metalinguagem",
-            "todos os temas",
-            "outros autores",
-            "signos_fem",
-            "signos_mas",
-            "todos os signos",
-        ]
-
-        options = list(range(len(books_list)))
-        opt_book = st.selectbox(
-            "",
-            options,
-            index=books_list.index(st.session_state.book),
-            format_func=lambda x: books_list[x],
-            key="opt_book",
-        )
-
-        with ok:
-            doit = st.button("✔", help="confirm ?")
-
-        lnew = True
-        if st.session_state.vide:
-            lnew = False
-            show_video("books")
-            update_readings("video_books")
-            st.session_state.vide = False
-    
-        if lnew:
-            list_book = ""
-            temas_list = load_temas(books_list[opt_book])
-            for line in temas_list:
-                list_book += line.strip() + ", "
-            st.write(list_book[:-2])
-
-            books_expander = st.expander("", True)
-            with books_expander:
-                st.subheader(load_file("MANUAL_BOOKS.md"))
-        
-                if doit:
-                    st.session_state.take = 0
-                    st.session_state.book = books_list[opt_book]
-                    return None
-
-
-def page_polys():  # available languages
-    pp, ok = st.columns([9.3, 0.7])
-    with pp:
-        poly_list = []
-        poly_pais = []
-        poly_ling = []
-        with open(
-            os.path.join("./base/" + st.session_state.poly_file), encoding="utf-8"
-        ) as poly:
-            for line in poly:
-                poly_list.append(line)
-                string = line.strip("\n")
-                part_string = string.partition(' : ')
-                poly_pais.append(translate(part_string[0]))
-                poly_ling.append(part_string[2])
-        poly.close()
-
-        options = list(range(len(poly_list)))
-        opt_poly = st.selectbox(
-            str(len(poly_list)) + " idiomas",
-            options,
-            index=st.session_state.poly_take,
-            format_func=lambda x: poly_list[x],
-            key="opt_poly",
-        )
-
-    with ok:
-        doit = st.button("✔", help="confirm ?")
-
-    lnew = True
-    if st.session_state.vide:
-        lnew = False
-        show_video("poly")
-        update_readings("video_poly")
-        st.session_state.vide = False
-    
-    if doit:
-        poly_pais = poly_pais[opt_poly]
-        poly_ling = poly_ling[opt_poly]
-        st.session_state.poly_name = translate(poly_pais)
-        st.session_state.poly_lang = poly_ling
-        st.session_state.poly_take = opt_poly
-
-        st.session_state.last_lang = st.session_state.lang
-        st.session_state.lang = st.session_state.poly_lang
-        
-    if lnew:
-        poly_expander = st.expander("", True)
-        with poly_expander:
-            st.subheader(load_file("MANUAL_POLY.md"))
-        
-
-def page_abouts():
-    abouts_list = [
-        "comments",
-        "prefácio",
-        "machina",
-        "off-machina",
-        "outros",
-        "traduttore",
-        "bibliografia",
-        "imagens",
-        "samizdát",
-        "pensares",
-        "notes",
-        "license",
-        "index",
-    ]
-
-    options = list(range(len(abouts_list)))
-    opt_abouts = st.selectbox(
-        "",
-        options,
-        format_func=lambda x: abouts_list[x],
-        key="opt_abouts",
-    )
-
-    lnew = True
-    if st.session_state.vide:
-        lnew = False
-        show_video("about")
-        update_readings("video_about")
-        st.session_state.vide = False
-
-    if lnew:
-        choice = abouts_list[opt_abouts].upper()
-        about_expander = st.expander("", True)
-        with about_expander:
-            if choice == 'MACHINA':
-                st.subheader(load_file("ABOUT_MACHINA.md"))
-                LOGO_TEXT = load_info('Essa')
-                LOGO_IMAGE = "./images/matrix/Essa.jpg"
-                write_ypoema(LOGO_TEXT, LOGO_IMAGE)
-            else:
-                st.subheader(load_file("ABOUT_" + choice + ".md"))
-
-
 st.session_state.last_lang = st.session_state.lang
-
 def page_mini():
     temas_list = load_temas("temas_mini")
     maxy = len(temas_list) - 1
@@ -941,8 +809,8 @@ def page_mini():
     if rand:
         st.session_state.mini = random.randrange(0, maxy, 1)
     
-    curr_tema = temas_list[st.session_state.mini]
-    analise = say_number(curr_tema)
+    st.session_state.tema = temas_list[st.session_state.mini]
+    analise = say_number(st.session_state.tema)
     more = more.button("✚", help=help_more+' • '+analise)
 
     lnew = True
@@ -959,7 +827,7 @@ def page_mini():
             if st.session_state.lang != st.session_state.last_lang:
                 curr_ypoema = load_lypo()  # changes in lang, keep LYPO
             else:
-                curr_ypoema = load_poema(curr_tema, "")
+                curr_ypoema = load_poema(st.session_state.tema, "")
                 curr_ypoema = load_lypo()
             
             if st.session_state.lang != "pt":  # translate if idioma <> pt
@@ -972,12 +840,12 @@ def page_mini():
                     save_typo.close()
                 curr_ypoema = load_typo()  # to normalize line breaks in text
             
-            update_readings(curr_tema)
+            update_readings(st.session_state.tema)
             LOGO_TEXT = curr_ypoema
             LOGO_IMAGE = None
             
             if st.session_state.draw:
-                LOGO_IMAGE = load_arts(curr_tema)
+                LOGO_IMAGE = load_arts(st.session_state.tema)
             
             write_ypoema(LOGO_TEXT, LOGO_IMAGE)
             
@@ -988,8 +856,8 @@ def page_mini():
 def page_ypoemas():
     temas_list = load_temas(st.session_state.book)
     maxy = len(temas_list) - 1
-    if st.session_state.take > maxy:  # just in case
-        st.session_state.take = 0
+    if st.session_state.take > maxy or st.session_state.take < 0:  # just in case
+        st.session_state.take = random.randrange(0, maxy, 1)
 
     foo1, more, last, rand, nest, manu, foo2 = st.columns(
         [3, 1, 1, 1, 1, 1, 3]
@@ -1031,8 +899,8 @@ def page_ypoemas():
     if opt_take != st.session_state.take:
         st.session_state.take = opt_take
 
-    curr_tema = temas_list[st.session_state.take]
-    analise = say_number(curr_tema)
+    st.session_state.tema = temas_list[st.session_state.take]
+    analise = say_number(st.session_state.tema)
     manu = manu.button("?", help=analise)
 
     lnew = True
@@ -1040,11 +908,11 @@ def page_ypoemas():
         lnew = False
         st.subheader(load_file("MANUAL_YPOEMAS.md"))
 
-        LOGO_TEXT = load_info(curr_tema)
+        LOGO_TEXT = load_info(st.session_state.tema)
         if st.session_state.lang != "pt":  # translate if idioma <> pt
             LOGO_TEXT = translate(LOGO_TEXT)
             
-        LOGO_IMAGE = "./images/matrix/" + curr_tema.capitalize() + ".jpg"
+        LOGO_IMAGE = "./images/matrix/" + st.session_state.tema.capitalize() + ".jpg"
         write_ypoema(LOGO_TEXT, LOGO_IMAGE)
 
     if st.session_state.vide:
@@ -1071,7 +939,7 @@ def page_ypoemas():
             if st.session_state.lang != st.session_state.last_lang:
                 curr_ypoema = load_lypo()  # changes in lang, keep LYPO
             else:
-                curr_ypoema = load_poema(curr_tema, "")
+                curr_ypoema = load_poema(st.session_state.tema, "")
                 curr_ypoema = load_lypo()
 
             if st.session_state.lang != "pt":  # translate if idioma <> pt
@@ -1084,18 +952,18 @@ def page_ypoemas():
                     save_typo.close()
                 curr_ypoema = load_typo()  # to normalize line breaks in text
 
-            update_readings(curr_tema)
+            update_readings(st.session_state.tema)
             LOGO_TEXT = curr_ypoema
             LOGO_IMAGE = None
             if st.session_state.draw:
-                LOGO_IMAGE = load_arts(curr_tema)
+                LOGO_IMAGE = load_arts(st.session_state.tema)
 
             write_ypoema(LOGO_TEXT, LOGO_IMAGE)
             
         if st.session_state.talk:
             talk(curr_ypoema)
 
-        # st.markdown(get_binary_file_downloader_html('./temp/'+"LYPO_" + users_id, '➪ '+curr_tema), unsafe_allow_html=True)
+        # st.markdown(get_binary_file_downloader_html('./temp/'+"LYPO_" + users_id, '➪ '+st.session_state.tema), unsafe_allow_html=True)
 
 
 def page_eureka():
@@ -1136,19 +1004,20 @@ def page_eureka():
             seed_list.sort()
             st.session_state.find_word = find_what
             if len(seed_list) == 1:
-                info_find = "ocorrência"
+                info_find = translate("ocorrência")
             else:
-                info_find = "ocorrências"
+                info_find = translate("ocorrências")
 
             info_find += ' de "' + find_what + '"'
-            
+
+            st.session_state.eureka = 0
             if rand:
                 st.session_state.eureka = random.randrange(0, len(seed_list), 1)
 
             with occurrences:
                 options = list(range(len(seed_list)))
                 opt_ocur = st.selectbox(
-                    str(len(seed_list)) + " " + translate(info_find),
+                    str(len(seed_list)) + " " + info_find,
                     options,
                     index=st.session_state.eureka,
                     format_func=lambda y: seed_list[y],
@@ -1161,6 +1030,8 @@ def page_eureka():
             seed_tema = get_seed_tema(seed_list[opt_ocur])
             this_seed = seed_list[opt_ocur]
             analise = say_number(seed_tema)
+            st.session_state.tema = seed_tema
+
             with aide:
                 aide = st.button("?", help=analise)
 
@@ -1351,6 +1222,157 @@ def page_off_machina():  # available off_machina_books
 
         if st.session_state.talk:
             talk(off_book_text)
+
+
+def page_books():  # available books
+    bb, ok = st.columns([9.3, 0.7])
+    with bb:
+        books_list = [
+            "livro vivo",
+            "poemas",
+            "jocosos",
+            "ensaios",
+            "variações",
+            "metalinguagem",
+            "todos os temas",
+            "outros autores",
+            "signos_fem",
+            "signos_mas",
+            "todos os signos",
+        ]
+
+        options = list(range(len(books_list)))
+        opt_book = st.selectbox(
+            "",
+            options,
+            index=books_list.index(st.session_state.book),
+            format_func=lambda x: books_list[x],
+            key="opt_book",
+        )
+
+        with ok:
+            doit = st.button("✔", help="confirm ?")
+
+        lnew = True
+        if st.session_state.vide:
+            lnew = False
+            show_video("books")
+            update_readings("video_books")
+            st.session_state.vide = False
+    
+        if lnew:
+            list_book = ""
+            temas_list = load_temas(books_list[opt_book])
+            for line in temas_list:
+                list_book += line.strip() + ", "
+            st.write(list_book[:-2])
+
+            books_expander = st.expander("", True)
+            with books_expander:
+                st.subheader(load_file("MANUAL_BOOKS.md"))
+        
+                if doit:
+                    st.session_state.take = 0
+                    st.session_state.book = books_list[opt_book]
+                    return None
+
+
+def page_polys():  # available languages
+    pp, ok = st.columns([9.3, 0.7])
+    with pp:
+        poly_list = []
+        poly_pais = []
+        poly_ling = []
+        with open(
+            os.path.join("./base/" + st.session_state.poly_file), encoding="utf-8"
+        ) as poly:
+            for line in poly:
+                poly_list.append(line)
+                string = line.strip("\n")
+                part_string = string.partition(' : ')
+                poly_pais.append(translate(part_string[0]))
+                poly_ling.append(part_string[2])
+        poly.close()
+
+        options = list(range(len(poly_list)))
+        opt_poly = st.selectbox(
+            str(len(poly_list)) + " idiomas",
+            options,
+            index=st.session_state.poly_take,
+            format_func=lambda x: poly_list[x],
+            key="opt_poly",
+        )
+
+    with ok:
+        doit = st.button("✔", help="confirm ?")
+
+    lnew = True
+    if st.session_state.vide:
+        lnew = False
+        show_video("poly")
+        update_readings("video_poly")
+        st.session_state.vide = False
+    
+    if doit:
+        poly_pais = poly_pais[opt_poly]
+        poly_ling = poly_ling[opt_poly]
+        st.session_state.poly_name = translate(poly_pais)
+        st.session_state.poly_lang = poly_ling
+        st.session_state.poly_take = opt_poly
+
+        st.session_state.last_lang = st.session_state.lang
+        st.session_state.lang = st.session_state.poly_lang
+        
+    if lnew:
+        poly_expander = st.expander("", True)
+        with poly_expander:
+            st.subheader(load_file("MANUAL_POLY.md"))
+        
+
+def page_abouts():
+    abouts_list = [
+        "comments",
+        "prefácio",
+        "machina",
+        "off-machina",
+        "outros",
+        "traduttore",
+        "bibliografia",
+        "imagens",
+        "samizdát",
+        "pensares",
+        "notes",
+        "license",
+        "index",
+    ]
+
+    options = list(range(len(abouts_list)))
+    opt_abouts = st.selectbox(
+        "",
+        options,
+        format_func=lambda x: abouts_list[x],
+        key="opt_abouts",
+    )
+
+    lnew = True
+    if st.session_state.vide:
+        lnew = False
+        show_video("about")
+        update_readings("video_about")
+        st.session_state.vide = False
+
+    if lnew:
+        choice = abouts_list[opt_abouts].upper()
+        about_expander = st.expander("", True)
+        with about_expander:
+            if choice == 'MACHINA':
+                st.subheader(load_file("ABOUT_MACHINA_A.md"))
+                LOGO_TEXT = load_info(st.session_state.tema)
+                LOGO_IMAGE = "./images/matrix/" + st.session_state.tema + ".jpg"
+                write_ypoema(LOGO_TEXT, LOGO_IMAGE)
+                st.subheader(load_file("ABOUT_MACHINA_D.md"))
+            else:
+                st.subheader(load_file("ABOUT_" + choice + ".md"))
 
 ### eof: pages
 
