@@ -1012,7 +1012,7 @@ def page_eureka():
             info_find += ' de "' + find_what + '"'
 
             if rand:
-                st.session_state.eureka = random.randrange(0, len(seed_list), 1)
+                st.session_state.eureka = random.randrange(0, len(seed_list)-1, 1)
                 this_seed = seed_list[st.session_state.eureka]
                 seed_tema = get_seed_tema(seed_list[st.session_state.eureka])
 
