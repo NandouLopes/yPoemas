@@ -75,7 +75,7 @@ Libra=m : 6
 Loremipsum : 10
 Machbeth : 13
 Machbrait : 17
-Manifesto : 18
+Manifesto : 17
 Manusgrite : 14
 Manusgrito : 14
 Meteoro : 13
@@ -99,6 +99,7 @@ Perfil : 6
 Pessoa : 9
 Portal : 8
 Posfácio : 18
+Preciso : 14
 Prefácil : 17
 Psiume : 4
 Reger : 8

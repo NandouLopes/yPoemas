@@ -99,6 +99,7 @@ Perfil : joco
 Pessoa : poesia
 Portal : poesia
 Posfácio : poesia
+Preciso : poesia
 Prefácil : poesia
 Psiume : poesia
 Reger : poesia

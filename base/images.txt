@@ -99,6 +99,7 @@ Perfil : beauty
 Pessoa : anima
 Portal : machina
 Posfácio : anima
+Preciso : machina
 Prefácil : joco
 Psiume : anima
 Reger : anima

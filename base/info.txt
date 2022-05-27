@@ -1,144 +1,145 @@
 |nome_tema|genero|imagem|versos|words_in|lexico|ítimos|analise|notação|
 |   [0]   |  [1] |  [2] |  [3] |   [4]  |  [5] |  [6] |  [7]  |  [8]  |
 
-|Ais|ensaio|machina|5|8|224|211|1.315.153.125 (bilhões)|1,315 e+09|
-|Amaré|poesia|persona|7|23|84|251|54.191.856.554.035.200 (quatrilhões)|5,419 e+16|
-|Anjos|poesia|machina|17|70|259|258|5.194.981.441.617.714.437.160.960.000.000 (nonilhões)|5,195 e+30|
-|Aolero|ensaio|anima|7|21|341|187|247.463.424 (milhões)|2,475 e+08|
-|Aquarius=f|zodíaco|esoteric|8|31|110|75|107.811.000 (milhões)|1,078 e+08|
-|Aquarius=m|zodíaco|esoteric|8|33|111|75|107.811.000 (milhões)|1,078 e+08|
-|Arerir|ensaio|machina|4|4|191|196|9.229.440 (milhões)|9,229 e+06|
-|Aries=f|zodíaco|esoteric|7|21|97|58|1.848.000 (milhões)|1,848 e+06|
-|Aries=m|zodíaco|esoteric|7|27|97|58|1.848.000 (milhões)|1,848 e+06|
-|Astros|ensaio|esoteric|5|29|275|170|1.066.867.200 (bilhões)|1,067 e+09|
-|Atido|poesia|anima|7|24|248|197|664.215.552.000 (bilhões)|6,642 e+11|
-|Augusto|poesia|machina|17|64|368|392|731.619.324.106.718.334.890.803.200.000.000.000.000 (undecilhões)|7,316 e+38|
-|Avevida|poesia|anima|3|13|283|392|8.581.511.232 (bilhões)|8,582 e+09|
-|Babel|ensaio|machina|1|8|0|1|1 (nonono)|1, e+00|
-|Batismo|metalinguagem|machina|5|15|81|51|32.640 (mil)|3,264 e+04|
-|Beaba|metalinguagem|machina|5|25|61|71|48.009.024 (milhões)|4,801 e+07|
-|Becos|poesia|anima|11|28|302|264|298.456.756.332.134.400 (quatrilhões)|2,985 e+17|
-|Biaba|metalinguagem|machina|6|21|74|71|497.871.360 (milhões)|4,979 e+08|
-|Blablabla|metalinguagem|joco|3|8|348|305|19.769.568 (milhões)|1,977 e+07|
-|Bolero|poesia|author|19|48|372|389|163.471.481.063.250.610.618.368.000.000 (octilhões)|1,635 e+29|
-|Brado|joco|joco|6|20|221|174|1.207.664.640.000 (trilhões)|1,208 e+12|
-|Bula|joco|joco|3|14|180|160|222.211.080 (milhões)|2,222 e+08|
-|Cancer=f|zodíaco|esoteric|7|30|102|82|30.965.760 (milhões)|3,097 e+07|
-|Cancer=m|zodíaco|esoteric|7|29|102|82|30.965.760 (milhões)|3,097 e+07|
-|Caprico=f|zodíaco|esoteric|9|42|126|86|459.841.536 (milhões)|4,598 e+08|
-|Caprico=m|zodíaco|esoteric|9|42|126|86|459.841.536 (milhões)|4,598 e+08|
-|Cartaz|joco|joco|13|33|304|361|27.129.161.672.623.993.651.200.000 (setilhões)|2,713 e+25|
-|Circular|poesia|anima|3|20|141|334|3.251.404.800 (bilhões)|3,251 e+09|
-|Ciuminho|poesia|beauty|8|26|987|563|36.032.886.238.752.000 (quatrilhões)|3,603 e+16|
-|Clandestino|poesia|anima|11|35|227|118|15.490.911.744 (bilhões)|1,549 e+10|
-|Clarice|poesia|beauty|10|43|123|85|54.432.000.000 (bilhões)|5,443 e+10|
-|Conto|poesia|anima|13|39|259|154|132.723.360.000.000 (trilhões)|1,327 e+14|
-|Cordel|metalinguagem|joco|4|19|179|138|1.048.110.000 (bilhões)|1,048 e+09|
-|Cromossomo|joco|joco|11|37|192|197|31.114.602.731.520 (trilhões)|3,111 e+13|
-|Cuores|poesia|persona|6|19|174|142|1.293.667.200 (bilhões)|1,294 e+09|
-|Destinos|poesia|anima|11|38|648|627|6.778.327.515.640.192.512.000 (sextilhões)|6,778 e+21|
-|Distintos|poesia|anima|10|40|648|627|6.380.511.142.927.406.284.800 (sextilhões)|6,381 e+21|
-|Dolores|poesia|beauty|11|35|470|293|247.676.194.022.400.000 (quatrilhões)|2,477 e+17|
-|Duralex|joco|machina|3|18|165|153|9.767.931.264 (bilhões)|9,768 e+09|
-|Elogio|poesia|anima|6|15|208|87|831.600 (mil)|8,316 e+05|
-|Enfrente|ensaio|persona|5|19|70|52|1.399.680 (milhões)|1,4 e+06|
-|Epitafiando|poesia|machina|7|28|466|473|47.485.863.936.000 (trilhões)|4,749 e+13|
-|Escorpio=f|zodíaco|esoteric|8|37|111|72|853.493.760 (milhões)|8,535 e+08|
-|Escorpio=m|zodíaco|esoteric|8|37|111|72|853.493.760 (milhões)|8,535 e+08|
-|Escriba|poesia|anima|14|53|294|236|425.301.477.100.093.440.000 (quintilhões)|4,253 e+20|
-|Essa|metalinguagem|anima|6|26|192|186|48.341.155.000.320 (trilhões)|4,834 e+13|
-|Estudo|joco|joco|7|23|273|241|486.150.160.003.200 (trilhões)|4,862 e+14|
-|Fatos|poesia|machina|21|103|404|326|660.446.583.979.971.869.115.678.720.000 (octilhões)|6,604 e+29|
-|Feiras|metalinguagem|joco|11|50|350|247|1.024.215.895.987.200.000 (quintilhões)|1,024 e+18|
-|Festim|poesia|anima|9|35|250|147|476.150.875.200 (bilhões)|4,762 e+11|
-|Finalmentes|joco|esoteric|6|24|222|196|150.798.024.000.000 (trilhões)|1,508 e+14|
-|Frases|joco|joco|5|19|286|239|10.271.089.920 (bilhões)|1,027 e+10|
-|Fugaz|poesia|anima|5|19|313|287|24.680.680.611.840 (trilhões)|2,468 e+13|
-|Gemeos=f|zodíaco|esoteric|8|33|112|59|1.782.000 (milhões)|1,782 e+06|
-|Gemeos=m|zodíaco|esoteric|8|30|112|59|1.782.000 (milhões)|1,782 e+06|
-|Gula|joco|joco|7|22|273|271|1.083.900.148.531.200 (quatrilhões)|1,084 e+15|
-|HaiKai|poesia|anima|3|13|335|2486|91.009.106.496 (bilhões)|9,101 e+10|
-|Haykay|poesia|anima|5|21|nonono|2389|86.788.647.792 (bilhões)|8,679 e+10|
-|i-Mundo|poesia|machina|8|26|236|229|919.851.242.618.880.000 (quatrilhões)|9,199 e+17|
-|Impar|ensaio|anima|5|22|62|59|165.888 (mil)|1,659 e+05|
-|Indolor|poesia|anima|11|35|593|409|821.256.900.598.278.144.000 (quintilhões)|8,213 e+20|
-|Inhos|poesia|anima|7|22|207|103|314.496.000 (milhões)|3,145 e+08|
-|Insano|joco|joco|7|21|161|157|7.044.710.400.000 (trilhões)|7,045 e+12|
-|Isso|ensaio|persona|5|7|197|254|11.623.772.160 (bilhões)|1,162 e+10|
-|Jealousy|poesia|joco|5|15|nonono|179|6.954 (mil)|6,954 e+03|
-|Joker|joco|joco|4|18|150|195|55.552.573.440.000 (trilhões)|5,555 e+13|
-|Lato|poesia|author|11|36|309|297|81.193.277.336.371.200.000 (quintilhões)|8,119 e+19|
-|Leao=f|zodíaco|esoteric|6|27|86|58|1.036.800 (milhões)|1,037 e+06|
-|Leao=m|zodíaco|esoteric|6|27|85|58|1.036.800 (milhões)|1,037 e+06|
-|Leituras|metalinguagem|author|13|47|189|136|1.024.192.512.000.000 (quatrilhões)|1,024 e+15|
-|Lero|poesia|machina|6|24|362|221|25.744.446.000 (bilhões)|2,574 e+10|
-|Liberta|poesia|anima|12|51|176|131|5.735.478.067.200 (trilhões)|5,735 e+12|
-|Libra=f|zodíaco|esoteric|6|27|95|77|21.228.480 (milhões)|2,123 e+07|
-|Libra=m|zodíaco|esoteric|6|29|95|77|21.228.480 (milhões)|2,123 e+07|
-|Loremipsum|ensaio|machina|10|38|79|38|414.720 (mil)|4,147 e+05|
-|Machbeth|poesia|persona|13|52|333|163|398.340.963.820.800 (trilhões)|3,983 e+14|
-|Machbrait|poesia|anima|17|64|424|206|106.563.309.679.411.200.000 (quintilhões)|1,066 e+20|
-|Manifesto|poesia|machina|18|91|555|501|3.495.033.390.710.571.278.937.141.842.804.736.000.000 (dodecilhões)|3,495 e+39|
-|Manusgrite|metalinguagem|beauty|14|46|161|130|963.158.999.040.000 (trilhões)|9,632 e+14|
-|Manusgrito|metalinguagem|author|14|42|160|128|842.764.124.160.000 (trilhões)|8,428 e+14|
-|Meteoro|joco|joco|13|43|348|282|364.969.648.078.376.140.800 (quintilhões)|3,65 e+20|
-|Minuto|joco|esoteric|7|22|286|213|2.817.522.540.000 (trilhões)|2,818 e+12|
-|Mirante|poesia|persona|7|25|153|211|7.892.654.740.185.600 (quatrilhões)|7,893 e+15|
-|Nonono|ensaio|machina|11|40|432|330|165.973.888.425.945.600.000 (quintilhões)|1,66 e+20|
-|Nós|poesia|machina|11|52|150|98|9.172.942.848 (bilhões)|9,173 e+09|
-|Oca|poesia|beauty|4|12|203|159|26.854.027.200 (bilhões)|2,685 e+10|
-|Ocio|joco|joco|17|78|545|424|36.537.019.332.210.695.208.960.000.000.000.000 (decilhões)|3,654 e+34|
-|Oco|poesia|anima|4|12|198|154|18.069.480.000 (bilhões)|1,807 e+10|
-|Oficio|joco|author|20|74|560|484|400.090.396.845.543.284.155.613.184.000.000 (nonilhões)|4,001 e+32|
-|Ogiva|poesia|beauty|6|23|255|225|1.624.147.132.608.000 (quatrilhões)|1,624 e+15|
-|Olhares|poesia|persona|17|72|218|453|2.976.553.749.506.710.044.672.000.000.000 (nonilhões)|2,977 e+30|
-|Palyndro|ensaio|machina|17|24|59|52|967.680 (mil)|9,677 e+05|
-|Papilio|poesia|persona|17|58|722|299|17.276.809.528.053.504.000 (quintilhões)|1,728 e+19|
-|Paroles|metalinguagem|machina|7|24|396|263|342.203.852.390.400 (trilhões)|3,422 e+14|
-|Passagens|poesia|machina|9|25|161|117|79.814.592.000 (bilhões)|7,981 e+10|
-|Peixes=f|zodíaco|esoteric|8|30|96|53|1.209.600 (milhões)|1,21 e+06|
-|Peixes=m|zodíaco|esoteric|8|35|95|52|1.058.400 (milhões)|1,058 e+06|
-|Perfil|joco|beauty|6|39|373|291|91.341.432.174.182.400 (quatrilhões)|9,134 e+16|
-|Pessoa|poesia|anima|9|32|109|58|4.665.600 (milhões)|4,666 e+06|
-|Portal|poesia|machina|8|22|442|305|173.688.769.800 (bilhões)|1,737 e+11|
-|Posfácio|poesia|anima|18|90|316|267|23.356.081.768.224.522.240.000.000 (setilhões)|2,336 e+25|
-|Prefácil|poesia|joco|17|49|335|308|4.056.543.979.949.260.800.000.000 (setilhões)|4,057 e+24|
-|Psiume|poesia|anima|4|17|542|330|196.263.540 (milhões)|1,963 e+08|
-|Reger|poesia|anima|8|31|109|85|404.352.000 (milhões)|4,044 e+08|
-|Reinos|joco|joco|13|50|216|256|789.146.976.367.411.200 (quatrilhões)|7,891 e+17|
-|Remedeio|joco|joco|3|14|413|185|1.967.232 (milhões)|1,967 e+06|
-|Rever|poesia|anima|5|16|124|76|2.379.456 (milhões)|2,379 e+06|
-|Rito|joco|joco|5|13|140|133|7.302.960.000 (bilhões)|7,303 e+09|
-|Sagitari=f|zodíaco|esoteric|9|40|120|81|2.911.334.400 (bilhões)|2,911 e+09|
-|Sagitari=m|zodíaco|esoteric|9|41|120|81|2.911.334.400 (bilhões)|2,911 e+09|
-|Salute|joco|machina|6|20|553|267|32.637.136.896 (bilhões)|3,264 e+10|
-|Saudades|poesia|persona|7|27|255|168|2.599.674.157.080 (trilhões)|2,6 e+12|
-|Seguro|joco|joco|11|38|103|63|167.961.600 (milhões)|1,68 e+08|
-|Sentença|joco|anima|10|33|239|165|159.667.040.332.800 (trilhões)|1,597 e+14|
-|Ser|poesia|anima|4|17|250|284|21.506.100 (milhões)|2,151 e+07|
-|Silente|poesia|anima|11|49|333|254|313.233.575.510.016.000.000 (quintilhões)|3,132 e+20|
-|Sinais|poesia|anima|7|12|245|435|4.570.919.100.000.000 (quatrilhões)|4,571 e+15|
-|Sinas|ensaio|beauty|7|11|245|435|4.570.919.100.000.000 (quatrilhões)|4,571 e+15|
-|Sn6=ball|ensaio|machina|15|13|236|252|258.863.705.100.000 (trilhões)|2,589 e+14|
-|Sn8=ball|ensaio|machina|18|15|236|251|1.682.614.083.150.000 (quatrilhões)|1,683 e+15|
-|SnowBall|ensaio|machina|20|21|409|427|20.591.283.290.444.226.360.000.000 (setilhões)|2,059 e+25|
-|Solero|poesia|machina|8|29|411|244|595.158.782.400 (bilhões)|5,952 e+11|
-|Sonoro|poesia|anima|3|6|104|90|1.192.320 (milhões)|1,192 e+06|
-|Sopros|poesia|anima|11|37|275|189|94.680.907.776.000.000 (quatrilhões)|9,468 e+16|
-|Sos|joco|joco|6|17|206|165|1.018.559.453.184 (trilhões)|1,019 e+12|
-|Ss1|ensaio|machina|17|30|49|350|388.588.515.194.880.000 (quatrilhões)|3,886 e+17|
-|Ss2|ensaio|machina|17|29|49|350|388.588.515.194.880.000 (quatrilhões)|3,886 e+17|
-|Sua|poesia|beauty|4|16|165|81|63.840 (mil)|6,384 e+04|
-|Tempo|poesia|machina|17|71|1108|3102|7.247.770.007.124.225.427.373.632.189.851.972.403.200.000.000 (quatordecilhões)|7,248 e+45|
-|Tiro|metalinguagem|anima|11|30|517|385|2.903.854.393.440.000.000 (quintilhões)|2,904 e+18|
-|Tolero|poesia|anima|17|72|323|1751|644.297.645.803.080.334.952.235.904.398.544.129.228.800.000 (tredecilhões)|6,443 e+44|
-|Touro=f|zodíaco|esoteric|6|22|111|59|1.254.528 (milhões)|1,255 e+06|
-|Touro=m|zodíaco|esoteric|6|23|111|59|1.254.528 (milhões)|1,255 e+06|
-|Usinas|poesia|anima|10|37|236|225|102.938.787.190.407.168.000 (quintilhões)|1,029 e+20|
-|Veio|poesia|anima|10|32|423|373|40.547.657.206.524.948.480.000 (sextilhões)|4,055 e+22|
-|Victor|poesia|anima|9|28|264|112|308.998.800 (milhões)|3,09 e+08|
-|Virgem=f|zodíaco|esoteric|9|27|88|110|4.255.027.200 (bilhões)|4,255 e+09|
-|Virgem=m|zodíaco|esoteric|9|28|87|107|3.616.773.120 (bilhões)|3,617 e+09|
-|Zelo|poesia|persona|8|27|510|250|79.535.520 (milhões)|7,954 e+07|
-|Zodiacaos|zodíaco|joco|16|70|356|306|9.490.725.289.945.202.688.000.000.000.000 (nonilhões)|9,491 e+30|
-|Zoia|poesia|persona|17|76|nonono|484|23.297.836.384.021.203.533.168.640.000.000.000 (decilhões)|2,33 e+34|
+|Ais|ensaio|machina|5|10|227|211|1.315.153.125 (bilhões)  |1,315 e+09|
+|Amaré|poesia|persona|7|24|246|251|54.191.856.554.035.200 (quatrilhões)  |5,419 e+16|
+|Anjos|poesia|machina|17|72|273|258|5.194.981.441.617.714.437.160.960.000.000 (nonilhões)  |5,195 e+30|
+|Aolero|ensaio|anima|7|16|400|187|247.463.424 (milhões)  |2,475 e+08|
+|Aquarius=f|zodíaco|esoteric|8|33|123|75|107.811.000 (milhões)  |1,078 e+08|
+|Aquarius=m|zodíaco|esoteric|8|31|123|75|107.811.000 (milhões)  |1,078 e+08|
+|Arerir|ensaio|machina|4|5|192|196|9.229.440 (milhões)  |9,229 e+06|
+|Aries=f|zodíaco|esoteric|7|22|103|58|1.848.000 (milhões)  |1,848 e+06|
+|Aries=m|zodíaco|esoteric|7|21|103|58|1.848.000 (milhões)  |1,848 e+06|
+|Astros|ensaio|esoteric|5|28|503|170|1.066.867.200 (bilhões)  |1,067 e+09|
+|Atido|poesia|anima|7|22|294|197|664.215.552.000 (bilhões)  |6,642 e+11|
+|Augusto|poesia|machina|17|64|333|392|731.619.324.106.718.334.890.803.200.000.000.000.000 (undecilhões)  |7,316 e+38|
+|Avevida|poesia|anima|3|13|430|392|8.581.511.232 (bilhões)  |8,582 e+09|
+|Babel|ensaio|machina|1|26|1|1|1 (nonono)  |1, e+00|
+|Batismo|metalinguagem|machina|5|16|82|51|32.640 (mil)  |3,264 e+04|
+|Beaba|metalinguagem|machina|5|25|66|71|48.009.024 (milhões)  |4,801 e+07|
+|Becos|poesia|anima|11|33|338|264|298.456.756.332.134.400 (quatrilhões)  |2,985 e+17|
+|Biaba|metalinguagem|machina|6|23|72|71|497.871.360 (milhões)  |4,979 e+08|
+|Blablabla|metalinguagem|joco|3|13|635|305|19.769.568 (milhões)  |1,977 e+07|
+|Bolero|poesia|author|19|50|823|389|163.471.481.063.250.610.618.368.000.000 (octilhões)  |1,635 e+29|
+|Brado|joco|joco|6|20|263|174|1.207.664.640.000 (trilhões)  |1,208 e+12|
+|Bula|joco|joco|3|13|211|160|222.211.080 (milhões)  |2,222 e+08|
+|Cancer=f|zodíaco|esoteric|7|29|140|82|30.965.760 (milhões)  |3,097 e+07|
+|Cancer=m|zodíaco|esoteric|7|29|140|82|30.965.760 (milhões)  |3,097 e+07|
+|Caprico=f|zodíaco|esoteric|9|43|137|86|459.841.536 (milhões)  |4,598 e+08|
+|Caprico=m|zodíaco|esoteric|9|43|137|86|459.841.536 (milhões)  |4,598 e+08|
+|Cartaz|joco|joco|13|35|383|361|27.129.161.672.623.993.651.200.000 (setilhões)  |2,713 e+25|
+|Circular|poesia|anima|3|20|622|334|3.251.404.800 (bilhões)  |3,251 e+09|
+|Ciuminho|poesia|beauty|8|30|1295|563|36.032.886.238.752.000 (quatrilhões)  |3,603 e+16|
+|Clandestino|poesia|anima|11|38|296|118|15.490.911.744 (bilhões)  |1,549 e+10|
+|Clarice|poesia|beauty|10|46|169|85|54.432.000.000 (bilhões)  |5,443 e+10|
+|Conto|poesia|anima|13|35|285|154|132.723.360.000.000 (trilhões)  |1,327 e+14|
+|Cordel|metalinguagem|joco|4|19|179|138|1.048.110.000 (bilhões)  |1,048 e+09|
+|Cromossomo|joco|joco|11|35|360|197|31.114.602.731.520 (trilhões)  |3,111 e+13|
+|Cuores|poesia|persona|6|16|191|142|1.293.667.200 (bilhões)  |1,294 e+09|
+|Destinos|poesia|anima|11|38|753|627|6.778.327.515.640.192.512.000 (sextilhões)  |6,778 e+21|
+|Distintos|poesia|anima|10|36|752|627|6.380.511.142.927.406.284.800 (sextilhões)  |6,381 e+21|
+|Dolores|poesia|beauty|11|39|597|293|247.676.194.022.400.000 (quatrilhões)  |2,477 e+17|
+|Duralex|joco|machina|3|19|177|153|9.767.931.264 (bilhões)  |9,768 e+09|
+|Elogio|poesia|anima|6|22|224|87|831.600 (mil)  |8,316 e+05|
+|Enfrente|ensaio|persona|5|20|72|52|1.399.680 (milhões)  |1,4 e+06|
+|Epitafiando|poesia|machina|7|27|815|473|47.485.863.936.000 (trilhões)  |4,749 e+13|
+|Escorpio=f|zodíaco|esoteric|8|38|113|72|853.493.760 (milhões)  |8,535 e+08|
+|Escorpio=m|zodíaco|esoteric|8|38|113|72|853.493.760 (milhões)  |8,535 e+08|
+|Escriba|poesia|anima|14|52|396|236|425.301.477.100.093.440.000 (quintilhões)  |4,253 e+20|
+|Essa|metalinguagem|anima|6|24|193|186|48.341.155.000.320 (trilhões)  |4,834 e+13|
+|Estudo|joco|joco|7|22|294|241|486.150.160.003.200 (trilhões)  |4,862 e+14|
+|Fatos|poesia|machina|21|102|422|328|733.829.537.755.524.299.017.420.800.000 (octilhões)  |7,338 e+29|
+|Feiras|metalinguagem|joco|11|45|418|247|1.024.215.895.987.200.000 (quintilhões)  |1,024 e+18|
+|Festim|poesia|anima|9|34|272|147|476.150.875.200 (bilhões)  |4,762 e+11|
+|Finalmentes|joco|esoteric|6|24|277|196|150.798.024.000.000 (trilhões)  |1,508 e+14|
+|Frases|joco|joco|5|21|391|239|10.271.089.920 (bilhões)  |1,027 e+10|
+|Fugaz|poesia|anima|5|18|342|287|24.680.680.611.840 (trilhões)  |2,468 e+13|
+|Gemeos=f|zodíaco|esoteric|8|34|133|59|1.782.000 (milhões)  |1,782 e+06|
+|Gemeos=m|zodíaco|esoteric|8|34|133|59|1.782.000 (milhões)  |1,782 e+06|
+|Gula|joco|joco|7|24|361|271|1.083.900.148.531.200 (quatrilhões)  |1,084 e+15|
+|HaiKai|poesia|anima|3|13|4930|2486|91.009.106.496 (bilhões)  |9,101 e+10|
+|Haykay|poesia|anima|5|nonono|nonono|2389|86.788.647.792 (bilhões)  |8,679 e+10|
+|i-Mundo|poesia|machina|8|30|278|229|919.851.242.618.880.000 (quatrilhões)  |9,199 e+17|
+|Impar|ensaio|anima|5|28|65|59|165.888 (mil)  |1,659 e+05|
+|Indolor|poesia|anima|11|38|658|409|821.256.900.598.278.144.000 (quintilhões)  |8,213 e+20|
+|Inhos|poesia|anima|7|23|220|103|314.496.000 (milhões)  |3,145 e+08|
+|Insano|joco|joco|7|20|220|157|7.044.710.400.000 (trilhões)  |7,045 e+12|
+|Isso|ensaio|persona|5|10|260|254|11.623.772.160 (bilhões)  |1,162 e+10|
+|Jealousy|poesia|joco|5|nonono|nonono|179|6.954 (mil)  |6,954 e+03|
+|Joker|joco|joco|4|20|226|195|55.552.573.440.000 (trilhões)  |5,555 e+13|
+|Lato|poesia|author|11|39|333|297|81.193.277.336.371.200.000 (quintilhões)  |8,119 e+19|
+|Leao=f|zodíaco|esoteric|6|29|96|58|1.036.800 (milhões)  |1,037 e+06|
+|Leao=m|zodíaco|esoteric|6|26|96|58|1.036.800 (milhões)  |1,037 e+06|
+|Leituras|metalinguagem|author|13|47|211|136|1.024.192.512.000.000 (quatrilhões)  |1,024 e+15|
+|Lero|poesia|machina|6|22|461|221|25.744.446.000 (bilhões)  |2,574 e+10|
+|Liberta|poesia|anima|12|51|193|131|5.735.478.067.200 (trilhões)  |5,735 e+12|
+|Libra=f|zodíaco|esoteric|6|30|118|77|21.228.480 (milhões)  |2,123 e+07|
+|Libra=m|zodíaco|esoteric|6|29|118|77|21.228.480 (milhões)  |2,123 e+07|
+|Loremipsum|ensaio|machina|10|39|83|38|414.720 (mil)  |4,147 e+05|
+|Machbeth|poesia|persona|13|51|403|163|398.340.963.820.800 (trilhões)  |3,983 e+14|
+|Machbrait|poesia|anima|17|61|515|206|106.563.309.679.411.200.000 (quintilhões)  |1,066 e+20|
+|Manifesto|poesia|machina|17|90|660|502|14.654.228.053.293.799.911.686.129.319.936.000.000 (undecilhões)  |1,465 e+37|
+|Manusgrite|metalinguagem|joco|14|47|173|130|963.158.999.040.000 (trilhões)  |9,632 e+14|
+|Manusgrito|metalinguagem|author|14|49|164|128|842.764.124.160.000 (trilhões)  |8,428 e+14|
+|Meteoro|joco|joco|13|48|394|282|364.969.648.078.376.140.800 (quintilhões)  |3,65 e+20|
+|Minuto|joco|esoteric|7|25|323|213|2.817.522.540.000 (trilhões)  |2,818 e+12|
+|Mirante|poesia|persona|7|24|265|211|7.892.654.740.185.600 (quatrilhões)  |7,893 e+15|
+|Nonono|ensaio|machina|11|42|592|330|165.973.888.425.945.600.000 (quintilhões)  |1,66 e+20|
+|Nós|poesia|machina|11|53|176|98|9.172.942.848 (bilhões)  |9,173 e+09|
+|Oca|poesia|beauty|4|11|226|159|26.854.027.200 (bilhões)  |2,685 e+10|
+|Ocio|joco|joco|17|77|647|424|36.537.019.332.210.695.208.960.000.000.000.000 (decilhões)  |3,654 e+34|
+|Oco|poesia|anima|4|13|217|154|18.069.480.000 (bilhões)  |1,807 e+10|
+|Oficio|joco|author|20|69|580|484|400.090.396.845.543.284.155.613.184.000.000 (nonilhões)  |4,001 e+32|
+|Ogiva|poesia|beauty|6|25|340|225|1.624.147.132.608.000 (quatrilhões)  |1,624 e+15|
+|Olhares|poesia|persona|17|73|556|453|2.976.553.749.506.710.044.672.000.000.000 (nonilhões)  |2,977 e+30|
+|Palyndro|ensaio|machina|17|21|69|52|967.680 (mil)  |9,677 e+05|
+|Papilio|poesia|persona|17|56|798|299|17.276.809.528.053.504.000 (quintilhões)  |1,728 e+19|
+|Paroles|metalinguagem|machina|7|27|501|263|342.203.852.390.400 (trilhões)  |3,422 e+14|
+|Passagens|poesia|machina|9|28|167|117|79.814.592.000 (bilhões)  |7,981 e+10|
+|Peixes=f|zodíaco|esoteric|8|32|117|53|1.209.600 (milhões)  |1,21 e+06|
+|Peixes=m|zodíaco|esoteric|8|32|116|52|1.058.400 (milhões)  |1,058 e+06|
+|Perfil|joco|beauty|6|41|573|291|91.341.432.174.182.400 (quatrilhões)  |9,134 e+16|
+|Pessoa|poesia|anima|9|33|121|58|4.665.600 (milhões)  |4,666 e+06|
+|Portal|poesia|machina|8|23|572|305|173.688.769.800 (bilhões)  |1,737 e+11|
+|Posfácio|poesia|anima|18|89|339|267|23.356.081.768.224.522.240.000.000 (setilhões)  |2,336 e+25|
+|Preciso|poesia|machina|14|52|241|116|3.106.717.286.400 (trilhões)  |3,107 e+12|
+|Prefácil|poesia|joco|17|52|379|308|4.056.543.979.949.260.800.000.000 (setilhões)  |4,057 e+24|
+|Psiume|poesia|anima|4|16|741|330|196.263.540 (milhões)  |1,963 e+08|
+|Reger|poesia|anima|8|35|149|85|404.352.000 (milhões)  |4,044 e+08|
+|Reinos|joco|joco|13|51|281|256|789.146.976.367.411.200 (quatrilhões)  |7,891 e+17|
+|Remedeio|joco|joco|3|14|571|185|1.967.232 (milhões)  |1,967 e+06|
+|Rever|poesia|anima|5|18|158|76|2.379.456 (milhões)  |2,379 e+06|
+|Rito|joco|joco|5|13|171|133|7.302.960.000 (bilhões)  |7,303 e+09|
+|Sagitari=f|zodíaco|esoteric|9|43|129|81|2.911.334.400 (bilhões)  |2,911 e+09|
+|Sagitari=m|zodíaco|esoteric|9|42|129|81|2.911.334.400 (bilhões)  |2,911 e+09|
+|Salute|joco|machina|6|22|709|267|32.637.136.896 (bilhões)  |3,264 e+10|
+|Saudades|poesia|persona|7|25|263|168|2.599.674.157.080 (trilhões)  |2,6 e+12|
+|Seguro|joco|joco|11|34|120|63|167.961.600 (milhões)  |1,68 e+08|
+|Sentença|joco|anima|10|39|247|165|159.667.040.332.800 (trilhões)  |1,597 e+14|
+|Ser|poesia|anima|4|15|758|284|21.506.100 (milhões)  |2,151 e+07|
+|Silente|poesia|anima|11|50|361|254|313.233.575.510.016.000.000 (quintilhões)  |3,132 e+20|
+|Sinais|poesia|anima|7|13|517|435|4.570.919.100.000.000 (quatrilhões)  |4,571 e+15|
+|Sinas|ensaio|beauty|7|13|515|435|4.570.919.100.000.000 (quatrilhões)  |4,571 e+15|
+|Sn6=ball|ensaio|machina|15|14|237|252|258.863.705.100.000 (trilhões)  |2,589 e+14|
+|Sn8=ball|ensaio|machina|18|16|237|251|1.682.614.083.150.000 (quatrilhões)  |1,683 e+15|
+|SnowBall|ensaio|machina|20|22|410|427|20.591.283.290.444.226.360.000.000 (setilhões)  |2,059 e+25|
+|Solero|poesia|machina|8|27|512|244|595.158.782.400 (bilhões)  |5,952 e+11|
+|Sonoro|poesia|anima|3|6|105|90|1.192.320 (milhões)  |1,192 e+06|
+|Sopros|poesia|anima|11|41|297|189|94.680.907.776.000.000 (quatrilhões)  |9,468 e+16|
+|Sos|joco|joco|6|21|219|165|1.018.559.453.184 (trilhões)  |1,019 e+12|
+|Ss1|ensaio|machina|17|31|672|350|388.588.515.194.880.000 (quatrilhões)  |3,886 e+17|
+|Ss2|ensaio|machina|17|32|672|350|388.588.515.194.880.000 (quatrilhões)  |3,886 e+17|
+|Sua|poesia|beauty|4|17|208|81|63.840 (mil)  |6,384 e+04|
+|Tempo|poesia|machina|17|67|5867|3102|7.247.770.007.124.225.427.373.632.189.851.972.403.200.000.000 (quatordecilhões)  |7,248 e+45|
+|Tiro|metalinguagem|anima|11|35|881|384|2.903.854.393.440.000.000 (quintilhões)  |2,904 e+18|
+|Tolero|poesia|anima|17|71|3906|1751|644.297.645.803.080.334.952.235.904.398.544.129.228.800.000 (tredecilhões)  |6,443 e+44|
+|Touro=f|zodíaco|esoteric|6|21|120|59|1.254.528 (milhões)  |1,255 e+06|
+|Touro=m|zodíaco|esoteric|6|22|120|59|1.254.528 (milhões)  |1,255 e+06|
+|Usinas|poesia|anima|10|37|250|225|102.938.787.190.407.168.000 (quintilhões)  |1,029 e+20|
+|Veio|poesia|anima|10|39|589|373|40.547.657.206.524.948.480.000 (sextilhões)  |4,055 e+22|
+|Victor|poesia|anima|9|30|282|112|308.998.800 (milhões)  |3,09 e+08|
+|Virgem=f|zodíaco|esoteric|9|27|131|110|4.255.027.200 (bilhões)  |4,255 e+09|
+|Virgem=m|zodíaco|esoteric|9|29|128|107|3.616.773.120 (bilhões)  |3,617 e+09|
+|Zelo|poesia|persona|8|28|729|250|79.535.520 (milhões)  |7,954 e+07|
+|Zodiacaos|zodíaco|joco|16|69|386|306|9.490.725.289.945.202.688.000.000.000.000 (nonilhões)  |9,491 e+30|
+|Zoia|poesia|persona|17|79|614|484|23.297.836.384.021.203.533.168.640.000.000.000 (decilhões)  |2,33 e+34|

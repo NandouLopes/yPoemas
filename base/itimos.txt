@@ -45,7 +45,7 @@ Escorpio=m : 72
 Escriba : 236
 Essa : 186
 Estudo : 241
-Fatos : 326
+Fatos : 328
 Feiras : 247
 Festim : 147
 Finalmentes : 196
@@ -75,7 +75,7 @@ Libra=m : 77
 Loremipsum : 38
 Machbeth : 163
 Machbrait : 206
-Manifesto : 501
+Manifesto : 502
 Manusgrite : 130
 Manusgrito : 128
 Meteoro : 282
@@ -99,6 +99,7 @@ Perfil : 291
 Pessoa : 58
 Portal : 305
 Posfácio : 267
+Preciso : 116
 Prefácil : 308
 Psiume : 330
 Reger : 85
@@ -126,8 +127,8 @@ Sos : 165
 Ss1 : 350
 Ss2 : 350
 Sua : 81
-Tempo : 3073
-Tiro : 385
+Tempo : 3102
+Tiro : 384
 Tolero : 1751
 Touro=f : 59
 Touro=m : 59
