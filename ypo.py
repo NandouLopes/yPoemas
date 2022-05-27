@@ -1106,7 +1106,7 @@ def page_off_machina():  # available off_machina_books
     last = last.button("◀", help=help_last)
     rand = rand.button("✴", help=help_rand)
     nest = nest.button("▶", help=help_nest)
-    love = love.button("✈", help=help_love)
+    love = love.button("❤", help=help_love)
     manu = manu.button("?", help="help !!!")
 
     this_off_book = load_off_book(off_book_name)
