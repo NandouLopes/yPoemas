@@ -3,7 +3,7 @@ ___
 - ◀ = move para o tema anterior  
 - ★ = escolhe um tema aleatoriamente  
 - ▶ = move para o próximo tema  
-- ✈ = temas mais lidos (uso interno)  
+- ❤ = temas mais lidos (uso interno)  
 - ?  = Manual do Usuário  
 ___
 **dentro do box de textos**  
