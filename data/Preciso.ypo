@@ -12,33 +12,33 @@
 *- 
 |01|01|Preciso_0101|F|3|2|Não preciso de|Coisas a se evitar|Não me fazem falta|
 |01|02|Preciso_0102|F|2|2|:|...|
-|02|01|Preciso_0201|F|8|5|palpites|conselhos|ironias|falcatruas|preconceitos|intolerâncias|ideias pre-concebidas|intransigências|
+|02|01|Preciso_0201|F|8|7|palpites|conselhos|ironias|falcatruas|preconceitos|intolerâncias|ideias pre-concebidas|intransigências|
 |02|02|Preciso_0202|F|1|1|,|
-|02|03|Preciso_0203|F|10|9|máquinas de costura manuais|descascadores de abacaxi|enceradeiras inoxidáveis|luxos roubados|trituradores de frutas|pesquisas de opinião|carros de luxo|produtos de marca|vendedores de consórcios|formadores de opinião|
+|02|03|Preciso_0203|F|10|3|máquinas de costura manuais|descascadores de abacaxi|enceradeiras inoxidáveis|luxos roubados|trituradores de frutas|pesquisas de opinião|carros de luxo|produtos de marca|vendedores de consórcios|formadores de opinião|
 |02|04|Preciso_0204|F|1|1|,|
-|03|01|Preciso_0301|F|14|13|discutir com xiitas|concordar com absurdos|ler fake-news|ententer o abstrato|duvidar de sonhos|verdades soberanas|criar fake-news|discursos vazios|curtidas sem comentários|informações inúteis|crer em fake-news|acatar o nefasto|divergir do óbvio|acordar com o insensato|
+|03|01|Preciso_0301|F|14|7|discutir com xiitas|concordar com absurdos|ler fake-news|ententer o abstrato|duvidar de sonhos|verdades soberanas|criar fake-news|discursos vazios|curtidas sem comentários|informações inúteis|crer em fake-news|acatar o nefasto|divergir do óbvio|acordar com o insensato|
 |03|02|Preciso_0302|F|1|1|,|
-|03|03|Preciso_0301|T|14|4|discutir com xiitas|concordar com absurdos|ler fake-news|ententer o abstrato|duvidar de sonhos|verdades soberanas|criar fake-news|discursos vazios|curtidas sem comentários|informações inúteis|crer em fake-news|acatar o nefasto|divergir do óbvio|acordar com o insensato|
-|04|01|Preciso_0401|F|4|3|ou|e muito menos|... ou pior:|menos ainda|
-|04|02|Preciso_0402|F|5|3|que me digam para onde ir.|que pensem que penso igual.|que me digam o que fazer.|a ignorância dos fatos.|que me apontem caminhos!|
+|03|03|Preciso_0301|T|14|6|discutir com xiitas|concordar com absurdos|ler fake-news|ententer o abstrato|duvidar de sonhos|verdades soberanas|criar fake-news|discursos vazios|curtidas sem comentários|informações inúteis|crer em fake-news|acatar o nefasto|divergir do óbvio|acordar com o insensato|
+|04|01|Preciso_0401|F|4|1|ou|e muito menos|... ou pior:|menos ainda|
+|04|02|Preciso_0402|F|5|2|que me digam para onde ir.|que pensem que penso igual.|que me digam o que fazer.|a ignorância dos fatos.|que me apontem caminhos!|
 |05|00|
 |06|01|Preciso_0601|F|3|3|Isso,|Consequentemente,|Pensando bem,|
-|06|02|Preciso_0602|F|7|6|nem reparo.|mal me interessa!|desdenho...|é desimportante.|não me cabe.|solene, desprezo.|não mais finjo!|
+|06|02|Preciso_0602|F|7|7|nem reparo.|mal me interessa!|desdenho...|é desimportante.|não me cabe.|solene, desprezo.|não mais finjo!|
 |07|00|
-|08|01|Preciso_0801|F|9|5|Mas|Afinal|Todavia|Porém|Contudo|Não obstante|Entrementes|Por outro lado|Outrossim|
+|08|01|Preciso_0801|F|9|8|Mas|Afinal|Todavia|Porém|Contudo|Não obstante|Entrementes|Por outro lado|Outrossim|
 |08|02|Preciso_0802|F|1|1|,|
 |08|03|Preciso_0803|F|3|2|ao ver apenas o que preciso,|limitado ao preciso,|pensando assim,|
-|09|01|Preciso_0901|F|4|1|esqueço-me do|nem pergunto sobre o|deixo de lado o|desconsidero o|
-|09|02|Preciso_0902|F|7|7|inesperado|que virá|futuro|inusitado|olhar para o novo|imprevisível|contar estrelas|
+|09|01|Preciso_0901|F|4|3|esqueço-me do|nem pergunto sobre o|deixo de lado o|desconsidero o|
+|09|02|Preciso_0902|F|7|1|inesperado|que virá|futuro|inusitado|olhar para o novo|imprevisível|contar estrelas|
 |09|03|Preciso_0903|F|1|1|.|
 |10|00|
 |11|01|Preciso_1101|F|1|1|Talvez melhor|
-|11|02|Preciso_1102|F|4|1|descartar algum vício...|descobrir alegrias!|olhar para dentro...|ouvir uma sinfonia!|
+|11|02|Preciso_1102|F|4|3|descartar algum vício...|descobrir alegrias!|olhar para dentro...|ouvir uma sinfonia!|
 |12|01|Preciso_1201|F|1|1|Não precisar é|
-|12|02|Preciso_1202|F|4|1|um hábito|uma dádiva|preciso|ser você mesmo|
+|12|02|Preciso_1202|F|4|3|um hábito|uma dádiva|preciso|ser você mesmo|
 |12|03|Preciso_1203|F|1|1|.|
 |13|00|
-|14|01|Preciso_1401|F|7|6|Entre a precisão e a "precisão", como ser neutro? (Cassiano Ricardo)|Só sei que não vou por aí! (José Régio)|A liberdade é não ter que ter pra onde ir. (Nando Lopes)|O nome disso é liberdade! (Anônimo)|Invente o seu dia do "Não preciso disso..." (Anônimo)|Toda unanimidade é burra. (Nelson Rodrigues)|"É preciso que o dia seja diferente?" (Você Mesmo)|
+|14|01|Preciso_1401|F|7|7|Entre a precisão e a "precisão", como ser neutro? (Cassiano Ricardo)|Só sei que não vou por aí! (José Régio)|A liberdade é não ter que ter pra onde ir. (Nando Lopes)|O nome disso é liberdade! (Anônimo)|Invente o seu dia do "Não preciso disso..." (Anônimo)|Toda unanimidade é burra. (Nelson Rodrigues)|É preciso que o dia seja diferente? (Anônimo)|Navegar é preciso. Viver não é preciso. (Pompeu, Petrarca & Fernando Pessoa)|
 <EOF>
 
 [ideias]
