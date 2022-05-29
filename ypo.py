@@ -18,9 +18,10 @@ deploy: https://share.streamlit.io/nandoulopes/ypoemas/main/ypo.py
 config: chrome://settings/content/siteDetails?site=https%3A%2F%2Fauth.streamlit.io
 transl: https://translate.google.com/
 
+users_id changed to IPAddr
+
 VISY == New Visitor
 NANY_VISY == Number of Visitors
-OVNY == anOther Visitor iN Ypoemas
 LYPO == Last YPOema created from curr_ypoema
 TYPO == Translated YPOema from LYPO
 POLY == Poliglot Idiom == Changed on Catalán
@@ -33,6 +34,7 @@ import re
 import time
 import random
 import base64
+import socket  # Internet
 import streamlit as st
 import extra_streamlit_components as stx
 
@@ -40,13 +42,12 @@ from datetime import datetime
 
 # Project Modules
 from lay_2_ypo import gera_poema
-from infos import load_info
-
-import pytz    # Universal Time Coordinated (UTC)
-import socket  # Internet
 
 ### bof: settings
 
+# from PIL import Image
+# img=Image.open('logo_ypo.png')
+#     page_icon=img,
 st.set_page_config(
     page_title='a máquina de fazer Poesia - yPoemas',
     page_icon=":star:",
@@ -54,17 +55,12 @@ st.set_page_config(
     initial_sidebar_state="auto",
 )
 
-def utcnow():  # Universal Time Coordinated (UTC)
-    return datetime.now(tz=pytz.utc)
-
-def utcnew():  # Local Time for ovny_data.txt
-    tznow = str(datetime.now().astimezone())
-    return tznow[-6:]
 
 try:
     from deep_translator import GoogleTranslator
 except ImportError as ex:
     st.warning("Google Translator não conectado. Traduções não disponíveis no momento.")
+
 
 try:
     from gtts import gTTS
@@ -81,9 +77,9 @@ def internet(host="8.8.8.8", port=53, timeout=3):
         return False
 
 
-# the User IP for LYPO, TYPO
+# the User IPAddres for LYPO, TYPO
 hostname = socket.gethostname()
-users_id = socket.gethostbyname(hostname)
+IPAddres = socket.gethostbyname(hostname)
 
 
 # hide Streamlit Menu
@@ -223,8 +219,7 @@ def show_icons():  # https://api.whatsapp.com/
     )
 
 
-# define idioma
-def pick_lang():
+def pick_lang():  # define idioma
     btn_pt, btn_es, btn_it, btn_fr, btn_en, btn_xy = st.sidebar.columns(
         [1.1, 1.13, 1.04, 1.04, 1.17, 1.25]
     )
@@ -331,44 +326,6 @@ def update_visy():  # count one more visitor
     visitors.close()
 
 
-def load_ovny():  # days, zone, full
-    this_list = []
-    with open(os.path.join("./temp/ovny_data.txt"), "r", encoding="utf-8") as data:
-        for line in data:
-            line = line.replace('T', '|')
-            line = line.replace(' ', '|')
-            this_list.append(line)
-#            currrent_day = datetime.now()
-#            register_day = line[0:16]
-#            date_time_obj = datetime.datetime.strptime(register_day, '%Y-%m-%d %H:%M:%S.%f')
-#            print('Date:', date_time_obj.date())
-#            print('Time:', date_time_obj.time())
-#            print('Date-time:', date_time_obj)
-#
-#            register_day = datetime.strptime(register_day, '%Y-%m-%d').date()
-#            days_of_runs = currrent_day - register_day
-#            if days_of_runs < 11:
-#                line = line.replace('T', '|')
-#                line = line.replace(' ', '|')
-#                this_list.append(line)
-#        data.close()
-
-#    with open(os.path.join("./temp/ovny_data.txt"), "w", encoding="utf-8") as data:
-#        for line in this_list:
-#            data.write(line)
-#        data.close()
-
-    return this_list
-
-
-def update_ovny():  # count one more ovny
-    ovny_data = utcnow().isoformat()
-    date_time = ovny_data[0:16]
-    with open(os.path.join("./temp/ovny_data.txt"), "a", encoding="utf-8") as data:
-        data.write(date_time + " " + utcnew() + "|"  + users_id + "\n")
-    data.close()
-
-
 def load_readings():
     readers_list = []
     with open(os.path.join("./temp/read_list.txt"), encoding="utf-8") as reader:
@@ -422,68 +379,40 @@ def list_readings():
     views_by_day = total_viewes / days_of_runs
     reads_by_day = sum_all_days / total_viewes
 
-    options = list(range(len(read_days)))
+    options = list(range(len(read_days)))  # ↓  '⚫  ' '↓'
     opt_readings = st.selectbox(
-        str(len(read_days)) + " temas, " + str(sum_all_days)
+        '↓  ' + str(len(read_days)) + " temas, " + str(sum_all_days)
         + " leituras por "
         + str(total_viewes)
         + " visitantes ( "
         + str(int(views_by_day))
         + " / "
         + f"{reads_by_day:.2}"
-        + " )",
+        + " ) ( "
+        + IPAddres + ' )',
         options,
         format_func=lambda x: read_days[x],
         key="opt_readings",
     )
 
-    visitors = []
-    tot_days = 0
-    tmp_date = datetime(2001, 1, 1)
-    ovny_list = load_ovny()
-    for line in ovny_list:
-        date = line[0:10]
-        visitors.append(line)
-        if not date == tmp_date:
-            tot_days += 1
-            tmp_date = date
-    visitors.pop(0)  # because ini_day = "2001-01-01"
-
-    options = list(range(len(visitors)))
-    opt_leituras = st.selectbox(
-        str(len(visitors)) + " visitas em " + str(tot_days) + " dias",
-        options,
-        format_func=lambda x: visitors[x],
-        key="box_ovny",
-        )
 
 ### eof: update themes readings
 ### bof: loaders
 
 
 @st.cache(allow_output_mutation=True)
-def load_file(file):  # Open files for about's
+def load_md_file(file):  # Open files for about's
     try:
         with open(os.path.join("./md_files/" + file), encoding="utf-8") as file_to_open:
             file_text = file_to_open.read()
 
         if not ".rol" in file:
             file_text = translate(file_text)
-
     except:
-        file_text = "ooops... arquivo ( " + file + " ) não pode ser aberto. Sorry."
+        file_text = translate('ooops... arquivo ( ' + file + ' ) não pode ser aberto.')
         st.session_state.lang = "pt"
     return file_text
 
-
-@st.cache(allow_output_mutation=True)
-def load_images():
-    images_list = []
-    with open(os.path.join("./base/images.txt"), encoding="utf-8") as lista:
-        for line in lista:
-            images_list.append(line)
-    return images_list
-    
 
 @st.cache(allow_output_mutation=True)
 def load_eureka(part_of_word):  # Lexicon
@@ -509,6 +438,39 @@ def load_temas(book):  # List of yPoemas themes inside a Book
 
 
 @st.cache(allow_output_mutation=True)
+def load_info(nome_tema):
+    with open(os.path.join("./base/" + "info.txt"), "r", encoding="utf-8") as file:
+        result = ""
+        for line in file:
+            if line.startswith("|"):
+                pipe = line.split("|")
+                if pipe[1].upper() == nome_tema.upper():
+                    genero = pipe[2]
+                    imagem = pipe[3]
+                    qtd_versos = pipe[4]
+                    qtd_wordin = pipe[5]
+                    qtd_lexico = pipe[6]
+                    qtd_itimos = pipe[7]
+                    qtd_analiz = pipe[8]
+                    qtd_cienti = pipe[9]
+                    result += "<br>"
+                    result += "<br>"
+                    result += "<br>"
+                    result += "Titulo: " + nome_tema + "<br>"
+                    result += "Gênero: " + genero + "  " + "<br>"
+                    result += "Imagem: " + imagem + "  " + "<br>"
+                    result += "Versos: " + qtd_versos + "  " + "<br>"
+                    result += "Verbetes no texto: " + qtd_wordin + "  " + "<br>"
+                    result += "Verbetes  do Tema: " + qtd_lexico + "  " + "<br>"
+                    result += "• Banco de Ítimos: " + qtd_itimos + "  " + "<br>"
+                    result += "Análise : " + qtd_analiz + "  " + "<br>"
+                    result += "Notação Científica: " + qtd_cienti + "  " + "<br>"
+                    result += "<br>"
+
+        return result
+
+
+@st.cache(allow_output_mutation=True)
 def load_index():  # Load indexes numbers for all themes
     index_list = []
     with open(os.path.join("./md_files/ABOUT_INDEX.md"), encoding="utf-8") as lista:
@@ -519,7 +481,7 @@ def load_index():  # Load indexes numbers for all themes
 
 def load_lypo():  # Load last yPoema & replace "\n" with "<br>" for translator returned text
     lypo_text = ""
-    lypo_user = "LYPO_" + users_id
+    lypo_user = "LYPO_" + IPAddres
     with open(os.path.join("./temp/" + lypo_user), encoding="utf-8") as script:
         for line in script:
             line = line.strip()
@@ -529,7 +491,7 @@ def load_lypo():  # Load last yPoema & replace "\n" with "<br>" for translator r
 
 def load_typo():  # Load translated yPoema & clean translator returned bugs in text
     typo_text = ""
-    typo_user = "TYPO_" + users_id
+    typo_user = "TYPO_" + IPAddres
     with open(os.path.join("./temp/" + typo_user), encoding="utf-8") as script:
         for line in script:  # just 1 line
             line = line.strip()
@@ -556,7 +518,7 @@ def load_all_offs():
 
 
 @st.cache(allow_output_mutation=True)
-def load_off_book(book):  # Load selected Book
+def load_off_book(book):  # Load selected off_book
     book_full = []
     full_name = os.path.join("./off_machina/", book) + ".Pip"
     with open(full_name, encoding="utf-8") as file:
@@ -565,7 +527,7 @@ def load_off_book(book):  # Load selected Book
     return book_full
 
 
-def load_book_pages(book):  # Load Book pages for book
+def load_book_pages(book):  # Load Book pages for off_book
     page_numer = 0
     book_pages = []
     for line in book:
@@ -583,7 +545,7 @@ def load_book_pages(book):  # Load Book pages for book
 def load_poema(nome_tema, seed_eureka):  # generate new yPoema
     script = gera_poema(nome_tema, seed_eureka)
     novo_ypoema = ""
-    lypo_user = "LYPO_" + users_id
+    lypo_user = "LYPO_" + IPAddres
 
     with open(os.path.join("./temp/" + lypo_user), "w", encoding="utf-8") as save_lypo:
         save_lypo.write(
@@ -602,6 +564,15 @@ def load_poema(nome_tema, seed_eureka):  # generate new yPoema
     save_lypo.close()  # save a copy of last generated in LYPO
     return novo_ypoema
 
+
+@st.cache(allow_output_mutation=True)
+def load_images():
+    images_list = []
+    with open(os.path.join("./base/images.txt"), encoding="utf-8") as lista:
+        for line in lista:
+            images_list.append(line)
+    return images_list
+    
 
 def load_arts(nome_tema):  # Select image for arts
     path = "./images/machina/"
@@ -692,7 +663,7 @@ def talk(text):  # text to speech( in session_state.lang )
 
 
 def show_video(pagina):  # vídeo-tutorial da página
-    st.sidebar.info(load_file("INFO_VYDE.md"))
+    st.sidebar.info(load_md_file("INFO_VYDE.md"))
     video_name = os.path.join("./base/" + "video_" + pagina + ".webm")
     video_file = open(video_name, "rb")
     video_byts = video_file.read()
@@ -747,7 +718,14 @@ def translate(input_text):
 
 if st.session_state.visy:  # check visitor once
     update_visy()
-    update_ovny()
+
+    temas_list = load_temas("temas_mini")
+    maxy = len(temas_list) - 1
+    st.session_state.take = random.randrange(0, maxy, 1)
+    temas_list = load_temas("todos os temas")
+    maxy = len(temas_list) - 1
+    st.session_state.mini = random.randrange(0, maxy, 1)
+
     st.success('bem vindo à **máquina de fazer Poesia...**')
     st.session_state.visy = False
 
@@ -767,26 +745,26 @@ def main():
     pick_draw()
 
     if chosen_id == '1':
-        st.sidebar.info(load_file("INFO_MINI.md"))
-        st.sidebar.info(load_file("INFO_BEST.md"))
+        st.sidebar.info(load_md_file("INFO_MINI.md"))
+        st.sidebar.info(load_md_file("INFO_BEST.md"))
         page_mini()
     elif chosen_id == '2':
-        st.sidebar.info(load_file("INFO_YPOEMAS.md"))
+        st.sidebar.info(load_md_file("INFO_YPOEMAS.md"))
         page_ypoemas()
     elif chosen_id == '3':
-        st.sidebar.info(load_file("INFO_EUREKA.md"))
+        st.sidebar.info(load_md_file("INFO_EUREKA.md"))
         page_eureka()
     elif chosen_id == '4':
-        st.sidebar.info(load_file("INFO_OFF-MACHINA.md"))
+        st.sidebar.info(load_md_file("INFO_OFF-MACHINA.md"))
         page_off_machina()
     elif chosen_id == '5':
-        st.sidebar.info(load_file("INFO_BOOKS.md"))
+        st.sidebar.info(load_md_file("INFO_BOOKS.md"))
         page_books()
     elif chosen_id == '6':
-        st.sidebar.info(load_file("INFO_POLY.md"))
+        st.sidebar.info(load_md_file("INFO_POLY.md"))
         page_polys()
     elif chosen_id == '7':
-        st.sidebar.info(load_file("INFO_ABOUT.md"))
+        st.sidebar.info(load_md_file("INFO_ABOUT.md"))
         page_abouts()
 
     show_icons()
@@ -805,7 +783,7 @@ def page_mini():
     help_me = load_help(st.session_state.lang)
     help_rand = help_me[1]
     help_more = help_me[4]
-    rand = rand.button("✴", help=help_rand)
+    rand = rand.button("✻", help=help_rand)
     
     if rand:
         st.session_state.mini = random.randrange(0, maxy, 1)
@@ -833,7 +811,7 @@ def page_mini():
             
             if st.session_state.lang != "pt":  # translate if idioma <> pt
                 curr_ypoema = translate(curr_ypoema)
-                typo_user = "TYPO_" + users_id
+                typo_user = "TYPO_" + IPAddres
                 with open(
                     os.path.join("./temp/" + typo_user), "w", encoding="utf-8"
                 ) as save_typo:
@@ -872,7 +850,7 @@ def page_ypoemas():
 
     more = more.button("✚", help=help_more)
     last = last.button("◀", help=help_last)
-    rand = rand.button("✴", help=help_rand)
+    rand = rand.button("✻", help=help_rand)
     nest = nest.button("▶", help=help_nest)
     
     if last:
@@ -890,7 +868,7 @@ def page_ypoemas():
     
     options = list(range(len(temas_list)))
     opt_take = st.selectbox(
-        "",
+        "↓  lista de temas",
         options,
         index=st.session_state.take,
         format_func=lambda z: temas_list[z],
@@ -907,7 +885,7 @@ def page_ypoemas():
     lnew = True
     if manu:
         lnew = False
-        st.subheader(load_file("MANUAL_YPOEMAS.md"))
+        st.subheader(load_md_file("MANUAL_YPOEMAS.md"))
 
         LOGO_TEXT = load_info(st.session_state.tema)
         if st.session_state.lang != "pt":  # translate if idioma <> pt
@@ -945,7 +923,7 @@ def page_ypoemas():
 
             if st.session_state.lang != "pt":  # translate if idioma <> pt
                 curr_ypoema = translate(curr_ypoema)
-                typo_user = "TYPO_" + users_id
+                typo_user = "TYPO_" + IPAddres
                 with open(
                     os.path.join("./temp/" + typo_user), "w", encoding="utf-8"
                 ) as save_typo:
@@ -964,7 +942,7 @@ def page_ypoemas():
         if st.session_state.talk:
             talk(curr_ypoema)
 
-        # st.markdown(get_binary_file_downloader_html('./temp/'+"LYPO_" + users_id, '➪ '+st.session_state.tema), unsafe_allow_html=True)
+        # st.markdown(get_binary_file_downloader_html('./temp/'+"LYPO_" + IPAddres, '➪ '+st.session_state.tema), unsafe_allow_html=True)
 
 
 def page_eureka():
@@ -984,7 +962,7 @@ def page_eureka():
         more = more.button("✚", help=help_more)
 
     with rand:
-        rand = rand.button("✴", help=help_rand)
+        rand = rand.button("✻", help=help_rand)
             
     if len(find_what) < 3:
         st.warning("digite pelo menos 3 letras...")
@@ -1019,7 +997,7 @@ def page_eureka():
             with occurrences:
                 options = list(range(len(seed_list)))
                 opt_ocur = st.selectbox(
-                    str(len(seed_list)) + " " + info_find,
+                    '↓  ' + str(len(seed_list)) + " " + info_find,
                     options,
                     index=st.session_state.eureka,
                     format_func=lambda y: seed_list[y],
@@ -1061,7 +1039,7 @@ def page_eureka():
             if lnew:
                 if aide:
                     st.markdown(analise, unsafe_allow_html=True)
-                    st.subheader(load_file("MANUAL_EUREKA.md"))
+                    st.subheader(load_md_file("MANUAL_EUREKA.md"))
                 else:
                     eureka_expander = st.expander("", expanded=True)
                     with eureka_expander:
@@ -1083,7 +1061,7 @@ def page_off_machina():  # available off_machina_books
     off_books_list = load_all_offs()
     options = list(range(len(off_books_list)))
     opt_off_book = st.selectbox(
-        "",
+        "↓  lista de livros",
         options,
         index=st.session_state.off_book,
         format_func=lambda x: off_books_list[x],
@@ -1104,7 +1082,7 @@ def page_off_machina():  # available off_machina_books
 
     foo1, last, rand, nest, love, manu, foo2 = st.columns([2.5, 1, 1, 1, 1, 1, 2.5])
     last = last.button("◀", help=help_last)
-    rand = rand.button("✴", help=help_rand)
+    rand = rand.button("✻", help=help_rand)
     nest = nest.button("▶", help=help_nest)
     love = love.button("❤", help=help_love)
     manu = manu.button("?", help="help !!!")
@@ -1131,7 +1109,7 @@ def page_off_machina():  # available off_machina_books
 
     options = list(range(len(off_book_pagys)))
     opt_off_take = st.selectbox(
-        "",
+        "↓  lista de títulos",
         options,
         index=st.session_state.off_take,
         format_func=lambda x: off_book_pagys[x],
@@ -1144,18 +1122,13 @@ def page_off_machina():  # available off_machina_books
     lnew = True
     if manu:
         lnew = False
-        st.subheader(load_file("MANUAL_OFF-MACHINA.md"))
+        st.subheader(load_md_file("MANUAL_OFF-MACHINA.md"))
 
     if love:
         lnew = False
         list_readings()
         st.markdown(
             get_binary_file_downloader_html("./temp/read_list.txt", "views"),
-            unsafe_allow_html=True,
-        )
-
-        st.markdown(
-            get_binary_file_downloader_html("./temp/ovny_data.txt", "ovnys"),
             unsafe_allow_html=True,
         )
 
@@ -1243,7 +1216,7 @@ def page_books():  # available books
 
         options = list(range(len(books_list)))
         opt_book = st.selectbox(
-            "",
+            "↓  lista de livros",
             options,
             index=books_list.index(st.session_state.book),
             format_func=lambda x: books_list[x],
@@ -1269,7 +1242,7 @@ def page_books():  # available books
 
             books_expander = st.expander("", True)
             with books_expander:
-                st.subheader(load_file("MANUAL_BOOKS.md"))
+                st.subheader(load_md_file("MANUAL_BOOKS.md"))
         
                 if doit:
                     st.session_state.take = 0
@@ -1296,7 +1269,7 @@ def page_polys():  # available languages
 
         options = list(range(len(poly_list)))
         opt_poly = st.selectbox(
-            str(len(poly_list)) + " idiomas",
+            '↓  lista: ' + str(len(poly_list)) + " idiomas",
             options,
             index=st.session_state.poly_take,
             format_func=lambda x: poly_list[x],
@@ -1326,7 +1299,7 @@ def page_polys():  # available languages
     if lnew:
         poly_expander = st.expander("", True)
         with poly_expander:
-            st.subheader(load_file("MANUAL_POLY.md"))
+            st.subheader(load_md_file("MANUAL_POLY.md"))
         
 
 def page_abouts():
@@ -1348,7 +1321,7 @@ def page_abouts():
 
     options = list(range(len(abouts_list)))
     opt_abouts = st.selectbox(
-        "",
+        "↓  sobre...",
         options,
         format_func=lambda x: abouts_list[x],
         key="opt_abouts",
@@ -1366,13 +1339,13 @@ def page_abouts():
         about_expander = st.expander("", True)
         with about_expander:
             if choice == 'MACHINA':
-                st.subheader(load_file("ABOUT_MACHINA_A.md"))
+                st.subheader(load_md_file("ABOUT_MACHINA_A.md"))
                 LOGO_TEXT = load_info(st.session_state.tema)
                 LOGO_IMAGE = "./images/matrix/" + st.session_state.tema + ".jpg"
                 write_ypoema(LOGO_TEXT, LOGO_IMAGE)
-                st.subheader(load_file("ABOUT_MACHINA_D.md"))
+                st.subheader(load_md_file("ABOUT_MACHINA_D.md"))
             else:
-                st.subheader(load_file("ABOUT_" + choice + ".md"))
+                st.subheader(load_md_file("ABOUT_" + choice + ".md"))
 
 ### eof: pages
 
