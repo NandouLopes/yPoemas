@@ -2,7 +2,7 @@ yPoemas: modo de usar
 ---
 - ✚ = Gera um novo texto para o tema.  
 - ◀ = Move para o tema anterior.  
-- ✴ = Escolhe um tema aleatoriamente.  
+- ✻ = Escolhe um tema aleatoriamente.  
 - ▶ = Move para o próximo tema.  
 - ?  = Modo de Usar & Manual do Usuário  
 ---

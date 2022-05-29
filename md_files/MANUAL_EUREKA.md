@@ -10,7 +10,7 @@ ___
 >> O **verbete** escolhido aparecerá **destacado** no texto.  
 >  
 >- Clique no botão **✚** para ler variações do mesmo tema.  
->- Clique no botão **✴** para ler uma tema da lista ao acaso.  
+>- Clique no botão **✻** para ler uma tema da lista ao acaso.  
 >  
 > Na lista de **ocorrências** digite letras para filtrar os resultados:  
 >> experimente 1 ou 2 letras para entender o efeito do **filtro**.

@@ -4,4 +4,4 @@ aleatóriamente pela **máquina**.
 
 Apenas duas opções:  
 **✚** para gerar um novo texto e  
-**✴** para escolher outro tema.  
+**✻** para escolher outro tema.  
