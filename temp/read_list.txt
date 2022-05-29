@@ -1,5 +1,5 @@
-|Ais|374|
-|Amaré|371|
+|Ais|419|
+|Amaré|382|
 |Anjos|20|
 |Aolero|0|
 |Aquarius=f|4|
@@ -7,7 +7,7 @@
 |ArErIr|16|
 |Aries=f|4|
 |Aries=m|1|
-|Astros|2|
+|Astros|7|
 |Atido|91|
 |Augusto|7|
 |Avevida|69|
@@ -19,7 +19,7 @@
 |Blablabla|3|
 |Bolero|0|
 |Brado|354|
-|Bula|0|
+|Bula|3|
 |Cancer=f|2|
 |Cancer=m|0|
 |Caprico=f|0|
@@ -31,12 +31,12 @@
 |Clarice|85|
 |Conto|52|
 |Cordel|2|
-|Cromossomo|217|
+|Cromossomo|218|
 |Cuores|174|
 |Destinos|129|
 |Distintos|188|
 |Dolores|41|
-|Duralex|0|
+|Duralex|4|
 |Elogio|123|
 |Enfrente|1|
 |Epitafiando|35|
@@ -46,7 +46,7 @@
 |Essa|132|
 |Estudo|30|
 |Fatos|118|
-|Feiras|174|
+|Feiras|175|
 |Festim|192|
 |Finalmentes|22|
 |Frases|45|
@@ -58,8 +58,8 @@
 |HayKay|0|
 |I-Mundo|124|
 |Impar|1|     
-|Indolor|26|
-|Inhos|126|
+|Indolor|28|
+|Inhos|129|
 |Insano|10|
 |Isso|93|
 |Jealousy|12|
@@ -75,7 +75,7 @@
 |Loremipsum|1|
 |MachBeth|14|
 |MachBrait|23|
-|Manifesto|290|
+|Manifesto|291|
 |Manusgrite|209|
 |Manusgrito|0|
 |Meteoro|88|
@@ -86,7 +86,7 @@
 |Oca|57|
 |Ocio|149|
 |Oco|21|
-|Oficio|124|
+|Oficio|136|
 |Ogiva|9|
 |Olhares|13|
 |Palyndro|1|
@@ -119,7 +119,7 @@
 |Sinas|1|
 |Sn6=ball|2|
 |Sn8=ball|0|
-|Snowball|2|
+|Snowball|3|
 |Solero|3|
 |Sonoro|2|
 |Sopros|188|
@@ -139,14 +139,14 @@
 |Virgem=m|0|
 |Zelo|143|
 |Zodiacaos|1|
-|Zoia|166|
+|Zoia|167|
 |a_torre_de_papel|72|
-|faz_de_conto|1|
+|faz_de_conto|4|
 |linguafiada|11|
 |livro_vivo|1|
 |quase_que_eu_Poesia|9|
 |um_romance|102|
-|video_mini|1|
+|video_mini|2|
 |video_ypoemas|1|
 |video_eureka|1|
 |video_off-machina|1|
