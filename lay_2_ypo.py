@@ -129,8 +129,8 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
                     itimo_escolhido = array_itimos[itimos_atual]
                 else:
                     st.warning(
-                        "Algo deu errado com o tema "
-                        + nome_tema.upper() + ". Se puder, entre em contato com o Autor."
+                        "Algo deu errado com os ítimos do tema "
+                        + nome_tema.upper() + ". Se puder, entre em contato com o '[autor](mailto:lopes.fernando@hotmail.com)'"
                         )
                     itimo_escolhido = "_Erro_"
 
@@ -223,7 +223,7 @@ def gera_poema(nome_tema, seed_source):  # abrir um script.ypo e gerar um novo t
     if len(lista_errata) > 0:
         st.warning(
         "Algo deu errado com o tema "
-        + nome_tema.upper() + ". Se puder, entre em contato com o Autor."
+        + nome_tema.upper() + ". Se puder, entre em contato com o '[autor](mailto:lopes.fernando@hotmail.com)'"
         )
     else:
         # rebuild script with new positions
