@@ -1,6 +1,3 @@
-|nome_tema|genero|imagem|versos|words_in|lexico|ítimos|analise|notação|
-|   [0]   |  [1] |  [2] |  [3] |   [4]  |  [5] |  [6] |  [7]  |  [8]  |
-
 |Ais|ensaio|machina|5|10|227|211|1.315.153.125 (bilhões)  |1,315 e+09|
 |Amaré|poesia|persona|7|24|246|251|54.191.856.554.035.200 (quatrilhões)  |5,419 e+16|
 |Anjos|poesia|machina|17|72|273|258|5.194.981.441.617.714.437.160.960.000.000 (nonilhões)  |5,195 e+30|
@@ -143,3 +140,6 @@
 |Zelo|poesia|persona|8|28|729|250|79.535.520 (milhões)  |7,954 e+07|
 |Zodiacaos|zodíaco|joco|16|69|386|306|9.490.725.289.945.202.688.000.000.000.000 (nonilhões)  |9,491 e+30|
 |Zoia|poesia|persona|17|79|614|484|23.297.836.384.021.203.533.168.640.000.000.000 (decilhões)  |2,33 e+34|
+
+|nome_tema|genero|imagem|versos|words_in|lexico|ítimos|analise|notação|
+|   [0]   |  [1] |  [2] |  [3] |   [4]  |  [5] |  [6] |  [7]  |  [8]  |
