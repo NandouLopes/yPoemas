@@ -431,7 +431,7 @@ def load_eureka(part_of_word):  # Lexicon
 @st.cache(suppress_st_warning=True, allow_output_mutation=True)
 def load_temas(book):  # List of yPoemas themes inside a Book
     book_list = []
-    with open(os.path.join("./base/" + book + ".rol"), "r", encoding="utf-8") as file:
+    with open(os.path.join("./base/" + book + ".ROL"), "r", encoding="utf-8") as file:
         for line in file:
             book_list.append(line.strip("\n"))
     return book_list
