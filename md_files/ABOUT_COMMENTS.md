@@ -111,12 +111,11 @@ O texto pode ser editado, modificado e recriado,
 até que obra e autor se tornem uma unidade poética cheia de sentimentos e emoções.  
 [saber mais...](https://x.facebook.com/silvioferreiraleitee)  
 ---  
-
 - **Silvia Vasconcellos**  
 
 Querido poeta.  
 Sua genialidade me causou perplexidade.  
-Com certeza um máquina auxiliar e criativa a serviço da poesia.  
+Com certeza uma máquina auxiliar e criativa a serviço da poesia.  
 
 Engana-se quem acha que tirou a personalidade e autenticidade do poeta,  
 uma vez que quem oferece o tema, as palavras e os versos para a máquina é o poeta.  
@@ -146,5 +145,5 @@ Legal!
 - **MarieLou Miranda Camargo-Nash**  
 
 It’s brilliant! Well done you! I love words.  
----
+---  
 Copyright © 1983-2022 Nando Lopes - **yPoemas @ máquina de fazer Poesia**
