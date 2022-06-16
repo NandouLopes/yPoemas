@@ -7,7 +7,7 @@
 *- |15|01|Pessoa_1501|F|1|1|( Palavras de Fernando Pessoa )|
 *-
 |01|01|Pessoa_0101|F|1|1|Estou hoje|
-|01|02|Pessoa_0102|F|4|1|vencido|lúcido|perplexo|dividido|
+|01|02|Pessoa_0102|F|4|3|vencido|lúcido|perplexo|dividido|
 |01|03|Pessoa_0103|F|1|1|,|
 |02|01|Pessoa_0201|F|1|1|como|
 |02|02|Pessoa_0202|F|6|4|se me guardasse em mim|quem esqueceu|se soubesse a verdade|quem pensou|se estivesse para morrer|quem achou|
@@ -24,9 +24,9 @@
 |06|02|Pessoa_0602|F|1|1|.|
 |07|00|
 |08|01|Pessoa_0801|F|1|1|Não|
-|08|02|Pessoa_0802|F|5|5|sei quantas almas tenho|tenho ambições nem desejos|sei sentir-me onde estou|posso querer ser nada|sou nada|
+|08|02|Pessoa_0802|F|5|2|sei quantas almas tenho|tenho ambições nem desejos|sei sentir-me onde estou|posso querer ser nada|sou nada|
 |08|03|Pessoa_0203|F|1|1|...|
-|09|01|Pessoa_0901|F|10|7|Minha alma é como um pastor|Minha tristeza é sossego|De tanto ser, só tenho alma|Sou minha própria paisagem|Tenho em mim todos os sonhos do mundo|Os meus pensamentos são contentes|Ando pela mão das estações|Sinto que tudo é sonho|Assisto à minha passagem|Sentir é estar distraído|
+|09|01|Pessoa_0901|F|10|9|Minha alma é como um pastor|Minha tristeza é sossego|De tanto ser, só tenho alma|Sou minha própria paisagem|Tenho em mim todos os sonhos do mundo|Os meus pensamentos são contentes|Ando pela mão das estações|Sinto que tudo é sonho|Assisto à minha passagem|Sentir é estar distraído|
 |09|02|Pessoa_0602|F|1|1|.|
 <EOF>
 CATAPALA = 38

@@ -3,33 +3,33 @@
 *-
 *- Esse é o descaminho.|Assim é o andor!|Só assim criamos rastros!|Não sigam meus passos!|Que venha o próximo ato!|Bem-vindo ao sem fim!|
 *-
-|01|01|Sopros_0101|F|6|5|Do vento|Da paixão|Do sopro|Da ilusão|Do futuro|Do canto|
+|01|01|Sopros_0101|F|6|4|Do vento|Da paixão|Do sopro|Da ilusão|Do futuro|Do canto|
 |01|02|Sopros_0102|F|1|1|que me|
-|01|03|Sopros_0103|F|8|3|leva|empurra|anima|inflama|alimenta|cabe|guia|sustenta|
-|02|01|Sopros_0201|F|9|3|sobram|espero|saltam|talvez vejam|vislumbro|escapam|capto|suponho|clamo|
-|02|02|Sopros_0202|F|10|10|brisa|poeira|calmaria|lembranças|vontade|gana|chama|esperança|busca|garra|
+|01|03|Sopros_0103|F|8|8|leva|empurra|anima|inflama|alimenta|cabe|guia|sustenta|
+|02|01|Sopros_0201|F|9|2|sobram|espero|saltam|talvez vejam|vislumbro|escapam|capto|suponho|clamo|
+|02|02|Sopros_0202|F|10|1|brisa|poeira|calmaria|lembranças|vontade|gana|chama|esperança|busca|garra|
 |02|03|Sopros_0203|F|1|1|,|
-|02|04|Sopros_0204|T|10|1|brisa|poeira|calmaria|lembranças|vontade|gana|chama|esperança|busca|garra|
+|02|04|Sopros_0204|T|10|6|brisa|poeira|calmaria|lembranças|vontade|gana|chama|esperança|busca|garra|
 |02|05|Sopros_0203|F|1|1|,|
-|02|06|Sopros_0206|T|10|3|brisa|poeira|calmaria|lembranças|vontade|gana|chama|esperança|busca|garra|
+|02|06|Sopros_0206|T|10|7|brisa|poeira|calmaria|lembranças|vontade|gana|chama|esperança|busca|garra|
 |02|07|Sopros_0207|F|1|1|...|
 |03|00|
-|04|01|Sopros_0401|F|13|8|O lugar|O paraíso|O desterro|O distante|O longe|O canto|O além|O incerto|O amanhã|O talvez|O ponto|O destino|O possível|
-|04|02|Sopros_0402|F|10|6|que almejo|que imagino|que ostento|que semeio|que alento|que canto|que minto|que invento|que invejo|que vislumbro|
-|05|01|Sopros_0501|F|12|2|só existe|acha-se|abrasa|sustenta-se|paira lá...|é imã|vinga|sobrevive|é movimento|acha abrigo|engatinha|levita|
-|05|02|Sopros_0502|F|14|5|na geografia da alma|em cafundós do coração|onde nasce o querer|em secreta solidão|em trilhas do pensamento|no esquerdo do peito|no seio da alma|nos buracos da memória|no cerne de um sonho|no ausente da alma|em tempos, sem mundos|em devaneios inumanos|em fantasias de poeta|em meu labirinto|
+|04|01|Sopros_0401|F|13|2|O lugar|O paraíso|O desterro|O distante|O longe|O canto|O além|O incerto|O amanhã|O talvez|O ponto|O destino|O possível|
+|04|02|Sopros_0402|F|10|7|que almejo|que imagino|que ostento|que semeio|que alento|que canto|que minto|que invento|que invejo|que vislumbro|
+|05|01|Sopros_0501|F|12|7|só existe|acha-se|abrasa|sustenta-se|paira lá...|é ímã|vinga|sobrevive|é movimento|acha abrigo|engatinha|levita|
+|05|02|Sopros_0502|F|14|14|na geografia da alma|em cafundós do coração|onde nasce o querer|em secreta solidão|em trilhas do pensamento|no esquerdo do peito|no seio da alma|nos buracos da memória|no cerne de um sonho|no ausente da alma|em tempos, sem mundos|em devaneios inumanos|em fantasias de poeta|em meu labirinto|
 |05|03|Sopros_0503|F|1|1|.|
 |06|00|
-|07|01|Sopros_0701|F|8|1|Se ainda o tenho,|Se o acalanto,|Se ainda o tento,|Se o contemplo,|Se ainda o gravo,|Se o contenho,|Se ainda o guardo,|Se o cubro de mimos,|
-|07|02|Sopros_0702|T|28|15|fotografia de mim,|candidato a loucura,|tatuado nas carnes,|por instinto,|cravado a esmo,|culto de utopias,|carimbado,|mero carinho,|tanto assim,|meu alimento,|por teimosia,|sem desalinho,|manto imaginário,|puro emaranhado,|falso segredo,|no tempo, sem idades,|mito de liberdade,|imune a maldades,|em nobre silêncio,|desbotado em foto,|feito ave rara,|cheio de cuidados,|tal espanto,|velho filme mudo,|surto ou susto,|salvo na retina,|quase desejo,|por mistérios,|
+|07|01|Sopros_0701|F|8|6|Se ainda o tenho,|Se o acalanto,|Se ainda o tento,|Se o contemplo,|Se ainda o gravo,|Se o contenho,|Se ainda o guardo,|Se o cubro de mimos,|
+|07|02|Sopros_0702|T|28|12|fotografia de mim,|candidato a loucura,|tatuado nas carnes,|por instinto,|cravado a esmo,|culto de utopias,|carimbado,|mero carinho,|tanto assim,|meu alimento,|por teimosia,|sem desalinho,|manto imaginário,|puro emaranhado,|falso segredo,|no tempo, sem idades,|mito de liberdade,|imune a maldades,|em nobre silêncio,|desbotado em foto,|feito ave rara,|cheio de cuidados,|tal espanto,|velho filme mudo,|surto ou susto,|salvo na retina,|quase desejo,|por mistérios,|
 |08|01|Sopros_0801|F|1|1|é porque|
-|08|02|Sopros_0802|F|7|2|esperança|gana|vontade|garra|busca|fé|sina|
+|08|02|Sopros_0802|F|7|6|esperança|gana|vontade|garra|busca|fé|sina|
 |08|03|Sopros_0203|F|1|1|,|
-|09|01|Sopros_0901|F|4|1|aquela parte|essa centelha|a inquietude|a essência|
-|09|02|Sopros_0902|F|5|4|da anatomia humana|de bicho vivo|do existir|do si mesmo|disso vida|
-|10|01|Sopros_1001|F|10|1|que não morre|... meio divina|sem ter fim|nunca extinta|vulgo infinda|que acerta o certo|quase perene|alheia aos avessos|que fabrica atalhos|avessa a senhas|
+|09|01|Sopros_0901|F|4|2|aquela parte|essa centelha|a inquietude|a essência|
+|09|02|Sopros_0902|F|5|5|da anatomia humana|de bicho vivo|do existir|do si mesmo|disso vida|
+|10|01|Sopros_1001|F|10|2|que não morre|... meio divina|sem ter fim|nunca extinta|vulgo infinda|que acerta o certo|quase perene|alheia aos avessos|que fabrica atalhos|avessa a senhas|
 |10|02|Sopros_0203|F|1|1|,|
-|11|01|Sopros_1101|T|16|3|sabe sempre onde pisa|desconhece paralelos|perde medos ao viver|ignora o que é deserto|é tudo... menos precisa|faz caminho a cada pé|vive depois da palavra|sabe o sol-a-sol dos dias|passa apenas por passear|sabe-se ponte entre pontes|nasce sabendo onde ir|ignora o que é finito|traz em si um levante|não é lugar de chegar|sabe apenas seu cantar|lança passos ao acaso|
+|11|01|Sopros_1101|T|16|7|sabe sempre onde pisa|desconhece paralelos|perde medos ao viver|ignora o que é deserto|é tudo... menos precisa|faz caminho a cada pé|vive depois da palavra|sabe o sol-a-sol dos dias|passa apenas por passear|sabe-se ponte entre pontes|nasce sabendo onde ir|ignora o que é finito|traz em si um levante|não é lugar de chegar|sabe apenas seu cantar|lança passos ao acaso|
 |11|02|Sopros_1102|F|1|1|.|
 <EOF>
 CATAPALA = 37

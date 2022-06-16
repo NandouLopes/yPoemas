@@ -1,59 +1,59 @@
 *-
 *- Zodiacaos.ypo
 *-
-|01|01|Zodiacaos_0101|T|10|1|Sol|Lua|Mercúrio|Vênus|Marte|Saturno|Urano|Júpiter|Netuno|Plutão|
+|01|01|Zodiacaos_0101|T|10|6|Sol|Lua|Mercúrio|Vênus|Marte|Saturno|Urano|Júpiter|Netuno|Plutão|
 |01|02|Zodiacaos_0102|F|1|1|e|
-|01|03|Zodiacaos_0103|T|10|8|Sol|Lua|Mercúrio|Vênus|Marte|Saturno|Urano|Júpiter|Netuno|Plutão|
-|02|01|Zodiacaos_0201|F|10|6|em movimento pelo|de passagem por|em contato com|alinhados com|ingressando em|em visita ao|em transito pelo|em declínio por|passeando pelo|descansam em|
-|02|02|Zodiacaos_0202|F|3|2|seu signo|seu planeta natal|seu momento astral|
+|01|03|Zodiacaos_0103|T|10|10|Sol|Lua|Mercúrio|Vênus|Marte|Saturno|Urano|Júpiter|Netuno|Plutão|
+|02|01|Zodiacaos_0201|F|10|1|em movimento pelo|de passagem por|em contato com|alinhados com|ingressando em|em visita ao|em transito pelo|em declínio por|passeando pelo|descansam em|
+|02|02|Zodiacaos_0202|F|3|1|seu signo|seu planeta natal|seu momento astral|
 |03|01|Zodiacaos_0301|F|1|1|e em|
-|03|02|Zodiacaos_0302|F|16|15|suave|plena|franca|leve|breve|direta|perfeita|absoluta|discreta|ostensiva|regrada|régia|sublime|lenta|grave|gradual|
-|03|03|Zodiacaos_0303|F|16|13|oposição|quadratura|conjunção|retração|ascensão|atração|interação|folia|orgia|afinidade|harmonia|paixão|lua-de-mel|tensão|distração|ilação|
+|03|02|Zodiacaos_0302|F|16|6|suave|plena|franca|leve|breve|direta|perfeita|absoluta|discreta|ostensiva|regrada|régia|sublime|lenta|grave|gradual|
+|03|03|Zodiacaos_0303|F|16|4|oposição|quadratura|conjunção|retração|ascensão|atração|interação|folia|orgia|afinidade|harmonia|paixão|lua-de-mel|tensão|distração|ilação|
 |04|01|Zodiacaos_0401|F|1|1|com seu|
-|04|02|Zodiacaos_0402|F|4|1|regente|oposto|ascendente|parceiro|
+|04|02|Zodiacaos_0402|F|4|4|regente|oposto|ascendente|parceiro|
 |04|03|Zodiacaos_0403|F|1|1|,|
-|04|04|Zodiacaos_0103|F|10|4|Sol|Lua|Mercúrio|Vênus|Marte|Saturno|Urano|Júpiter|Netuno|Plutão|
+|04|04|Zodiacaos_0103|F|10|7|Sol|Lua|Mercúrio|Vênus|Marte|Saturno|Urano|Júpiter|Netuno|Plutão|
 |04|05|Zodiacaos_0405|F|1|1|,|
-|05|01|Zodiacaos_0501|F|4|2|trazem ao seu dia|indicam|apontam para|remetem a|
+|05|01|Zodiacaos_0501|F|4|1|trazem ao seu dia|indicam|apontam para|remetem a|
 |05|02|Zodiacaos_0502|F|5|2|desafios|conflitos|momentos|situações|condições|
 |05|03|Zodiacaos_0503|F|1|1|que|
-|05|04|Zodiacaos_0504|F|8|7|deixam transparecer|mostram|acentuam|assinalam|pontuam|evocam|destacam|evidenciam|
-|05|05|Zodiacaos_0505|F|6|4|dificuldades|problemas|dúvidas|falhas|vacilos|inseguranças|
-|06|01|Zodiacaos_0601|F|3|2|em relações|em questões|nas fases|
-|06|02|Zodiacaos_0602|F|11|11|objetivas|familiares|emocionais|profissionais|pessoais|materiais|financeiras|físicas|psíquicas|amorosas|subjetivas|
+|05|04|Zodiacaos_0504|F|8|6|deixam transparecer|mostram|acentuam|assinalam|pontuam|evocam|destacam|evidenciam|
+|05|05|Zodiacaos_0505|F|6|3|dificuldades|problemas|dúvidas|falhas|vacilos|inseguranças|
+|06|01|Zodiacaos_0601|F|3|1|em relações|em questões|nas fases|
+|06|02|Zodiacaos_0602|F|11|8|objetivas|familiares|emocionais|profissionais|pessoais|materiais|financeiras|físicas|psíquicas|amorosas|subjetivas|
 |07|01|Zodiacaos_0701|F|5|2|envolvendo|revelando|exibindo|expondo|simbolizando|
-|07|02|Zodiacaos_0702|F|3|2|evidências|sinais|lapsos|
-|07|03|Zodiacaos_0703|F|2|1|de certa|de alguma|
-|07|04|Zodiacaos_0704|F|4|4|incapacidade|imaturidade|ingenuidade|dificuldade|
+|07|02|Zodiacaos_0702|F|3|1|evidências|sinais|lapsos|
+|07|03|Zodiacaos_0703|F|2|2|de certa|de alguma|
+|07|04|Zodiacaos_0704|F|4|3|incapacidade|imaturidade|ingenuidade|dificuldade|
 |08|01|Zodiacaos_0801|F|1|1|para|
-|08|02|Zodiacaos_0802|F|8|6|compartilhar|expressar|repartir|dividir|renovar|abordar|balancear|inventar|
-|08|03|Zodiacaos_0803|F|8|8|sentimentos,|emoções,|alegrias,|percepções,|decisões,|avaliações,|transformações,|mudanças,|
+|08|02|Zodiacaos_0802|F|8|5|compartilhar|expressar|repartir|dividir|renovar|abordar|balancear|inventar|
+|08|03|Zodiacaos_0803|F|8|7|sentimentos,|emoções,|alegrias,|percepções,|decisões,|avaliações,|transformações,|mudanças,|
 |09|01|Zodiacaos_0901|F|5|2|requerendo|exigindo|insinuando|obrigando|sugerindo|
-|09|02|Zodiacaos_0902|F|6|5|pois|assim|entretanto|no entanto|talvez|certamente|
-|09|03|Zodiacaos_0903|F|4|1|atenção|cuidado|cautela|certo desapego|
-|10|01|Zodiacaos_1001|F|3|2|com comportamentos que levem|com tendências|com ideias que apontem|
+|09|02|Zodiacaos_0902|F|6|4|pois|assim|entretanto|no entanto|talvez|certamente|
+|09|03|Zodiacaos_0903|F|4|4|atenção|cuidado|cautela|certo desapego|
+|10|01|Zodiacaos_1001|F|3|1|com comportamentos que levem|com tendências|com ideias que apontem|
 |10|02|Zodiacaos_1002|F|1|1|à|
 |10|03|Zodiacaos_1003|F|5|2|melancolia|dependência|depressão|angústia|ansiedade|
 |11|01|Zodiacaos_1101|F|1|1|-|
-|11|02|Zodiacaos_1102|F|6|2|baseada em|oriunda de|fruto da|germinada em|resultante apenas da|carente só de|
+|11|02|Zodiacaos_1102|F|6|1|baseada em|oriunda de|fruto da|germinada em|resultante apenas da|carente só de|
 |11|03|Zodiacaos_1103|F|1|1|sua própria|
-|11|04|Zodiacaos_1104|F|15|15|liberdade|insatisfação|autonomia|maturidade|sanidade|emotividade|carência|realidade|franqueza|imaginação|individualidade|inteligência|imperfeição|atitude|força interior|
+|11|04|Zodiacaos_1104|F|15|5|liberdade|insatisfação|autonomia|maturidade|sanidade|emotividade|carência|realidade|franqueza|imaginação|individualidade|inteligência|imperfeição|atitude|força interior|
 |11|05|Zodiacaos_1105|F|1|1|-|
-|12|01|Zodiacaos_1201|F|3|3|pois|visto que|já que|
+|12|01|Zodiacaos_1201|F|3|2|pois|visto que|já que|
 |12|02|Zodiacaos_1202|F|1|1|,|
-|12|03|Zodiacaos_1203|F|10|3|aceitar|respeitar|superar|encarar|definir|enfrentar|rever|suportar|vencer|avançar|
-|12|04|Zodiacaos_1204|F|8|5|limites,|desafios,|batalhas,|obstáculos,|revezes,|adversidades,|devaneios,|descaminhos|
+|12|03|Zodiacaos_1203|F|10|8|aceitar|respeitar|superar|encarar|definir|enfrentar|rever|suportar|vencer|avançar|
+|12|04|Zodiacaos_1204|F|8|4|limites,|desafios,|batalhas,|obstáculos,|revezes,|adversidades,|devaneios,|descaminhos|
 |13|01|Zodiacaos_1301|F|5|2|não significa|não se traduz em|não quer dizer|não implica em|não é o mesmo que|
 |13|02|Zodiacaos_1302|F|5|1|tentar|ousar|fingir|pretender|preferir|
 |13|03|Zodiacaos_1303|F|5|4|interferir|intervir|interceder|influir|inferir|
-|13|04|Zodiacaos_1304|F|6|5|negativamente|aleatoriamente|impulsivamente|livremente|impunemente|infantilmente|
+|13|04|Zodiacaos_1304|F|6|4|negativamente|aleatoriamente|impulsivamente|livremente|impunemente|infantilmente|
 |14|01|Zodiacaos_1401|F|1|1|em|
-|14|02|Zodiacaos_1402|F|8|3|leis do criador|ordens naturais|desígnios divinos|fatos passados|antigos padrões|regras universais|obras do destino|milenares receios|
-|15|01|Zodiacaos_1501|F|3|2|e sim poder|e sim querer|e sim almejar|
-|15|02|Zodiacaos_1502|F|7|2|agir|refletir|atuar|inclinar-se|decidir|intuir|ponderar|
-|15|03|Zodiacaos_1503|F|9|9|realisticamente|sobriamente|tranquilamente|calmamente|com urgência|com afinco|criativamente|inventivamente|com vigor|
+|14|02|Zodiacaos_1402|F|8|2|leis do criador|ordens naturais|desígnios divinos|fatos passados|antigos padrões|regras universais|obras do destino|milenares receios|
+|15|01|Zodiacaos_1501|F|3|1|e sim poder|e sim querer|e sim almejar|
+|15|02|Zodiacaos_1502|F|7|5|agir|refletir|atuar|inclinar-se|decidir|intuir|ponderar|
+|15|03|Zodiacaos_1503|F|9|2|realisticamente|sobriamente|tranquilamente|calmamente|com urgência|com afinco|criativamente|inventivamente|com vigor|
 |16|01|Zodiacaos_1601|F|1|1|sobre|
-|16|02|Zodiacaos_1602|F|32|24|seus próprios medos|futuros anseios|caminhos possíveis|prováveis desvios|as razões do sucesso|seu elemento natural|seu próximo movimento|o que realmente importa|sua verdade mais íntima|etapas vindouras|novas energias|o grande ciclo evolutivo|as decisões a tomar|o mistério zodiacal|os motivos da luta|os porquês da liberdade|as causas do novo|o valor da inovação|a busca de soluções|assuntos do coração|outras alternativas|o sentido do "velho"|a imensidão do cosmo|velhos preconceitos|a brevidade da matéria|mudanças necessárias|antigas promessas|sonhos irrealizáveis|a sua missão na terra|eventuais casuísmos|a vida que se renova|a fragilidade do existir|
+|16|02|Zodiacaos_1602|F|32|31|seus próprios medos|futuros anseios|caminhos possíveis|prováveis desvios|as razões do sucesso|seu elemento natural|seu próximo movimento|o que realmente importa|sua verdade mais íntima|etapas vindouras|novas energias|o grande ciclo evolutivo|as decisões a tomar|o mistério zodiacal|os motivos da luta|os porquês da liberdade|as causas do novo|o valor da inovação|a busca de soluções|assuntos do coração|outras alternativas|o sentido do "velho"|a imensidão do cosmo|velhos preconceitos|a brevidade da matéria|mudanças necessárias|antigas promessas|sonhos irrealizáveis|a sua missão na terra|eventuais casuísmos|a vida que se renova|a fragilidade do existir|
 |16|03|Zodiacaos_1603|F|1|1|.|
 <EOF>
 CATAPALA = 71

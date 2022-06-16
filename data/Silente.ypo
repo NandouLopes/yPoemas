@@ -6,36 +6,36 @@
 *- |manter 09|02=ímpar, 10|04=par e Qtd de ítimos sempre ímpar
 *-
 |01|01|Silente_0101|F|7|2|Abri|Rasguei|Furei|Forjei|Tracei|Ergui|Vedei|
-|01|02|Silente_0102|F|10|4|uma porta|um buraco|uma brecha|uma janela|nichos|uma passagem|um canto|um vão|uma escada|umbrais|
-|01|03|Silente_0103|F|15|15|na parede|no chão|no quintal|no teto|nos fundos|ao lado|no piso|na clarabóia|no jardim|no telhado|no muro|no forro|no mezanino|no corredor|no alicerce|
+|01|02|Silente_0102|F|10|6|uma porta|um buraco|uma brecha|uma janela|nichos|uma passagem|um canto|um vão|uma escada|umbrais|
+|01|03|Silente_0103|F|15|2|na parede|no chão|no quintal|no teto|nos fundos|ao lado|no piso|na claraboia|no jardim|no telhado|no muro|no forro|no mezanino|no corredor|no alicerce|
 |02|01|Silente_0201|F|2|1|e fiz de|e criei entre|
-|02|02|Silente_0202|F|16|9|banheiro|quarto|cozinha|copa|living|átrio|hall|área de serviço|postigo|lareira|gazebo|rodapé|varanda|lavabo|beiral|piscina|
+|02|02|Silente_0202|F|16|13|banheiro|quarto|cozinha|copa|living|átrio|hall|área de serviço|postigo|lareira|gazebo|rodapé|varanda|lavabo|beiral|piscina|
 |02|03|Silente_0203|F|1|1|e|
-|02|04|Silente_0204|T|16|10|banheiro|quarto|cozinha|copa|living|átrio|hall|área de serviço|postigo|lareira|gazebo|rodapé|varanda|lavabo|beiral|piscina|
-|03|01|Silente_0301|F|10|1|uma suíte|uma capela|uma ilha|uma sala|uma nave|uma edícula|uma fresta|uma era|uma terra|uma caverna|
-|03|02|Silente_0302|F|5|4|ampla|minúscula|íntima|confortável|farta|
-|03|03|Silente_0303|F|8|2|e silente|e muda|feito templo|e basta|e blindada|e pronto|e vaga|em recanto|
+|02|04|Silente_0204|T|16|11|banheiro|quarto|cozinha|copa|living|átrio|hall|área de serviço|postigo|lareira|gazebo|rodapé|varanda|lavabo|beiral|piscina|
+|03|01|Silente_0301|F|10|3|uma suíte|uma capela|uma ilha|uma sala|uma nave|uma edícula|uma fresta|uma era|uma terra|uma caverna|
+|03|02|Silente_0302|F|5|1|ampla|minúscula|íntima|confortável|farta|
+|03|03|Silente_0303|F|8|6|e silente|e muda|feito templo|e basta|e blindada|e pronto|e vaga|em recanto|
 |03|04|Silente_0304|F|1|1|:|
 |04|00|
-|05|01|Silente_0501|F|8|6|calei|mutei|suguei|matei|mudei|mirrei|minguei|cerquei|
+|05|01|Silente_0501|F|8|2|calei|mutei|suguei|matei|mudei|mirrei|minguei|cerquei|
 |05|02|Silente_0502|F|7|5|o grunhido da cidade|ruídos da rua|os burburinhos|o caos civilizado|barulhos urbanos|o alvoroço do mundo|as gralhas da mídia|
-|06|01|Silente_0601|F|3|3|e é lá que escuto|e de lá posso ouvir|e dali é que surgem|
+|06|01|Silente_0601|F|3|2|e é lá que escuto|e de lá posso ouvir|e dali é que surgem|
 |07|01|Silente_0701|F|1|1|as|
-|07|02|Silente_0702|F|15|13|árias|óperas|sonatas|bossas|salsas|guarânias|valsas|catiras|modas|cantigas|fugas|baladas|rapsódias|toadas|serenatas|
+|07|02|Silente_0702|F|15|15|árias|óperas|sonatas|bossas|salsas|guarânias|valsas|catiras|modas|cantigas|fugas|baladas|rapsódias|toadas|serenatas|
 |07|03|Silente_0703|F|1|1|e|
-|07|04|Silente_0704|T|32|28|boleros|blues|xaxados|tangos|raps|reggaes|xotes|jazzes|sambas|choros|concertos|repentes|fados|cantos|adágios|ninandos|solos|rocks|árias|óperas|sonatas|bossas|salsas|guarânias|valsas|catiras|modas|cantigas|fugas|toadas|baladas|serenatas|
+|07|04|Silente_0704|T|32|29|boleros|blues|xaxados|tangos|raps|reggaes|xotes|jazzes|sambas|choros|concertos|repentes|fados|cantos|adágios|ninandos|solos|rocks|árias|óperas|sonatas|bossas|salsas|guarânias|valsas|catiras|modas|cantigas|fugas|toadas|baladas|serenatas|
 |07|05|Silente_0705|F|1|1|que me|
 |07|06|Silente_0706|F|7|3|guiam|encantam|tornam vivo|doam prazer|dizem humano|elevam|alumiam|
 |07|07|Silente_0707|F|1|1|...|
 |08|00|
 |09|01|Silente_0901|F|4|4|Nunca mais|Chega de|Cansei-me de|Já basta de|
-|09|02|Silente_0902|F|16|14|galos matinais|arrulho de pombas|namoro de gatos|rugidos de jatos|piados de pardais|sinos infernais|coros desafinados|pios de papagaios|apitos de trens|buzinas de motos|roncos de motor|zumbidos de insetos|urros de carros|gemidos de freios|chiados de TV|foguetes, rojões...|
+|09|02|Silente_0902|F|16|2|galos matinais|arrulho de pombas|namoro de gatos|rugidos de jatos|piados de pardais|sinos infernais|coros desafinados|pios de papagaios|apitos de trens|buzinas de motos|roncos de motor|zumbidos de insetos|urros de carros|gemidos de freios|chiados de TV|foguetes, rojões...|
 |10|03|Silente_1003|F|2|1|ou|e|
-|10|04|Silente_1004|F|12|2|contos de bem-te-vi|cigarras de verão|cri-cri de grilos|tiros perdidos|turbinas de avião|batuques infantis|miados indistintos|resmungos de vizinhos|relincho de burros|sirenes de polícia|bombas suicidas|latidos de cão|
+|10|04|Silente_1004|F|12|10|contos de bem-te-vi|cigarras de verão|cri-cri de grilos|tiros perdidos|turbinas de avião|batuques infantis|miados indistintos|resmungos de vizinhos|relincho de burros|sirenes de polícia|bombas suicidas|latidos de cão|
 |10|05|Silente_1005|F|1|1|.|
-|11|01|Silente_1101|F|12|5|A arte|A melodia|A sorte|A sinfonia|A graça|A parte boa|A dádiva|A jóia|A sintonia|A paródia|A música|A leveza|
+|11|01|Silente_1101|F|12|1|A arte|A melodia|A sorte|A sinfonia|A graça|A parte boa|A dádiva|A joia|A sintonia|A paródia|A música|A leveza|
 |11|02|Silente_1102|F|4|1|do viver|do silêncio|da solitude|de estar consigo|
-|11|03|Silente_1103|F|35|30|não é exata|soa imprecisa|aparece calada|é toda ouvidos|tem lá seus tons|não tem retidão|é quase paraíso|pode não ser muda|sabe ser ímpar|é puro improviso|tem o dom de ser torta|finda-se em si mesma|é feita de outros sons|não existe na planta|toca em outra harmonia|pauta-se por labirintos|não faz alarido|não cabe em cubículos|desconhece linhas retas|frequenta abismos|raramente tagarela|não nasce aos gritos|uiva em sigilo|requer outra paz|não deixa pistas|é exímia em refúgios|sabe-se rara|não fica em finitos|cria independências|ausculta diferente|inventa seus ritos|vem sem tramelas|nasce sem gritos|tem seu encanto|cava seus buracos|
+|11|03|Silente_1103|F|35|2|não é exata|soa imprecisa|aparece calada|é toda ouvidos|tem lá seus tons|não tem retidão|é quase paraíso|pode não ser muda|sabe ser ímpar|é puro improviso|tem o dom de ser torta|finda-se em si mesma|é feita de outros sons|não existe na planta|toca em outra harmonia|pauta-se por labirintos|não faz alarido|não cabe em cubículos|desconhece linhas retas|frequenta abismos|raramente tagarela|não nasce aos gritos|uiva em sigilo|requer outra paz|não deixa pistas|é exímia em refúgios|sabe-se rara|não fica em finitos|cria independências|ausculta diferente|inventa seus ritos|vem sem tramelas|nasce sem gritos|tem seu encanto|cava seus buracos|
 |11|04|Silente_1104|F|1|1|.|
 <EOF>
 CATAPALA = 49

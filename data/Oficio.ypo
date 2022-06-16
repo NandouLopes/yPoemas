@@ -1,67 +1,68 @@
 *-
 *- Oficio.ypo
 *-
-*  |galactopoético: relativo a ou que provoca a produção de leite
+*  |Galactopoética: relativo a ou que provoca a produção de leite
 *- |diversos|fábula|enredo|ardil|boato|oriundas|balizar|iletrado|figurino|
-*- |cartas marcadas|
-*- |02|02|Oficio_0202|F|1|1|< pAbnp >|
-*- |02|02|Oficio_0202|T|207|162|Brasileira|Binacional|Britânica|Bilateral|Bilíngue|Binomial|Babilônica|Berlinense|Biodegradável|Brasilianista|Bolchevique|Bostoniana|Biopoética|Booleana|Bionica|Barroca|Babélica|Bibliótica|Breviloquente|Budapestense|Bucarestina|Brasiliense|Baianopolitana|Bacuriense|Bacelarense|Baependiense|Baionense|Bajeense|Baixiense|Balbinense|Bertopolitana|Baldinense|Bonfinopolitana|Bagrense|Baiana|Baiense|Balizense|Baliziense|Balsamense|Bambuiense|Banabuiense|Bananalense|Bananeirense|Bandeirantense|Bannaquense|Banzaense|Baraunense|Barbacenense|Barbalhense|Barbarense|Barbosense|Baecarenense|Barcelense|Baririense|Baronense|Barra-Bonitense|Barraconense|Barra-Cordense|Barra-Garcense|Barra-Mansense|Barreirense|Barreirinhense|Barrense|Barretense|Barrinhense|Barro-Altense|Barrolandense|Barro-Pretense|Barroquinhense|Barros-Cassalense|Barrosense|Barueriense|Bassanense|Bassitense|Bastense|Bataguaçuense|Bataiporanense|Batalhense|Batataiense|Baturiteense|Bauruerense|Bayeusense|Bebedourense|Beberibense|Bela-Cruzense|Bela-Vistense|Belford-Roxense|Belmontense|Belo-Campense|Belo-Jardinense|Belo-Valense|Belterrense|Benedetinense|Benedito-Novense|Beneleitense|Benjamim-Constantense|Bento-Abreuense|Bento-Fernandense|Bento-Gonçalvense|Bequimoense|Berilense|Bernardense|Bernardinense|Bertolinense|Beruriense|Betinense|Bezerrense|Bias-Fortense|Bibarrense|Bicaquense|Biquaçuense|Bilaquense|Biquense|Biquinhense|Biriguiense|Biritibense|Biritinguense|Bittencourtense|Biturunense|Blumenauense|Boa-Esperancense|Boa-Novense|Boa-Viagense|Boa-Vistense|Bocainense|Bocaiuvense|Boçoroquense|Bodocoense|Bodoquenense|Boeguaçuense|Bofetense|Boetuvense|Bolamense|Bom-Conselhense|Bom-Despachense|Bom-Jardinense|Bom-Jesuense|Bom-Principiense|Bom-Repousense|Bom-Retirense|Bom-Sucessense|Bonfinense|Bonimalense|Bonitense|Bonjesuense|Bonifaciana|Bonretirense|Boqueirense|Boquinense|Boquirense|Boraceiense|Boraense|Borbense|Borboremense|Borda-Matense|Botelhense|Borrazopolitana|Botucatuense|Botumirinense|Botuporãense|Botuveraense|Bracarense|Braço-Nortense|Braganense|Bragantinense|Braguense|Branquinhense|Brasilandense|Brasileense|Brasilense|Brasil-Novense|Brasilandiense|Brasense|Brasopolitana|Brás-Pirense|Braunense|Brejãosense|Brejense|Brejinense|Brejinhense|Brejoense|Brejo-Grandense|Brejo-Velhense|Brejolandense|Brejo-Santense|Bresciense|Bressanense|Breuense|Brevense|Brigidense|Britanense|Brotense|Brumadense|Brumadinhense|Brusquense|Bueno-Brandense|Buenopolense|Bueraremense|Buiquense|Buriense|Bujaruense|Buritamense|Buritiense|Buriti-Alegrense|Buriti-Bravense|Buritiramense|Buriti-Tocantinense|Buritizalense|Buritizeirense|Butiaense|Babaçulense|Bacabense|Birmanesa|
-*- |Lines2Pipe|Pipe2Lines|Lines2Xml|Pipe2Xml( pNomeTag )| = Cidades
+*- |02|02|Oficio_0202|T|17|14|Brasileira|Binacional|Britânica|Bilateral|Bilíngue|Binomial|Babilônica|Berlinense|Biodegradável|Brasilianista|Bolchevique|Bostoniana|Biopoética|Booleana|Biônica|Barroca|Babélica|
+*- |02|02|Oficio_0202|T|213|206|Brasileira|Binacional|Britânica|Bilateral|Bilíngue|Binomial|Babilônica|Berlinense|Biodegradável|Brasilianista|Bolchevique|Bostoniana|Biopoética|Booleana|Biônica|Barroca|Babélica|Bibliótica|Breviloquente|Budapestense|Bucarestina|Brasiliense|Baianopolitana|Bacuriense|Bacelarense|Baependiense|Baionense|Bajeense|Baixiense|Balbinense|Bertopolitana|Baldinense|Bonfinopolitana|Bagrense|Baiana|Baiense|Balizense|Baliziense|Balsamense|Bambuiense|Banabuiense|Bananalense|Bananeirense|Bandeirantense|Bannaquense|Banzaense|Baraunense|Barbacenense|Barbalhense|Barbarense|Barbosense|Baecarenense|Barcelense|Baririense|Baronense|Barra-Bonitense|Barraconense|Barra-Cordense|Barra-Garcense|Barra-Mansense|Barreirense|Barreirinhense|Barrense|Barretense|Barrinhense|Barro-Altense|Barrolandense|Barro-Pretense|Barroquinhense|Barros-Cassalense|Barrosense|Barueriense|Bassanense|Bassitense|Bastense|Bataguaçuense|Bataiporanense|Batalhense|Batataiense|Baturiteense|Bauruerense|Bayeusense|Bebedourense|Beberibense|Bela-Cruzense|Bela-Vistense|Belford-Roxense|Belmontense|Belo-Campense|Belo-Jardinense|Belo-Valense|Belterrense|Benedetinense|Benedito-Novense|Beneleitense|Benjamim-Constantense|Bento-Abreuense|Bento-Fernandense|Bento-Gonçalvense|Bequimoense|Berilense|Bernardense|Bernardinense|Bertolinense|Beruriense|Betinense|Bezerrense|Bias-Fortense|Bibarrense|Bicaquense|Biquaçuense|Bilaquense|Biquense|Biquinhense|Biriguiense|Biritibense|Biritinguense|Bittencourtense|Biturunense|Blumenauense|Boa-Esperancense|Boa-Novense|Boa-Viagense|Boa-Vistense|Bocainense|Bocaiuvense|Boçoroquense|Bodocoense|Bodoquenense|Boeguaçuense|Bofetense|Boetuvense|Bolamense|Bom-Conselhense|Bom-Despachense|Bom-Jardinense|Bom-Jesuense|Bom-Principiense|Bom-Repousense|Bom-Retirense|Bom-Sucessense|Bonfinense|Bonimalense|Bonitense|Bonjesuense|Bonifaciana|Bonretirense|Boqueirense|Boquinense|Boquirense|Boraceiense|Boraense|Borbense|Borboremense|Borda-Matense|Botelhense|Borrazopolitana|Botucatuense|Botumirinense|Botuporãense|Botuveraense|Bracarense|Braço-Nortense|Braganense|Bragantinense|Braguense|Branquinhense|Brasilandense|Brasileense|Brasilense|Brasil-Novense|Brasilandiense|Brasense|Brasopolitana|Brás-Pirense|Braunense|Brejãosense|Brejense|Brejinense|Brejinhense|Brejoense|Brejo-Grandense|Brejo-Velhense|Brejolandense|Brejo-Santense|Bresciense|Bressanense|Breuense|Brevense|Brigidense|Britanense|Brotense|Brumadense|Brumadinhense|Brusquense|Bueno-Brandense|Buenopolense|Bueraremense|Buiquense|Buriense|Bujaruense|Buritamense|Buritiense|Buriti-Alegrense|Buriti-Bravense|Buritiramense|Buriti-Tocantinense|Buritizalense|Buritizeirense|Butiaense|Babaçulense|Bacabense|Birmanesa|
 *- |01|01|¿¿¿_0101|F|swap| = aparece e desaparece|22|03|
 *- <fnt>Comic Sans
 *-
-|01|01|Oficio_0101|F|17|17|Caro|Ilustríssimo|Digníssimo|Afabilíssimo|Altíssimo|Amabilíssimo|Beneficentíssimo|Credibilíssimo|Excelentíssimo|Grandessíssimo|Magnificentíssimo|Nobilíssimo|Notabilíssimo|Respeitabilíssimo|Sapientíssimo|Sereníssimo|Venerabilíssimo|
-|01|02|Oficio_0102|F|6|1|Senhor|Senhor Vice-|Doutor|Senhor Pré-|Senhor Doutor|Senhor Sub|
-|01|03|Oficio_0103|F|42|32|Diretor|Presidente|Reitor|Conselheiro|Porteiro|Inventor|Manobrista|Gestor|Ascensorista|Auditor|Editor|Coletor|Locutor|Condutor|Consultor|Instrutor|Preletor|Produtor|Corretor|Secretário|Administrador|Inspetor|Interventor|Mediador|Mentor|Monitor|Preceptor|Promotor|Professor|Tesoureiro|Bibliotecário|Guarda Mor|Proprietário|Porta-voz|Superintendente|Mantenedor|Orador|Embaixador|Agenciador|Alfabetizador|Pregador|Articulador|
-|01|04|Oficio_0104|F|11|9|Geral|Adjunto|Honorário|Temporário|Vitalício|Substituto|em Chefe|Interino|em Exercício|Itinerante|Biônico|
-|02|01|Oficio_0201|F|4|1|da Associação|da Academia|da Agência|da Assembléia|
-|02|02|Oficio_0202|F|17|13|Brasileira|Binacional|Britânica|Bilateral|Bilíngue|Binomial|Babilônica|Berlinense|Biodegradável|Brasilianista|Bolchevique|Bostoniana|Biopoética|Booleana|Bionica|Barroca|Babélica|
-|02|03|Oficio_0203|F|6|1|de Normas Poéticas|de Não-Poetas|de Novas Poéticas|da NanoEngenharia Poética|da Nova Palavra|do Neo Português|
+|01|01|Oficio_0101|F|17|4|Caro|Ilustríssimo|Digníssimo|Afabilíssimo|Altíssimo|Amabilíssimo|Beneficentíssimo|Credibilíssimo|Excelentíssimo|Grandessíssimo|Magnificentíssimo|Nobilíssimo|Notabilíssimo|Respeitabilíssimo|Sapientíssimo|Sereníssimo|Venerabilíssimo|
+|01|02|Oficio_0102|F|6|5|Senhor|Senhor Vice-|Doutor|Senhor Pré-|Senhor Doutor|Senhor Sub|
+|01|03|Oficio_0103|T|42|34|Diretor|Presidente|Reitor|Conselheiro|Porteiro|Inventor|Manobrista|Gestor|Ascensorista|Auditor|Editor|Coletor|Locutor|Condutor|Consultor|Instrutor|Preletor|Produtor|Corretor|Secretário|Administrador|Inspetor|Interventor|Mediador|Mentor|Monitor|Preceptor|Promotor|Professor|Tesoureiro|Bibliotecário|Guarda Mor|Proprietário|Porta-voz|Superintendente|Mantenedor|Orador|Embaixador|Agenciador|Alfabetizador|Pregador|Articulador|
+|01|04|Oficio_0104|F|11|10|Geral|Adjunto|Honorário|Temporário|Vitalício|Substituto|em Chefe|Interino|em Exercício|Itinerante|Biônico|
+|02|01|Oficio_0201|F|4|3|da Associação|da Academia|da Agência|da Assembleia|
+|02|02|Oficio_0202|F|1|1|< pAbnp >|
+|02|03|Oficio_0203|F|6|5|de Normas Poéticas|de Não-Poetas|de Novas Poéticas|de Nanoengenharia Poética|da Nova Palavra|do Neo Português|
 |02|04|Oficio_0105|F|1|1|, ABNP.|
 |03|00|
-|04|01|Oficio_0401|F|5|1|Venho por meio deste|Venho humildemente|O objetivo deste é|Pretendo, neste,|Quero, como filiado,|
-|04|02|Oficio_0402|F|10|2|solicitar|requerer|exigir|pleitear|reivindicar|clamar|postular|requisitar|suplicar|implorar|
-|05|03|Oficio_0501|F|1|1|junto a tão|
-|05|04|Oficio_0502|F|71|16|renomado|abalizado|afamado|ilustre|benemérito|apregoado|insigne|celebrado|célebre|conceituado|conhecido|consagrado|considerado|conspícuo|consumado|cotado|decantado|distinto|assinalado|egrégio|emérito|eminente|excelente|exímio|extraordinário|bem falado|famigerado|famoso|glorioso|ínclito|memorando|memorioso|memoroso|nobre|nomeado|notável|preclaro|prestante|prestigiado|brilhante|honorável|octagenário|importante|eloquente|insuperável|inefável|sapiente|agudo|apurado|arguto|astuto|atinado|avisado|destro|douto|educado|engenhoso|erudito|esclarecido|hábil|ladino|letrado|lúcido|perspicaz|sabido|sábio|sagaz|sensato|solerte|versado|absconso|
-|05|05|Oficio_0503|F|9|3|Membro|Preceptor|Bastião|Mentor|Baluarte|Gestor|Bacharel|Reitor|Preletor|
-|06|01|Oficio_0601|F|5|5|a inclusão|o aceite|o enxerto|o aditamento|a difusão|
-|06|02|Oficio_0602|F|4|1|de minha obra poética|de meus trabalhos poéticos|de minha criação literária|dos meus escritos|
-|07|01|Oficio_0701|F|12|5|nos anais|nos arquivos|no memorial|nas estantes|nos registros|nas gavetas|nos labirintos|nas catacumbas|no futuro|nas entranhas|nos porões|nos compêndios|
-|07|02|Oficio_0702|F|3|3|desta|de tal|de quão|
-|07|03|Oficio_0703|T|47|6|renomada|abalizada|afamada|ilustre|benemérita|sublime|apregoada|insigne|celebrada|humilde|célebre|conceituada|conhecida|consagrada|considerada|conspícua|consumada|cotada|decantada|distinta|assinalada|egrégia|emérita|eminente|excelente|exímia|extraordinária|falada|famigerada|famosa|gloriosa|ínclita|memoranda|memoriosa|memorosa|nobre|nomeada|notável|preclara|prestante|prestigiada|brilhante|honorável|galáctica|inatacável|soberba|ilibada|
-|07|04|Oficio_0704|F|6|3|Instituição|Associação|Agência|Academia|Entidade|Agregação|
+|04|01|Oficio_0401|F|5|3|Venho por meio deste|Venho humildemente|O objetivo deste é|Pretendo, neste,|Quero, como filiado,|
+|04|02|Oficio_0402|F|10|4|solicitar|requerer|exigir|pleitear|reivindicar|clamar|postular|requisitar|suplicar|implorar|
+|05|01|Oficio_0501|F|1|1|junto a tão|
+|05|02|Oficio_0502|T|71|46|renomado|abalizado|afamado|ilustre|benemérito|apregoado|insigne|celebrado|célebre|conceituado|conhecido|consagrado|considerado|conspícuo|consumado|cotado|decantado|distinto|assinalado|egrégio|emérito|eminente|excelente|exímio|extraordinário|bem falado|famigerado|famoso|glorioso|ínclito|memorando|memorioso|memoroso|nobre|nomeado|notável|preclaro|prestante|prestigiado|brilhante|honorável|octogenário|importante|eloquente|insuperável|inefável|sapiente|agudo|apurado|arguto|astuto|atinado|avisado|destro|douto|educado|engenhoso|erudito|esclarecido|hábil|ladino|letrado|lúcido|perspicaz|sabido|sábio|sagaz|sensato|solerte|versado|absconso|
+|05|03|Oficio_0503|F|9|3|Membro|Preceptor|Bastião|Mentor|Baluarte|Gestor|Bacharel|Reitor|Preletor|
+|06|01|Oficio_0601|F|5|2|a inclusão|o aceite|o enxerto|o aditamento|a difusão|
+|06|02|Oficio_0602|F|5|5|de minha obra poética|de meus trabalhos poéticos|de minha criação literária|dos meus escritos|destes parcos versos|
+|07|01|Oficio_0701|F|12|3|nos anais|nos arquivos|no memorial|nas estantes|nos registros|nas gavetas|nos labirintos|nas catacumbas|no futuro|nas entranhas|nos porões|nos compêndios|
+|07|02|Oficio_0702|F|4|3|desta|de tão|de tal|de quão|
+|07|03|Oficio_0703|T|49|33|renomada|abalizada|afamada|ilustre|benemérita|sublime|apregoada|insigne|celebrada|humilde|célebre|conceituada|conhecida|consagrada|considerada|conspícua|consumada|cotada|decantada|distinta|assinalada|egrégia|emérita|eminente|excelente|exímia|extraordinária|falada|famigerada|famosa|gloriosa|ínclita|memoranda|memoriosa|memorosa|nobre|nomeada|notável|preclara|prestante|prestigiada|brilhante|honorável|galáctica|inatacável|soberba|ilibada|galactopoética|pitoresca|
+|07|04|Oficio_0704|F|6|1|Instituição|Associação|Agência|Academia|Entidade|Agregação|
 |07|05|Oficio_0705|F|1|1|.|
 |08|00|
-|09|01|Oficio_0901|F|4|2|A título de|À guisa de|Apenas como|Servindo de|
-|09|02|Oficio_0902|F|5|3|exemplo|aperitivo|prefácio|prólogo|curiosidade|
-|10|01|Oficio_1001|F|6|2|segue|envio|anexo|incluo|encaminho|apresento|
-|10|02|Oficio_1002|F|9|6|um pequeno apanhado|um rol de trechos|um tosco extrato|um par de palavras pinçadas|um trivial resumo|um breve mapa|um fugaz sumário|uma ligeira mostra|um par de pinceladas|
-|11|01|Oficio_1101|F|8|7|de textos|de poemas|de trovas|de versos|de sonetos|de quadrinhas|de aforismos|de récitas|
-|11|02|Oficio_1102|F|6|3|de minha lavra|de minha pena|de meu punho|de minha lida|do meu labor|ao acaso|
+|09|01|Oficio_0901|F|4|4|A título de|À guisa de|Apenas como|Servindo de|
+|09|02|Oficio_0902|F|6|1|exemplo|aperitivo|prefácio|prólogo|curiosidade|tira-gosto|
+|10|01|Oficio_1001|F|6|6|segue|envio|anexo|incluo|encaminho|apresento|
+|10|02|Oficio_1002|F|9|7|um pequeno apanhado|um rol de trechos|um tosco extrato|um par de palavras pinçadas|um trivial resumo|um breve mapa|um fugaz sumário|uma ligeira mostra|um par de pinceladas|
+|11|01|Oficio_1101|F|9|5|de textos|de poemas|de trovas|de versos|de sonetos|de quadrinhas|de aforismos|de récitas|de crias oriundas|
+|11|02|Oficio_1102|F|6|1|de minha lavra|de minha pena|de meu punho|de minha lida|do meu labor|ao acaso|
 |11|03|Oficio_1103|F|1|1|.|
 |12|00|
-|13|01|Oficio_1301|T|7|3|Esperando|No ensejo de|Ansiando|Intuindo|Aspirando|Cogitando|Almejando|
-|13|02|Oficio_1302|F|4|3|poder contar|ser agraciado|irmanar-me|estar em sintonia|
+|13|01|Oficio_1301|T|7|1|Esperando|No ensejo de|Ansiando|Intuindo|Aspirando|Cogitando|Almejando|
+|13|02|Oficio_1302|F|4|1|poder contar|ser agraciado|irmanar-me|estar em sintonia|
 |14|01|Oficio_1401|F|1|1|com Vossa|
-|14|02|Oficio_1402|F|29|20|magnânima|inequívoca|indubitável|gentil|onipresente|indispensável|indiscutível|inexorável|incontestável|imaculada|reconhecida|internacional|vasta|beneficente|sabida|abrangente|inegável|inquestionável|deplorável|astronômica|iletrada|complacente|displicente|manifesta|eloquente|insuperável|inefável|sapiente|ilibada|
+|14|02|Oficio_1402|T|30|26|magnânima|inequívoca|indubitável|gentil|onipresente|indispensável|indiscutível|inexorável|incontestável|imaculada|reconhecida|internacional|vasta|beneficente|sabida|abrangente|inegável|inquestionável|deplorável|astronômica|iletrada|complacente|displicente|manifesta|eloquente|insuperável|inefável|sapiente|ilibada|galactopoética|
 |14|03|Oficio_1403|F|7|7|bondade|compreensão|aceitação|boa vontade|galhardia|cultura|sabedoria|
 |14|04|Oficio_1404|F|1|1|,|
 |15|01|Oficio_1501|T|20|10|respeitosamente|ansiosamente|ociosamente|simplesmente|urgentemente|estupidamente|tão-somente|cordialmente|minuciosamente|mormente|impunemente|entrementes|literalmente|naturalmente|provavelmente|redondamente|religiosamente|quase temente|ultimamente|veementemente|
 |15|02|Oficio_1502|F|1|1|,|
-|15|03|Oficio_1503|F|6|5|aguardo|horo|teço preces|espero|busco respostas|ofego|
+|15|03|Oficio_1503|F|6|3|aguardo|horo|teço preces|espero|busco respostas|ofego|
 |15|04|Oficio_1504|F|1|1|.|
 |16|00|
-|17|01|Oficio_1701|F|5|2|PS: Se todavia|PS: Se, no entanto,|PS: Porém, se|PS: Se porventura|Entretanto, se|
-|17|02|Oficio_1702|F|3|1|parecerem|soarem feito|julgares serem|
-|17|03|Oficio_1703|F|6|3|palavras|estrofes|frases|ideias|quadras|balelas|
-|17|04|Oficio_1704|F|56|4|a esmo|insensatas|sem nexo|carentes de sentido|impertinentes|órfãs|em desuso|absurdas|insanas|sem atino|impensadas|díspares|inverossímeis|descabidas|inventadas|óbvias|irreais|abusadas|obsoletas|desmedidas|incoerentes|caóticas|ambíguas|exóticas|improváveis|vãs|fictícias|ao léu|desconexas|menores|vagas|dessemelhantes|em disparate|bizarras|esdrúxulas|estapafúrdias|estranhas|incomuns|inusitadas|sem rumo certo|invulgares|mirabolantes|singulares|enfadonhas|sem serventia|aquém da praxe|sibilinas|abstratas|mambemdes|clandestinas|baldias|frívolas|aquém dos cânones|irreverentes|acrônicas|à deriva|
+|17|01|Oficio_1701|F|5|4|PS: Se todavia|PS: Se, no entanto,|PS: Porém, se|PS: Se porventura|Entretanto, se|
+|17|02|Oficio_1702|F|3|2|parecerem|soarem feito|julgares serem|
+|17|03|Oficio_1703|F|6|1|palavras|estrofes|frases|ideias|quadras|balelas|
+|17|04|Oficio_1704|F|56|18|a esmo|insensatas|sem nexo|carentes de sentido|impertinentes|órfãs|em desuso|absurdas|insanas|sem atino|impensadas|díspares|inverossímeis|descabidas|inventadas|óbvias|irreais|abusadas|obsoletas|desmedidas|incoerentes|caóticas|ambíguas|exóticas|improváveis|vãs|fictícias|ao léu|desconexas|menores|vagas|dessemelhantes|em disparate|bizarras|esdrúxulas|estapafúrdias|estranhas|incomuns|inusitadas|sem rumo certo|invulgares|mirabolantes|singulares|enfadonhas|sem serventia|aquém da praxe|sibilinas|abstratas|mambembes|clandestinas|baldias|frívolas|aquém dos cânones|irreverentes|acrônicas|à deriva|
 |17|05|Oficio_1705|F|1|1|...|
-|18|01|Oficio_1801|F|18|18|Engavete-se o meu pedido!|Escreva por si mesmo!|Esqueçamos o ocorrido!|Reclame com um tal de Maiakovski!|Desconsidere o que foi lido!|Declino deste ofício!|Que o gato coma-lhe a língua!|Acatarei, se brilhantes, comentários.|Indefiro-me desde o início!|Que me calem para o sempre!|Invente seu próprio texto!|Reze por mim vez em quando!|Me erre em citações!|Condene-me ao olvido!|Que se restaure o silêncio!|Sirva-as no chá da tarde!|Demito-me de antemão!|Finja não tê-las visto!|
+|18|01|Oficio_1801|F|18|10|Engavete-se o meu pedido!|Escreva por si mesmo!|Esqueçamos o ocorrido!|Reclame com um tal de Maiakovski!|Desconsidere o que foi lido!|Declino deste ofício!|Que o gato coma-lhe a língua!|Acatarei, se brilhantes, comentários.|Indefiro-me desde o início!|Que me calem para o sempre!|Invente seu próprio texto!|Reze por mim vez em quando!|Me erre em citações!|Condene-me ao olvido!|Que se restaure o silêncio!|Sirva-as no chá da tarde!|Demito-me de antemão!|Finja não tê-las visto!|
 |19|00|
 |20|01|Oficio_2001|F|1|1|< pCidadeOficio >, < dOficio >.|
 <EOF>
+- predicado é tudo que não é sujeito.
 CATAPALA = 74
 VERBETES = 537
 PALAVRAS = 697
-VARIATIO = 277.373.594.451.742.200.000.000.000.000.000                                     
+VARIATIO =    277.373.594.451.742.200.000.000.000.000.000              
+              400.090.396.845.543.284.155.613.184.000.000 (nonilhões)  
+           11.916.204.940.272.164.829.376.020.480.000.000 (decilhões)  
 Build_By_Lay_2_Ipo em 02/02/2021_11:23

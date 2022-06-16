@@ -6,19 +6,19 @@
 *-
 *- barcas|à que veio|Cometa|
 *-
-|01|01|Rito_0101|F|6|5|Saiba|Sonde|Ouse|Tente|Busque|Plante|
-|01|02|Rito_0102|F|5|3|mais|outros|novos|velhos|alguns|
-|01|03|Rito_0103|F|7|5|horizontes|versos|caminhos|olhares|sonhos|poemas|limites|
+|01|01|Rito_0101|F|6|2|Saiba|Sonde|Ouse|Tente|Busque|Plante|
+|01|02|Rito_0102|F|5|1|mais|outros|novos|velhos|alguns|
+|01|03|Rito_0103|F|7|6|horizontes|versos|caminhos|olhares|sonhos|poemas|limites|
 |01|04|Rito_0104|F|1|1|,|
-|02|01|Rito_0201|T|24|1|arrisque|revolva|conte|fabrique|invente|rabisque|sugira|ostente|cante|mude|vença|ouça|faça|curta|acate|vista|aceite|rasgue|veja|imite|assuma|ignore|finque|abra|
-|02|02|Rito_0202|F|5|5|mais|velhas|outras|novas|algumas|
-|02|03|Rito_0203|F|6|5|saídas|ideias|senhas|alegrias|rimas|sendas|
-|03|01|Rito_0301|F|2|2|e|ou,|
-|03|02|Rito_0201|T|24|22|arrisque|revolva|conte|fabrique|invente|rabisque|sugira|ostente|cante|mude|vença|ouça|faça|curta|acate|vista|aceite|rasgue|veja|imite|assuma|ignore|finque|abra|
-|03|03|Rito_0303|F|15|12|o amanhã|um futuro|o tédio|amanhãs|o diferente|os pecados|suspiros|as manhãs|o incerto|a folia|um problema|um amanhã|os contentes|carapuças|loucuras|
-|03|04|Rito_0304|F|2|2|...|:|
+|02|01|Rito_0201|T|24|20|arrisque|revolva|conte|fabrique|invente|rabisque|sugira|ostente|cante|mude|vença|ouça|faça|curta|acate|vista|aceite|rasgue|veja|imite|assuma|ignore|finque|abra|
+|02|02|Rito_0202|F|5|3|mais|velhas|outras|novas|algumas|
+|02|03|Rito_0203|F|6|2|saídas|ideias|senhas|alegrias|rimas|sendas|
+|03|01|Rito_0301|F|2|1|e|ou,|
+|03|02|Rito_0201|T|24|19|arrisque|revolva|conte|fabrique|invente|rabisque|sugira|ostente|cante|mude|vença|ouça|faça|curta|acate|vista|aceite|rasgue|veja|imite|assuma|ignore|finque|abra|
+|03|03|Rito_0303|F|15|15|o amanhã|um futuro|o tédio|amanhãs|o diferente|os pecados|suspiros|as manhãs|o incerto|a folia|um problema|um amanhã|os contentes|carapuças|loucuras|
+|03|04|Rito_0304|F|2|1|...|:|
 |04|00|
-|05|01|Rito_0501|T|35|32|Fique-se mais leve|Ande na corda bamba|Repita os acertos|Faça e aconteça|Resolva-se feliz|Assine-se embaixo..|Fuja do tédio|Vingue um projeto|Mande na esperança|Caia no ócio|Salve os rascunhos|Chega de mesmices|Dê um perdido|Negue os absurdos|Fuja do óbvio|Mostre à que veio|Ache um destino|Prove o contrário|Regue esperanças|Faça acontecer|Busque o não feito|Não atire no escuro|Ou creia, ou acredite|Benvindo, perdido|Resolva se feliz|Nem pense no espaço|Invoque algum anjo|Renove seu ego|Caiba no breu|Acorde pra vida|Atinja as tais metas|Acorde na corda bamba|São coisas da vida|Murro em ponta de faca..|Evite conselhos..|
+|05|01|Rito_0501|T|35|12|Fique-se mais leve|Ande na corda bamba|Repita os acertos|Faça e aconteça|Resolva-se feliz|Assine-se embaixo..|Fuja do tédio|Vingue um projeto|Mande na esperança|Caia no ócio|Salve os rascunhos|Chega de mesmices|Dê um perdido|Negue os absurdos|Fuja do óbvio|Mostre à que veio|Ache um destino|Prove o contrário|Regue esperanças|Faça acontecer|Busque o não feito|Não atire no escuro|Ou creia, ou acredite|Benvindo, perdido|Resolva se feliz|Nem pense no espaço|Invoque algum anjo|Renove seu ego|Caiba no breu|Acorde pra vida|Atinja as tais metas|Acorde na corda bamba|São coisas da vida|Murro em ponta de faca..|Evite conselhos..|
 |05|02|Rito_0502|F|1|1|.|
 <EOF>
 CATAPALA = 13
