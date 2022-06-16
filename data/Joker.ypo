@@ -1,8 +1,5 @@
 *-
-*- Definir e Manter Padrão... Pensar em 4_7_10 = o rítmo é melhor|
 *- Joker.ypo
-*-
-*- HLX5U-SER01-11922-22843-68124 = KeyWord_Serif
 *-
 *- NEWS = abolir|brandir|auferir|trair|incluir|eximir|existir|ferir|imbuir|piscar|atingir|cumprir|sorrir|subir|ungir|
 *- NEWS = Sem Métrica = e admiti|e preferi|num bilhete|coloquei|e fui|e sorri a|e fugi|Esqueci|Escondi|elixir|na latrina|
@@ -27,33 +24,25 @@
 *- Fado = destino, sorte, estrela; o que necessariamente tem de ser; vaticínio, decreto do destino
 *- Toa = cabo com que uma embarcação reboca outra
 *-
-*- |01|02| e |03|03| = |a|da|na|de|o|do|no|de|do|da| == 4 silabas
-*- |02|02| = Sempre no plural
-*- |01|01| - Verbos em ER ou IR
-*- |02|01| - Verbos em AR == 7 silabas
-*- |03|01| - Verbos em IR ou ER
-*- |03|02|JOK_0302|F|8|7|ser fantasma|ser curinga| == 9 silabas
-*-
-*- |medos|dados|dedos|idos|lados| == SubIdeias =
-*- |uns|o|dois|
-*-
-|01|01|Joker_0101|T|32|23|Bebi|Reli|Cerzi|Perdi|Cobri|Pari|Carpi|Medi|Servi|Cuspi|Abri|Sorti|Despi|Tingi|Flori|Rugi|Fundi|Jungi|Nutri|Fluí|Sorvi|Tangi|Vesti|Ungi|Luzi|Muni|Poli|Senti|Supri|Urgi|Incuti|Erigi|
-|01|02|Joker_0102|F|9|7|a prosa|o resto|paisagens|o rosto|amores|o gesto|ideias|o vasto|os fardos|
-|01|03|Joker_0103|F|5|2|com gosto|brincando|amiúde|pra sempre|à toa|
-|01|04|Joker_0104|F|1|1|,|
-|02|01|Joker_0201|F|21|3|troquei|joguei|toquei|narrei|piquei|lancei|mirei|tranquei|guardei|sentei|rasguei|calcei|gastei|cacei|marrei|tracei|plantei|risquei|mudei|soquei|deitei|
-|02|02|Joker_0202|F|12|12|uns medos|dois dados|recados|uns dados|dois medos|os fardos|segredos|os credos|agrados|os brados|os fados|grunhidos|
-|02|03|Joker_0203|F|16|2|na cara|no parque|ilhados|na fala|do peito|na praça|alados|sem fala|sem jeito|na fila|e pecados|no laço|no passo|privados|idiotas|da fala|
-|03|01|Joker_0201|T|21|8|troquei|joguei|toquei|narrei|piquei|lancei|mirei|tranquei|guardei|sentei|rasguei|calcei|gastei|cacei|marrei|tracei|plantei|risquei|mudei|soquei|deitei|
-|03|02|Joker_0202|T|12|9|uns medos|dois dados|recados|uns dados|dois medos|os fardos|segredos|os credos|agrados|os brados|os fados|grunhidos|
-|03|03|Joker_0203|T|16|9|na cara|no parque|ilhados|na fala|do peito|na praça|alados|sem fala|sem jeito|na fila|e pecados|no laço|no passo|privados|idiotas|da fala|
-|04|01|Joker_0401|T|23|9|e parti|e sumi|e menti|e aludi|e corri|e fulgi|e anuí|e curti|e exibi|e fingi|e saí|e iludi|e aturdi|e entrevi|e fruí|e intuí|e exigi|e eludi|e enxeri|e fluí|e segui|e urdi|e colhi|
-|04|02|Joker_0402|F|10|3|ser assim,|ser mais eu|, curinga,|ser alguém|ser mais um|, já fantasma,|ser feliz|ser ninguém,|saciado|, banido|
-|04|03|Joker_0403|F|16|11|pela vida|por esquinas|em Paris|ao acaso|em retrato|por escrito|em Berlim|sem querer mais nada|no quieto|em meu canto|no secreto|por brinquedo|sem querer futuro|só... quieto|sem nem rito|por magia|
-|04|04|Joker_0404|F|1|1|.|
+|01|01|Joker_0101|F|22|9|Troquei|Joguei|Toquei|Narrei|Piquei|Lancei|Mirei|Tranquei|Guardei|Sentei|Rasguei|Calcei|Gastei|Cacei|Marrei|Tracei|Plantei|Risquei|Mudei|Soquei|Deitei|Juntei|
+|01|02|Joker_0102|F|6|6|dois dados|os brados|uns dados|os fados|agrados|recados|
+|01|03|Joker_0103|F|8|4||na cara|na lata|no parque|na praça|no passo|na fila|no laço|
+|02|01|Joker_0101|T|21|19|troquei|joguei|toquei|narrei|piquei|lancei|mirei|tranquei|guardei|sentei|rasguei|calcei|gastei|cacei|marrei|tracei|plantei|risquei|mudei|soquei|deitei|
+|02|02|Joker_0202|F|6|6|uns medos|dois medos|os fardos|segredos|os credos|grunhidos|
+|02|03|Joker_0203|F|9|3|ilhados|do peito|alados|sem fala|sem jeito|e pecados|privados|idiotas|da fala|
+|03|01|Joker_0301|T|32|26|bebi|reli|cerzi|perdi|cobri|pari|carpi|medi|servi|cuspi|abri|sorti|despi|tingi|flori|rugi|fundi|jungi|nutri|fluí|sorvi|tangi|vesti|ungi|luzi|muni|poli|senti|supri|urgi|incuti|erigi|
+|03|02|Joker_0302|F|9|5|a prosa|o resto|paisagens|o rosto|amores|o gesto|ideias|o vasto|os fardos|
+|03|03|Joker_0303|F|5|1|com gosto|brincando|amiúde|pra sempre|à toa|
+|04|01|Joker_0401|F|1|1|e|
+|04|02|Joker_0402|F|4|4|resolvi|preferi|decidi|escolhi|
+|04|03|Joker_0403|F|8|7|ser assim,|ser mais eu|ser curinga|ser alguém|ser mais um|virar fantasma|ser feliz|ser ninguém,|
+|04|04|Joker_0404|F|11|8|pela vida adentro|por esquinas aladas|em retrato ao vivo|por escrito, à mão|sem querer mais nada|no inquieto de mim|em meu canto secreto|por brinquedo|sem pensar futuros|, só... no quieto|sem rito nem magia|
+|04|05|Joker_0405|F|1|1|.|
 <EOF>
 CATAPALA = 20
 VERBETES = 159
 PALAVRAS = 302
 VARIATIO = 64.623.063.859.200                                                              
 Build_By_Lay_2_Ipo em 02/02/2021_11:25
+saciado...|, banido|
+parti|sumi|menti|aludi|corri|fulgi|anuí|curti|exibi|fingi|saí|iludi|aturdi|entrevi|fruí|intuí|exigi|eludi|enxeri|segui|urdi|colhi|

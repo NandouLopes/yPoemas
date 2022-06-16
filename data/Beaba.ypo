@@ -1,22 +1,22 @@
 *-
 *- Beaba.ypo
 *-
-|01|01|Beaba_0101|F|10|2|Inventar|Eleger|Pesquisar|Mergulhar em|Estudar|Engendrar|Inspirar-se em|Gerar|Escolher|Aprofundar-se em|
+|01|01|Beaba_0101|F|10|3|Inventar|Eleger|Pesquisar|Mergulhar em|Estudar|Engendrar|Inspirar-se em|Gerar|Escolher|Aprofundar-se em|
 |01|02|Beaba_0102|F|7|7|um tema,|um assunto,|um fato,|um discurso,|um mote,|um poema,|um pensamento,|
-|02|01|Beaba_0201|F|8|2|inventar|pesquisar|estudar|engendrar|gerar|escolher|eleger|pinçar|
-|02|02|Beaba_0202|F|8|5|visões|mensagens|instruções|polêmicas|palavras|sugestões|teorias|ideias|
-|02|03|Beaba_0203|F|14|9|diferentes|conflitantes|concorrentes|concordantes|concludentes|convergentes|objetivas|provocantes|recorrentes|discordantes|divergentes|subjetivas|, inda que redundantes,|anárquicas|
-|02|04|Beaba_0204|F|6|5|sobre o mesmo|que o corroborem|que o reinventem|ao acaso|que o contradigam|que o redefinam|
-|03|01|Beaba_0301|F|6|2|e distribuí-las|e embaralhá-las|e misturá-las|arranjá-las|atá-las|combiná-las|
-|03|02|Beaba_0302|F|3|2|em rimas|em linhas|em laçadas|em ilações|
+|02|01|Beaba_0201|F|8|3|inventar|pesquisar|estudar|engendrar|gerar|escolher|eleger|pinçar|
+|02|02|Beaba_0202|F|8|3|visões|mensagens|instruções|polêmicas|palavras|sugestões|teorias|ideias|
+|02|03|Beaba_0203|F|14|4|diferentes|conflitantes|concorrentes|concordantes|concludentes|convergentes|objetivas|provocantes|recorrentes|discordantes|divergentes|subjetivas|, inda que redundantes,|anárquicas|
+|02|04|Beaba_0204|F|6|3|sobre o mesmo|que o corroborem|que o reinventem|ao acaso|que o contradigam|que o redefinam|
+|03|01|Beaba_0301|F|6|5|e distribuí-las|e embaralhá-las|e misturá-las|e arranjá-las|e atá-las|e combiná-las|
+|03|02|Beaba_0302|F|5|3|em rimas|em linhas|em laçadas|em ilações|em aventuras|
 |03|03|Beaba_0303|F|6|2|aleatórias|cruzadas|imaginárias|impensadas|teóricas|intuitivas|
 |04|01|Beaba_0401|F|3|2|-# ancoradas por|-# recheadas de|-# sustentadas por|
-|04|02|Beaba_0202|F|8|3|visões|mensagens|instruções|polêmicas|palavras|sugestões|teorias|ideias|
+|04|02|Beaba_0202|F|8|5|visões|mensagens|instruções|polêmicas|palavras|sugestões|teorias|ideias|
 |04|03|Beaba_0403|F|14|13|diferentes|conflitantes|concorrentes|concordantes|concludentes|convergentes|objetivas|provocantes|recorrentes|discordantes|divergentes|subjetivas|, inda que redundantes,|anárquicas|
 |04|04|Beaba_0404|F|1|1| -|
-|05|01|Beaba_0501|F|6|5|que contribuam para|que levem a|que saibam|capazes de|que possam|para simplesmente|
-|05|02|Beaba_0502|F|15|14|duvidar do|melhorar o|agregar-se ao|discutir o|ampliar o|questionar o|explorar o|repensar o|sobrepor-se ao|discorrer sobre o|acrescentar algo ao|inovar o|trazer luz ao|recriar o|contrapor-se ao|
-|05|03|Beaba_0503|F|9|4|que foi dito|cotidiano|desconhecido|dia-pós-dia|que não foi dito|tal "normal"|conceito de "novo"|ultrapassado|tedioso banal|que seria liberdade|
+|05|01|Beaba_0501|F|6|2|que contribuam para|que levem a|que saibam|capazes de|que possam|para simplesmente|
+|05|02|Beaba_0502|F|15|5|duvidar do|melhorar o|agregar-se ao|discutir o|ampliar o|questionar o|explorar o|repensar o|sobrepor-se ao|discorrer sobre o|acrescentar algo ao|inovar o|trazer luz ao|recriar o|contrapor-se ao|
+|05|03|Beaba_0503|F|10|8|que foi dito|cotidiano|desconhecido|dia-pós-dia|que não foi dito|tal "normal"|conceito de "novo"|ultrapassado|tedioso banal|que seria liberdade|
 |05|04|Beaba_0504|F|1|1|.|
 <EOF>
 CATAPALA = 26

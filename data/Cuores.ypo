@@ -1,31 +1,51 @@
 *-
-*- Cuores.ypo
+*- Cuori.ypo
 *-
-*- Manter |02|01|CUO_0201| e |03|01|CUO_0301| despareados...
+*- |meu coração|um coração que|
+*- |bate|apanha|ama|acanha-se|assanha-se|
 *-
-*- |05|02|CUO_0502|F|43|37|desavisados|solitários|perdidos|desconcertados|encruzilhados|a sós|exilados|vacantes|espezinhados|saltimbancos|enlevados|andarilhos|desencontrados|aflitos|alados|tolhidos|desfalcados|maltrapilhos|desamados|desalinhados|transeuntes|enganados|sofrentes|parados|ambulantes|descuidados|entretidos|emboscados|itinerantes|calcificados|atingidos|destelhados|vencidos|cansados|em trevas|vadios|rebeldes|entediados|ilhados|pingentes|anônimos|descasados|na tipóia|
-*- |06|01|CUO_0601|F|21|19|pela ávida vida|de tão mal batidos|sem saber soprar|aprendendo acasos|sem nem ter dono|... aves da vida|em labirinto|n'alguma tristeza|nunca sofridos|quase vagabundos|que catam saídas|... batendo amenos|... os sem poder gostar|ainda não queridos|... os que não amam mais|sem amor verdadeiro|em sinuca|seminus|fazendo fila|em taquicardia|sem nenhuma saída|
-*- safenados|infartantes|vez|muita|muito|
-*- alados|em espinhos|famintos|em cilada|acaricie|
-*- REVER: porquê não|
+*- |05|01|Cuori_0501|F|4|2|os corações|corações|aqueles corações|todos os corações|
+*- |05|02|Cuori_0502|T|46|13|desavisados|solitários|desconcertados|encruzilhados|desencontrados|a sós|exilados|vacantes|espezinhados|saltimbancos|enlevados|perdidos|andarilhos|aflitos|alados|tolhidos|desfalcados|maltrapilhos|desamados|desalinhados|transeuntes|enganados|sofrentes|parados|ambulantes|descuidados|entretidos|emboscados|itinerantes|calcificados|atingidos|destelhados|vencidos|cansados|em trevas|vadios|rebeldes|entediados|ilhados|pingentes|anônimos|descasados|na tipoia|em labirinto|em sinuca|seminus|
+*- |05|03|Cuori_0503|F|1|1|,|
+*- |05|04|Cuori_0504|F|31|23|ávidos por vida|tão mal batidos|sem saber soprar|aprendendo acasos|sem nem ter dono|aves da vida|em labirinto|n'alguma tristeza|nunca sofridos|quase vagabundos|catando saídas|batendo amenos|sem poder gostar|ainda não queridos|que nem amam mais|sem amor verdadeiro|fazendo fila|em taquicardia|sem achar saída|perdidos|andarilhos|aflitos|tolhidos|maltrapilhos|transeuntes|entretidos|atingidos|vencidos|vadios|na tipoia|em sinuca|
+*- |05|05|Cuori_0505|F|1|1|.|
 *-
-|01|01|Cuores_0101|F|1|1|...|
-|01|02|Cuores_0102|F|14|4|porquê não|que também seja dia de|talvez vez por outra|o momento certo de|a hora esperada é de|acasalando|que venha de sonhos|dia virá em que veremos|é hoje o dia de|soubesse eu de|sei que haverá|e ver surgir, do nada,|e do nada sugerir|quase cochichando|
-|02|01|Cuores_0201|F|3|3|alguma|qualquer|apenas|
-|02|02|Cuores_0202|F|12|9|alegria|delícia|empatia|brandura|harmonia|paz|carícia|ternura|simpatia|cantiga|luz|magia|
-|02|03|Cuores_0203|F|1|1|...|
-|03|01|Cuores_0301|F|3|2|e algum|qualquer|e apenas um|
-|03|02|Cuores_0302|F|8|1|deleite|afeto|carinho|toque|cafuné|novo amor|afago|atalho|
-|04|01|Cuores_0401|F|1|1|que|
-|04|02|Cuores_0402|T|15|9|escancare|chacoalhe|atravesse|ilumine|dispare|envolva|desperte|acalente|vasculhe|revolva|abrace|acelere|faça bater|enterneça|toque|
-|05|01|Cuores_0501|F|5|1|os corações|corações|só os corações|aqueles corações|todos os corações|
-|05|02|Cuores_0502|T|46|28|desavisados|solitários|desconcertados|encruzilhados|desencontrados|a sós|exilados|vacantes|espezinhados|saltimbancos|enlevados|perdidos|andarilhos|aflitos|alados|tolhidos|desfalcados|maltrapilhos|desamados|desalinhados|transeuntes|enganados|sofrentes|parados|ambulantes|descuidados|entretidos|emboscados|itinerantes|calcificados|atingidos|destelhados|vencidos|cansados|em trevas|vadios|rebeldes|entediados|ilhados|pingentes|anônimos|descasados|na tipóia|em labirinto|em sinuca|seminus|
-|05|03|Cuores_0503|F|1|1|,|
-|06|01|Cuores_0601|F|31|14|ávidos por vida|tão mal batidos|sem saber soprar|aprendendo acasos|sem nem ter dono|aves da vida|em labirinto|n'alguma tristeza|nunca sofridos|quase vagabundos|catando saídas|batendo amenos|sem poder gostar|ainda não queridos|que nem amam mais|sem amor verdadeiro|fazendo fila|em taquicardia|sem achar saída|perdidos|andarilhos|aflitos|tolhidos|maltrapilhos|transeuntes|entretidos|atingidos|vencidos|vadios|na tipóia|em sinuca|
-|06|02|Cuores_0602|F|1|1|...|
+|01|01|Cuori_0101|F|2|2|Meu coração foi|Meu coração é|
+|01|02|Cuori_0102|F|11|2|indigente|notívago|inocente|banido|fingido|ferido|bandido|sofrido|esquecido|perdido|distraído|
+|02|01|Cuori_0201|F|1|1|e quer|
+|02|02|Cuori_0202|F|3|3|alguma|qualquer|apenas|
+|02|03|Cuori_0203|F|12|8|alegria|delícia|empatia|brandura|harmonia|paz|carícia|ternura|simpatia|cantiga|luz|magia|
+|02|04|Cuori_0204|F|1|1|...|
+|03|01|Cuori_0301|F|3|2|algum|qualquer|apenas um|
+|03|02|Cuori_0302|F|8|4|deleite|afeto|carinho|toque|cafuné|novo amor|afago|atalho|
+|03|03|Cuori_0303|F|1|1|que|
+|03|04|Cuori_0304|F|15|14|escancare|chacoalhe|atravesse|ilumine|dispare|envolva|desperte|acalente|vasculhe|revolva|abrace|acelere|faça bater|enterneça|toque|
+|04|01|Cuori_0401|F|1|1|os corações|
+|04|02|Cuori_0402|F|22|2|destelhados|descuidados|desencontrados|entediados|encruzilhados|parados|emboscados|calcificados|desalinhados|cansados|desamados|alados|desavisados|calados|exilados|enlevados|enganados|descasados|desconcertados|espezinhados|ilhados|desfalcados|
+|04|03|Cuori_0403|F|1|1|,|
+|04|04|Cuori_0404|F|20|18|sofrentes|saltimbancos|pingentes|em taquicardia|vacantes|anônimos|ávidos por vida|itinerantes|andarilhos|sem poder gostar|ambulantes|batendo amenos|aflitos|rebeldes|transeuntes|sem achar saída|catando saídas|solitários|sem nem ter dono|em labirinto|
+|04|05|Cuori_0405|F|1|1|,|
+|04|06|Cuori_0406|F|8|6|ainda não queridos|atingidos|entretidos|mal batidos|nunca sofridos|perdidos|tolhidos|vencidos|
+|04|07|Cuori_0407|F|1|1|.|
+|05|00|
+|06|01|Cuori_0601|F|1|1|Meu coração será|
+|06|02|Cuori_0602|F|5|4|merecido|atraído|atrevido|querido|encontrado|
+|07|01|Cuori_0701|F|1|1|e terá|
+|07|02|Cuori_0702|F|3|1|alguma|qualquer|apenas|
+|07|03|Cuori_0203|F|12|7|alegria|delícia|empatia|brandura|harmonia|paz|carícia|ternura|simpatia|cantiga|luz|magia|
+|07|04|Cuori_0204|F|1|1|...|
+|08|01|Cuori_0801|F|3|3|algum|qualquer|apenas um|
+|08|02|Cuori_0302|F|8|2|deleite|afeto|carinho|toque|cafuné|novo amor|afago|atalho|
+|08|03|Cuori_0303|F|1|1|que|
+|08|04|Cuori_0304|T|15|11|escancare|chacoalhe|atravesse|ilumine|dispare|envolva|desperte|acalente|vasculhe|revolva|abrace|acelere|faça bater|enterneça|toque|
+|09|01|Cuori_0401|F|1|1|os corações|
+|09|02|Cuori_0402|T|22|6|destelhados|descuidados|desencontrados|entediados|encruzilhados|parados|emboscados|calcificados|desalinhados|cansados|desamados|alados|desavisados|calados|exilados|enlevados|enganados|descasados|desconcertados|espezinhados|ilhados|desfalcados|
+|09|03|Cuori_0403|F|1|1|,|
+|09|04|Cuori_0404|T|20|12|sofrentes|saltimbancos|pingentes|em taquicardia|vacantes|anônimos|ávidos por vida|itinerantes|andarilhos|sem poder gostar|ambulantes|batendo amenos|aflitos|rebeldes|transeuntes|sem achar saída|catando saídas|solitários|sem nem ter dono|em labirinto|
+|09|05|Cuori_0405|F|1|1|,|
+|09|06|Cuori_0406|T|8|3|ainda não queridos|atingidos|entretidos|mal batidos|nunca sofridos|perdidos|tolhidos|vencidos|
+|09|07|Cuori_0407|F|1|1|.|
+|10|00|
+|11|01|Cuori_1101|F|1|1|Meu coração|
+|11|02|Cuori_1102|F|6|6|saberá o que dizer!|encontrará saídas!|mal sabia onde pisava.|sabe onde está.|sente-se feliz por nadas.|já perdeu medos de ser feliz.|
 <EOF>
-CATAPALA = 17
-VERBETES = 154
-PALAVRAS = 226
-VARIATIO = 1.293.667.200                                                                   
-Build_By_Lay_2_Ipo em 18/01/2021_09:15

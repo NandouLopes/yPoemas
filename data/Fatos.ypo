@@ -1,8 +1,6 @@
 *-
 *- Fatos.ypo
 *-
-*- |Paracelsus|hindu|bastante|Je'm'enfout|Jaime Enfout
-*-
 *- Konrad von Gesner (1516—1565), naturalista suíço, também é conhecido como o "pai da bibliografia" devido a sua obra
 *- editada em 1545 "Bibliotheca universalis". Tinha o intuito de realizar uma lista dos livros impressos no mundo.
 *-
@@ -15,71 +13,70 @@
 *-
 *- Michel de Nostredame (1503-1566), médico francês, dedicou muito do seu tempo ao estudo da Astrologia, Alquimia,
 *- Literatura e Teologia; assim como ao aprendizado de latim, grego e hebraico.
-*- <NEW> de Monregard;
 *-
 |01|01|Fatos_0101|F|1|1|Sobre a|
 |01|02|Fatos_0102|F|1|1|"|
-|01|03|Fatos_0103|F|18|9|Misteriosa|Hipotética|Mística|Psicodélica|Excêntrica|Simbólica|Fatídica|Apoteótica|Arcaica|Satânica|Futurística|Mitológica|Histórica|Exótica|Idílica|Labiríntica|Apocalíptica|Hipnótica|
+|01|03|Fatos_0103|F|18|14|Misteriosa|Hipotética|Mística|Psicodélica|Excêntrica|Simbólica|Fatídica|Apoteótica|Arcaica|Satânica|Futurística|Mitológica|Histórica|Exótica|Idílica|Labiríntica|Apocalíptica|Hipnótica|
 |01|04|Fatos_0104|F|1|1|Máquina|
 |01|05|Fatos_0105|F|1|1|"|
 |01|06|Fatos_0106|F|1|1|de fazer Poesia:|
 |02|00|
 |03|01|Fatos_0301|F|1|1|A cidade é < pCity >,|
 |04|01|Fatos_0401|F|1|1|e lá existe|
-|04|02|Fatos_0402|F|6|5|um pequeno|um velho|um pacato|um milenar|um remoto|um rústico|
-|04|03|Fatos_0403|F|9|4|templo|gueto|museu|vilarejo|mosteiro|povoado|convento|bairro|santuário|
-|04|04|Fatos_0404|T|15|13|pagão|budista|cristão|tibetano|brâmane|ortodoxo|ateísta|laico|muçulmano|celta|curdo|bizantino|hebreu|sunita|panteísta|
+|04|02|Fatos_0402|F|6|4|um pequeno|um velho|um pacato|um milenar|um remoto|um rústico|
+|04|03|Fatos_0403|F|9|9|templo|gueto|museu|vilarejo|mosteiro|povoado|convento|bairro|santuário|
+|04|04|Fatos_0404|T|15|8|pagão|budista|cristão|tibetano|brâmane|ortodoxo|ateísta|laico|muçulmano|celta|curdo|bizantino|hebreu|sunita|panteísta|
 |05|01|Fatos_0501|F|1|1|onde|
-|05|02|Fatos_0502|F|6|5|um rascunho|um desenho|o que resta|um pergaminho|um esboço|o projeto|
-|05|03|Fatos_0503|F|12|12|da famosa|da desconhecida|da secreta|da obscura|da mágica|da cobiçada|da referida|da engenhosa|da refinada|da fictícia|da improvável|da inaudita|
+|05|02|Fatos_0502|F|6|4|um rascunho|um desenho|o que resta|um pergaminho|um esboço|o projeto|
+|05|03|Fatos_0503|F|12|11|da famosa|da desconhecida|da secreta|da obscura|da mágica|da cobiçada|da referida|da engenhosa|da refinada|da fictícia|da improvável|da inaudita|
 |05|04|Fatos_0504|F|1|1|"Machina"|
-|06|01|Fatos_0601|F|11|5|foi visto pela primeira vez.|foi encontrado no início do século.|foi visto pela última vez.|fica guardado a sete chaves.|repousa longe dos olhares curiosos.|fica exposto ao tempo e traças.|é tido como sagrado.|parece ter ganhado vida.|fica a salvo dos turistas.|é mantido em segredo.|virou mero souvenir.|
+|06|01|Fatos_0601|F|11|11|foi visto pela primeira vez.|foi encontrado no início do século.|foi visto pela última vez.|fica guardado a sete chaves.|repousa longe dos olhares curiosos.|fica exposto ao tempo e traças.|é tido como sagrado.|parece ter ganhado vida.|fica a salvo dos turistas.|é mantido em segredo.|virou mero souvenir.|
 |07|00|
 |08|01|Fatos_0801|F|1|1|Segundo o|
-|08|02|Fatos_0802|F|8|3|renomado|ilustre|célebre|reconhecido|famigerado|grande mestre|conceituado|olvidado|
-|08|03|Fatos_0803|F|12|1|historiador|paleontólogo|linguista|pesquisador|antropólogo|ensaísta|hermeneuta|ocultista|gramatólogo|erudito|sambista|iconologista|
-|08|04|Fatos_0804|T|15|10|turco|cipriota|belga|nigeriano|canadense|hondurenho|paraguaio|nepalense|sunita|afro-americano|egípcio|malaio|costa-riquenho|argentino|tupi-guarani|
+|08|02|Fatos_0802|F|8|2|renomado|ilustre|célebre|reconhecido|famigerado|grande mestre|conceituado|olvidado|
+|08|03|Fatos_0803|F|12|12|historiador|paleontólogo|linguista|pesquisador|antropólogo|ensaísta|hermeneuta|ocultista|gramatólogo|erudito|sambista|iconologista|
+|08|04|Fatos_0804|T|15|1|turco|cipriota|belga|nigeriano|canadense|hondurenho|paraguaio|nepalense|sunita|afro-americano|egípcio|malaio|costa-riquenho|argentino|tupi-guarani|
 |08|05|Fatos_0805|F|1|1|,|
 |09|01|Fatos_0901|F|1|1|Dr.|
-|09|02|Fatos_0902|F|16|4|Abraham|Neovais|Advindo|Virgulin|Arturo|Hermés|Klauss|Bastyan|Ananiz|Icaro|Mathaeus|Libero|Theobardus|Oblitério|Darmihão|Homenino|
-|09|03|Fatos_0903|T|17|11|Woister|Deuxsanstrois|Papadapolis|Miradelante|Sansrêves|Erradióz|Delavenir|Daascostem|Audelá|Menterwords|Al-a-Tzar|Lointain|de Caravaga|von Absconso|Pasdepassée|Miseancienne|Centenebres|
+|09|02|Fatos_0902|F|16|3|Abraham|Neovais|Advindo|Virgulin|Arturo|Hermés|Klauss|Bastyan|Ananiz|Icaro|Mathaeus|Libero|Theobardus|Oblitério|Darmihão|Homenino|
+|09|03|Fatos_0903|T|17|5|Woister|Deuxsanstrois|Papadapolis|Miradelante|Sansrêves|Erradióz|Delavenir|Daascostem|Audelá|Menterwords|Al-a-Tzar|Lointain|de Caravaga|von Absconso|Pasdepassée|Miseancienne|Centenebres|
 |09|04|Fatos_0904|F|1|1|,|
-|10|01|Fatos_1001|F|6|6|a ideia|a atualidade|a retórica|a argúcia|a contemporaneidade|a astúcia|
+|10|01|Fatos_1001|F|6|5|a ideia|a atualidade|a retórica|a argúcia|a contemporaneidade|a astúcia|
 |10|02|Fatos_1002|F|1|1|,|
-|10|03|Fatos_1003|F|8|5|original|inconfundível|vigente|inegável|indiscutível|latente|ímpar|inenarrável|
+|10|03|Fatos_1003|F|8|4|original|inconfundível|vigente|inegável|indiscutível|latente|ímpar|inenarrável|
 |10|04|Fatos_1004|F|1|1|,|
-|10|05|Fatos_1005|F|3|2|aparentemente|claramente|obviamente|
-|10|06|Fatos_1006|F|9|3|farsa|inexequível|fantasiosa|simples|absurda|dúbia|implausível|genial|inútil|
+|10|05|Fatos_1005|F|3|1|aparentemente|claramente|obviamente|
+|10|06|Fatos_1006|F|9|8|farsa|inexequível|fantasiosa|simples|absurda|dúbia|implausível|genial|inútil|
 |10|07|Fatos_1007|F|1|1|,|
-|11|01|Fatos_1101|F|5|3|pertence a|tem traços de|remete a|credita-se a|é obra de|
-|11|02|Fatos_1102|F|8|3|Leonardo da Vinci|Giambattista Vico|Michel de Nostredame|Johannes Gutenberg|Galileo Galilei|Dante Alighieri|Stephane Mallarmé|Aldus Manutius|
+|11|01|Fatos_1101|F|5|4|pertence a|tem traços de|remete a|credita-se a|é obra de|
+|11|02|Fatos_1102|F|8|2|Leonardo da Vinci|Giambattista Vico|Michel de Nostredame|Johannes Gutenberg|Galileo Galilei|Dante Alighieri|Stephane Mallarmé|Aldus Manutius|
 |11|03|Fatos_1103|F|1|1|.|
 |12|00|
-|13|01|Fatos_1301|F|4|3|Na única parte legível do|Do pouco que sobrou desse|No trecho preservado de tão|Nas entrelinhas do|
-|13|02|Fatos_1302|F|11|8|histórico|lendário|incrível|inusitado|raro|atávico|tosco|fantástico|antigo|atípico|incógnito|
-|13|03|Fatos_1303|F|5|4|documento|modelo|achado|registro|oráculo|
-|14|01|Fatos_1401|F|3|2|( embora haja indícios de que|( ainda que, segundo os estudiosos,|( em que pese... reles suspeita...|
+|13|01|Fatos_1301|F|4|2|Na única parte legível do|Do pouco que sobrou desse|No trecho preservado de tão|Nas entrelinhas do|
+|13|02|Fatos_1302|F|11|3|histórico|lendário|incrível|inusitado|raro|atávico|tosco|fantástico|antigo|atípico|incógnito|
+|13|03|Fatos_1303|F|5|5|documento|modelo|achado|registro|oráculo|
+|14|01|Fatos_1401|F|3|1|( embora haja indícios de que|( ainda que, segundo os estudiosos,|( em que pese... reles suspeita...|
 |15|01|Fatos_1501|F|1|1|tenha sido|
-|15|02|Fatos_1502|F|6|1|totalmente|ligeiramente|erroneamente|estupidamente|radicalmente|levianamente|
-|15|03|Fatos_1503|F|10|1|aperfeiçoado|remodelado|melhorado|falsificado|redesenhado|alterado|corrompido|reescrito|plagiado|aprimorado|
+|15|02|Fatos_1502|F|6|6|totalmente|ligeiramente|erroneamente|estupidamente|radicalmente|levianamente|
+|15|03|Fatos_1503|F|10|2|aperfeiçoado|remodelado|melhorado|falsificado|redesenhado|alterado|corrompido|reescrito|plagiado|aprimorado|
 |16|01|Fatos_1601|F|1|1|por um|
-|16|02|Fatos_1602|F|11|5|sobrinho|neto|tio|avô|primo|bisneto|cunhado|amigo|parente|discípulo|irmão|
-|16|03|Fatos_1603|F|12|7|autista|equidistante|visionário|estrábico|meticuloso|distante|incauto|desastrado|hermafrodita|profano|ambidestro|inconsequente|
+|16|02|Fatos_1602|F|11|11|sobrinho|neto|tio|avô|primo|bisneto|cunhado|amigo|parente|discípulo|irmão|
+|16|03|Fatos_1603|F|12|6|autista|equidistante|visionário|estrábico|meticuloso|distante|incauto|desastrado|hermafrodita|profano|ambidestro|inconsequente|
 |16|04|Fatos_1604|F|1|1|de|
-|16|05|Fatos_1605|F|18|13|Thomas Edison|Isaac Newton|Guimarães Rosa|Albert Einstein|Konrad Von Gesner|Henry Mill|James Joyce|Salvador Dali|Antoni Gaudí|Sigmund Freud|Augusto dos Anjos|Maria Callas|Franz Kafka|Miguel de Cervantes|Cruz e Souza|Jaques Lacan|Sousândrade|Eric Satie|
+|16|05|Fatos_1605|F|18|18|Thomas Edison|Isaac Newton|Guimarães Rosa|Albert Einstein|Konrad Von Gesner|Henry Mill|James Joyce|Salvador Dali|Antoni Gaudí|Sigmund Freud|Augusto dos Anjos|Maria Callas|Franz Kafka|Miguel de Cervantes|Cruz e Souza|Jaques Lacan|Sousândrade|Eric Satie|
 |16|06|Fatos_1606|F|1|1|)|
 |17|01|Fatos_1701|F|1|1|leem-se referências a uma suposta entidade futura,|
 |18|01|Fatos_1801|F|1|1|siglada ABNP,|
-|18|02|Fatos_1802|F|3|2|que teria por fim|cuja meta seria|que viria para|
-|18|03|Fatos_1803|F|8|8|regulamentar|moldar|aperfeiçoar|multiplicar|implementar|regrar|moderar|propagar|
+|18|02|Fatos_1802|F|3|1|que teria por fim|cuja meta seria|que viria para|
+|18|03|Fatos_1803|F|8|7|regulamentar|moldar|aperfeiçoar|multiplicar|implementar|regrar|moderar|propagar|
 |19|01|Fatos_1901|F|1|1|a produção poética|
-|19|02|Fatos_1902|F|3|2|oriunda|proveniente|vindoura|
-|19|03|Fatos_0503|T|11|6|da famosa|da desconhecida|da secreta|da obscura|da mágica|da cobiçada|da referida|da engenhosa|da refinada|da fictícia|da improvável|
+|19|02|Fatos_1902|F|3|1|oriunda|proveniente|vindoura|
+|19|03|Fatos_0503|T|11|4|da famosa|da desconhecida|da secreta|da obscura|da mágica|da cobiçada|da referida|da engenhosa|da refinada|da fictícia|da improvável|
 |19|04|Fatos_1904|F|1|1|"Machina".|
 |20|00|
 |21|01|Fatos_2101|F|1|1|Este Livro-Vivo|
 |21|02|Fatos_2102|F|7|4|segue fielmente|corrobora|tenta imitar|reproduz ao pé-da-letra|retrata rusticamente|apenas repete|objetiva explicar|
-|21|03|Fatos_2103|F|6|1|o que lá está escrito.|os algoritmos lá listados.|os passos lá descritos.|o que lá foi explicado.|os segredos lá revelados.|as descobertas de tal achado.|
+|21|03|Fatos_2103|F|6|6|o que lá está escrito.|os algoritmos lá listados.|os passos lá descritos.|o que lá foi explicado.|os segredos lá revelados.|as descobertas de tal achado.|
 <EOF>
 CATAPALA = 103
 VERBETES = 415

@@ -1,19 +1,35 @@
 *-
 *- Aolero.ypo
 *-
-|01|01|Aolero_0101|F|1|1|Eu sou poeta|
-|01|02|Aolero_0102|F|8|7|profissional|tradicional|meio anormal|acidental|convencional|quase normal|ocasional|incidental|
+|01|01|Aolero_0101|F|1|1|(|
+|01|02|Aolero_0102|F|14|13|para balanço|cara e coragem|só pro futuro|sem vão momento|vindo do nada|sem testemunho|mero rabisco|só para os íntimos|mas, sem contrato|com compromisso|sem garantias|em fragmentos|pena da pena|por teimosia|
+|01|03|Aolero_0103|F|1|1|)|
 |02|00|
-|03|01|Aolero_0301|T|52|52|sei o que é vasto|cumpro os horários|uso crachá|largo às cinco|fumo cigarros|acordo cedo|nem tenho sono|cuido dos filhos|lavo minha louça|ando no parque|amo meus sábados|conto piada|vejo novela|sei dos jornais|ando de moto|curto uma festa|traço uma breja|detesto terno|passo no shopping|acordo tarde|mando torpedos|voto nos malas|sou fã do Chaves|leio Drumond|ouço Caetano|uso caneta|leio Pessoa|bebo Chopin|arrisco tempos|leio Hai-Kais|traço meus planos|arrisco olhar|ligo pra morte|não rogo praga|penso em Ravel|trago meus planos|fujo do tempo|creio em Deus-Pai|frequento sebo|prefiro um jazz|vago nas ruas|sonho ao quadrado|não calo bocas|vivo do novo|laboro só|fundo mudanças|meço palavras|vingo verdades|amo ao quadrado|livro palavras|tiro de letra|penso moderno|
-|04|01|Aolero_0401|T|54|4|colho os impostos|minto redondo|a vida é bela|clono saberes|mal sei das horas|curto um feriado|faço hora extra|saio de férias|vendo as férias|minto secreto|dôo ao leão|faço plantão|caibo em silêncio|sei dicionários|tenho carteira|valho as penas|uso o metrô|sou todo ouvidos|faço meus bicos|entro às oito|nunca fui rico|rusgo limites|rasgo panfletos|visto discreto|vivo na missa|devo favores|uso buzum|nunca gravata|leio entre linhas|malho em segredo|não visto grife|nunca fiz lifting|lembro de sonhos|gasto o que tenho|sei meus direitos|sei fritar ovo|pilho minúcias|faço poesia|beiro loucuras|risco em cadernos|verso até torto|amo redondo|compro meus livros|crio iPoemas|oro-pro-nóbis|fabrico versos|penso no tédio|mando no tédio|minto à vontade|rezo prá Deus|curto meus cantos|juro perfeito|pinço momentos|ouço estrelas|
-|05|01|Aolero_0501|T|51|39|troco de turno|ai dos meus ais|engano a sina|música é mais|folgo aos domingos|vaio políticos|folgo em saber|chega de olvidos|não sei se é tarde|mudo de turno|vendo meus dias|vivo amanhãs|janto sozinho|vou em barzinho|gosto de vinho|tenho meu ninho|guardo domingos|surjo do limbo|olho pro céu|creio no cio|valha o escrito|acato o cio|ajo em sigilo|não peço bis|lembro da Elis|sei ser feliz|canso a velhice|ando na linha|calo calúnias|finjo preguiça|penso em velhice|sigo palpites|cativo amigos|leio até bula|não rasgo verbo|caio no ócio|cultivo amigos|adoro Gil|durmo tranquilo|sei dar bom-dia|não tô na mídia|não durmo nunca|só durmo tarde|durmo acordado|horo por nós|vi Bunnuel|falho nas rimas|falo outra língua|rumo por elos|penso futuro|xingo juízes|
-|06|00|
-|07|01|Aolero_0701|F|12|7|se me aposento|se sobra tempo|ano que vem|logo em seguida|nas horas vagas|no fim da vida|só de pirraça|em fins de tarde|nas madrugadas|de vez em quando|só raramente|quando descuido|
-|07|02|Aolero_0702|F|6|3|viro amador|fujo da dor|sou amador|sei-me amador|sou sonhador|invento amor|
-|07|03|Aolero_0703|T|3|3|!|...|.|
+|03|01|Aolero_0301|F|1|1|Eu sou poeta|
+|03|02|Aolero_0302|F|9|9|profissional|tradicional|meio anormal|acidental|convencional|quase normal|ocasional|incidental|não sazonal|
+|03|03|Aolero_0303|F|1|1|:|
+|04|01|Aolero_0401|F|24|7|levanto tarde|amo ao quadrado|amo meus sábados|ando no parque|perco batalhas|cumpro os horários|curto feriados|durmo acordado|doo ao leão|faço plantão|lavo minha louça|livro palavras|minto à vontade|meço palavras|nunca gravata|não rasgo verbo|não rogo praga|sei dicionários|sei dos jornais|sonho ao quadrado|só durmo tarde|uso caneta|uso crachá|voto nos malas|
+|04|02|Aolero_0402|F|1|1|,|
+|05|01|Aolero_0501|T|65|51|acordo cedo|amo redondo|ando de moto|ando na linha|arrisco tempos|caio no ócio|calo calúnias|canto meus pios|clono saberes|pago os impostos|crio yPoemas|curto uma festa|curto meus cantos|detesto terno|devo favores|entro às oito|fabrico versos|faço hora extra|frequento sebo|fujo do tempo|fundo mudanças|gasto o que tenho|gozo de férias|horo por nós|juro perfeito|laboro só|lembro de sonhos|ligo pra morte|rio da sorte|mal sei das horas|malho em segredo|mando no tédio|mando torpedos|minto redondo|minto secreto|mudo de turno|nem tenho sono|não calo bocas|não durmo nunca|ouço estrelas|passo no shopping|penso moderno|penso no tédio|colho minúcias|pinço momentos|rasgo panfletos|rezo pra Deus|risco em cadernos|rumo por elos|rusgo limites|saio de férias|sei fritar ovo|sei meus direitos|tenho carteira|tiro de letra|traço meus planos|traço uma breja|troco de turno|uso buzum|uso o metrô|vago nas ruas|verso até torto|vingo verdades|visto discreto|vivo do novo|
+|06|01|Aolero_0502|F|1|1|e|
+|06|02|Aolero_0602|T|41|12|acato o cio|ajo em sigilo|beiro loucuras|canso a velhice|cativo amigos|compro meus livros|creio no cio|cuido dos filhos|cultivo amigos|durmo tranquilo|falho nas rimas|falo outra língua|finjo preguiça|folgo aos domingos|forjo ideias|gosto de vinho|guardo domingos|janto no Olimpo|janto sozinho|largo às cinco|leio até bula|leio entre linhas|nunca fui rico|não peço bis|não tô na mídia|não visto grife|penso em velhice|penso futuro|sei dar bom-dia|sei outra missa|sei ser feliz|sigo palpites|surjo do limbo|tenho meu ninho|trago notícias|vaio políticos|valho o escrito|vendo meus dias|faço meus bicos|vou em barzinho|xingo o juiz|
+|06|03|Aolero_0603|F|1|1|...|
+|07|00|
+|08|01|Aolero_0801|F|16|12|Se sobra tempo|Ano que vem|Logo em seguida|Se em exílio|Nas horas vagas|No fim da vida|Não por capricho|Em fins de tarde|Nas madrugadas|De vez em quando|Só raramente|Quando descuido|Sempre que dá|Se for inverno|Quando inspirado|No abandono|
+|08|02|Aolero_0802|F|21|4|leio Drummond|ouço Caetano|leio o Pessoa|bebo Chopin|cito Buñnuel|leio haikais|adoro Gil|penso em Ravel|fujo do tempo|creio em Deus-Pai|prefiro um jazz|minto pra sina|lembro da Elis|sou todo ouvidos|oro-pro-nobis|horo por nós|ouço estrelas|rumo por elos|olho pro céu|chamo Jobim|sou fã do Chico|
+|08|03|Aolero_0402|F|1|1|,|
+|09|01|Aolero_0801|F|16|7|se sobra tempo|ano que vem|logo em seguida|se em exílio|nas horas vagas|no fim da vida|não por capricho|em fins de tarde|nas madrugadas|de vez em quando|só raramente|quando descuido|sempre que dá|se for inverno|quando inspirado|no abandono|
+|09|02|Aolero_0902|F|10|2|viro amador|fujo da dor|invento amor|eis-me amador|sei sofrer dor|brindo o amor|sei-me amador|sou sonhador|sei meu andor|sei sonhar dor|
+|09|03|Aolero_0803|F|1|1|.|
+|10|00|
+|10|01|Aolero_1001|F|20|18|Bela é a vida|Soube do vasto|Ai dos meus ais|Erro e acerto|Música é mais|Folgo em saber|Chega de olvidos|Sei que não tarda|Arrisco olhar|Sem mais tragédias|Valho a pena|Sem mais magia|Cabem silêncios|Abro mais portas|Isso é magia|Arrisco olhar|Quase acredito|Sorte e acaso|Já perdi pressas|Só por querer|
+|10|02|Aolero_1002|F|1|1|.|
 <EOF>
-CATAPALA = 20
-VERBETES = 302
-PALAVRAS = 482
-VARIATIO = 66.815.124.480                                                                  
-Build_By_Lay_2_Ipo em 02/02/2021_11:25
+CATAPALA = 27
+VERBETES = 374
+PALAVRAS = 623
+VARIATIO =  686.721.672.000
+Análise : 7.581.869.568.000 (trilhões)
+Build_By_Lay_2_Ipo em 02/02/2021_11:20
+
+ligo pra sorte

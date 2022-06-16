@@ -1,29 +1,29 @@
 *-
 *- Liberta.ypo
 *-
-|01|01|Liberta_0101|F|10|3|A lenda|A porta|O canto|A ponte|O beco|O vão|A boca|O conto|O hino|O sonho|
+|01|01|Liberta_0101|F|10|10|A lenda|A porta|O canto|A ponte|O beco|O vão|A boca|O conto|O hino|O sonho|
 |01|02|Liberta_0102|F|1|1|da liberdade|
-|02|01|Liberta_0201|F|5|3|é labirinto|é só passagem,|é um desvio|é uma trilha,|é uma vereda|
-|02|02|Liberta_0202|F|6|4|sem saída:|sem janela:|sem parede:|sem teto:|sem cantos:|sem rastro:|
-|03|01|Liberta_0301|F|2|2|entrar, na realidade,|visitá-la, em verdade,|
-|04|01|Liberta_0401|F|3|2|é vencer o concreto.|é reaver um destino.|é cilada do momento.|
+|02|01|Liberta_0201|F|5|5|é labirinto|é só passagem,|é um desvio|é uma trilha,|é uma vereda|
+|02|02|Liberta_0202|F|6|5|sem saída:|sem janela:|sem parede:|sem teto:|sem cantos:|sem rastro:|
+|03|01|Liberta_0301|F|2|1|entrar, na realidade,|visitá-la, em verdade,|
+|04|01|Liberta_0401|F|3|3|é vencer o concreto.|é reaver um destino.|é cilada do momento.|
 |05|00|
-|05|01|Liberta_0501|F|14|3|O medo|O peso|O custo|A tinta|O fardo|O visgo|A barra|O jugo|A sina|O berro|A rede|O caro|O poço|O muro|
+|05|01|Liberta_0501|F|14|8|O medo|O peso|O custo|A tinta|O fardo|O visgo|A barra|O jugo|A sina|O berro|A rede|O caro|O poço|O muro|
 |05|02|Liberta_0502|F|1|1|da liberdade|
 |06|01|Liberta_0601|F|1|1|é ser|
-|06|02|Liberta_0602|T|14|12|prisão|castigo|redoma|ilha|algema|garganta|cela|atalho|rochedo|continente|servidão|horizonte|corrente|cadeado|
+|06|02|Liberta_0602|T|14|2|prisão|castigo|redoma|ilha|algema|garganta|cela|atalho|rochedo|continente|servidão|horizonte|corrente|cadeado|
 |06|03|Liberta_0603|F|1|1|sem|
-|06|04|Liberta_0604|F|4|2|limite:|grade:|chave:|idade:|
-|07|01|Liberta_0701|F|4|4|partir,|brincar de,|sonhar,|correr,|
-|07|02|Liberta_0702|F|3|1|em qualquer direção,|inda que só intenção,|sem ter tal visão,|
-|08|01|Liberta_0801|F|9|6|é ficar na vontade.|é ilusão e acaso.|é pedaço de caminho.|é confiar em miragem.|é perder a viagem.|é ser dela um cativo.|é ver cena sem paisagem.|é cair num impasse.|é ser dela detento.|
+|06|04|Liberta_0604|F|4|3|limite:|grade:|chave:|idade:|
+|07|01|Liberta_0701|F|4|1|partir,|brincar de,|sonhar,|correr,|
+|07|02|Liberta_0702|F|3|2|em qualquer direção,|ainda que só intenção,|sem ter tal visão,|
+|08|01|Liberta_0801|F|9|1|é ficar na vontade.|é ilusão e acaso.|é pedaço de caminho.|é confiar em miragem.|é perder a viagem.|é ser dela um cativo.|é ver cena sem paisagem.|é cair num impasse.|é ser dela detento.|
 |09|00|
-|09|01|Liberta_0901|T|28|14|O gozo|O jorro|O doce|O imã|A sorte|O gosto|O belo|O timbre|O sabor|O dedo|O prazer|O rasgo|O vasto|O gesto|O mito|A garra|O modo|A arte|O rumo|O credo|O dado|O mote|O grito|O canto|A vaidade|O ideal|O mantra|O rosto|
+|09|01|Liberta_0901|T|28|24|O gozo|O jorro|O doce|O ímã|A sorte|O gosto|O belo|O timbre|O sabor|O dedo|O prazer|O rasgo|O vasto|O gesto|O mito|A garra|O modo|A arte|O rumo|O credo|O dado|O mote|O grito|O canto|A vaidade|O ideal|O mantra|O rosto|
 |09|02|Liberta_0902|F|1|1|da liberdade|
-|10|01|Liberta_1001|F|2|2|é sempre ir,|é só seguir,|
-|10|02|Liberta_1002|F|7|6|sem pressa:|sem medo:|sem calma:|sem aviso:|sem jeito:|mesmo errante:|sem passado:|
-|11|01|Liberta_1101|F|4|4|fingir,|parar,|fugir,|privar-se,|
-|11|02|Liberta_1102|F|3|1|quase doce ilusão,|arremedo de são,|lerdo ledo engano,|
+|10|01|Liberta_1001|F|2|1|é sempre ir,|é só seguir,|
+|10|02|Liberta_1002|F|7|4|sem pressa:|sem medo:|sem calma:|sem aviso:|sem jeito:|mesmo errante:|sem passado:|
+|11|01|Liberta_1101|F|4|1|fingir,|parar,|fugir,|privar-se,|
+|11|02|Liberta_1102|F|3|2|quase doce ilusão,|arremedo de são,|lerdo ledo engano,|
 |12|01|Liberta_1201|F|8|5|é tirar do corpo o que livre na alma.|é ser livre em segredo.|é fazer dela brinquedo.|é achar que é cedo quando é tarde.|pode durar a eternidade.|é viver por metade.|é tirar dela o futuro.|é ficar na vontade.|
 <EOF>
 CATAPALA = 50

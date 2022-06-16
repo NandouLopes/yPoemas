@@ -9,31 +9,31 @@
 *- O mundo é dos bandidos|autoridades|balancetes|
 *- a importância do último ítimo... ?!
 *-
-|01|01|Cromossomo_0101|F|4|2|Neste mundo|Nesta terrinha|Neste planeta|Num "mundinho"|
+|01|01|Cromossomo_0101|F|4|1|Neste mundo|Nesta terrinha|Neste planeta|Num "mundinho"|
 |02|01|Cromossomo_0201|F|1|1|onde|
-|02|02|Cromossomo_0202|F|12|1|bilionários bregas|artistas geniais|bandidos de gravata|filhinhos de papai|bispos de araque|ratos, reis, rainhas|astros do cinema|homens do poder|políticos corruptos|YouTubers da hora|celebridades etéreas|togados supremos|
+|02|02|Cromossomo_0202|F|12|4|bilionários bregas|artistas geniais|bandidos de gravata|filhinhos de papai|bispos de araque|ratos, reis, rainhas|astros do cinema|homens do poder|políticos corruptos|YouTubers da hora|celebridades etéreas|togados supremos|
 |02|03|Cromossomo_0203|F|1|1|,|
-|03|01|Cromossomo_0202|T|12|5|bilionários bregas|artistas geniais|bandidos de gravata|bispos de araque|filhinhos de papai|ratos, reis, rainhas|astros do cinema|homens do poder|políticos corruptos|YouTubers da hora|celebridades etéreas|togados supremos|
+|03|01|Cromossomo_0202|T|12|4|bilionários bregas|artistas geniais|bandidos de gravata|bispos de araque|filhinhos de papai|ratos, reis, rainhas|astros do cinema|homens do poder|políticos corruptos|YouTubers da hora|celebridades etéreas|togados supremos|
 |03|02|Cromossomo_0302|F|1|1|e|
-|03|03|Cromossomo_0303|F|9|8|pobres coitados|nobres traficantes|sem-terra-nem-tetos|velhos impostores|"ditos populares"|tribos indígenas|meninos-bomba|meros cafajestes|jovens taciturnos|
-|04|01|Cromossomo_0401|F|4|2|compartilham|repartem|misturam|dividem|
-|04|02|Cromossomo_0402|F|7|6|fantasias|as astúcias|as mazelas|amenidades|as falácias|seus ardis|as bravatas|
+|03|03|Cromossomo_0303|F|9|2|pobres coitados|nobres traficantes|sem-terra-nem-tetos|velhos impostores|"ditos populares"|tribos indígenas|meninos-bomba|meros cafajestes|jovens taciturnos|
+|04|01|Cromossomo_0401|F|4|1|compartilham|repartem|misturam|dividem|
+|04|02|Cromossomo_0402|F|7|1|fantasias|as astúcias|as mazelas|amenidades|as falácias|seus ardis|as bravatas|
 |05|01|Cromossomo_0501|F|1|1|com|
-|05|02|Cromossomo_0502|F|4|3|as pessoas comuns|"Sumidades Virtuais"|as pessoas "de bem"|cidadãos respeitáveis|
+|05|02|Cromossomo_0502|F|4|2|as pessoas comuns|"Sumidades Virtuais"|as pessoas "de bem"|cidadãos respeitáveis|
 |06|01|Cromossomo_0601|F|1|1|que|
-|06|02|Cromossomo_0602|F|37|26|gozam feriados|vivem no shopping|seguem novelas|fogem da moda|produzem "selfies"|acordam cedo|mal tiram férias|acatam regras|ditam a moda|andam de ônibus|mandam mensagens|são ilibadas|traem seus pares|publicam fotos|curtem os posts|querem mostrar suas caras|batem o ponto|não se maculam|comem "ao quilo"|enfrentam filas|pregam mundícies|andam na linha|buscam saídas|prezam lisuras|ouvem comícios|crêm no fisco|batem o ponto|não se maculam|comem "ao quilo"|enfrentam filas|pregam mundícies|andam na linha|buscam saídas|prezam lisuras|ouvem comícios|crêm no fisco|postam no "face"|
+|06|02|Cromossomo_0602|F|37|30|gozam feriados|vivem no shopping|seguem novelas|fogem da moda|produzem "selfies"|acordam cedo|mal tiram férias|acatam regras|ditam a moda|andam de ônibus|mandam mensagens|são ilibadas|traem seus pares|publicam fotos|curtem os posts|querem mostrar suas caras|batem o ponto|não se maculam|comem "ao quilo"|enfrentam filas|pregam mundícies|andam na linha|buscam saídas|prezam lisuras|ouvem comícios|creem no fisco|batem o ponto|não se maculam|comem "ao quilo"|enfrentam filas|pregam mundícies|andam na linha|buscam saídas|prezam lisuras|ouvem comícios|creem no fisco|postam no "face"|
 |06|03|Cromossomo_0603|F|1|1|e|
-|06|04|Cromossomo_0602|T|37|3|gozam feriados|vivem no shopping|seguem novelas|fogem da moda|produzem "selfies"|acordam cedo|mal tiram férias|acatam regras|ditam a moda|andam de ônibus|mandam mensagens|são ilibadas|traem seus pares|publicam fotos|curtem os posts|querem mostrar suas caras|batem o ponto|não se maculam|comem "ao quilo"|enfrentam filas|pregam mundícies|andam na linha|buscam saídas|prezam lisuras|ouvem comícios|crêm no fisco|batem o ponto|não se maculam|comem "ao quilo"|enfrentam filas|pregam mundícies|andam na linha|buscam saídas|prezam lisuras|ouvem comícios|crêm no fisco|postam no "face"|
+|06|04|Cromossomo_0602|T|37|29|gozam feriados|vivem no shopping|seguem novelas|fogem da moda|produzem "selfies"|acordam cedo|mal tiram férias|acatam regras|ditam a moda|andam de ônibus|mandam mensagens|são ilibadas|traem seus pares|publicam fotos|curtem os posts|querem mostrar suas caras|batem o ponto|não se maculam|comem "ao quilo"|enfrentam filas|pregam mundícies|andam na linha|buscam saídas|prezam lisuras|ouvem comícios|creem no fisco|batem o ponto|não se maculam|comem "ao quilo"|enfrentam filas|pregam mundícies|andam na linha|buscam saídas|prezam lisuras|ouvem comícios|creem no fisco|postam no "face"|
 |06|05|Cromossomo_0605|F|1|1|...|
 |07|00|
-|08|01|Cromossomo_0801|F|6|4|Na igualdade,|Nos cromossomos,|Na última hora,|Em comum,|Na intimidade|No fim das contas,|
-|09|01|Cromossomo_0901|F|2|1|todos nós|nós apenas|
-|09|02|Cromossomo_0902|F|22|5|pagamos contas|gozamos|fornicamos|geramos lixo|dormimos|temos horários|criamos filhos|tememos|fazemos festas|rimos da vida|sonhamos|sentimos fome|temos perguntas|amamos|rimos de tudo|fingimos paz|bebemos|reproduzimos|somos sós|rezamos|sofremos notícias|comemos|
+|08|01|Cromossomo_0801|F|6|1|Na igualdade,|Nos cromossomos,|Na última hora,|Em comum,|Na intimidade|No fim das contas,|
+|09|01|Cromossomo_0901|F|2|2|todos nós|nós apenas|
+|09|02|Cromossomo_0902|F|22|16|pagamos contas|gozamos|fornicamos|geramos lixo|dormimos|temos horários|criamos filhos|tememos|fazemos festas|rimos da vida|sonhamos|sentimos fome|temos perguntas|amamos|rimos de tudo|fingimos paz|bebemos|reproduzimos|somos sós|rezamos|sofremos notícias|comemos|
 |09|03|Cromossomo_0903|F|1|1|e|
-|09|04|Cromossomo_0902|T|22|12|pagamos contas|gozamos|fornicamos|geramos lixo|dormimos|temos horários|criamos filhos|tememos|fazemos festas|rimos da vida|sonhamos|sentimos fome|temos perguntas|amamos|rimos de tudo|fingimos paz|bebemos|reproduzimos|somos sós|rezamos|sofremos notícias|comemos|
+|09|04|Cromossomo_0902|T|22|22|pagamos contas|gozamos|fornicamos|geramos lixo|dormimos|temos horários|criamos filhos|tememos|fazemos festas|rimos da vida|sonhamos|sentimos fome|temos perguntas|amamos|rimos de tudo|fingimos paz|bebemos|reproduzimos|somos sós|rezamos|sofremos notícias|comemos|
 |09|05|Cromossomo_0905|F|1|1|.|
 |10|00|
-|11|01|Cromossomo_1101|F|9|2|Teremos o mesmo fim|Vivemos no mesmo mundo|Será que há de haver mais|Oramos ao mesmo Pai|Alguém terá a resposta|Levamos a mesma vida|Sabemos ao que viemos|Há um mundo paralelo|Servimos ao mesmo Deus|
+|11|01|Cromossomo_1101|F|9|5|Teremos o mesmo fim|Vivemos no mesmo mundo|Será que há de haver mais|Oramos ao mesmo Pai|Alguém terá a resposta|Levamos a mesma vida|Sabemos ao que viemos|Há um mundo paralelo|Servimos ao mesmo Deus|
 |11|02|Cromossomo_1102|F|1|1|?|
 <EOF>
 CATAPALA = 37

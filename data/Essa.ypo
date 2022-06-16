@@ -2,39 +2,37 @@
 *- Essa.ypo
 *-
 *- |01|03|o verbo na 1° pessoa do plural envolve o leitor
-*- |02|01..03..05|convite ao leitor para escolher suas palavras preferidas|Manter despareados|
+*- |02|02..04..06|convite ao leitor para escolher suas palavras preferidas|Manter despareados|
 *- |03|02|desafia o leitor a criar novas palavras
 *- |05|01|ítimos diferentes na mesma ideia (adivinha = verbo+substantivo)
 *-
 *- |05|03|pensar na negativa: im + plausível /in + aferível| == não cabe o |05|02|sem|
 *-
-*- |02|02|Essa_0202|F|58|37|abóbada|compasso|desmaio|porcelana|aurora|carapaça|albatroz|descalvado|alavanca|mariposa|curare|alfazema|barricada|castiçal|tálamo|catarata|acordes|escaravelho|parafuso|marionete|pelicano|silhueta|papoula|acordeon|sanfona|escafandro|maltrapilho|pistom|ramalhete|minueto|placebo|ludíbrio|cardume|lampejo|paraninfo|pergaminho|remoinho|catapulta|ocarina|perdiz|lacuna|vislumbre|calmaria|anomalia|obtusa|extravio|revelia|almotolia|minúcia|hipotenusa|dicotomia|recidiva|ergonomia|idílio|armadilha|película|efêmero|taquicardia|
+*- |02|02|Essa_0202|F|1|1|< pCata_Pala >|
 *-
-*- espelunca|mais sonoras|
-*-
-|01|01|Essa_0101|F|2|1|Das palavras que|Dentre as palavras que|
+|01|01|Essa_0101|F|2|2|Das palavras que|Dentre as palavras que|
 |01|02|Essa_0102|F|1|1|mais|
-|01|03|Essa_0103|F|13|5|gosto|venero|são sonoras|usamos|acalanto|adoro|prezamos|admiro|falam por si|ostento|amamos|estimo|gostamos|
+|01|03|Essa_0103|F|12|9|gosto|são sonoras|usamos|acalanto|prezamos|admiro|venero|gostamos|ostento|amamos|estimo|falam por si|
 |01|04|Essa_0104|F|1|1|,|
 |02|01|Essa_0201|F|1|1|( |
-|02|02|Essa_0202|F|18|4|abóbada|compasso|desmaio|porcelana|aurora|carapaça|albatroz|descalvado|alavanca|mariposa|curare|alfazema|barricada|castiçal|tálamo|catarata|acordes|papoula|
+|02|02|Essa_0202|F|46|27|abóbada|acordeão|alavanca|alcateia|alfazema|artefato|artimanha|audácia|aurora|barricada|carapaça|castiçal|catarata|clamor|compasso|cotovelo|cratera|curare|descalvado|desmaio|dueto|estupefato|gafanhoto|galhofa|grotesco|hipotálamo|odisseia|papoula|paradoxo|pelicano|porcelana|primavera|quimera|saibro|sanfona|sinagoga|sinopse|sucata|tacanho|tapera|tentáculo|tijolo|tornozelo|travesso|tropeço|tálamo|
 |02|03|Essa_0203|F|1|1|,|
-|02|04|Essa_0204|F|24|13|escaravelho|parafuso|marionete|pelicano|silhueta|acordeon|sanfona|escafandro|maltrapilho|pistom|ramalhete|minueto|placebo|ludíbrio|cardume|lampejo|paraninfo|pergaminho|catapulta|remoinho|perdiz|lacuna|vislumbre|clamor|
+|02|04|Essa_0204|F|50|7|albatroz|acordes|ampulheta|amuleto|apogeu|arremesso|balela|bagatela|bigorna|borboleta|bracelete|caractere|carroça|centopeia|cerebelo|colchete|coreto|envelope|equinócio|escafandro|escaravelho|espectro|estilete|exagero|filete|folheto|gangorra|gorjeta|graveto|indelével|lampejo|lembrete|marionete|mariposa|minueto|mureta|palacete|parafuso|película|peçonha|pistom|placebo|proveta|ramalhete|roleta|sabonete|sarjeta|silhueta|trombeta|verbete|
 |02|05|Essa_0205|F|1|1|,|
-|02|06|Essa_0206|F|16|10|calmaria|anomalia|obtusa|extravio|revelia|almotolia|minúcia|hipotenusa|dicotomia|recidiva|ergonomia|idílio|armadilha|película|ocarina|deriva|
-|02|07|Essa_0207|F|1|1|... )|
-|03|01|Essa_0301|F|1|1|Esta, "|
-|03|02|Essa_0302|T|46|19|raiossol|maislodias|luassua|nanônimo|passocio|viasruas|humildilhado|sonhadelo|adoecéu|maisnino|milviu|raciossano|voseus|ninua|dormil|amorsão|neovais|nanomimo|peonhias|vemais|óbitunel|morriu|nanocaos|cossonhei|minsoa|cionasduas|egoando|surgideus|visemver|leroleo|expiadias|veracaso|asnocarro|corachão|remorrido|soacaso|mãocia|regrito|femeacho|fatulento|novanave|malocio|neurapia|temporiu|mesmória|obcegado|
+|02|06|Essa_0206|F|32|22|adivinho|almotolia|andaluz|anomalia|antúrio|armadilha|calmaria|catapulta|cardume|deriva|dicotomia|ergonomia|espelunca|euforia|extravio|hipotenusa|idílio|lacuna|lamparina|ludíbrio|matutino|minúcia|obtusa|obtuso|ocarina|paraninfo|perdiz|pergaminho|recidiva|remoinho|revelia|vislumbre|
+|02|07|Essa_0207|F|1|1| )|
+|03|01|Essa_0301|F|1|1|esta, "|
+|03|02|Essa_0302|F|32|14|raiossol|maislodias|luassua|nanônimo|passocio|viasruas|humildilhado|sonhadelo|maisnino|milviu|raciossano|ninua|dormil|neovais|nanomimo|veramais|nanocaos|cossonhei|cionasduas|egoando|surgideus|visemver|expiadias|veracaso|corachão|soacaso|mãocia|femeacho|novanave|neurapia|temporiu|mesmória|
 |03|03|Essa_0303|F|1|1|"|
 |03|04|Essa_0304|F|1|1|,|
-|04|01|Essa_0401|F|14|9|traz em si|escancara|desafia|faz-que-exala|alavanca|regurgita|instaura|traz consigo|alumia|quase inova|adivinha|explora|instala|soletra|
-|04|02|Essa_0402|F|7|3|o perfume de si mesma|a brevidade de tudo|o valor do que é mero|um sentimento de mundo|a calma do não-pensar|um perdão imprevisível|algo, de novo,na alma|
-|04|03|Essa_0202|F|1|1|.|
+|04|01|Essa_0401|F|17|7|traz em si|escancara|desafia|faz-que-exala|alavanca|ressuscita|instaura|traz consigo|alumia|renova|adivinha|explora|instala|soletra|sussurra|remexe|inventa|
+|04|02|Essa_0402|F|7|4|o perfume de si mesma|a brevidade de tudo|o valor do que é mero|um sentimento de mundo|a calma do não-pensar|um perdão imprevisível|algo de novo na alma|
+|04|03|Essa_0403|F|1|1|.|
 |05|00|
-|06|01|Essa_0601|F|9|1|Paira torta|Irrequieta|Vaga livre|Desacata|Mira léus|Adivinha|Balbucia-se|Incomoda|Acalanta|
-|06|02|Essa_0602|F|3|3|sem|em|... tem|
-|06|03|Essa_0603|F|13|9|plausível|visível|possível|cabível|dizível|finita|credível|tangível|legível|sabível|palpável|tecível|inaferível|
-|06|04|Essa_0604|F|10|9|geometria|simetria|revelia|maestria|rebeldia|alforria|calmaria|sintonia|nostalgia|empatia|
+|06|01|Essa_0601|F|10|6|Paira leve|Aquieta|Vaga livre|Desacata|Insinua-se|Adivinha|Balbucia-se|Acalanta|Ecoa|Propaga-se|
+|06|02|Essa_0602|F|3|3|com|em|... tem|
+|06|03|Essa_0603|F|15|6|plausível|visível|inefável|possível|cabível|dizível|inegável|finita|credível|tangível|legível|sabível|palpável|tecível|inaferível|
+|06|04|Essa_0604|F|11|4|geometria|simetria|revelia|maestria|rebeldia|alforria|calmaria|sintonia|nostalgia|empatia|melodia|
 |06|05|Essa_0605|F|1|1|.|
 <EOF>
 CATAPALA = 24
