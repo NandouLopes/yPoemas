@@ -45,6 +45,7 @@ Escorpio=m : zodíaco
 Escriba : poesia
 Essa : metalinguagem
 Essas : ensaio
+Esses : ensaio
 Estudo : joco
 Fatos : poesia
 Feiras : metalinguagem
@@ -56,6 +57,7 @@ Gemeos=f : zodíaco
 Gemeos=m : zodíaco
 Gula : joco
 HaiKai : poesia
+i-Mundo : poesia
 Impar : ensaio
 Indolor : poesia
 Inhos : poesia
@@ -119,8 +121,6 @@ SnowBall : ensaio
 Sonoro : poesia
 Sopros : poesia
 Sos : joco
-Ss1 : ensaio
-Ss2 : ensaio
 Tempo : poesia
 Tiro : metalinguagem
 Tolero : poesia
@@ -134,4 +134,3 @@ Virgem=m : zodíaco
 Zelo : poesia
 Zodiacaos : zodíaco
 Zoia : poesia
-i-Mundo : poesia
