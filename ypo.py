@@ -1,5 +1,5 @@
 r"""
-st.session_state.seed
+
 yPoemas is an app that randomly collects words and phrases
 from specific databases and organizes them
 in different new poems or poetic texts.
@@ -13,12 +13,17 @@ Passei boa parte da minha vida escrevendo a "machina".
 A leitura fica para os amanhãs.
 Não vivo no meu tempo.
 
+|ambi-|ante-|circum-|contra-|extra-|inter-|justa-|pre-|pro-|retro-|semi-|trans-|
+|ultra-|vice-|anti-|arqui-|hemi-|hiper-|hipo-|meta-|para-|peri-|poli-|super-|sub-|
+
+C:\WINDOWS\new.ini == AlfaBetaAção
+
 share : https://share.streamlit.io/
 deploy: https://share.streamlit.io/nandoulopes/ypoemas/main/ypo.py
 config: chrome://settings/content/siteDetails?site=https%3A%2F%2Fauth.streamlit.io
 transl: https://translate.google.com/
 
-users_id changed to IPAddr
+users_id changed to IPAddres / os.rename('old_name.txt','new_name.txt') 
 
 VISY == New Visitor
 NANY_VISY == Number of Visitors
@@ -46,7 +51,7 @@ from lay_2_ypo import gera_poema
 ### bof: settings
 
 # from PIL import Image
-# img=Image.open('logo_ypo.png')
+# img=Image.open('logo_ypo_32.png')
 #     page_icon=img,
 st.set_page_config(
     page_title='a máquina de fazer Poesia - yPoemas',
@@ -66,6 +71,7 @@ try:
     from gtts import gTTS
 except ImportError as ex:
     st.warning("Google TTS não conectado. Leituras não disponíveis no momento.")
+
 
 def internet(host="8.8.8.8", port=53, timeout=3):
     try:
@@ -115,7 +121,7 @@ st.markdown(
     }
     [data-testid="stSidebar"][aria-expanded="false"] > div:first-child {
         width: 310px;
-        margin-left: -320px;
+        margin-left: -310px;
     }
     </style>
     """,
@@ -123,9 +129,6 @@ st.markdown(
 )
 
 
-# change text area font
-#       background-color:rgba(255, 99, 71, 0.1);
-#       opacity: .9;
 st.markdown(
     """
     <style>
@@ -135,10 +138,15 @@ st.markdown(
     }
     .container {
         display: flex;
+        /* justify-content: center; */
+    }
+    .header {
+        text-align:center;
     }
     .logo-text {
         /* padding-top: 10px !important; */
-        font-weight: 900;
+        /* <h1 align="center" </h1> */
+        font-weight: 600;
         font-size: 18px;
         font-family: 'IBM Plex Sans';
         color: #000000;
@@ -154,6 +162,10 @@ st.markdown(
 
 
 # Initialize SessionState
+
+if "tabs" not in st.session_state:  #  para indentar versos
+    st.session_state.tabs = 0
+
 if "lang" not in st.session_state:
     st.session_state.lang = "pt"
 if "last_lang" not in st.session_state:
@@ -205,20 +217,6 @@ if "arts" not in st.session_state:
 ### eof: settings
 ### bof: tools
 
-def show_icons():  # https://api.whatsapp.com/
-    st.sidebar.markdown(
-        f"""
-        <nav>
-        <a href="https://www.facebook.com/nandoulopes" target="_blank">facebook</a> |
-        <a href="mailto:lopes.fernando@hotmail.com" target="_blank">e-mail</a> |
-        <a href="https://www.instagram.com/fernando.lopes.942/" target="_blank">instagram</a> |
-        <a href="https://web.whatsapp.com/send?phone=+5512991368181" target="_blank">whatsapp</a>
-        </nav>
-        """,
-        unsafe_allow_html=True,
-    )
-
-
 def pick_lang():  # define idioma
     btn_pt, btn_es, btn_it, btn_fr, btn_en, btn_xy = st.sidebar.columns(
         [1.1, 1.13, 1.04, 1.04, 1.17, 1.25]
@@ -253,6 +251,22 @@ def pick_lang():  # define idioma
         st.success(translate('idioma atual') + ' ➪ '+st.session_state.lang)
 
 
+def show_icons():  # https://api.whatsapp.com/
+    with st.sidebar:
+        st.image("logo_ypo.png")
+    st.sidebar.markdown(
+        f"""
+        <nav>
+        <a href="https://www.facebook.com/nandoulopes" target="_blank">facebook</a> |
+        <a href="mailto:lopes.fernando@hotmail.com" target="_blank">e-mail</a> |
+        <a href="https://www.instagram.com/fernando.lopes.942/" target="_blank">instagram</a> |
+        <a href="https://web.whatsapp.com/send?phone=+5512991368181" target="_blank">whatsapp</a>
+        </nav>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 @st.cache(allow_output_mutation=True)
 def load_help_tips():
     help_list = []
@@ -284,7 +298,7 @@ def load_help(idiom):
     return returns
 
 
-def pick_draw():
+def draw_check_buttons():
     draw_text, talk_text, vyde_text = st.sidebar.columns([3.8, 3.2, 3])
     help_me = load_help(st.session_state.lang)
     help_draw = help_me[5]
@@ -310,10 +324,8 @@ def atoi(text):  # human reading number functions for sorting
 def natural_keys(text):
     return [atoi(c) for c in re.split(r"(\d+)", text)]
 
-
 ### eof: tools
 ### bof: update themes readings
-
 
 def update_visy():  # count one more visitor
     with open(os.path.join("./temp/visitors.txt"), "r", encoding="utf-8") as visitors:
@@ -379,7 +391,7 @@ def list_readings():
     views_by_day = total_viewes / days_of_runs
     reads_by_day = sum_all_days / total_viewes
 
-    options = list(range(len(read_days)))  # ↓  '⚫  ' '↓'
+    options = list(range(len(read_days)))
     opt_readings = st.selectbox(
         '↓  ' + str(len(read_days)) + " temas, " + str(sum_all_days)
         + " leituras por "
@@ -395,10 +407,8 @@ def list_readings():
         key="opt_readings",
     )
 
-
 ### eof: update themes readings
 ### bof: loaders
-
 
 @st.cache(allow_output_mutation=True)
 def load_md_file(file):  # Open files for about's
@@ -406,7 +416,7 @@ def load_md_file(file):  # Open files for about's
         with open(os.path.join("./md_files/" + file), encoding="utf-8") as file_to_open:
             file_text = file_to_open.read()
 
-        if not ".rol" in file:
+        if not ".ROL" in file.upper():
             file_text = translate(file_text)
     except:
         file_text = translate('ooops... arquivo ( ' + file + ' ) não pode ser aberto.')
@@ -514,16 +524,18 @@ def load_all_offs():
         "um_romance",
         "quase_que_eu_Poesia",
     ]
+#        "segredo_público",
     return all_books_off
 
 
-@st.cache(allow_output_mutation=True)
+# @st.cache(allow_output_mutation=True)
 def load_off_book(book):  # Load selected off_book
     book_full = []
     full_name = os.path.join("./off_machina/", book) + ".Pip"
     with open(full_name, encoding="utf-8") as file:
         for line in file:
-            book_full.append(line)
+            if line.startswith('|'):
+                book_full.append(line)
     return book_full
 
 
@@ -609,20 +621,8 @@ def load_arts(nome_tema):  # Select image for arts
     logo = path + image
     return logo
 
-
-def get_seed_tema(tema):  # extract theme title for eureka
-    ini = 0
-    end = -1
-    for letra in tema[0:-4]:
-        end += 1
-        if letra == "➪":
-            ini = end
-    return tema[ini + 2 : end]
-
-
 ### eof: loaders
 ### bof: functions
-
 
 def write_ypoema(LOGO_TEXT, LOGO_IMAGE):  # ver save_img.py
     if LOGO_IMAGE == None:
@@ -711,38 +711,36 @@ def translate(input_text):
     except:
         return translate("Arquivo muito grande para ser traduzido.")
 
-
 ### eof: functions
 ### bof: pages
-
 
 if st.session_state.visy:  # check visitor once
     update_visy()
 
     temas_list = load_temas("temas_mini")
-    maxy = len(temas_list) - 1
-    st.session_state.take = random.randrange(0, maxy, 1)
+    maxy_nany = len(temas_list)
+    st.session_state.take = random.randrange(0, maxy_nany)
     temas_list = load_temas("todos os temas")
-    maxy = len(temas_list) - 1
-    st.session_state.mini = random.randrange(0, maxy, 1)
+    maxy_nany = len(temas_list)
+    st.session_state.mini = random.randrange(0, maxy_nany)
 
-    st.success('bem vindo à **máquina de fazer Poesia...**')
+    st.success(translate('bem vindo à **máquina de fazer Poesia...**'))
     st.session_state.visy = False
 
 
 def main():
     chosen_id = stx.tab_bar(data=[
-        stx.TabBarItemData(id=1, title="mini",    description=""),
-        stx.TabBarItemData(id=2, title="yPoemas", description=""),
-        stx.TabBarItemData(id=3, title="eureka",  description=""),
-        stx.TabBarItemData(id=4, title="off-machina", description=""),
-        stx.TabBarItemData(id=5, title="books",   description=""),
-        stx.TabBarItemData(id=6, title="poly",    description=""),
-        stx.TabBarItemData(id=7, title="about",   description=""),
+        stx.TabBarItemData(id=1, title="mini",    description=''),
+        stx.TabBarItemData(id=2, title="yPoemas", description=''),
+        stx.TabBarItemData(id=3, title="eureka",  description=''),
+        stx.TabBarItemData(id=4, title="off-machina", description=''),
+        stx.TabBarItemData(id=5, title="books",   description=''),
+        stx.TabBarItemData(id=6, title="poly",    description=''),
+        stx.TabBarItemData(id=7, title="about",   description=''),
     ], default=1)
     
     pick_lang()
-    pick_draw()
+    draw_check_buttons()
 
     if chosen_id == '1':
         st.sidebar.info(load_md_file("INFO_MINI.md"))
@@ -774,8 +772,8 @@ def main():
 st.session_state.last_lang = st.session_state.lang
 def page_mini():
     temas_list = load_temas("temas_mini")
-    maxy = len(temas_list) - 1
-    if st.session_state.mini > maxy:  # just in case
+    maxy_mini = len(temas_list)
+    if st.session_state.mini > maxy_mini:  # just in case
         st.session_state.mini = 0
 
     foo1, more, rand, foo2 = st.columns([4, 1, 1, 4])
@@ -786,7 +784,7 @@ def page_mini():
     rand = rand.button("✻", help=help_rand)
     
     if rand:
-        st.session_state.mini = random.randrange(0, maxy, 1)
+        st.session_state.mini = random.randrange(0, maxy_mini)
     
     st.session_state.tema = temas_list[st.session_state.mini]
     analise = say_number(st.session_state.tema)
@@ -825,7 +823,7 @@ def page_mini():
             
             if st.session_state.draw:
                 LOGO_IMAGE = load_arts(st.session_state.tema)
-            
+                
             write_ypoema(LOGO_TEXT, LOGO_IMAGE)
             
             if st.session_state.talk:
@@ -834,9 +832,9 @@ def page_mini():
 
 def page_ypoemas():
     temas_list = load_temas(st.session_state.book)
-    maxy = len(temas_list) - 1
-    if st.session_state.take > maxy or st.session_state.take < 0:  # just in case
-        st.session_state.take = random.randrange(0, maxy, 1)
+    maxy_ypoemas = len(temas_list) -1
+    if st.session_state.take > maxy_ypoemas or st.session_state.take < 0:  # just in case
+        st.session_state.take = 0
 
     foo1, more, last, rand, nest, manu, foo2 = st.columns(
         [3, 1, 1, 1, 1, 1, 3]
@@ -852,35 +850,36 @@ def page_ypoemas():
     last = last.button("◀", help=help_last)
     rand = rand.button("✻", help=help_rand)
     nest = nest.button("▶", help=help_nest)
+    manu = manu.button("?", help="help !!!")
     
     if last:
         st.session_state.take -= 1
         if st.session_state.take < 0:
-            st.session_state.take = maxy
+            st.session_state.take = maxy_ypoemas
     
     if rand:
-        st.session_state.take = random.randrange(0, maxy, 1)
+        st.session_state.take = random.randrange(0, maxy_ypoemas)
     
     if nest:
         st.session_state.take += 1
-        if st.session_state.take > maxy:
+        if st.session_state.take > maxy_ypoemas:
             st.session_state.take = 0
     
-    options = list(range(len(temas_list)))
-    opt_take = st.selectbox(
-        "↓  lista de temas",
-        options,
-        index=st.session_state.take,
-        format_func=lambda z: temas_list[z],
-        key="opt_take",
-    )
+    if st.session_state.draw:
+        options = list(range(len(temas_list)))
+        sobrios = '↓  ' + translate('lista de Temas')
+        opt_take = st.selectbox(
+            sobrios,
+            options,
+            index=st.session_state.take,
+            format_func=lambda z: temas_list[z],
+            key="opt_take",
+        )
 
-    if opt_take != st.session_state.take:
-        st.session_state.take = opt_take
+        if opt_take != st.session_state.take:
+            st.session_state.take = opt_take
 
     st.session_state.tema = temas_list[st.session_state.take]
-    analise = say_number(st.session_state.tema)
-    manu = manu.button("?", help=analise)
 
     lnew = True
     if manu:
@@ -950,7 +949,7 @@ def page_eureka():
     help_rand = help_me[1]
     help_more = help_me[4]
 
-    seed, more, rand, aide, occurrences = st.columns([2.5, 1.5, 1.5, 0.7, 4])
+    seed, more, rand, manu, occurrences = st.columns([2.5, 1.5, 1.5, 0.7, 4])
 
     with seed:
         find_what = st.text_input(
@@ -964,6 +963,9 @@ def page_eureka():
     with rand:
         rand = rand.button("✻", help=help_rand)
             
+    with manu:
+        manu = manu.button("?", help="help !!!")
+
     if len(find_what) < 3:
         st.warning("digite pelo menos 3 letras...")
     else:
@@ -974,7 +976,7 @@ def page_eureka():
             part_string = palas_fonte.partition(' : ')
             palas = part_string[0]
             fonte = part_string[2]
-            if palas is None or fonte is None:
+            if (palas is None) or (fonte is None):
                 continue
             else:
                 seed_list.append(palas + " ➪ " + fonte)
@@ -990,9 +992,8 @@ def page_eureka():
             info_find += ' de "' + find_what + '"'
 
             if rand:
-                st.session_state.eureka = random.randrange(0, len(seed_list)-1, 1)
+                st.session_state.eureka = random.randrange(0, len(seed_list))
                 this_seed = seed_list[st.session_state.eureka]
-                seed_tema = get_seed_tema(seed_list[st.session_state.eureka])
 
             with occurrences:
                 options = list(range(len(seed_list)))
@@ -1006,12 +1007,11 @@ def page_eureka():
 
             st.session_state.eureka = opt_ocur
             this_seed = seed_list[st.session_state.eureka]
-            seed_tema = get_seed_tema(seed_list[st.session_state.eureka])
+            part_string = this_seed.partition(' ➪ ')
+            nome_tema = part_string[2]
+            seed_tema = nome_tema[0:-5]
+            
             st.session_state.tema = seed_tema
-            analise = say_number(seed_tema)
-
-            with aide:
-                aide = st.button("?", help=analise)
 
             if st.session_state.lang != st.session_state.last_lang:
                 curr_ypoema = load_lypo()  # changes in lang, keep LYPO
@@ -1037,9 +1037,16 @@ def page_eureka():
                 st.session_state.vide = False
 
             if lnew:
-                if aide:
-                    st.markdown(analise, unsafe_allow_html=True)
+                if manu:
                     st.subheader(load_md_file("MANUAL_EUREKA.md"))
+
+                    LOGO_TEXT = load_info(st.session_state.tema)
+                    if st.session_state.lang != "pt":  # translate if idioma <> pt
+                        LOGO_TEXT = translate(LOGO_TEXT)
+                        
+                    LOGO_IMAGE = "./images/matrix/" + st.session_state.tema.capitalize() + ".jpg"
+                    write_ypoema(LOGO_TEXT, LOGO_IMAGE)
+                    
                 else:
                     eureka_expander = st.expander("", expanded=True)
                     with eureka_expander:
@@ -1060,18 +1067,19 @@ def page_eureka():
 def page_off_machina():  # available off_machina_books
     off_books_list = load_all_offs()
     options = list(range(len(off_books_list)))
+    sobrios = '↓  ' + translate('lista de Livros')
     opt_off_book = st.selectbox(
-        "↓  lista de livros",
+        sobrios,
         options,
         index=st.session_state.off_book,
         format_func=lambda x: off_books_list[x],
-        # help="books",
         key="opt_off_book",
         )
 
     if opt_off_book != st.session_state.off_book:
         st.session_state.off_book = opt_off_book
         st.session_state.off_take = 0
+        
     off_book_name = off_books_list[st.session_state.off_book]
 
     help_me = load_help(st.session_state.lang)
@@ -1089,35 +1097,37 @@ def page_off_machina():  # available off_machina_books
 
     this_off_book = load_off_book(off_book_name)
     off_book_pagys = load_book_pages(this_off_book)
+    maxy_off_machina = len(off_book_pagys) -1
 
-    maxy_off = len(off_book_pagys) - 1
     if last:
         st.session_state.off_take -= 1
         if st.session_state.off_take < 0:
-            st.session_state.off_take = maxy_off
+            st.session_state.off_take = maxy_off_machina
 
     if rand:
-        st.session_state.off_take = random.randrange(0, maxy_off, 1)
+        st.session_state.off_take = random.randrange(0, maxy_off_machina)
 
     if nest:
         st.session_state.off_take += 1
-        if st.session_state.off_take > maxy_off:
+        if st.session_state.off_take > maxy_off_machina:
             st.session_state.off_take = 0
 
-    if st.session_state.off_take > maxy_off:  # just in case...
+    if st.session_state.off_take > maxy_off_machina:  # just in case...
         st.session_state.off_take = 0
 
-    options = list(range(len(off_book_pagys)))
-    opt_off_take = st.selectbox(
-        "↓  lista de títulos",
-        options,
-        index=st.session_state.off_take,
-        format_func=lambda x: off_book_pagys[x],
-        key="opt_off_take",
-    )
-
-    if opt_off_take != st.session_state.off_take:
-        st.session_state.off_take = opt_off_take
+    if st.session_state.draw:
+        options = list(range(len(off_book_pagys)))
+        sobrios = '↓  ' + translate('lista de Títulos')
+        opt_off_take = st.selectbox(
+            sobrios,
+            options,
+            index=st.session_state.off_take,
+            format_func=lambda x: off_book_pagys[x],
+            key="opt_off_take",
+        )
+    
+        if opt_off_take != st.session_state.off_take:
+            st.session_state.off_take = opt_off_take
 
     lnew = True
     if manu:
@@ -1198,8 +1208,8 @@ def page_off_machina():  # available off_machina_books
 
 
 def page_books():  # available books
-    bb, ok = st.columns([9.3, 0.7])
-    with bb:
+    books, ok = st.columns([9.3, 0.7])
+    with books:
         books_list = [
             "livro vivo",
             "poemas",
@@ -1215,8 +1225,9 @@ def page_books():  # available books
         ]
 
         options = list(range(len(books_list)))
+        sobrios = '↓  ' + translate('lista de Livros')
         opt_book = st.selectbox(
-            "↓  lista de livros",
+            sobrios,
             options,
             index=books_list.index(st.session_state.book),
             format_func=lambda x: books_list[x],
@@ -1251,8 +1262,8 @@ def page_books():  # available books
 
 
 def page_polys():  # available languages
-    pp, ok = st.columns([9.3, 0.7])
-    with pp:
+    polys, ok = st.columns([9.3, 0.7])
+    with polys:
         poly_list = []
         poly_pais = []
         poly_ling = []
@@ -1320,8 +1331,9 @@ def page_abouts():
     ]
 
     options = list(range(len(abouts_list)))
+    sobrios = '↓  ' + translate('sobre')
     opt_abouts = st.selectbox(
-        "↓  sobre...",
+        sobrios,
         options,
         format_func=lambda x: abouts_list[x],
         key="opt_abouts",
