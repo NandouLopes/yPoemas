@@ -9,45 +9,50 @@
 *- e na porta uma placa pintada à mão:
 *- Mora-se um pedreiro.
 *-
-*- <fnt>Kids
+*- |07|01|Cartaz_0701|F|31|15|antigas|nacionais|modernas|raras|piegas|importadas|simples|solenes|banais|frequentes|sinônimas|pobres|atemporais|inexistentes|mágicas|inventadas|inocentes|antagônicas|recicladas|requintadas|elegantes|arcaicas|vagas|sóbrias|vulgares|sofisticadas|impávidas|sábias|graciosas|virtuoses|rebuscadas|
+*- |07|03|Cartaz_0703|F|21|6|exóticas|épicas|excêntricas|lúdicas|ferinas|absurdas|futuristas|floridas|puras|cultas|óbvias|precisas|atípicas|dúbias|polidas|chulas|líricas|gratuitas|traduzidas|fidedignas|luzidias|
 *-
+*- |07|03|Cartaz_0703|T|28|28|absurdas|antigas|arcaicas|inventadas|atemporais|mágicas|importadas|impávidas|nacionais|rebuscadas|elegantes|graciosas|frequentes|inexistentes|banais|sofisticadas|modernas|piegas|pobres|raras|recicladas|inocentes|sábias|requintadas|vagas|vulgares|brancas|virtuoses|
+*- |08|01|Cartaz_0701|F|25|14|atípicas|fidedignas|futuristas|luzidias|ferinas|épicas|líricas|lúdicas|gratuitas|antagônicas|polidas|precisas|puras|sóbrias|traduzidas|chulas|cultas|dúbias|floridas|exóticas|excêntricas|sinônimas|solenes|simples|óbvias|
+*- 
 |01|01|Cartaz_0101|F|10|4|Consertam-se|Arrumam-se|Reformam-se|Concertam-se|Retificam-se|Dá-se um jeito em|Remendam-se|Modificam-se|Ratificam-se|Lustram-se|
 |01|02|Cartaz_0102|F|4|1|poemas|textos|versos|sonetos|
-|01|03|Cartaz_0103|T|15|10|do passado|com defeitos|antigos|vencidos|obsoletos|quebrados|nunca lidos|inacabados|esquecidos|em desuso|perdidos|de gaveta|descasados|mal feitos|anônimos|
+|01|03|Cartaz_0103|F|15|9|do passado|com defeitos|antigos|vencidos|obsoletos|quebrados|nunca lidos|inacabados|esquecidos|em desuso|perdidos|de gaveta|descasados|mal feitos|anônimos|
 |01|04|Cartaz_0104|F|1|1|.|
 |02|00|
-|03|01|Cartaz_0301|F|21|14|Divisão|Polimento|Apuro|Encurtamento|Adequação|Mapeamento|Ajustes|Alinhamento|Tingimento|Revisão|Ornamento|Alongamento|Correição|Balanceamento|Modelagem|Enquadramento|Urdidura|Rastreamento|Desdobramento|Implante|Pontuação|
+|03|01|Cartaz_0301|F|21|17|Divisão|Polimento|Apuro|Encurtamento|Adequação|Mapeamento|Ajustes|Alinhamento|Tingimento|Revisão|Ornamento|Alongamento|Correição|Balanceamento|Modelagem|Enquadramento|Urdidura|Rastreamento|Desdobramento|Implante|Pontuação|
 |03|02|Cartaz_0302|F|1|1|de|
-|03|03|Cartaz_0303|F|19|14|poemas|textos|versos|quadras|sonetos|palavras|rimas|frases|estrofes|letras|neologismos|sílabas|sentenças|morfemas|antônimos|sofismas|profecias|trovas|sinônimos|
+|03|03|Cartaz_0303|F|19|7|poemas|textos|versos|quadras|sonetos|palavras|rimas|frases|estrofes|letras|neologismos|sílabas|sentenças|morfemas|antônimos|sofismas|profecias|trovas|sinônimos|
 |03|04|Cartaz_0304|F|1|1|,|
-|04|01|Cartaz_0401|T|21|19|revisão|polimento|apuro|encurtamento|adequação|mapeamento|ajustes|alinhamento|tingimento|ornamento|alongamento|correição|balanceamento|divisão|modelagem|enquadramento|urdidura|rastreamento|desdobramento|implante|pontuação|
+|04|01|Cartaz_0401|F|21|13|revisão|polimento|apuro|encurtamento|adequação|mapeamento|ajustes|alinhamento|tingimento|alongamento|correição|balanceamento|divisão|desdobramento|modelagem|enquadramento|urdidura|rastreamento|implante|ornamento|pontuação|
 |04|02|Cartaz_0302|F|1|1|de|
-|04|03|Cartaz_0303|T|19|19|poemas|textos|versos|quadras|sonetos|palavras|rimas|frases|estrofes|letras|neologismos|sílabas|sentenças|morfemas|antônimos|sofismas|profecias|trovas|sinônimos|
+|04|03|Cartaz_0303|T|19|8|poemas|textos|versos|quadras|sonetos|palavras|rimas|frases|estrofes|letras|neologismos|sílabas|sentenças|morfemas|antônimos|sofismas|profecias|trovas|sinônimos|
 |04|04|Cartaz_0304|F|1|1|,|
-|05|01|Cartaz_0501|T|24|13|polimento|apuro|encurtamento|adequação|mapeamento|ajustes|alinhamento|tingimento|revisão|ornamento|maquiagem|alongamento|correição|balanceamento|modelagem|enquadramento|urdidura|rastreamento|implante|desdobramento|convergência|psicanálise|ressonância|calibragem|
-|05|02|Cartaz_0502|T|24|17|de métrica|de verbos|de vocabulário|de concordâncias|de dialetos|de adjetivos|de sintaxes|de ditos|de provérbios|de palavreados|de sinais|de verbosidades|de discrepâncias|de advérbios|de estribilhos|de redundâncias|de antônimos|de vírgulas|de adendos|de cadências|de parônimos|de retórica|de acentos|de aliterações|
-|06|01|Cartaz_0601|F|14|5|e grande variedade|e farto estoque|e vasta variedade|e amplo arsenal|e uma gama enorme|e vasto estoque|e grande oferta|e vasto leque|e amplo arsenal|e vasta oferta|e farto leque|e enorme cabedal|e amplo mostruário|e vasto arsenal|
+|05|01|Cartaz_0501|F|24|15|polimento|apuro|encurtamento|adequação|mapeamento|ajustes|alinhamento|tingimento|revisão|ornamento|maquiagem|alongamento|correição|balanceamento|modelagem|enquadramento|urdidura|rastreamento|implante|desdobramento|convergência|psicanálise|ressonância|calibragem|
+|05|02|Cartaz_0502|T|24|4|de métrica|de verbos|de vocabulário|de concordâncias|de dialetos|de adjetivos|de sintaxes|de ditos|de provérbios|de palavreados|de sinais|de verbosidades|de discrepâncias|de advérbios|de estribilhos|de redundâncias|de antônimos|de vírgulas|de adendos|de cadências|de parônimos|de retórica|de acentos|de aliterações|
+|06|01|Cartaz_0601|F|14|1|e grande variedade|e farto estoque|e vasta variedade|e amplo arsenal|e uma gama enorme|e vasto estoque|e grande oferta|e vasto leque|e amplo arsenal|e vasta oferta|e farto leque|e enorme cabedal|e amplo mostruário|e vasto arsenal|
 |06|03|Cartaz_0602|F|1|1|de|
-|06|04|Cartaz_0604|F|10|9|palavras|rimas|estrofes|letras|gírias|sílabas|frases|sintaxes|sentenças|falácias|
+|06|04|Cartaz_0604|F|10|1|palavras|rimas|estrofes|letras|gírias|sílabas|frases|sintaxes|sentenças|falácias|
 |06|05|Cartaz_0605|F|1|1|:|
-|07|01|Cartaz_0701|F|31|16|antigas|nacionais|modernas|raras|piegas|importadas|simples|solenes|banais|frequentes|sinônimas|pobres|atemporais|inexistentes|mágicas|inventadas|inocentes|antagônicas|recicladas|requintadas|elegantes|arcaicas|vagas|sóbrias|vulgares|sofisticadas|impávidas|sábias|graciosas|virtuoses|rebuscadas|
+|07|01|Cartaz_0701|F|15|4|absurdas|arcaicas|inventadas|importadas|rebuscadas|banais|sofisticadas|recicladas|vagas|requintadas|raras|sábias|atemporais|nacionais|vulgares|
 |07|02|Cartaz_0702|F|1|1|,|
-|07|03|Cartaz_0703|F|21|7|exóticas|épicas|excêntricas|lúdicas|ferinas|absurdas|futuristas|floridas|puras|cultas|óbvias|precisas|atípicas|dúbias|polidas|chulas|líricas|gratuitas|traduzidas|fidedignas|luzidias|
+|07|03|Cartaz_0703|F|14|1|antigas|elegantes|brancas|frequentes|impávidas|inexistentes|modernas|inocentes|ricas|mágicas|pobres|piegas|graciosas|virtuoses|
 |07|04|Cartaz_0704|F|1|1|,|
-|08|01|Cartaz_0701|T|31|22|antigas|nacionais|modernas|raras|piegas|importadas|simples|solenes|banais|frequentes|sinônimas|pobres|atemporais|inexistentes|mágicas|inventadas|inocentes|antagônicas|recicladas|requintadas|elegantes|arcaicas|vagas|sóbrias|vulgares|sofisticadas|impávidas|sábias|graciosas|virtuoses|rebuscadas|
-|08|02|Cartaz_0702|F|2|2|e|ou|
-|08|03|Cartaz_0703|T|21|5|exóticas|épicas|excêntricas|lúdicas|ferinas|absurdas|futuristas|floridas|puras|cultas|óbvias|precisas|atípicas|dúbias|polidas|chulas|líricas|gratuitas|traduzidas|fidedignas|luzidias|
-|08|04|Cartaz_0704|F|1|1|.|
+|08|01|Cartaz_0801|F|11|10|atípicas|futuristas|luzidias|épicas|gratuitas|antagônicas|sóbrias|exóticas|excêntricas|óbvias|sinônimas|
+|08|02|Cartaz_0802|F|1|1|ou|
+|08|03|Cartaz_0803|F|15|11|fidedignas|líricas|ferinas|polidas|precisas|oníricas|puras|cultas|floridas|lúdicas|traduzidas|chulas|dúbias|simples|solenes|
+|08|04|Cartaz_0804|F|1|1|.|
 |09|00|
 |10|01|Cartaz_1001|F|3|1|Descontos|Preços|Valores|
-|10|02|Cartaz_1002|F|9|8|especiais|reduzidos|promocionais|exclusivos|sazonais|extras|ocasionais|de lançamento|incríveis|
+|10|02|Cartaz_1002|F|9|2|especiais|reduzidos|promocionais|exclusivos|sazonais|extras|ocasionais|de lançamento|incríveis|
 |11|01|Cartaz_1101|F|4|4|apenas para|válidos para|somente para|para|
-|11|02|Cartaz_1102|F|16|6|estudantes|aposentados|iniciantes|amadores|graduados|poliglotas|sonâmbulos|anjos|boêmios|esquimós|iletrados|lunáticos|estafetas|advogados|amantes|estrangeiros|
+|11|02|Cartaz_1102|F|17|10|estudantes|aposentados|iniciantes|amadores|graduados|poliglotas|sonâmbulos|anjos|boêmios|esquimós|iletrados|lunáticos|estafetas|advogados|amantes|estrangeiros|similares|
 |11|03|Cartaz_1103|F|1|1|e|
-|11|04|Cartaz_1104|T|20|10|ministros|tímidos|malabaristas|bolsistas|faquires|andarilhos|políticos|pensionistas|suicidas|bailarinas|imortais|bissextos|cardíacos|similares|eremitas|alienígenas|indecisos|anões-de-jardim|virgens|desiludidos|
+|11|04|Cartaz_1104|F|19|15|ministros|tímidos|malabaristas|bolsistas|faquires|andarilhos|políticos|pensionistas|suicidas|bailarinas|imortais|bissextos|cardíacos|eremitas|alienígenas|indecisos|anões-de-jardim|virgens|desiludidos|
 |11|05|Cartaz_1105|F|1|1|.|
 |12|00|
-|13|01|Cartaz_1301|F|9|5|Fazemos engenharia reversa|Não aceitamos cartões de crédito|Agende uma visita em sigilo|Agora sob nova direção|Garantia válida por três meses|Temos gabaritos de vários concursos|Não devolvemos os originais|Parcelamos em até seis vezes|Traduzimos para qualquer idioma|
+|13|01|Cartaz_1301|F|14|4|Fazemos engenharia reversa|Aceitamos cartões de crédito|Agende uma visita em sigilo|Agora sob nova direção|Garantia válida por três meses|Temos gabaritos de vários concursos|Não devolvemos os originais|Parcelamos em até seis vezes|Não repetimos jargões de auto-ajuda|Traduzimos para qualquer idioma|Não aceitamos reclamações posteriores|Oferta válida por tempo limitado|Não plagiamos autores conhecidos|Trabalhamos aos domingos e feriados|
+|13|02|Cartaz_1302|F|1|1|.|
 |13|02|Cartaz_1302|F|1|1|.|
 <EOF>
 CATAPALA = 31
