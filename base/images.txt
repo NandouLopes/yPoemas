@@ -4,7 +4,7 @@ Anjos : machina
 Aolero : anima
 Aquarius=f : esoteric
 Aquarius=m : esoteric
-ArErIr : machina
+Arerir : machina
 Aries=f : esoteric
 Aries=m : esoteric
 Astros : esoteric
@@ -66,7 +66,6 @@ Lato : author
 Leao=f : esoteric
 Leao=m : esoteric
 Leituras : author
-Lero : machina
 Liberta : anima
 Libra=f : esoteric
 Libra=m : esoteric
@@ -97,7 +96,6 @@ Perfil : beauty
 Pessoa : anima
 Portal : machina
 Posfácio : anima
-Precisa : machina
 Preciso : anima
 Prefácil : joco
 Psiu : anima
@@ -119,7 +117,6 @@ Sinas : beauty
 Sn6=ball : machina
 Sn8=ball : machina
 Snowball : machina
-Solero : machina
 Sonoro : anima
 Sopros : anima
 Sos : joco
