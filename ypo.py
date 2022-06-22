@@ -254,17 +254,17 @@ def pick_lang():  # define idioma
 def show_icons():  # https://api.whatsapp.com/
     with st.sidebar:
         st.image("logo_ypo.png")
-    st.sidebar.markdown(
-        f"""
-        <nav>
-        <a href="https://www.facebook.com/nandoulopes" target="_blank">facebook</a> |
-        <a href="mailto:lopes.fernando@hotmail.com" target="_blank">e-mail</a> |
-        <a href="https://www.instagram.com/fernando.lopes.942/" target="_blank">instagram</a> |
-        <a href="https://web.whatsapp.com/send?phone=+5512991368181" target="_blank">whatsapp</a>
-        </nav>
-        """,
-        unsafe_allow_html=True,
-    )
+        st.sidebar.markdown(
+            f"""
+            <nav>
+            <a href="https://www.facebook.com/nandoulopes" target="_blank">facebook</a> |
+            <a href="mailto:lopes.fernando@hotmail.com" target="_blank">e-mail</a> |
+            <a href="https://www.instagram.com/fernando.lopes.942/" target="_blank">instagram</a> |
+            <a href="https://web.whatsapp.com/send?phone=+5512991368181" target="_blank">whatsapp</a>
+            </nav>
+            """,
+            unsafe_allow_html=True,
+        )
 
 
 @st.cache(allow_output_mutation=True)
@@ -505,10 +505,17 @@ def load_typo():  # Load translated yPoema & clean translator returned bugs in t
     with open(os.path.join("./temp/" + typo_user), encoding="utf-8") as script:
         for line in script:  # just 1 line
             line = line.strip()
-            line = line.replace("< br>", "\n")
-            line = line.replace("<br >", "\n")
-            line = line.replace("<br ", "\n")
-            line = line.replace(" br>", "\n")
+            if " >" in line:
+               line = line.replace(" >", "\n")
+            elif "< " in line:
+               line = line.replace("< ", "\n")
+            elif " br " in line:
+               line = line.replace(" br", "\n")
+            elif "br " in line:
+               line = line.replace("br ", "\n")
+            elif " br" in line:
+               line = line.replace(" br", "\n")
+            line = line.replace("< <", ">")
             line = line.replace("> >", ">")
             typo_text += line + "<br>"
     return typo_text
@@ -720,9 +727,6 @@ if st.session_state.visy:  # check visitor once
     temas_list = load_temas("temas_mini")
     maxy_nany = len(temas_list)
     st.session_state.take = random.randrange(0, maxy_nany)
-    temas_list = load_temas("todos os temas")
-    maxy_nany = len(temas_list)
-    st.session_state.mini = random.randrange(0, maxy_nany)
 
     st.success(translate('bem vindo à **máquina de fazer Poesia...**'))
     st.session_state.visy = False
