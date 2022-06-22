@@ -3,37 +3,39 @@
 *-
 *- gr. kalós 'belo' + eîdos 'forma' + -skopeîn 'olhar', do ingl. kaleidoscope = olhar belas formas
 *-
-|01|01|Veio_0101|F|5|4|Sou sem|Nasci sem|Ando sem|Nunca tive|Não quero|
-|01|02|Veio_0102|T|25|6|ouros|anéis|medalhas|louros|pratas|camafeus|rubis|brilhos|diamantes|pérolas|pulseiras|colares|tiaras|safiras|jades|presilhas|adereços|quilates|metais|correntes|bugigangas|miçangas|enfeites|lentejoulas|cristais|
+|01|01|Veio_0101|F|5|3|Sou sem|Nasci sem|Ando sem|Nunca tive|Não quero|
+|01|02|Veio_0102|F|8|2|medalhas|pratas|colares|tiaras|metais|jades|quilates|cristais|
 |01|03|Veio_0103|F|1|1|,|
-|01|04|Veio_0102|F|25|9|ouros|anéis|medalhas|louros|pratas|camafeus|rubis|brilhos|diamantes|pérolas|pulseiras|colares|tiaras|safiras|jades|presilhas|adereços|quilates|metais|correntes|bugigangas|miçangas|enfeites|lentejoulas|cristais|
+|01|04|Veio_0104|F|9|7|ouros|anéis|camafeus|pulseiras|diamantes|adereços|correntes|enfeites|lentejoulas|
 |01|05|Veio_0105|F|1|1|,|
-|01|06|Veio_0102|F|25|17|ouros|anéis|medalhas|louros|pratas|camafeus|rubis|brilhos|diamantes|pérolas|pulseiras|colares|tiaras|safiras|jades|presilhas|adereços|quilates|metais|correntes|bugigangas|miçangas|enfeites|lentejoulas|cristais|
+|01|06|Veio_0106|F|7|5|pérolas|bugigangas|brilhos|rubis|safiras|presilhas|miçangas|
 |01|07|Veio_0107|F|1|1|...|
 |02|01|Veio_0201|F|1|1|nem|
-|02|02|Veio_0202|F|31|26|brinco|adorno|relógio|brilho|ouros|anéis|medalhas|louros|pratas|camafeus|rubis|brilhos|diamantes|pérolas|pulseiras|colares|tiaras|safiras|jades|presilhas|adereços|quilates|metais|correntes|bugigangas|miçangas|enfeites|lentejoulas|esmeraldas|cristais|cadinhos|
+|02|02|Veio_0202|F|31|25|brinco|adorno|relógio|brilho|ouros|anéis|medalhas|louros|pratas|camafeus|rubis|brilhos|diamantes|pérolas|pulseiras|colares|tiaras|safiras|jades|presilhas|adereços|quilates|metais|correntes|bugigangas|miçangas|enfeites|lentejoulas|esmeraldas|cristais|cadinhos|
 |02|03|Veio_0203|F|1|1|.|
 |03|00|
 |04|01|Veio_0401|F|1|1|Minha|
-|04|02|Veio_0402|F|9|1|aliança|aura|bateia|gema|lavra|alquimia|mina|alma|sorte|
-|04|03|Veio_0403|F|11|9|reflete|prefere|ama|contempla|minera|garimpa|mina|lavra|apura|estampa|desenha|
-|04|04|Veio_0404|F|12|9|o céu que ensejo.|a jóia de estar vivo.|o futuro que almejo.|pedras e caminhos.|os ourives do bem.|pessoas preciosas.|chão batido e veredas.|o filão do impossível.|o que reluz por si mesmo.|as auroras boreais.|aquilo que valha.|olhares sem vidro.|
+|04|02|Veio_0402|F|9|6|aliança|aura|bateia|gema|lavra|alquimia|mina|alma|sorte|
+|04|03|Veio_0403|F|11|10|reflete|prefere|ama|contempla|minera|garimpa|mina|lavra|apura|estampa|desenha|
+|04|04|Veio_0404|F|12|2|o céu que ensejo|a joia de estar vivo|o futuro que almejo|pedras e caminhos|os ourives do bem|pessoas preciosas|chão batido e veredas|o filão do impossível|o que reluz por si mesmo|as auroras boreais|aquilo que valha|olhares sem vidro|
+|04|05|Veio_0605|F|1|1|.|
 |05|00|
-|06|01|Veio_0601|F|24|4|Visto|Douro|Ligo|Dispo|Pinto|Mimo|Vinco|Lavro|Plico|Lustro|Planto|Lapido|Domo|Garimpo|Fado|Refino|Lego|Afago|Cavo|Elejo|Pulo|Reparto|Curto|Folheio|
-|06|02|Veio_0602|F|11|6|sonhos|utopias|pérolas|metas|planos|veios|átomos|louros|esmeros|átimos|migalhas|
+|06|01|Veio_0601|F|23|20|Visto|Douro|Ligo|Dispo|Pinto|Mimo|Vinco|Lavro|Plico|Lustro|Planto|Lapido|Domo|Garimpo|Refino|Lego|Afago|Cavo|Elejo|Pulo|Reparto|Curto|Folheio|
+|06|02|Veio_0602|F|11|7|sonhos|utopias|pérolas|metas|planos|veios|átomos|louros|esmeros|átimos|migalhas|
 |06|03|Veio_0603|F|1|1|e|
-|06|04|Veio_0604|F|68|63|vago no mundo|não rogo praga|vago no vasto|caço palavras|sei ser feliz|falho nas rimas|falho palavras|falho no verbo|não rasgo verbos|verso até torto|verso no vago|sei alfarrábios|arrisco tempos|lembro de sonhos|lembro do vasto|lembro do tempo|fujo do tempo|risco em cadernos|risco no mundo|cultivo amigos|cultivo cadernos|cultivo verbos|penso no tédio|penso no mundo|penso moderno|minto secreto|caio no ócio|caio no mundo|caio no tempo|finjo preguiça|minto pra sina|vago nas ruas|sou todo ouvidos|ajo em sigilo|canto meus cantos|sigo palpites|tenho meu ninho|acato o cio|clono saberes|não calo bocas|vivo do novo|fundo mudanças|mando no tédio|creio no cio|creio no ócio|vingo verdades|minto verdades|juro verdades|amo ao quadrado|amo redondo|amo o vasto|amo em segredo|amo o perfeito|amo verdades|minto redondo|minto ao quadrado|sonho ao quadrado|sonho redondo|sonho em segredo|juro perfeito|beiro loucuras|ouço as estrelas|rumo por elos|olho pro longe|pinço momentos|surjo do limbo|tiro de letra|ando por fios|
+|06|04|Veio_0604|T|68|11|vago no mundo|não rogo praga|sonho ao quadrado|vago no vasto|caço palavras|sonho redondo|sei ser feliz|falho nas rimas|falho palavras|falho no verbo|não rasgo verbos|verso até torto|verso no vago|sei alfarrábios|arrisco tempos|lembro de sonhos|lembro do vasto|lembro do tempo|fujo do tempo|risco em cadernos|risco no mundo|cultivo amigos|cultivo cadernos|cultivo verbos|penso no tédio|penso no mundo|penso moderno|minto secreto|caio no ócio|caio no mundo|caio no tempo|finjo preguiça|minto pra sina|vago nas ruas|sou todo ouvidos|ajo em sigilo|canto meus cantos|sigo palpites|tenho meu ninho|acato o cio|clono saberes|não calo bocas|vivo do novo|fundo mudanças|mando no tédio|creio no cio|creio no ócio|vingo verdades|minto verdades|juro verdades|amo ao quadrado|amo redondo|amo o vasto|amo em segredo|amo o perfeito|amo verdades|minto redondo|minto ao quadrado|sonho em segredo|juro perfeito|beiro loucuras|ouço as estrelas|rumo por elos|olho pro longe|pinço momentos|surjo do limbo|tiro de letra|ando por fios|
 |06|05|Veio_0605|F|1|1|.|
-|07|01|Veio_0701|F|19|15|Durmo nu e não dispenso pele.|Nem tudo é aquarela...|Lanço o que sei no espaço.|Trago a alma sem aparas.|Gasto-me em esperanças...|Não brilho porque reflito.|Acho que nada nos afere...|Falta ao mundo um espelho?|De alguma arte sou escravo.|Ando rico sem saberes.|Sabe-se lá ao que o mundo veio?|Avalio outros valores...|Vejo amores em esquinas.|Não meço o próximo passo.|Trago o coração sem arestas.|Levo a vida sem quimeras.|Sou cópia do que sou.|Mal sei do universo...|Sei-me mero artesão...|
-|08|01|Veio_0601|F|24|21|Visto|Douro|Dispo|Ligo|Pinto|Mimo|Vinco|Plico|Lavro|Lustro|Planto|Domo|Garimpo|Lapido|Fado|Refino|Lego|Afago|Cavo|Elejo|Pulo|Reparto|Curto|Folheio|
-|08|02|Veio_0602|F|11|1|sonhos|utopias|pérolas|metas|planos|veios|átomos|louros|esmeros|átimos|migalhas|
-|08|03|Veio_0803|F|2|1|mas,|e|
-|08|04|Veio_0804|F|10|7|mantenho a cara limpa|tenho cá minhas ligas...|protejo minha cava|cuido do chão que piso|desacato meus limites|preservo minha jazida|invado outros domínios|exploro meus minérios|preservo minhas fontes|projeto meu porvir|
+|07|01|Veio_0701|F|18|2|Durmo nu e não dispenso pele.|Lanço o que sei no espaço.|Trago a alma sem aparas.|Gasto-me em esperanças...|Não brilho porque reflito.|Acho que nada nos afere...|Falta ao mundo um espelho?|De alguma arte sou escravo.|Ando rico sem saberes.|Sabe-se lá ao que o mundo veio?|Avalio outros valores...|Vejo amores em esquinas.|Não meço o próximo passo.|Trago o coração sem arestas.|Levo a vida sem quimeras.|Sou cópia do que sou.|Mal sei do universo...|Sei-me mero artesão.|
+|08|01|Veio_0601|T|23|5|Visto|Douro|Dispo|Ligo|Pinto|Mimo|Vinco|Plico|Lavro|Lustro|Planto|Domo|Garimpo|Lapido|Refino|Lego|Afago|Cavo|Elejo|Pulo|Reparto|Curto|Folheio|
+|08|02|Veio_0602|F|12|3|sonhos|utopias|pérolas|metas|planos|veios|átomos|louros|esmeros|átimos|migalhas|mistérios|
+|08|03|Veio_0803|F|2|2|mas,|e|
+|08|04|Veio_0804|F|10|6|mantenho a cara limpa|tenho cá minhas ligas...|protejo minha cava|cuido do chão que piso|desacato meus limites|preservo minha jazida|invado outros domínios|exploro meus minérios|preservo minhas fontes|projeto meu porvir|
 |08|05|Veio_0105|F|1|1|.|
 |09|00|
-|10|01|Veio_1001|T|17|2|Afora isso,|Rápido,|Outrossim,|No mais,|Curto e grosso,|Por fim,|Pasmem...|No íntimo,|Salvo dúvida,|No entanto,|Por outro lado,|Ademais,|De resto,|Atente:|Crasso,|Tirante o resto,|Não por acaso.|
-|10|02|Veio_1002|F|9|8|evito|adoro|detesto|cultivo|abomino|prefiro|esconjuro|cultuo|desdenho|
-|10|03|Veio_1003|T|26|2|conjugar verbos no passado.|a mentira do infinito.|luares sem luz.|os seres opacos.|futilidades douradas.|o que parece mau gosto.|bijuterias baratas.|os falsos brilhantes.|pensamentos acrílicos.|aquele ar de artesanato.|meras quinquilharias.|coisas que não ornam.|o ouro dos tolos.|flores feitas de plástico.|imitações de poetas.|instantes distantes.|maravilhas sintéticas.|auras esmeradas.|paraísos artificiais.|o que soa esquisito.|o que não cabe num livro.|as pedras mais brutas.|as medidas áureas.|rodeios de ideias.|essa aura de eterno.|o futuro vindouro.|
+|10|01|Veio_1001|T|17|9|Afora isso,|Rápido,|Outrossim,|No mais,|Curto e grosso,|Por fim,|Pasmem...|No íntimo,|Salvo dúvida,|No entanto,|Por outro lado,|Ademais,|De resto,|Atente:|Crasso,|Tirante o resto,|Não por acaso.|
+|10|02|Veio_1002|F|9|4|evito|adoro|detesto|cultivo|abomino|prefiro|esconjuro|cultuo|desdenho|
+|10|03|Veio_1003|T|26|26|conjugar verbos no passado|a mentira do infinito|luares sem luz|os seres opacos|futilidades douradas|o que parece mau gosto|bijuterias baratas|os falsos brilhantes|pensamentos acrílicos|aquele ar de artesanato|meras quinquilharias|coisas que não ornam|o ouro dos tolos|flores feitas de plástico|imitações de poetas|instantes distantes|maravilhas sintéticas|auras esmeradas|paraísos artificiais|o que soa esquisito|o que não cabe num livro|as pedras mais brutas|as medidas áureas|rodeios de ideias|essa aura de eterno|o futuro vindouro|
+|10|04|Veio_1004|F|2|2|.|!|
 <EOF>
 CATAPALA = 36
 VERBETES = 366

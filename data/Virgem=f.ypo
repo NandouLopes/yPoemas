@@ -5,25 +5,25 @@
 *-
 |01|01|Virgem=f_0101|F|2|2|De suas melhores|Dentre suas invejáveis|
 |01|02|Virgem=f_0102|F|2|2|qualidades,|características,|
-|02|01|Virgem=f_0201|F|20|18|humana|correta|dedicada|consciente|amiga|leal|tímida|discreta|idealista|intuitiva|carinhosa|protetora|simpática|organizada|responsável|correta|eficiente|prática|objetiva|delicada|
+|02|01|Virgem=f_0201|F|20|16|humana|correta|dedicada|consciente|amiga|leal|tímida|discreta|idealista|intuitiva|carinhosa|protetora|simpática|organizada|responsável|correta|eficiente|prática|objetiva|delicada|
 |02|02|Virgem=f_0202|F|1|1|...|
-|02|03|Virgem=f_0201|T|20|2|humana|correta|dedicada|consciente|amiga|leal|tímida|discreta|idealista|intuitiva|carinhosa|protetora|simpática|organizada|responsável|correta|eficiente|prática|objetiva|delicada|
+|02|03|Virgem=f_0201|T|20|12|humana|correta|dedicada|consciente|amiga|leal|tímida|discreta|idealista|intuitiva|carinhosa|protetora|simpática|organizada|responsável|correta|eficiente|prática|objetiva|delicada|
 |02|04|Virgem=f_0204|F|1|1|...|
-|02|05|Virgem=f_0201|T|20|14|humana|correta|dedicada|consciente|amiga|leal|tímida|discreta|idealista|intuitiva|carinhosa|protetora|simpática|organizada|responsável|correta|eficiente|prática|objetiva|delicada|
+|02|05|Virgem=f_0201|T|20|1|humana|correta|dedicada|consciente|amiga|leal|tímida|discreta|idealista|intuitiva|carinhosa|protetora|simpática|organizada|responsável|correta|eficiente|prática|objetiva|delicada|
 |02|06|Virgem=f_0206|F|1|1|...|
 |03|00|
 |04|01|Virgem=f_0401|F|1|1|Entre|
-|04|02|Virgem=f_0402|F|8|2|ideia e ação|amor e amizade|paixão e compaixão|agir e refletir|emoção e comoção|amada e temida|querer e poder|o todo e detalhes|
-|05|01|Virgem=f_0501|F|3|3|brota|nasce|surge|
+|04|02|Virgem=f_0402|F|8|8|ideia e ação|amor e amizade|paixão e compaixão|agir e refletir|emoção e comoção|amada e temida|querer e poder|o todo e detalhes|
+|05|01|Virgem=f_0501|F|3|1|brota|nasce|surge|
 |05|02|Virgem=f_0502|F|1|1|um ambiente|
-|05|03|Virgem=f_0503|F|9|1|harmônico|de leveza|versátil|de desprendimento|afetuoso|de perspicácia|incomum|de cooperação|de reconhecimento|
+|05|03|Virgem=f_0503|F|9|8|harmônico|de leveza|versátil|de desprendimento|afetuoso|de perspicácia|incomum|de cooperação|de reconhecimento|
 |06|01|Virgem=f_0601|F|1|1|onde todos se|
-|06|02|Virgem=f_0602|F|3|3|ajudam|respeitam|espelham|
+|06|02|Virgem=f_0602|F|3|1|ajudam|respeitam|espelham|
 |06|03|Virgem=f_0603|F|1|1|.|
 |07|00|
-|08|01|Virgem=f_0801|F|6|6|Ajudar amigos|Dar conselhos|Sentir-se útil|Servir ao outro|Dedicar-se ao ser amado|Envolver-se com a vida|
-|09|01|Virgem=f_0901|F|4|1|só realça|só permeia|só destaca|só ilumina|
-|09|02|Virgem=f_0902|F|5|4|a sua beleza natural|a sua inteligência|a sua verdadeira índole|o seu lado romântico|a sua pessoa sensível|
+|08|01|Virgem=f_0801|F|6|4|Ajudar amigos|Dar conselhos|Sentir-se útil|Servir ao outro|Dedicar-se ao ser amado|Envolver-se com a vida|
+|09|01|Virgem=f_0901|F|4|3|só realça|só permeia|só destaca|só ilumina|
+|09|02|Virgem=f_0902|F|5|2|a sua beleza natural|a sua inteligência|a sua verdadeira índole|o seu lado romântico|a sua pessoa sensível|
 |09|02|Virgem=f_0902|F|1|1|.|
 <EOF>
 CATAPALA = 30
