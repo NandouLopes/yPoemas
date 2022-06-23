@@ -1,18 +1,18 @@
 *-
-*- ArErIr.ypo
+*- Arerir.ypo
 *-
 *- Tecnologia & Informação|Compor|
 *-
-|01|01|ArErIr_0101|F|88|26|Aperfeiçoar|Capacitar|Acelerar|Acreditar|Acrescentar|Administrar|Aliar|Alicerçar|Ajudar|Ajustar|Alcançar|Ampliar|Agrupar|Anunciar|Apresentar|Arquitetar|Arrebatar|Argumentar|Assimilar|Associar|Aspirar|Avaliar|Avançar|Cativar|Cogitar|Colaborar|Começar|Comparar|Conciliar|Comunicar|Concordar|Confiar|Conquistar|Consolidar|Considerar|Consultar|Contemplar|Coordenar|Cooperar|Cultivar|Criar|Dedicar|Destacar|Edificar|Educar|Elaborar|Elevar|Elogiar|Encorajar|Entusiasmar|Estimular|Engendrar|Firmar|Fomentar|Harmonizar|Humanizar|Iluminar|Ilustrar|Imaginar|Indagar|Inspirar|Instigar|Inovar|Informar|Incrementar|Incentivar|Integrar|Inventar|Investigar|Legar|Melhorar|Movimentar|Motivar|Mudar|Observar|Optar|Outorgar|Pesquisar|Ponderar|Propagar|Relacionar|Realizar|Renovar|Somar|Superar|Suscitar|Trocar|Visar|
-|01|02|ArErIr_0102|F|1|1|,|
-|02|01|ArErIr_0201|T|23|17|Ascender|Aprender|Abranger|Acontecer|Atender|Compreender|Conceder|Conhecer|Convencer|Corresponder|Crescer|Desenvolver|Esclarecer|Enaltecer|Entender|Envolver|Escolher|Fazer|Promover|Reconhecer|Reger|Resolver|Surpreender|
-|02|02|ArErIr_0202|F|1|1|,|
-|03|01|ArErIr_0301|T|38|35|Abstrair|Atrair|Aderir|Agir|Aplaudir|Atingir|Competir|Conduzir|Conseguir|Contribuir|Convir|Concluir|Construir|Corrigir|Convergir|Cumprir|Decidir|Definir|Descobrir|Difundir|Discernir|Distinguir|Distribuir|Expandir|Incluir|Instruir|Imbuir|Ouvir|Produzir|Progredir|Repartir|Reunir|Sugerir|Surgir|Subir|Servir|Transmitir|Unir|
-|03|02|ArErIr_0302|F|1|1|...|
+|01|01|Arerir_0101|F|88|25|Aperfeiçoar|Capacitar|Acelerar|Acreditar|Acrescentar|Administrar|Aliar|Alicerçar|Ajudar|Ajustar|Alcançar|Ampliar|Agrupar|Anunciar|Apresentar|Arquitetar|Arrebatar|Argumentar|Assimilar|Associar|Aspirar|Avaliar|Avançar|Cativar|Cogitar|Colaborar|Começar|Comparar|Conciliar|Comunicar|Concordar|Confiar|Conquistar|Consolidar|Considerar|Consultar|Contemplar|Coordenar|Cooperar|Cultivar|Criar|Dedicar|Destacar|Edificar|Educar|Elaborar|Elevar|Elogiar|Encorajar|Entusiasmar|Estimular|Engendrar|Firmar|Fomentar|Harmonizar|Humanizar|Iluminar|Ilustrar|Imaginar|Indagar|Inspirar|Instigar|Inovar|Informar|Incrementar|Incentivar|Integrar|Inventar|Investigar|Legar|Melhorar|Movimentar|Motivar|Mudar|Observar|Optar|Outorgar|Pesquisar|Ponderar|Propagar|Relacionar|Realizar|Renovar|Somar|Superar|Suscitar|Trocar|Visar|
+|01|02|Arerir_0102|F|1|1|,|
+|02|01|Arerir_0201|T|23|14|Ascender|Aprender|Abranger|Acontecer|Atender|Compreender|Conceder|Conhecer|Convencer|Corresponder|Crescer|Desenvolver|Esclarecer|Enaltecer|Entender|Envolver|Escolher|Fazer|Promover|Reconhecer|Reger|Resolver|Surpreender|
+|02|02|Arerir_0202|F|1|1|,|
+|03|01|Arerir_0301|T|38|23|Abstrair|Atrair|Aderir|Agir|Aplaudir|Atingir|Competir|Conduzir|Conseguir|Contribuir|Convir|Concluir|Construir|Corrigir|Convergir|Cumprir|Decidir|Definir|Descobrir|Difundir|Discernir|Distinguir|Distribuir|Expandir|Incluir|Instruir|Imbuir|Ouvir|Produzir|Progredir|Repartir|Reunir|Sugerir|Surgir|Subir|Servir|Transmitir|Unir|
+|03|02|Arerir_0302|F|1|1|...|
 |04|00|
-|05|01|ArErIr_0501|F|3|1|e assim|para|e depois|
-|05|02|ArErIr_0502|T|40|23|Acelerar|Alcançar|Ampliar|Aperfeiçoar|Avançar|Recomeçar|Conquistar|Criar|Educar|Elevar|Humanizar|Incentivar|Inspirar|Instigar|Inovar|Integrar|Inventar|Mudar|Motivar|Realizar|Renovar|Somar|Superar|Acontecer|Aprender|Compreender|Contemplar|Crescer|Fazer|Surpreender|Expandir|Agir|Atingir|Competir|Construir|Contribuir|Incluir|Seguir|Servir|Progredir|
-|05|03|ArErIr_0503|F|1|1|.|
+|05|01|Arerir_0501|F|3|3|e assim|para|e depois|
+|05|02|Arerir_0502|T|40|3|Acelerar|Alcançar|Ampliar|Aperfeiçoar|Avançar|Recomeçar|Conquistar|Criar|Educar|Elevar|Humanizar|Incentivar|Inspirar|Instigar|Inovar|Integrar|Inventar|Mudar|Motivar|Realizar|Renovar|Somar|Superar|Acontecer|Aprender|Compreender|Contemplar|Crescer|Fazer|Surpreender|Expandir|Agir|Atingir|Competir|Construir|Contribuir|Incluir|Seguir|Servir|Progredir|
+|05|03|Arerir_0503|F|1|1|.|
 <EOF>
 CATAPALA = 6
 VERBETES = 155
