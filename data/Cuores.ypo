@@ -2,41 +2,41 @@
 *- Cuores.ypo
 *-
 |01|01|Cuores_0101|F|1|1|Meu coração é|
-|01|02|Cuores_0102|F|10|4|indigente|notívago|inocente|fingido|ferido|bandido|sofrido|esquecido|perdido|distraído|
+|01|02|Cuores_0102|F|10|2|indigente|notívago|inocente|fingido|ferido|bandido|sofrido|esquecido|perdido|distraído|
 |02|01|Cuores_0201|F|2|1|e quer|e busca|
-|02|02|Cuores_0202|F|3|1|alguma|qualquer|apenas|
-|02|03|Cuores_0203|F|13|2|alegria|brandura|harmonia|centelha|ternura|cantiga|luz|carícia|empatia|delícia|magia|fagulha|simpatia|
+|02|02|Cuores_0202|F|3|3|alguma|qualquer|apenas|
+|02|03|Cuores_0203|F|13|6|alegria|brandura|harmonia|centelha|ternura|cantiga|luz|carícia|empatia|delícia|magia|fagulha|simpatia|
 |02|04|Cuores_0204|F|1|1|...|
-|03|01|Cuores_0301|F|3|3|$|algum|qualquer|talvez um|
-|03|02|Cuores_0302|F|8|6|deleite|afeto|carinho|toque|cafuné|novo amor|afago|atalho|
+|03|01|Cuores_0301|F|3|2|$|algum|qualquer|talvez um|
+|03|02|Cuores_0302|F|8|8|deleite|afeto|carinho|toque|cafuné|novo amor|afago|atalho|
 |03|03|Cuores_0303|F|1|1|que|
-|03|04|Cuores_0304|F|16|16|escancare|chacoalhe|atravesse|ilumine|dispare|envolva|desperte|acalente|vasculhe|revolva|abrace|acelere|faça bater|enterneça|toque|acolha|
+|03|04|Cuores_0304|F|16|10|escancare|chacoalhe|atravesse|ilumine|dispare|envolva|desperte|acalente|vasculhe|revolva|abrace|acelere|faça bater|enterneça|toque|acolha|
 |04|01|Cuores_0401|F|2|1|$|corações|outros corações|
-|04|02|Cuores_0402|F|24|2|destelhados|descuidados|desencontrados|entediados|encruzilhados|parados|emboscados|calcificados|desalinhados|cansados|desamados|alados|desavisados|calados|exilados|enlevados|enganados|descasados|desconcertados|espezinhados|ilhados|desfalcados|despareados|congelados|
+|04|02|Cuores_0402|F|25|4|destelhados|descuidados|desencontrados|desenganados|entediados|encruzilhados|parados|emboscados|calcificados|desalinhados|cansados|desamados|desavisados|calados|exilados|enlevados|enganados|descasados|desconcertados|espezinhados|ilhados|desfalcados|despareados|congelados|enviesados|
 |04|03|Cuores_0403|F|1|1|,|
-|04|04|Cuores_0404|F|21|7|sofrentes|saltimbancos|pingentes|em taquicardia|vacantes|anônimos|ávidos por vida|itinerantes|andarilhos|sem poder gostar|ambulantes|batendo amenos|aflitos|rebeldes|transeuntes|sem achar saída|catando saídas|solitários|sem nem ter dono|em labirinto|estrangeiros|
+|04|04|Cuores_0404|F|22|6|sofrentes|saltimbancos|pingentes|em taquicardia|vacantes|anônimos|ávidos por vida|itinerantes|andarilhos|sem poder gostar|ambulantes|alados|batendo amenos|aflitos|rebeldes|transeuntes|sem achar saída|solitários|sem nem ter dono|em labirinto|estrangeiros|catando saídas|
 |04|05|Cuores_0405|F|1|1|,|
-|04|06|Cuores_0406|F|8|8|ainda não queridos|atingidos|entretidos|mal batidos|nunca sofridos|perdidos|tolhidos|vencidos|
+|04|06|Cuores_0406|F|9|4|ainda não queridos|atingidos|entretidos|mal batidos|nunca sofridos|perdidos|tolhidos|vencidos|preteridos|
 |04|07|Cuores_0407|F|1|1|.|
 |05|00|
 |06|01|Cuores_0601|F|1|1|Meu coração será|
-|06|02|Cuores_0602|F|5|5|merecido|atraído|atrevido|querido|encontrado|
+|06|02|Cuores_0602|F|5|3|merecido|atraído|atrevido|querido|encontrado|
 |07|01|Cuores_0701|F|2|1|e terá|e trará|
-|07|02|Cuores_0702|F|3|2|alguma|qualquer|apenas|
-|07|03|Cuores_0703|T|13|9|alegria|brandura|harmonia|centelha|ternura|cantiga|luz|carícia|empatia|delícia|magia|fagulha|simpatia|
+|07|02|Cuores_0702|F|3|1|alguma|qualquer|apenas|
+|07|03|Cuores_0703|T|13|3|alegria|brandura|harmonia|centelha|ternura|cantiga|luz|carícia|empatia|delícia|magia|fagulha|simpatia|
 |07|04|Cuores_0204|F|1|1|...|
-|08|01|Cuores_0801|F|3|2|$|algum|qualquer|talvez um|
-|08|02|Cuores_0302|F|8|4|deleite|afeto|carinho|toque|cafuné|novo amor|afago|atalho|
+|08|01|Cuores_0801|F|3|3|$|algum|qualquer|talvez um|
+|08|02|Cuores_0302|F|8|6|deleite|afeto|carinho|toque|cafuné|novo amor|afago|atalho|
 |08|03|Cuores_0303|F|1|1|que|
-|08|04|Cuores_0304|T|16|8|escancare|chacoalhe|atravesse|ilumine|dispare|envolva|desperte|acalente|vasculhe|revolva|abrace|acelere|faça bater|enterneça|toque|acolha|
+|08|04|Cuores_0304|T|16|11|escancare|chacoalhe|atravesse|ilumine|dispare|envolva|desperte|acalente|vasculhe|revolva|abrace|acelere|faça bater|enterneça|toque|acolha|
 |09|01|Cuores_0401|F|2|2|$|corações|outros corações|
-|09|02|Cuores_0402|T|24|1|destelhados|descuidados|desencontrados|entediados|encruzilhados|parados|emboscados|calcificados|desalinhados|cansados|desamados|alados|desavisados|calados|exilados|enlevados|enganados|descasados|desconcertados|espezinhados|ilhados|desfalcados|despareados|congelados|
+|09|02|Cuores_0402|T|25|21|destelhados|descuidados|desencontrados|desenganados|entediados|encruzilhados|parados|emboscados|calcificados|desalinhados|cansados|desamados|desavisados|calados|exilados|enlevados|enganados|descasados|desconcertados|espezinhados|ilhados|desfalcados|despareados|congelados|enviesados|
 |09|03|Cuores_0403|F|1|1|,|
-|09|04|Cuores_0404|T|21|6|sofrentes|saltimbancos|pingentes|em taquicardia|vacantes|anônimos|ávidos por vida|itinerantes|andarilhos|sem poder gostar|ambulantes|batendo amenos|aflitos|catando saídas|rebeldes|transeuntes|sem achar saída|solitários|sem nem ter dono|em labirinto|estrangeiros|
+|09|04|Cuores_0404|T|22|7|sofrentes|saltimbancos|pingentes|em taquicardia|vacantes|anônimos|ávidos por vida|itinerantes|andarilhos|sem poder gostar|ambulantes|alados|batendo amenos|aflitos|rebeldes|transeuntes|sem achar saída|solitários|sem nem ter dono|em labirinto|estrangeiros|catando saídas|
 |09|05|Cuores_0405|F|1|1|,|
-|09|06|Cuores_0406|T|8|4|ainda não queridos|atingidos|entretidos|mal batidos|nunca sofridos|perdidos|tolhidos|vencidos|
+|09|06|Cuores_0406|T|9|3|ainda não queridos|atingidos|entretidos|mal batidos|nunca sofridos|perdidos|tolhidos|vencidos|preteridos|
 |09|07|Cuores_0407|F|1|1|.|
 |10|00|
 |11|01|Cuores_1101|F|1|1|Meu coração|
-|11|02|Cuores_1102|F|9|5|saberá o que dizer!|sabe onde está.|encontrará saídas!|já perdeu medos de ser feliz...|aprendeu delicadezas.|não baterá escondido!|há de saber bater junto.|sente-se feliz por nadas.|aprenderá no caminho...|
+|11|02|Cuores_1102|F|10|6|saberá o que dizer!|sabe onde está.|encontrará saídas!|já perdeu medos de ser feliz...|aprendeu delicadezas.|não baterá escondido!|há de saber bater junto.|sente-se feliz por nadas.|aprenderá no caminho...|não perde esperanças!|
 <EOF>
