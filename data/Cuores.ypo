@@ -10,42 +10,42 @@
 *- |05|04|Cuori_0504|F|31|23|ávidos por vida|tão mal batidos|sem saber soprar|aprendendo acasos|sem nem ter dono|aves da vida|em labirinto|n'alguma tristeza|nunca sofridos|quase vagabundos|catando saídas|batendo amenos|sem poder gostar|ainda não queridos|que nem amam mais|sem amor verdadeiro|fazendo fila|em taquicardia|sem achar saída|perdidos|andarilhos|aflitos|tolhidos|maltrapilhos|transeuntes|entretidos|atingidos|vencidos|vadios|na tipoia|em sinuca|
 *- |05|05|Cuori_0505|F|1|1|.|
 *-
-|01|01|Cuori_0101|F|2|1|Meu coração foi|Meu coração é|
+|01|01|Cuori_0101|F|2|2|Meu coração foi|Meu coração é|
 |01|02|Cuori_0102|F|11|5|indigente|notívago|inocente|banido|fingido|ferido|bandido|sofrido|esquecido|perdido|distraído|
 |02|01|Cuori_0201|F|1|1|e quer|
-|02|02|Cuori_0202|F|3|2|alguma|qualquer|apenas|
-|02|03|Cuori_0203|F|12|1|alegria|delícia|empatia|brandura|harmonia|paz|carícia|ternura|simpatia|cantiga|luz|magia|
+|02|02|Cuori_0202|F|3|3|alguma|qualquer|apenas|
+|02|03|Cuori_0203|F|12|2|alegria|delícia|empatia|brandura|harmonia|paz|carícia|ternura|simpatia|cantiga|luz|magia|
 |02|04|Cuori_0204|F|1|1|...|
-|03|01|Cuori_0301|F|3|1|algum|qualquer|apenas um|
-|03|02|Cuori_0302|F|8|1|deleite|afeto|carinho|toque|cafuné|novo amor|afago|atalho|
+|03|01|Cuori_0301|F|3|2|algum|qualquer|apenas um|
+|03|02|Cuori_0302|F|8|6|deleite|afeto|carinho|toque|cafuné|novo amor|afago|atalho|
 |03|03|Cuori_0303|F|1|1|que|
-|03|04|Cuori_0304|F|15|10|escancare|chacoalhe|atravesse|ilumine|dispare|envolva|desperte|acalente|vasculhe|revolva|abrace|acelere|faça bater|enterneça|toque|
+|03|04|Cuori_0304|F|15|14|escancare|chacoalhe|atravesse|ilumine|dispare|envolva|desperte|acalente|vasculhe|revolva|abrace|acelere|faça bater|enterneça|toque|
 |04|01|Cuori_0401|F|1|1|os corações|
-|04|02|Cuori_0402|F|22|5|destelhados|descuidados|desencontrados|entediados|encruzilhados|parados|emboscados|calcificados|desalinhados|cansados|desamados|alados|desavisados|calados|exilados|enlevados|enganados|descasados|desconcertados|espezinhados|ilhados|desfalcados|
+|04|02|Cuori_0402|F|22|16|destelhados|descuidados|desencontrados|entediados|encruzilhados|parados|emboscados|calcificados|desalinhados|cansados|desamados|alados|desavisados|calados|exilados|enlevados|enganados|descasados|desconcertados|espezinhados|ilhados|desfalcados|
 |04|03|Cuori_0403|F|1|1|,|
-|04|04|Cuori_0404|F|20|19|sofrentes|saltimbancos|pingentes|em taquicardia|vacantes|anônimos|ávidos por vida|itinerantes|andarilhos|sem poder gostar|ambulantes|batendo amenos|aflitos|rebeldes|transeuntes|sem achar saída|catando saídas|solitários|sem nem ter dono|em labirinto|
+|04|04|Cuori_0404|F|20|8|sofrentes|saltimbancos|pingentes|em taquicardia|vacantes|anônimos|ávidos por vida|itinerantes|andarilhos|sem poder gostar|ambulantes|batendo amenos|aflitos|rebeldes|transeuntes|sem achar saída|catando saídas|solitários|sem nem ter dono|em labirinto|
 |04|05|Cuori_0405|F|1|1|,|
-|04|06|Cuori_0406|F|8|3|ainda não queridos|atingidos|entretidos|mal batidos|nunca sofridos|perdidos|tolhidos|vencidos|
+|04|06|Cuori_0406|F|8|8|ainda não queridos|atingidos|entretidos|mal batidos|nunca sofridos|perdidos|tolhidos|vencidos|
 |04|07|Cuori_0407|F|1|1|.|
 |05|00|
 |06|01|Cuori_0601|F|1|1|Meu coração será|
-|06|02|Cuori_0602|F|5|5|merecido|atraído|atrevido|querido|encontrado|
+|06|02|Cuori_0602|F|5|4|merecido|atraído|atrevido|querido|encontrado|
 |07|01|Cuori_0701|F|1|1|e terá|
-|07|02|Cuori_0702|F|3|3|alguma|qualquer|apenas|
-|07|03|Cuori_0203|F|12|12|alegria|delícia|empatia|brandura|harmonia|paz|carícia|ternura|simpatia|cantiga|luz|magia|
+|07|02|Cuori_0702|F|3|1|alguma|qualquer|apenas|
+|07|03|Cuori_0203|F|12|1|alegria|delícia|empatia|brandura|harmonia|paz|carícia|ternura|simpatia|cantiga|luz|magia|
 |07|04|Cuori_0204|F|1|1|...|
-|08|01|Cuori_0801|F|3|2|algum|qualquer|apenas um|
-|08|02|Cuori_0302|F|8|6|deleite|afeto|carinho|toque|cafuné|novo amor|afago|atalho|
+|08|01|Cuori_0801|F|3|3|algum|qualquer|apenas um|
+|08|02|Cuori_0302|F|8|2|deleite|afeto|carinho|toque|cafuné|novo amor|afago|atalho|
 |08|03|Cuori_0303|F|1|1|que|
-|08|04|Cuori_0304|T|15|6|escancare|chacoalhe|atravesse|ilumine|dispare|envolva|desperte|acalente|vasculhe|revolva|abrace|acelere|faça bater|enterneça|toque|
+|08|04|Cuori_0304|T|15|12|escancare|chacoalhe|atravesse|ilumine|dispare|envolva|desperte|acalente|vasculhe|revolva|abrace|acelere|faça bater|enterneça|toque|
 |09|01|Cuori_0401|F|1|1|os corações|
-|09|02|Cuori_0402|T|22|22|destelhados|descuidados|desencontrados|entediados|encruzilhados|parados|emboscados|calcificados|desalinhados|cansados|desamados|alados|desavisados|calados|exilados|enlevados|enganados|descasados|desconcertados|espezinhados|ilhados|desfalcados|
+|09|02|Cuori_0402|T|22|9|destelhados|descuidados|desencontrados|entediados|encruzilhados|parados|emboscados|calcificados|desalinhados|cansados|desamados|alados|desavisados|calados|exilados|enlevados|enganados|descasados|desconcertados|espezinhados|ilhados|desfalcados|
 |09|03|Cuori_0403|F|1|1|,|
-|09|04|Cuori_0404|T|20|4|sofrentes|saltimbancos|pingentes|em taquicardia|vacantes|anônimos|ávidos por vida|itinerantes|andarilhos|sem poder gostar|ambulantes|batendo amenos|aflitos|rebeldes|transeuntes|sem achar saída|catando saídas|solitários|sem nem ter dono|em labirinto|
+|09|04|Cuori_0404|F|20|13|sofrentes|saltimbancos|pingentes|em taquicardia|vacantes|anônimos|ávidos por vida|itinerantes|andarilhos|sem poder gostar|ambulantes|batendo amenos|aflitos|catando saídas|rebeldes|transeuntes|sem achar saída|solitários|sem nem ter dono|em labirinto|
 |09|05|Cuori_0405|F|1|1|,|
-|09|06|Cuori_0406|T|8|2|ainda não queridos|atingidos|entretidos|mal batidos|nunca sofridos|perdidos|tolhidos|vencidos|
+|09|06|Cuori_0406|T|8|1|ainda não queridos|atingidos|entretidos|mal batidos|nunca sofridos|perdidos|tolhidos|vencidos|
 |09|07|Cuori_0407|F|1|1|.|
 |10|00|
 |11|01|Cuori_1101|F|1|1|Meu coração|
-|11|02|Cuori_1102|F|6|5|saberá o que dizer!|encontrará saídas!|mal sabia onde pisava.|sabe onde está.|sente-se feliz por nadas.|já perdeu medos de ser feliz.|
+|11|02|Cuori_1102|F|6|6|saberá o que dizer!|encontrará saídas!|mal sabia onde pisava.|sabe onde está.|sente-se feliz por nadas.|já perdeu medos de ser feliz.|
 <EOF>

@@ -36,29 +36,29 @@
 *- tautologia=uso de palavras diferentes para expressar uma mesma ideia; redundância, pleonasmo
 *- topologia=tratado ou estudo sobre a colocação ou disposição, na frase, de certas categorias de palavras
 *-
-|01|01|Feiras_0101|F|6|2|Um dia,|Desprecavido,|Certa vez,|Em sonho,|Distraído,|Em passado recente,|
-|01|02|Feiras_0102|F|10|8|sem afazeres,|de alma leve,|perambulando,|inspirado,|querendo mais da vida,|tendo amigos,|sem amparos,|sonha-se...|sem mais amarras|na hora fugidia,|
-|02|01|Feiras_0201|F|4|4|levei poesias para passear|achei que caberia poesia|vi poesias zanzando|fiz chover poesia|
-|03|01|Feiras_0301|F|9|3|numa feira de|num simpósio sobre|numa agência de|num encontro sobre|numa mesa-redonda sobre|num festival de|numa empresa de|num laboratório de|numa conferência sobre|
-|03|02|Feiras_0302|F|17|4|metrologia|economia|mecanologia|pseudologia|tecnologia|metalurgia|engenharias|tautologia|meteorologia|astrologia|advocacia|astronomia|pseudologia|topologia|leptologia|misologia|taumaturgia|
+|01|01|Feiras_0101|F|6|6|Um dia,|Desprecavido,|Certa vez,|Em sonho,|Distraído,|Em passado recente,|
+|01|02|Feiras_0102|F|10|4|sem afazeres,|de alma leve,|perambulando,|inspirado,|querendo mais da vida,|tendo amigos,|sem amparos,|sonha-se...|sem mais amarras|na hora fugidia,|
+|02|01|Feiras_0201|F|4|2|levei poesias para passear|achei que caberia poesia|vi poesias zanzando|fiz chover poesia|
+|03|01|Feiras_0301|F|9|7|numa feira de|num simpósio sobre|numa agência de|num encontro sobre|numa mesa-redonda sobre|num festival de|numa empresa de|num laboratório de|numa conferência sobre|
+|03|02|Feiras_0302|F|17|7|metrologia|economia|mecanologia|pseudologia|tecnologia|metalurgia|engenharias|tautologia|meteorologia|astrologia|advocacia|astronomia|pseudologia|topologia|leptologia|misologia|taumaturgia|
 |04|00|
-|05|01|Feiras_0501|F|6|5|e lá me foi dito|e li no programa|e lá me disseram|e deixaram claro|e fui informado|e li no estatuto|
+|05|01|Feiras_0501|F|6|3|e lá me foi dito|e li no programa|e lá me disseram|e deixaram claro|e fui informado|e li no estatuto|
 |05|02|Feiras_0502|F|1|1|que ali não|
-|05|03|Feiras_0503|F|9|6|cabia|se podia|se as queria|mais valia|se daria|servia|se-as-lia|vingaria|funciona|
-|06|01|Feiras_0601|F|4|2|porque poesia|pois que poesia|já que poesia|visto que poesia|
+|05|03|Feiras_0503|F|9|1|cabia|se podia|se as queria|mais valia|se daria|servia|se-as-lia|vingaria|funciona|
+|06|01|Feiras_0601|F|4|4|porque poesia|pois que poesia|já que poesia|visto que poesia|
 |06|02|Feiras_0602|F|1|1|não se|
-|06|03|Feiras_0603|F|30|14|compra|arrenda|permuta|apura|mede|vende|troca|aluga|empresta|loca|depura|contrata|penhora|barganha|merca|apreça|cota|hipoteca|franqueia|administra|mensura|compara|calcula|parcela|corrompe|deduz|iguala|partilha|fraciona|regra|
+|06|03|Feiras_0603|F|30|30|compra|arrenda|permuta|apura|mede|vende|troca|aluga|empresta|loca|depura|contrata|penhora|barganha|merca|apreça|cota|hipoteca|franqueia|administra|mensura|compara|calcula|parcela|corrompe|deduz|iguala|partilha|fraciona|regra|
 |06|04|Feiras_0604|F|1|1|,|
 |07|01|Feiras_0701|F|1|1|não se|
-|07|02|Feiras_0703|T|30|5|compra|arrenda|permuta|apura|mede|vende|troca|aluga|empresta|loca|depura|contrata|penhora|barganha|merca|apreça|cota|hipoteca|franqueia|administra|mensura|compara|calcula|parcela|corrompe|deduz|iguala|partilha|fraciona|regra|
+|07|02|Feiras_0703|T|30|14|compra|arrenda|permuta|apura|mede|vende|troca|aluga|empresta|loca|depura|contrata|penhora|barganha|merca|apreça|cota|hipoteca|franqueia|administra|mensura|compara|calcula|parcela|corrompe|deduz|iguala|partilha|fraciona|regra|
 |07|03|Feiras_0703|F|1|1|e nem se|
-|07|04|Feiras_0704|F|19|17|financia|negocia|anuncia|avalia|agencia|alicia|astucia|comercia|enuncia|gerencia|licencia|minucia|noticia|policia|silencia|tangencia|beneficia|vigia|deprecia|
+|07|04|Feiras_0704|F|19|3|financia|negocia|anuncia|avalia|agencia|alicia|astucia|comercia|enuncia|gerencia|licencia|minucia|noticia|policia|silencia|tangencia|beneficia|vigia|deprecia|
 |07|05|Feiras_0705|F|1|1|...|
 |08|00|
-|09|01|Feiras_0901|F|28|2|Não por vingança|Perdendo a covardia|Sem qualquer pensar|Em sã ousadia|Por descaso do acaso|Canhestra maestria:|"Cabisalto",|Fingindo que saía,|Por garantia|Inconformado,|Sem nem monotonia|Sem nenhum pensar|Só por teimosia|Com certa alegria|Sem cerimônia|Não por rebeldia|Só por analogia|Quase por mania|Sabendo que urgia,|Na fatal esperança|Sei que contagia:|Sem saber magia|Era mera autofagia...|Por saber que isso vicia,|Pelos ossos do ofício:|Quem diria...|Por pura euforia|Num lapso de nostalgia|
-|10|02|Feiras_1002|F|25|18|aninhei|deixei|larguei|pequei|pinchei|cravei|atraquei|deitei|rabisquei|pichei|joguei|finquei|entornei|salpiquei|plantei|autentiquei|crucifiquei|despenquei|emborquei|embosquei|preguei|risquei|tranquei|sacrifiquei|evoquei|
-|10|03|Feiras_1003|F|12|8|um apanhado delas|apenas as mais belas|umas mais outras|, a sós, palavras|uma dúzia e meia delas|as rimas mais brancas|minhas preferidas|umas poucas palavras|, as com beleza,|as de bons versos|as que mais gostava|aquelas que calam|
-|11|01|Feiras_1101|F|31|31|onde ninguém as previa|... sem voz. Quem as calaria?|na mesa da diretoria|onde ouvido ainda havia|... que lhes dêem serventia|nas caras. Quem se calaria?..|aos pés da tal utopia|na entrada, à revelia|... quem de voz as balbucia?|no chão. Quem as varreria?..|numa caixa na portaria|onde, sei, alguém veria|na janela que me ouvia|onde um deles a leria|no afinal daquele dia|para quem ainda viria|aonde a hora me pedia|num alto... sem autoria|... um ou outro saberia|em pontos que já sabia|lá... onde bem se via|no vento. Onde a calmaria?..|sem saber quem ouviria..|onde alguém as leria|à espera de alforria|sem pedir regalia|revolvendo a calmaria|numa calada do dia|vai que havia sintonia..|alguém as repetiria..|... quiçá passe um que nelas confia|
+|09|01|Feiras_0901|F|28|16|Não por vingança|Perdendo a covardia|Sem qualquer pensar|Em sã ousadia|Por descaso do acaso|Canhestra maestria:|"Cabisalto",|Fingindo que saía,|Por garantia|Inconformado,|Sem nem monotonia|Sem nenhum pensar|Só por teimosia|Com certa alegria|Sem cerimônia|Não por rebeldia|Só por analogia|Quase por mania|Sabendo que urgia,|Na fatal esperança|Sei que contagia:|Sem saber magia|Era mera autofagia...|Por saber que isso vicia,|Pelos ossos do ofício:|Quem diria...|Por pura euforia|Num lapso de nostalgia|
+|10|02|Feiras_1002|F|25|4|aninhei|deixei|larguei|pequei|pinchei|cravei|atraquei|deitei|rabisquei|pichei|joguei|finquei|entornei|salpiquei|plantei|autentiquei|crucifiquei|despenquei|emborquei|embosquei|preguei|risquei|tranquei|sacrifiquei|evoquei|
+|10|03|Feiras_1003|F|12|6|um apanhado delas|apenas as mais belas|umas mais outras|, a sós, palavras|uma dúzia e meia delas|as rimas mais brancas|minhas preferidas|umas poucas palavras|, as com beleza,|as de bons versos|as que mais gostava|aquelas que calam|
+|11|01|Feiras_1101|F|31|17|onde ninguém as previa|... sem voz. Quem as calaria?|na mesa da diretoria|onde ouvido ainda havia|... que lhes dêem serventia|nas caras. Quem se calaria?..|aos pés da tal utopia|na entrada, à revelia|... quem de voz as balbucia?|no chão. Quem as varreria?..|numa caixa na portaria|onde, sei, alguém veria|na janela que me ouvia|onde um deles a leria|no afinal daquele dia|para quem ainda viria|aonde a hora me pedia|num alto... sem autoria|... um ou outro saberia|em pontos que já sabia|lá... onde bem se via|no vento. Onde a calmaria?..|sem saber quem ouviria..|onde alguém as leria|à espera de alforria|sem pedir regalia|revolvendo a calmaria|numa calada do dia|vai que havia sintonia..|alguém as repetiria..|... quiçá passe um que nelas confia|
 |11|02|Feiras_1102|F|1|1|.|
 <EOF>
 CATAPALA = 45

@@ -2,21 +2,21 @@
 *- Finalmentes.ypo
 *-
 |01|01|Finalmentes_0101|F|12|10|Aceitar|Vencer|Respeitar|Discutir|Superar|Definir|Encarar|Rever|Enfrentar|Suportar|Avançar|Tangenciar|
-|01|02|Finalmentes_0102|F|15|3|limites|desafios|batalhas|obstáculos|revezes|adversidades|devaneios|descaminhos|leis|regras|ordens|fatos|receios|desígnios|padrões|
-|01|03|Finalmentes_0103|F|16|15|aparentes|iminentes|permanentes|diferentes|pertinentes|dementes|transientes|inocentes|latentes|nascentes|oprimentes|pendentes|persistentes|transcendentes|vigentes|recorrentes|
-|02|01|Finalmentes_0201|F|5|5|não significa|não se traduz em|não quer dizer|não implica em|não é o mesmo que|
-|02|02|Finalmentes_0202|F|5|5|tentar|pretender|fingir|ousar|preferir|
-|03|01|Finalmentes_0301|F|5|5|interferir|intervir|interceder|influir|inferir|
+|01|02|Finalmentes_0102|F|15|6|limites|desafios|batalhas|obstáculos|revezes|adversidades|devaneios|descaminhos|leis|regras|ordens|fatos|receios|desígnios|padrões|
+|01|03|Finalmentes_0103|F|16|3|aparentes|iminentes|permanentes|diferentes|pertinentes|dementes|transientes|inocentes|latentes|nascentes|oprimentes|pendentes|persistentes|transcendentes|vigentes|recorrentes|
+|02|01|Finalmentes_0201|F|5|3|não significa|não se traduz em|não quer dizer|não implica em|não é o mesmo que|
+|02|02|Finalmentes_0202|F|5|3|tentar|pretender|fingir|ousar|preferir|
+|03|01|Finalmentes_0301|F|5|3|interferir|intervir|interceder|influir|inferir|
 |03|02|Finalmentes_0302|F|1|1|de modo|
-|03|03|Finalmentes_0303|F|26|12|negativo|aleatório|impulsivo|livre|impune|infantil|superficial|conivente|temente|imune|onipotente|estúpido|fortuito|impaciente|imponente|imprudente|incoerente|inconveniente|insolente|irreverente|leviano|intransigente|intermitente|complacente|condizente|tardio|
+|03|03|Finalmentes_0303|F|26|26|negativo|aleatório|impulsivo|livre|impune|infantil|superficial|conivente|temente|imune|onipotente|estúpido|fortuito|impaciente|imponente|imprudente|incoerente|inconveniente|insolente|irreverente|leviano|intransigente|intermitente|complacente|condizente|tardio|
 |04|01|Finalmentes_0401|F|3|2|em|ante|face a|
-|04|02|Finalmentes_0102|F|15|1|limites|desafios|batalhas|obstáculos|revezes|adversidades|devaneios|descaminhos|leis|regras|ordens|fatos|receios|desígnios|padrões|
-|04|03|Finalmentes_0103|F|15|7|aparentes|iminentes|permanentes|diferentes|pertinentes|dementes|transientes|inocentes|latentes|nascentes|oprimentes|pendentes|persistentes|transcendentes|vigentes|
+|04|02|Finalmentes_0102|F|15|4|limites|desafios|batalhas|obstáculos|revezes|adversidades|devaneios|descaminhos|leis|regras|ordens|fatos|receios|desígnios|padrões|
+|04|03|Finalmentes_0103|F|15|10|aparentes|iminentes|permanentes|diferentes|pertinentes|dementes|transientes|inocentes|latentes|nascentes|oprimentes|pendentes|persistentes|transcendentes|vigentes|
 |05|01|Finalmentes_0501|F|4|4|e sim poder|e sim querer|e sim almejar|mas, tão somente,|
-|05|02|Finalmentes_0502|F|9|9|agir|refletir|atuar|inclinar-se|decidir|intuir|ponderar|aprender|trilhar|
-|05|03|Finalmentes_0503|F|17|15|realisticamente|sobriamente|com vontade|tranquilamente|calmamente|com urgência|com afinco|criativamente|inventivamente|com vigor|serenamente|coerentemente|indolentemente|literalmente|reverentemente|com transparência|veementemente|
+|05|02|Finalmentes_0502|F|9|6|agir|refletir|atuar|inclinar-se|decidir|intuir|ponderar|aprender|trilhar|
+|05|03|Finalmentes_0503|F|17|3|realisticamente|sobriamente|com vontade|tranquilamente|calmamente|com urgência|com afinco|criativamente|inventivamente|com vigor|serenamente|coerentemente|indolentemente|literalmente|reverentemente|com transparência|veementemente|
 |06|01|Finalmentes_0601|F|1|1|sobre|
-|06|02|Finalmentes_0602|T|46|35|seus próprios medos|anseios descabidos|caminhos possíveis|prováveis desvios|as razões do sucesso|seu elemento natural|o próximo movimento|o que realmente importa|sua verdade mais íntima|etapas vindouras|novas energias|o grande ciclo evolutivo|as decisões a tomar|os motivos da luta|os porquês da liberdade|as causas do novo|a busca de soluções|assuntos do coração|outras alternativas|o sentido do "velho"|a imensidão do cosmo|velhos preconceitos|a brevidade da matéria|mudanças necessárias|antigas promessas repetidas|sonhos irrealizáveis|a sua missão na terra|eventuais casuísmos|a vida que se renova|a fragilidade do existir|o quanto sabemos viver nossas vidas|o momento da mudança|o valor da inovação|os inadiáveis futuros passos|o real valor dos erros|o futuro inexistente|os repentes da vida|o mistério do outro ser|virtudes vertentes|o que mais é importante|o preço de ser diferente|o porquê dos labirintos|a razão de ser divergente|o que move as gentes|o que é ser normal|a hora de seguir em frente|
+|06|02|Finalmentes_0602|T|46|27|seus próprios medos|anseios descabidos|caminhos possíveis|prováveis desvios|as razões do sucesso|seu elemento natural|o próximo movimento|o que realmente importa|sua verdade mais íntima|etapas vindouras|novas energias|o grande ciclo evolutivo|as decisões a tomar|os motivos da luta|os porquês da liberdade|as causas do novo|a busca de soluções|assuntos do coração|outras alternativas|o sentido do "velho"|a imensidão do cosmo|velhos preconceitos|a brevidade da matéria|mudanças necessárias|antigas promessas repetidas|sonhos irrealizáveis|a sua missão na terra|eventuais casuísmos|a vida que se renova|a fragilidade do existir|o quanto sabemos viver nossas vidas|o momento da mudança|o valor da inovação|os inadiáveis futuros passos|o real valor dos erros|o futuro inexistente|os repentes da vida|o mistério do outro ser|virtudes vertentes|o que mais é importante|o preço de ser diferente|o porquê dos labirintos|a razão de ser divergente|o que move as gentes|o que é ser normal|a hora de seguir em frente|
 |06|03|Finalmentes_0603|F|1|1|.|
 <EOF>
 CATAPALA = 27

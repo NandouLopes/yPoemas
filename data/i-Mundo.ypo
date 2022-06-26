@@ -5,31 +5,31 @@
 *- |07|01| e |07|03|, |08|01| e |08|04| - manter paridade
 *- |04|01| e |04|02| - observar concordância de gênero
 *-
-|01|01|i-Mundo_0101|F|4|4|Nesses tempos de|Pensando em|Duvide-se de|Como crer em|
-|01|02|i-Mundo_0102|F|9|5|abusos de autoridade|falas cruzadas|caras-à-tapa|novas artimanhas|teses infundadas|inteligências vestigiais|veras mentiras|vozes impostadas|veras inverdades|
+|01|01|i-Mundo_0101|F|4|2|Nesses tempos de|Pensando em|Duvide-se de|Como crer em|
+|01|02|i-Mundo_0102|F|9|9|abusos de autoridade|falas cruzadas|caras-à-tapa|novas artimanhas|teses infundadas|inteligências vestigiais|veras mentiras|vozes impostadas|veras inverdades|
 |01|03|i-Mundo_0103|F|1|1|,|
-|02|01|i-Mundo_0201|F|16|11|olho-por-olho|tiros no escuro|falsos profetas|dedos no gatilho|truísmos a granel|amor por dinheiro|egos inflados|especialistas genéricos|heróis de araque|dicotomias perversas|mentiras na nuvem|ardis ideológicos|labutas impróprias|donos da ciência|denúncias a granel|almas sintéticas|
+|02|01|i-Mundo_0201|F|16|13|olho-por-olho|tiros no escuro|falsos profetas|dedos no gatilho|truísmos a granel|amor por dinheiro|egos inflados|especialistas genéricos|heróis de araque|dicotomias perversas|mentiras na nuvem|ardis ideológicos|labutas impróprias|donos da ciência|denúncias a granel|almas sintéticas|
 |02|02|i-Mundo_0202|F|1|1|e|
-|02|03|i-Mundo_0203|F|12|7|suntuosas regalias|falsas notícias|vagas profecias|novas velharias|pontos sem nó|balas perdidas|velhas ladainhas|dias-de-cão|tolas hierarquias|sábios de tudo|tantos ódios mútuos|medos absurdos|
+|02|03|i-Mundo_0203|F|12|5|suntuosas regalias|falsas notícias|vagas profecias|novas velharias|pontos sem nó|balas perdidas|velhas ladainhas|dias-de-cão|tolas hierarquias|sábios de tudo|tantos ódios mútuos|medos absurdos|
 |02|04|i-Mundo_0204|F|1|1|...|
 |03|00|
-|04|01|i-Mundo_0401|F|19|8|pessoas|teorias|verdades|ideias|mentes|apologias|ilações|certezas|falácias|opiniões|palavras|oratórias|conclusões|postagens|visões|ideologias|medidas|vaidades|mesuras|
-|04|02|i-Mundo_0402|F|23|2|amargas|nefastas|insensatas|medianas|impermeáveis|imutáveis|tacanhas|insanas|descartáveis|lunáticas|mundanas|camufladas|soberanas|equivocadas|abstratas|embotadas|baratas|monótonas|flutuantes|artificiais|sistemáticas|insólitas|sórdidas|
+|04|01|i-Mundo_0401|F|19|13|pessoas|teorias|verdades|ideias|mentes|apologias|ilações|certezas|falácias|opiniões|palavras|oratórias|conclusões|postagens|visões|ideologias|medidas|vaidades|mesuras|
+|04|02|i-Mundo_0402|F|23|11|amargas|nefastas|insensatas|medianas|impermeáveis|imutáveis|tacanhas|insanas|descartáveis|lunáticas|mundanas|camufladas|soberanas|equivocadas|abstratas|embotadas|baratas|monótonas|flutuantes|artificiais|sistemáticas|insólitas|sórdidas|
 |04|03|i-Mundo_0403|F|1|1|,|
-|05|01|i-Mundo_0401|T|19|13|pessoas|teorias|verdades|ideias|mentes|apologias|ilações|certezas|falácias|opiniões|palavras|oratórias|conclusões|postagens|visões|ideologias|medidas|vaidades|mesuras|
-|05|02|i-Mundo_0502|F|21|19|retrógradas|onipotentes|patéticas|exóticas|ilusórias|inconsequentes|tendenciosas|divergentes|cruéis|transgênicas|confusas|contraditórias|dúbias|intransigentes|sem escrúpulos|metódicas|obscuras|inócuas|obtusas|sisudas|medíocres|
+|05|01|i-Mundo_0401|T|19|8|pessoas|teorias|verdades|ideias|mentes|apologias|ilações|certezas|falácias|opiniões|palavras|oratórias|conclusões|postagens|visões|ideologias|medidas|vaidades|mesuras|
+|05|02|i-Mundo_0502|F|21|5|retrógradas|onipotentes|patéticas|exóticas|ilusórias|inconsequentes|tendenciosas|divergentes|cruéis|transgênicas|confusas|contraditórias|dúbias|intransigentes|sem escrúpulos|metódicas|obscuras|inócuas|obtusas|sisudas|medíocres|
 |05|03|i-Mundo_0202|F|1|1|e|
-|05|04|i-Mundo_0401|T|19|3|pessoas|teorias|verdades|ideias|mentes|apologias|ilações|certezas|falácias|opiniões|palavras|oratórias|conclusões|postagens|visões|ideologias|medidas|vaidades|mesuras|
-|05|05|i-Mundo_0505|F|20|16|insípidas|indevidas|pífias|intangíveis|ambíguas|daninhas|apocalípticas|distorcidas|retorcidas|espúrias|indistintas|esdrúxulas|fictícias|mesquinhas|estapafúrdias|absolutas|vazias|divididas|ambíguas|evasivas|
-|05|06|i-Mundo_0506|F|4|4|...|?|!|?|
+|05|04|i-Mundo_0401|T|19|5|pessoas|teorias|verdades|ideias|mentes|apologias|ilações|certezas|falácias|opiniões|palavras|oratórias|conclusões|postagens|visões|ideologias|medidas|vaidades|mesuras|
+|05|05|i-Mundo_0505|F|20|2|insípidas|indevidas|pífias|intangíveis|ambíguas|daninhas|apocalípticas|distorcidas|retorcidas|espúrias|indistintas|esdrúxulas|fictícias|mesquinhas|estapafúrdias|absolutas|vazias|divididas|ambíguas|evasivas|
+|05|06|i-Mundo_0506|F|4|2|...|?|!|?|
 |06|00|
-|07|01|i-Mundo_0701|F|4|4|Quando|Onde|Quero|Que tal|
-|07|02|i-Mundo_0702|F|15|2|desculpas sinceras|um clima de festa|mãos dadas às outras|um abraço apertado|um olho no olho|uma alegoria possível|um ideal factível|sorrisos na cara|um afago inesperado|um sonho plausível|um carinho querido|a primavera na alma|um oásis de amigos|um sossego na alma|um cafuné no ego|
-|07|03|i-Mundo_0703|F|4|4|?|?|...|...|
-|08|01|i-Mundo_0801|F|3|3|Onde|Quando|Que tal|
-|08|02|i-Mundo_0802|F|11|1|um mínimo|uma nesga|um vislumbre|uma taça|um princípio|uma fonte|um rastro|uma poção|um canteiro|um berço|um bom dia|
-|08|03|i-Mundo_0803|F|20|4|de simpatia|de um novo mundo|de utopia|de empatia|de rebeldia|de alegria|de poesia|de algo impossível|de fantasia|de alforria|de cortesia|de saídas possíveis|de outros caminhos|de insubmissão|de paz no coração|de taquicardia|de saber instintos|de um sonho crível|de sonho possível|de coisa querida|
-|08|04|i-Mundo_0804|F|4|4|?|?|!|!|
+|07|01|i-Mundo_0701|F|4|2|Quando|Onde|Quero|Que tal|
+|07|02|i-Mundo_0702|F|15|3|desculpas sinceras|um clima de festa|mãos dadas às outras|um abraço apertado|um olho no olho|uma alegoria possível|um ideal factível|sorrisos na cara|um afago inesperado|um sonho plausível|um carinho querido|a primavera na alma|um oásis de amigos|um sossego na alma|um cafuné no ego|
+|07|03|i-Mundo_0703|F|4|2|?|?|...|...|
+|08|01|i-Mundo_0801|F|3|2|Onde|Quando|Que tal|
+|08|02|i-Mundo_0802|F|11|9|um mínimo|uma nesga|um vislumbre|uma taça|um princípio|uma fonte|um rastro|uma poção|um canteiro|um berço|um bom dia|
+|08|03|i-Mundo_0803|F|20|10|de simpatia|de um novo mundo|de utopia|de empatia|de rebeldia|de alegria|de poesia|de algo impossível|de fantasia|de alforria|de cortesia|de saídas possíveis|de outros caminhos|de insubmissão|de paz no coração|de taquicardia|de saber instintos|de um sonho crível|de sonho possível|de coisa querida|
+|08|04|i-Mundo_0804|F|4|2|?|?|!|!|
 <EOF>
 CATAPALA = 30
 VERBETES = 111
