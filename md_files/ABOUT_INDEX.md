@@ -47,7 +47,7 @@ Fugaz : 17.416.269.561.600.000 (quatrilhões)
 Gula : 1.063.827.923.558.400 (quatrilhões)  
 HaiKai : 493.936.934.400 (bilhões)  
 i-Mundo : 925.981.061.677.056.000 (quatrilhões)  
-Impar : 442.368 (mil)  
+Impar : 653.184 (mil)  
 Indolor : 468.886.830.572.160.000.000 (quintilhões)  
 Inhos : 314.496.000 (milhões)  
 Insano : 1.100.736.000.000 (trilhões)  
@@ -81,7 +81,7 @@ Pessoa : 4.665.600 (milhões)
 Portal : 1.754.298.589.680 (trilhões)  
 Posfácio : 23.356.081.768.224.522.240.000.000 (setilhões)  
 Preciso : 135.444.234.240.000 (trilhões)  
-Prefácil : 4.056.543.979.949.260.800.000.000 (setilhões)  
+Prefácil : 8.113.087.959.898.521.600.000.000 (setilhões)  
 Psiu : 3.476.235.840 (bilhões)  
 Reger : 404.352.000 (milhões)  
 Reinos : 71.620.061.720.739.840 (quatrilhões)  
@@ -164,4 +164,4 @@ ___
 ___
 Copyright © 1983-2022 Nando Lopes - **yPoemas @ máquina de fazer Poesia**  
 
-Total de variações: 112.765.820.265.471.186.578.251.954.415.478.620.601.523.242.091.585 (quindecilhões)
+Total de variações: 112.765.820.265.471.186.578.251.958.472.022.600.550.784.042.302.401 (quindecilhões)
