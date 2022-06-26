@@ -109,10 +109,10 @@ Victor : poesia
 Zelo : poesia
 Zodiacaos : zodíaco
 Zoia : poesia
-Aries=f : zodíaco
-Aries=m : zodíaco
 Aquarius=f : zodíaco
 Aquarius=m : zodíaco
+Aries=f : zodíaco
+Aries=m : zodíaco
 Cancer=f : zodíaco
 Cancer=m : zodíaco
 Caprico=f : zodíaco
