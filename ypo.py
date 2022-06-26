@@ -13,10 +13,10 @@ Passei boa parte da minha vida escrevendo a "machina".
 A leitura fica para os amanhãs.
 Não vivo no meu tempo.
 
-|ambi-|ante-|circum-|contra-|extra-|inter-|justa-|pre-|pro-|retro-|semi-|trans-|
-|ultra-|vice-|anti-|arqui-|hemi-|hiper-|hipo-|meta-|para-|peri-|poli-|super-|sub-|
+º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°ºº¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°ºº¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°ºº¤ø
 
-C:\WINDOWS\new.ini == AlfaBetaAção
+AlfaBetaAção == C:\WINDOWS\new.ini
+config.toml  == C:\Users\dkvece\.streamlit
 
 share : https://share.streamlit.io/
 deploy: https://share.streamlit.io/nandoulopes/ypoemas/main/ypo.py
@@ -149,6 +149,7 @@ st.markdown(
         font-weight: 600;
         font-size: 18px;
         font-family: 'IBM Plex Sans';
+        /* font-family: 'IBM Plex Sans'; "sans serif", "serif", or "monospace" */
         color: #000000;
         padding-left: 15px;
     }
@@ -300,10 +301,10 @@ def load_help(idiom):
 
 def draw_check_buttons():
     draw_text, talk_text, vyde_text = st.sidebar.columns([3.8, 3.2, 3])
-    help_me = load_help(st.session_state.lang)
-    help_draw = help_me[5]
-    help_talk = help_me[6]
-    help_vyde = help_me[7]
+    help_tips = load_help(st.session_state.lang)
+    help_draw = help_tips[5]
+    help_talk = help_tips[6]
+    help_vyde = help_tips[7]
     st.session_state.draw = draw_text.checkbox(help_draw, st.session_state.draw, key="draw_machina")
     st.session_state.talk = talk_text.checkbox(help_talk, st.session_state.talk, key="talk_machina")
     st.session_state.vide = vyde_text.checkbox(help_vyde, st.session_state.vide, key="vyde_machina")
@@ -335,6 +336,7 @@ def update_visy():  # count one more visitor
 
     with open(os.path.join("./temp/visitors.txt"), "w", encoding="utf-8") as visitors:
         visitors.write(str(tots))
+        
     visitors.close()
 
 
@@ -416,7 +418,7 @@ def load_md_file(file):  # Open files for about's
         with open(os.path.join("./md_files/" + file), encoding="utf-8") as file_to_open:
             file_text = file_to_open.read()
 
-        if not ".ROL" in file.upper():
+        if not "rol_" in file.lower():  # do not translate theme
             file_text = translate(file_text)
     except:
         file_text = translate('ooops... arquivo ( ' + file + ' ) não pode ser aberto.')
@@ -425,7 +427,7 @@ def load_md_file(file):  # Open files for about's
 
 
 @st.cache(allow_output_mutation=True)
-def load_eureka(part_of_word):  # Lexicon
+def load_eureka(part_of_word):
     lexico_list = []
     with open(os.path.join("./base/lexico_pt.txt"), encoding="utf-8") as lista:
         for line in lista:
@@ -439,9 +441,9 @@ def load_eureka(part_of_word):  # Lexicon
 
 
 @st.cache(suppress_st_warning=True, allow_output_mutation=True)
-def load_temas(book):  # List of yPoemas themes inside a Book
+def load_temas(book):  # List of themes inside a Book
     book_list = []
-    with open(os.path.join("./base/" + book + ".ROL"), "r", encoding="utf-8") as file:
+    with open(os.path.join("./base/rol_" + book + ".txt"), "r", encoding="utf-8") as file:
         for line in file:
             book_list.append(line.strip("\n"))
     return book_list
@@ -450,7 +452,7 @@ def load_temas(book):  # List of yPoemas themes inside a Book
 @st.cache(allow_output_mutation=True)
 def load_info(nome_tema):
     with open(os.path.join("./base/" + "info.txt"), "r", encoding="utf-8") as file:
-        result = ""
+        result = "nonono"
         for line in file:
             if line.startswith("|"):
                 pipe = line.split("|")
@@ -530,8 +532,8 @@ def load_all_offs():
         "faz_de_conto",
         "um_romance",
         "quase_que_eu_Poesia",
+        # "segredo_público",
     ]
-#        "segredo_público",
     return all_books_off
 
 
@@ -748,7 +750,6 @@ def main():
 
     if chosen_id == '1':
         st.sidebar.info(load_md_file("INFO_MINI.md"))
-        st.sidebar.info(load_md_file("INFO_BEST.md"))
         page_mini()
     elif chosen_id == '2':
         st.sidebar.info(load_md_file("INFO_YPOEMAS.md"))
@@ -770,6 +771,10 @@ def main():
         page_abouts()
 
     show_icons()
+
+    if chosen_id == '1':
+        st.sidebar.write('')
+        st.sidebar.info(load_md_file("INFO_BEST.md"))
     st.sidebar.state = True
 
 
@@ -782,9 +787,9 @@ def page_mini():
 
     foo1, more, rand, foo2 = st.columns([4, 1, 1, 4])
 
-    help_me = load_help(st.session_state.lang)
-    help_rand = help_me[1]
-    help_more = help_me[4]
+    help_tips = load_help(st.session_state.lang)
+    help_rand = help_tips[1]
+    help_more = help_tips[4]
     rand = rand.button("✻", help=help_rand)
     
     if rand:
@@ -844,11 +849,11 @@ def page_ypoemas():
         [3, 1, 1, 1, 1, 1, 3]
     )
     
-    help_me = load_help(st.session_state.lang)
-    help_last = help_me[0]
-    help_rand = help_me[1]
-    help_nest = help_me[2]
-    help_more = help_me[4]
+    help_tips = load_help(st.session_state.lang)
+    help_last = help_tips[0]
+    help_rand = help_tips[1]
+    help_nest = help_tips[2]
+    help_more = help_tips[4]
 
     more = more.button("✚", help=help_more)
     last = last.button("◀", help=help_last)
@@ -949,17 +954,17 @@ def page_ypoemas():
 
 
 def page_eureka():
-    help_me = load_help(st.session_state.lang)
-    help_rand = help_me[1]
-    help_more = help_me[4]
+    help_tips = load_help(st.session_state.lang)
+    help_rand = help_tips[1]
+    help_more = help_tips[4]
 
     seed, more, rand, manu, occurrences = st.columns([2.5, 1.5, 1.5, 0.7, 4])
 
     with seed:
         find_what = st.text_input(
             label=translate("digite algo para buscar..."),
-            value=st.session_state.find_word,
         )
+    st.session_state.find_word = find_what
 
     with more:
         more = more.button("✚", help=help_more)
@@ -974,26 +979,35 @@ def page_eureka():
         st.warning("digite pelo menos 3 letras...")
     else:
         seed_list = []
+        soma_tema = []
         eureka_list = load_eureka(find_what)
         for line in eureka_list:
             palas_fonte = line.strip("\n")
             part_string = palas_fonte.partition(' : ')
             palas = part_string[0]
             fonte = part_string[2]
+            seed_tema = fonte[0:-5]
             if (palas is None) or (fonte is None):
                 continue
             else:
                 seed_list.append(palas + " ➪ " + fonte)
+                if not seed_tema in soma_tema:
+                    soma_tema.append(seed_tema)
 
-        if len(seed_list) > 0:
+        if len(seed_list) == 0:
+            st.session_state.eureka = 0
+            st.warning(translate('nenhuma ocorrência das letras " ' + find_what + ' " foi encontrada...' ))
+        elif len(seed_list) >= 1:
             seed_list.sort()
-            st.session_state.find_word = find_what
             if len(seed_list) == 1:
+                st.session_state.eureka = 0
                 info_find = translate("ocorrência")
             else:
                 info_find = translate("ocorrências")
 
             info_find += ' de "' + find_what + '"'
+            if len(soma_tema) > 1:
+                info_find += ' em ' + str(len(soma_tema)) + ' temas'
 
             if rand:
                 st.session_state.eureka = random.randrange(0, len(seed_list))
@@ -1086,11 +1100,11 @@ def page_off_machina():  # available off_machina_books
         
     off_book_name = off_books_list[st.session_state.off_book]
 
-    help_me = load_help(st.session_state.lang)
-    help_last = help_me[0]
-    help_rand = help_me[1]
-    help_nest = help_me[2]
-    help_love = help_me[3]
+    help_tips = load_help(st.session_state.lang)
+    help_last = help_tips[0]
+    help_rand = help_tips[1]
+    help_nest = help_tips[2]
+    help_love = help_tips[3]
 
     foo1, last, rand, nest, love, manu, foo2 = st.columns([2.5, 1, 1, 1, 1, 1, 2.5])
     last = last.button("◀", help=help_last)
