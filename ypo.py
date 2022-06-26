@@ -994,13 +994,12 @@ def page_eureka():
                 if not seed_tema in soma_tema:
                     soma_tema.append(seed_tema)
 
+        st.session_state.eureka = 0
         if len(seed_list) == 0:
-            st.session_state.eureka = 0
             st.warning(translate('nenhuma ocorrência das letras " ' + find_what + ' " foi encontrada...' ))
         elif len(seed_list) >= 1:
             seed_list.sort()
             if len(seed_list) == 1:
-                st.session_state.eureka = 0
                 info_find = translate("ocorrência")
             else:
                 info_find = translate("ocorrências")
@@ -1011,7 +1010,6 @@ def page_eureka():
 
             if rand:
                 st.session_state.eureka = random.randrange(0, len(seed_list))
-                this_seed = seed_list[st.session_state.eureka]
 
             with occurrences:
                 options = list(range(len(seed_list)))
