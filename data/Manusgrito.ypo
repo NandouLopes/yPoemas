@@ -3,37 +3,37 @@
 *- ( eu grito )
 *-
 |01|01|Manusgrito_0101|F|1|1|( |
-|01|02|Manusgrito_0102|F|10|3|método|ritual|mapa|truque|caminho|guia|manual|roteiro|conselho|oráculo|
-|01|03|Manusgrito_0103|F|12|8|infalível|sintético|fictício|secreto|quase mágico|caótico|eclético|inútil|simplificado|resumido|empírico|exótico|
+|01|02|Manusgrito_0102|F|10|2|método|ritual|mapa|truque|caminho|guia|manual|roteiro|conselho|oráculo|
+|01|03|Manusgrito_0103|F|12|9|infalível|sintético|fictício|secreto|quase mágico|caótico|eclético|inútil|simplificado|resumido|empírico|exótico|
 |01|04|Manusgrito_0104|F|1|1|para quem escreve )|
 |02|00|
-|03|01|Manusgrito_0301|F|8|7|Gesto|Nutro|Gasto|Passo|Mimo|Reviro|Gero|Encaro|
-|03|02|Manusgrito_0302|F|6|3|anos|segundos|dias|horas|noites|meses|
-|04|01|Manusgrito_0401|F|7|2|moldando|auscultando|lustrando|procurando|polindo|costurando|rebuscando|
-|04|02|Manusgrito_0402|F|4|2|algumas|"aquelas"|as mesmas|certas|
+|03|01|Manusgrito_0301|F|8|4|Gesto|Nutro|Gasto|Passo|Mimo|Reviro|Gero|Encaro|
+|03|02|Manusgrito_0302|F|6|4|anos|segundos|dias|horas|noites|meses|
+|04|01|Manusgrito_0401|F|7|5|moldando|auscultando|lustrando|procurando|polindo|costurando|rebuscando|
+|04|02|Manusgrito_0402|F|4|3|algumas|"aquelas"|as mesmas|certas|
 |04|03|Manusgrito_0403|F|1|1|palavras|
 |05|01|Manusgrito_0501|F|1|1|... |
-|05|02|Manusgrito_0502|F|4|2|e nem as uso.|e não as desnudo.|e uso outras.|e dou-lhes nova lida.|
+|05|02|Manusgrito_0502|F|4|3|e nem as uso.|e não as desnudo.|e uso outras.|e dou-lhes nova lida.|
 |06|00|
-|07|01|Manusgrito_0701|F|7|4|Junto-as|Costuro-as|Uno-as|Ato-as|Envolvo-as|Abraço-as|Enlaço-as|
+|07|01|Manusgrito_0701|F|7|7|Junto-as|Costuro-as|Uno-as|Ato-as|Envolvo-as|Abraço-as|Enlaço-as|
 |07|03|Manusgrito_0703|F|1|1|,|
-|07|04|Manusgrito_0704|F|10|7|sem acaso|pacientemente|meticuloso|com minúcia|mesmo as sem utopia|uma pós outra|incluindo as obscuras|mesmo que humildes|contundentes ou não|sabendo sempre onde estão|
+|07|04|Manusgrito_0704|F|10|6|sem acaso|pacientemente|meticuloso|com minúcia|mesmo as sem utopia|uma pós outra|incluindo as obscuras|mesmo que humildes|contundentes ou não|sabendo sempre onde estão|
 |07|05|Manusgrito_0703|F|1|1|,|
-|08|01|Manusgrito_0801|F|5|3|para que conversem entre si|... que conversem entre si|numa fogueira sem vaidades|em algum amanhã|em algo não sonhado|
+|08|01|Manusgrito_0801|F|5|2|para que conversem entre si|... que conversem entre si|numa fogueira sem vaidades|em algum amanhã|em algo não sonhado|
 |08|02|Manusgrito_0802|F|1|1|:|
-|09|01|Manusgrito_0901|F|2|1|são|serão|
-|09|02|Manusgrito_0902|F|8|7|floresta|tempestade|constelação|arquipélago|cardume|turbilhão|melodia|furacão|
+|09|01|Manusgrito_0901|F|2|2|são|serão|
+|09|02|Manusgrito_0902|F|8|4|floresta|tempestade|constelação|arquipélago|cardume|turbilhão|melodia|furacão|
 |09|03|Manusgrito_0903|F|1|1|.|
 |10|00|
-|11|01|Manusgrito_1101|F|3|2|Quando enfim|No futuro, quando|Quando finalmente|
-|11|02|Manusgrito_1102|F|9|6|respirarem|andarem juntas|forem melodia|eclodirem|explodirem|estiverem despidas|pulsarem unidas|concordarem|despontarem|
-|12|01|Manusgrito_1201|F|4|1|criarão|desenharão|alimentarão|espelharão|
-|12|02|Manusgrito_1202|F|3|3|seu próprio sentido|um novo tabuleiro|um novo sentido|
+|11|01|Manusgrito_1101|F|3|3|Quando enfim|No futuro, quando|Quando finalmente|
+|11|02|Manusgrito_1102|F|9|4|respirarem|andarem juntas|forem melodia|eclodirem|explodirem|estiverem despidas|pulsarem unidas|concordarem|despontarem|
+|12|01|Manusgrito_1201|F|4|2|criarão|desenharão|alimentarão|espelharão|
+|12|02|Manusgrito_1202|F|3|1|seu próprio sentido|um novo tabuleiro|um novo sentido|
 |12|03|Manusgrito_1203|F|1|1|e,|
-|13|01|Manusgrito_1301|F|8|4|imprevisíveis|maleáveis|inesperadas|surpreendentes|misteriosas|voláteis|enigmáticas|tentadoras|
+|13|01|Manusgrito_1301|F|8|1|imprevisíveis|maleáveis|inesperadas|surpreendentes|misteriosas|voláteis|enigmáticas|tentadoras|
 |13|01|Manusgrito_1301|F|1|1|que são,|
-|14|01|Manusgrito_1401|T|5|2|descobrirão|mostrarão|anunciarão|provarão|revelarão|
-|14|02|Manusgrito_1402|F|3|3|o poder que já tinham.|, cada uma, a que veio.|o que estava escondido.|
+|14|01|Manusgrito_1401|T|5|1|descobrirão|mostrarão|anunciarão|provarão|revelarão|
+|14|02|Manusgrito_1402|F|3|1|o poder que já tinham.|, cada uma, a que veio.|o que estava escondido.|
 <EOF>
 CATAPALA = 44
 VERBETES = 115

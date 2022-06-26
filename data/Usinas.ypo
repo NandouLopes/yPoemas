@@ -14,41 +14,41 @@
 *- |45|15|Usinas_4515|F|1|1|.|
 *-
 |01|01|Usinas_0101|F|2|2|Somos|Seríamos|
-|01|02|Usinas_0102|F|13|1|usinas|birutas|cabides|marionetes|arlequins|bonecos|saltimbancos|mambembes|máquinas|palhaços|ventríloquos|manufaturas|oficinas|
-|01|03|Usinas_0103|F|8|1|de suspiros usados|ao acaso dos ventos|de só melancolias|de palavras ao léu|de um teatro absurdo|de um cordel alado|neste baile sem máscaras|de um circo fantasma|
+|01|02|Usinas_0102|F|13|4|usinas|birutas|cabides|marionetes|arlequins|bonecos|saltimbancos|mambembes|máquinas|palhaços|ventríloquos|manufaturas|oficinas|
+|01|03|Usinas_0103|F|8|7|de suspiros usados|ao acaso dos ventos|de só melancolias|de palavras ao léu|de um teatro absurdo|de um cordel alado|neste baile sem máscaras|de um circo fantasma|
 |01|04|Usinas_0104|F|1|1|?|
 |02|00|
-|03|01|Usinas_0301|F|8|2|Os olhos|Os vasos|Os sonhos|Os neurônios|Os desejos|Os anseios|Os quereres|Os brios|
+|03|01|Usinas_0301|F|8|8|Os olhos|Os vasos|Os sonhos|Os neurônios|Os desejos|Os anseios|Os quereres|Os brios|
 |03|02|Usinas_0302|F|1|1|,|
-|03|03|Usinas_0303|F|9|9|emboscados|distraídos|vermelhos|ilhados|divorciados|cansados|acuados|desconcertados|alados|
+|03|03|Usinas_0303|F|9|8|emboscados|distraídos|vermelhos|ilhados|divorciados|cansados|acuados|desconcertados|alados|
 |03|04|Usinas_0304|F|1|1|,|
-|03|05|Usinas_0305|F|8|1|passados a limpo|à luz da ciência|reles réplicas|quase mudos|traídos|rubros|sanguíneos|em corda bamba|
+|03|05|Usinas_0305|F|8|7|passados a limpo|à luz da ciência|reles réplicas|quase mudos|traídos|rubros|sanguíneos|em corda bamba|
 |03|06|Usinas_0306|F|1|1|,|
-|04|01|Usinas_0401|F|7|6|vagam por|passeiam por|circulam por|perdem-se em|tateiam|vislumbram|traçam|
-|04|02|Usinas_0402|F|9|8|campos|oásis|algures|acasos|lugares|paraísos|planos|desertos|alhures|
-|04|03|Usinas_0403|F|11|3|alheios|incomuns|neutros|infindos|inóspitos|distantes|fartos|nobres|distintos|sábios|findos|
+|04|01|Usinas_0401|F|7|3|vagam por|passeiam por|circulam por|perdem-se em|tateiam|vislumbram|traçam|
+|04|02|Usinas_0402|F|9|7|campos|oásis|algures|acasos|lugares|paraísos|planos|desertos|alhures|
+|04|03|Usinas_0403|F|11|4|alheios|incomuns|neutros|infindos|inóspitos|distantes|fartos|nobres|distintos|sábios|findos|
 |04|04|Usinas_0404|F|1|1|...|
 |05|00|
 |06|01|Usinas_0601|F|5|5|O coração|O tesão|O pensar|O cio|O tino|
 |06|02|Usinas_0602|F|1|1|,|
-|06|03|Usinas_0603|T|34|7|em susto|calado|em apocalipse|faminto|em sol|incauto|em ré|errante|em fé|assim|em si|na tipoia|em dó|insone|em lá|sentinela|em lâminas|cigano|em surdina|virgem|esvaído|ilícito|em sinuca|no apogeu|em ais|indistinto|em promessa|temente|sucumbido|em quebranto|ensimesmado|inerte|sem compasso|petulante|
+|06|03|Usinas_0603|T|34|21|em susto|calado|em apocalipse|faminto|em sol|incauto|em ré|errante|em fé|assim|em si|na tipoia|em dó|insone|em lá|sentinela|em lâminas|cigano|em surdina|virgem|esvaído|ilícito|em sinuca|no apogeu|em ais|indistinto|em promessa|temente|sucumbido|em quebranto|ensimesmado|inerte|sem compasso|petulante|
 |06|04|Usinas_0604|F|1|1|,|
-|06|05|Usinas_0605|F|6|3|imitando|suspenso por|entoando|pairando por|sobrevoando|toando|
-|06|06|Usinas_0606|F|19|12|plágios|falsetes|desatinos|hipocondrias|filosofias|alegorias|regalias|elegias|alegrias|abandonos|descompassos|mandalas|atalhos|frestas|hipocrisias|retinas|perigos|incertezas|alquimias|
+|06|05|Usinas_0605|F|6|5|imitando|suspenso por|entoando|pairando por|sobrevoando|toando|
+|06|06|Usinas_0606|F|19|2|plágios|falsetes|desatinos|hipocondrias|filosofias|alegorias|regalias|elegias|alegrias|abandonos|descompassos|mandalas|atalhos|frestas|hipocrisias|retinas|perigos|incertezas|alquimias|
 |06|07|Usinas_0607|F|1|1|,|
-|07|01|Usinas_0701|F|17|8|fala|canta|berra|bate|empina-se|surta|brota|dança|mina|rebenta-se|declina|nina|esgrima|finge-se|matina|sabe-se|sussurra|
+|07|01|Usinas_0701|F|17|15|fala|canta|berra|bate|empina-se|surta|brota|dança|mina|rebenta-se|declina|nina|esgrima|finge-se|matina|sabe-se|sussurra|
 |07|02|Usinas_0702|F|1|1|mais|
-|07|03|Usinas_0703|F|7|7|fiel|forte|alto|grave|são|gigante|atrevido|
+|07|03|Usinas_0703|F|7|4|fiel|forte|alto|grave|são|gigante|atrevido|
 |07|04|Usinas_0704|F|1|1|do que|
-|07|05|Usinas_0705|F|8|2|inventa|almeja|pode|permite|suspeita|supõe|suporta|imagina|
+|07|05|Usinas_0705|F|8|8|inventa|almeja|pode|permite|suspeita|supõe|suporta|imagina|
 |07|06|Usinas_0706|F|5|4|a alma|a hora|o tempo|o agora|a era|
 |07|07|Usinas_0707|F|1|1|.|
 |08|00|
-|09|01|Usinas_0901|F|4|3|Quem será|Terá cara|Onde andará|Teria rosto|
-|09|02|Usinas_0902|F|7|7|o dono|o mentor|o mestre|o tutor|o algoz|o feitor|o autor|
-|10|01|Usinas_1001|F|4|1|do momento|do prazer|do instante|do destino|
-|10|02|Usinas_1002|T|10|4|que julgamos|que achamos|que pensamos|que juramos|que cremos|que julgávamos|que achávamos|que pensávamos|que jurávamos|que críamos|
-|10|03|Usinas_1003|T|12|12|perdido|ser cortina|ter partido|ter fugido|ser finito|inexistido|ser mera quimera|ser rotina|simples sina|fugidio|ser engano|sem sentido|
+|09|01|Usinas_0901|F|4|1|Quem será|Terá cara|Onde andará|Teria rosto|
+|09|02|Usinas_0902|F|7|4|o dono|o mentor|o mestre|o tutor|o algoz|o feitor|o autor|
+|10|01|Usinas_1001|F|4|3|do momento|do prazer|do instante|do destino|
+|10|02|Usinas_1002|T|10|10|que julgamos|que achamos|que pensamos|que juramos|que cremos|que julgávamos|que achávamos|que pensávamos|que jurávamos|que críamos|
+|10|03|Usinas_1003|T|12|6|perdido|ser cortina|ter partido|ter fugido|ser finito|inexistido|ser mera quimera|ser rotina|simples sina|fugidio|ser engano|sem sentido|
 |10|04|Usinas_1004|F|1|1|?|
 <EOF>
 CATAPALA = 39

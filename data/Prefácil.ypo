@@ -4,51 +4,52 @@
 *- |05|03| == artista principal == antes de tiro == make poesia!!!
 *- |14|01| e |15|01| = Manter pareados e Random=.F.
 *- |Verbo como Substantivo: o verbo divino
+*- |Adunar : reunir(-se) [pessoas ou coisas] para constituir um todo.|
 *- |Fim-de-Século = desenvolvido ou moderno para o momento em questão; adiantado
 *-
-|01|01|Prefácil_0101|F|2|1|De início,|Antes,|
-|01|02|Prefácil_0102|F|7|5|pergunta-se|questiona-se|indaga-se|espanta-se|admira-se|duvida-se|assusta-se|
+|01|01|Prefácil_0101|F|2|2|De início,|Antes,|
+|01|02|Prefácil_0102|F|7|2|pergunta-se|questiona-se|indaga-se|espanta-se|admira-se|duvida-se|assusta-se|
 |01|03|Prefácil_0103|F|1|1|:|
 |02|00|
 |03|01|Prefácil_0301|F|1|1|Como|
-|03|02|Prefácil_0302|F|7|6|usufruir deste|penetrar neste|invadir o|mergulhar no|sair ileso do|arriscar-se neste|adentrar no|
-|03|03|Prefácil_0303|T|16|6|realejo|passatempo|universo|labirinto|mundo|carrossel|pântano|circo|temporal|vendaval|passeio|esboço|palácio|calidoscópio|dilúvio|espaço|
-|03|04|Prefácil_0304|T|16|1|onírico|anárquico|híbrido|avesso|multiforme|aleatório|múltiplo|travesso|inexistente|etéreo|lúdico|quase lírico|"Fim-de-Século"|inverso|paralelo|multifacetado|
-|04|01|Prefácil_0401|F|10|1|proposto|esmiuçado|sugerido|arquitetado|enredado|imaginado|inventado|construído|iniciado|criado|
-|04|02|Prefácil_0402|F|9|1|pelo autor?|pela "máquina"?|pelo agora?|pela vida?|pelo acaso?|por outrem?|pelo destino?|pelo amor?|por divindades?|
+|03|02|Prefácil_0302|F|7|3|usufruir deste|penetrar neste|invadir o|mergulhar no|sair ileso do|arriscar-se neste|adentrar no|
+|03|03|Prefácil_0303|T|16|4|realejo|passatempo|universo|labirinto|mundo|carrossel|pântano|circo|temporal|vendaval|passeio|esboço|palácio|calidoscópio|dilúvio|espaço|
+|03|04|Prefácil_0304|T|16|11|onírico|anárquico|híbrido|avesso|multiforme|aleatório|múltiplo|travesso|inexistente|etéreo|lúdico|quase lírico|"Fim-de-Século"|inverso|paralelo|multifacetado|
+|04|01|Prefácil_0401|F|10|8|proposto|esmiuçado|sugerido|arquitetado|enredado|imaginado|inventado|construído|iniciado|criado|
+|04|02|Prefácil_0402|F|9|9|pelo autor?|pela "máquina"?|pelo agora?|pela vida?|pelo acaso?|por outrem?|pelo destino?|pelo amor?|por divindades?|
 |05|00|
-|06|01|Prefácil_0601|F|4|4|Ao navegar por esse|Cara-a-cara com um|Ao perambular por tal|Para brincar no|
-|06|02|Prefácil_0303|T|16|7|realejo|passatempo|universo|labirinto|mundo|carrossel|pântano|circo|temporal|vendaval|passeio|esboço|palácio|calidoscópio|dilúvio|espaço|
+|06|01|Prefácil_0601|F|4|3|Ao navegar por esse|Cara-a-cara com um|Ao perambular por tal|Para brincar no|
+|06|02|Prefácil_0303|T|16|6|realejo|passatempo|universo|labirinto|mundo|carrossel|pântano|circo|temporal|vendaval|passeio|esboço|palácio|calidoscópio|dilúvio|espaço|
 |07|01|Prefácil_0701|F|1|1|@ onde|
-|07|02|Prefácil_0702|F|8|5|borbulham|transitam|desfilam|brotam|explodem|ocorrem|pululam|tramitam|
-|07|03|Prefácil_0703|F|15|4|cores de camaleões|ideias feito mudas|desordens no caos|tempestades de erros|futuros implausíveis|impasses previstos|vãs possibilidades|mais que palpites|palavras ao léu|chuvas de egos|pensamentos amorfos|utopias dos "eus"|medidas comedidas|sonhos sem fins|falsas verdades|
+|07|02|Prefácil_0702|F|8|4|borbulham|transitam|desfilam|brotam|explodem|ocorrem|pululam|tramitam|
+|07|03|Prefácil_0703|F|15|6|cores de camaleões|ideias feito mudas|desordens no caos|tempestades de erros|futuros implausíveis|impasses previstos|vãs possibilidades|mais que palpites|palavras ao léu|chuvas de egos|pensamentos amorfos|utopias dos "eus"|medidas comedidas|sonhos sem fins|falsas verdades|
 |07|04|Prefácil_0704|F|1|1|,|
-|08|01|Prefácil_0801|F|11|4|o leitor é|o incauto é|o passageiro é|o novato é|o marinheiro é|o internauta é|o transeunte é|o turista é|o amante é|o vivente é|o fulano é|
-|08|02|Prefácil_0802|F|6|6|convidado|instigado|provocado|incentivado|instado|intimado|
+|08|01|Prefácil_0801|F|11|8|o leitor é|o incauto é|o passageiro é|o novato é|o marinheiro é|o internauta é|o transeunte é|o turista é|o amante é|o vivente é|o fulano é|
+|08|02|Prefácil_0802|F|6|5|convidado|instigado|provocado|incentivado|instado|intimado|
 |08|03|Prefácil_0803|F|1|1|,|
-|08|04|Prefácil_0804|T|26|6|cada verso|paulatinamente|por instantes|cada passo|cada minuto|cada instante|cada momento|n'algum verso|indefinidamente|no repente|algum minuto|algum instante|algum momento|todo verso|incessantemente|todo passo|todo minuto|todo instante|todo momento|qualquer verso|ocasionalmente|qualquer passo|qualquer minuto|qualquer instante|qualquer momento|acidentalmente|
+|08|04|Prefácil_0804|T|26|19|cada verso|paulatinamente|por instantes|cada passo|cada minuto|cada instante|cada momento|n'algum verso|indefinidamente|no repente|algum minuto|algum instante|algum momento|todo verso|incessantemente|todo passo|todo minuto|todo instante|todo momento|qualquer verso|ocasionalmente|qualquer passo|qualquer minuto|qualquer instante|qualquer momento|acidentalmente|
 |08|05|Prefácil_0805|F|1|1|,|
 |09|01|Prefácil_0901|F|1|1|a|
-|09|02|Prefácil_0902|T|9|1|encontrar|rever|sondar|tecer|buscar|colher|recriar|engatilhar|verter|
-|09|03|Prefácil_0903|F|5|3|novos horizontes|as próprias saídas|mais respostas|o inusitado|outros limites|
+|09|02|Prefácil_0902|T|9|2|encontrar|rever|sondar|tecer|buscar|colher|recriar|engatilhar|verter|
+|09|03|Prefácil_0903|F|5|5|novos horizontes|as próprias saídas|mais respostas|o inusitado|outros limites|
 |09|04|Prefácil_0904|F|1|1|.|
 |10|00|
-|11|01|Prefácil_1101|F|2|1|Não é|Talvez|
-|11|02|Prefácil_1102|F|5|2|leitura|tarefa|coisa|lida|aventura|
-|11|03|Prefácil_1103|F|8|6|óbvia|natural|fácil|casual|fortuita|acidental|de graça|incidental|
+|11|01|Prefácil_1101|F|2|2|Não é|Talvez|
+|11|02|Prefácil_1102|F|5|4|leitura|tarefa|coisa|lida|aventura|
+|11|03|Prefácil_1103|F|8|5|óbvia|natural|fácil|casual|fortuita|acidental|de graça|incidental|
 |11|04|Prefácil_1104|F|1|1|...|
-|12|01|Prefácil_1201|F|11|9|Os sentidos|Os sinais|Os valores|Os signos|Os ditos|Os tinos|Os escritos|Os verbos|Os princípios|Os fatos|As palavras|
-|12|02|Prefácil_1202|F|3|2|trans-||inter-|
-|13|01|Prefácil_1301|F|16|13|calam-se|agem|rogam-se|cambiam-se|coadunam-se|correm|laçam-se|ferem-se|ligam-se|pelam-se|mediam-se|põem-se|penetram-se|comunicam-se|pretam-se|adunam-se|
+|12|01|Prefácil_1201|F|11|2|Os sentidos|Os sinais|Os valores|Os signos|Os ditos|Os tinos|Os escritos|Os verbos|Os princípios|Os fatos|As palavras|
+|12|02|Prefácil_1202|T|6|1||inter-||inter-||inter-|
+|13|01|Prefácil_1301|F|16|4|calam-se|agem|rogam-se|cambiam-se|coadunam-se|correm|laçam-se|ferem-se|ligam-se|pelam-se|mediam-se|põem-se|penetram-se|comunicam-se|rompem-se|adunam-se|
 |14|01|Prefácil_1401|F|1|1|com|
-|14|02|Prefácil_1402|F|3|3|tal|tamanha|tanta|
-|14|03|Prefácil_1403|T|50|8|afinidade|agilidade|ambiguidade|austeridade|autenticidade|autoridade|banalidade|capacidade|casualidade|causalidade|comodidade|credibilidade|criatividade|cumplicidade|densidade|disparidade|diversidade|duplicidade|efetividade|eventualidade|facilidade|fecundidade|ferocidade|fertilidade|fidelidade|flexibilidade|frugalidade|habilidade|homogeneidade|identidade|infinidade|intensidade|intimidade|inverdade|jocosidade|mobilidade|naturalidade|peculariedade|plasticidade|pluralidade|propriedade|promiscuidade|reciprocidade|simplicidade|singularidade|sinuosidade|versatilidade|velocidade|vitalidade|voracidade|
+|14|02|Prefácil_1402|F|3|2|tal|tamanha|tanta|
+|14|03|Prefácil_1403|T|50|18|afinidade|agilidade|ambiguidade|austeridade|autenticidade|autoridade|banalidade|capacidade|casualidade|causalidade|comodidade|credibilidade|criatividade|cumplicidade|densidade|disparidade|diversidade|duplicidade|efetividade|eventualidade|facilidade|fecundidade|ferocidade|fertilidade|fidelidade|flexibilidade|frugalidade|habilidade|homogeneidade|identidade|infinidade|intensidade|intimidade|inverdade|jocosidade|mobilidade|naturalidade|peculariedade|plasticidade|pluralidade|propriedade|promiscuidade|reciprocidade|simplicidade|singularidade|sinuosidade|versatilidade|velocidade|vitalidade|voracidade|
 |14|04|Prefácil_1404|F|1|1|que,|
-|15|01|Prefácil_1501|F|6|1|ao final,|inutilmente,|na hora,|por acaso,|depois,|sem porquê,|
-|15|02|Prefácil_0102|F|7|3|pergunta-se|questiona-se|indaga-se|espanta-se|admira-se|duvida-se|assusta-se|
+|15|01|Prefácil_1501|F|6|6|ao final,|inutilmente,|na hora,|por acaso,|depois,|sem porquê,|
+|15|02|Prefácil_0102|F|7|7|pergunta-se|questiona-se|indaga-se|espanta-se|admira-se|duvida-se|assusta-se|
 |15|03|Prefácil_1503|F|1|1|:|
 |16|00|
-|17|01|Prefácil_1701|F|17|11|É possível? Sim. É!|Pode isso? Sim. Pode!|Há saídas? Sim. Há!|Faz sentido? Sim. Faz!|Terá um fim? Não. Não terá.|Cabe em vidas? Sim. Cabe!|É vero? Não. Nem sempre.|Imita-se? Sim. É só tentar.|É contra-indicado? Não. Nunca.|Causa efeitos colaterais? Pensando bem... sim.|São só falácias? Não. Há verdades.|Posso fugir? Não. Não há fuga.|Vai doer? Não. Só se pensar.|É moderno? Não. Foi passado.|É oculto? Não... é claro.|Contagia? Sim. A alma.|Como assim... uma máquina? Não. Eu não sou um robô!|
+|17|01|Prefácil_1701|F|17|6|É possível? Sim. É!|Pode isso? Sim. Pode!|Há saídas? Sim. Há!|Faz sentido? Sim. Faz!|Terá um fim? Não. Não terá.|Cabe em vidas? Sim. Cabe!|É vero? Não. Nem sempre.|Imita-se? Sim. É só tentar.|É contra-indicado? Não. Nunca.|Causa efeitos colaterais? Pensando bem... sim.|São só falácias? Não. Há verdades.|Posso fugir? Não. Não há fuga.|Vai doer? Não. Só se pensar.|É moderno? Não. Foi passado.|É oculto? Não... é claro.|Contagia? Sim. A alma.|Como assim... uma máquina? Não. Eu não sou um robô!|
 <EOF>
 CATAPALA = 52
 VERBETES = 343
