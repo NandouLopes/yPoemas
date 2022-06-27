@@ -15,6 +15,8 @@ Não vivo no meu tempo.
 
 º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°ºº¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°ºº¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°ºº¤ø
 
+ツpoemas
+
 AlfaBetaAção == C:\WINDOWS\new.ini
 config.toml  == C:\Users\dkvece\.streamlit
 
@@ -994,7 +996,9 @@ def page_eureka():
                 if not seed_tema in soma_tema:
                     soma_tema.append(seed_tema)
 
-        st.session_state.eureka = 0
+        if not more:
+            st.session_state.eureka = 0
+            
         if len(seed_list) == 0:
             st.warning(translate('nenhuma ocorrência das letras " ' + find_what + ' " foi encontrada...' ))
         elif len(seed_list) >= 1:
