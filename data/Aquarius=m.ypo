@@ -6,26 +6,29 @@
 *- as milhares de possibilidades|os desafios mentais|
 *-
 |01|01|Aquarius=m_0101|F|2|1|Um|O|
-|01|02|Aquarius=m_0102|F|3|2|jeito|modo|estilo|
-|01|03|Aquarius=m_0103|F|11|3|amigo|sincero|inteligente|rebelde|autêntico|original|aberto|solícito|comunicativo|fraterno|inusitado|
+|01|02|Aquarius=m_0102|F|3|3|jeito|modo|estilo|
+|01|03|Aquarius=m_0103|F|11|4|amigo|sincero|inteligente|rebelde|autêntico|original|aberto|solícito|comunicativo|fraterno|inusitado|
 |01|04|Aquarius=m_0104|F|1|1|de ser|
 |01|05|Aquarius=m_0105|F|1|1|,|
 |02|01|Aquarius=m_0201|F|2|1|a|uma|
-|02|02|Aquarius=m_0202|F|3|2|natureza|maneira|personalidade|
-|02|03|Aquarius=m_0203|F|11|7|leal|criativa|perspicaz|alegre|ilimitada|idealista|pacífica|independente|paciente|agradável|cativante|
+|02|02|Aquarius=m_0202|F|3|3|natureza|maneira|personalidade|
+|02|03|Aquarius=m_0203|F|11|8|leal|criativa|perspicaz|alegre|ilimitada|idealista|pacífica|independente|paciente|agradável|cativante|
 |02|04|Aquarius=m_0204|F|1|1|,|
-|03|01|Aquarius=m_0301|F|11|6|a mente sempre à frente|as histórias pra contar|a genialidade nata|a busca do conhecimento|a afinidade de ideias|a intuição acentuada|a capacidade crítica|as ideias modernas|a bondade nas atitudes|a agilidade mental|as ideias avançadas|
+|03|01|Aquarius=m_0301|F|11|7|a mente sempre à frente|as histórias pra contar|a genialidade nata|a busca do conhecimento|a afinidade de ideias|a intuição acentuada|a capacidade crítica|as ideias modernas|a bondade nas atitudes|a agilidade mental|as ideias avançadas|
 |04|01|Aquarius=m_0401|F|1|1|e|
-|04|02|Aquarius=m_0402|F|9|5|o companheirismo pontual|o amor pelos debates|o respeito aos excluídos|o filosofar sobre a vida|o espírito humanitário|os dons artísticos|o respeito à humanidade|o ar quase futurista|o desprezo pelo preconceito|
+|04|02|Aquarius=m_0402|F|9|9|o companheirismo pontual|o amor pelos debates|o respeito aos excluídos|o filosofar sobre a vida|o espírito humanitário|os dons artísticos|o respeito à humanidade|o ar quase futurista|o desprezo pelo preconceito|
 |05|01|Aquarius=m_0501|F|2|1|fazem de você|tornam você|
-|06|01|Aquarius=m_0601|F|5|4|aquele que tem fé na igualdade,|a pessoa cordial|aquele que une pessoas distintas,|aquele que reparte o carisma,|aquela pessoa fora do comum|
+|06|01|Aquarius=m_0601|F|5|2|aquele que tem fé na igualdade,|a pessoa cordial|aquele que une pessoas distintas,|aquele que reparte o carisma,|aquela pessoa fora do comum|
 |07|01|Aquarius=m_0701|F|1|1|capaz de|
-|07|02|Aquarius=m_0702|F|5|1|impactar|surpreender|atrair|cativar|perseverar|
+|07|02|Aquarius=m_0702|F|5|4|impactar|surpreender|atrair|cativar|perseverar|
 |08|01|Aquarius=m_0801|F|1|1|e|
-|08|02|Aquarius=m_0802|F|5|2|aproximar os amigos.|ser um prêmio para os amigos.|ser querido por todo mundo.|dar espaço ao bom humor.|distribuir energia.|
+|08|02|Aquarius=m_0802|F|5|5|aproximar os amigos.|ser um prêmio para os amigos.|ser querido por todo mundo.|dar espaço ao bom humor.|distribuir energia.|
 <EOF>
-CATAPALA = 31
-VERBETES = 117
-PALAVRAS = 166
-VARIATIO = 107.811.000                                                                     
-Build_By_Lay_2_Ipo em 02/02/2021_11:25
+# 
+#     Verbetes gerados: 28
+#     Verbetes do tema: 123
+#     Bancos de ítimos: 75
+# Análise combinatória: 107.811.000 (milhões)  
+# 
+# Build_By_Lay_2_Ipo em 02/02/2021_11:25
+# 

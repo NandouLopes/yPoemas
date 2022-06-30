@@ -1,35 +1,42 @@
 *-
 *- Impar.ypo
 *-
-|01|01|Impar_0101|F|3|3|A vida não é|Viver não há de ser|As coisas não são|
+|01|01|Impar_0101|F|3|2|A vida não é|Viver não há de ser|As coisas não são|
 |02|01|Impar_0201|F|1|1|apenas|
-|02|02|Impar_0202|F|9|3|drama  |mistério    |pequenez |sucesso |passo  |fuga    |notícia |luz      |dúvida |
+|02|02|Impar_0202|F|9|8|drama  |mistério    |pequenez |sucesso |passo  |fuga    |notícia |luz      |dúvida |
 |02|03|Impar_0201|F|1|1|ou|
-|02|04|Impar_0204|F|9|3|comédia|livro aberto|imensidão|fracasso|tropeço|encontro|tragédia|escuridão|certeza|
+|02|04|Impar_0204|F|9|8|comédia|livro aberto|imensidão|fracasso|tropeço|encontro|tragédia|escuridão|certeza|
 |02|05|Impar_0205|F|1|1|,|
 |03|01|Impar_0301|F|1|1|nem só|
-|03|02|Impar_0202|F|12|12|bagunça|abundância|poder     |sanidade|presença|lembrança|pecado   |anonimato |exagero    |rigidez |ignorância|negação |
+|03|02|Impar_0202|F|12|2|bagunça|abundância|poder     |sanidade|presença|lembrança|pecado   |anonimato |exagero    |rigidez |ignorância|negação |
 |03|03|Impar_0303|F|1|1|ou|
-|03|04|Impar_0304|F|12|12|ciência|falência  |impotência|demência|ausência|carência |inocência|influência|abstinência|fluência|sapiência |anuência|
+|03|04|Impar_0304|F|12|2|ciência|falência  |impotência|demência|ausência|carência |inocência|influência|abstinência|fluência|sapiência |anuência|
 |03|05|Impar_0305|F|1|1|...|
 |04|00|
 |05|01|Impar_0501|F|2|1|Um pouco de|Um mínimo de|
-|05|02|Impar_0502|F|4|1|ponderação|equilíbrio|bom senso|resiliência|
+|05|02|Impar_0502|F|4|3|ponderação|equilíbrio|bom senso|resiliência|
 |05|03|Impar_0503|F|1|1|pode|
-|05|04|Impar_0504|F|4|3|vir a calhar|fazer diferença|ser o caminho|amenizar o acaso|
+|05|04|Impar_0504|F|4|1|vir a calhar|fazer diferença|ser o caminho|amenizar o acaso|
 |05|05|Impar_0505|F|1|1|.|
 <EOF>
-
-pesquisar mais no tema "ências", em /data/news/
-sombra|
-
----
-tic-tac
-
-o tempo surge,
-o tempo ruge,
-o tempo urge... e passa,
-ao fazer parte do que foi,
-a ser o que é
-e o que será.
-
+# 
+#     Verbetes gerados: 30
+#     Verbetes do tema: 69
+#     Bancos de ítimos: 63
+# Análise combinatória: 653.184 (mil)  
+# 
+# Build_By_Lay_2_Ipo: 30/06/2022, 11:55:04
+# 
+# pesquisar mais no tema "ências", em /data/news/
+# sombra|
+# 
+# ---
+# tic-tac
+# 
+# o tempo surge,
+# o tempo ruge,
+# o tempo urge... e passa,
+# ao fazer parte do que foi,
+# a ser o que é
+# e o que será.
+# 

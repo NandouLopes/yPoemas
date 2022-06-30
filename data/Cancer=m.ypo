@@ -7,24 +7,27 @@
 *- dotados de ótima memória|domésticos|"seu lar é seu castelo"|apegar-se|
 *-
 |01|01|Cancer=m_0101|F|1|1|Seu|
-|01|02|Cancer=m_0102|F|4|3|jeito|estilo|modo|espírito|
-|01|03|Cancer=m_0103|F|16|1|carinhoso|romântico|harmônico|protetor|intuitivo|delicado|familiar|criativo|bem humorado|idealista|emotivo|prudente|afetivo|dedicado|sonhador|ativo|
+|01|02|Cancer=m_0102|F|4|1|jeito|estilo|modo|espírito|
+|01|03|Cancer=m_0103|F|16|11|carinhoso|romântico|harmônico|protetor|intuitivo|delicado|familiar|criativo|bem humorado|idealista|emotivo|prudente|afetivo|dedicado|sonhador|ativo|
 |01|04|Cancer=m_0104|F|1|1|,|
-|01|05|Cancer=m_0103|T|16|7|carinhoso|romântico|harmônico|protetor|intuitivo|delicado|familiar|criativo|bem humorado|idealista|emotivo|prudente|afetivo|dedicado|sonhador|ativo|
+|01|05|Cancer=m_0103|T|16|13|carinhoso|romântico|harmônico|protetor|intuitivo|delicado|familiar|criativo|bem humorado|idealista|emotivo|prudente|afetivo|dedicado|sonhador|ativo|
 |01|06|Cancer=m_0106|F|1|1|...|
 |02|01|Cancer=m_0201|F|1|1|e|
-|02|02|Cancer=m_0202|F|8|5|a iniciativa de|a intimidade de|a habilidade em|o esforço de|a sensibilidade de|a tenacidade de|a lealdade de|a destreza em|
-|03|01|Cancer=m_0301|F|7|2|compreender o que as pessoas sentem|colocar-se no lugar do próximo|conhecer a natureza humana|cultivar coisas caseiras|importar-se com os relacionamentos|manter os vínculos fortes|ajudar os menos favorecidos|
+|02|02|Cancer=m_0202|F|8|7|a iniciativa de|a intimidade de|a habilidade em|o esforço de|a sensibilidade de|a tenacidade de|a lealdade de|a destreza em|
+|03|01|Cancer=m_0301|F|7|1|compreender o que as pessoas sentem|colocar-se no lugar do próximo|conhecer a natureza humana|cultivar coisas caseiras|importar-se com os relacionamentos|manter os vínculos fortes|ajudar os menos favorecidos|
 |04|01|Cancer=m_0401|F|1|1|deixam você|
 |04|02|Cancer=m_0402|F|2|1|sempre pronto|à vontade|
 |05|01|Cancer=m_0501|F|1|1|para|
-|05|02|Cancer=m_0502|F|8|3|dar seus conselhos|receber "velhos amigos"|agradar nos pequenos mimos|ser o alicerce da turma|conquistar o próprio espaço|exercer a liderança|apoiar uma boa causa|sentir-se útil|
+|05|02|Cancer=m_0502|F|8|5|dar seus conselhos|receber "velhos amigos"|agradar nos pequenos mimos|ser o alicerce da turma|conquistar o próprio espaço|exercer a liderança|apoiar uma boa causa|sentir-se útil|
 |06|01|Cancer=m_0601|F|1|1|e|
-|06|02|Cancer=m_0502|T|8|2|dar seus conselhos|receber "velhos amigos"|agradar nos pequenos mimos|ser o alicerce da turma|conquistar o próprio espaço|exercer a liderança|apoiar uma boa causa|sentir-se útil|
-|07|01|Cancer=m_0701|F|6|3|primando por sua liberdade.|sem perder o ar de amigo.|confiando naquilo que importa.|com tato e inteligência.|acreditando nas escolhas do outro.|esbanjando a nata simpatia!|
+|06|02|Cancer=m_0502|T|8|8|dar seus conselhos|receber "velhos amigos"|agradar nos pequenos mimos|ser o alicerce da turma|conquistar o próprio espaço|exercer a liderança|apoiar uma boa causa|sentir-se útil|
+|07|01|Cancer=m_0701|F|6|5|primando por sua liberdade.|sem perder o ar de amigo.|confiando naquilo que importa.|com tato e inteligência.|acreditando nas escolhas do outro.|esbanjando a nata simpatia!|
 <EOF>
-CATAPALA = 32
-VERBETES = 105
-PALAVRAS = 185
-COMBINAS = 36.126.720                                                                      
-Build_By_Lay_2_Ipo em 01/01/2021_18:54
+# 
+#     Verbetes gerados: 32
+#     Verbetes do tema: 140
+#     Bancos de ítimos: 82
+# Análise combinatória: 30.965.760 (milhões)  
+# 
+# Build_By_Lay_2_Ipo em 01/01/2021_18:54
+# 

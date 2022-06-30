@@ -1,22 +1,25 @@
 *-
 *- Enfrente.ypo - amor-es-muerto
 *-
-|01|01|Enfrente_0101|F|3|1|Cada|Todo|Qualquer|
+|01|01|Enfrente_0101|F|3|3|Cada|Todo|Qualquer|
 |01|02|Enfrente_0102|F|1|1|amor que|
-|01|03|Enfrente_0103|T|14|4|morre|acaba|perece|se vai|evolui a óbito|se esvai|patina|desanda|finda|termina|evapora|é pouco|parte|se desencontra|
-|02|01|Enfrente_0201|F|9|9|planta|faz brotar|finca|deixa aberto|abre|faz surgir|escancara|rasga|descortina|
-|02|02|Enfrente_0202|F|7|4|na alma|num canto|na dor|no horizonte|na sina|no olhar|no caminho|
-|02|03|Enfrente_0203|F|5|5|do poeta|da gente|de quem ama|do desamado|de quem fica|
-|03|01|Enfrente_0301|F|6|4|um novo|uma chama|um outro|o possível|um próximo|uma esperança|
+|01|03|Enfrente_0103|T|14|3|morre|acaba|perece|se vai|evolui a óbito|se esvai|patina|desanda|finda|termina|evapora|é pouco|parte|se desencontra|
+|02|01|Enfrente_0201|F|9|5|planta|faz brotar|finca|deixa aberto|abre|faz surgir|escancara|rasga|descortina|
+|02|02|Enfrente_0202|F|7|3|na alma|num canto|na dor|no horizonte|na sina|no olhar|no caminho|
+|02|03|Enfrente_0203|F|5|3|do poeta|da gente|de quem ama|do desamado|de quem fica|
+|03|01|Enfrente_0301|F|6|6|um novo|uma chama|um outro|o possível|um próximo|uma esperança|
 |03|02|Enfrente_0302|F|1|1|que|
-|03|03|Enfrente_0303|F|4|2|deve|merece|há de|um dia irá|
-|03|04|Enfrente_0404|F|4|1|nascer.|reviver.|renascer.|acontecer.|
+|03|03|Enfrente_0303|F|4|4|deve|merece|há de|um dia irá|
+|03|04|Enfrente_0404|F|4|3|nascer.|reviver.|renascer.|acontecer.|
 |04|00|
-|05|01|Enfrente_0501|F|7|3|Os pactos não tem força de lei|A índole fala mais alto|Mesmo sem haver perdão|Um e outro seguem em frente|Amor nem sempre é calmaria|Que não se chore o deleite derramado|O amor vem sem garantias|
+|05|01|Enfrente_0501|F|7|2|Os pactos não tem força de lei|A índole fala mais alto|Mesmo sem haver perdão|Um e outro seguem em frente|Amor nem sempre é calmaria|Que não se chore o deleite derramado|O amor vem sem garantias|
 |05|02|Enfrente_0502|F|1|1|.|
 <EOF>
-CATAPALA = 22
-VERBETES = 62
-PALAVRAS = 76
-VARIATIO = 1                                                                               
-Build_By_Lay_2_Ipo em 01/02/2021_08:33
+# 
+#     Verbetes gerados: 22
+#     Verbetes do tema: 93
+#     Bancos de ítimos: 62
+# Análise combinatória: 8.890.560 (milhões)  
+# 
+# Build_By_Lay_2_Ipo em 01/02/2021_08:33
+# 

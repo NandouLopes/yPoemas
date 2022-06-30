@@ -4,34 +4,38 @@
 *- Capricórnio: de 22 de Dezembro a 20 de Janeiro
 *-
 |01|01|Caprico=m_0101|F|1|1|Você tem|
-|01|02|Caprico=m_0102|F|7|1|iniciativa|determinação|liderança|dons artísticos|um estilo moderno|tato|diplomacia|
+|01|02|Caprico=m_0102|F|7|7|iniciativa|determinação|liderança|dons artísticos|um estilo moderno|tato|diplomacia|
 |01|03|Caprico=m_0103|F|1|1|,|
 |02|01|Caprico=m_0201|F|2|1|uma disposição a ser|a ambição de ser|
-|02|02|Caprico=m_0202|F|9|9|perseverante|prático|esforçado|companheiro|modesto|tranquilo|persistente|corajoso|objetivo|
+|02|02|Caprico=m_0202|F|9|5|perseverante|prático|esforçado|companheiro|modesto|tranquilo|persistente|corajoso|objetivo|
 |03|01|Caprico=m_0301|F|2|1|e está sempre|e vive|
 |03|02|Caprico=m_0302|F|2|1|rodeado de|cercado de|
-|03|03|Caprico=m_0303|F|3|2|amigos|família|valores|
+|03|03|Caprico=m_0303|F|3|1|amigos|família|valores|
 |03|04|Caprico=m_0304|F|2|1|que lhe ajudam no caminho.|que tornam a vida mais fácil.|
 |04|00|
 |05|01|Caprico=m_0501|F|1|1|É|
-|05|02|Caprico=m_0502|F|11|11|exigente|reservado|perseverante|prático|esforçado|companheiro|modesto|tranquilo|persistente|corajoso|objetivo|
+|05|02|Caprico=m_0502|F|11|10|exigente|reservado|perseverante|prático|esforçado|companheiro|modesto|tranquilo|persistente|corajoso|objetivo|
 |05|03|Caprico=m_0503|F|1|1|e|
-|05|04|Caprico=m_0504|F|3|3|sente-se atraído por|percebe as|valoriza as|
+|05|04|Caprico=m_0504|F|3|2|sente-se atraído por|percebe as|valoriza as|
 |05|05|Caprico=m_0505|F|1|1|pessoas|
-|05|06|Caprico=m_0506|F|6|2|sensíveis|intuitivas|carinhosas|conscientes|maduras|seguras|
+|05|06|Caprico=m_0506|F|6|4|sensíveis|intuitivas|carinhosas|conscientes|maduras|seguras|
 |05|07|Caprico=m_0507|F|1|1|.|
 |06|00|
 |07|01|Caprico=m_0701|F|1|1|Sempre com|
 |07|02|Caprico=m_0702|F|6|5|novos projetos|iniciativa|diplomacia|bons conselhos|determinação|liderança|
 |07|03|Caprico=m_0703|F|1|1|,|
 |08|01|Caprico=m_0801|F|1|1|traz|
-|08|02|Caprico=m_0802|F|4|4|energia|ânimo|entusiasmo|inspiração|
+|08|02|Caprico=m_0802|F|4|2|energia|ânimo|entusiasmo|inspiração|
 |08|03|Caprico=m_0803|F|1|1|para os amigos|
 |09|01|Caprico=m_0901|F|2|1|sem nunca esquecer|sem nunca desistir|
-|09|02|Caprico=m_0902|F|16|14|de reavivar seu lado criança|de inspirar confiança|de comunicar sua inteligência|de deixar a vida fluir|da seriedade em seus compromissos|das metas a serem alcançadas|da busca por resultados práticos|de construir algo duradouro|de comunicar seu despojamento|do valor da disciplina|do tempo próprio de cada coisa|de dar conta das dificuldades|de buscar o crescimento|de construir algo sólido|de conquistar seus objetivos|de amadurecer o seu prestígio|
+|09|02|Caprico=m_0902|F|16|8|de reavivar seu lado criança|de inspirar confiança|de comunicar sua inteligência|de deixar a vida fluir|da seriedade em seus compromissos|das metas a serem alcançadas|da busca por resultados práticos|de construir algo duradouro|de comunicar seu despojamento|do valor da disciplina|do tempo próprio de cada coisa|de dar conta das dificuldades|de buscar o crescimento|de construir algo sólido|de conquistar seus objetivos|de amadurecer o seu prestígio|
 |09|03|Caprico=m_0903|F|1|1|.|
 <EOF>
-VERBETES = 115
-PALAVRAS = 175
-VARIATIO = 459.841.536                                                                     
-Build_By_Lay_2_Ipo em 02/02/2021_11:07
+# 
+#     Verbetes gerados: 41
+#     Verbetes do tema: 137
+#     Bancos de ítimos: 86
+# Análise combinatória: 459.841.536 (milhões)  
+# 
+# Build_By_Lay_2_Ipo em 02/02/2021_11:07
+# 

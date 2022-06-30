@@ -7,78 +7,81 @@
 *- |15|00|
 *- |15|01|Augusto_1501|F|1|1|( Palavras de Augusto dos Anjos )|
 *-
-|01|01|Augusto_0101|F|2|1|Minh'alma|A alma|
-|01|02|Augusto_0102|F|4|1|oh!...|em|eis:|, só|
-|01|03|Augusto_0103|F|8|5|ruínas|sangue|brumas|vermes|destroços|carnificina|mistérios|gargalhadas|
+|01|01|Augusto_0101|F|2|2|Minh'alma|A alma|
+|01|02|Augusto_0102|F|4|2|oh!...|em|eis:|, só|
+|01|03|Augusto_0103|F|8|2|ruínas|sangue|brumas|vermes|destroços|carnificina|mistérios|gargalhadas|
 |01|04|Augusto_0104|F|1|1|e|
-|01|05|Augusto_0105|F|5|5|alheamento|desalento|tormentos|aberração|inferno|
-|02|01|Augusto_0201|F|12|4|range|brada|urra|ruge|afaga|berra|embala|canta|executa|assobia|escarra|manieta|
+|01|05|Augusto_0105|F|5|3|alheamento|desalento|tormentos|aberração|inferno|
+|02|01|Augusto_0201|F|12|1|range|brada|urra|ruge|afaga|berra|embala|canta|executa|assobia|escarra|manieta|
 |02|02|Augusto_0202|F|3|3|esta|uma|outra|
-|02|03|Augusto_0203|F|8|5|sedenta|hedionda|bendita|risonha|sonora|alucinada|encantada|esplêndida|
+|02|03|Augusto_0203|F|8|2|sedenta|hedionda|bendita|risonha|sonora|alucinada|encantada|esplêndida|
 |02|04|Augusto_0204|F|3|3|sonata|alegoria|volata|
 |03|01|Augusto_0301|F|1|1|- |
-|03|02|Augusto_0302|F|6|5|pura|nebulosa|perpétua|tênue|obscura|triste|
-|03|03|Augusto_0303|F|5|5|mocidade|imortalidade|necessidade|frialdade|liberdade|
-|03|04|Augusto_0304|F|10|10|eólica|plásmica|orgânica|apolínica|tísica|psicogenética|paralítica|raquítica|inorgânica|sanguinolenta|
+|03|02|Augusto_0302|F|6|2|pura|nebulosa|perpétua|tênue|obscura|triste|
+|03|03|Augusto_0303|F|5|3|mocidade|imortalidade|necessidade|frialdade|liberdade|
+|03|04|Augusto_0304|F|10|3|eólica|plásmica|orgânica|apolínica|tísica|psicogenética|paralítica|raquítica|inorgânica|sanguinolenta|
 |03|05|Augusto_0305|F|1|1|,|
 |04|01|Augusto_0401|F|1|1|que pela|
-|04|02|Augusto_0402|F|5|5|madrugada|boca|aurora|mandíbula|estrada|
+|04|02|Augusto_0402|F|5|3|madrugada|boca|aurora|mandíbula|estrada|
 |04|03|Augusto_0403|F|3|3|puríssima|singularíssima|santíssima|
-|04|04|Augusto_0404|F|8|5|escapa|avança|corre|vibra|rodeia|brota|fulge|assombra|
+|04|04|Augusto_0404|F|8|2|escapa|avança|corre|vibra|rodeia|brota|fulge|assombra|
 |05|00|
-|06|01|Augusto_0601|F|5|5|e apenas|e sempre|e no entanto|enquanto|mas|
+|06|01|Augusto_0601|F|5|3|e apenas|e sempre|e no entanto|enquanto|mas|
 |06|02|Augusto_0602|F|9|5|desata|desarraiga|trama|agrega|sobe|embaça|aumenta|representa|esbarra|
 |06|03|Augusto_0603|F|1|1|,|
-|06|04|Augusto_0604|F|11|11|ínfima|nirvana|erma|mínima|singular|soberana|íntima|moderna|humana|operária|quotidiana|
+|06|04|Augusto_0604|F|11|6|ínfima|nirvana|erma|mínima|singular|soberana|íntima|moderna|humana|operária|quotidiana|
 |06|05|Augusto_0605|F|1|1|,|
-|06|06|Augusto_0606|F|11|7|ínfima|nirvana|erma|mínima|singular|soberana|íntima|moderna|humana|operária|quotidiana|
-|07|01|Augusto_0701|F|11|11|ergue-se|dissolve-se|vai-se|ri-se|vinga-se|olha-se|levanta-se|destrói-se|fita-se|enche-se|troca-se|
-|07|02|Augusto_0702|F|5|5|úsnea|brônzea|criptógama|nervosa|incisiva|
-|07|03|Augusto_0703|F|2|1|feito|tal|
-|07|04|Augusto_0704|F|7|3|vermelhidão|corrupião|visão|éter|tesoura|fantasma|molécula|
+|06|06|Augusto_0606|F|11|2|ínfima|nirvana|erma|mínima|singular|soberana|íntima|moderna|humana|operária|quotidiana|
+|07|01|Augusto_0701|F|11|6|ergue-se|dissolve-se|vai-se|ri-se|vinga-se|olha-se|levanta-se|destrói-se|fita-se|enche-se|troca-se|
+|07|02|Augusto_0702|F|5|3|úsnea|brônzea|criptógama|nervosa|incisiva|
+|07|03|Augusto_0703|F|2|2|feito|tal|
+|07|04|Augusto_0704|F|7|4|vermelhidão|corrupião|visão|éter|tesoura|fantasma|molécula|
 |08|01|Augusto_0801|F|1|1|e|
-|08|02|Augusto_0802|F|6|5|receando|tragando|cantando|despertando|antegozando|vendo|
-|08|03|Augusto_0803|F|5|5|a formidável|a inseparável|a miserável|a inevitável|a vil|
+|08|02|Augusto_0802|F|6|2|receando|tragando|cantando|despertando|antegozando|vendo|
+|08|03|Augusto_0803|F|5|3|a formidável|a inseparável|a miserável|a inevitável|a vil|
 |08|04|Augusto_0804|F|9|5|infância|rutilância|repugnância|ardência|substância|ambiência|consciência|imanência|influência|
-|09|01|Augusto_0701|T|9|4|ergue-se|dissolve-se|vinga-se|olha-se|levanta-se|destrói-se|fita-se|enche-se|troca-se|
-|09|02|Augusto_0902|F|10|5|ideal|cenobial|neuronial|animal|sepulcral|ancestral|fatal|frontal|mortal|imortal|
+|09|01|Augusto_0701|T|9|9|ergue-se|dissolve-se|vinga-se|olha-se|levanta-se|destrói-se|fita-se|enche-se|troca-se|
+|09|02|Augusto_0902|F|10|8|ideal|cenobial|neuronial|animal|sepulcral|ancestral|fatal|frontal|mortal|imortal|
 |09|03|Augusto_0903|F|1|1|e|
-|09|04|Augusto_0904|F|17|1|escorre|anônima|última|intima|pousa|apedreja|sucumbe|fecunda|ecoa|bate|continua|úmida|murcha|sentencia|acorda|manda|espelha|
+|09|04|Augusto_0904|F|17|8|escorre|anônima|última|intima|pousa|apedreja|sucumbe|fecunda|ecoa|bate|continua|úmida|murcha|sentencia|acorda|manda|espelha|
 |09|05|Augusto_0905|F|1|1|:|
 |10|00|
-|11|01|Augusto_1101|F|8|5|contorta-te|esponta-te|refugia-te|consola-te|leva-te|segue-te|arrasta-te|carrega-te|
+|11|01|Augusto_1101|F|8|2|contorta-te|esponta-te|refugia-te|consola-te|leva-te|segue-te|arrasta-te|carrega-te|
 |11|02|Augusto_1102|F|1|1|em tua própria|
-|11|03|Augusto_1103|F|26|8|fome|carne|rota|célula|sombra|cápsula|crença|chaga|luta|gruta|víscera|grade|matéria|goela|pessoa|lama|derrota|saliva|via-látea|ventura|ânsia|agonia|vontade|voz|idéia|esperança|
+|11|03|Augusto_1103|F|26|7|fome|carne|rota|célula|sombra|cápsula|crença|chaga|luta|gruta|víscera|grade|matéria|goela|pessoa|lama|derrota|saliva|via-látea|ventura|ânsia|agonia|vontade|voz|idéia|esperança|
 |11|04|Augusto_1104|F|1|1|,|
-|12|01|Augusto_1201|F|10|5|acostuma-te|serve-te|salva-te|põe-te|olha-te|declara-te|assiste-te|deixa-te|pensa-te|senta-te|
+|12|01|Augusto_1201|F|10|8|acostuma-te|serve-te|salva-te|põe-te|olha-te|declara-te|assiste-te|deixa-te|pensa-te|senta-te|
 |12|02|Augusto_1202|F|1|1|em|
-|12|03|Augusto_1203|F|12|3|gaiola|tumba|futuro|terra|descrença|solo|guerra|certeza|refúgio|óvulo|polo|cripta|
-|12|04|Augusto_1204|F|7|3|escaldante|fecundante|infante|gigante|agonizante|repugnante|semelhante|
-|13|01|Augusto_1301|F|5|5|a calar|a espreitar|a entornar|a tilintar|a importar|
+|12|03|Augusto_1203|F|12|12|gaiola|tumba|futuro|terra|descrença|solo|guerra|certeza|refúgio|óvulo|polo|cripta|
+|12|04|Augusto_1204|F|7|4|escaldante|fecundante|infante|gigante|agonizante|repugnante|semelhante|
+|13|01|Augusto_1301|F|5|3|a calar|a espreitar|a entornar|a tilintar|a importar|
 |13|02|Augusto_1302|F|3|3|esse|tão|igual|
-|13|03|Augusto_1303|F|8|5|horrível|infeliz|podre|inquieto|absconso|abstrato|obsoleto|incompleto|
-|13|04|Augusto_1304|F|17|1|ferrolho|evangelho|pergaminho|encéfalo|cerebelo|túmulo|monstro|esforço|verso|poder|passado|crime|resíduo|osso|ardor|soneto|grito|
+|13|03|Augusto_1303|F|8|2|horrível|infeliz|podre|inquieto|absconso|abstrato|obsoleto|incompleto|
+|13|04|Augusto_1304|F|17|8|ferrolho|evangelho|pergaminho|encéfalo|cerebelo|túmulo|monstro|esforço|verso|poder|passado|crime|resíduo|osso|ardor|soneto|grito|
 |14|00|
 |15|01|Augusto_1501|F|1|1|pois|
-|15|02|Augusto_1502|F|7|3|inconscientemente|panteisticamente|profundissimamente|imperceptivelmente|circularmente|certamente|igualmente|
-|15|03|Augusto_1503|F|5|5|ensanguentada|caída|perdida|destruída|espessa|
+|15|02|Augusto_1502|F|7|4|inconscientemente|panteisticamente|profundissimamente|imperceptivelmente|circularmente|certamente|igualmente|
+|15|03|Augusto_1503|F|5|3|ensanguentada|caída|perdida|destruída|espessa|
 |16|01|Augusto_1601|F|9|5|a língua|a hora|a noite|a vida|a glória|a desgraça|a morte|a fúria|a saudade|
 |16|02|Augusto_1602|F|1|1|,|
-|16|03|Augusto_1603|F|20|13|louca|bruta|quimera|carcaça|sagrada|plebéa|fera|voraz|vasta|besta|trágica|famulenta|ampla|tola|fanal|ávida|anjo|universal|idiota|feixe|
+|16|03|Augusto_1603|F|20|6|louca|bruta|quimera|carcaça|sagrada|plebéa|fera|voraz|vasta|besta|trágica|famulenta|ampla|tola|fanal|ávida|anjo|universal|idiota|feixe|
 |16|04|Augusto_1604|F|1|1|,|
-|16|05|Augusto_1605|F|7|5|ainda|agora|talvez|outrora|depois|afinal|um dia|
+|16|05|Augusto_1605|F|7|6|ainda|agora|talvez|outrora|depois|afinal|um dia|
 |16|06|Augusto_1606|F|1|1|há-de|
-|16|07|Augusto_1607|F|6|5|tocá-lo|comê-lo|roê-lo|beijá-lo|carcomê-lo|mordê-lo|
+|16|07|Augusto_1607|F|6|2|tocá-lo|comê-lo|roê-lo|beijá-lo|carcomê-lo|mordê-lo|
 |16|08|Augusto_1608|F|1|1|...|
 |17|01|Augusto_1701|F|9|2|atrelado|escaveirado|esquecido|vencido|dissolvido|infecundo|incógnito|manumisso|desintegrado|
 |17|02|Augusto_1702|F|1|1|,|
 |17|03|Augusto_1703|F|1|1|a|
-|17|04|Augusto_1704|F|5|1|feder|tremer|morrer|viver|arder|
+|17|04|Augusto_1704|F|5|4|feder|tremer|morrer|viver|arder|
 |17|05|Augusto_1705|F|9|4|em solidão|na podridão|na escuridão|de ingratidão|em sofreguidão|de obsessão|por ilusão|em danação|sem não nem chão|
 |17|06|Augusto_1706|F|1|1|!|
 <EOF>
-CATAPALA = 70
-VERBETES = 363
-PALAVRAS = 422
-VARIATIO = 658.457.391.696.046.200.000.000.000.000.000.000.000                             
-Build_By_Lay_2_Ipo em 02/02/2021_11:21
+# 
+#     Verbetes gerados: 66
+#     Verbetes do tema: 333
+#     Bancos de ítimos: 392
+# Análise combinatória: 731.619.324.106.718.334.890.803.200.000.000.000.000 (undecilhões)  
+# 
+# Build_By_Lay_2_Ipo em 02/02/2021_11:21
+# 

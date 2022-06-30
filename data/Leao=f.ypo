@@ -6,22 +6,25 @@
 *- ocupar|comunicativos|
 *-
 |01|01|Leao=f_0101|F|1|1|Ao|
-|01|02|Leao=f_0102|F|4|2|conferir o|impulsionar o|prezar o|alimentar o|
-|01|03|Leao=f_0103|F|4|2|entusiasmo|otimismo|companheirismo|estilo|
+|01|02|Leao=f_0102|F|4|4|conferir o|impulsionar o|prezar o|alimentar o|
+|01|03|Leao=f_0103|F|4|4|entusiasmo|otimismo|companheirismo|estilo|
 |02|01|Leao=f_0201|F|1|1|e a|
-|02|02|Leao=f_0202|F|6|5|iniciativa|generosidade|lealdade|alegria|gentileza|simpatia|
+|02|02|Leao=f_0202|F|6|1|iniciativa|generosidade|lealdade|alegria|gentileza|simpatia|
 |03|01|Leao=f_0301|F|1|1|de forma|
-|03|02|Leao=f_0302|F|10|6|criativa|original|diferente|intensa|apaixonada|carismática|prazerosa|saudável|extrovertida|digna|
+|03|02|Leao=f_0302|F|10|4|criativa|original|diferente|intensa|apaixonada|carismática|prazerosa|saudável|extrovertida|digna|
 |04|01|Leao=f_0401|F|1|1|você|
-|04|02|Leao=f_0402|F|4|1|faz da amizade uma coisa bela|faz amigos pela admiração mútua|faz de amigos algo fundamental no viver|faz amigos pela identificação de ideias|
+|04|02|Leao=f_0402|F|4|3|faz da amizade uma coisa bela|faz amigos pela admiração mútua|faz de amigos algo fundamental no viver|faz amigos pela identificação de ideias|
 |05|01|Leao=f_0501|F|1|1|e mostra com|
-|05|02|Leao=f_0502|F|6|1|entusiasmo|otimismo|companheirismo|estilo|carisma|simpatia|
-|06|01|Leao=f_0601|F|3|1|o porquê|o motivo|a razão|
-|06|02|Leao=f_0602|F|15|12|da estrela que brilha|do melhor para o próximo|de ser tão boa amiga|da exuberância de ser|da calma majestade|de expandir os limites|da paixão pela vida|dos objetivos elevados|do simples bom humor|de toda liderança|do acaso da sorte|de parecer cheio de vida|de estar no centro do palco|de tanto sucesso|de ser reconhecido|
+|05|02|Leao=f_0502|F|6|3|entusiasmo|otimismo|companheirismo|estilo|carisma|simpatia|
+|06|01|Leao=f_0601|F|3|3|o porquê|o motivo|a razão|
+|06|02|Leao=f_0602|F|15|5|da estrela que brilha|do melhor para o próximo|de ser tão boa amiga|da exuberância de ser|da calma majestade|de expandir os limites|da paixão pela vida|dos objetivos elevados|do simples bom humor|de toda liderança|do acaso da sorte|de parecer cheio de vida|de estar no centro do palco|de tanto sucesso|de ser reconhecido|
 |06|03|Leao=f_0603|F|1|1|.|
 <EOF>
-CATAPALA = 27
-VERBETES = 86
-PALAVRAS = 133
-VARIATIO = 1.036.800                                                                       
-Build_By_Lay_2_Ipo em 02/02/2021_11:19
+# 
+#     Verbetes gerados: 27
+#     Verbetes do tema: 96
+#     Bancos de ítimos: 58
+# Análise combinatória: 1.036.800 (milhões)  
+# 
+# Build_By_Lay_2_Ipo em 02/02/2021_11:19
+# 

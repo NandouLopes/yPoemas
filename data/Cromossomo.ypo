@@ -1,35 +1,38 @@
 *-
 *- Cromossomo.ypo
 *-
-|01|01|Cromossomo_0101|F|4|3|Neste mundo|Nesta terrinha|Neste planeta|Num "mundinho"|
+|01|01|Cromossomo_0101|F|4|2|Neste mundo|Nesta terrinha|Neste planeta|Num "mundinho"|
 |02|01|Cromossomo_0201|F|1|1|onde|
-|02|02|Cromossomo_0202|F|17|14|bilionários bregas|bandidos de gravata|filhinhos de papai|bispos de araque|anônimos famosos|astros do cinema|homens de poder|pobres coitados|meninos-bomba|meros cafajestes|sem-terra-nem-tetos|artistas populares|celebridades etéreas|"Influencers"|almas ilibadas|homens "de bens"|"Promoters"|
+|02|02|Cromossomo_0202|F|17|6|bilionários bregas|bandidos de gravata|filhinhos de papai|bispos de araque|anônimos famosos|astros do cinema|homens de poder|pobres coitados|meninos-bomba|meros cafajestes|sem-terra-nem-tetos|artistas populares|celebridades etéreas|"Influencers"|almas ilibadas|homens "de bens"|"Promoters"|
 |02|03|Cromossomo_0203|F|1|1|,|
-|03|01|Cromossomo_0202|T|17|3|bilionários bregas|bandidos de gravata|filhinhos de papai|bispos de araque|anônimos famosos|astros do cinema|homens de poder|pobres coitados|meninos-bomba|meros cafajestes|sem-terra-nem-tetos|artistas populares|celebridades etéreas|"Influencers"|"Promoters"|almas ilibadas|homens "de bens"|
+|03|01|Cromossomo_0202|T|17|9|bilionários bregas|bandidos de gravata|filhinhos de papai|bispos de araque|anônimos famosos|astros do cinema|homens de poder|pobres coitados|meninos-bomba|meros cafajestes|sem-terra-nem-tetos|artistas populares|celebridades etéreas|"Influencers"|"Promoters"|almas ilibadas|homens "de bens"|
 |03|02|Cromossomo_0302|F|1|1|e|
-|03|03|Cromossomo_0303|F|8|4|ratos, reis e rainhas|políticos corruptos|togados supremos|tribos indígenas|"YouTubers"|nobres traficantes|velhos impostores|jovens taciturnos|
-|04|01|Cromossomo_0401|F|4|3|compartilham|repartem|misturam|dividem|
-|04|02|Cromossomo_0402|F|7|6|fantasias|astúcias|mazelas|amenidades|falácias|seus ardis|bravatas|
+|03|03|Cromossomo_0303|F|8|3|ratos, reis e rainhas|políticos corruptos|togados supremos|tribos indígenas|"YouTubers"|nobres traficantes|velhos impostores|jovens taciturnos|
+|04|01|Cromossomo_0401|F|4|2|compartilham|repartem|misturam|dividem|
+|04|02|Cromossomo_0402|F|7|2|fantasias|astúcias|mazelas|amenidades|falácias|seus ardis|bravatas|
 |05|01|Cromossomo_0501|F|1|1|com|
-|05|02|Cromossomo_0502|F|4|2|pessoas comuns|cidadãos respeitáveis|pessoas "do bem"|meros mortais|
+|05|02|Cromossomo_0502|F|4|1|pessoas comuns|cidadãos respeitáveis|pessoas "do bem"|meros mortais|
 |06|01|Cromossomo_0601|F|1|1|que|
-|06|02|Cromossomo_0602|F|15|8|gozam feriados|curtem novelas|fogem da moda|produzem "selfies"|acordam cedo|mal tiram férias|acatam regras|seguem a moda|andam de ônibus|mandam mensagens|traem seus pares|mostram mais caras|publicam fotos|batem cartão|frequentam shoppings|
+|06|02|Cromossomo_0602|F|15|13|gozam feriados|curtem novelas|fogem da moda|produzem "selfies"|acordam cedo|mal tiram férias|acatam regras|seguem a moda|andam de ônibus|mandam mensagens|traem seus pares|mostram mais caras|publicam fotos|batem cartão|frequentam shoppings|
 |06|03|Cromossomo_0603|F|1|1|e|
-|06|04|Cromossomo_0604|F|11|11|andam na linha|postam curtidas|não se maculam|comem ao quilo|enfrentam filas|pregam mundícies|prezam lisuras|ouvem comícios|creem no fisco|buscam saídas|vivem nas redes|
+|06|04|Cromossomo_0604|F|11|8|andam na linha|postam curtidas|não se maculam|comem ao quilo|enfrentam filas|pregam mundícies|prezam lisuras|ouvem comícios|creem no fisco|buscam saídas|vivem nas redes|
 |06|05|Cromossomo_0605|F|1|1|...|
 |07|00|
-|08|01|Cromossomo_0801|F|6|5|Na igualdade,|Nos cromossomos,|Na última hora,|Em comum,|Na intimidade|No fim das contas,|
-|09|01|Cromossomo_0901|F|4|1|todos|nós|apenas|alguns de nós|
-|09|02|Cromossomo_0902|F|10|6|pagamos contas|cumprimos horários|tememos algo|fornicamos|fazemos festas|amamos alguém|fingimos paz|sonhamos por vezes|sentimos fome|rezamos no medo|
+|08|01|Cromossomo_0801|F|6|4|Na igualdade,|Nos cromossomos,|Na última hora,|Em comum,|Na intimidade|No fim das contas,|
+|09|01|Cromossomo_0901|F|4|4|todos|nós|apenas|alguns de nós|
+|09|02|Cromossomo_0902|F|10|1|pagamos contas|cumprimos horários|tememos algo|fornicamos|fazemos festas|amamos alguém|fingimos paz|sonhamos por vezes|sentimos fome|rezamos no medo|
 |09|03|Cromossomo_0903|F|1|1|e|
-|09|04|Cromossomo_0904|F|9|1|geramos lixo|dormimos no escuro|criamos filhos|rimos da vida|brindamos amigos|reproduzimos|sofremos notícias|temos perguntas|comemos de fome|
+|09|04|Cromossomo_0904|F|9|3|geramos lixo|dormimos no escuro|criamos filhos|rimos da vida|brindamos amigos|reproduzimos|sofremos notícias|temos perguntas|comemos de fome|
 |09|05|Cromossomo_0905|F|1|1|.|
 |10|00|
-|11|01|Cromossomo_1101|F|8|8|Teremos o mesmo fim|Vivemos no mesmo mundo|Será que há de haver mais|Oramos ao mesmo Pai|Levamos a mesma vida|Sabemos a que viemos|Há um mundo paralelo|Servimos ao mesmo Deus|
+|11|01|Cromossomo_1101|F|8|7|Teremos o mesmo fim|Vivemos no mesmo mundo|Será que há de haver mais|Oramos ao mesmo Pai|Levamos a mesma vida|Sabemos a que viemos|Há um mundo paralelo|Servimos ao mesmo Deus|
 |11|02|Cromossomo_1102|F|1|1|?|
 <EOF>
-CATAPALA = 37
-VERBETES = 191
-PALAVRAS = 273
-VARIATIO = 896.690.995.200                                                                 
-Build_By_Lay_2_Ipo em 02/02/2021_11:10
+# 
+#     Verbetes gerados: 36
+#     Verbetes do tema: 235
+#     Bancos de ítimos: 134
+# Análise combinatória: 2.779.486.617.600 (trilhões)  
+# 
+# Build_By_Lay_2_Ipo em 02/02/2021_11:10
+# 
