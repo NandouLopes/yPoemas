@@ -3,23 +3,26 @@
 *-
 *- Touro: de 21 de Abril a 20 de Maio
 *-
-|01|01|Touro=m_0101|F|11|2|Confiável|Vaidoso|Carinhoso|Prático|Leal|Sincero|Justo|Digno de confiança|Estável|Atraente|Paciente|
+|01|01|Touro=m_0101|F|11|3|Confiável|Vaidoso|Carinhoso|Prático|Leal|Sincero|Justo|Digno de confiança|Estável|Atraente|Paciente|
 |01|02|Touro=m_0102|F|1|1|e|
-|01|03|Touro=m_0103|F|8|3|protetor|afetivo|ambicioso|trabalhador|sensível|esforçado|tranquilo|determinado|
+|01|03|Touro=m_0103|F|8|6|protetor|afetivo|ambicioso|trabalhador|sensível|esforçado|tranquilo|determinado|
 |01|04|Touro=m_0104|F|1|1|,|
 |02|01|Touro=m_0201|F|1|1|você|
 |02|02|Touro=m_0202|F|3|1|cultiva|adora|preza|
-|02|03|Touro=m_0203|F|11|2|a boa comida|os bons amigos|estar perto da família|programas caseiros|viver confortavelmente|a alegria das festas|o carinho essencial|ser profundo nas emoções|a simples beleza|os prazeres da vida|o luxo do conforto|
+|02|03|Touro=m_0203|F|11|3|a boa comida|os bons amigos|estar perto da família|programas caseiros|viver confortavelmente|a alegria das festas|o carinho essencial|ser profundo nas emoções|a simples beleza|os prazeres da vida|o luxo do conforto|
 |02|04|Touro=m_0204|F|1|1|.|
 |03|00|
-|04|01|Touro=m_0401|F|2|2|Pronto para|Disposto a|
-|04|02|Touro=m_0402|F|6|5|ajudar o outro|ser confidente|tornar-se querido|dar conselhos|sentir-se útil|ser profundo nas emoções|
+|04|01|Touro=m_0401|F|2|1|Pronto para|Disposto a|
+|04|02|Touro=m_0402|F|6|6|ajudar o outro|ser confidente|tornar-se querido|dar conselhos|sentir-se útil|ser profundo nas emoções|
 |04|03|Touro=m_0403|F|1|1|,|
-|05|01|Touro=m_0501|F|4|3|dono um bom coração,|consciente de seu papel,|sensual na medida certa,|provocante... mas sem exageros,|
-|06|01|Touro=m_0601|F|9|1|faz amizades que duram pela vida.|sabe como deve agir e age.|faz do seu ambiente o melhor.|sabe ser útil onde quer que esteja.|traz a marca das pessoas tranquilas.|sabe usar o seu carisma.|em busca do bem estar espiritual.|sabe manter o romantismo.|enobrece o gosto pela vida.|
+|05|01|Touro=m_0501|F|4|2|dono um bom coração,|consciente de seu papel,|sensual na medida certa,|provocante... mas sem exageros,|
+|06|01|Touro=m_0601|F|9|7|faz amizades que duram pela vida.|sabe como deve agir e age.|faz do seu ambiente o melhor.|sabe ser útil onde quer que esteja.|traz a marca das pessoas tranquilas.|sabe usar o seu carisma.|em busca do bem estar espiritual.|sabe manter o romantismo.|enobrece o gosto pela vida.|
 <EOF>
-CATAPALA = 24
-VERBETES = 108
-PALAVRAS = 148
-COMBINAS = 1.254.528                                                                       
-Build_By_Lay_2_Ipo em 01/01/2021_18:54
+# 
+#     Verbetes gerados: 25
+#     Verbetes do tema: 120
+#     Bancos de ítimos: 59
+# Análise combinatória: 1.254.528 (milhões)  
+# 
+# Build_By_Lay_2_Ipo em 01/01/2021_18:54
+# 

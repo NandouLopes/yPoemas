@@ -3,23 +3,26 @@
 *-
 *- Manter |01|02| & |02|02| pareados...
 *-
-|01|01|Rito_0101|F|30|7|Saiba|Sonde|Ouse|Tente|Busque|Plante|Arrisque|Revolva|Conte|Fabrique|Invente|Rabisque|Sugira|Ostente|Cante|Mude|Vença|Ouça|Faça|Curta|Acate|Vista|Aceite|Rasgue|Veja|Imite|Assuma|Ignore|Finque|Abra|
-|01|02|Rito_0102|F|5|5|mais|outros|novos|velhos|alguns|
+|01|01|Rito_0101|F|30|16|Saiba|Sonde|Ouse|Tente|Busque|Plante|Arrisque|Revolva|Conte|Fabrique|Invente|Rabisque|Sugira|Ostente|Cante|Mude|Vença|Ouça|Faça|Curta|Acate|Vista|Aceite|Rasgue|Veja|Imite|Assuma|Ignore|Finque|Abra|
+|01|02|Rito_0102|F|5|4|mais|outros|novos|velhos|alguns|
 |01|03|Rito_0103|F|7|3|horizontes|versos|caminhos|olhares|sonhos|poemas|limites|
 |01|04|rito_0104|F|1|1|,|
-|02|01|Rito_0201|T|30|17|saiba|sonde|ouse|tente|busque|plante|arrisque|revolva|conte|fabrique|invente|rabisque|sugira|ostente|cante|mude|vença|ouça|faça|curta|acate|vista|aceite|rasgue|veja|imite|assuma|ignore|finque|abra|
-|02|02|Rito_0202|F|5|2|mais|velhas|outras|novas|algumas|
-|02|03|Rito_0203|F|6|1|saídas|ideias|senhas|alegrias|rimas|sendas|
-|03|01|Rito_0301|F|2|2|e|ou,|
-|03|02|Rito_0201|T|30|21|saiba|sonde|ouse|tente|busque|plante|arrisque|revolva|conte|fabrique|invente|rabisque|sugira|ostente|cante|mude|vença|ouça|faça|curta|acate|vista|aceite|rasgue|veja|imite|assuma|ignore|finque|abra|
-|03|03|Rito_0303|F|15|14|o amanhã|um futuro|o tédio|amanhãs|o diferente|os pecados|suspiros|as manhãs|o incerto|a folia|um problema|um amanhã|os contentes|carapuças|loucuras|
-|03|04|Rito_0304|F|2|2|...|:|
+|02|01|Rito_0201|T|30|30|saiba|sonde|ouse|tente|busque|plante|arrisque|revolva|conte|fabrique|invente|rabisque|sugira|ostente|cante|mude|vença|ouça|faça|curta|acate|vista|aceite|rasgue|veja|imite|assuma|ignore|finque|abra|
+|02|02|Rito_0202|F|5|1|mais|velhas|outras|novas|algumas|
+|02|03|Rito_0203|F|6|4|saídas|ideias|senhas|alegrias|rimas|sendas|
+|03|01|Rito_0301|F|2|1|e|ou,|
+|03|02|Rito_0201|T|30|17|saiba|sonde|ouse|tente|busque|plante|arrisque|revolva|conte|fabrique|invente|rabisque|sugira|ostente|cante|mude|vença|ouça|faça|curta|acate|vista|aceite|rasgue|veja|imite|assuma|ignore|finque|abra|
+|03|03|Rito_0303|F|15|8|o amanhã|um futuro|o tédio|amanhãs|o diferente|os pecados|suspiros|as manhãs|o incerto|a folia|um problema|um amanhã|os contentes|carapuças|loucuras|
+|03|04|Rito_0304|F|2|1|...|:|
 |04|00|
-|05|01|Rito_0501|F|35|25|Fique-se mais leve|Ande na corda bamba|Repita os acertos|Faça e aconteça|Resolva-se feliz|Assine-se embaixo..|Fuja do tédio|Vingue um projeto|Mande na esperança|Caia no ócio|Salve os rascunhos|Chega de mesmices|Dê um perdido|Negue os absurdos|Fuja do óbvio|Mostre à que veio|Ache um destino|Prove o contrário|Regue esperanças|Faça acontecer|Busque o não feito|Não atire no escuro|Ou creia, ou acredite|Benvindo, perdido|Resolva se feliz|Nem pense no espaço|Invoque algum anjo|Renove seu ego|Caiba no breu|Acorde pra vida|Atinja as tais metas|Acorde na corda bamba|São coisas da vida|Murro em ponta de faca..|Evite conselhos..|
+|05|01|Rito_0501|F|35|4|Fique-se mais leve|Ande na corda bamba|Repita os acertos|Faça e aconteça|Resolva-se feliz|Assine-se embaixo..|Fuja do tédio|Vingue um projeto|Mande na esperança|Caia no ócio|Salve os rascunhos|Chega de mesmices|Dê um perdido|Negue os absurdos|Fuja do óbvio|Mostre à que veio|Ache um destino|Prove o contrário|Regue esperanças|Faça acontecer|Busque o não feito|Não atire no escuro|Ou creia, ou acredite|Benvindo, perdido|Resolva se feliz|Nem pense no espaço|Invoque algum anjo|Renove seu ego|Caiba no breu|Acorde pra vida|Atinja as tais metas|Acorde na corda bamba|São coisas da vida|Murro em ponta de faca..|Evite conselhos..|
 |05|02|Rito_0502|F|1|1|.|
 <EOF>
-CATAPALA = 13
-VERBETES = 143
-PALAVRAS = 215
-VARIATIO = 7.620.480.000                                                                   
-Build_By_Lay_2_Ipo em 02/02/2021_11:24
+# 
+#     Verbetes gerados: 13
+#     Verbetes do tema: 207
+#     Bancos de ítimos: 169
+# Análise combinatória: 57.550.500.000 (bilhões)  
+# 
+# Build_By_Lay_2_Ipo em 02/02/2021_11:24
+# 

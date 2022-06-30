@@ -8,40 +8,43 @@
 *-
 *- aramaico|minúcia|teológico|
 *-
-|01|01|Reinos_0101|F|5|1|Mosaico|Ensaio|Teste|Estudo|Palpite|
-|01|02|Reinos_0102|T|21|12|automático|axiomático|prático|carismático|didático|dilemático|diplomático|dogmático|dramático|emblemático|enfático|enigmático|estático|fanático|homeopático|iniciático|lunático|midiático|pragmático|atemático|trágico|
+|01|01|Reinos_0101|F|5|5|Mosaico|Ensaio|Teste|Estudo|Palpite|
+|01|02|Reinos_0102|T|21|7|automático|axiomático|prático|carismático|didático|dilemático|diplomático|dogmático|dramático|emblemático|enfático|enigmático|estático|fanático|homeopático|iniciático|lunático|midiático|pragmático|atemático|trágico|
 |01|03|Reinos_0103|F|1|1|,|
-|02|01|Reinos_0201|F|43|8|enérgico|estratégico|homérico|ascético|imagético|apoético|dialético|esquelético|estético|frenético|hermético|hipotético|impoético|mimético|profético|sincrético|sintético|cético|cibernético|cosmético|assimétrico|aético|magnético|paranoico|estoico|heroico|neófito|tecnológico|lógico|antológico|ilógico|demagógico|genealógico|mercadológico|mitológico|patológico|pedagógico|escatológico|caótico|autofágico|fálico|nostálgico|verborrágico|
+|02|01|Reinos_0201|F|43|30|enérgico|estratégico|homérico|ascético|imagético|apoético|dialético|esquelético|estético|frenético|hermético|hipotético|impoético|mimético|profético|sincrético|sintético|cético|cibernético|cosmético|assimétrico|aético|magnético|paranoico|estoico|heroico|neófito|tecnológico|lógico|antológico|ilógico|demagógico|genealógico|mercadológico|mitológico|patológico|pedagógico|escatológico|caótico|autofágico|fálico|nostálgico|verborrágico|
 |02|02|Reinos_0202|F|1|1|e|
-|02|03|Reinos_0203|F|11|2|esfíngico|fatídico|atípico|apolítico|litúrgico|analítico|lúdico|crítico|verídico|cirúrgico|idílico|
+|02|03|Reinos_0203|F|11|3|esfíngico|fatídico|atípico|apolítico|litúrgico|analítico|lúdico|crítico|verídico|cirúrgico|idílico|
 |03|01|Reinos_0301|F|1|1|sobre a|
-|03|02|Reinos_0302|T|14|12|eficácia|malícia|audácia|impudicícia|perspicácia|inépcia|argúcia|falácia|retórica|indecência|luxúria|esbórnia|imundícia|astúcia|
+|03|02|Reinos_0302|T|14|9|eficácia|malícia|audácia|impudicícia|perspicácia|inépcia|argúcia|falácia|retórica|indecência|luxúria|esbórnia|imundícia|astúcia|
 |04|01|Reinos_0401|F|1|1|da "|
 |04|02|Reinos_0402|F|7|4|escória|milícia|quadrilha|falange|caterva|gentalha|súcia|
 |04|03|Reinos_0403|F|1|1|"|
-|04|04|Reinos_0404|F|16|16|caótica|antiética|apática|trágica|errática|fisiológica|burocrática|antipática|mítica|sistemática|patética|retórica|eclética|espúria|fatídica|grotesca|
-|05|01|Reinos_0501|F|9|1|que reina na|que pilha a|que afana na|que desgoverna a|que manda na|que surrupia a|que rapina a|que saqueia a|que usurpa a|
-|05|02|Reinos_0502|F|14|3|distante|letárgica|inventada|provável|inocente|improvável|suposta|inverossímil|idílica|tranquila|exótica|insólita|pacata|bucólica|
-|05|03|Reinos_0503|F|16|8|Lituânia|Prússia|Escócia|Croácia|Tunísia|Grécia|Etiópia|Ucrânia|Tchetchênia|Malásia|Indonésia|Geórgia|Pasárgada|Patagônia|Andaluzia|Capadócia|
+|04|04|Reinos_0404|F|16|11|caótica|antiética|apática|trágica|errática|fisiológica|burocrática|antipática|mítica|sistemática|patética|retórica|eclética|espúria|fatídica|grotesca|
+|05|01|Reinos_0501|F|9|7|que reina na|que pilha a|que afana na|que desgoverna a|que manda na|que surrupia a|que rapina a|que saqueia a|que usurpa a|
+|05|02|Reinos_0502|F|14|10|distante|letárgica|inventada|provável|inocente|improvável|suposta|inverossímil|idílica|tranquila|exótica|insólita|pacata|bucólica|
+|05|03|Reinos_0503|F|16|3|Lituânia|Prússia|Escócia|Croácia|Tunísia|Grécia|Etiópia|Ucrânia|Tchetchênia|Malásia|Indonésia|Geórgia|Pasárgada|Patagônia|Andaluzia|Capadócia|
 |05|04|Reinos_0504|F|1|1|: |
 |06|00|
 |07|01|Reinos_0701|F|8|7|Bando|Corja|Súcia|Caterva|Escória|Quadrilha|Milícia|Falange|
 |07|02|Reinos_0702|F|1|1|de... ( Assinale a Opção Correta )|
 |08|00|
 |09|01|Reinos_0901|F|1|1|[  ] - |
-|09|02|Reinos_0902|F|9|2|Canalhas|Párias|Larápios|Crápulas|Caquéticos|Heréticos|Beócios|Vândalos|Fétidos|
+|09|02|Reinos_0902|F|9|8|Canalhas|Párias|Larápios|Crápulas|Caquéticos|Heréticos|Beócios|Vândalos|Fétidos|
 |10|01|Reinos_1001|F|1|1|[  ] - |
-|10|02|Reinos_1002|F|8|7|Despóticos|Pernósticos|Idióticos|Ímpios|Pulhas|Lúgubres|Estúpidos|Esdrúxulos|
+|10|02|Reinos_1002|F|8|2|Despóticos|Pernósticos|Idióticos|Ímpios|Pulhas|Lúgubres|Estúpidos|Esdrúxulos|
 |11|01|Reinos_1101|F|1|1|[  ] - |
-|11|02|Reinos_1102|T|9|4|Canalhas|Párias|Larápios|Crápulas|Caquéticos|Heréticos|Beócios|Vândalos|Fétidos|
+|11|02|Reinos_1102|T|9|9|Canalhas|Párias|Larápios|Crápulas|Caquéticos|Heréticos|Beócios|Vândalos|Fétidos|
 |12|01|Reinos_1201|F|1|1|[  ] - |
-|12|02|Reinos_1202|T|8|2|Despóticos|Pernósticos|Idióticos|Ímpios|Pulhas|Lúgubres|Estúpidos|Esdrúxulos|
+|12|02|Reinos_1202|T|8|4|Despóticos|Pernósticos|Idióticos|Ímpios|Pulhas|Lúgubres|Estúpidos|Esdrúxulos|
 |13|01|Reinos_1301|F|1|1|[  ] -  |
-|13|02|Reinos_1302|F|11|1|É dando que se|Dar murro em ponta de|Antes tarde do que|Aqui se faz, aqui se|Deus ajuda quem cedo|Há males que vem|Quem com ferro fere|Fazer o bem sem ver a|Antes só que mal|Quem dá aos pobres|Água mole em pedra dura|
+|13|02|Reinos_1302|F|11|2|É dando que se|Dar murro em ponta de|Antes tarde do que|Aqui se faz, aqui se|Deus ajuda quem cedo|Há males que vem|Quem com ferro fere|Fazer o bem sem ver a|Antes só que mal|Quem dá aos pobres|Água mole em pedra dura|
 |13|03|Reinos_1303|F|1|1|...|
 <EOF>
-CATAPALA = 51
-VERBETES = 224
-PALAVRAS = 318
-VARIATIO = 735.401.085.950.361.600                                                         
-Build_By_Lay_2_Ipo em 02/02/2021_11:18
+# 
+#     Verbetes gerados: 52
+#     Verbetes do tema: 247
+#     Bancos de ítimos: 222
+# Análise combinatória: 71.620.061.720.739.840 (quatrilhões)  
+# 
+# Build_By_Lay_2_Ipo em 02/02/2021_11:18
+# 

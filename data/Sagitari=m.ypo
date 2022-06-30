@@ -9,26 +9,29 @@
 |01|01|Sagitari=m_0101|F|3|3|Sua maneira de|Sua coragem para|Sua facilidade para|
 |01|02|Sagitari=m_0102|F|3|3|viver|levar a vida|"tocar o barco"|
 |02|01|Sagitari=m_0201|F|3|1|de forma|de modo|de um jeito|
-|02|02|Sagitari=m_0202|F|5|2|livre|diferente|otimista|exuberante|nobre|
-|03|01|Sagitari=m_0301|F|2|2|e mostrar seu|e deixar fluir o|
-|03|02|Sagitari=m_0302|F|5|2|lado|espírito|estilo|temperamento|caráter|
-|03|03|Sagitari=m_0303|F|12|6|divertido|criativo|inteligente|aventureiro|inquieto|informal|filosófico|atrevido|sociável|despojado|intuitivo|jovial|
+|02|02|Sagitari=m_0202|F|5|1|livre|diferente|otimista|exuberante|nobre|
+|03|01|Sagitari=m_0301|F|2|1|e mostrar seu|e deixar fluir o|
+|03|02|Sagitari=m_0302|F|5|1|lado|espírito|estilo|temperamento|caráter|
+|03|03|Sagitari=m_0303|F|12|9|divertido|criativo|inteligente|aventureiro|inquieto|informal|filosófico|atrevido|sociável|despojado|intuitivo|jovial|
 |04|01|Sagitari=m_0401|F|3|3|é respeitada|é admirada|é enaltecida|
-|04|02|Sagitari=m_0402|F|2|2|pelos que o conhecem|por quem te conhece|
+|04|02|Sagitari=m_0402|F|2|1|pelos que o conhecem|por quem te conhece|
 |04|03|Sagitari=m_0403|F|1|1|.|
 |05|00|
 |06|01|Sagitari=m_0601|F|1|1|Sua|
 |06|02|Sagitari=m_0602|F|3|1|natureza|mente|índole|
-|06|03|Sagitari=m_0603|F|13|13|livre|aberta|sem preconceitos|bem humorada|entusiasmada|ambiciosa|otimista|diplomática|jovial|generosa|brilhante|digna|justa|
+|06|03|Sagitari=m_0603|F|13|4|livre|aberta|sem preconceitos|bem humorada|entusiasmada|ambiciosa|otimista|diplomática|jovial|generosa|brilhante|digna|justa|
 |07|01|Sagitari=m_0701|F|1|1|está sempre pronta para|
-|07|02|Sagitari=m_0702|F|8|7|reunir todo mundo|amar a liberdade|valorizar a independência|acreditar nas oportunidades|agir com honestidade|aprender, ensinar|encarar desafios|abrir novos espaços|
-|08|01|Sagitari=m_0801|F|4|4|e cultivar amigos|e influenciar pessoas|e atrair amigos|e extrair o máximo|
+|07|02|Sagitari=m_0702|F|8|2|reunir todo mundo|amar a liberdade|valorizar a independência|acreditar nas oportunidades|agir com honestidade|aprender, ensinar|encarar desafios|abrir novos espaços|
+|08|01|Sagitari=m_0801|F|4|3|e cultivar amigos|e influenciar pessoas|e atrair amigos|e extrair o máximo|
 |08|02|Sagitari=m_0802|F|1|1|em busca|
-|08|03|Sagitari=m_0803|F|8|5|da emoção|de intensidade|das experiências|de boas conversas|de novos assuntos|de boas aventuras|de boas energias|da sinceridade|
+|08|03|Sagitari=m_0803|F|8|8|da emoção|de intensidade|das experiências|de boas conversas|de novos assuntos|de boas aventuras|de boas energias|da sinceridade|
 |09|01|Sagitari=m_0901|F|3|3|pelo dom de suas palavras.|dos que passam por sua vida.|dos que o rodeiam.|
 <EOF>
-CATAPALA = 45
-VERBETES = 116
-PALAVRAS = 162
-COMBINAS = 2.911.334.400                                                                   
-Build_By_Lay_2_Ipo em 15/01/2021_17:39
+# 
+#     Verbetes gerados: 42
+#     Verbetes do tema: 129
+#     Bancos de ítimos: 81
+# Análise combinatória: 2.911.334.400 (bilhões)  
+# 
+# Build_By_Lay_2_Ipo em 15/01/2021_17:39
+# 

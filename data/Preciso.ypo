@@ -1,35 +1,43 @@
 *- 
 *- Preciso.ypo - dedicado à Aníssia
 *- 
-|01|01|Preciso_0101|F|12|12|Não preciso de|Coisas a se evitar|Não me fazem falta|Não preciso de|Coisas a se evitar|Não me fazem falta|Não precisamos de|As coisas que não precisamos|Não nos fazem falta|Não precisamos de|As coisas que não precisamos|Não nos fazem falta|
+|01|01|Preciso_0101|F|12|11|Não preciso de|Coisas a se evitar|Não me fazem falta|Não preciso de|Coisas a se evitar|Não me fazem falta|Não precisamos de|As coisas que não precisamos|Não nos fazem falta|Não precisamos de|As coisas que não precisamos|Não nos fazem falta|
 |01|02|Preciso_0102|F|1|1|:|
-|02|01|Preciso_0201|F|8|5|palpites|conselhos|ironias|falcatruas|preconceitos|intolerâncias|ideias pre-concebidas|intransigências|
+|02|01|Preciso_0201|F|8|4|palpites|conselhos|ironias|falcatruas|preconceitos|intolerâncias|ideias pre-concebidas|intransigências|
 |02|02|Preciso_0202|F|1|1|,|
-|02|03|Preciso_0203|F|10|4|máquinas de costura manuais|descascadores de abacaxi|enceradeiras inoxidáveis|luxos roubados|trituradores de frutas|pesquisas de opinião|carros de luxo|produtos de marca|vendedores de consórcios|mordaças|
+|02|03|Preciso_0203|F|10|5|máquinas de costura manuais|descascadores de abacaxi|enceradeiras inoxidáveis|luxos roubados|trituradores de frutas|pesquisas de opinião|carros de luxo|produtos de marca|vendedores de consórcios|mordaças|
 |02|04|Preciso_0204|F|1|1|,|
 |03|01|Preciso_0301|F|7|7|concordar com absurdos|entender o abstrato|acatar o nefasto|curtidas sem comentários|acordar com o insensato|verdades soberanas|duvidar de sonhos|
 |03|02|Preciso_0302|F|1|1|,|
-|03|03|Preciso_0303|F|9|8|discutir com xiitas|ler fake-news|informações inúteis|divergir do óbvio|formadores de opinião|criar fake-news|discursos vazios|acreditar em fake-news|lacradores de opinião|
-|04|01|Preciso_0401|F|4|3|ou|e muito menos|... ou pior:|e menos ainda|
-|04|02|Preciso_0402|F|12|12|que me digam para onde ir|que pensem que penso igual|que me digam o que fazer|a ignorância dos fatos|que me digam o que calar|que me apontem caminhos|que nos digam para onde ir|que pensem que pensamos igual|que nos digam o que fazer|a ignorância dos fatos|que nos digam o que calar|que nos apontem caminhos|
+|03|03|Preciso_0303|F|9|4|discutir com xiitas|ler fake-news|informações inúteis|divergir do óbvio|formadores de opinião|criar fake-news|discursos vazios|acreditar em fake-news|lacradores de opinião|
+|04|01|Preciso_0401|F|4|2|ou|e muito menos|... ou pior:|e menos ainda|
+|04|02|Preciso_0402|F|12|11|que me digam para onde ir|que pensem que penso igual|que me digam o que fazer|a ignorância dos fatos|que me digam o que calar|que me apontem caminhos|que nos digam para onde ir|que pensem que pensamos igual|que nos digam o que fazer|a ignorância dos fatos|que nos digam o que calar|que nos apontem caminhos|
 |04|03|Preciso_0403|F|1|1|.|
 |05|00|
-|06|01|Preciso_0601|F|4|3|Isso,|Consequentemente,|Pensando bem,|Por assim pensar,|
-|06|02|Preciso_0602|F|6|2|mal interessa!|é desdenhável...|não é cabível.|é desimportante...|é desprezível.|não faz diferença!|
+|06|01|Preciso_0601|F|4|2|Isso,|Consequentemente,|Pensando bem,|Por assim pensar,|
+|06|02|Preciso_0602|F|6|1|mal interessa!|é desdenhável...|não é cabível.|é desimportante...|é desprezível.|não faz diferença!|
 |07|00|
-|08|01|Preciso_0801|F|9|6|Mas|Todavia|Porém|Contudo|Não obstante|Entrementes|Por outro lado|Outrossim|Entretanto|
+|08|01|Preciso_0801|F|9|2|Mas|Todavia|Porém|Contudo|Não obstante|Entrementes|Por outro lado|Outrossim|Entretanto|
 |08|02|Preciso_0802|F|1|1|,|
-|08|03|Preciso_0803|F|5|3|ver apenas o que é preciso,|pensar assim,|limitar-se ao preciso,|prender-se à esse "mundinho",|contentar-se com isso|
-|09|01|Preciso_0901|F|2|1|é deixar de lado o|é desconsiderar o|
-|09|02|Preciso_0902|F|12|5|inesperado|que virá|futuro|inusitado|olhar para o novo|amanhã|imprevisível|outro|contar estrelas|imponderável|resto do mundo|contraditório|
+|08|03|Preciso_0803|F|5|4|ver apenas o que é preciso,|pensar assim,|limitar-se ao preciso,|prender-se à esse "mundinho",|contentar-se com isso|
+|09|01|Preciso_0901|F|2|2|é deixar de lado o|é desconsiderar o|
+|09|02|Preciso_0902|F|12|4|inesperado|que virá|futuro|inusitado|olhar para o novo|amanhã|imprevisível|outro|contar estrelas|imponderável|resto do mundo|contraditório|
 |09|03|Preciso_0903|F|1|1|.|
 |10|00|
 |11|01|Preciso_1101|F|1|1|Talvez melhor|
-|11|02|Preciso_1102|F|5|4|descartar algum vício...|descobrir alegrias!|olhar para dentro...|ouvir uma sinfonia!|repensar o avesso.|
+|11|02|Preciso_1102|F|5|5|descartar algum vício...|descobrir alegrias!|olhar para dentro...|ouvir uma sinfonia!|repensar o avesso.|
 |12|01|Preciso_1201|F|1|1|Não precisar é|
-|12|02|Preciso_1202|F|4|1|um hábito|uma dádiva|preciso|ser você em você|
+|12|02|Preciso_1202|F|4|4|um hábito|uma dádiva|preciso|ser você em você|
 |12|03|Preciso_1203|F|1|1|.|
 |13|00|
-|14|01|Preciso_1401|F|9|4|Entre a precisão e a "precisão", como ser neutro?|Só sei que não vou por aí!|A verdadeira liberdade é não ter que ter pra onde ir.|Invente o seu dia do "Não preciso disso..."|Toda unanimidade é burra.|É preciso que o dia seja diferente?|Navegar é preciso. Viver não é preciso.|O nome disso é liberdade!|Invente o seu dia do "Isso não me faz falta!"|
-|15|01|Preciso_1402|F|9|4|$|(Cassiano Ricardo)|(José Régio)|(Nando Lopes)|(Anônimo)|(Nelson Rodrigues)|(Anônimo)|(Pompeu, Petrarca & Fernando Pessoa)|(Anônimo)|(Sócrates)|
+|14|01|Preciso_1401|F|9|9|Entre a precisão e a "precisão", como ser neutro?|Só sei que não vou por aí!|A verdadeira liberdade é não ter que ter pra onde ir.|Invente o seu dia do "Não preciso disso..."|Toda unanimidade é burra.|É preciso que o dia seja diferente?|Navegar é preciso. Viver não é preciso.|O nome disso era para ser  liberdade!|Invente o seu dia do "Isso não me faz falta!"|
+|15|01|Preciso_1402|F|9|9|$|(Cassiano Ricardo)                             |(José Régio)              |(Nando Lopes)                                        |(Anônimo)                                  |(Nelson Rodrigues)       |(Anônimo)                          |(Pompeu, Petrarca & Fernando Pessoa)   |(Anônimo)                            |(Sócrates)                                   |
 <EOF>
+# 
+#     Verbetes gerados: 94
+#     Verbetes do tema: 301
+#     Bancos de ítimos: 137
+# Análise combinatória: 135.444.234.240.000 (trilhões)  
+# 
+#   Build_By_Lay_2_Ipo: 2022-06-28 18:49:51.948946
+# 

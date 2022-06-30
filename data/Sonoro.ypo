@@ -3,14 +3,17 @@
 *-
 *- |, contentes,|, alegres,|
 *-
-|01|01|Sonoro_0101|F|9|5|Brincam|Saltam|Bailam|Pairam|Voam|Pousam|Flanam|Passam|Planam|
-|01|02|Sonoro_0102|F|16|15|passarinhos|andorinhas|sabiás|periquitos|canários|maritacas|gaivotas|tico-ticos|papagaios|colibris|pintassilgos|patativas|saírastiês||beija-flores|sanhaços|
-|02|01|Sonoro_0201|F|30|28|levitando|aninhando|semeando|pipocando|povoando|entoando|ostentando|espalhando|plantando|derramando|ecoando|construindo|exibindo|espelhando|ofertando|alçando|içando|atiçando|exprimindo|evadindo|dispersando|aspergindo|doando|premiando|cultuando|gravitando|fecundando|atraindo|pregando|cravando|
-|02|02|Sonoro_0202|F|12|8|gorjeios|trinados|desejos|cantigas|saudades|cantares|melodias|alegrias|horizontes|cantorias|artes|liberdades|
-|03|01|Sonoro_0301|F|23|13|em diapasão.|feito oração.|... as aves hão!|pelo verão.|por diversão.|em procissão.|na imensidão.|pra lá do chão.|... quase missão!|em breve canção.|sem profissão.|sem obrigação.|nunca em vão.|onde há ilusão.|sem precisão.|em palmas de mão.|no certo sertão.|n'algum coração.|solos, em profusão.|... ó sã solidão.|na multidão.|... é mansidão!|distantes do não.|
+|01|01|Sonoro_0101|F|9|2|Brincam|Saltam|Bailam|Pairam|Voam|Pousam|Flanam|Passam|Planam|
+|01|02|Sonoro_0102|F|16|10|passarinhos|andorinhas|sabiás|periquitos|canários|maritacas|gaivotas|tico-ticos|papagaios|colibris|pintassilgos|patativas|saírastiês||beija-flores|sanhaços|
+|02|01|Sonoro_0201|F|30|7|levitando|aninhando|semeando|pipocando|povoando|entoando|ostentando|espalhando|plantando|derramando|ecoando|construindo|exibindo|espelhando|ofertando|alçando|içando|atiçando|exprimindo|evadindo|dispersando|aspergindo|doando|premiando|cultuando|gravitando|fecundando|atraindo|pregando|cravando|
+|02|02|Sonoro_0202|F|12|11|gorjeios|trinados|desejos|cantigas|saudades|cantares|melodias|alegrias|horizontes|cantorias|artes|liberdades|
+|03|01|Sonoro_0301|F|23|15|em diapasão.|feito oração.|... as aves hão!|pelo verão.|por diversão.|em procissão.|na imensidão.|pra lá do chão.|... quase missão!|em breve canção.|sem profissão.|sem obrigação.|nunca em vão.|onde há ilusão.|sem precisão.|em palmas de mão.|no certo sertão.|n'algum coração.|solos, em profusão.|... ó sã solidão.|na multidão.|... é mansidão!|distantes do não.|
 <EOF>
-CATAPALA = 7
-VERBETES = 109
-PALAVRAS = 130
-VARIATIO = 1.192.320                                                                       
-Build_By_Lay_2_Ipo em 02/02/2021_11:22
+# 
+#     Verbetes gerados: 6
+#     Verbetes do tema: 104
+#     Bancos de ítimos: 90
+# Análise combinatória: 1.192.320 (milhões)  
+# 
+# Build_By_Lay_2_Ipo em 02/02/2021_11:22
+# 

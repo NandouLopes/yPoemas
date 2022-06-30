@@ -7,44 +7,47 @@
 *- Manter |06|02| e |07|02| despareados para evitar repetidos
 *-
 |01|01|Meteoro_0101|F|1|1|Tempo|
-|01|02|Meteoro_0102|F|7|3|parcialmente|completamente|ligeiramente|totalmente|fatalmente|inutilmente|certamente|
-|01|03|Meteoro_0103|F|9|1|instável|encoberto|nublado|estável|fechado|descoberto|seco|aberto|sereno|
+|01|02|Meteoro_0102|F|7|7|parcialmente|completamente|ligeiramente|totalmente|fatalmente|inutilmente|certamente|
+|01|03|Meteoro_0103|F|9|4|instável|encoberto|nublado|estável|fechado|descoberto|seco|aberto|sereno|
 |01|04|Meteoro_0104|F|8|8|na região|em todo o estado|no nosso bairro|no centro|no litoral|em partes do país|no planeta|no seu bairro|
 |02|01|Meteoro_0201|F|1|1|com|
 |02|02|Meteoro_0202|F|8|2|fortes chuvas|chuvas fracas|chuvas isoladas|chuvas esparsas|chuvas torrenciais|poucas chuvas|chuvas ocasionais|chuvas intermitentes|
 |02|03|Meteoro_0203|F|1|1|e|
-|02|04|Meteoro_0204|F|9|9|nuvens perdidas|nebulosidade variável|poucas nuvens|muito sol|muita nebulosidade|raras nuvens|pouca nebulosidade|muitas nuvens|pouco sol|
+|02|04|Meteoro_0204|F|9|3|nuvens perdidas|nebulosidade variável|poucas nuvens|muito sol|muita nebulosidade|raras nuvens|pouca nebulosidade|muitas nuvens|pouco sol|
 |02|05|Meteoro_0205|F|1|1|.|
 |03|00|
 |04|01|Meteoro_0401|F|1|1|A|
 |04|02|Meteoro_0402|T|33|12|ocorrência|certeza|previsão|incidência|precipitação|probabilidade|possibilidade|existência|insistência|permanência|absência|acidência|afluência|ausência|cadência|carência|coincidência|congruência|contundência|eficiência|fluência|frequência|iminência|incoerência|insolência|insurgência|latência|onipotência|opulência|persistência|precedência|prevalência|veemência|
 |04|03|Meteoro_0403|F|1|1|de|
-|04|04|Meteoro_0404|F|30|28|nevascas|brisas|rajadas de ventos|raios|chuviscos|geadas|trovões|abalos sísmicos|maremotos|granizo|tornados|furacões|tormentas|faíscas|dilúvios|coriscos|lufadas de ventos|cataclismos|vulcões|vendavais|ciclones|pés-de-vento|fortes neblinas|ventos uivantes|ventanias|borrascas|tempestades|terremotos|garoas|tsunamis|
+|04|04|Meteoro_0404|F|30|4|nevascas|brisas|rajadas de ventos|raios|chuviscos|geadas|trovões|abalos sísmicos|maremotos|granizo|tornados|furacões|tormentas|faíscas|dilúvios|coriscos|lufadas de ventos|cataclismos|vulcões|vendavais|ciclones|pés-de-vento|fortes neblinas|ventos uivantes|ventanias|borrascas|tempestades|terremotos|garoas|tsunamis|
 |05|01|Meteoro_0501|F|4|2|é fruto da|deve-se à|decorre da|tem origem na|
-|05|02|Meteoro_0502|T|30|4|abundância|alternância|concomitância|culminância|constância|discordância|deselegância|dominância|equidistância|errância|exorbitância|extravagância|exuberância|ganância|inconstância|inoperância|insignificância|insinuância|intolerância|invariância|irrelevância|jactância|petulância|predominância|preponderância|redundância|reentrância|relevância|relutância|sustância|
+|05|02|Meteoro_0502|T|30|19|abundância|alternância|concomitância|culminância|constância|discordância|deselegância|dominância|equidistância|errância|exorbitância|extravagância|exuberância|ganância|inconstância|inoperância|insignificância|insinuância|intolerância|invariância|irrelevância|jactância|petulância|predominância|preponderância|redundância|reentrância|relevância|relutância|sustância|
 |06|01|Meteoro_0601|F|6|4|da Alta|da Zona|da Área|da Faixa|da Ala|da Linha|
-|06|02|Meteoro_0602|F|11|10|Subtropical|Internante|de Convergência|Convectiva|de Instabilidade|Dissidente|Transitiva|de Divergência|Invertida|Equatorial|Itinerante|
-|06|03|Meteoro_0603|F|21|14|do Atlântico Norte|do Pacífico Sul|do Mar do Japão|do Baixo Mediterrâneo|do Atlântico Sul|da Massa Polar|do Oceano Índico|do Cone Andino|do Estreito de Bering|dos Ventos Siberianos|do Efeito Estufa|do Mar Cáspio|da Floresta Amazônica|do Médio Himalaia|do Baixo Leblon|do Eixo Ártico|do Quartier Latin|do deserto de Atacama|de uma Vila, Madalena|da Faixa de Gaza|dos Balcãs de alguma alma|
+|06|02|Meteoro_0602|F|11|8|Subtropical|Internante|de Convergência|Convectiva|de Instabilidade|Dissidente|Transitiva|de Divergência|Invertida|Equatorial|Itinerante|
+|06|03|Meteoro_0603|F|21|11|do Atlântico Norte|do Pacífico Sul|do Mar do Japão|do Baixo Mediterrâneo|do Atlântico Sul|da Massa Polar|do Oceano Índico|do Cone Andino|do Estreito de Bering|dos Ventos Siberianos|do Efeito Estufa|do Mar Cáspio|da Floresta Amazônica|do Médio Himalaia|do Baixo Leblon|do Eixo Ártico|do Quartier Latin|do deserto de Atacama|de uma Vila, Madalena|da Faixa de Gaza|dos Balcãs de alguma alma|
 |06|04|Meteoro_0604|F|1|1|.|
 |07|00|
 |08|01|Meteoro_0801|F|1|1|Temperatura|
-|08|02|Meteoro_0802|F|21|21|em gradativa elevação|exagerada|em ligeiro declínio|variando entre < gCelcius >|singular|em baixa|sufocante|variando entre < gCelcius >|na média|moderada|em queda|variando entre < gCelcius >|absurda|incomum|em alta|variando entre < gCelcius >|mutante|amena|ponderada|sem paralelos|variando entre < gCelcius >|
+|08|02|Meteoro_0802|F|21|18|em gradativa elevação|exagerada|em ligeiro declínio|variando entre < gCelcius >|singular|em baixa|sufocante|variando entre < gCelcius >|na média|moderada|em queda|variando entre < gCelcius >|absurda|incomum|em alta|variando entre < gCelcius >|mutante|amena|ponderada|sem paralelos|variando entre < gCelcius >|
 |09|01|Meteoro_0901|F|1|1|e umidade relativa|
-|09|02|Meteoro_0902|F|20|16|em gradativa elevação|exagerada|em ligeiro declínio|singular|de < pUmido >|em baixa|sufocante|na média|moderada|de < pUmido >|em queda|absurda|incomum|em alta|de < pUmido >|mutante|sem paralelos|em suave declínio|de < pUmido >|sem precedentes|
+|09|02|Meteoro_0902|F|20|12|em gradativa elevação|exagerada|em ligeiro declínio|singular|de < pUmido >|em baixa|sufocante|na média|moderada|de < pUmido >|em queda|absurda|incomum|em alta|de < pUmido >|mutante|sem paralelos|em suave declínio|de < pUmido >|sem precedentes|
 |09|03|Meteoro_0903|F|1|1|.|
 |10|00|
 |11|01|Meteoro_1101|F|8|6|Na parte da tarde|Durante a madrugada|No fim de semana|Ao final do dia|Depois de amanhã|No decorrer do período|Ao longo do dia|Quando menos esperado|
 |11|02|Meteoro_1102|F|1|1|,|
-|12|01|Meteoro_1201|F|14|10|predomínio|possibilidade|probabilidade|ocorrência|precipitação|previsão|certeza|incidência|acidência|afluência|congruência|iminência|insurgência|insistência|
+|12|01|Meteoro_1201|F|14|13|predomínio|possibilidade|probabilidade|ocorrência|precipitação|previsão|certeza|incidência|acidência|afluência|congruência|iminência|insurgência|insistência|
 |12|02|Meteoro_1202|F|1|1|de|
-|12|03|Meteoro_1203|F|30|27|nevascas|brisas|rajadas de ventos|raios|chuviscos|geadas|trovões|abalos sísmicos|maremotos|granizo|tornados|furacões|tormentas|faíscas|dilúvios|coriscos|lufadas de ventos|cataclismos|vulcões|vendavais|ciclones|pés-de-vento|fortes neblinas|ventos uivantes|ventanias|borrascas|tempestades|terremotos|garoas|tsunamis|
+|12|03|Meteoro_1203|F|30|3|nevascas|brisas|rajadas de ventos|raios|chuviscos|geadas|trovões|abalos sísmicos|maremotos|granizo|tornados|furacões|tormentas|faíscas|dilúvios|coriscos|lufadas de ventos|cataclismos|vulcões|vendavais|ciclones|pés-de-vento|fortes neblinas|ventos uivantes|ventanias|borrascas|tempestades|terremotos|garoas|tsunamis|
 |12|03|Meteoro_1203|F|1|1|e|
-|12|04|Meteoro_1204|F|14|11|carinhos|suspiros|arco-íris|paixões|cafunés|abraços|arrepios|serenatas|sorrisos|beijos ardentes|carícias|afagos|ternura|faíscas|
-|13|01|Meteoro_1301|F|19|11|em pontos quase esparsos|onde ainda caiba amor|em peles que andam juntas|em lugares mais distantes|em corações já solteiros|em casais apaixonados|em algum dos continentes|em almas meio incautas|num longe longe daqui|em algum paraíso terreno|no fim do fim de algum túnel|na paz de alguns lares|em olhares que andam dados|desabando lá do céu|em corações desprecavidos|brotando aos borbotões|em olhares que andam juntos|onde nada é proibido|em olhares convergentes|
+|12|04|Meteoro_1204|F|14|1|carinhos|suspiros|arco-íris|paixões|cafunés|abraços|arrepios|serenatas|sorrisos|beijos ardentes|carícias|afagos|ternura|faíscas|
+|13|01|Meteoro_1301|F|19|6|em pontos quase esparsos|onde ainda caiba amor|em peles que andam juntas|em lugares mais distantes|em corações já solteiros|em casais apaixonados|em algum dos continentes|em almas meio incautas|num longe longe daqui|em algum paraíso terreno|no fim do fim de algum túnel|na paz de alguns lares|em olhares que andam dados|desabando lá do céu|em corações desprecavidos|brotando aos borbotões|em olhares que andam juntos|onde nada é proibido|em olhares convergentes|
 |13|02|Meteoro_1302|F|1|1|.|
 <EOF>
-CATAPALA = 45
-VERBETES = 325
-PALAVRAS = 556
-VARIATIO = 364.969.648.078.376.200.000                                                     
-Build_By_Lay_2_Ipo em 02/02/2021_11:18
+# 
+#     Verbetes gerados: 46
+#     Verbetes do tema: 427
+#     Bancos de ítimos: 316
+# Análise combinatória: 65.044.548.902.931.333.120.000 (sextilhões)  
+# 
+# Build_By_Lay_2_Ipo em 02/02/2021_11:18
+# 

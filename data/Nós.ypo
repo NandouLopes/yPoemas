@@ -4,39 +4,47 @@
 *- desparear |02|02| e todas as linhas except |T|
 *-
 |01|01|Nós_0101|F|1|1|Eles, "|
-|01|02|Nós_0102|F|7|1|usados pelo tempo|repletos de memórias|abusados de vida|recheados de passados|eternos aprendizes|sofridos de amores|meros sobreviventes|
+|01|02|Nós_0102|F|7|7|usados pelo tempo|repletos de memórias|abusados de vida|recheados de passados|eternos aprendizes|sofridos de amores|meros sobreviventes|
 |01|03|Nós_0103|F|1|1|",|
-|02|01|Nós_0201|F|4|2|que já|que só|que só|que já|
+|02|01|Nós_0201|F|4|4|que já|que só|que só|que já|
 |02|02|Nós_0202|F|11|7|juntaram trapos|atiraram por culatras|viveram de migalhas|andaram de mãos dadas|trocaram farpas|deram cara a tapa|acreditaram|renasceram de cinzas|pularam cercas|lutaram por igualdades|buscaram o que é justo|
 |02|03|Nós_0203|F|1|1|,|
-|03|01|Nós_0301|F|10|2|tiveram mais idades|recolheram os cacos|fugiram de infernos|desataram tantos nós|souberam alegrias|votaram errado|fizeram história|arregaçaram mangas|são tão imperfeitos|cansaram de milagres|
+|03|01|Nós_0301|F|10|10|tiveram mais idades|recolheram os cacos|fugiram de infernos|desataram tantos nós|souberam alegrias|votaram errado|fizeram história|arregaçaram mangas|são tão imperfeitos|cansaram de milagres|
 |04|01|Nós_0401|F|1|1|e|
-|04|02|Nós_0402|F|9|7|saltaram precipícios|frequentaram paraísos|colecionaram vícios|levaram tombo|recomeçaram do nada|voltaram ao início|renasceram de birra|encontraram saídas|acreditaram em utopias|
+|04|02|Nós_0402|F|9|3|saltaram precipícios|frequentaram paraísos|colecionaram vícios|levaram tombo|recomeçaram do nada|voltaram ao início|renasceram de birra|encontraram saídas|acreditaram em utopias|
 |04|03|Nós_0403|F|1|1|...|
-|05|01|Nós_0501|F|6|1|$|em que seriam|por quê seriam|onde seriam|como seriam|quando seriam|seriam|
-|05|02|Nós_0502|F|7|5|melhores que|piores que|iguais a|inferiores a|desiguais a|superiores a|inferiores a|
+|05|01|Nós_0501|F|6|3|$|em que seriam|por quê seriam|onde seriam|como seriam|quando seriam|seriam|
+|05|02|Nós_0502|F|7|4|melhores que|piores que|iguais a|inferiores a|desiguais a|superiores a|inferiores a|
 |05|03|Nós_0503|F|1|1|nós|
 |05|04|Nós_0504|F|1|1|?|
 |06|00|
 |07|01|Nós_0701|F|1|1|Nós, "|
-|07|02|Nós_0102|F|7|5|usados pelo tempo|repletos de memórias|abusados de vida|recheados de passados|eternos aprendizes|sofridos de amores|meros sobreviventes|
+|07|02|Nós_0102|F|7|4|usados pelo tempo|repletos de memórias|abusados de vida|recheados de passados|eternos aprendizes|sofridos de amores|meros sobreviventes|
 |07|03|Nós_0703|F|1|1|",|
-|08|01|Nós_0801|F|4|4|que já|que só|que já|que só|
+|08|01|Nós_0801|F|4|3|que já|que só|que já|que só|
 |08|02|Nós_0802|F|11|4|juntamos trapos|atiramos por culatras|vivemos de migalhas|andamos de mãos dadas|trocamos farpas|demos cara a tapa|acreditamos|renascemos de cinzas|pulamos cercas|lutamos por igualdades|buscamos o que é justo|
 |08|03|Nós_0803|F|1|1|,|
-|09|01|Nós_0901|F|10|7|tivemos mais idades|recolhemos os cacos|fugimos de infernos|desatamos tantos nós|soubemos alegrias|votamos errado|fizemos história|arregaçamos mangas|somos tão imperfeitos|cansamos de milagres|
+|09|01|Nós_0901|F|10|5|tivemos mais idades|recolhemos os cacos|fugimos de infernos|desatamos tantos nós|soubemos alegrias|votamos errado|fizemos história|arregaçamos mangas|somos tão imperfeitos|cansamos de milagres|
 |10|01|Nós_0401|F|1|1|e|
-|10|02|Nós_1002|F|9|8|saltamos precipícios|frequentamos paraísos|colecionamos vícios|levamos tombo|recomeçamos do nada|voltamos ao início|renascemos de birra|encontramos saídas|acreditamos em utopias|
+|10|02|Nós_1002|F|9|4|saltamos precipícios|frequentamos paraísos|colecionamos vícios|levamos tombo|recomeçamos do nada|voltamos ao início|renascemos de birra|encontramos saídas|acreditamos em utopias|
 |10|03|Nós_1003|F|1|1|...|
-|11|01|Nós_1101|F|6|5|$|em que seríamos|por quê seríamos|como seríamos|onde seríamos|quando seríamos|seríamos|
-|11|02|Nós_0502|T|7|7|melhores que|piores que|iguais a|inferiores a|desiguais a|superiores a|inferiores a|
+|11|01|Nós_1101|F|6|1|$|em que seríamos|por quê seríamos|como seríamos|onde seríamos|quando seríamos|seríamos|
+|11|02|Nós_0502|T|7|1|melhores que|piores que|iguais a|inferiores a|desiguais a|superiores a|inferiores a|
 |11|03|Nós_1103|F|1|1|eles|
 |11|04|Nós_1104|F|1|1|?|
 <EOF>
-
-Sobre a polarização que acontece no Brasil:
-
-O tema me incomoda há tempos: nós e eles.
-O mote é o pressuposto da superioridade de "uns" sobre os "outros"
-A única diferença entre "nós" e "eles" é o tempo de conjugação do verbo.
-A premissa é não oferecer respostas
+# 
+#     Verbetes gerados: 51
+#     Verbetes do tema: 218
+#     Bancos de ítimos: 122
+# Análise combinatória: 903.636.518.400 (bilhões)  
+# 
+# Build_By_Lay_2_Ipo: 30/06/2022, 11:55:23
+# 
+# Sobre a polarização que acontece no Brasil:
+# 
+# O tema me incomoda há tempos: nós e eles.
+# O mote é o pressuposto da superioridade de "uns" sobre os "outros"
+# A única diferença entre "nós" e "eles" é o tempo de conjugação do verbo.
+# A premissa é não oferecer respostas
+# 

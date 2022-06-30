@@ -1,26 +1,29 @@
 *-
 *- Sinais.ypo
 *-
-|01|01|Sinais_0101|F|17|13|Sei ser|Semeio-me|Surpreendo|Surjo|Sei-me|Sobro,|Soube Ser|Suponho-me|Sinto-me|Sigo Sendo|Sobrevivo...|Submeto-me,|Sou Sim...|Saio Sendo|Serei|Significo|Sou Semi-|
-|01|02|Sinais_0102|F|55|46|Simples|Sincero|Seiva|Servo|Súdito|Satélite|Supérfluo|Soldado|Solto|Substituto|Sumário|Simbólico|Sentinela|Sucata|Senil|Sicrano|Silente|Singelo|Solene|Sereno|Solúvel|Seguro|Surreal|Soberbo|Sábio|Solícito|Submisso|Sério|Subjetivo|Solo|Suave|Sucinto|Sólido|Sensato|Singular|Sublevado|Sintético|Suspenso|Sempre|Supremo|Sóbrio|Subcutâneo|Senhor|Servil|Sísmico|Sozinho|Subalterno|Sutil|Secreto|Sorrindo|Sabido|Sarado|Solidário|Sazonal|Selvagem|
+|01|01|Sinais_0101|F|17|9|Sei ser|Semeio-me|Surpreendo|Surjo|Sei-me|Sobro,|Soube Ser|Suponho-me|Sinto-me|Sigo Sendo|Sobrevivo...|Submeto-me,|Sou Sim...|Saio Sendo|Serei|Significo|Sou Semi-|
+|01|02|Sinais_0102|F|55|25|Simples|Sincero|Seiva|Servo|Súdito|Satélite|Supérfluo|Soldado|Solto|Substituto|Sumário|Simbólico|Sentinela|Sucata|Senil|Sicrano|Silente|Singelo|Solene|Sereno|Solúvel|Seguro|Surreal|Soberbo|Sábio|Solícito|Submisso|Sério|Subjetivo|Solo|Suave|Sucinto|Sólido|Sensato|Singular|Sublevado|Sintético|Suspenso|Sempre|Supremo|Sóbrio|Subcutâneo|Senhor|Servil|Sísmico|Sozinho|Subalterno|Sutil|Secreto|Sorrindo|Sabido|Sarado|Solidário|Sazonal|Selvagem|
 |01|03|Sinais_0103|F|1|1|.|
 |02|00|
-|03|01|Sinais_0301|F|16|11|Sagro|Saldo|Suborno|Selo|Serro|Salgo|Sopro|Subtraio|Salto|Salvo|Sarto|Satisfaço|Solapo|Saliento|Sano|Sugo|
-|03|02|Sinais_0302|F|29|11|Suspiros|Sabores|Sentidos|Sussurros|Sagas|Segundos|Sinais|Sigilos|Sandices|Sinas|Saídas|Segredos|Símbolos|Sílabas|Sementes|Sinucas|Surtos|Sonetos|Sonhos|Saberes|Séculos|Sentenças|Submundos|Superegos|Suspenses|Sobras|Sátiras|Sanhas|Sotaques|
+|03|01|Sinais_0301|F|16|6|Sagro|Saldo|Suborno|Selo|Serro|Salgo|Sopro|Subtraio|Salto|Salvo|Sarto|Satisfaço|Solapo|Saliento|Sano|Sugo|
+|03|02|Sinais_0302|F|29|19|Suspiros|Sabores|Sentidos|Sussurros|Sagas|Segundos|Sinais|Sigilos|Sandices|Sinas|Saídas|Segredos|Símbolos|Sílabas|Sementes|Sinucas|Surtos|Sonetos|Sonhos|Saberes|Séculos|Sentenças|Submundos|Superegos|Suspenses|Sobras|Sátiras|Sanhas|Sotaques|
 |03|03|Sinais_0303|F|1|1|,|
-|04|01|Sinais_0401|F|23|2|Saboto|Saqueio|Somo|Sondo|Sonho|Soo|Saturo|Sucateio|Saúdo|Soletro|Subverto|Sovo|Solto|Supero|Saboreio|Suspendo|Solvo|Sorvo|Sustento|Soterro|Seguro|Sorteio|Sequestro|
-|04|02|Sinais_0302|F|29|3|Suspiros|Sabores|Sentidos|Sussurros|Sagas|Segundos|Sinais|Sigilos|Sandices|Sinas|Saídas|Segredos|Símbolos|Sílabas|Sementes|Sinucas|Surtos|Sonetos|Sonhos|Saberes|Séculos|Sentenças|Submundos|Superegos|Suspenses|Sobras|Sátiras|Sanhas|Sotaques|
+|04|01|Sinais_0401|F|23|4|Saboto|Saqueio|Somo|Sondo|Sonho|Soo|Saturo|Sucateio|Saúdo|Soletro|Subverto|Sovo|Solto|Supero|Saboreio|Suspendo|Solvo|Sorvo|Sustento|Soterro|Seguro|Sorteio|Sequestro|
+|04|02|Sinais_0302|F|29|11|Suspiros|Sabores|Sentidos|Sussurros|Sagas|Segundos|Sinais|Sigilos|Sandices|Sinas|Saídas|Segredos|Símbolos|Sílabas|Sementes|Sinucas|Surtos|Sonetos|Sonhos|Saberes|Séculos|Sentenças|Submundos|Superegos|Suspenses|Sobras|Sátiras|Sanhas|Sotaques|
 |04|03|Sinais_0403|F|1|1|,|
 |05|01|Sinais_0501|F|21|21|Sacio|Sibilo|Silvo|Simulo|Seduzo|Suavizo|Salpico|Singro|Situo|Sirvo|Sulco|Surrupio|Suscito|Suturo|Surfo|Surto|Sugiro|Supro|Suprimo|Susto|Sacudo|
-|05|02|Sinais_0302|T|29|24|Suspiros|Sabores|Sentidos|Sussurros|Sagas|Segundos|Sinais|Sigilos|Sandices|Sinas|Saídas|Segredos|Símbolos|Sílabas|Sementes|Sinucas|Surtos|Sonetos|Sonhos|Saberes|Séculos|Sentenças|Submundos|Superegos|Suspenses|Sobras|Sátiras|Sanhas|Sotaques|
+|05|02|Sinais_0302|T|29|5|Suspiros|Sabores|Sentidos|Sussurros|Sagas|Segundos|Sinais|Sigilos|Sandices|Sinas|Saídas|Segredos|Símbolos|Sílabas|Sementes|Sinucas|Surtos|Sonetos|Sonhos|Saberes|Séculos|Sentenças|Submundos|Superegos|Suspenses|Sobras|Sátiras|Sanhas|Sotaques|
 |05|03|Sinais_0503|F|1|1|,|
-|05|04|Sinais_0102|F|55|29|Simples|Sincero|Seiva|Servo|Súdito|Satélite|Supérfluo|Soldado|Solto|Substituto|Sumário|Simbólico|Sentinela|Sucata|Senil|Sicrano|Silente|Singelo|Solene|Sereno|Solúvel|Seguro|Surreal|Soberbo|Sábio|Solícito|Submisso|Sério|Subjetivo|Solo|Suave|Sucinto|Sólido|Sensato|Singular|Sublevado|Sintético|Suspenso|Sempre|Supremo|Sóbrio|Subcutâneo|Senhor|Servil|Sísmico|Sozinho|Subalterno|Sutil|Secreto|Sorrindo|Sabido|Sarado|Solidário|Sazonal|Selvagem|
+|05|04|Sinais_0102|F|55|8|Simples|Sincero|Seiva|Servo|Súdito|Satélite|Supérfluo|Soldado|Solto|Substituto|Sumário|Simbólico|Sentinela|Sucata|Senil|Sicrano|Silente|Singelo|Solene|Sereno|Solúvel|Seguro|Surreal|Soberbo|Sábio|Solícito|Submisso|Sério|Subjetivo|Solo|Suave|Sucinto|Sólido|Sensato|Singular|Sublevado|Sintético|Suspenso|Sempre|Supremo|Sóbrio|Subcutâneo|Senhor|Servil|Sísmico|Sozinho|Subalterno|Sutil|Secreto|Sorrindo|Sabido|Sarado|Solidário|Sazonal|Selvagem|
 |05|05|Sinais_0505|F|1|1|:|
 |06|00|
-|07|01|Sinais_0701|F|40|33|Sigo Sujeito à Sua Soberania.|Só Sucumbo Se Saudades...|Sirva-se Sem Sustos.|Só Saro Sem Solidão.|Selados? Sim. Seremos.|Sacie Sua Sede.|Sou Sua Senha.|Saibamos, Sonsos, Sonhar!|Sendo Seu Sino, Soo Santo.|São Só Sons... Sem Seita.|Serei Seu, Sem Sombras.|Só Sumo em Seu Seio!|Senão, Sigo São e Salvo.|Sou Sem Surpresas.|Saio Sem Surdinas.|Sempre Soube Ser Seu Sul.|Se Sofro, Sim... Sine Die.|Só Sinto Seu Sumiço.|Seja, Sonora, Sinfonia.|Singro Sem Sossego...|Saiba-se Sublime.|Sinta-se Saciada.|Saiba Ser Saliente.|Salvo Se Sumires.|Sua Safra Sabe Ser Seda.|Se Soer Solidão, Socorro!|Se Sonho, Serás Sereia!|Sou Safo: Sei Seu Signo!|Sejamos Simbiose Sem Similar.|Seu Sorriso Supõe Serenatas.|Siga. Sou Seu Souvenir.|Seja Sol. Sou Sede.|Se Sem Sursis, Sesteio!|Sem Sequelas... Sem Sequência.|Saio, Sobretudo São.|Sei Sua Sigla: Serpente|Sem Ser Santo.|Sem Ser Salvador.|Sou Só Saliva!|Sou Sempre Sins.|
+|07|01|Sinais_0701|F|40|12|Sigo Sujeito à Sua Soberania.|Só Sucumbo Se Saudades...|Sirva-se Sem Sustos.|Só Saro Sem Solidão.|Selados? Sim. Seremos.|Sacie Sua Sede.|Sou Sua Senha.|Saibamos, Sonsos, Sonhar!|Sendo Seu Sino, Soo Santo.|São Só Sons... Sem Seita.|Serei Seu, Sem Sombras.|Só Sumo em Seu Seio!|Senão, Sigo São e Salvo.|Sou Sem Surpresas.|Saio Sem Surdinas.|Sempre Soube Ser Seu Sul.|Se Sofro, Sim... Sine Die.|Só Sinto Seu Sumiço.|Seja, Sonora, Sinfonia.|Singro Sem Sossego...|Saiba-se Sublime.|Sinta-se Saciada.|Saiba Ser Saliente.|Salvo Se Sumires.|Sua Safra Sabe Ser Seda.|Se Soer Solidão, Socorro!|Se Sonho, Serás Sereia!|Sou Safo: Sei Seu Signo!|Sejamos Simbiose Sem Similar.|Seu Sorriso Supõe Serenatas.|Siga. Sou Seu Souvenir.|Seja Sol. Sou Sede.|Se Sem Sursis, Sesteio!|Sem Sequelas... Sem Sequência.|Saio, Sobretudo São.|Sei Sua Sigla: Serpente|Sem Ser Santo.|Sem Ser Salvador.|Sou Só Saliva!|Sou Sempre Sins.|
 <EOF>
-CATAPALA = 12
-VERBETES = 239
-PALAVRAS = 541
-VARIATIO = 5.624.311.049.280.000                                                           
-Build_By_Lay_2_Ipo em 02/02/2021_11:19
+# 
+#     Verbetes gerados: 14
+#     Verbetes do tema: 405
+#     Bancos de ítimos: 319
+# Análise combinatória: 329.504.881.305.600 (trilhões)  
+# 
+# Build_By_Lay_2_Ipo em 02/02/2021_11:19
+# 
