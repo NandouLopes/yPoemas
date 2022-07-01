@@ -876,19 +876,19 @@ def page_ypoemas():
         if st.session_state.take > maxy_ypoemas:
             st.session_state.take = 0
     
-#    if not st.session_state.draw:
-    options = list(range(len(temas_list)))
-    sobrios = '↓  ' + translate('lista de Temas')
-    opt_take = st.selectbox(
-        sobrios,
-        options,
-        index=st.session_state.take,
-        format_func=lambda z: temas_list[z],
-        key='opt_take',
-    )
+    if not st.session_state.draw:
+        options = list(range(len(temas_list)))
+        sobrios = '↓  ' + translate('lista de Temas')
+        opt_take = st.selectbox(
+            sobrios,
+            options,
+            index=st.session_state.take,
+            format_func=lambda z: temas_list[z],
+            key='opt_take',
+        )
 
-    if opt_take != st.session_state.take:
-        st.session_state.take = opt_take
+        if opt_take != st.session_state.take:
+            st.session_state.take = opt_take
 
     st.session_state.tema = temas_list[st.session_state.take]
 
@@ -1135,19 +1135,19 @@ def page_off_machina():  # available off_machina_books
     if st.session_state.off_take > maxy_off_machina:  # just in case...
         st.session_state.off_take = 0
 
-#    if not st.session_state.draw:
-    options = list(range(len(off_book_pagys)))
-    sobrios = '↓  ' + translate('lista de Títulos')
-    opt_off_take = st.selectbox(
-        sobrios,
-        options,
-        index=st.session_state.off_take,
-        format_func=lambda x: off_book_pagys[x],
-        key='opt_off_take',
-    )
+    if not st.session_state.draw:
+        options = list(range(len(off_book_pagys)))
+        sobrios = '↓  ' + translate('lista de Títulos')
+        opt_off_take = st.selectbox(
+            sobrios,
+            options,
+            index=st.session_state.off_take,
+            format_func=lambda x: off_book_pagys[x],
+            key='opt_off_take',
+        )
     
-    if opt_off_take != st.session_state.off_take:
-        st.session_state.off_take = opt_off_take
+        if opt_off_take != st.session_state.off_take:
+            st.session_state.off_take = opt_off_take
 
     lnew = True
     if manu:
