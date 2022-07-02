@@ -78,7 +78,7 @@ Perfil : beauty
 Pessoa : anima
 Portal : machina
 Posfácio : anima
-Preciso : anima
+Preciso : joco
 Prefácil : joco
 Psiu : persona
 Reger : anima
