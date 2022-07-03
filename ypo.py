@@ -433,10 +433,9 @@ def load_eureka(part_of_word):
     lexico_list = []
     with open(os.path.join('./base/lexico_pt.txt'), encoding='utf-8') as lista:
         for line in lista:
-            palas_fonte = line.strip('\n')
-            part_string = palas_fonte.partition(' : ')
-            palas = part_string[0]
-            fonte = part_string[2]
+            this_line = line.strip('\n')
+            part_line = this_line.partition(' : ')
+            palas = part_line[0]
             if part_of_word.lower() in palas.lower():
                 lexico_list.append(line)
     return lexico_list
@@ -602,10 +601,10 @@ def load_arts(nome_tema):  # Select image for arts
     path_list = load_images()
     for line in path_list:
         if line.startswith(nome_tema):
-            string = line.strip('\n')
-            part_string = string.partition(' : ')
-            if nome_tema == part_string[0]:
-                path = './images/' + part_string[2] + '/'
+            this_line = line.strip('\n')
+            part_line = this_line.partition(' : ')
+            if nome_tema == part_line[0]:
+                path = './images/' + part_line[2] + '/'
                 break
 
     arts_list = []
@@ -687,9 +686,9 @@ def say_number(tema):  # search index title for eureka
     indexes = load_index()
     for line in indexes:
         if line.startswith(tema):
-            string = line.strip('\n')
-            part_string = string.partition(' : ')
-            analise = part_string[2]
+            this_line = line.strip('\n')
+            part_line = this_line.partition(' : ')
+            analise = part_line[2]
             break
             
     if st.session_state.lang != 'pt' and analise != 'nonono':
@@ -984,10 +983,10 @@ def page_eureka():
         soma_tema = []
         eureka_list = load_eureka(find_what)
         for line in eureka_list:
-            palas_fonte = line.strip('\n')
-            part_string = palas_fonte.partition(' : ')
-            palas = part_string[0]
-            fonte = part_string[2]
+            this_line = line.strip('\n')
+            part_line = this_line.partition(' : ')
+            palas = part_line[0]
+            fonte = part_line[2]
             seed_tema = fonte[0:-5]
             if (palas is None) or (fonte is None):
                 continue
@@ -1027,8 +1026,8 @@ def page_eureka():
 
             st.session_state.eureka = opt_ocur
             this_seed = seed_list[st.session_state.eureka]
-            part_string = this_seed.partition(' ➪ ')
-            nome_tema = part_string[2]
+            part_line = this_seed.partition(' ➪ ')
+            nome_tema = part_line[2]
             seed_tema = nome_tema[0:-5]
             
             st.session_state.tema = seed_tema
@@ -1292,10 +1291,10 @@ def page_polys():  # available languages
         ) as poly:
             for line in poly:
                 poly_list.append(line)
-                string = line.strip('\n')
-                part_string = string.partition(' : ')
-                poly_pais.append(translate(part_string[0]))
-                poly_ling.append(part_string[2])
+                this_line = line.strip('\n')
+                part_line = this_line.partition(' : ')
+                poly_pais.append(translate(part_line[0]))
+                poly_ling.append(part_line[2])
         poly.close()
 
         options = list(range(len(poly_list)))
