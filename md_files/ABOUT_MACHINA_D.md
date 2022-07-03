@@ -49,12 +49,12 @@
 > Na página **yPoemas** o botão **[ ? ]** mostra essas variações.  
 > Na página **eureka**  o botão **[ ? ]** mostra essas variações.  
 
-**[obs.]** - cerca de 12.700 verbetes únicos  
+**[obs.]** - cerca de 12.800 verbetes únicos  
 > foram excluídos dessa contagem:  
->> os nomes de diferentes **cidades** que aparecem nos temas Fatos e Oficio,  
->> a **umidade do ar** e as **temperaturas** no tema Meteoro,  
->> as **normas** e **datas passadas** do tema Manifesto,  
->> as **datas futuras** e as cidades que têm sede da **ABNP** no tema Oficio  
+>> os nomes de diferentes **cidades** que aparecem nos temas **Fatos** e **Oficio**,  
+>> a **umidade do ar** e as **temperaturas** no tema **Meteoro**,  
+>> as **normas** e **datas passadas** do tema **Manifesto**,  
+>> as **datas futuras** e as cidades que têm sede da **ABNP** no tema **Oficio**  
 >> e os verbetes com menos de 3 sílabas:  
 >> exemplos: o, a, à, e, é, os, as, de, da, do, eu, ao, em, um etc.  
 
