@@ -976,6 +976,9 @@ def page_eureka():
     with manu:
         manu = manu.button("?", help="help !!!")
 
+    if manu:
+        st.subheader(load_md_file('MANUAL_EUREKA.md'))
+
     if len(find_what) < 3:
         st.warning(translate("digite pelo menos 3 letras..."))
     else:
@@ -1056,21 +1059,18 @@ def page_eureka():
                 st.session_state.vide = False
 
             if lnew:
-                if manu:
-                    st.subheader(load_md_file('MANUAL_EUREKA.md'))
-                else:
-                    eureka_expander = st.expander('', expanded=True)
-                    with eureka_expander:
-                        LOGO_TEXT = curr_ypoema
-                        LOGO_IMAGE = None
-                        if st.session_state.draw:
-                            LOGO_IMAGE = load_arts(seed_tema)
+                eureka_expander = st.expander('', expanded=True)
+                with eureka_expander:
+                    LOGO_TEXT = curr_ypoema
+                    LOGO_IMAGE = None
+                    if st.session_state.draw:
+                        LOGO_IMAGE = load_arts(seed_tema)
 
-                        write_ypoema(LOGO_TEXT, LOGO_IMAGE)
-                        update_readings(seed_tema)
+                    write_ypoema(LOGO_TEXT, LOGO_IMAGE)
+                    update_readings(seed_tema)
 
-                    if st.session_state.talk:
-                        talk(curr_ypoema)
+                if st.session_state.talk:
+                    talk(curr_ypoema)
         else:
             st.warning(translate("nenhum verbete encontrado com essas letras ---> " + find_what))
 
