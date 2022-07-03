@@ -1058,14 +1058,6 @@ def page_eureka():
             if lnew:
                 if manu:
                     st.subheader(load_md_file('MANUAL_EUREKA.md'))
-
-                    LOGO_TEXT = load_info(st.session_state.tema)
-                    if st.session_state.lang != 'pt':  # translate if idioma <> pt
-                        LOGO_TEXT = translate(LOGO_TEXT)
-                        
-                    LOGO_IMAGE = './images/matrix/' + st.session_state.tema.capitalize() + '.jpg'
-                    write_ypoema(LOGO_TEXT, LOGO_IMAGE)
-                    
                 else:
                     eureka_expander = st.expander('', expanded=True)
                     with eureka_expander:
