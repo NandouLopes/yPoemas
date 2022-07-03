@@ -101,7 +101,7 @@ Sn8=ball : 1.682.614.083.150.000 (quatrilhões)
 SnowBall : 20.591.283.290.444.226.360.000.000 (setilhões)  
 Sonoro : 1.192.320 (milhões)  
 Sopros : 94.680.907.776.000.000 (quatrilhões)  
-Sos : 1.018.559.453.184 (trilhões)  
+Sos : 6.111.356.719.104 (trilhões)  
 Tempo : 112.765.820.236.797.923.580.529.825.269.143.876.665.344.000.000.000 (quindecilhões)  
 Tiro : 2.903.854.393.440.000.000 (quintilhões)  
 Tolero : 6.372.790.375.311.360.000 (quintilhões)  
@@ -164,4 +164,4 @@ ___
 ___
 Copyright © 1983-2022 Nando Lopes - **yPoemas @ máquina de fazer Poesia**  
 
-Total de variações: 112.765.820.265.471.186.578.333.495.090.938.257.334.071.616.409.605 (quindecilhões)
+Total de variações: 112.765.820.265.471.186.578.333.495.090.938.257.339.164.413.675.525 (quindecilhões)
