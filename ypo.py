@@ -466,7 +466,7 @@ def load_info(nome_tema):
                     qtd_itimos = pipe[7]
                     qtd_analiz = pipe[8]
                     qtd_cienti = pipe[9]
-                    result += '<br>'
+                    result = '<br>'
                     result += '<br>'
                     result += '<br>'
                     result += "Titulo: " + nome_tema + '<br>'
