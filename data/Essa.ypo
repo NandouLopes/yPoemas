@@ -12,34 +12,35 @@
 *-
 |01|01|Essa_0101|F|2|2|Das palavras que|Dentre as palavras que|
 |01|02|Essa_0102|F|1|1|mais|
-|01|03|Essa_0103|F|12|7|gosto|são sonoras|usamos|acalanto|prezamos|admiro|venero|gostamos|ostento|amamos|estimo|falam por si|
+|01|03|Essa_0103|F|12|1|gosto|são sonoras|usamos|acalanto|prezamos|admiro|venero|gostamos|ostento|amamos|estimo|falam por si|
 |01|04|Essa_0104|F|1|1|,|
 |02|01|Essa_0201|F|1|1|( |
-|02|02|Essa_0202|F|46|23|abóbada|acordeão|alavanca|alcateia|alfazema|artefato|artimanha|audácia|aurora|barricada|carapaça|castiçal|catarata|clamor|compasso|cotovelo|cratera|curare|descalvado|desmaio|dueto|estupefato|gafanhoto|galhofa|grotesco|hipotálamo|odisseia|papoula|paradoxo|pelicano|porcelana|primavera|quimera|saibro|sanfona|sinagoga|sinopse|sucata|tacanho|tapera|tentáculo|tijolo|tornozelo|travesso|tropeço|tálamo|
+|02|02|Essa_0202|F|46|5|abóbada|acordeão|alavanca|alcateia|alfazema|artefato|artimanha|audácia|aurora|barricada|carapaça|castiçal|catarata|clamor|compasso|cotovelo|cratera|curare|descalvado|desmaio|dueto|estupefato|gafanhoto|galhofa|grotesco|hipotálamo|odisseia|papoula|paradoxo|pelicano|porcelana|primavera|quimera|saibro|sanfona|sinagoga|sinopse|sucata|tacanho|tapera|tentáculo|tijolo|tornozelo|travesso|tropeço|tálamo|
 |02|03|Essa_0203|F|1|1|,|
-|02|04|Essa_0204|F|50|7|albatroz|acordes|ampulheta|amuleto|apogeu|arremesso|balela|bagatela|bigorna|borboleta|bracelete|caractere|carroça|centopeia|cerebelo|colchete|coreto|envelope|equinócio|escafandro|escaravelho|espectro|estilete|exagero|filete|folheto|gangorra|gorjeta|graveto|indelével|lampejo|lembrete|marionete|mariposa|minueto|mureta|palacete|parafuso|película|peçonha|pistom|placebo|proveta|ramalhete|roleta|sabonete|sarjeta|silhueta|trombeta|verbete|
+|02|04|Essa_0204|F|50|39|albatroz|acordes|ampulheta|amuleto|apogeu|arremesso|balela|bagatela|bigorna|borboleta|bracelete|caractere|carroça|centopeia|cerebelo|colchete|coreto|envelope|equinócio|escafandro|escaravelho|espectro|estilete|exagero|filete|folheto|gangorra|gorjeta|graveto|indelével|lampejo|lembrete|marionete|mariposa|minueto|mureta|palacete|parafuso|película|peçonha|pistom|placebo|proveta|ramalhete|roleta|sabonete|sarjeta|silhueta|trombeta|verbete|
 |02|05|Essa_0205|F|1|1|,|
-|02|06|Essa_0206|F|32|4|adivinho|almotolia|andaluz|anomalia|antúrio|armadilha|calmaria|catapulta|cardume|deriva|dicotomia|ergonomia|espelunca|euforia|extravio|hipotenusa|idílio|lacuna|lamparina|ludíbrio|matutino|minúcia|obtusa|obtuso|ocarina|paraninfo|perdiz|pergaminho|recidiva|remoinho|revelia|vislumbre|
+|02|06|Essa_0206|F|32|18|adivinho|almotolia|andaluz|anomalia|antúrio|armadilha|calmaria|catapulta|cardume|deriva|dicotomia|ergonomia|espelunca|euforia|extravio|hipotenusa|idílio|lacuna|lamparina|ludíbrio|matutino|minúcia|obtusa|obtuso|ocarina|paraninfo|perdiz|pergaminho|recidiva|remoinho|revelia|vislumbre|
 |02|07|Essa_0207|F|1|1| )|
 |03|01|Essa_0301|F|1|1|esta, "|
-|03|02|Essa_0302|F|32|28|raiossol|maislodias|luassua|nanônimo|passocio|viasruas|humildilhado|sonhadelo|maisnino|milviu|raciossano|ninua|dormil|neovais|nanomimo|veramais|nanocaos|cossonhei|cionasduas|egoando|surgideus|visemver|expiadias|veracaso|corachão|soacaso|mãocia|femeacho|novanave|neurapia|temporiu|mesmória|
+|03|02|Essa_0302|F|34|21|raiossol|maislodias|luassua|nanônimo|passocio|viasruas|humildilhado|sonhadelo|maisnino|milviu|raciossano|ninua|dormil|neovais|nanomimo|veramais|nanocaos|cossonhei|cionasduas|egoando|surgideus|visemver|expiadias|veracaso|corachão|soacaso|mãocia|femeacho|novanave|neurapia|temporiu|mesmória|cinemalesca|amoego|
 |03|03|Essa_0303|F|1|1|"|
 |03|04|Essa_0304|F|1|1|,|
-|04|01|Essa_0401|F|17|8|traz em si|escancara|desafia|faz-que-exala|alavanca|ressuscita|instaura|traz consigo|alumia|renova|adivinha|explora|instala|soletra|sussurra|remexe|inventa|
-|04|02|Essa_0402|F|7|3|o perfume de si mesma|a brevidade de tudo|o valor do que é mero|um sentimento de mundo|a calma do não-pensar|um perdão imprevisível|algo de novo na alma|
+|04|01|Essa_0401|F|17|7|traz em si|escancara|desafia|faz-que-exala|alavanca|ressuscita|instaura|traz consigo|alumia|renova|adivinha|explora|instala|soletra|sussurra|remexe|inventa|
+|04|02|Essa_0402|F|7|6|o perfume de si mesma|a brevidade de tudo|o valor do que é mero|um sentimento de mundo|a calma do não-pensar|um perdão imprevisível|algo de novo na alma|
 |04|03|Essa_0403|F|1|1|.|
 |05|00|
-|06|01|Essa_0601|F|10|5|Paira leve|Aquieta|Vaga livre|Desacata|Insinua-se|Adivinha|Balbucia-se|Acalanta|Ecoa|Propaga-se|
+|06|01|Essa_0601|F|10|7|Paira leve|Aquieta|Vaga livre|Desacata|Insinua-se|Adivinha|Balbucia-se|Acalanta|Ecoa|Propaga-se|
 |06|02|Essa_0602|F|3|1|com|em|... tem|
-|06|03|Essa_0603|F|15|1|plausível|visível|inefável|possível|cabível|dizível|inegável|finita|credível|tangível|legível|sabível|palpável|tecível|inaferível|
-|06|04|Essa_0604|F|11|8|geometria|simetria|revelia|maestria|rebeldia|alforria|calmaria|sintonia|nostalgia|empatia|melodia|
+|06|03|Essa_0603|F|15|13|plausível|visível|inefável|possível|cabível|dizível|inegável|finita|credível|tangível|legível|sabível|palpável|tecível|inaferível|
+|06|04|Essa_0604|F|11|11|geometria|simetria|revelia|maestria|rebeldia|alforria|calmaria|sintonia|nostalgia|empatia|melodia|
 |06|05|Essa_0605|F|1|1|.|
 <EOF>
 # 
-#     Verbetes gerados: 29
-#     Verbetes do tema: 251
-#     Bancos de ítimos: 248
-# Análise combinatória: 33.295.933.440.000 (trilhões)  
+#      Verbetes usados: 28
+#     Verbetes do tema: 252
+#      Banco de ítimos: 248
+# 
+# Análise combinatória: 34.336.431.360.000 (trilhões)  
 # 
 # Build_By_Lay_2_Ipo em 02/02/2021_11:18
 # 
