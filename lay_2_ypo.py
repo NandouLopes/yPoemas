@@ -435,7 +435,7 @@ def abre(nome_do_tema):
     :param nome_do_tema
     :return: lista do arquivo
     """
-
+    nome_do_tema = nome_do_tema.lower().capitalize()
     full_name = os.path.join("./data/", nome_do_tema) + ".ypo"
     lista = []
     with open(full_name, encoding="utf-8") as file:
