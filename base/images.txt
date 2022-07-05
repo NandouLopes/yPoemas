@@ -54,8 +54,8 @@ Lato : author
 Leituras : author
 Liberta : anima
 Loremipsum : machina
-MachBeth : persona
-MachBrait : anima
+Machbeth : persona
+Machbrait : anima
 Manifesto : machina
 Manusgrite : joco
 Manusgrito : author
