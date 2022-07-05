@@ -55,6 +55,7 @@ from lay_2_ypo import gera_poema
 # from PIL import Image
 # img=Image.open('logo_ypo_32.png')
 #     page_icon=img,
+
 st.set_page_config(
     page_title='a máquina de fazer Poesia - yPoemas',
     page_icon=':star:',
@@ -89,13 +90,15 @@ def internet(host='8.8.8.8', port=53, timeout=3):
 hostname = socket.gethostname()
 IPAddres = socket.gethostbyname(hostname)
 
+# with open('style.css') as f:
+#     st.markdown("<style>(f.read())</style>", unsafe_allow_html=True)
 
 # hide Streamlit Menu
 st.markdown(
     ''' <style>
-MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-</style> ''',
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    </style> ''',
     unsafe_allow_html=True,
 )
 
@@ -116,21 +119,17 @@ st.markdown(
 
 # change sidebar width
 st.markdown(
-    '''
+    ''' 
     <style>
     [data-testid='stSidebar'][aria-expanded='true'] > div:first-child {
         width: 310px;
     }
-    [data-testid='stSidebar'][aria-expanded='false'] > div:first-child {
-        width: 310px;
-        margin-left: -310px;
-    }
-    </style>
-    ''',
+    </style> ''',
     unsafe_allow_html=True,
 )
 
 
+# logo & text area
 st.markdown(
     '''
     <style>
@@ -146,28 +145,21 @@ st.markdown(
         text-align:center;
     }
     .logo-text {
-        /* padding-top: 10px !important; */
-        /* <h1 align='center' </h1> */
         font-weight: 600;
         font-size: 18px;
         font-family: 'IBM Plex Sans';
-        /* font-family: 'IBM Plex Sans'; 'sans serif', 'serif', or 'monospace' */
         color: #000000;
         padding-left: 15px;
     }
     .logo-img {
         float:right;
     }
-    </style>
-    ''',
+    </style> ''',
     unsafe_allow_html=True,
 )
 
 
 # Initialize SessionState
-
-if 'tabs' not in st.session_state:  #  para indentar versos
-    st.session_state.tabs = 0
 
 if 'lang' not in st.session_state:
     st.session_state.lang = 'pt'
@@ -190,8 +182,8 @@ if 'off_take' not in st.session_state:   #  index for selected book in off_books
 
 if 'eureka' not in st.session_state:     #  index for random tema in page_eureka
     st.session_state.eureka = 0
-if 'find_word' not in st.session_state:  #  palavra para buscar em eureka
-    st.session_state.find_word = 'amar'
+if 'find_eureka' not in st.session_state:  #  palavra para buscar em eureka
+    st.session_state.find_eureka = 'amar'
 
 if 'poly_lang' not in st.session_state:
     st.session_state.poly_lang = 'ca'
@@ -211,12 +203,12 @@ if 'draw' not in st.session_state:
     st.session_state.draw = False
 if 'talk' not in st.session_state:
     st.session_state.talk = False
-if 'vide' not in st.session_state:
-    st.session_state.vide = False
+if 'video' not in st.session_state:
+    st.session_state.video = False
 
 if 'arts' not in st.session_state:
     st.session_state.arts = []
-
+   
 ### eof: settings
 ### bof: tools
 
@@ -309,7 +301,7 @@ def draw_check_buttons():
     help_vyde = help_tips[7]
     st.session_state.draw = draw_text.checkbox(help_draw, st.session_state.draw, key='draw_machina')
     st.session_state.talk = talk_text.checkbox(help_talk, st.session_state.talk, key='talk_machina')
-    st.session_state.vide = vyde_text.checkbox(help_vyde, st.session_state.vide, key='vyde_machina')
+    st.session_state.video = vyde_text.checkbox(help_vyde, st.session_state.video, key='vyde_machina')
 
 
 def get_binary_file_downloader_html(bin_file, file_label='File'):
@@ -737,17 +729,20 @@ if st.session_state.visy:  # check visitor once
 
 def main():
     chosen_id = stx.tab_bar(data=[
-        stx.TabBarItemData(id=1, title="mini",    description=''),
+        stx.TabBarItemData(id=1, title="mini", description=''),
         stx.TabBarItemData(id=2, title="yPoemas", description=''),
-        stx.TabBarItemData(id=3, title="eureka",  description=''),
+        stx.TabBarItemData(id=3, title="eureka", description=''),
         stx.TabBarItemData(id=4, title="off-machina", description=''),
-        stx.TabBarItemData(id=5, title="books",   description=''),
-        stx.TabBarItemData(id=6, title="poly",    description=''),
-        stx.TabBarItemData(id=7, title="about",   description=''),
-    ], default=1)
+        stx.TabBarItemData(id=5, title="books", description=''),
+        stx.TabBarItemData(id=6, title="poly", description=''),
+        stx.TabBarItemData(id=7, title="about", description=''),
+    ])
     
     pick_lang()
     draw_check_buttons()
+    
+    if chosen_id is None:
+        chosen_id = '1'
 
     if chosen_id == '1':
         st.sidebar.info(load_md_file('INFO_MINI.md'))
@@ -801,11 +796,11 @@ def page_mini():
     more = more.button("✚", help=help_more+' • '+analise)
 
     lnew = True
-    if st.session_state.vide:
+    if st.session_state.video:
         lnew = False
         show_video('mini')
         update_readings('video_mini')
-        st.session_state.vide = False
+        st.session_state.video = False
 
     if lnew:
         mini_expander = st.expander('', expanded=True)
@@ -903,11 +898,11 @@ def page_ypoemas():
         LOGO_IMAGE = './images/matrix/' + st.session_state.tema.capitalize() + '.jpg'
         write_ypoema(LOGO_TEXT, LOGO_IMAGE)
 
-    if st.session_state.vide:
+    if st.session_state.video:
         lnew = False
         show_video('ypoemas')
         update_readings('video_ypoemas')
-        st.session_state.vide = False
+        st.session_state.video = False
 
     if lnew:
         what_book = (
@@ -965,7 +960,7 @@ def page_eureka():
         find_what = st.text_input(
             label=translate('digite algo para buscar...'),
         )
-    st.session_state.find_word = find_what
+    st.session_state.find_eureka = find_what
 
     with more:
         more = more.button("✚", help=help_more)
@@ -1052,11 +1047,11 @@ def page_eureka():
                 curr_ypoema = load_typo()  # to normalize line breaks in text
 
             lnew = True
-            if st.session_state.vide:
+            if st.session_state.video:
                 lnew = False
                 show_video('eureka')
                 update_readings('video_eureka')
-                st.session_state.vide = False
+                st.session_state.video = False
 
             if lnew:
                 eureka_expander = st.expander('', expanded=True)
@@ -1153,11 +1148,11 @@ def page_off_machina():  # available off_machina_books
             unsafe_allow_html=True,
         )
 
-    if st.session_state.vide:
+    if st.session_state.video:
         lnew = False
         show_video('off-machina')
         update_readings('video_off-machina')
-        st.session_state.vide = False
+        st.session_state.video = False
 
     if lnew:
         what_book = (
@@ -1249,11 +1244,11 @@ def page_books():  # available books
             doit = st.button("✔", help="confirm ?")
 
         lnew = True
-        if st.session_state.vide:
+        if st.session_state.video:
             lnew = False
             show_video('books')
             update_readings('video_books')
-            st.session_state.vide = False
+            st.session_state.video = False
     
         if lnew:
             list_book = ''
@@ -1302,11 +1297,11 @@ def page_polys():  # available languages
         doit = st.button("✔", help="confirm ?")
 
     lnew = True
-    if st.session_state.vide:
+    if st.session_state.video:
         lnew = False
         show_video('poly')
         update_readings('video_poly')
-        st.session_state.vide = False
+        st.session_state.video = False
     
     if doit:
         poly_pais = poly_pais[opt_poly]
@@ -1351,11 +1346,11 @@ def page_abouts():
     )
 
     lnew = True
-    if st.session_state.vide:
+    if st.session_state.video:
         lnew = False
         show_video('about')
         update_readings('video_about')
-        st.session_state.vide = False
+        st.session_state.video = False
 
     if lnew:
         choice = abouts_list[opt_abouts].upper()
