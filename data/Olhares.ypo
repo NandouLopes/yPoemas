@@ -1,64 +1,65 @@
 *-
 *- Olhares.ypo
 *-
-|01|01|Olhares_0101|F|3|2|Sei...|Sim,|Pois|
+|01|01|Olhares_0101|F|3|1|Sei...|Sim,|Pois|
 |01|02|Olhares_0102|F|1|1|você tem o olhar mais|
-|01|03|Olhares_0103|F|7|7|inefável|indomável|agradável|insaciável|desejável|adorável|impensável|
+|01|03|Olhares_0103|F|7|3|inefável|indomável|agradável|insaciável|desejável|adorável|impensável|
 |02|01|Olhares_0201|F|4|4|que o meu modo de ver já viu ao vivo|que até hoje em minha vida vi ao vivo|que eu já tenha em minha vida visto ao vivo|que eu já pude em minha vida ver ao vivo|
 |02|02|Olhares_0202|F|1|1|...|
-|03|01|Olhares_0301|F|19|17|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Instigante|Ofuscante|Petulante|
-|03|02|Olhares_0302|F|20|6|quando brinda|quando encanta|quando espia|quando pousa|quando fita|quando flerta|quando joga|quando mira|quando encara|quando pisca|quando reina|quando posa|quando fixa|quando enquadra|quando enlaça|quando mede|quando espreita|quando crava|quando criva|quando trava|
-|03|03|Olhares_0303|F|8|8|tão afável|inefável|indomável|agradável|insaciável|desejável|adorável|impensável|
+|03|01|Olhares_0301|F|19|13|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Instigante|Ofuscante|Petulante|
+|03|02|Olhares_0302|F|20|2|quando brinda|quando encanta|quando espia|quando pousa|quando fita|quando flerta|quando joga|quando mira|quando encara|quando pisca|quando reina|quando posa|quando fixa|quando enquadra|quando enlaça|quando mede|quando espreita|quando crava|quando criva|quando trava|
+|03|03|Olhares_0303|F|8|3|tão afável|inefável|indomável|agradável|insaciável|desejável|adorável|impensável|
 |03|04|Olhares_0202|F|1|1|,|
-|04|01|Olhares_0401|F|15|9|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
-|04|02|Olhares_0402|F|16|1|quando acha-se|quando brinca de|quando cerra-se|quando despe-se|quando esconde-se|quando farta-se|quando mostra-se|quando pinta-se|quando sabe-se|quando serve-se|quando oculta-se|quando supõe-se|quando torna-se|quando turva-se|quando evita-me|quando sorve-me|
-|04|03|Olhares_0403|F|13|8|inventivo|atrativo|esquivo|evasivo|festivo|furtivo|impulsivo|passivo|afetivo|incisivo|efusivo|emotivo|altivo|
+|04|01|Olhares_0401|F|15|5|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
+|04|02|Olhares_0402|F|16|13|quando acha-se|quando brinca de|quando cerra-se|quando despe-se|quando esconde-se|quando farta-se|quando mostra-se|quando pinta-se|quando sabe-se|quando serve-se|quando oculta-se|quando supõe-se|quando torna-se|quando turva-se|quando evita-me|quando sorve-me|
+|04|03|Olhares_0403|F|13|4|inventivo|atrativo|esquivo|evasivo|festivo|furtivo|impulsivo|passivo|afetivo|incisivo|efusivo|emotivo|altivo|
 |04|04|Olhares_0404|F|1|1|.|
 |05|00|
-|06|01|Olhares_0301|F|19|4|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Instigante|Ofuscante|Petulante|
-|06|02|Olhares_0602|F|10|1|quando dá de|quando pede o|quando pensa em|quando finge|quando pode|quando sabe|quando sonha|quando tenta|quando supõe|quando visa|
-|06|03|Olhares_0603|F|10|1|desviar-se|entregar-se|espelhar-se|enciumar-se|ocultar-se|revelar-se|revirar-se|esconder-se|adivinhar-se|aconchegar-se|
+|06|01|Olhares_0301|F|19|19|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Instigante|Ofuscante|Petulante|
+|06|02|Olhares_0602|F|10|7|quando dá de|quando pede o|quando pensa em|quando finge|quando pode|quando sabe|quando sonha|quando tenta|quando supõe|quando visa|
+|06|03|Olhares_0603|F|10|7|desviar-se|entregar-se|espelhar-se|enciumar-se|ocultar-se|revelar-se|revirar-se|esconder-se|adivinhar-se|aconchegar-se|
 |06|04|Olhares_0202|F|1|1|,|
-|07|01|Olhares_0401|T|15|12|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
-|07|02|Olhares_0702|F|14|1|quando crava|quando aponta|quando brilha|quando busca|quando atenta|quando faz que é|quando foge|quando impera|quando orbita|quando paira|quando quer-se|quando rí do|quando criva|quando trava|
-|07|03|Olhares_0703|F|11|1|disponível|impassível|impossível|inatingível|indizível|infalível|intangível|intraduzível|invisível|irresistível|tão possível|
+|07|01|Olhares_0401|T|15|13|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
+|07|02|Olhares_0702|F|14|11|quando crava|quando aponta|quando brilha|quando busca|quando atenta|quando faz que é|quando foge|quando impera|quando orbita|quando paira|quando quer-se|quando rí do|quando criva|quando trava|
+|07|03|Olhares_0703|F|11|8|disponível|impassível|impossível|inatingível|indizível|infalível|intangível|intraduzível|invisível|irresistível|tão possível|
 |07|04|Olhares_0202|F|1|1|...|
-|08|01|Olhares_0601|T|19|1|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Instigante|Ofuscante|Petulante|
-|08|02|Olhares_0602|F|10|5|quando dá de|quando pede o|quando pensa em|quando finge|quando pode|quando sabe|quando sonha|quando tenta|quando supõe|quando visa|
-|08|03|Olhares_0603|F|10|2|desviar-se|entregar-se|espelhar-se|enciumar-se|ocultar-se|revelar-se|revirar-se|esconder-se|adivinhar-se|aconchegar-se|
+|08|01|Olhares_0601|T|19|8|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Instigante|Ofuscante|Petulante|
+|08|02|Olhares_0602|F|10|1|quando dá de|quando pede o|quando pensa em|quando finge|quando pode|quando sabe|quando sonha|quando tenta|quando supõe|quando visa|
+|08|03|Olhares_0603|F|10|8|desviar-se|entregar-se|espelhar-se|enciumar-se|ocultar-se|revelar-se|revirar-se|esconder-se|adivinhar-se|aconchegar-se|
 |08|04|Olhares_0804|F|1|1|,|
-|09|01|Olhares_0401|T|15|6|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
-|09|02|Olhares_0402|F|16|8|quando acha-se|quando brinca de|quando cerra-se|quando despe-se|quando esconde-se|quando farta-se|quando mostra-se|quando pinta-se|quando sabe-se|quando serve-se|quando oculta-se|quando supõe-se|quando torna-se|quando turva-se|quando evita-me|quando sorve-me|
-|09|03|Olhares_0703|T|11|3|disponível|impassível|impossível|inatingível|indizível|infalível|intangível|intraduzível|invisível|irresistível|tão possível|
+|09|01|Olhares_0401|T|15|1|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
+|09|02|Olhares_0402|F|16|4|quando acha-se|quando brinca de|quando cerra-se|quando despe-se|quando esconde-se|quando farta-se|quando mostra-se|quando pinta-se|quando sabe-se|quando serve-se|quando oculta-se|quando supõe-se|quando torna-se|quando turva-se|quando evita-me|quando sorve-me|
+|09|03|Olhares_0703|T|11|6|disponível|impassível|impossível|inatingível|indizível|infalível|intangível|intraduzível|invisível|irresistível|tão possível|
 |09|04|Olhares_0404|F|1|1|.|
 |10|00|
-|11|01|Olhares_0601|T|19|14|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Instigante|Ofuscante|Petulante|
-|11|02|Olhares_0402|F|16|2|quando acha-se|quando brinca de|quando cerra-se|quando despe-se|quando esconde-se|quando farta-se|quando mostra-se|quando pinta-se|quando sabe-se|quando serve-se|quando oculta-se|quando supõe-se|quando torna-se|quando turva-se|quando evita-me|quando sorve-me|
-|11|03|Olhares_0403|T|13|3|inventivo|atrativo|esquivo|evasivo|festivo|furtivo|impulsivo|passivo|afetivo|incisivo|efusivo|emotivo|altivo|
+|11|01|Olhares_0601|T|19|5|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Instigante|Ofuscante|Petulante|
+|11|02|Olhares_0402|F|16|14|quando acha-se|quando brinca de|quando cerra-se|quando despe-se|quando esconde-se|quando farta-se|quando mostra-se|quando pinta-se|quando sabe-se|quando serve-se|quando oculta-se|quando supõe-se|quando torna-se|quando turva-se|quando evita-me|quando sorve-me|
+|11|03|Olhares_0403|T|13|13|inventivo|atrativo|esquivo|evasivo|festivo|furtivo|impulsivo|passivo|afetivo|incisivo|efusivo|emotivo|altivo|
 |11|04|Olhares_0202|F|1|1|,|
-|12|01|Olhares_0401|T|15|5|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
-|12|02|Olhares_0702|F|12|12|quando crava|quando aponta|quando brilha|quando busca|quando atenta|quando faz que é|quando foge|quando impera|quando orbita|quando paira|quando quer-se|quando rí do|
-|12|03|Olhares_0703|T|11|2|disponível|impassível|impossível|inatingível|indizível|infalível|intangível|intraduzível|invisível|irresistível|tão possível|
+|12|01|Olhares_0401|T|15|8|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
+|12|02|Olhares_0702|F|12|8|quando crava|quando aponta|quando brilha|quando busca|quando atenta|quando faz que é|quando foge|quando impera|quando orbita|quando paira|quando quer-se|quando rí do|
+|12|03|Olhares_0703|T|11|4|disponível|impassível|impossível|inatingível|indizível|infalível|intangível|intraduzível|invisível|irresistível|tão possível|
 |12|04|Olhares_0202|F|1|1|...|
-|13|01|Olhares_0601|T|19|10|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Instigante|Ofuscante|Petulante|
-|13|02|Olhares_0602|T|10|10|quando dá de|quando pede o|quando pensa em|quando finge|quando pode|quando sabe|quando sonha|quando tenta|quando supõe|quando visa|
-|13|03|Olhares_0603|T|10|10|desviar-se|entregar-se|espelhar-se|enciumar-se|ocultar-se|revelar-se|revirar-se|esconder-se|adivinhar-se|aconchegar-se|
+|13|01|Olhares_0601|T|19|15|Cativante|Cintilante|Confiante|De amante|Delirante|Elegante|Fascinante|Fulminante|Incitante|Inebriante|Insinuante|Intrigante|Lancinante|Penetrante|Provocante|Radiante|Instigante|Ofuscante|Petulante|
+|13|02|Olhares_0602|T|10|8|quando dá de|quando pede o|quando pensa em|quando finge|quando pode|quando sabe|quando sonha|quando tenta|quando supõe|quando visa|
+|13|03|Olhares_0603|T|10|2|desviar-se|entregar-se|espelhar-se|enciumar-se|ocultar-se|revelar-se|revirar-se|esconder-se|adivinhar-se|aconchegar-se|
 |13|04|Olhares_0804|F|1|1|,|
-|14|01|Olhares_0401|T|15|7|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
-|14|03|Olhares_0402|T|16|11|quando acha-se|quando brinca de|quando cerra-se|quando sorve-me|quando despe-se|quando esconde-se|quando farta-se|quando mostra-se|quando pinta-se|quando sabe-se|quando serve-se|quando oculta-se|quando supõe-se|quando torna-se|quando turva-se|quando evita-me|
-|14|04|Olhares_0403|T|13|9|inventivo|atrativo|esquivo|evasivo|festivo|furtivo|impulsivo|passivo|afetivo|incisivo|efusivo|emotivo|altivo|
+|14|01|Olhares_0401|T|15|3|atraente|confidente|conivente|de vidente|diferente|displicente|envolvente|exigente|imponente|imprudente|inocente|insistente|reticente|saliente|transparente|
+|14|03|Olhares_0402|T|16|13|quando acha-se|quando brinca de|quando cerra-se|quando sorve-me|quando despe-se|quando esconde-se|quando farta-se|quando mostra-se|quando pinta-se|quando sabe-se|quando serve-se|quando oculta-se|quando supõe-se|quando torna-se|quando turva-se|quando evita-me|
+|14|04|Olhares_0403|T|13|1|inventivo|atrativo|esquivo|evasivo|festivo|furtivo|impulsivo|passivo|afetivo|incisivo|efusivo|emotivo|altivo|
 |14|05|Olhares_1405|F|1|1|.|
 |15|00|
 |16|01|Olhares_1601|F|2|1|E embora a gente|E por mais que a gente|
 |16|02|Olhares_1602|F|4|2|viva de|tente só|brinque de|teime em|
-|16|03|Olhares_1603|T|5|5|esquivar-se|olhar-se|encarar-se|amar-se|fundir-se|
-|17|01|Olhares_1701|F|6|4|do seu olhar mais que escravo sou cativo|sem olhar o teu olhar é que não vivo|é de olhar olhares como o teu que vivo|sem me ver em teu olhar é que não vivo|é de olhar o teu olhar que sobrevivo|sem te ver em meu olhar não sei se vivo|
+|16|03|Olhares_1603|T|5|3|esquivar-se|olhar-se|encarar-se|amar-se|fundir-se|
+|17|01|Olhares_1701|F|6|6|do seu olhar mais que escravo sou cativo|sem olhar o teu olhar é que não vivo|é de olhar olhares como o teu que vivo|sem me ver em teu olhar é que não vivo|é de olhar o teu olhar que sobrevivo|sem te ver em meu olhar não sei se vivo|
 |17|02|Olhares_1702|F|1|1|.|
 <EOF>
 # 
-#     Verbetes gerados: 79
+#      Verbetes usados: 74
 #     Verbetes do tema: 556
-#     Bancos de ítimos: 464
+#      Banco de ítimos: 464
+# 
 # Análise combinatória: 167.249.974.512.681.215.092.510.949.376.000.000 (decilhões)  
 # 
 # Build_By_Lay_2_Ipo em 02/02/2021_11:28

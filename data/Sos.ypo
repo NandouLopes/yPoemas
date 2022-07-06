@@ -4,24 +4,24 @@
 *- |Sos_0501|A saída|A brecha|A dica| == requer feminino...
 *- |Manter despareados: |Sos_0601| e |Sos_0603|
 *- 
-|01|01|Sos_0101|F|8|6|Escravo|Capacho|Refém|Cativo|Cansado|Presa|Saco cheio|Vítima|
-|01|02|Sos_0102|F|12|4|do imensurável|de ser impecável|do imponderável|do impensável|do improvável|do banal|do indecifrável|do inalcançável|do dia-a-dia|do inesperado|do inusitado|do inexorável|
+|01|01|Sos_0101|F|8|5|Escravo|Capacho|Refém|Cativo|Cansado|Presa|Saco cheio|Vítima|
+|01|02|Sos_0102|F|12|3|do imensurável|de ser impecável|do imponderável|do impensável|do improvável|do banal|do indecifrável|do inalcançável|do dia-a-dia|do inesperado|do inusitado|do inexorável|
 |01|03|Sos_0103|F|1|1|?|
-|02|01|Sos_0201|T|26|14|Do impensado|De rodeios|Das regras|Das notícias|Do tédio|Das taquicardias|Do ócio|Da mesmice|Do vazio|Das bitolas|Do trivial|Dos limites|Dos "mimimis"|Do ritual de sempre|Da perfeição|Das mesmas ladainhas|Das mumunhas|Da monotonia|Do mais difícil|Da lentidão dos dias|Do marasmo|Da rotina|Das noites vazias|Do inventivo|Do improviso|De tanto lero-lero|
+|02|01|Sos_0201|T|26|6|Do impensado|De rodeios|Das regras|Das notícias|Do tédio|Das taquicardias|Do ócio|Da mesmice|Do vazio|Das bitolas|Do trivial|Dos limites|Dos "mimimis"|Do ritual de sempre|Da perfeição|Das mesmas ladainhas|Das mumunhas|Da monotonia|Do mais difícil|Da lentidão dos dias|Do marasmo|Da rotina|Das noites vazias|Do inventivo|Do improviso|De tanto lero-lero|
 |02|02|Sos_0202|F|1|1|?|
-|03|01|Sos_0301|F|9|1|Do inadmissível|Do imprevisível|Do inatingível|Do indizível|De ser servil|Do infalível|Do intangível|De ser invencível|Dos mesmos estribilhos|
+|03|01|Sos_0301|F|9|9|Do inadmissível|Do imprevisível|Do inatingível|Do indizível|De ser servil|Do infalível|Do intangível|De ser invencível|Dos mesmos estribilhos|
 |03|02|Sos_0302|F|1|1|?|
 |04|00|
-|05|01|Sos_0501|F|9|7|O aviso|O recado|O alerta|O toque|O berro|O remédio|O palpite|O caminho|O conselho|
+|05|01|Sos_0501|F|9|6|O aviso|O recado|O alerta|O toque|O berro|O remédio|O palpite|O caminho|O conselho|
 |05|02|Sos_0502|F|1|1|que|
-|05|03|Sos_0503|F|14|1|pinta|baila|ruge|cala|calça|cabe|urge|soa|vale|vinga|surge|ecoa|bate|não quer calar|
-|05|04|Sos_0504|T|18|4|(mero palpite...) é|é|é|(só sugestão) é|é|é|(pense nisso) é|é|é|(talvez funcione...) é|é|é|(tente isso) é|é|é|(acredite se quiser) é|é|é|
-|05|05|Sos_0505|F|17|16|claro|curto|sábio|fácil|fatal|óbvio|preciso|sóbrio|direto|grave|letal|sutil|vital|sucinto|formal|gentil|suave|
+|05|03|Sos_0503|F|14|14|pinta|baila|ruge|cala|calça|cabe|urge|soa|vale|vinga|surge|ecoa|bate|não quer calar|
+|05|04|Sos_0504|T|18|13|(mero palpite...) é|é|é|(só sugestão) é|é|é|(pense nisso) é|é|é|(talvez funcione...) é|é|é|(tente isso) é|é|é|(acredite se quiser) é|é|é|
+|05|05|Sos_0505|F|17|15|claro|curto|sábio|fácil|fatal|óbvio|preciso|sóbrio|direto|grave|letal|sutil|vital|sucinto|formal|gentil|suave|
 |05|06|Sos_0506|F|1|1|:|
-|06|01|Sos_0601|F|49|25|manda uma mensagem|só dói se pensar|é só um apocalipse|não é nem pecado|siga sem alarde|é cíclico: vai e volta|um dia passa|é virtual... nem existe|desvia|a vida é mais|dá um perdido|uma hora dá certo|alivia|reaja|releva|rasgue o verbo|viva a vida|relaxa|perca-se|esquece|chão... estrada|pega leve|finja demência|é tudo falácia|vai ser livre|torne o dia atípico|compartilha|aperta o pause|vire a página|muda o livro|curta|olhe os lírios do campus|larga tudo|uma hora acaba|desapega|pedala|sai pela tangente|tome uma decisão|desliga|resvala|clique em "curtir"|acorda|cai no mundo|desencana|vai ser feliz|desconsidera|saia do trilho|vaza|finja-se vivo|
+|06|01|Sos_0601|F|49|24|manda uma mensagem|só dói se pensar|é só um apocalipse|não é nem pecado|siga sem alarde|é cíclico: vai e volta|um dia passa|é virtual... nem existe|desvia|a vida é mais|dá um perdido|uma hora dá certo|alivia|reaja|releva|rasgue o verbo|viva a vida|relaxa|perca-se|esquece|chão... estrada|pega leve|finja demência|é tudo falácia|vai ser livre|torne o dia atípico|compartilha|aperta o pause|vire a página|muda o livro|curta|olhe os lírios do campus|larga tudo|uma hora acaba|desapega|pedala|sai pela tangente|tome uma decisão|desliga|resvala|clique em "curtir"|acorda|cai no mundo|desencana|vai ser feliz|desconsidera|saia do trilho|vaza|finja-se vivo|
 |06|02|Sos_0602|F|1|1|...|
-|06|03|Sos_0601|T|49|6|manda uma mensagem|só dói se pensar|é só um apocalipse|não é nem pecado|siga sem alarde|é cíclico: vai e volta|um dia passa|é virtual... nem existe|desvia|a vida é mais|dá um perdido|uma hora dá certo|alivia|reaja|releva|rasgue o verbo|viva a vida|relaxa|perca-se|esquece|chão... estrada|pega leve|finja demência|é tudo falácia|vai ser livre|torne o dia atípico|compartilha|aperta o pause|vire a página|muda o livro|curta|olhe os lírios do campus|larga tudo|uma hora acaba|desapega|pedala|sai pela tangente|tome uma decisão|desliga|resvala|clique em "curtir"|acorda|cai no mundo|desencana|vai ser feliz|desconsidera|saia do trilho|vaza|finja-se vivo|
-|06|04|Sos_0604|F|3|1|!|...|!|
+|06|03|Sos_0601|T|49|47|manda uma mensagem|só dói se pensar|é só um apocalipse|não é nem pecado|siga sem alarde|é cíclico: vai e volta|um dia passa|é virtual... nem existe|desvia|a vida é mais|dá um perdido|uma hora dá certo|alivia|reaja|releva|rasgue o verbo|viva a vida|relaxa|perca-se|esquece|chão... estrada|pega leve|finja demência|é tudo falácia|vai ser livre|torne o dia atípico|compartilha|aperta o pause|vire a página|muda o livro|curta|olhe os lírios do campus|larga tudo|uma hora acaba|desapega|pedala|sai pela tangente|tome uma decisão|desliga|resvala|clique em "curtir"|acorda|cai no mundo|desencana|vai ser feliz|desconsidera|saia do trilho|vaza|finja-se vivo|
+|06|04|Sos_0604|F|3|3|!|...|!|
 <EOF>
 # 
 #      Verbetes usados: 21

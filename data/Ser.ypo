@@ -6,22 +6,23 @@
 |01|01|Ser_0101|F|17|2|da noite, estrela|da solidão, qualquer ai|do incerto, o exato|de amigos, sempre perto|da areia, pegadas|do futuro, o incerto|do distante, o mais perto|da loucura, um retrato|da fé, o vão abstrato|na fala, o que cala|da chuva, a prima gota|da exceção, a regra|do mar, a onda que vai|do espaço, um céu|do ateu, o Deus devasso|dos momentos, o eterno|da mentira, o fato|
 |01|02|Ser_0102|F|1|1|.|
 |02|00|
-|03|01|Ser_0301|F|15|8|$|das aves, o leve voo|da pele, mero poro|do tempo, um segundo|do espelho, o avesso|da gana, ledo engano|da brisa, um chamego|da esperança, o fiel|do acaso, o invento|do vento, o que alento|do espelho, o reflexo|da vida, o passeio|da metade, o inteiro|da verdade, o Deus travesso|do ruído, um silêncio|do abstrato, o que vero|
+|03|01|Ser_0301|F|15|6|$|das aves, o leve voo|da pele, mero poro|do tempo, um segundo|do espelho, o avesso|da gana, ledo engano|da brisa, um chamego|da esperança, o fiel|do acaso, o invento|do vento, o que alento|do espelho, o reflexo|da vida, o passeio|da metade, o inteiro|da verdade, o Deus travesso|do ruído, um silêncio|do abstrato, o que vero|
 |03|02|Ser_0302|F|1|1|.|
 |04|00|
 |05|01|Ser_0501|F|17|14|$$|da lei, o seguinte|da sentença, um sujeito|no abraço, colo e ninho|da viagem, caminho|de cada passo, o seguinte|da fala, a entrelinha|da costura, uma linha|do caminho, a paisagem|do dito, o que fica|da estrada, só idas|do deserto, a miragem|do amor, a magia|do caminho, a viagem|da esperança, o fio|da floresta, um respiro|da música, o não dito|da gana, ledo engano|
 |05|02|Ser_0502|F|1|1|.|
 |06|00|
-|07|01|Ser_0701|F|14|12|$|do fato, equidistante|do firmamento, um ponto|da catarata, um pingo|da regra, o contraponto|da montanha, horizonte|da saudade, só o sopro|na multidão, um só|do mistério, a pergunta|na tempestade, o porto|da cordilheira, a vista|do nada, o recomeço|da liberdade, o adubo|da verdade, o súdito|do destino, co-autor|
+|07|01|Ser_0701|F|14|9|$|do fato, equidistante|do firmamento, um ponto|da catarata, um pingo|da regra, o contraponto|da montanha, horizonte|da saudade, só o sopro|na multidão, um só|do mistério, a pergunta|na tempestade, o porto|da cordilheira, a vista|do nada, o recomeço|da liberdade, o adubo|da verdade, o súdito|do destino, co-autor|
 |07|02|Ser_0502|F|1|1|.|
 |08|00|
-|09|01|Ser_0901|F|14|11|do erro, o aprendiz|do apartamento, chão|do edifício, um chão|do universo, um grão|da sorte, a ilusão|do horizonte, a imensidão|da cachoeira, o que flui|na loucura, o grito|do sonho, o despertar|do oceano, um cais|do medo, professor|do céu, nuvem vã|da sorte, chamariz|do finito, o além|
+|09|01|Ser_0901|F|14|8|do erro, o aprendiz|do apartamento, chão|do edifício, um chão|do universo, um grão|da sorte, a ilusão|do horizonte, a imensidão|da cachoeira, o que flui|na loucura, o grito|do sonho, o despertar|do oceano, um cais|do medo, professor|do céu, nuvem vã|da sorte, chamariz|do finito, o além|
 |09|02|Ser_0902|F|1|1|.|
 <EOF>
 # 
-#     Verbetes gerados: 19
+#      Verbetes usados: 20
 #     Verbetes do tema: 174
-#     Bancos de ítimos: 133
+#      Banco de ítimos: 82
+# 
 # Análise combinatória: 1.028.160 (milhões)  
 # 
 #   Build_By_Lay_2_Ipo: 29/06/2022, 17:22:28

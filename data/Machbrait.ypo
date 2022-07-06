@@ -6,40 +6,41 @@
 *-
 *- juntar-se 11 à 09 / dividir 10a, b, c, d com aliterações
 *-
-|01|01|MachBrait_0101|F|8|2|O sal do que invento|O desejo de todas as terras|O furor de portas depostas|O sonho lento de assombro|O alvoroço do que existe|O que não se sustenta|O fogo do que escreve|O suor da eternidade|
-|02|01|MachBrait_0201|F|4|4|uiva no pensamento|me enlaça de púrpura|penetra em dobras do tempo|tanto acalma quanto ferve|
-|03|01|MachBrait_0301|F|3|3|aquieta-me e estranha|suga lento o meu sangue|agulha rasgando a síntese|
+|01|01|MachBrait_0101|F|8|5|O sal do que invento|O desejo de todas as terras|O furor de portas depostas|O sonho lento de assombro|O alvoroço do que existe|O que não se sustenta|O fogo do que escreve|O suor da eternidade|
+|02|01|MachBrait_0201|F|4|3|uiva no pensamento|me enlaça de púrpura|penetra em dobras do tempo|tanto acalma quanto ferve|
+|03|01|MachBrait_0301|F|3|1|aquieta-me e estranha|suga lento o meu sangue|agulha rasgando a síntese|
 |04|01|MachBrait_0401|F|5|1|me liberta do que lamento|enlouquece o que sinto|me abraça e suga violento|me apavora e me tortura|rumina a fome dos planetas|
 |04|02|MachBrait_0402|F|1|1|.|
 |05|00|
-|06|01|MachBrait_0601|T|25|20|A sensação de vazio|A carne lisa e farta|A filigrana de luz|A pele que me encerra|A noite que adentra a noite|A lâmina entreaberta|A isca do mergulho e a nuvem|A perda envolta em névoa|A procura parada no ar|A língua áspera de lágrimas|A rouquidão vazia|A casa nos ombros|A língua impiedosa|A incompreensível pressa|A pedra no ventre cimento|A lua inchando os sentidos|A morte em pratos limpos|A triturada altivez|As visões do belo livre|As patas do sem fim|À língua impiedosa|A fome dos planetas|Poeta não para de morrer|Vida, essa coisa tão pouca|A garganta sem estrelas|
+|06|01|MachBrait_0601|T|25|14|A sensação de vazio|A carne lisa e farta|A filigrana de luz|A pele que me encerra|A noite que adentra a noite|A lâmina entreaberta|A isca do mergulho e a nuvem|A perda envolta em névoa|A procura parada no ar|A língua áspera de lágrimas|A rouquidão vazia|A casa nos ombros|A língua impiedosa|A incompreensível pressa|A pedra no ventre cimento|A lua inchando os sentidos|A morte em pratos limpos|A triturada altivez|As visões do belo livre|As patas do sem fim|À língua impiedosa|A fome dos planetas|Poeta não para de morrer|Vida, essa coisa tão pouca|A garganta sem estrelas|
 |06|02|MachBrait_0602|F|1|1|,|
-|07|01|MachBrait_0701|F|14|14|o sonho lento de assombro|o alvoroço do que existe|o eco, o salto, o riso|o olho esquerdo de vidro|o tempo que pousa|o fogo do que escreve|o nome da morte|o último dos dedos|o suor da eternidade|o sal que encascalha o coração|o desconcerto do arco-íris|o meio fio de avenida|o trejeito delicado|o que não se sustenta|
-|08|01|MachBrait_0801|F|10|4|a embebedar-me de purpurina|lambendo-me as nervuras|cavalgando em cada poro|lambendo o horizonte|incrustados no meio do dia|oceanos... mais não quero|tudo jaz em mim|é só pano de fundo|fervendo de sol e sede|talvez lamente a lua|
+|07|01|MachBrait_0701|F|14|9|o sonho lento de assombro|o alvoroço do que existe|o eco, o salto, o riso|o olho esquerdo de vidro|o tempo que pousa|o fogo do que escreve|o nome da morte|o último dos dedos|o suor da eternidade|o sal que encascalha o coração|o desconcerto do arco-íris|o meio fio de avenida|o trejeito delicado|o que não se sustenta|
+|08|01|MachBrait_0801|F|10|9|a embebedar-me de purpurina|lambendo-me as nervuras|cavalgando em cada poro|lambendo o horizonte|incrustados no meio do dia|oceanos... mais não quero|tudo jaz em mim|é só pano de fundo|fervendo de sol e sede|talvez lamente a lua|
 |08|02|MachBrait_0802|F|1|1|.|
-|09|01|MachBrait_0901|F|16|7|Lá, onde estão as fadas|Uma ocultação de mim|Uma suspensão da vida|Uma vertigem no universo|Uma prótese arquitetada|Em metáfora oportuna|Vida de solavancos|Salpico de pouca vida|Onde não me percebo|Malagueta tatuada nos poros|Esqueleto quase vento|Sempre um desmaio|Onde habitou a Inteligência|Onde a morte é concreta|Posso querer sempre|Tive sim, amores|
-|09|02|MachBrait_0902|F|3|3|.|?|!|
+|09|01|MachBrait_0901|F|16|2|Lá, onde estão as fadas|Uma ocultação de mim|Uma suspensão da vida|Uma vertigem no universo|Uma prótese arquitetada|Em metáfora oportuna|Vida de solavancos|Salpico de pouca vida|Onde não me percebo|Malagueta tatuada nos poros|Esqueleto quase vento|Sempre um desmaio|Onde habitou a Inteligência|Onde a morte é concreta|Posso querer sempre|Tive sim, amores|
+|09|02|MachBrait_0902|F|3|1|.|?|!|
 |10|00|
-|11|01|MachBrait_1101|F|19|19|Sob murmúrios noturnos|Enquanto durmo e me consumo|Feito cuidado felino|Opaca de silêncio|Reflexo na xícara vazia|Áspera de lágrimas|Num arranjo de suspiros|Índio noturno|Manhã de poros frescos|Contra os vidros blindados|Feridas e uivos do inferno|Olhos, areia y maresia|Arco-íris e limbo|Imagens da felicidade|Espectros dos sábios|Poros, beiço y água viva|Posso querer sempre|Maré cheia y ventania|Encolhido ocidente|
+|11|01|MachBrait_1101|F|19|14|Sob murmúrios noturnos|Enquanto durmo e me consumo|Feito cuidado felino|Opaca de silêncio|Reflexo na xícara vazia|Áspera de lágrimas|Num arranjo de suspiros|Índio noturno|Manhã de poros frescos|Contra os vidros blindados|Feridas e uivos do inferno|Olhos, areia y maresia|Arco-íris e limbo|Imagens da felicidade|Espectros dos sábios|Poros, beiço y água viva|Posso querer sempre|Maré cheia y ventania|Encolhido ocidente|
 |11|02|MachBrait_1101|F|1|1|,|
-|12|01|MachBrait_1201|F|14|8|anjo de seda|tanta beleza|desejo de luta|anzóis e luares|sóis gelados|manhã de amarelo|cidade que arde|rasgos de cactos|ossos escancarados|sombra exterminada|rastros de lagartos|espelhos do nunca|odores do deserto|gozo desesperado|
+|12|01|MachBrait_1201|F|14|3|anjo de seda|tanta beleza|desejo de luta|anzóis e luares|sóis gelados|manhã de amarelo|cidade que arde|rasgos de cactos|ossos escancarados|sombra exterminada|rastros de lagartos|espelhos do nunca|odores do deserto|gozo desesperado|
 |12|02|MachBrait_1201|F|1|1|,|
-|12|03|MachBrait_1201|T|14|6|anjo de seda|tanta beleza|desejo de luta|anzóis e luares|sóis gelados|manhã de amarelo|cidade que arde|rasgos de cactos|ossos escancarados|sombra exterminada|rastros de lagartos|espelhos do nunca|odores do deserto|gozo desesperado|
-|13|01|MachBrait_1301|F|16|8|curva de saturno|árvore de cimento|faixa laranja|seres celestiais|tempo que pousa|colo que falta|verde distante|natureza morta|fios de fogo|sonho de voo|medo do outro|fuligem na língua|áspero concreto|delírios de deus|uivos cansados|demônios oficiais|
+|12|03|MachBrait_1201|T|14|1|anjo de seda|tanta beleza|desejo de luta|anzóis e luares|sóis gelados|manhã de amarelo|cidade que arde|rasgos de cactos|ossos escancarados|sombra exterminada|rastros de lagartos|espelhos do nunca|odores do deserto|gozo desesperado|
+|13|01|MachBrait_1301|F|16|3|curva de saturno|árvore de cimento|faixa laranja|seres celestiais|tempo que pousa|colo que falta|verde distante|natureza morta|fios de fogo|sonho de voo|medo do outro|fuligem na língua|áspero concreto|delírios de deus|uivos cansados|demônios oficiais|
 |13|02|MachBrait_1301|F|1|1|,|
-|13|03|MachBrait_1301|T|16|14|curva de saturno|árvore de cimento|faixa laranja|seres celestiais|tempo que pousa|colo que falta|verde distante|natureza morta|fios de fogo|sonho de voo|medo do outro|fuligem na língua|áspero concreto|delírios de deus|uivos cansados|demônios oficiais|
+|13|03|MachBrait_1301|T|16|13|curva de saturno|árvore de cimento|faixa laranja|seres celestiais|tempo que pousa|colo que falta|verde distante|natureza morta|fios de fogo|sonho de voo|medo do outro|fuligem na língua|áspero concreto|delírios de deus|uivos cansados|demônios oficiais|
 |13|04|MachBrait_1304|F|1|1|.|
 |14|00|
-|15|01|MachBrait_1501|F|10|2|Tiro o sol do piano|A voz é rouca e fenda|Amanheço antes na noite|Dia após dia desperto|Dia vazio de heróis|Desloco ao absurdo o dia|Meneio um mínimo|Corro risco de sol|Meu arco-íris é o teu|Alma que não mais repousa|
+|15|01|MachBrait_1501|F|10|7|Tiro o sol do piano|A voz é rouca e fenda|Amanheço antes na noite|Dia após dia desperto|Dia vazio de heróis|Desloco ao absurdo o dia|Meneio um mínimo|Corro risco de sol|Meu arco-íris é o teu|Alma que não mais repousa|
 |15|02|MachBrait_1502|F|1|1|...|
-|16|01|MachBrait_1601|F|9|9|Absinto do fim na veia|Cântico da dor fraterna|Delírio sobre o amor|Tempo que amplia insônia|Vida, essa coisa tão pouca|Antes que seja tarde|Pequeno demais é ser incerto|Outro tempo de outro lugar|Minha eterna insônia|
-|17|01|MachBrait_1701|F|11|7|e arde e arde e arde só|e tonteios na corda bamba|oceanos... mais não quero|alma surda que arde só|poesia, é o que fica|já que tudo jaz em mim|alma, essa que range|é pano de fundo e só|nenhuma cor beija o horizonte|nada grave, toda poema|tive sim, amores|
+|16|01|MachBrait_1601|F|9|4|Absinto do fim na veia|Cântico da dor fraterna|Delírio sobre o amor|Tempo que amplia insônia|Vida, essa coisa tão pouca|Antes que seja tarde|Pequeno demais é ser incerto|Outro tempo de outro lugar|Minha eterna insônia|
+|17|01|MachBrait_1701|F|11|2|e arde e arde e arde só|e tonteios na corda bamba|oceanos... mais não quero|alma surda que arde só|poesia, é o que fica|já que tudo jaz em mim|alma, essa que range|é pano de fundo e só|nenhuma cor beija o horizonte|nada grave, toda poema|tive sim, amores|
 |17|02|MachBrait_1702|F|1|1|.|
 <EOF>
 # 
-#     Verbetes gerados: 62
+#      Verbetes usados: 60
 #     Verbetes do tema: 515
-#     Bancos de ítimos: 206
+#      Banco de ítimos: 206
+# 
 # Análise combinatória: 106.563.309.679.411.200.000 (quintilhões)  
 # 
 # Build_By_Lay_2_Ipo em 04/02/2021_12:29
