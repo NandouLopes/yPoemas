@@ -1,26 +1,27 @@
 *-
 *- Duralex.Bra
 *-
-|01|01|Duralex_0101|F|9|2|Como|Dá pra|Por que não|Quem pode|Imagina|Quem dera|É sonho|É justo não|Basta|
-|01|02|Duralex_0102|F|15|4|explicar|aplicar|inculcar|investir|incutir|imputar|vestir com|julgar|exigir|imbuir|clamar|pedir|ensinar|obrigar|culpar|
-|01|03|Duralex_0103|T|44|25|os rigores|os favores|os louvores|as desordens|as trapaças|os meandros|os tropeços|velhos truques|as falhas|as regras|os lapsos|os desmandos|minúcias|defeitos|os efeitos|entrelinhas|os acertos|detalhes|poderes|a força|as balelas|as bitolas|a dureza|os regalos|os vacilos|os buracos|incoerências|as tendências|sutilezas|as benesses|os percalços|letras miúdas|promessas|exatidões|os desvios|os atalhos|a potência|os deslizes|regalias|a ordem|os segredos|os melindres|nuances|as entranhas|
+|01|01|Duralex_0101|F|9|4|Como|Dá pra|Por que não|Quem pode|Imagina|Quem dera|É sonho|É justo não|Basta|
+|01|02|Duralex_0102|F|15|12|explicar|aplicar|inculcar|investir|incutir|imputar|vestir com|julgar|exigir|imbuir|clamar|pedir|ensinar|obrigar|culpar|
+|01|03|Duralex_0103|T|44|16|os rigores|os favores|os louvores|as desordens|as trapaças|os meandros|os tropeços|velhos truques|as falhas|as regras|os lapsos|os desmandos|minúcias|defeitos|os efeitos|entrelinhas|os acertos|detalhes|poderes|a força|as balelas|as bitolas|a dureza|os regalos|os vacilos|os buracos|incoerências|as tendências|sutilezas|as benesses|os percalços|letras miúdas|promessas|exatidões|os desvios|os atalhos|a potência|os deslizes|regalias|a ordem|os segredos|os melindres|nuances|as entranhas|
 |01|04|Duralex_0104|F|1|1|da lei|
 |02|01|Duralex_0201|F|1|1|(|
 |02|02|Duralex_0202|F|7|5|tão|quase|aparentemente|claro que|prevista|em ideais,|supostamente|
-|02|03|Duralex_0203|F|10|10|perfeita|igual|justa|certa|exata|equânime|correta|infalível|para todos|humana|
+|02|03|Duralex_0203|F|10|3|perfeita|igual|justa|certa|exata|equânime|correta|infalível|para todos|humana|
 |02|04|Duralex_0204|F|1|1|)|
-|03|01|Duralex_0301|F|4|2|aos tantos que|aos vulgos que|aos tontos que|aos sabidos que|
-|03|02|Duralex_0302|T|24|10|vivem|vagam|vigem|atuam|agem|regem|pairam|vingam|gozam|mandam|abusam|fulgem|reinam|brotam|flanam|brindam|jogam|circulam|vogam|vagueiam|brincam|folgam|a violam|barganham|
+|03|01|Duralex_0301|F|4|3|aos tantos que|aos vulgos que|aos tontos que|aos sabidos que|
+|03|02|Duralex_0302|T|24|24|vivem|vagam|vigem|atuam|agem|regem|pairam|vingam|gozam|mandam|abusam|fulgem|reinam|brotam|flanam|brindam|jogam|circulam|vogam|vagueiam|brincam|folgam|a violam|barganham|
 |03|03|Duralex_0303|F|1|1|,|
-|03|04|Duralex_0304|F|14|11|alheios|à margem|impunes|estranhos|prepotentes|esquecidos|números|avessos|contrários|inabaláveis|imunes|descrentes|petulantes|quase párias|
+|03|04|Duralex_0304|F|14|4|alheios|à margem|impunes|estranhos|prepotentes|esquecidos|números|avessos|contrários|inabaláveis|imunes|descrentes|petulantes|quase párias|
 |03|05|Duralex_0305|F|1|1|,|
-|03|06|Duralex_0306|F|12|7|além dela|fora dela|aquém dela|d'outro mundo|imunes|sobre-vivos|sem pena|sem juízo|lá acima|estrangeiros|dela livres|impunes|
+|03|06|Duralex_0306|F|12|12|além dela|fora dela|aquém dela|d'outro mundo|imunes|sobre-vivos|sem pena|sem juízo|lá acima|estrangeiros|dela livres|impunes|
 |03|07|Duralex_0307|F|1|1|?|
 <EOF>
 # 
-#     Verbetes gerados: 18
+#      Verbetes usados: 18
 #     Verbetes do tema: 165
-#     Bancos de ítimos: 145
+#      Banco de ítimos: 145
+# 
 # Análise combinatória: 6.706.022.400 (bilhões)  
 # 
 # Build_By_Lay_2_Ipo em 02/02/2021_11:24

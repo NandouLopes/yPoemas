@@ -24,27 +24,28 @@
 *- Fado = destino, sorte, estrela; o que necessariamente tem de ser; vaticínio, decreto do destino
 *- Toa = cabo com que uma embarcação reboca outra
 *-
-|01|01|Joker_0101|F|22|5|Troquei|Joguei|Toquei|Narrei|Piquei|Lancei|Mirei|Tranquei|Guardei|Sentei|Rasguei|Calcei|Gastei|Cacei|Marrei|Tracei|Plantei|Risquei|Mudei|Soquei|Deitei|Juntei|
-|01|02|Joker_0102|F|6|6|dois dados|os brados|uns dados|os fados|agrados|recados|
+|01|01|Joker_0101|F|22|13|Troquei|Joguei|Toquei|Narrei|Piquei|Lancei|Mirei|Tranquei|Guardei|Sentei|Rasguei|Calcei|Gastei|Cacei|Marrei|Tracei|Plantei|Risquei|Mudei|Soquei|Deitei|Juntei|
+|01|02|Joker_0102|F|6|4|dois dados|os brados|uns dados|os fados|agrados|recados|
 |01|03|Joker_0103|F|7|6|na cara|na lata|no parque|na praça|no passo|na fila|no laço|
 |01|04|Joker_0104|F|1|1|,|
-|02|01|Joker_0101|F|21|13|$|troquei|joguei|toquei|narrei|piquei|lancei|mirei|tranquei|guardei|sentei|rasguei|calcei|gastei|cacei|marrei|tracei|plantei|risquei|mudei|soquei|deitei|
-|02|02|Joker_0202|F|6|6|uns medos|dois medos|os fardos|segredos|os credos|grunhidos|
-|02|03|Joker_0203|F|9|9|ilhados|do peito|alados|sem fala|sem jeito|e pecados|privados|idiotas|da fala|
+|02|01|Joker_0101|F|21|20|$|troquei|joguei|toquei|narrei|piquei|lancei|mirei|tranquei|guardei|sentei|rasguei|calcei|gastei|cacei|marrei|tracei|plantei|risquei|mudei|soquei|deitei|
+|02|02|Joker_0202|F|6|4|uns medos|dois medos|os fardos|segredos|os credos|grunhidos|
+|02|03|Joker_0203|F|9|4|ilhados|do peito|alados|sem fala|sem jeito|e pecados|privados|idiotas|da fala|
 |02|04|Joker_0204|F|1|1|,|
-|03|01|Joker_0301|F|32|10|$|bebi|reli|cerzi|perdi|cobri|pari|carpi|medi|servi|cuspi|abri|sorti|despi|tingi|flori|rugi|fundi|jungi|nutri|fluí|sorvi|tangi|vesti|ungi|luzi|muni|poli|senti|supri|urgi|incuti|erigi|
-|03|02|Joker_0302|F|9|2|a prosa|o resto|paisagens|o rosto|amores|o gesto|ideias|o vasto|os fardos|
-|03|03|Joker_0303|F|5|3|com gosto|brincando|amiúde|pra sempre|à toa|
+|03|01|Joker_0301|F|32|28|$|bebi|reli|cerzi|perdi|cobri|pari|carpi|medi|servi|cuspi|abri|sorti|despi|tingi|flori|rugi|fundi|jungi|nutri|fluí|sorvi|tangi|vesti|ungi|luzi|muni|poli|senti|supri|urgi|incuti|erigi|
+|03|02|Joker_0302|F|9|6|a prosa|o resto|paisagens|o rosto|amores|o gesto|ideias|o vasto|os fardos|
+|03|03|Joker_0303|F|5|4|com gosto|brincando|amiúde|pra sempre|à toa|
 |04|01|Joker_0401|F|1|1|e|
-|04|02|Joker_0402|F|4|4|resolvi|preferi|decidi|escolhi|
-|04|03|Joker_0403|F|8|7|ser assim,|ser mais eu|ser curinga|ser alguém|ser mais um|virar fantasma|ser feliz|ser ninguém,|
-|04|04|Joker_0404|F|11|4|pela vida adentro|por esquinas aladas|em retrato ao vivo|por escrito, à mão|sem querer mais nada|no inquieto de mim|em meu canto secreto|por brinquedo|sem pensar futuros|, só... no quieto|sem rito nem magia|
+|04|02|Joker_0402|F|4|2|resolvi|preferi|decidi|escolhi|
+|04|03|Joker_0403|F|8|1|ser assim,|ser mais eu|ser curinga|ser alguém|ser mais um|virar fantasma|ser feliz|ser ninguém,|
+|04|04|Joker_0404|F|11|1|pela vida adentro|por esquinas aladas|em retrato ao vivo|por escrito, à mão|sem querer mais nada|no inquieto de mim|em meu canto secreto|por brinquedo|sem pensar futuros|, só... no quieto|sem rito nem magia|
 |04|05|Joker_0405|F|1|1|.|
 <EOF>
 # 
-#     Verbetes gerados: 20
+#      Verbetes usados: 22
 #     Verbetes do tema: 175
-#     Bancos de ítimos: 144
+#      Banco de ítimos: 144
+# 
 # Análise combinatória: 547.714.379.520 (bilhões)  
 # 
 # Build_By_Lay_2_Ipo em 02/02/2021_11:25

@@ -4,45 +4,46 @@
 *- |pulveriza|descaminhos|falível|pouco|tritura|
 *-
 |01|01|Lato_0101|F|6|3|Sei não ser|Não que eu seja|Nunca fui|Não me sonho|Dizem-me|Nem me acho|
-|01|02|Lato_0102|F|5|4|um bom poeta|um escritor|um cara douto|um cantador|um literato|
+|01|02|Lato_0102|F|5|3|um bom poeta|um escritor|um cara douto|um cantador|um literato|
 |02|01|Lato_0201|F|1|1|no sentido|
-|02|02|Lato_0202|F|29|27|vero|puro|arte|pleno|gasto|raro|lato|outro|vesgo|casto|reto|tosco|caro|justo|basto|morto|torto|barro|certo|pasto|lasso|estrito|fasto|fato|oposto|exato|vasto|laico|duplo|
+|02|02|Lato_0202|F|29|21|vero|puro|arte|pleno|gasto|raro|lato|outro|vesgo|casto|reto|tosco|caro|justo|basto|morto|torto|barro|certo|pasto|lasso|estrito|fasto|fato|oposto|exato|vasto|laico|duplo|
 |03|01|Lato_0301|F|1|1|da palavra|
 |03|02|Lato_0302|F|1|1|"|
-|03|03|Lato_0303|F|17|2|vero|puro|raro|lato|casto|reto|tosco|justo|vasto|barro|certo|laço|fato|livre|exato|arte|cara|
+|03|03|Lato_0303|F|17|13|vero|puro|raro|lato|casto|reto|tosco|justo|vasto|barro|certo|laço|fato|livre|exato|arte|cara|
 |03|04|Lato_0302|F|1|1|"|
 |03|05|Lato_0305|F|1|1|.|
 |04|00|
-|05|01|Lato_0501|F|34|2|Lato|Busco|Posto|Rujo|Gesto|Viro|Jogo|Caço|Noto|Verso|Giro|Trato|Quero|Cito|Visto|Cato|Costuro|Parto|Douro|Fito|Gasto|Desfio|Perco-me em|Rasgo|Varo|Bato em|Porto|Narro|Passo por|Posso ver|Tento|Desfilo|Posto|Planto|
-|05|02|Lato_0502|F|8|1|falas|línguas|frases|vozes|ideias|letras|palavras|lábias|
-|05|03|Lato_0503|F|17|10|precisas|impuras|bisonhas|previstas|sensatas|sabidas|imortais|mundanas|descabidas|insensatas|vagabundas|teimosas|imprevistas|imprecisas|distintas|corretas|à deriva|
+|05|01|Lato_0501|F|34|30|Lato|Busco|Posto|Rujo|Gesto|Viro|Jogo|Caço|Noto|Verso|Giro|Trato|Quero|Cito|Visto|Cato|Costuro|Parto|Douro|Fito|Gasto|Desfio|Perco-me em|Rasgo|Varo|Bato em|Porto|Narro|Passo por|Posso ver|Tento|Desfilo|Posto|Planto|
+|05|02|Lato_0502|F|8|3|falas|línguas|frases|vozes|ideias|letras|palavras|lábias|
+|05|03|Lato_0503|F|17|4|precisas|impuras|bisonhas|previstas|sensatas|sabidas|imortais|mundanas|descabidas|insensatas|vagabundas|teimosas|imprevistas|imprecisas|distintas|corretas|à deriva|
 |05|04|Lato_0504|F|1|1|...|
 |06|00|
-|07|01|Lato_0701|F|8|5|Sei-me|Ando|Acham-me|Ajo|Morro|Sou|Vivo|Parto|
-|07|02|Lato_0702|F|4|4|meio|feito|quase|quiçá|
-|07|03|Lato_0703|F|11|8|insano|pária|incerto|farto|puto|cigano|imortal|rebelde|descrente|leigo|demente|
+|07|01|Lato_0701|F|8|7|Sei-me|Ando|Acham-me|Ajo|Morro|Sou|Vivo|Parto|
+|07|02|Lato_0702|F|4|2|meio|feito|quase|quiçá|
+|07|03|Lato_0703|F|11|2|insano|pária|incerto|farto|puto|cigano|imortal|rebelde|descrente|leigo|demente|
 |08|01|Lato_0801|F|1|1|mas é tudo tão|
-|08|02|Lato_0802|F|26|3|fardo|chato|boato|inexato|pompa|farra|roto|lerdo|acaso|obsoleto|sátira|falso|nefasto|vago|gosto|alarde|"inho"|ultraje|mito|mero|ameno|fato|pobre|regra|parco|latente|
+|08|02|Lato_0802|F|26|23|fardo|chato|boato|inexato|pompa|farra|roto|lerdo|acaso|obsoleto|sátira|falso|nefasto|vago|gosto|alarde|"inho"|ultraje|mito|mero|ameno|fato|pobre|regra|parco|latente|
 |08|03|Lato_0803|F|1|1|,|
 |08|04|Lato_0804|F|1|1|tão|
-|08|05|Lato_0805|T|25|9|mesmice|figura|voraz|erro|rasura|cópia|tosco|fosco|injusto|desvio|triste|impune|pintura|muro|chiste|conluio|truste|fissura|susto|traste|bronco|aventura|tonto|rito|restrito|
+|08|05|Lato_0805|T|25|22|mesmice|figura|voraz|erro|rasura|cópia|tosco|fosco|injusto|desvio|triste|impune|pintura|muro|chiste|conluio|truste|fissura|susto|traste|bronco|aventura|tonto|rito|restrito|
 |08|06|Lato_0806|F|1|1|...|
 |09|01|Lato_0901|F|1|1|que|
 |09|02|Lato_0902|F|6|4|o desdém|o descaso|a indiferença|o desleixo|o desprezo|a recusa|
-|09|03|Lato_0903|F|13|13|pelo banal|pela mentira|pelo obscuro|pela tintura|pelo contraste|pela tontura|pela falácia|pelo injusto|pela lisura|pela trapaça|pelo engano|pelo vulgar|pelo perto|
+|09|03|Lato_0903|F|13|7|pelo banal|pela mentira|pelo obscuro|pela tintura|pelo contraste|pela tontura|pela falácia|pelo injusto|pela lisura|pela trapaça|pelo engano|pelo vulgar|pelo perto|
 |09|04|Lato_0904|F|1|1|,|
-|09|05|Lato_0905|F|9|2|aflora|impera|grassa|devora|margeia|reluta|transborda|me apraz|refuta|
+|09|05|Lato_0905|F|9|5|aflora|impera|grassa|devora|margeia|reluta|transborda|me apraz|refuta|
 |09|06|Lato_0906|F|1|1|.|
 |10|00|
-|11|01|Lato_1101|F|16|16|Minha hora|Minha cura|Meu agora|O meu faro|Minha tara|Minha ira|Minha sorte|Meu foro, íntimo,|Minha escrita|Minha rota|O meu porto|Meu deleite|Minha fúria|Meu passeio|Meu esmero|Meu "parto"|
-|11|02|Lato_1102|F|25|19|beira apenas|reinventa|reconhece|captura|picha e doura|atravessa|desafia|admira|mistura|passa por|tateia|fere e vara|devaneia|reimplanta|ladeia|mira apenas|professa|fica acolá de|projeta|delineia|assina|costura|apura|provém de|admite|
-|11|03|Lato_1103|F|10|4|lonjuras|loucuras|leituras|molduras|alturas|travessuras|venturas|partituras|outras eras|posturas|
+|11|01|Lato_1101|F|16|10|Minha hora|Minha cura|Meu agora|O meu faro|Minha tara|Minha ira|Minha sorte|Meu foro, íntimo,|Minha escrita|Minha rota|O meu porto|Meu deleite|Minha fúria|Meu passeio|Meu esmero|Meu "parto"|
+|11|02|Lato_1102|F|25|13|beira apenas|reinventa|reconhece|captura|picha e doura|atravessa|desafia|admira|mistura|passa por|tateia|fere e vara|devaneia|reimplanta|ladeia|mira apenas|professa|fica acolá de|projeta|delineia|assina|costura|apura|provém de|admite|
+|11|03|Lato_1103|F|10|8|lonjuras|loucuras|leituras|molduras|alturas|travessuras|venturas|partituras|outras eras|posturas|
 |11|04|Lato_1104|F|1|1|.|
 <EOF>
 # 
-#     Verbetes gerados: 35
+#      Verbetes usados: 39
 #     Verbetes do tema: 320
-#     Bancos de ítimos: 283
+#      Banco de ítimos: 283
+# 
 # Análise combinatória: 43.937.882.486.784.000.000 (quintilhões)  
 # 
 # Build_By_Lay_2_Ipo em 02/02/2021_11:17

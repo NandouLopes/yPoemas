@@ -6,75 +6,76 @@
 *- |15|01|Anjos_1501|F|1|1|( Augusto dos Anjos )|
 *-
 |01|01|Anjos_0101|F|1|1|A|
-|01|02|Anjos_0102|F|5|4|língua|hora|noite|vida|morte|
-|01|03|Anjos_0103|F|7|3|louca|bruta|fera|vasta|besta|ampla|tola|
+|01|02|Anjos_0102|F|5|3|língua|hora|noite|vida|morte|
+|01|03|Anjos_0103|F|7|4|louca|bruta|fera|vasta|besta|ampla|tola|
 |01|04|Anjos_0104|F|3|1|que um dia há de|que ainda vai|que por fim virá|
-|01|05|Anjos_0105|F|4|4|tocá-lo|beijá-lo|cortá-lo|fitá-lo|
-|02|01|Anjos_0201|F|7|5|range|brada|urra|ruge|berra|canta|lança|
+|01|05|Anjos_0105|F|4|2|tocá-lo|beijá-lo|cortá-lo|fitá-lo|
+|02|01|Anjos_0201|F|7|6|range|brada|urra|ruge|berra|canta|lança|
 |02|02|Anjos_0202|F|3|1|em segredo|absconsa|em delíquio|
 |02|03|Anjos_0203|F|6|5|esta sonata|este soneto|esta volata|outra sonata|outro soneto|outra volata|
-|02|04|Anjos_0204|F|5|2|fatal|mortal|ideal|final|fanal|
+|02|04|Anjos_0204|F|5|1|fatal|mortal|ideal|final|fanal|
 |03|01|Anjos_0301|F|1|1|à alma em|
 |03|02|Anjos_0302|F|3|2|pura|tênue|triste|
 |03|03|Anjos_0303|F|3|3|mocidade|alegoria|liberdade|
 |03|04|Anjos_0304|F|6|3|cenobial|neuronial|natural|sepulcral|ancestral|imortal|
 |04|01|Anjos_0401|F|1|1|que pela|
-|04|02|Anjos_0402|F|4|3|boca|aurora|estrada|noite|
-|04|03|Anjos_0403|F|4|3|famulenta|nebulosa|obsoleta|abstrata|
+|04|02|Anjos_0402|F|4|1|boca|aurora|estrada|noite|
+|04|03|Anjos_0403|F|4|1|famulenta|nebulosa|obsoleta|abstrata|
 |04|04|Anjos_0404|F|3|1|irá comê-lo.|irá roê-lo.|irá mordê-lo.|
 |05|00|
 |06|01|Anjos_0601|F|1|1|E|
-|06|02|Anjos_0602|F|8|1|desata|agrega|aumenta|esbarra|assombra|escorre|afaga|esponta|
+|06|02|Anjos_0602|F|8|3|desata|agrega|aumenta|esbarra|assombra|escorre|afaga|esponta|
 |06|03|Anjos_0603|F|1|1|,|
-|06|04|Anjos_0604|F|8|1|ínfima|úsnea|brônzea|mínima|íntima|tísica|plásmica|ígnea|
+|06|04|Anjos_0604|F|8|3|ínfima|úsnea|brônzea|mínima|íntima|tísica|plásmica|ígnea|
 |06|05|Anjos_0605|F|1|1|,|
-|06|06|Anjos_0606|F|4|1|anjo|éter|bruxa|Medusa|
+|06|06|Anjos_0606|F|4|3|anjo|éter|bruxa|Medusa|
 |06|07|Anjos_0607|F|1|1|,|
 |06|08|Anjos_0608|F|6|3|vil nirvana|soberana|desumana|quotidiana|sobre-humana|atávica|
-|07|01|Anjos_0701|F|4|4|receando|encantando|despertando|antegozando|
-|07|02|Anjos_0702|F|4|4|a formidável|a inseparável|a miserável|a inevitável|
-|07|03|Anjos_0703|F|5|2|substância|ambiência|consciência|imanência|influência|
+|07|01|Anjos_0701|F|4|2|receando|encantando|despertando|antegozando|
+|07|02|Anjos_0702|F|4|2|a formidável|a inseparável|a miserável|a inevitável|
+|07|03|Anjos_0703|F|5|1|substância|ambiência|consciência|imanência|influência|
 |08|01|Anjos_0801|F|1|1|e diante da|
-|08|02|Anjos_0802|F|5|3|incisiva|hedionda|perpétua|obscura|fecunda|
-|08|03|Anjos_0703|F|5|5|substância|ambiência|consciência|imanência|influência|
+|08|02|Anjos_0802|F|5|2|incisiva|hedionda|perpétua|obscura|fecunda|
+|08|03|Anjos_0703|F|5|4|substância|ambiência|consciência|imanência|influência|
 |09|01|Anjos_0901|F|3|3|dissolve-se|levanta-se|anima-se|
-|09|02|Anjos_0902|F|5|1|íntima|, mínima|última|ínfima|, lástima|
+|09|02|Anjos_0902|F|5|5|íntima|, mínima|última|ínfima|, lástima|
 |09|03|Anjos_0903|F|1|1|,|
 |09|04|Anjos_0904|F|1|1|quase|
-|09|05|Anjos_0905|F|5|3|soberana|desumana|quotidiana|sobre-humana|vil nirvana|
+|09|05|Anjos_0905|F|5|1|soberana|desumana|quotidiana|sobre-humana|vil nirvana|
 |09|06|Anjos_0906|F|1|1|:|
 |10|00|
 |11|01|Anjos_1101|F|6|5|Amarra-te|Entorta-te|Consola-te|Arrasta-te|Carrega-te|Assiste-te|
-|11|02|Anjos_1102|F|4|4|em tua|, imprópria|em própria|, nervosa|
-|11|03|Anjos_1103|F|16|9|fome|carne|rota|sombra|crença|chaga|luta|gruta|grade|lama|ânsia|trama|tumba|terra|pele|fúria|
-|11|04|Anjos_1104|F|8|6|escaldante|fecundante|qual infante|já gigante|agonizante|repugnante|semelhante|rutilante|
+|11|02|Anjos_1102|F|4|2|em tua|, imprópria|em própria|, nervosa|
+|11|03|Anjos_1103|F|16|3|fome|carne|rota|sombra|crença|chaga|luta|gruta|grade|lama|ânsia|trama|tumba|terra|pele|fúria|
+|11|04|Anjos_1104|F|8|8|escaldante|fecundante|qual infante|já gigante|agonizante|repugnante|semelhante|rutilante|
 |11|05|Anjos_1105|F|1|1|,|
 |12|01|Anjos_1201|F|6|6|serve-te|salva-te|olha-te|deixa-te|pensa-te|senta-te|
 |12|02|Anjos_1202|F|1|1|ante|
 |12|03|Anjos_1203|F|6|1|a gaiola|o futuro|a certeza|o refúgio|a cripta|a glória|
-|12|04|Anjos_1204|F|8|2|escaldante|fecundante|qual infante|já gigante|agonizante|repugnante|semelhante|rutilante|
+|12|04|Anjos_1204|F|8|4|escaldante|fecundante|qual infante|já gigante|agonizante|repugnante|semelhante|rutilante|
 |13|01|Anjos_1301|F|6|4|a não calar|a espreitar|a entornar|a tilintar|a importar|a repelir|
-|13|02|Anjos_1302|F|5|1|a mais horrível|a tão sedenta|a inquieta|tão absconsa|a mais completa|
-|13|03|Anjos_1303|F|4|4|solidão|podridão|ilusão|danação|
+|13|02|Anjos_1302|F|5|5|a mais horrível|a tão sedenta|a inquieta|tão absconsa|a mais completa|
+|13|03|Anjos_1303|F|4|2|solidão|podridão|ilusão|danação|
 |13|04|Anjos_1304|F|1|1|.|
 |14|00|
 |15|01|Anjos_1501|F|6|4|Inconscientemente|Panteisticamente|Circularmente tolos|Profundissimamente|Perceptivelmente|Pois igualmente belos|
-|15|02|Anjos_1502|F|4|4|há no cerebelo|leva na mandíbula|traz o cerebelo|ecoam no encéfalo|
-|16|01|Anjos_1601|F|10|4|sangue, ruínas|velhos ferrolhos|brumas, vermes|podres destroços|carnificinas|monstros, infernos|fundos mistérios|ossos, gritos|sonhos quebrados|dentes, anos|
+|15|02|Anjos_1502|F|4|2|há no cerebelo|leva na mandíbula|traz o cerebelo|ecoam no encéfalo|
+|16|01|Anjos_1601|F|10|8|sangue, ruínas|velhos ferrolhos|brumas, vermes|podres destroços|carnificinas|monstros, infernos|fundos mistérios|ossos, gritos|sonhos quebrados|dentes, anos|
 |16|02|Anjos_1602|F|1|1|,|
-|16|03|Anjos_1601|F|10|10|sangue, ruínas|velhos ferrolhos|brumas, vermes|podres destroços|carnificinas|monstros, infernos|fundos mistérios|ossos, gritos|sonhos quebrados|dentes, anos|
+|16|03|Anjos_1601|F|10|4|sangue, ruínas|velhos ferrolhos|brumas, vermes|podres destroços|carnificinas|monstros, infernos|fundos mistérios|ossos, gritos|sonhos quebrados|dentes, anos|
 |16|04|Anjos_1604|F|2|2|, cabelos|e pelos|
 |17|01|Anjos_1701|F|6|3|atrelados|esquecidos|cenobitas|dissolvidos|manumissos|infecundos|
 |17|02|Anjos_1702|F|1|1|,|
 |17|03|Anjos_1703|F|1|1|a|
-|17|04|Anjos_1704|F|5|5|feder|tremer|morrer|viver|arder|
+|17|04|Anjos_1704|F|5|4|feder|tremer|morrer|viver|arder|
 |17|05|Anjos_1705|F|6|4|na escuridão|de ingratidão|de obsessão|sem não nem chão|oh! aberração|sem coração|
 |17|06|Anjos_1706|F|1|1|!|
 <EOF>
 # 
-#     Verbetes gerados: 77
+#      Verbetes usados: 76
 #     Verbetes do tema: 277
-#     Bancos de ítimos: 261
+#      Banco de ítimos: 261
+# 
 # Análise combinatória: 9.276.752.574.317.347.209.216.000.000.000 (nonilhões)  
 # 
 # Build_By_Lay_2_Ipo em 02/02/2021_11:23

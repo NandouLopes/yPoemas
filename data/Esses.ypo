@@ -1,28 +1,29 @@
 *-
 *- Esses.ypo
 *-
-|01|01|Esses_0101|F|6|6|Sejamos Sinceros|Satisfaço Sinais|Sinto Saudades|Sorteio Sabores|Safo Sintomas|Sãos Segundos|
-|02|01|Esses_0201|F|6|5|Sujeito-me Seu|Semeio Sonhos|Selados Somos|Soletro Sigilos|Sondo Sulcos|Sirva-se Sempre|
-|03|01|Esses_0301|F|6|4|Sugestiono Sentidos|Selo Sussurros|Sei-me Servo|Sopro Suspiros|Solene e Sereno|Soçobro Soberano|
-|04|01|Esses_0401|F|7|4|Significo Só|Sacie a Sede|Sorva o Sumo|Sou Seu Súdito|Sem Ser Senhor|Sei Sedução|Situo Sons|
+|01|01|Esses_0101|F|6|1|Sejamos Sinceros|Satisfaço Sinais|Sinto Saudades|Sorteio Sabores|Safo Sintomas|Sãos Segundos|
+|02|01|Esses_0201|F|6|6|Sujeito-me Seu|Semeio Sonhos|Selados Somos|Soletro Sigilos|Sondo Sulcos|Sirva-se Sempre|
+|03|01|Esses_0301|F|6|5|Sugestiono Sentidos|Selo Sussurros|Sei-me Servo|Sopro Suspiros|Solene e Sereno|Soçobro Soberano|
+|04|01|Esses_0401|F|7|6|Significo Só|Sacie a Sede|Sorva o Sumo|Sou Seu Súdito|Sem Ser Senhor|Sei Sedução|Situo Sons|
 |05|00|
-|06|01|Esses_0101|F|6|5|Sejamos Sinceros|Satisfaço Sinais|Sinto Saudades|Sorteio Sabores|Safo Sintomas|Sãos Segundos|
-|07|01|Esses_0201|F|6|4|Sujeito-me Seu|Semeio Sonhos|Selados Somos|Soletro Sigilos|Sondo Sulcos|Sirva-se Sempre|
-|08|01|Esses_0301|F|6|3|Sugestiono Sentidos|Selo Sussurros|Sei-me Servo|Sopro Suspiros|Solene e Sereno|Soçobro Soberano|
-|09|01|Esses_0401|F|7|3|Significo Só|Sacie a Sede|Sorva o Sumo|Sou Seu Súdito|Sem Ser Senhor|Sei Sedução|Situo Sons|
+|06|01|Esses_0101|F|6|6|Sejamos Sinceros|Satisfaço Sinais|Sinto Saudades|Sorteio Sabores|Safo Sintomas|Sãos Segundos|
+|07|01|Esses_0201|F|6|5|Sujeito-me Seu|Semeio Sonhos|Selados Somos|Soletro Sigilos|Sondo Sulcos|Sirva-se Sempre|
+|08|01|Esses_0301|F|6|4|Sugestiono Sentidos|Selo Sussurros|Sei-me Servo|Sopro Suspiros|Solene e Sereno|Soçobro Soberano|
+|09|01|Esses_0401|F|7|5|Significo Só|Sacie a Sede|Sorva o Sumo|Sou Seu Súdito|Sem Ser Senhor|Sei Sedução|Situo Sons|
 |10|00|
-|11|01|Esses_0201|F|6|3|Sujeito-me Seu|Semeio Sonhos|Selados Somos|Soletro Sigilos|Sondo Sulcos|Sirva-se Sempre|
-|12|01|Esses_0301|F|6|2|Sugestiono Sentidos|Selo Sussurros|Sei-me Servo|Sopro Suspiros|Solene e Sereno|Soçobro Soberano|
-|13|01|Esses_0401|F|7|2|Significo Só|Sacie a Sede|Sorva o Sumo|Sou Seu Súdito|Sem Ser Senhor|Sei Sedução|Situo Sons|
+|11|01|Esses_0201|F|6|4|Sujeito-me Seu|Semeio Sonhos|Selados Somos|Soletro Sigilos|Sondo Sulcos|Sirva-se Sempre|
+|12|01|Esses_0301|F|6|3|Sugestiono Sentidos|Selo Sussurros|Sei-me Servo|Sopro Suspiros|Solene e Sereno|Soçobro Soberano|
+|13|01|Esses_0401|F|7|4|Significo Só|Sacie a Sede|Sorva o Sumo|Sou Seu Súdito|Sem Ser Senhor|Sei Sedução|Situo Sons|
 |14|00|
-|15|01|Esses_0301|F|6|6|Sugestiono Sentidos|Selo Sussurros|Sei-me Servo|Sopro Suspiros|Solene e Sereno|Soçobro Soberano|
-|16|01|Esses_0201|F|6|2|Sujeito-me Seu|Semeio Sonhos|Selados Somos|Sei-me Servo|Sondo Sulcos|Sirva-se Sempre|
-|17|01|Esses_0401|F|7|1|Significo Só|Sacie a Sede|Sorva o Sumo|Sou Seu Súdito|Sem Ser Senhor|Sei Sedução|Situo Sons|
+|15|01|Esses_0301|F|6|1|Sugestiono Sentidos|Selo Sussurros|Sei-me Servo|Sopro Suspiros|Solene e Sereno|Soçobro Soberano|
+|16|01|Esses_0201|F|6|3|Sujeito-me Seu|Semeio Sonhos|Selados Somos|Sei-me Servo|Sondo Sulcos|Sirva-se Sempre|
+|17|01|Esses_0401|F|7|3|Significo Só|Sacie a Sede|Sorva o Sumo|Sou Seu Súdito|Sem Ser Senhor|Sei Sedução|Situo Sons|
 <EOF>
 # 
-#     Verbetes gerados: 31
+#      Verbetes usados: 31
 #     Verbetes do tema: 167
-#     Bancos de ítimos: 88
+#      Banco de ítimos: 88
+# 
 # Análise combinatória: 4.898.880 (milhões)  
 # 
 # Build_By_Lay_2_Ipo em 02/02/2021_11:16

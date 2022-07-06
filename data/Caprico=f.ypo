@@ -4,37 +4,38 @@
 *- Capricórnio: de 22 de Dezembro a 20 de Janeiro
 *-
 |01|01|Caprico=f_0101|F|1|1|Você tem|
-|01|02|Caprico=f_0102|F|7|3|iniciativa|determinação|liderança|dons artísticos|um estilo moderno|tato|diplomacia|
+|01|02|Caprico=f_0102|F|7|7|iniciativa|determinação|liderança|dons artísticos|um estilo moderno|tato|diplomacia|
 |01|03|Caprico=f_0103|F|1|1|,|
-|02|01|Caprico=f_0201|F|2|2|uma disposição a ser|a ambição de ser|
-|02|02|Caprico=f_0202|F|9|8|perseverante|prática|esforçada|companheira|modesta|tranquila|persistente|corajosa|objetiva|
-|03|01|Caprico=f_0301|F|2|2|e está sempre|e vive|
-|03|02|Caprico=f_0302|F|2|2|rodeada de|cercada de|
+|02|01|Caprico=f_0201|F|2|1|uma disposição a ser|a ambição de ser|
+|02|02|Caprico=f_0202|F|9|5|perseverante|prática|esforçada|companheira|modesta|tranquila|persistente|corajosa|objetiva|
+|03|01|Caprico=f_0301|F|2|1|e está sempre|e vive|
+|03|02|Caprico=f_0302|F|2|1|rodeada de|cercada de|
 |03|03|Caprico=f_0303|F|3|1|amigos|família|valores|
-|03|04|Caprico=f_0304|F|2|2|que lhe ajudam no caminho.|que tornam a vida mais fácil.|
+|03|04|Caprico=f_0304|F|2|1|que lhe ajudam no caminho.|que tornam a vida mais fácil.|
 |04|00|
 |05|01|Caprico=f_0501|F|1|1|É|
-|05|02|Caprico=f_0502|F|11|2|exigente|reservada|perseverante|prática|esforçada|companheira|modesta|tranquila|persistente|corajosa|objetiva|
+|05|02|Caprico=f_0502|F|11|10|exigente|reservada|perseverante|prática|esforçada|companheira|modesta|tranquila|persistente|corajosa|objetiva|
 |05|03|Caprico=f_0503|F|1|1|e|
 |05|04|Caprico=f_0504|F|3|2|sente-se atraída por|percebe as|valoriza as|
 |05|05|Caprico=f_0505|F|1|1|pessoas|
-|05|06|Caprico=f_0506|F|6|1|sensíveis|intuitivas|carinhosas|conscientes|maduras|seguras|
+|05|06|Caprico=f_0506|F|6|4|sensíveis|intuitivas|carinhosas|conscientes|maduras|seguras|
 |05|07|Caprico=f_0507|F|1|1|.|
 |06|00|
 |07|01|Caprico=f_0701|F|1|1|Sempre com|
-|07|02|Caprico=f_0702|F|6|2|novos projetos|iniciativa|diplomacia|bons conselhos|determinação|liderança|
+|07|02|Caprico=f_0702|F|6|5|novos projetos|iniciativa|diplomacia|bons conselhos|determinação|liderança|
 |07|03|Caprico=f_0703|F|1|1|,|
 |08|01|Caprico=f_0801|F|1|1|traz|
-|08|02|Caprico=f_0802|F|4|1|energia|ânimo|entusiasmo|inspiração|
+|08|02|Caprico=f_0802|F|4|2|energia|ânimo|entusiasmo|inspiração|
 |08|03|Caprico=f_0803|F|1|1|para os amigos|
-|09|01|Caprico=f_0901|F|2|2|sem nunca esquecer|sem nunca desistir|
-|09|02|Caprico=f_0902|F|16|11|de reavivar seu lado criança|de inspirar confiança|de comunicar sua inteligência|de deixar a vida fluir|da seriedade em seus compromissos|das metas a serem alcançadas|da busca por resultados práticos|de construir algo duradouro|de comunicar seu despojamento|do valor da disciplina|do tempo próprio de cada coisa|de dar conta das dificuldades|de buscar o crescimento|de construir algo sólido|de conquistar seus objetivos|de amadurecer o seu prestígio|
+|09|01|Caprico=f_0901|F|2|1|sem nunca esquecer|sem nunca desistir|
+|09|02|Caprico=f_0902|F|16|8|de reavivar seu lado criança|de inspirar confiança|de comunicar sua inteligência|de deixar a vida fluir|da seriedade em seus compromissos|das metas a serem alcançadas|da busca por resultados práticos|de construir algo duradouro|de comunicar seu despojamento|do valor da disciplina|do tempo próprio de cada coisa|de dar conta das dificuldades|de buscar o crescimento|de construir algo sólido|de conquistar seus objetivos|de amadurecer o seu prestígio|
 |09|03|Caprico=m_0903|F|1|1|.|
 <EOF>
 # 
-#     Verbetes gerados: 43
+#      Verbetes usados: 41
 #     Verbetes do tema: 137
-#     Bancos de ítimos: 86
+#      Banco de ítimos: 86
+# 
 # Análise combinatória: 459.841.536 (milhões)  
 # 
 # Build_By_Lay_2_Ipo em 15/01/2021_17:36

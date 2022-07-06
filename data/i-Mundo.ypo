@@ -5,36 +5,37 @@
 *- |07|01| e |07|03|, |08|01| e |08|04| - manter paridade
 *- |04|01| e |04|02| - observar concordância de gênero
 *-
-|01|01|i-Mundo_0101|F|4|2|Nesses tempos de|Pensando em|Duvide-se de|Como crer em|
-|01|02|i-Mundo_0102|F|9|8|abusos de autoridade|falas cruzadas|caras-à-tapa|novas artimanhas|teses infundadas|inteligências vestigiais|veras mentiras|vozes impostadas|veras inverdades|
+|01|01|i-Mundo_0101|F|4|3|Nesses tempos de|Pensando em|Duvide-se de|Como crer em|
+|01|02|i-Mundo_0102|F|9|6|abusos de autoridade|falas cruzadas|caras-à-tapa|novas artimanhas|teses infundadas|inteligências vestigiais|veras mentiras|vozes impostadas|veras inverdades|
 |01|03|i-Mundo_0103|F|1|1|,|
-|02|01|i-Mundo_0201|F|16|1|olho-por-olho|tiros no escuro|falsos profetas|dedos no gatilho|truísmos a granel|amor por dinheiro|egos inflados|especialistas genéricos|heróis de araque|dicotomias perversas|mentiras na nuvem|ardis ideológicos|labutas impróprias|donos da ciência|denúncias a granel|almas sintéticas|
+|02|01|i-Mundo_0201|F|16|6|olho-por-olho|tiros no escuro|falsos profetas|dedos no gatilho|truísmos a granel|amor por dinheiro|egos inflados|especialistas genéricos|heróis de araque|dicotomias perversas|mentiras na nuvem|ardis ideológicos|labutas impróprias|donos da ciência|denúncias a granel|almas sintéticas|
 |02|02|i-Mundo_0202|F|1|1|e|
-|02|03|i-Mundo_0203|F|12|1|suntuosas regalias|falsas notícias|vagas profecias|novas velharias|pontos sem nó|balas perdidas|velhas ladainhas|dias-de-cão|tolas hierarquias|sábios de tudo|tantos ódios mútuos|medos absurdos|
+|02|03|i-Mundo_0203|F|12|2|suntuosas regalias|falsas notícias|vagas profecias|novas velharias|pontos sem nó|balas perdidas|velhas ladainhas|dias-de-cão|tolas hierarquias|sábios de tudo|tantos ódios mútuos|medos absurdos|
 |02|04|i-Mundo_0204|F|1|1|...|
 |03|00|
-|04|01|i-Mundo_0401|F|19|4|pessoas|teorias|verdades|ideias|mentes|apologias|ilações|certezas|falácias|opiniões|palavras|oratórias|conclusões|postagens|visões|ideologias|medidas|vaidades|mesuras|
-|04|02|i-Mundo_0402|F|23|6|amargas|nefastas|insensatas|medianas|impermeáveis|imutáveis|tacanhas|insanas|descartáveis|lunáticas|mundanas|camufladas|soberanas|equivocadas|abstratas|embotadas|baratas|monótonas|flutuantes|artificiais|sistemáticas|insólitas|sórdidas|
+|04|01|i-Mundo_0401|F|19|12|pessoas|teorias|verdades|ideias|mentes|apologias|ilações|certezas|falácias|opiniões|palavras|oratórias|conclusões|postagens|visões|ideologias|medidas|vaidades|mesuras|
+|04|02|i-Mundo_0402|F|23|18|amargas|nefastas|insensatas|medianas|impermeáveis|imutáveis|tacanhas|insanas|descartáveis|lunáticas|mundanas|camufladas|soberanas|equivocadas|abstratas|embotadas|baratas|monótonas|flutuantes|artificiais|sistemáticas|insólitas|sórdidas|
 |04|03|i-Mundo_0403|F|1|1|,|
-|05|01|i-Mundo_0401|T|19|9|pessoas|teorias|verdades|ideias|mentes|apologias|ilações|certezas|falácias|opiniões|palavras|oratórias|conclusões|postagens|visões|ideologias|medidas|vaidades|mesuras|
-|05|02|i-Mundo_0502|F|21|19|retrógradas|onipotentes|patéticas|exóticas|ilusórias|inconsequentes|tendenciosas|divergentes|cruéis|transgênicas|confusas|contraditórias|dúbias|intransigentes|sem escrúpulos|metódicas|obscuras|inócuas|obtusas|sisudas|medíocres|
+|05|01|i-Mundo_0401|T|19|6|pessoas|teorias|verdades|ideias|mentes|apologias|ilações|certezas|falácias|opiniões|palavras|oratórias|conclusões|postagens|visões|ideologias|medidas|vaidades|mesuras|
+|05|02|i-Mundo_0502|F|21|8|retrógradas|onipotentes|patéticas|exóticas|ilusórias|inconsequentes|tendenciosas|divergentes|cruéis|transgênicas|confusas|contraditórias|dúbias|intransigentes|sem escrúpulos|metódicas|obscuras|inócuas|obtusas|sisudas|medíocres|
 |05|03|i-Mundo_0202|F|1|1|e|
-|05|04|i-Mundo_0401|T|19|8|pessoas|teorias|verdades|ideias|mentes|apologias|ilações|certezas|falácias|opiniões|palavras|oratórias|conclusões|postagens|visões|ideologias|medidas|vaidades|mesuras|
-|05|05|i-Mundo_0505|F|20|14|insípidas|indevidas|pífias|intangíveis|ambíguas|daninhas|apocalípticas|distorcidas|retorcidas|espúrias|indistintas|esdrúxulas|fictícias|mesquinhas|estapafúrdias|absolutas|vazias|divididas|ambíguas|evasivas|
-|05|06|i-Mundo_0506|F|4|2|...|?|!|?|
+|05|04|i-Mundo_0401|T|19|15|pessoas|teorias|verdades|ideias|mentes|apologias|ilações|certezas|falácias|opiniões|palavras|oratórias|conclusões|postagens|visões|ideologias|medidas|vaidades|mesuras|
+|05|05|i-Mundo_0505|F|20|3|insípidas|indevidas|pífias|intangíveis|ambíguas|daninhas|apocalípticas|distorcidas|retorcidas|espúrias|indistintas|esdrúxulas|fictícias|mesquinhas|estapafúrdias|absolutas|vazias|divididas|ambíguas|evasivas|
+|05|06|i-Mundo_0506|F|4|3|...|?|!|?|
 |06|00|
-|07|01|i-Mundo_0701|F|4|2|Quando|Onde|Quero|Que tal|
-|07|02|i-Mundo_0702|F|15|5|desculpas sinceras|um clima de festa|mãos dadas às outras|um abraço apertado|um olho no olho|uma alegoria possível|um ideal factível|sorrisos na cara|um afago inesperado|um sonho plausível|um carinho querido|a primavera na alma|um oásis de amigos|um sossego na alma|um cafuné no ego|
-|07|03|i-Mundo_0703|F|4|2|?|?|...|...|
+|07|01|i-Mundo_0701|F|4|3|Quando|Onde|Quero|Que tal|
+|07|02|i-Mundo_0702|F|15|9|desculpas sinceras|um clima de festa|mãos dadas às outras|um abraço apertado|um olho no olho|uma alegoria possível|um ideal factível|sorrisos na cara|um afago inesperado|um sonho plausível|um carinho querido|a primavera na alma|um oásis de amigos|um sossego na alma|um cafuné no ego|
+|07|03|i-Mundo_0703|F|4|3|?|?|...|...|
 |08|01|i-Mundo_0801|F|3|3|Onde|Quando|Que tal|
 |08|02|i-Mundo_0802|F|11|3|um mínimo|uma nesga|um vislumbre|uma taça|um princípio|uma fonte|um rastro|uma poção|um canteiro|um berço|um bom dia|
-|08|03|i-Mundo_0803|F|20|2|de simpatia|de um novo mundo|de utopia|de empatia|de rebeldia|de alegria|de poesia|de algo impossível|de fantasia|de alforria|de cortesia|de saídas possíveis|de outros caminhos|de insubmissão|de paz no coração|de taquicardia|de saber instintos|de um sonho crível|de sonho possível|de coisa querida|
-|08|04|i-Mundo_0804|F|4|2|?|?|!|!|
+|08|03|i-Mundo_0803|F|20|11|de simpatia|de um novo mundo|de utopia|de empatia|de rebeldia|de alegria|de poesia|de algo impossível|de fantasia|de alforria|de cortesia|de saídas possíveis|de outros caminhos|de insubmissão|de paz no coração|de taquicardia|de saber instintos|de um sonho crível|de sonho possível|de coisa querida|
+|08|04|i-Mundo_0804|F|4|3|?|?|!|!|
 <EOF>
 # 
-#     Verbetes gerados: 28
+#      Verbetes usados: 28
 #     Verbetes do tema: 283
-#     Bancos de ítimos: 232
+#      Banco de ítimos: 232
+# 
 # Análise combinatória: 925.981.061.677.056.000 (quatrilhões)  
 # 
 # Build_By_Lay_2_Ipo em 18/01/2021_09:15

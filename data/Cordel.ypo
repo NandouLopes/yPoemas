@@ -4,25 +4,26 @@
 *- neófilo = adepto do novo
 *- segundo|exitando|
 *-
-|01|01|Cordel_0101|F|15|5|A epopeia|A saga|A luta|A peripécia|A viagem|A batalha|A ilusão|A dúvida|A peleja|A veia|A briga|A corrida|A astúcia|A desdita|A aventura|
+|01|01|Cordel_0101|F|15|11|A epopeia|A saga|A luta|A peripécia|A viagem|A batalha|A ilusão|A dúvida|A peleja|A veia|A briga|A corrida|A astúcia|A desdita|A aventura|
 |01|02|Cordel_0102|F|1|1|de um|
-|01|03|Cordel_0103|F|5|5|poeta|escritor|escrevente|cantador|repentista|
-|01|04|Cordel_0104|F|31|17|bissexto|casual|lavrado|desconhecido|perdido|já passado|diuturno|inventado|principiante|maldito|caducando|improvisado|anacrônico|insone|inveterado|transgênico|obscuro|ultrapassado|contumaz|centrado|inédito|perecível|desavisado|mundano|prolixo|diletante|atemporal|menor|inflexível|parnasiano|instável|
+|01|03|Cordel_0103|F|5|1|poeta|escritor|escrevente|cantador|repentista|
+|01|04|Cordel_0104|F|31|8|bissexto|casual|lavrado|desconhecido|perdido|já passado|diuturno|inventado|principiante|maldito|caducando|improvisado|anacrônico|insone|inveterado|transgênico|obscuro|ultrapassado|contumaz|centrado|inédito|perecível|desavisado|mundano|prolixo|diletante|atemporal|menor|inflexível|parnasiano|instável|
 |02|00|
-|02|01|Cordel_0201|F|8|2|pronto a|tentando|em vias de|sonhando|versus|hesitando em|ávido por|relutante em|
-|02|02|Cordel_0202|F|10|8|adequar-se às|entender as|aceitar as|ater-se às|acatar as|adaptar-se às|obedecer as|respeitar as|ceder às|contestar as|
-|02|03|Cordel_0203|F|7|5|normas|pompas|sandices|regras|instruções|exigências|metodologias|
+|02|01|Cordel_0201|F|8|1|pronto a|tentando|em vias de|sonhando|versus|hesitando em|ávido por|relutante em|
+|02|02|Cordel_0202|F|10|9|adequar-se às|entender as|aceitar as|ater-se às|acatar as|adaptar-se às|obedecer as|respeitar as|ceder às|contestar as|
+|02|03|Cordel_0203|F|7|3|normas|pompas|sandices|regras|instruções|exigências|metodologias|
 |02|04|Cordel_0204|F|1|1|da ABNP|
 |03|00|
-|04|01|Cordel_0401|F|23|3|decifrada|abordada|refletida|avaliada|retratada|discutida|comentada|descoberta|relatada|explicada|revivida|narrada|posta à luz|contada|assinada|ilustrada|destecida|balizada|encenada|revelada|detectada|anunciada|publicada|
+|04|01|Cordel_0401|F|23|17|decifrada|abordada|refletida|avaliada|retratada|discutida|comentada|descoberta|relatada|explicada|revivida|narrada|posta à luz|contada|assinada|ilustrada|destecida|balizada|encenada|revelada|detectada|anunciada|publicada|
 |04|02|Cordel_0402|F|1|1|por|
-|04|03|Cordel_0403|F|35|6|um hacker semiletrado|um paleontologista literário|um catador de papel|uma bibliotecária aposentada|um papagaio de pirata|um crítico do decadente|alguém no fim do túnel|um rato de biblioteca|um adepto de futuros|um tradutor tartamudo|um amante de sebos|um gênio do submundo|um grupo que só, estuda|um teórico do lirismo|um falador de poemas|um mestre de ciência exata|um estudante do abstrato|um turista em letras|um profeta quase insano|alguém que sabe de fatos|um acadêmico bem-sucedido|um melro anarquista|um vizinho poliglota|um decano futurista|um imortal ainda vivo|um mago, sem palavras|um especialista em acasos|um ilustre desconhecido|um neófilo em fim de carreira|um pária da sociedade|um guru da tecnologia|um perito em neologismos|um analista de conteúdos|um mecenas de novidades|um russo brasilianista|
+|04|03|Cordel_0403|F|35|32|um hacker semiletrado|um paleontologista literário|um catador de papel|uma bibliotecária aposentada|um papagaio de pirata|um crítico do decadente|alguém no fim do túnel|um rato de biblioteca|um adepto de futuros|um tradutor tartamudo|um amante de sebos|um gênio do submundo|um grupo que só, estuda|um teórico do lirismo|um falador de poemas|um mestre de ciência exata|um estudante do abstrato|um turista em letras|um profeta quase insano|alguém que sabe de fatos|um acadêmico bem-sucedido|um melro anarquista|um vizinho poliglota|um decano futurista|um imortal ainda vivo|um mago, sem palavras|um especialista em acasos|um ilustre desconhecido|um neófilo em fim de carreira|um pária da sociedade|um guru da tecnologia|um perito em neologismos|um analista de conteúdos|um mecenas de novidades|um russo brasilianista|
 |04|04|Cordel_0404|F|1|1|.|
 <EOF>
 # 
-#     Verbetes gerados: 18
+#      Verbetes usados: 18
 #     Verbetes do tema: 179
-#     Bancos de ítimos: 138
+#      Banco de ítimos: 138
+# 
 # Análise combinatória: 1.048.110.000 (bilhões)  
 # 
 # Build_By_Lay_2_Ipo em 18/01/2021_09:15
