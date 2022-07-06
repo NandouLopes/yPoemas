@@ -886,15 +886,7 @@ def page_ypoemas():
 
     lnew = True
     if manu:
-        lnew = False
         st.subheader(load_md_file('MANUAL_YPOEMAS.md'))
-
-        LOGO_TEXT = load_info(st.session_state.tema)
-        if st.session_state.lang != 'pt':  # translate if idioma <> pt
-            LOGO_TEXT = translate(LOGO_TEXT)
-            
-        LOGO_IMAGE = './images/matrix/' + st.session_state.tema.capitalize() + '.jpg'
-        write_ypoema(LOGO_TEXT, LOGO_IMAGE)
 
     if st.session_state.video:
         lnew = False
@@ -940,6 +932,14 @@ def page_ypoemas():
                 LOGO_IMAGE = load_arts(st.session_state.tema)
 
             write_ypoema(LOGO_TEXT, LOGO_IMAGE)
+
+            if manu:
+                LOGO_TEXT = load_info(st.session_state.tema)
+                if st.session_state.lang != 'pt':  # translate if idioma <> pt
+                    LOGO_TEXT = translate(LOGO_TEXT)
+                    
+                LOGO_IMAGE = './images/matrix/' + st.session_state.tema.capitalize() + '.jpg'
+                write_ypoema(LOGO_TEXT, LOGO_IMAGE)
             
         if st.session_state.talk:
             talk(curr_ypoema)
@@ -991,7 +991,7 @@ def page_eureka():
                 if not seed_tema in soma_tema:
                     soma_tema.append(seed_tema)
 
-        if not more:
+        if (not more) and (not manu):
             st.session_state.eureka = 0
             
         if len(seed_list) == 0:
