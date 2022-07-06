@@ -93,7 +93,7 @@ IPAddres = socket.gethostbyname(hostname)
 # with open('style.css') as f:
 #     st.markdown("<style>(f.read())</style>", unsafe_allow_html=True)
 
-# hide Streamlit Menu
+# hide Streamlit Menu and Footer
 st.markdown(
     ''' <style>
     #MainMenu {visibility: hidden;}
@@ -129,7 +129,7 @@ st.markdown(
 )
 
 
-# logo & text area
+# ypoemas: logo & text area
 st.markdown(
     '''
     <style>
@@ -604,13 +604,13 @@ def load_arts(nome_tema):  # Select image for arts
         if file.endswith('.jpg'):
             arts_list.append(file)
 
-    item = random.randrange(0, len(arts_list))
-    image = arts_list[item]
+    sorte = random.randrange(0, len(arts_list))
+    image = arts_list[sorte]
 
     if image in st.session_state.arts:  # insert new image
         while image in st.session_state.arts:
-            item = random.randrange(0, len(arts_list))
-            image = arts_list[item]
+            sorte = random.randrange(0, len(arts_list))
+            image = arts_list[sorte]
         st.session_state.arts.append(image)
         image = st.session_state.arts[-1]
     else:
@@ -619,7 +619,6 @@ def load_arts(nome_tema):  # Select image for arts
     if len(st.session_state.arts) > 36:  # remove first
         del st.session_state.arts[0]
 
-    # print(image)  # debug time check
     logo = path + image
     return logo
 
@@ -736,8 +735,7 @@ def main():
         stx.TabBarItemData(id=5, title="books", description=''),
         stx.TabBarItemData(id=6, title="poly", description=''),
         stx.TabBarItemData(id=7, title="about", description=''),
-    ])
-    
+    ], default=1)
     pick_lang()
     draw_check_buttons()
     

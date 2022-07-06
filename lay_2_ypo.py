@@ -276,8 +276,6 @@ def acerto_final(texto):
         texto = texto.replace("#", "")
     if "< pCity >" in texto:
         texto = texto.replace("< pCity >", fala_cidade_fato())
-    if "< pCata_Pala >" in texto:
-        texto = texto.replace("< pCata_Pala >", cata_pala())
     if "< pCidadeOficio >" in texto:
         texto = texto.replace("< pCidadeOficio >", fala_cidade_oficio())
     if "< gCelcius >" in texto:
@@ -300,23 +298,6 @@ def acerto_final(texto):
         texto = texto.replace("< dOficio >", fala_data(demain))
 
     return texto
-
-
-def cata_pala():
-    """
-    :return: alguma palavra do grupo 'onde' no arquivo cata_pala.txt
-    """
-    palas = []
-    with open(os.path.join("./base/cata_pala.txt"), encoding="utf8") as file:
-        for line in file:
-            part_string = line.partition(" : ")
-            # if part_string[0] == onde:
-            palas.append(part_string[2])
-        file.close()
-
-    x = randrange(0, len(palas))
-    pala = palas[x].replace("\n", "")
-    return pala
 
 
 def fala_cidade_fato():
@@ -435,6 +416,7 @@ def abre(nome_do_tema):
     :param nome_do_tema
     :return: lista do arquivo
     """
+
     nome_do_tema = nome_do_tema.lower().capitalize()
     full_name = os.path.join("./data/", nome_do_tema) + ".ypo"
     lista = []
