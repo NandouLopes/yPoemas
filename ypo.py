@@ -22,6 +22,7 @@ config.toml  == C:\Users\dkvece\.streamlit
 
 share : https://share.streamlit.io/
 deploy: https://share.streamlit.io/nandoulopes/ypoemas/main/ypo.py
+runnin: https://nandoulopes-ypoemas-ypo-gf4z3l.streamlitapp.com/
 config: chrome://settings/content/siteDetails?site=https%3A%2F%2Fauth.streamlit.io
 transl: https://translate.google.com/
 
@@ -96,7 +97,7 @@ IPAddres = socket.gethostbyname(hostname)
 # hide Streamlit Menu and Footer
 st.markdown(
     ''' <style>
-    #MainMenu {visibility: hidden;}
+    /*#MainMenu {visibility: hidden;}*/
     footer {visibility: hidden;}
     </style> ''',
     unsafe_allow_html=True,
@@ -739,9 +740,6 @@ def main():
     pick_lang()
     draw_check_buttons()
     
-    if chosen_id is None:
-        chosen_id = '1'
-
     if chosen_id == '1':
         st.sidebar.info(load_md_file('INFO_MINI.md'))
         page_mini()
