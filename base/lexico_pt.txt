@@ -26129,7 +26129,7 @@ xiitas : Preciso_0303
 concordar : Preciso_0303
 absurdos : Preciso_0303
 ler : Preciso_0303
-fake-news : Preciso_0303
+fatos-falsos : Preciso_0303
 formadores : Preciso_0303
 opinião : Preciso_0303
 informações : Preciso_0303
