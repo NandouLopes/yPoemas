@@ -773,9 +773,9 @@ def main():
 
     show_icons()
 
-    if chosen_id == '1':
-        st.sidebar.write('')
-        st.sidebar.info(load_md_file('INFO_BEST.md'))
+    #if chosen_id == '1':
+    #    st.sidebar.write('')
+    #    st.sidebar.info(load_md_file('INFO_BEST.md'))
     st.sidebar.state = True
 
 
