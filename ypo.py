@@ -134,10 +134,19 @@ st.markdown(
 st.markdown(
     '''
     <style>
+    .stApp {
+      background-image: "logo_ypo.png";
+      background-size: cover;
+    }
+    </style>
+    
+    <style>
     mark {
       background-color: lightblue;
       color: black;
     }
+
+
     .container {
         display: flex;
         /* justify-content: center; */
@@ -212,6 +221,29 @@ if 'arts' not in st.session_state:
    
 ### eof: settings
 ### bof: tools
+
+def translate(input_text):
+    if st.session_state.lang == 'pt':  # don't need translations here
+        return input_text
+
+    if not internet:
+        st.session_state.lang = 'pt'  # if no Internet then...
+        return input_text
+
+    try:
+        output_text = GoogleTranslator(
+            source='pt', target=st.session_state.lang
+        ).translate(text=input_text)
+    
+        output_text = output_text.replace('<br>>', '<br>')
+        output_text = output_text.replace('< br>', '<br>')
+        output_text = output_text.replace('<br >', '<br>')
+        output_text = output_text.replace('<br ', '<br>')
+        output_text = output_text.replace(' br>', '<br>')
+        return output_text
+    except:
+        return translate("Arquivo muito grande para ser traduzido.")
+
 
 def pick_lang():  # define idioma
     btn_pt, btn_es, btn_it, btn_fr, btn_en, btn_xy = st.sidebar.columns(
@@ -526,7 +558,7 @@ def load_all_offs():
         'faz_de_conto',
         'um_romance',
         'quase_que_eu_Poesia',
-        # 'segredo_público',
+        'segredo_público',
     ]
     return all_books_off
 
@@ -690,29 +722,6 @@ def say_number(tema):  # search index title for eureka
             analise = analise.replace('.', ' ')
     return analise
 
-
-def translate(input_text):
-    if st.session_state.lang == 'pt':  # don't need translations here
-        return input_text
-
-    if not internet:
-        st.session_state.lang = 'pt'  # if no Internet then...
-        return input_text
-
-    try:
-        output_text = GoogleTranslator(
-            source='pt', target=st.session_state.lang
-        ).translate(text=input_text)
-    
-        output_text = output_text.replace('<br>>', '<br>')
-        output_text = output_text.replace('< br>', '<br>')
-        output_text = output_text.replace('<br >', '<br>')
-        output_text = output_text.replace('<br ', '<br>')
-        output_text = output_text.replace(' br>', '<br>')
-        return output_text
-    except:
-        return translate("Arquivo muito grande para ser traduzido.")
-
 ### eof: functions
 ### bof: pages
 
@@ -764,9 +773,9 @@ def main():
 
     show_icons()
 
-    #if chosen_id == '1':
-    #    st.sidebar.write('')
-    #    st.sidebar.info(load_md_file('INFO_BEST.md'))
+    if chosen_id == '1':
+        st.sidebar.write('')
+        st.sidebar.info(load_md_file('INFO_BEST.md'))
     st.sidebar.state = True
 
 
