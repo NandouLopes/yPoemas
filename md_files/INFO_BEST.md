@@ -1,4 +1,4 @@
-A melhor visuaização de tela  
+A melhor visualização de tela  
 é em Desktops, Laptops ou Tablets.  
 
 Em smartphones & celulares,  
