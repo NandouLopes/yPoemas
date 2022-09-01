@@ -1,5 +1,5 @@
-A melhor visualização de tela  
-é em Desktops, Laptops ou Tablets.  
+Melhor visualização de tela:  
+em Desktops, Laptops ou Tablets.  
 
 Em smartphones & celulares,  
 clique em configurações **( ⋮ )**  
