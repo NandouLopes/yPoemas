@@ -429,8 +429,7 @@ def list_readings():
         + str(int(views_by_day))
         + " / "
         + f"{reads_by_day:.2}"
-        + " ) ( "
-        + IPAddres + " )",
+        + " )",
         options,
         format_func=lambda x: read_days[x],
         key='opt_readings',
