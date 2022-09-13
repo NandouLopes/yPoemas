@@ -1227,6 +1227,7 @@ def page_books():  # available books
             "ensaios",
             "variações",
             "metalinguagem",
+            "sociais",
             "todos os temas",
             "outros autores",
             "signos_fem",
