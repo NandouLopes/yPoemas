@@ -6,7 +6,7 @@ ___
 - **jocosos**: "brincadeiras sérias" com as palavras  
 - **variações**: outras leituras de alguns temas  
 - **metalinguagem**: a poesia falando do **fazer poético**  
-- **sociais**: textos e poemas além do **eu**  
+- **sociais**: textos e poemas além do **"eu"**  
 - **outros autores**: temas criados a partir de outros livros & autores  
 - **todos os temas**: lista completa com todos os temas  
 - **todos os signos**: horóscopo para cada um dos signos do zodíaco  
