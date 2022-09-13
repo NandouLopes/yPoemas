@@ -13,7 +13,7 @@ ___
 - **signos_fem**: o zodíaco feminino  
 - **signos_mas**: o zodíaco masculino  
 
-> Escolha um livro na lista, clique em ✔ para confirmar e  
-> volte ao **menu** para para navegar pelos temas.  
+> Escolha um livro na lista, clique em ✔ para confirmar  
+> e volte ao **menu** para para navegar pelos temas.  
 ___
 Copyright © 1983-2022 Nando Lopes - **yPoemas @ máquina de fazer Poesia**
