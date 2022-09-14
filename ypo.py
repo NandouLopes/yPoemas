@@ -152,7 +152,7 @@ st.markdown(
         /* justify-content: center; */
     }
     .header {
-        text-align:center
+        text-align:center;
     }
     .logo-text {
         font-weight: 600;
@@ -295,7 +295,7 @@ def show_icons():  # https://api.whatsapp.com/
         )
 
 
-@st.cache(allow_output_mutation=True)
+#@st.cache(allow_output_mutation=True)
 def load_help_tips():
     help_list = []
     with open(os.path.join('./base/helpers.txt'), encoding='utf-8') as file:
@@ -438,7 +438,7 @@ def list_readings():
 ### eof: update themes readings
 ### bof: loaders
 
-@st.cache(allow_output_mutation=True)
+# @st.cache(allow_output_mutation=True)
 def load_md_file(file):  # Open files for about's
     try:
         with open(os.path.join('./md_files/' + file), encoding='utf-8') as file_to_open:
@@ -452,7 +452,7 @@ def load_md_file(file):  # Open files for about's
     return file_text
 
 
-@st.cache(allow_output_mutation=True)
+#@st.cache(allow_output_mutation=True)
 def load_eureka(part_of_word):
     lexico_list = []
     with open(os.path.join('./base/lexico_pt.txt'), encoding='utf-8') as lista:
@@ -465,7 +465,7 @@ def load_eureka(part_of_word):
     return lexico_list
 
 
-@st.cache(suppress_st_warning=True, allow_output_mutation=True)
+#@st.cache(suppress_st_warning=True, allow_output_mutation=True)
 def load_temas(book):  # List of themes inside a Book
     book_list = []
     with open(os.path.join('./base/rol_' + book + '.txt'), 'r', encoding='utf-8') as file:
@@ -474,7 +474,7 @@ def load_temas(book):  # List of themes inside a Book
     return book_list
 
 
-@st.cache(allow_output_mutation=True)
+#@st.cache(allow_output_mutation=True)
 def load_info(nome_tema):
     with open(os.path.join('./base/' + 'info.txt'), 'r', encoding='utf-8') as file:
         result = "nonono"
@@ -507,7 +507,7 @@ def load_info(nome_tema):
         return result
 
 
-@st.cache(allow_output_mutation=True)
+#@st.cache(allow_output_mutation=True)
 def load_index():  # Load indexes numbers for all themes
     index_list = []
     with open(os.path.join('./md_files/ABOUT_INDEX.md'), encoding='utf-8') as lista:
@@ -548,7 +548,7 @@ def load_typo():  # Load translated yPoema & clean translator returned bugs in t
     return typo_text
 
 
-@st.cache(allow_output_mutation=True)
+#@st.cache(allow_output_mutation=True)
 def load_all_offs():
     all_books_off = [
         'a_torre_de_papel',
@@ -611,7 +611,6 @@ def load_poema(nome_tema, seed_eureka):  # generate new yPoema
     return novo_ypoema
 
 
-@st.cache(allow_output_mutation=True)
 def load_images():
     images_list = []
     with open(os.path.join('./base/images.txt'), encoding='utf-8') as lista:
@@ -772,9 +771,9 @@ def main():
 
     show_icons()
 
-    #if chosen_id == '1':
-    #    st.sidebar.write('')
-    #    st.sidebar.info(load_md_file('INFO_BEST.md'))
+    if chosen_id == '1':
+        st.sidebar.write('')
+        st.sidebar.info(load_md_file('INFO_BEST.md'))
     st.sidebar.state = True
 
 
@@ -1070,6 +1069,15 @@ def page_eureka():
 
                 if st.session_state.talk:
                     talk(curr_ypoema)
+            if manu:
+                lnew = False
+                LOGO_TEXT = load_info(seed_tema)
+                if st.session_state.lang != 'pt':  # translate if idioma <> pt
+                    LOGO_TEXT = translate(LOGO_TEXT)
+                    
+                LOGO_IMAGE = './images/matrix/' + seed_tema.capitalize() + '.jpg'
+                write_ypoema(LOGO_TEXT, LOGO_IMAGE)
+
         else:
             st.warning(translate("nenhum verbete encontrado com essas letras ---> " + find_what))
 
@@ -1215,6 +1223,7 @@ def page_off_machina():  # available off_machina_books
 
         if st.session_state.talk:
             talk(off_book_text)
+
 
 
 def page_books():  # available books
