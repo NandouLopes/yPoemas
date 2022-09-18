@@ -727,8 +727,8 @@ if st.session_state.visy:  # check visitor once
     update_visy()
 
     temas_list = load_temas('todos os temas')
-    maxy_nany = len(temas_list)
-    st.session_state.take = random.randrange(0, maxy_nany)
+    maxy_mini = len(temas_list)
+    st.session_state.mini = random.randrange(0, maxy_mini)
 
     st.success(translate('bem vindo à **máquina de fazer Poesia...**'))
     st.session_state.visy = False
@@ -778,6 +778,8 @@ def main():
 
 
 st.session_state.last_lang = st.session_state.lang
+
+
 def page_mini():
     temas_list = load_temas('todos os temas')
     maxy_mini = len(temas_list)
