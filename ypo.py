@@ -803,7 +803,7 @@ def page_mini():
     help_rand = help_tips[1]
     help_more = help_tips[4]
     rand = rand.button("✻", help=help_rand)
-    st.session_state.demo = demo.checkbox("demo")
+    st.session_state.demo = demo.checkbox("auto")
 
     if st.session_state.demo:
         with st.sidebar:
