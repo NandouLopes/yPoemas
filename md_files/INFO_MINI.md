@@ -1,7 +1,7 @@
 Apresentação minimalista com  
 alguns temas escolhidos  
-aleatóriamente pela **máquina**.  
+aleatoriamente pela **máquina**.  
 
-Apenas duas opções:  
-**✚** para gerar um novo texto e  
-**✻** para escolher outro tema.  
+**✚** gera novo texto para o tema  
+**✻** escolhe outro tema ao acaso  
+**☐** exibe temas automaticamente  
