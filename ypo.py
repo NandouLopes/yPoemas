@@ -761,28 +761,35 @@ def main():
 
     if chosen_id == "1":
         st.sidebar.info(load_md_file("INFO_MINI.md"))
+        magy = "img_mini.jpg"
         page_mini()
     elif chosen_id == "2":
         st.sidebar.info(load_md_file("INFO_YPOEMAS.md"))
+        magy = "img_ypoemas.jpg"
         page_ypoemas()
     elif chosen_id == "3":
         st.sidebar.info(load_md_file("INFO_EUREKA.md"))
+        magy = "img_eureka.jpg"
         page_eureka()
     elif chosen_id == "4":
         st.sidebar.info(load_md_file("INFO_OFF-MACHINA.md"))
+        magy = "img_off-machina.jpg"
         page_off_machina()
     elif chosen_id == "5":
         st.sidebar.info(load_md_file("INFO_BOOKS.md"))
+        magy = "img_books.jpg"
         page_books()
     elif chosen_id == "6":
         st.sidebar.info(load_md_file("INFO_POLY.md"))
+        magy = "img_poly.jpg"
         page_polys()
     elif chosen_id == "7":
         st.sidebar.info(load_md_file("INFO_ABOUT.md"))
+        magy = "img_about.jpg"
         page_abouts()
 
     with st.sidebar:
-        st.image("logo_ypo.png")
+        st.image(magy)
 
     show_icons()
     st.sidebar.state = True
@@ -860,8 +867,8 @@ def page_mini():
         mini_place_holder = st.empty()
 
         if st.session_state.demo == False:
+            mini_place_holder.empty()
             with mini_place_holder:
-                mini_place_holder.empty()
                 write_ypoema(LOGO_TEXT, LOGO_IMAGE)
         else:
             mini_place_holder.empty()
