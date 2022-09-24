@@ -865,13 +865,12 @@ def page_mini():
             LOGO_IMAGE = load_arts(st.session_state.tema)
 
         mini_place_holder = st.empty()
+        mini_place_holder.empty()
 
         if st.session_state.demo == False:
-            mini_place_holder.empty()
             with mini_place_holder:
                 write_ypoema(LOGO_TEXT, LOGO_IMAGE)
         else:
-            mini_place_holder.empty()
             while st.session_state.demo:
                 if st.session_state.rand:
                     st.session_state.mini = random.randrange(0, maxy_mini)
