@@ -720,12 +720,7 @@ def say_number(tema):  # search index title for eureka
             analise = part_line[2]
             break
 
-    if st.session_state.lang != "pt" and analise != "nonono":
-        if st.session_state.lang == "en":  # change to english number notation
-            analise = analise.replace(".", ",")
-        elif st.session_state.lang == "de":  # change to german number notation
-            analise = analise.replace(".", " ")
-    return analise
+    return translate(analise)
 
 
 ### eof: functions
