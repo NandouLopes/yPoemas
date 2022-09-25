@@ -44,7 +44,8 @@ import random
 import base64
 import socket
 import streamlit as st
-import extra_streamlit_components as stx
+# import extra_streamlit_components as stx
+from extra_streamlit_components import TabBar as stx
 
 from datetime import datetime
 from lay_2_ypo import gera_poema
