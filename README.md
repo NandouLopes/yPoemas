@@ -4,4 +4,4 @@ into thousands of new different poems or poetic texts.
 
 * a máquina de fazer poesia *
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/nandoulopes/ypoemas/main/ypo.py)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://nandoulopes-ypoemas-ypo-gf4z3l.streamlitapp.com/)
