@@ -13,7 +13,7 @@ Passei boa parte da minha vida escrevendo a "machina".
 A leitura fica para os amanhãs.
 Não vivo no meu tempo.
 
-º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°ºº¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°ºº¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°ºº¤ø
+º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°ºº¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°ºº¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°
 
 ツpoemas
 
@@ -24,9 +24,9 @@ share : https://share.streamlit.io/
 deploy: https://share.streamlit.io/nandoulopes/ypoemas/main/ypo.py
 runnin: https://nandoulopes-ypoemas-ypo-gf4z3l.streamlitapp.com/
 config: chrome://settings/content/siteDetails?site=https%3A%2F%2Fauth.streamlit.io
-transl: https://translate.google.com/
-
-users_id changed to IPAddres / os.rename('old_name.txt','new_name.txt') 
+github: https://github.com/NandouLopes/yPoemas
+instag: https://www.instagram.com/maquina_de_fazer_ypoemas/
+youtub: https://www.youtube.com/channel/UCBzkwy5R3K3WS_i5wz_UwNQ
 
 VISY == New Visitor
 NANY_VISY == Number of Visitors
@@ -441,6 +441,7 @@ def list_readings():
 ### eof: update themes readings
 ### bof: loaders
 
+
 # @st.cache(allow_output_mutation=True)
 def load_md_file(file):  # Open files for about's
     try:
@@ -612,7 +613,7 @@ def load_poema(nome_tema, seed_eureka):  # generate new yPoema
                 save_lypo.write(line + "\n")
                 novo_ypoema += line + "<br>"
 
-    save_lypo.close()  # save a copy of last generated in LYPO
+    save_lypo.close()  # save last generated in LYPO
     return novo_ypoema
 
 
@@ -726,6 +727,7 @@ def say_number(tema):  # search index title for eureka
 ### eof: functions
 ### bof: pages
 
+
 if st.session_state.visy:  # check visitor once
     update_visy()
 
@@ -735,59 +737,6 @@ if st.session_state.visy:  # check visitor once
 
     st.success(translate("bem vindo à **máquina de fazer Poesia...**"))
     st.session_state.visy = False
-
-
-def main():
-    chosen_id = stx.tab_bar(
-        data=[
-            stx.TabBarItemData(id=1, title="mini", description=""),
-            stx.TabBarItemData(id=2, title="yPoemas", description=""),
-            stx.TabBarItemData(id=3, title="eureka", description=""),
-            stx.TabBarItemData(id=4, title="off-machina", description=""),
-            stx.TabBarItemData(id=5, title="books", description=""),
-            stx.TabBarItemData(id=6, title="poly", description=""),
-            stx.TabBarItemData(id=7, title="about", description=""),
-        ],
-        default=1,
-    )
-
-    pick_lang()
-    draw_check_buttons()
-
-    if chosen_id == "1":
-        st.sidebar.info(load_md_file("INFO_MINI.md"))
-        magy = "img_mini.jpg"
-        page_mini()
-    elif chosen_id == "2":
-        st.sidebar.info(load_md_file("INFO_YPOEMAS.md"))
-        magy = "img_ypoemas.jpg"
-        page_ypoemas()
-    elif chosen_id == "3":
-        st.sidebar.info(load_md_file("INFO_EUREKA.md"))
-        magy = "img_eureka.jpg"
-        page_eureka()
-    elif chosen_id == "4":
-        st.sidebar.info(load_md_file("INFO_OFF-MACHINA.md"))
-        magy = "img_off-machina.jpg"
-        page_off_machina()
-    elif chosen_id == "5":
-        st.sidebar.info(load_md_file("INFO_BOOKS.md"))
-        magy = "img_books.jpg"
-        page_books()
-    elif chosen_id == "6":
-        st.sidebar.info(load_md_file("INFO_POLY.md"))
-        magy = "img_poly.jpg"
-        page_polys()
-    elif chosen_id == "7":
-        st.sidebar.info(load_md_file("INFO_ABOUT.md"))
-        magy = "img_about.jpg"
-        page_abouts()
-
-    with st.sidebar:
-        st.image(magy)
-
-    show_icons()
-    st.sidebar.state = True
 
 
 st.session_state.last_lang = st.session_state.lang
@@ -1456,6 +1405,60 @@ def page_abouts():
 
 
 ### eof: pages
+
+
+def main():
+    chosen_id = stx.tab_bar(
+        data=[
+            stx.TabBarItemData(id=1, title="mini", description=""),
+            stx.TabBarItemData(id=2, title="yPoemas", description=""),
+            stx.TabBarItemData(id=3, title="eureka", description=""),
+            stx.TabBarItemData(id=4, title="off-machina", description=""),
+            stx.TabBarItemData(id=5, title="books", description=""),
+            stx.TabBarItemData(id=6, title="poly", description=""),
+            stx.TabBarItemData(id=7, title="about", description=""),
+        ],
+        default=1,
+    )
+
+    pick_lang()
+    draw_check_buttons()
+
+    if chosen_id == "1":
+        st.sidebar.info(load_md_file("INFO_MINI.md"))
+        magy = "img_mini.jpg"
+        page_mini()
+    elif chosen_id == "2":
+        st.sidebar.info(load_md_file("INFO_YPOEMAS.md"))
+        magy = "img_ypoemas.jpg"
+        page_ypoemas()
+    elif chosen_id == "3":
+        st.sidebar.info(load_md_file("INFO_EUREKA.md"))
+        magy = "img_eureka.jpg"
+        page_eureka()
+    elif chosen_id == "4":
+        st.sidebar.info(load_md_file("INFO_OFF-MACHINA.md"))
+        magy = "img_off-machina.jpg"
+        page_off_machina()
+    elif chosen_id == "5":
+        st.sidebar.info(load_md_file("INFO_BOOKS.md"))
+        magy = "img_books.jpg"
+        page_books()
+    elif chosen_id == "6":
+        st.sidebar.info(load_md_file("INFO_POLY.md"))
+        magy = "img_poly.jpg"
+        page_polys()
+    elif chosen_id == "7":
+        st.sidebar.info(load_md_file("INFO_ABOUT.md"))
+        magy = "img_about.jpg"
+        page_abouts()
+
+    with st.sidebar:
+        st.image(magy)
+
+    show_icons()
+    st.sidebar.state = True
+
 
 if __name__ == "__main__":
     main()
