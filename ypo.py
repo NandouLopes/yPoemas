@@ -563,7 +563,6 @@ def load_all_offs():
         "faz_de_conto",
         "um_romance",
         "quase_que_eu_Poesia",
-        "segredo_público",
     ]
     return all_books_off
 
