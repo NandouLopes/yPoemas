@@ -26,7 +26,8 @@ runnin: https://nandoulopes-ypoemas-ypo-gf4z3l.streamlitapp.com/
 config: chrome://settings/content/siteDetails?site=https%3A%2F%2Fauth.streamlit.io
 github: https://github.com/NandouLopes/yPoemas
 instag: https://www.instagram.com/maquina_de_fazer_ypoemas/
-youtub: https://www.youtube.com/channel/UCBzkwy5R3K3WS_i5wz_UwNQ
+youtub: https://youtu.be/uL6T3roTtAs
+google: https://console.cloud.google.com/welcome?project=ypoemas&cloudshell=false
 
 VISY == New Visitor
 NANY_VISY == Number of Visitors
@@ -129,7 +130,7 @@ st.markdown(
     """
     <style>
     mark {
-      background-color: lightblue;
+      background-color: powderblue;
       color: black;
     }
     .container {
@@ -563,6 +564,7 @@ def load_all_offs():
         "faz_de_conto",
         "um_romance",
         "quase_que_eu_Poesia",
+        "segredo_público",
     ]
     return all_books_off
 
@@ -756,6 +758,7 @@ def page_mini():
     st.session_state.demo = demo.checkbox("auto")
 
     if st.session_state.demo:
+        st.session_state.video = False
         with st.sidebar:
             wait = st.slider(translate("tempo de exibição: "), 5, 60)
 
