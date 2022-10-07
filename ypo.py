@@ -28,6 +28,8 @@ github: https://github.com/NandouLopes/yPoemas
 instag: https://www.instagram.com/maquina_de_fazer_ypoemas/
 youtub: https://youtu.be/uL6T3roTtAs
 google: https://console.cloud.google.com/welcome?project=ypoemas&cloudshell=false
+prosas: https://prosas.com.br/dashboards/my-proposals
+bairro: https://www.superbairro.com.br/joseense-cria-maquina-de-produzir-poemas-2/
 
 VISY == New Visitor
 NANY_VISY == Number of Visitors
@@ -80,7 +82,7 @@ if have_internet():
         st.warning(translate("Google TTS não conectado"))
 else:
     st.warning(
-        translate("Internet não conectada. Traduções não disponíveis no momento.")
+        "Internet não conectada. Traduções não disponíveis no momento."
     )
 
 
@@ -202,11 +204,11 @@ if "draw" not in st.session_state:
 if "talk" not in st.session_state:
     st.session_state.talk = False
 if "video" not in st.session_state:
-    st.session_state.video = False
+    st.session_state.vydo = False
 if "arts" not in st.session_state:
     st.session_state.arts = []
-if "demo" not in st.session_state:
-    st.session_state.demo = False
+if "auto" not in st.session_state:
+    st.session_state.auto = False
 if "rand" not in st.session_state:
     st.session_state.rand = False
 
@@ -330,8 +332,8 @@ def draw_check_buttons():
     st.session_state.talk = talk_text.checkbox(
         help_talk, st.session_state.talk, key="talk_machina"
     )
-    st.session_state.video = vyde_text.checkbox(
-        help_vyde, st.session_state.video, key="vyde_machina"
+    st.session_state.vydo = vyde_text.checkbox(
+        help_vyde, st.session_state.vydo, key="vyde_machina"
     )
 
 
@@ -749,16 +751,17 @@ def page_mini():
     if st.session_state.mini > maxy_mini:  # just in case
         st.session_state.mini = 0
 
-    foo1, more, rand, demo, foo2 = st.columns([4, 1, 1, 1, 4])
+    foo1, more, rand, auto, foo2 = st.columns([4, 1, 1, 1, 4])
 
     help_tips = load_help(st.session_state.lang)
     help_rand = help_tips[1]
     help_more = help_tips[4]
     rand = rand.button("✻", help=help_rand)
-    st.session_state.demo = demo.checkbox("auto")
+    st.session_state.auto = auto.checkbox("auto")
 
-    if st.session_state.demo:
-        st.session_state.video = False
+    if st.session_state.auto:
+        st.session_state.talk = False
+        st.session_state.vydo = False
         with st.sidebar:
             wait = st.slider(translate("tempo de exibição: "), 5, 60)
 
@@ -776,13 +779,13 @@ def page_mini():
         st.session_state.rand = False
 
     lnew = True
-    if st.session_state.video:
+    if st.session_state.vydo:
         lnew = False
         show_video("mini")
         update_readings("video_mini")
-        st.session_state.video = False
+        st.session_state.vydo = False
 
-    if lnew or st.session_state.demo:
+    if lnew or st.session_state.auto:
         if st.session_state.rand:
             st.session_state.mini = random.randrange(0, maxy_mini)
             st.session_state.tema = temas_list[st.session_state.mini]
@@ -812,12 +815,17 @@ def page_mini():
 
         mini_place_holder = st.empty()
         mini_place_holder.empty()
+        st.write("")
 
-        if st.session_state.demo == False:
+        if st.session_state.auto == False:
             with mini_place_holder:
                 write_ypoema(LOGO_TEXT, LOGO_IMAGE)
+
+            if st.session_state.talk:
+                talk(curr_ypoema)
+
         else:
-            while st.session_state.demo:
+            while st.session_state.auto:
                 if st.session_state.rand:
                     st.session_state.mini = random.randrange(0, maxy_mini)
                     st.session_state.tema = temas_list[st.session_state.mini]
@@ -909,11 +917,11 @@ def page_ypoemas():
     if manu:
         st.subheader(load_md_file("MANUAL_YPOEMAS.md"))
 
-    if st.session_state.video:
+    if st.session_state.vydo:
         lnew = False
         show_video("ypoemas")
         update_readings("video_ypoemas")
-        st.session_state.video = False
+        st.session_state.vydo = False
 
     if lnew:
         what_book = (
@@ -1074,11 +1082,11 @@ def page_eureka():
                 curr_ypoema = load_typo()  # to normalize line breaks in text
 
             lnew = True
-            if st.session_state.video:
+            if st.session_state.vydo:
                 lnew = False
                 show_video("eureka")
                 update_readings("video_eureka")
-                st.session_state.video = False
+                st.session_state.vydo = False
 
             if lnew:
                 eureka_expander = st.expander("", expanded=True)
@@ -1188,11 +1196,11 @@ def page_off_machina():  # available off_machina_books
             unsafe_allow_html=True,
         )
 
-    if st.session_state.video:
+    if st.session_state.vydo:
         lnew = False
         show_video("off-machina")
         update_readings("video_off-machina")
-        st.session_state.video = False
+        st.session_state.vydo = False
 
     if lnew:
         what_book = (
@@ -1285,11 +1293,11 @@ def page_books():  # available books
             doit = st.button("✔", help="confirm ?")
 
         lnew = True
-        if st.session_state.video:
+        if st.session_state.vydo:
             lnew = False
             show_video("books")
             update_readings("video_books")
-            st.session_state.video = False
+            st.session_state.vydo = False
 
         if lnew:
             list_book = ""
@@ -1338,11 +1346,11 @@ def page_polys():  # available languages
         doit = st.button("✔", help="confirm ?")
 
     lnew = True
-    if st.session_state.video:
+    if st.session_state.vydo:
         lnew = False
         show_video("poly")
         update_readings("video_poly")
-        st.session_state.video = False
+        st.session_state.vydo = False
 
     if doit:
         poly_pais = poly_pais[opt_poly]
@@ -1386,11 +1394,11 @@ def page_abouts():
     )
 
     lnew = True
-    if st.session_state.video:
+    if st.session_state.vydo:
         lnew = False
         show_video("about")
         update_readings("video_about")
-        st.session_state.video = False
+        st.session_state.vydo = False
 
     if lnew:
         choice = abouts_list[opt_abouts].upper()
