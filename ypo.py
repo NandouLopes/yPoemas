@@ -203,7 +203,7 @@ if "draw" not in st.session_state:
     st.session_state.draw = False
 if "talk" not in st.session_state:
     st.session_state.talk = False
-if "video" not in st.session_state:
+if "vydo" not in st.session_state:
     st.session_state.vydo = False
 if "arts" not in st.session_state:
     st.session_state.arts = []
