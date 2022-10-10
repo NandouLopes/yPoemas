@@ -33,7 +33,7 @@ Ah... e lhe parabenizar pelo feito notável
 - **Beth Brait Alvim** (São José dos Campos, SP - Brasil)  
 
 Machina é o nome que seu criador lhe deu.  
-Eu diria Alchimica, tal a potência de misturar raizes, palavras, temas,  
+Eu diria Alchimica, tal a potência de misturar raízes, palavras, temas,  
 até onde o infinito não é capaz de mensurar e, num átimo de segundo,  
 dessa mistura explodirem milhares de novas estruturas-poções...  
 
