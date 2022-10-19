@@ -472,7 +472,7 @@ def load_eureka(part_of_word):
     return lexico_list
 
 
-# @st.cache(suppress_st_warning=True, allow_output_mutation=True)
+@st.cache(suppress_st_warning=True, allow_output_mutation=True)
 def load_temas(book):  # List of themes inside a Book
     book_list = []
     with open(
