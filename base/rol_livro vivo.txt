@@ -22,6 +22,7 @@ Sinais
 Sinas
 Psiu
 Cromossomo
+Clandestino
 Pessoa
 Minuto
 Reger
