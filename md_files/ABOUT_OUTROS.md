@@ -22,7 +22,7 @@ ___
 - ☆ - Tabacaria, O guardador de rebanhos e Poema em linha reta  
 ✔ **Pessoa**  
 ___
-- Victor Leonardi [saber mais...](https://www.facebook.com/victor.leonardi.18)  
+- Victor Leonardi [saber mais...](https://www.victorleonardi.com.br)  
 - ☆ - Poeta Clandestino  
 ✔ **Clandestino**  
 ✔ **Victor**  
@@ -34,9 +34,5 @@ ___
 - Zenilda Lua [saber mais...](https://www.instagram.com/zenildalua/)  
 - ☆ - Quando chorei no ombro do meu amor  
 ✔ **Elogio**  
-___
-- Roman Roskowinski [saber mais...](https://rcrenglish.wordpress.com/)  
-✔ **Jealousy** : tradução do tema "ciúmes" para o inglês  
-✔ **HayKay**   : tradução do tema "haikai" para o inglês  
 ___
 Copyright © 1983-2022 Nando Lopes - **yPoemas @ máquina de fazer Poesia**
