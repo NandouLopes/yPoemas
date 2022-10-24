@@ -10,7 +10,7 @@ Cartaz
 Feiras
 Festim
 Clarice
-i-Mundo
+I-Mundo
 Meteoro
 Sos
 Joker
@@ -52,6 +52,7 @@ Sentença
 Finalmentes
 Ser
 Rito
+Sonoro
 Tempo
 Usinas
 Veio
