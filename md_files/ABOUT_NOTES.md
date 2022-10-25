@@ -38,7 +38,7 @@ ___
 ___
 - Você pode **selecionar** uma **palavra** ou **frase** em qualquer parte dos textos e,  
   usando o botão direito do mouse, **buscar** no Google o significado da seleção.  
-  Ou, use **Ctrl F** para localizar as ocorrências da palavra na página atual.
+  Ou, use **Ctrl F** para localizar as ocorrências da palavra na página atual.  
   Pode também usar a combinação **Ctrl C** e **Ctrl V** para copiar e colar o texto.  
 ___
 Copyright © 1983-2022 Nando Lopes - **yPoemas @ máquina de fazer Poesia**
