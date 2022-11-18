@@ -1304,7 +1304,8 @@ def page_books():  # available books
             temas_list = load_temas(books_list[opt_book])
             for line in temas_list:
                 list_book += line.strip() + ", "
-            st.write(list_book[:-2])
+            # st.write(list_book[:-2])
+            st.write(list_book[:-2] + ' ▶ ' + str(int(len(temas_list))) + ' páginas' )
 
             books_expander = st.expander("", True)
             with books_expander:
