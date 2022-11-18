@@ -1428,7 +1428,7 @@ def main():
             stx.TabBarItemData(id=6, title="poly", description=""),
             stx.TabBarItemData(id=7, title="about", description=""),
         ],
-        default=1,
+        default=2,
     )
 
     pick_lang()
