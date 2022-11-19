@@ -26397,6 +26397,7 @@ perambular : Prefácil_0601
 tal : Prefácil_0601
 Para : Prefácil_0601
 brincar : Prefácil_0601
+nesse : Prefácil_0601
 realejo : Prefácil_0602
 passatempo : Prefácil_0602
 universo : Prefácil_0602
