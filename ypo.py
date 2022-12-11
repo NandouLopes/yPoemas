@@ -734,6 +734,10 @@ def say_number(tema):  # search index title for eureka
 if st.session_state.visy:  # check visitor once
     update_visy()
 
+    temas_list = load_temas(st.session_state.book)
+    maxy_ypoemas = len(temas_list)
+    st.session_state.take = random.randrange(0, maxy_ypoemas)
+
     temas_list = load_temas("todos os temas")
     maxy_mini = len(temas_list)
     st.session_state.mini = random.randrange(0, maxy_mini)
