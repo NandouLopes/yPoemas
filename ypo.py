@@ -289,7 +289,7 @@ def show_icons():  # https://api.whatsapp.com/
         )
 
 
-# @st.cache(allow_output_mutation=True)
+@st.cache(allow_output_mutation=True)
 def load_help_tips():
     help_list = []
     with open(os.path.join("./base/helpers.txt"), encoding="utf-8") as file:
