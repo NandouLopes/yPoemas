@@ -7069,7 +7069,7 @@ comuns : Cromossomo_0502
 cidadãos : Cromossomo_0502
 respeitáveis : Cromossomo_0502
 bem : Cromossomo_0502
-meros : Cromossomo_0502
+reles : Cromossomo_0502
 mortais : Cromossomo_0502
 que : Cromossomo_0601
 gozam : Cromossomo_0602
