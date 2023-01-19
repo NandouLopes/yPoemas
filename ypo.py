@@ -1316,10 +1316,9 @@ def page_books():  # available books
             with books_expander:
                 st.subheader(load_md_file("MANUAL_BOOKS.md"))
 
-                if doit:
-                    st.session_state.take = 0
-                    st.session_state.book = books_list[opt_book]
-                    return None
+            if doit:
+                st.session_state.take = 0
+                st.session_state.book = books_list[opt_book]
 
 
 def page_polys():  # available languages
