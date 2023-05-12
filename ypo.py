@@ -15,7 +15,7 @@ Não vivo no meu tempo.
 
 º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°ºº¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°ºº¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°
 
-ツpoemas : new deploy
+ツpoemas
 
 AlfaBetaAção == C:\WINDOWS\new.ini
 config.toml  == C:\Users\dkvece\.streamlit
