@@ -15,7 +15,7 @@ Não vivo no meu tempo.
 
 º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°ºº¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°ºº¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°
 
-ツpoemas: new deploy
+ツpoemas
 
 AlfaBetaAção == C:\WINDOWS\new.ini
 config.toml  == C:\Users\dkvece\.streamlit
@@ -31,6 +31,13 @@ google: https://console.cloud.google.com/welcome?project=ypoemas&cloudshell=fals
 prosas: https://prosas.com.br/dashboards/my-proposals
 bairro: https://www.superbairro.com.br/joseense-cria-maquina-de-produzir-poemas-2/
 
+para novos temas:
+- incluir novo_tema em \ypo\base\ativos.txt
+- incluir novo_tema em \ypo\base\images.txt
+- incluir novo_tema em \ypo\temp\readings.txt
+- incluir novo_tema em \base\rol_*.txt
+- atualizar ABOUT_NOTES.md se necessário...
+
 VISY == New Visitor
 NANY_VISY == Number of Visitors
 LYPO == Last YPOema created from curr_ypoema
@@ -40,7 +47,7 @@ POLY == Poliglot Idiom == Changed on Catalán
 """
 
 import os
-import io
+##$ import io
 import re
 import time
 import random
@@ -81,9 +88,7 @@ if have_internet():
     except ImportError as ex:
         st.warning(translate("Google TTS não conectado"))
 else:
-    st.warning(
-        "Internet não conectada. Traduções não disponíveis no momento."
-    )
+    st.warning("Internet não conectada. Traduções não disponíveis no momento.")
 
 
 # the User IPAddres for LYPO, TYPO
@@ -102,7 +107,6 @@ st.markdown(
 
 
 # change padding between components
-padding = 0  # all set to zero
 st.markdown(
     f""" <style>
     .reportview-container .main .block-container{{
@@ -182,8 +186,6 @@ if "off_take" not in st.session_state:  #  index for selected book in off_books_
 
 if "eureka" not in st.session_state:  #  index for random tema in page_eureka
     st.session_state.eureka = 0
-if "find_eureka" not in st.session_state:  #  palavra para buscar em eureka
-    st.session_state.find_eureka = "amar"
 
 if "poly_lang" not in st.session_state:
     st.session_state.poly_lang = "ca"
@@ -296,6 +298,7 @@ def load_help_tips():
         for line in file:
             help_list.append(line)
     file.close()
+
     return help_list
 
 
@@ -317,6 +320,7 @@ def load_help(idiom):
         returns.append(translate("imagem"))
         returns.append(translate("áudio"))
         returns.append(translate("vídeo"))
+
     return returns
 
 
@@ -342,6 +346,7 @@ def get_binary_file_downloader_html(bin_file, file_label="File"):
         data = f.read()
     bin_str = base64.b64encode(data).decode()
     href = f'<a href="data:application/octet-stream;base64,{bin_str}" download="{os.path.basename(bin_file)}">download {file_label}</a>'
+
     return href
 
 
@@ -375,6 +380,7 @@ def load_readings():
         for line in reader:
             readers_list.append(line)
     reader.close()
+
     return readers_list
 
 
@@ -423,7 +429,7 @@ def list_readings():
     reads_by_day = sum_all_days / total_viewes
 
     options = list(range(len(read_days)))
-    opt_readings = st.selectbox(
+    st.selectbox(
         "↓  "
         + str(len(read_days))
         + " temas, "
@@ -456,6 +462,19 @@ def load_md_file(file):  # Open files for about's
     except:
         file_text = translate("ooops... arquivo ( " + file + " ) não pode ser aberto.")
         st.session_state.lang = "pt"
+
+    return file_text
+
+
+def load_doc_file(file):  # Open files for docs
+    try:
+        with open(os.path.join("./docs/" + file), encoding="utf-8") as file_to_open:
+            file_text = file_to_open.read()
+            file_text = translate(file_text)
+    except:
+        file_text = translate("ooops... arquivo ( " + file + " ) não pode ser aberto.")
+        st.session_state.lang = "pt"
+
     return file_text
 
 
@@ -469,6 +488,7 @@ def load_eureka(part_of_word):
             palas = part_line[0]
             if part_of_word.lower() in palas.lower():
                 lexico_list.append(line)
+
     return lexico_list
 
 
@@ -479,7 +499,9 @@ def load_temas(book):  # List of themes inside a Book
         os.path.join("./base/rol_" + book + ".txt"), "r", encoding="utf-8"
     ) as file:
         for line in file:
+            line = line.replace(" ", "")
             book_list.append(line.strip("\n"))
+
     return book_list
 
 
@@ -522,6 +544,7 @@ def load_index():  # Load indexes numbers for all themes
     with open(os.path.join("./md_files/ABOUT_INDEX.md"), encoding="utf-8") as lista:
         for line in lista:
             index_list.append(line)
+
     return index_list
 
 
@@ -532,6 +555,7 @@ def load_lypo():  # Load last yPoema & replace '\n' with '<br>' for translator r
         for line in script:
             line = line.strip()
             lypo_text += line + "<br>"
+
     return lypo_text
 
 
@@ -554,10 +578,10 @@ def load_typo():  # Load translated yPoema & clean translator returned bugs in t
             line = line.replace("< <", ">")
             line = line.replace("> >", ">")
             typo_text += line + "<br>"
+
     return typo_text
 
 
-# @st.cache(allow_output_mutation=True)
 def load_all_offs():
     all_books_off = [
         "a_torre_de_papel",
@@ -568,10 +592,10 @@ def load_all_offs():
         "quase_que_eu_Poesia",
         "segredo_público",
     ]
+
     return all_books_off
 
 
-# @st.cache(allow_output_mutation=True)
 def load_off_book(book):  # Load selected off_book
     book_full = []
     full_name = os.path.join("./off_machina/", book) + ".Pip"
@@ -579,21 +603,20 @@ def load_off_book(book):  # Load selected off_book
         for line in file:
             if line.startswith("|"):
                 book_full.append(line)
+
     return book_full
 
 
 def load_book_pages(book):  # Load Book pages for off_book
-    page_numer = 0
     book_pages = []
     for line in book:
         if line.startswith("<EOF>"):
             break
 
         if line.startswith("|"):  # only valid lines in PIP
-            page_numer += 1
             pipe_line = line.split("|")
-            # book_pages.append(pipe_line[1]+' ( ' + str(page_numer) + ' )')
             book_pages.append(pipe_line[1])
+
     return book_pages
 
 
@@ -617,6 +640,7 @@ def load_poema(nome_tema, seed_eureka):  # generate new yPoema
                 novo_ypoema += line + "<br>"
 
     save_lypo.close()  # save last generated in LYPO
+
     return novo_ypoema
 
 
@@ -625,6 +649,7 @@ def load_images():
     with open(os.path.join("./base/images.txt"), encoding="utf-8") as lista:
         for line in lista:
             images_list.append(line)
+
     return images_list
 
 
@@ -660,19 +685,20 @@ def load_arts(nome_tema):  # Select image for arts
         del st.session_state.arts[0]
 
     logo = path + image
+
     return logo
 
 
 ### eof: loaders
 ### bof: functions
 
-
-def write_ypoema(LOGO_TEXT, LOGO_IMAGE):  # ver save_img.py
+        
+def write_ypoema(LOGO_TEXTO, LOGO_IMAGE):  # ver save_img.py
     if LOGO_IMAGE == None:
         st.markdown(
             f"""
             <div class='container'>
-                <p class='logo-text'>{LOGO_TEXT}</p>
+                <p class='logo-text'>{LOGO_TEXTO}</p>
             </div>
             """,
             unsafe_allow_html=True,
@@ -682,7 +708,7 @@ def write_ypoema(LOGO_TEXT, LOGO_IMAGE):  # ver save_img.py
             f"""
             <div class='container'>
                 <img class='logo-img' src='data:image/jpg;base64,{base64.b64encode(open(LOGO_IMAGE, 'rb').read()).decode()}'>
-                <p class='logo-text'>{LOGO_TEXT}</p>
+                <p class='logo-text'>{LOGO_TEXTO}</p>
             </div>
             """,
             unsafe_allow_html=True,
@@ -731,7 +757,7 @@ def say_number(tema):  # search index title for eureka
 ### bof: pages
 
 
-if st.session_state.visy:  # check visitor once
+if st.session_state.visy:  # check visitor once; rand initial temas
     update_visy()
 
     temas_list = load_temas(st.session_state.book)
@@ -753,6 +779,7 @@ st.session_state.last_lang = st.session_state.lang
 def page_mini():
     temas_list = load_temas("todos os temas")
     maxy_mini = len(temas_list)
+
     if st.session_state.mini > maxy_mini:  # just in case
         st.session_state.mini = 0
 
@@ -768,7 +795,7 @@ def page_mini():
         st.session_state.talk = False
         st.session_state.vydo = False
         with st.sidebar:
-            wait = st.slider(translate("tempo de exibição: "), 5, 60)
+            wait_time = st.slider(translate("tempo de exibição (em segundos): "), 5, 60)
 
     if rand:
         st.session_state.rand = True
@@ -812,7 +839,7 @@ def page_mini():
             curr_ypoema = load_typo()  # to normalize line breaks in text
 
         update_readings(st.session_state.tema)
-        LOGO_TEXT = curr_ypoema
+        LOGO_TEXTO = curr_ypoema
         LOGO_IMAGE = None
 
         if st.session_state.draw:
@@ -824,7 +851,7 @@ def page_mini():
 
         if st.session_state.auto == False:
             with mini_place_holder:
-                write_ypoema(LOGO_TEXT, LOGO_IMAGE)
+                write_ypoema(LOGO_TEXTO, LOGO_IMAGE)
 
             if st.session_state.talk:
                 talk(curr_ypoema)
@@ -852,7 +879,7 @@ def page_mini():
                     curr_ypoema = load_typo()  # to normalize line breaks in text
 
                 update_readings(st.session_state.tema)
-                LOGO_TEXT = curr_ypoema
+                LOGO_TEXTO = curr_ypoema
                 LOGO_IMAGE = None
 
                 if st.session_state.draw:
@@ -860,8 +887,8 @@ def page_mini():
 
                 with mini_place_holder:
                     mini_place_holder.empty()
-                    write_ypoema(LOGO_TEXT, LOGO_IMAGE)
-                    secs = wait
+                    write_ypoema(LOGO_TEXTO, LOGO_IMAGE)
+                    secs = wait_time
                     while secs >= 0:
                         time.sleep(1)
                         secs -= 1
@@ -960,22 +987,22 @@ def page_ypoemas():
                 curr_ypoema = load_typo()  # to normalize line breaks in text
 
             update_readings(st.session_state.tema)
-            LOGO_TEXT = curr_ypoema
+            LOGO_TEXTO = curr_ypoema
             LOGO_IMAGE = None
             if st.session_state.draw:
                 LOGO_IMAGE = load_arts(st.session_state.tema)
 
-            write_ypoema(LOGO_TEXT, LOGO_IMAGE)
+            write_ypoema(LOGO_TEXTO, LOGO_IMAGE)
 
             if manu:
-                LOGO_TEXT = load_info(st.session_state.tema)
+                LOGO_TEXTO = load_info(st.session_state.tema)
                 if st.session_state.lang != "pt":  # translate if idioma <> pt
-                    LOGO_TEXT = translate(LOGO_TEXT)
+                    LOGO_TEXTO = translate(LOGO_TEXTO)
 
                 LOGO_IMAGE = (
                     "./images/matrix/" + st.session_state.tema.capitalize() + ".jpg"
                 )
-                write_ypoema(LOGO_TEXT, LOGO_IMAGE)
+                write_ypoema(LOGO_TEXTO, LOGO_IMAGE)
 
         if st.session_state.talk:
             talk(curr_ypoema)
@@ -994,7 +1021,6 @@ def page_eureka():
         find_what = st.text_input(
             label=translate("digite algo para buscar..."),
         )
-    st.session_state.find_eureka = find_what
 
     with more:
         more = more.button("✚", help=help_more)
@@ -1013,6 +1039,7 @@ def page_eureka():
     else:
         seed_list = []
         soma_tema = []
+
         eureka_list = load_eureka(find_what)
         for line in eureka_list:
             this_line = line.strip("\n")
@@ -1096,24 +1123,24 @@ def page_eureka():
             if lnew:
                 eureka_expander = st.expander("", expanded=True)
                 with eureka_expander:
-                    LOGO_TEXT = curr_ypoema
+                    LOGO_TEXTO = curr_ypoema
                     LOGO_IMAGE = None
                     if st.session_state.draw:
                         LOGO_IMAGE = load_arts(seed_tema)
 
-                    write_ypoema(LOGO_TEXT, LOGO_IMAGE)
+                    write_ypoema(LOGO_TEXTO, LOGO_IMAGE)
                     update_readings(seed_tema)
 
                 if st.session_state.talk:
                     talk(curr_ypoema)
             if manu:
                 lnew = False
-                LOGO_TEXT = load_info(seed_tema)
+                LOGO_TEXTO = load_info(seed_tema)
                 if st.session_state.lang != "pt":  # translate if idioma <> pt
-                    LOGO_TEXT = translate(LOGO_TEXT)
+                    LOGO_TEXTO = translate(LOGO_TEXTO)
 
                 LOGO_IMAGE = "./images/matrix/" + seed_tema.capitalize() + ".jpg"
-                write_ypoema(LOGO_TEXT, LOGO_IMAGE)
+                write_ypoema(LOGO_TEXTO, LOGO_IMAGE)
 
         else:
             st.warning(
@@ -1254,12 +1281,12 @@ def page_off_machina():  # available off_machina_books
                 if st.session_state.lang != "pt":
                     off_book_text = translate(off_book_text)
 
-                LOGO_TEXT = off_book_text
+                LOGO_TEXTO = off_book_text
                 LOGO_IMAGE = None
                 if st.session_state.draw:
                     LOGO_IMAGE = load_arts(off_book_name)
 
-                write_ypoema(LOGO_TEXT, LOGO_IMAGE)
+                write_ypoema(LOGO_TEXTO, LOGO_IMAGE)
                 update_readings(off_book_name)
 
         if st.session_state.talk:
@@ -1309,8 +1336,7 @@ def page_books():  # available books
             temas_list = load_temas(books_list[opt_book])
             for line in temas_list:
                 list_book += line.strip() + ", "
-            # st.write(list_book[:-2])
-            st.write(list_book[:-2] + ' ▶ ' + str(int(len(temas_list))) + ' páginas' )
+            st.write(list_book[:-2] + " ▶ " + str(int(len(temas_list))) + " páginas")
 
             books_expander = st.expander("", True)
             with books_expander:
@@ -1389,6 +1415,7 @@ def page_abouts():
         "index",
     ]
 
+
     options = list(range(len(abouts_list)))
     sobrios = "↓  " + translate("sobre")
     opt_abouts = st.selectbox(
@@ -1411,9 +1438,9 @@ def page_abouts():
         with about_expander:
             if choice == "MACHINA":
                 st.subheader(load_md_file("ABOUT_MACHINA_A.md"))
-                LOGO_TEXT = load_info(st.session_state.tema)
+                LOGO_TEXTO = load_info(st.session_state.tema)
                 LOGO_IMAGE = "./images/matrix/" + st.session_state.tema + ".jpg"
-                write_ypoema(LOGO_TEXT, LOGO_IMAGE)
+                write_ypoema(LOGO_TEXTO, LOGO_IMAGE)
                 st.subheader(load_md_file("ABOUT_MACHINA_D.md"))
             else:
                 st.subheader(load_md_file("ABOUT_" + choice + ".md"))
@@ -1467,6 +1494,7 @@ def main():
         st.sidebar.info(load_md_file("INFO_ABOUT.md"))
         magy = "img_about.jpg"
         page_abouts()
+        # page_docs()
 
     with st.sidebar:
         st.image(magy)
