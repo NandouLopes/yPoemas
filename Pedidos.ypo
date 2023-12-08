@@ -1,0 +1,46 @@
+*- 
+*- Pedidos.ypo
+*- 
+*- Criado em 27 de julho de 2016
+*- 
+*- fumaça|macio|Sua antena|
+*- 
+|01|01|Pedidos_0101|F|4|1|Não espere do poeta|Não compete ao poeta|Não se exige do poeta|Ao poeta não se pede|
+|02|01|Pedidos_0201|F|10|9|suicidar novas ideias|palpites amorosos|definir sua saudade|criar pontes de concreto|achar agulha em palheiro|saber o raio da terra|ser campeão em algo|entender o que é maldade|folhear suas falhas|sabedoria a granel|
+|03|01|Pedidos_0301|F|2|2|nem|ou|
+|03|02|Pedidos_0302|F|9|7|içar aviões no além|inventar mais paraísos|prever tempo sem futuro|saber se há portas no céu|calcular hipotenusas|traçar paralelos ao léu|buscar cura pro soluço|traçar planos de fuga|teorias de amanhãs|
+|03|03|Pedidos_0303|F|1|1|.|
+|04|00|
+|04|01|Pedidos_0401|F|5|4|Sua matéria é etérea|Suas migalhas têm viço|Seu intuito vagueia|Sua imprecisão é de berço|Seu refúgio é imperfeito|
+|04|02|Pedidos_0402|F|3|1||...||
+|05|01|Pedidos_0501|F|2|2|e seu|e o|
+|05|02|Pedidos_0502|F|4|2|cabedal|atinar|repertório|instinto|
+|05|03|Pedidos_0503|F|2|1|é|pode ser|
+|05|04|Pedidos_0504|F|7|4|um passo|um risco|um chiste|um poço|um passeio|um acaso|um caminho|
+|05|05|Pedidos_0505|F|13|7|incerto|arisco|indócil|escasso|imenso|insano|devasso|estranho|de incautos|bisonho|insosso|secreto|impreciso|
+|05|06|Pedidos_0506|F|1|1|.|
+|06|00|
+|06|01|Pedidos_0601|F|3|2|Peça-lhe|Ouça dele|Queira apenas|
+|06|02|Pedidos_0602|F|2|2|pinceladas|alfinetadas|
+|06|03|Pedidos_0603|F|3|2|na alma|no nada|na arte|
+|06|04|Pedidos_0604|F|1|1|,|
+|07|01|Pedidos_0701|F|5|4|um porquê da folha em branco|portas que não tenham chave|um verso não esperado|palavras que dancem tango|o planar dos urubus|
+|07|02|Pedidos_0702|F|1|1|...|
+|08|01|Pedidos_0801|F|6|6|o valor de um rabisco|reticências numa esquina|um invento sem projeto|ou cortes finos, feito navalha|o outro lado de um papel|as sutilezas de um não|
+|08|02|Pedidos_0702|F|1|1|.|
+<EOF>
+# 
+#      Verbetes usados: 39
+#     Verbetes do tema: 190
+#      Banco de ítimos: nonono
+# 
+# Análise combinatória: 1.374.796.800 (bilhões)  
+# 
+# Build_By_Lay_2_Ipo: 08/12/2023, 04:57:48
+
+
+# |02|01|Pedidos_0201|F|17|10|suicidar novas ideias|palpites amorosos|criar pontes de concreto|teorias de amanhãs|saber se há portas no céu|prever tempo sem futuro|achar agulha em palheiro|calcular hipotenusas|buscar cura pro soluço|saber o raio da terra|ser campeão em algo|inventar mais paraísos|içar aviões no além|redefinir o que é saudade|traçar paralelos ao léu|entender o que é maldade|folhear suas falhas|
+# |07|01|Pedidos_0701|F|10|9|um porquê da folha em branco|portas que não tenham chave|palavras que dancem tango|o planar dos urubus|as sutilezas de um não|o valor de um rabisco|reticências numa esquina|um invento sem projeto|um corte fino, de navalha|o outro lado de um papel|
+# |07|02|Pedidos_0702|F|1|1|...|
+# |08|01|Pedidos_0701|T|10|4|um porquê da folha em branco|portas que não tenham chave|palavras que dancem tango|o planar dos urubus|as sutilezas de um não|o valor de um rabisco|reticências numa esquina|um invento sem projeto|um corte fino, de navalha|o outro lado de um papel|
+# |08|02|Pedidos_0702|F|1|1|.|
