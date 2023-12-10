@@ -74,6 +74,7 @@ Palyndro
 Papilio
 Paroles
 Passagens
+Pedidos
 Perfil
 Pessoa
 Portal
