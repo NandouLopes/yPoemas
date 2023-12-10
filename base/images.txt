@@ -74,6 +74,7 @@ Palyndro : machina
 Papilio : persona
 Paroles : machina
 Passagens : machina
+Pedidos : anima
 Perfil : beauty
 Pessoa : anima
 Portal : machina
