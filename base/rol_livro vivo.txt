@@ -27,7 +27,7 @@ Pessoa
 Minuto
 Reger
 Preciso
-Zodiacaos
+Pedidos
 Seguro
 Fugaz
 Nós
