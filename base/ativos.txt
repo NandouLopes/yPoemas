@@ -74,6 +74,7 @@ Palyndro : ensaio
 Papilio : poesia
 Paroles : metalinguagem
 Passagens : poesia
+Pedidos : poesia
 Perfil : joco
 Pessoa : poesia
 Portal : poesia
