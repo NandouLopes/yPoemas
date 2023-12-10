@@ -466,18 +466,6 @@ def load_md_file(file):  # Open files for about's
     return file_text
 
 
-def load_doc_file(file):  # Open files for docs
-    try:
-        with open(os.path.join("./docs/" + file), encoding="utf-8") as file_to_open:
-            file_text = file_to_open.read()
-            file_text = translate(file_text)
-    except:
-        file_text = translate("ooops... arquivo ( " + file + " ) não pode ser aberto.")
-        st.session_state.lang = "pt"
-
-    return file_text
-
-
 # @st.cache(allow_output_mutation=True)
 def load_eureka(part_of_word):
     lexico_list = []
@@ -492,7 +480,7 @@ def load_eureka(part_of_word):
     return lexico_list
 
 
-@st.cache(suppress_st_warning=True, allow_output_mutation=True)
+# @st.cache(suppress_st_warning=True, allow_output_mutation=True)
 def load_temas(book):  # List of themes inside a Book
     book_list = []
     with open(
@@ -1494,13 +1482,13 @@ def main():
         st.sidebar.info(load_md_file("INFO_ABOUT.md"))
         magy = "img_about.jpg"
         page_abouts()
-        # page_docs()
+        ##$ page_docs()
 
     with st.sidebar:
         st.image(magy)
 
     show_icons()
-    st.sidebar.state = True
+    ##$ st.sidebar.state = True
 
 
 if __name__ == "__main__":
