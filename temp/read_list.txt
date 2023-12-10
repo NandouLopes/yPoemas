@@ -74,6 +74,7 @@
 |Papilio|116|
 |Paroles|106|
 |Passagens|35|
+|Pedidos|1|
 |Perfil|212|
 |Pessoa|53|
 |Portal|20|
