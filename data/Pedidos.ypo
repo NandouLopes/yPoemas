@@ -3,30 +3,30 @@
 *- 
 *- Criado em 27/07/2016
 *- 
-*- fumaça|macio|antena|afeta|
+*- fumaça|macio|antena|afeta|imenso-idão|
 *- 
-|01|01|Pedidos_0101|F|4|1|Não espere do poeta|Não compete ao poeta|Não se exige do poeta|Ao poeta não se pede|
-|02|01|Pedidos_0201|F|11|2|suicidar novas ideias|palpites amorosos|explicar sua saudade|criar pontes de concreto|achar agulha em palheiro|calcular o raio da terra|ser campeão em algo|entender o que é maldade|folhear suas falhas|sabedoria a granel|morar num pedestal|
-|03|01|Pedidos_0301|F|2|2|nem|ou|
-|03|02|Pedidos_0302|F|10|6|içar aviões no além|inventar mais paraísos|prever tempo sem futuro|saber se há portas no céu|calcular hipotenusas|traçar paralelos ao léu|buscar cura pro soluço|traçar planos de fuga|teorizar os amanhãs|nada que pareça palpite|
+|01|01|Pedidos_0101|F|4|4|Não espere do poeta|Não compete ao poeta|Não se exige do poeta|Ao poeta não se pede|
+|02|01|Pedidos_0201|F|11|7|suicidar novas ideias|palpites amorosos|explicar sua saudade|criar pontes de concreto|achar agulha em palheiro|calcular o raio da terra|ser campeão em algo|entender o que é maldade|folhear as suas falhas|sabedoria a granel|morar num pedestal|curativos para a alma|
+|03|01|Pedidos_0301|F|2|1|nem|ou|
+|03|02|Pedidos_0302|F|11|6|içar aviões no além|inventar mais paraísos|prever tempo sem futuro|saber se há portas no céu|calcular hipotenusas|traçar paralelos ao léu|buscar cura pro soluço|traçar planos de fuga|teorizar os amanhãs|nada que pareça palpite|o resumo de um poema|
 |03|03|Pedidos_0303|F|1|1|.|
 |04|00|
-|04|01|Pedidos_0401|F|5|4|Sua matéria é etérea|Suas migalhas têm viço|Seu intuito vagueia|Sua imprecisão é de berço|Seu refúgio é imperfeito|
-|04|02|Pedidos_0402|F|3|2||...||
-|05|01|Pedidos_0501|F|2|2|e seu|e o|
-|05|02|Pedidos_0502|F|4|2|cabedal|atinar|repertório|instinto|
-|05|03|Pedidos_0503|F|3|2|é|pode ser|é fruto de|
-|05|04|Pedidos_0504|F|7|5|um passo|um risco|um chiste|um poço|um passeio|um acaso|um caminho|um plano|
-|05|05|Pedidos_0505|F|13|13|incerto|arisco|indócil|escasso|imenso|insano|devasso|estranho|de incautos|bisonho|insosso|secreto|impreciso|no caos|
+|04|01|Pedidos_0401|F|6|4|Sua matéria é etérea|Suas migalhas têm viço|Seu intuito vagueia|Sua imprecisão é de berço|Seu refúgio é imperfeito|Sua rotina é manca|
+|04|02|Pedidos_0402|F|3|3||...||
+|05|01|Pedidos_0501|F|2|1|e seu|e o|
+|05|02|Pedidos_0502|F|5|3|cabedal|atinar|repertório|instinto|teor|
+|05|03|Pedidos_0503|F|3|3|é|pode ser|é fruto de|
+|05|04|Pedidos_0504|F|8|4|um passo|um risco|um chiste|um poço|um passeio|um acaso|um caminho|um plano|
+|05|05|Pedidos_0505|F|14|12|incerto|arisco|indócil|escasso|sem fim|insano|devasso|estranho|de incautos|bisonho|insosso|secreto|impreciso|no caos|
 |05|06|Pedidos_0506|F|1|1|.|
 |06|00|
-|06|01|Pedidos_0601|F|3|3|Peça-lhe|Ouça dele|Queira apenas|
-|06|02|Pedidos_0602|F|2|2|pinceladas|alfinetadas|
-|06|03|Pedidos_0603|F|3|3|na alma|no nada|na arte|
+|06|01|Pedidos_0601|F|3|1|Peça-lhe|Ouça dele|Queira apenas|
+|06|02|Pedidos_0602|F|2|1|pinceladas|alfinetadas|
+|06|03|Pedidos_0603|F|3|1|na alma|no nada|na arte|
 |06|04|Pedidos_0604|F|1|1|,|
-|07|01|Pedidos_0701|F|5|4|um porquê da folha em branco|portas que não tenham chave|um verso não esperado|palavras que dancem tango|o planar dos urubus|
+|07|01|Pedidos_0701|F|7|4|um porquê da folha em branco|portas que não tenham chave|um verso não esperado|palavras que dancem tango|o planar dos urubus|um invento sem projeto|alternativas para o tédio|
 |07|02|Pedidos_0702|F|1|1|...|
-|08|01|Pedidos_0801|F|6|4|o valor de um rabisco|reticências numa esquina|um invento sem projeto|ou cortes finos, feito navalha|o outro lado de um papel|as sutilezas de um não|
+|08|01|Pedidos_0801|F|5|2|o valor de um rabisco|reticências numa esquina|ou cortes finos, feito navalha|o outro lado de um papel|as sutilezas de um não|
 |08|02|Pedidos_0702|F|1|1|.|
 <EOF>
 # 
